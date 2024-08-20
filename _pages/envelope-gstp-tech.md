@@ -14,6 +14,8 @@ sidebar:
   nav: envelope
 ---
 
+_The following step-by-step process demonstrates how GSTP messages are created._
+
 ## Step 1: Build a Request/Response Message
 
 GSTP messages are built as [Request/Response messages](/envelope/request/) using [Gordian Envelope](/envelope/). A Request/Response message basically means that a sender is asking a remote Envelope recipient to do something and return the results. 
