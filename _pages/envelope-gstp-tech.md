@@ -43,7 +43,11 @@ All continuation information is encrypted so that it's only readable by the part
 The sender also copies over the continuation sent by the recipient in a previous message.
 
 ![](/assets/images/gstp-ex-5.jpeg)
+
+## Step 6:
+
 ![](/assets/images/gstp-ex-6.jpeg)
 ![](/assets/images/gstp-ex-7.jpeg)
 ![](/assets/images/gstp-ex-8.jpeg)
 ![](/assets/images/gstp-ex-9.jpeg)
+![](/assets/images/gstp-ex-10.jpeg)
