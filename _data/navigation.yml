@@ -137,6 +137,10 @@ envelope:
       url: /envelope/features/
     - title: "Request & Response"
       url: /envelope/request/
+    - title: "Gordian Sealed Transaction Protocol"
+      url: /envelope/gstp/
+    - title: "GSTP Tech Overview"
+      url: /envelope/gstp/tech/
     - title: "Use Cases Overview"
       url: /envelope/use-cases/
     - title: "Use Cases Listing"
