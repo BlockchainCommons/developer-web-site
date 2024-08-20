@@ -28,7 +28,7 @@ A Authentication Layer is now created. This begins by the sender adding a public
 
 ## Step 3: Add Sender's Continuation
 
-Both participants can include continuation information in messages, which allows them to maintain state without having to do so locally. Here, the sender adds their own continuation information to the message.
+Both participants can include continuation information in messages, which allows them to maintain state without having to do so locally. This is Encrypted State Continuation (ESC). Here, the sender adds their own continuation information to the message.
 
 ![](/assets/images/gstp-ex-3.jpeg)
 
@@ -40,19 +40,19 @@ All continuation information is encrypted so that it's only readable by the part
 
 ## Step 5: Copy Recipient's Continuation
 
-The sender also copies over the continuation sent by the recipient in a previous message.
+The sender also copies over the continuation sent by the recipient in a previous message (if any). Because it's encrypted, they can't read it: they just copy it over.
 
 ![](/assets/images/gstp-ex-5.jpeg)
 
 ## Step 6: Wrap the Content
 
-All Envelope assertions apply to a subject. That means that whenever you want something to apply to the entire contents of an Envelope, and not just the subject, you need to wrap it, essentially creating a new Envelope with the entirety of the previous Envelope as the subject. This is the next step.
+All Envelope assertions apply to a subject. That means that whenever you want something to apply to the entire contents of an Envelope, and not just the subject, you need to wrap it, essentially creating a new Envelope with the entirety of the previous Envelope as the subject. Wrapping the envelope-to-date is the next step.
 
 ![](/assets/images/gstp-ex-6.jpeg)
 
 ## Step 7: Sign the Wrapped Envelope
 
-With the Envelope now wrapped, the sender can sign it with the private key matching the public key that's included in the contents.
+With the Envelope now wrapped, the sender can sign the entire contents with the private key matching the public key that's included in the contents.
 
 ![](/assets/images/gstp-ex-7.jpeg)
 
@@ -82,7 +82,7 @@ The recipient then reverses the process:
 2. They use the symmetric key to decrypt the message.
 3. They verify the signature against the sender's public key.
 4. They decrypt their continuation.
-5. They decide whether to run the Request using their continuation
-6. Assuming they do, they create a response, which is the start of their own Steps 1-10.
+5. They decide whether to run the Request using their continuation.
+6. Assuming they do, they create a Response, which is the start of their own Steps 1-10.
 
 _These slides are all drawn from the [Understanding GSTP video](https://www.youtube.com/watch?v=QnH14LkJOnI). Take a look for more details or if you prefer video learning._
