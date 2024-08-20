@@ -143,6 +143,8 @@ envelope:
       url: /core-stack/
   - title: Envelope Exensions
     children:
+    - title: "Encrypted State Continuation"
+      url: /envelope/esc/
     - title: "Gordian Sealed Transactions"
       url: /envelope/gstp/
     - title: "GSTP Tech Overview"
