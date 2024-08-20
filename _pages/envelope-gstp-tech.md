@@ -84,3 +84,5 @@ The recipient then reverses the process:
 4. They decrypt their continuation.
 5. They decide whether to run the Request using their continuation
 6. Assuming they do, they create a response, which is the start of their own Steps 1-10.
+
+_These slides are all drawn from the [Understanding GSTP video](https://www.youtube.com/watch?v=QnH14LkJOnI). Take a look for more details or if you prefer video learning._
