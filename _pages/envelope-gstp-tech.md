@@ -14,11 +14,16 @@ sidebar:
   nav: envelope
 ---
 
-## Step I: Build a Request/Response Message
+## Step 1: Build a Request/Response Message
 
-GSTP messages are built as [Request/Response messages](/envelope/request/) using [Gordian Envelope](/envelope/).
+GSTP messages are built as [Request/Response messages](/envelope/request/) using [Gordian Envelope](/envelope/). A Request/Response message basically means that you're asking the remote Envelope opener to do something and send you back the results. 
 
 ![](/assets/images/gstp-ex-1.jpeg)
+
+## Step 2: Add Public Key
+
+A Authentication Layer is now created. This begins by the sender adding a public key, which they will later prove that they own with a signature.
+
 ![](/assets/images/gstp-ex-2.jpeg)
 ![](/assets/images/gstp-ex-3.jpeg)
 ![](/assets/images/gstp-ex-4.jpeg)
