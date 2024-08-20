@@ -40,7 +40,7 @@ Among the main use cases for GSTP are:
 * Automating systems where sensitive data is transmitted back and forth in multiple passes (e.g., creating a multisig).
 * Automating systems requiring state, even when parties can't manage that state on their own (e.g., communicating with load-balancing servers).
 
-GSTP was originally built for digital-asset wallets, to allow the storage and recovery of shares from [Gordian Despositories](https://github.com/BlockchainCommons/bc-depo-rust). It might also be used for numerous other digital-asset use cases such as requesting pricing information, requesting keys with specific derivations, sharing private metadata, and building multisigs.
+GSTP was originally built for digital-asset wallets, to allow the storage and recovery of shares from [Gordian Despositories](https://github.com/BlockchainCommons/bc-depo-rust). However, it can be used for numerous other digital-asset use cases such as requesting pricing information, requesting keys with specific derivations, sharing private metadata, and building multisigs.
 
 ## How Does GSTP Work?
 
@@ -48,7 +48,7 @@ Though simple to use, GSTP is built upon a stack of Core Blockchain Commons func
 
 * [**Envelope**](/envelope). Gordian Envelope is a Smart Document system. GSTP transmits data in this format.
 * [**Expressions**](https://github.com/BlockchainCommons/Research/blob/master/papers/bcr-2023-012-envelope-expression.md). Expressions are a standardized methodology for encoding function calls into Envelopes, to be run by the Envelope opener.
-* [**Request/Response**](/envelope/request/). The Envelope Request/Response system is a methodology for one party to request that another party run a specific Expression, and then for that other party to return a Response using the same transaction ID.
+* [**Request/Response**](/envelope/request/). The Envelope Request/Response system is a way for one party to request that another party run a specific Expression, and then for that other party to return a Response using the same transaction ID.
 
 GSTP uses this functionality as follows:
 
@@ -61,7 +61,7 @@ GSTP uses this functionality as follows:
 
 The recipient will then be able to decrypt the symmetric key, decrypt the message, validate the signature, recover any ESC that they had previously sent, and process the message (often continuing the automation that GSTP is supporting).
 
-See the following video for a complete example of how GSTP works.
+See the [GSTP technical overview](/envelope/gstp/tech/) or the following video for a complete example of how GSTP works.
 
 ## GSTP Videos
 
@@ -86,6 +86,7 @@ _See the [Gordian Envelope playlist](https://www.youtube.com/playlist?list=PLCkr
 
 **Intro:**
 
+* [**GSTP Technical Overview**](/envelope/gstp/tech/)
 * [**Envelope Overview**](/envelope/)
 * [**Technical Overview**](/envelope/tech/)
 * [**GSTP Research Paper**](https://github.com/BlockchainCommons/Research/blob/master/papers/bcr-2023-014-gstp.md)
