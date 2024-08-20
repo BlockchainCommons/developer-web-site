@@ -5,7 +5,7 @@ header:
   overlay_filter: "0.25"
   overlay_image: /assets/images/dev-data-background.jpg
   og_image: /assets/images/bc-card.jpg
-title: Envelope ESC
+title: Envelope Encrypted State Continuations (ESC)
 hide_description: true
 classes:
   - wide
