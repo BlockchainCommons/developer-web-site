@@ -5,7 +5,7 @@ header:
   overlay_filter: "0.25"
   overlay_image: /assets/images/dev-data-background.jpg
   og_image: /assets/images/bc-card.jpg
-title: Envelope GSTP
+title: Envelope Gordian Sealed Transaction Protocol (GSTP)
 hide_description: true
 classes:
   - wide
