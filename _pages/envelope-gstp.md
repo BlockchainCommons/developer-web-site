@@ -89,7 +89,7 @@ _See the [Gordian Envelope playlist](https://www.youtube.com/playlist?list=PLCkr
 * [**GSTP Technical Overview**](/envelope/gstp/tech/)
 * [**Envelope Overview**](/envelope/)
 * [**Technical Overview**](/envelope/tech/)
-* [**GSTP Research Paper**](https://github.com/BlockchainCommons/Research/blob/master/papers/bcr-2023-014-gstp.md)
+* [**BCR-2023-14: GSTP**](https://github.com/BlockchainCommons/Research/blob/master/papers/bcr-2023-014-gstp.md) (GitHub repo)
 
 **Developer Reference Apps:**
 
