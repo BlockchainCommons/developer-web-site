@@ -44,7 +44,11 @@ The follow best practices apply to the use of Request & Response:
 
 * [**Request & Response Implementation Guide**](https://github.com/BlockchainCommons/Research/blob/master/papers/bcr-2024-004-request.md) (GitHub repo)
 * [**Request & Reponse Test Vectors**](./vectors)
-* [**Gordian Sealed Transaction Protocol**](https://github.com/BlockchainCommons/Research/blob/master/papers/bcr-2023-014-gstp.md) (GitHub repo)
+
+**Specs & Research:**
+
+* [**BCR-2023-012: Expressions**](https://github.com/BlockchainCommons/research/?tab=readme-ov-file) (GitHub repo)
+* [**BCR-2023-014: Gordian Sealed Transaction Protocol**](https://github.com/BlockchainCommons/Research/blob/master/papers/bcr-2023-014-gstp.md) (GitHub repo)
 
 **Use Cases:**
 
