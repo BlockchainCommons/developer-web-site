@@ -24,55 +24,55 @@ GSTP messages are built as [Request/Response messages](/envelope/request/) using
 
 A Authentication Layer is now created. This begins by the sender adding a public key, which they will later prove that they own with a signature.
 
-![](/assets/images/gstp-ex-2.jpeg)
+<img src="/assets/images/gstp-ex-2.jpeg" style="border: 1px solid white !important">
 
 ## Step 3: Add Sender's Continuation
 
 Both participants can include continuation information in messages, which allows them to maintain state without having to do so locally. This is Encrypted State Continuation (ESC). Here, the sender adds their own continuation information to the message.
 
-![](/assets/images/gstp-ex-3.jpeg)
+<img src="/assets/images/gstp-ex-3.jpeg" style="border: 1px solid white !important">
 
 ## Step 4: Encrypt Sender's Continuation
 
 All continuation information is encrypted so that it's only readable by the party that created it. Here, the sender encrypts their continuation.
 
-![](/assets/images/gstp-ex-4.jpeg)
+<img src="/assets/images/gstp-ex-4.jpeg" style="border: 1px solid white !important">
 
 ## Step 5: Copy Recipient's Continuation
 
 The sender also copies over the continuation sent by the recipient in a previous message (if any). Because it's encrypted, they can't read it: they just copy it over.
 
-![](/assets/images/gstp-ex-5.jpeg)
+<img src="/assets/images/gstp-ex-5.jpeg" style="border: 1px solid white !important">
 
 ## Step 6: Wrap the Content
 
 All Envelope assertions apply to a subject. That means that whenever you want something to apply to the entire contents of an Envelope, and not just the subject, you need to wrap it, essentially creating a new Envelope with the entirety of the previous Envelope as the subject. Wrapping the envelope-to-date is the next step.
 
-![](/assets/images/gstp-ex-6.jpeg)
+<img src="/assets/images/gstp-ex-6.jpeg" style="border: 1px solid white !important">
 
 ## Step 7: Sign the Wrapped Envelope
 
 With the Envelope now wrapped, the sender can sign the entire contents with the private key matching the public key that's included in the contents.
 
-![](/assets/images/gstp-ex-7.jpeg)
+<img src="/assets/images/gstp-ex-7.jpeg" style="border: 1px solid white !important">
 
 ## Step 8: Wrap the Envelope Again
 
 The Envelope is now wrapped a second time. This is so that when encryption is applied, it applies to the entire Envelope. Otherwise, it would only apply to the subject, which does not include the brand-new signature. This wrapping creates the foundation for the Encryption layer.
 
-![](/assets/images/gstp-ex-8.jpeg)
+<img src="/assets/images/gstp-ex-8.jpeg" style="border: 1px solid white !important">
 
 ## Step 9: Encrypt the Wrapped Envelope
 
 The wrapped envelope is encrypted using a symmetric key.
 
-![](/assets/images/gstp-ex-9.jpeg)
+<img src="/assets/images/gstp-ex-9.jpeg" style="border: 1px solid white !important">
 
 ## Step 10: Encrypt the Symmetric Key
 
 Finally, the symmetric key is encrypted using the recipient's public key and an ephemeral public key from the sender. The recipient will be able to decrypt it using their private key.
 
-![](/assets/images/gstp-ex-10.jpeg)
+<img src="/assets/images/gstp-ex-10.jpeg" style="border: 1px solid white !important">
 
 ## Step 11: Reverse the Process
 
