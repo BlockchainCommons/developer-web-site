@@ -18,7 +18,7 @@ sidebar:
 
 GSTP messages are built as [Request/Response messages](/envelope/request/) using [Gordian Envelope](/envelope/). A Request/Response message basically means that a sender is asking a remote Envelope recipient to do something and return the results. 
 
-![](/assets/images/gstp-ex-1.jpeg)
+<img src="/assets/images/gstp-ex-1.jpeg" style="border: 2px solid white !important">
 
 ## Step 2: Add Public Key
 
