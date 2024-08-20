@@ -36,9 +36,11 @@ trust](https://www.blockchaincommons.com/musings/musings-progressive-trust/)
 and Merkle-based selective disclosure.
 
 Blockchain Commons is currently working with multiple companies on the
-development and deployment of Gordian Envelopes via regular biweekly
-meetings; [contact us](mailto:team@blockchaincommons.com) if you'd
-like to be involved or just [subscribe to our announcement-only list for the Gordian Developers meetings](https://www.blockchaincommons.com/subscribe/). Envelope is also on the experimental track as an
+development and deployment of Gordian Envelopes via regular monthly
+meetings; [subscribe](https://www.blockchaincommons.com/subscribe/) to our announcements-only mailing list or join our Signal channel if you'd like to get involved. You can also
+[contact us](mailto:team@blockchaincommons.com) if you'd prefer to get more information first.  
+
+Envelope is also on the experimental track as an
 [Informational Draft for the
 IETF](https://blockchaincommons.github.io/WIPs-IETF-draft-envelope/draft-mcnally-envelope.html).
 Further, ongoing discussions are occurring with the W3C Credentials
@@ -164,7 +166,23 @@ _See the [Gordian Envelope playlist](https://www.youtube.com/playlist?list=PLCkr
 * [**envelope-cli-swift**](https://github.com/BlockchainCommons/envelope-cli-swift) (CLI implementation)
   * [**envelope-cli-swift Docs**](https://github.com/BlockchainCommons/envelope-cli-swift/tree/master/Docs)
   * [**envelope-cli-swift Usage Overview Transcript**](https://github.com/BlockchainCommons/envelope-cli-swift/blob/master/Transcripts/1-OVERVIEW-TRANSCRIPT.md) (GitHub repo)
-  
+
+
+### Specs & Research Papers:
+
+* [**I-D: The Gordian Envelope Structured Data Format]**(https://blockchaincommons.github.io/WIPs-IETF-draft-envelope/draft-mcnally-envelope.html) (IETF Draft)
+* [**BCR-2023-003: Known Values**](https://github.com/BlockchainCommons/Research/blob/master/papers/bcr-2023-003-envelope-known-value.md) (GitHub repo)
+* [**BCR-2023-004: Symmetric Encryption**](https://github.com/BlockchainCommons/Research/blob/master/papers/bcr-2023-004-envelope-symmetric-encryption.md) (GitHub repo)
+* [**BCR-2023-005: Compression**](https://github.com/BlockchainCommons/Research/blob/master/papers/bcr-2023-005-envelope-compression.md) (GitHub repo)
+* [**BCR-2023-006: Attachments**](https://github.com/BlockchainCommons/Research/blob/master/papers/bcr-2023-006-envelope-attachment.md) (GitHub repo)
+* [**BCR-2023-009: Cryptographic Seeds**](https://github.com/BlockchainCommons/Research/blob/master/papers/bcr-2023-009-envelope-seed.md) (GitHub repo)
+* [**BCR-2023-010: Bitcoin Output Descriptors (v3)**](https://github.com/BlockchainCommons/Research/blob/master/papers/bcr-2023-010-output-descriptor.md) (GitHub repo)
+* [**BCR-2023-012: Expressions**](https://github.com/BlockchainCommons/Research/blob/master/papers/bcr-2023-012-envelope-expression.md) (GitHub repo)
+* [**BCR-2023-013: Cryptography**](https://github.com/BlockchainCommons/Research/blob/master/papers/bcr-2023-013-envelope-crypto.md) (GitHub repo)
+* [**BCR-2023-014: Gordian Sealed Transaction Protocol (GSTP)**](https://github.com/BlockchainCommons/Research/blob/master/papers/bcr-2023-014-gstp.md) (GitHub repo)
+* [**BCR-2024-006: Representing Graphs**](https://github.com/BlockchainCommons/Research/blob/master/papers/bcr-2024-006-envelope-graph.md) (GitHub repo)
+* [**BCR-2024-007: Decorrelation**](https://github.com/BlockchainCommons/Research/blob/master/papers/bcr-2024-007-envelope-decorrelation.md) (GitHub repo)
+
 ### Use Cases:
 
 * [**Overview of Envelope Use Cases**](/envelope/use-cases/)
