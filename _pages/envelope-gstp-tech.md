@@ -14,6 +14,10 @@ sidebar:
   nav: envelope
 ---
 
+## Step I: Build a Request/Response Message
+
+GSTP messages are built as [Request/Response messages](/envelope/request/) using [Gordian Envelope](/envelope/).
+
 ![](/assets/images/gstp-ex-1.jpeg)
 ![](/assets/images/gstp-ex-2.jpeg)
 ![](/assets/images/gstp-ex-3.jpeg)
