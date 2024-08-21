@@ -18,5 +18,8 @@ _Envelope's Expressions are an extension that enables secure communication._
 **Request/Response.** Request/Response packages up Expressions so that they can be sent to a remote recipient as a Request, who can then send a Response tied to the original request. This allows for interoperable communication using Envelopes when further security is not required.
    * See our [Envelope Request & Response page](https://developer.blockchaincommons.com/envelope/request/).
 
-**Gordian Sealed Transaction Protocol (GSTP).** GSTP builds on top of Request/Response for those times when security <i>is</i> required. It not only supports encryption and signatures but also uniquely supports Encryption State Continuations (ESC) to securely encapsulate state information. It's used by the Gordian Depository as part of CSR.
-   * See our [GSTP Research Paper](https://github.com/BlockchainCommons/Research/blob/master/papers/bcr-2023-014-gstp.md).
+**Gordian Sealed Transaction Protocol (GSTP).** GSTP builds on top of Request/Response for those times when security <i>is</i> required. It not only supports encryption and signatures but also uniquely supports Encrypted State Continuations (ESC) to securely encapsulate state information. It's used by the Gordian Depository as part of CSR.
+   * See our [GSTP page](/envelope/gstp/).
+
+**Encrypted State Continuation (ESC).** ESC is a feature of GSTP that allows for the storage of local state in a secure way as part of the communication messages. It supports constrained environments, load-balanced servers, time-differentiated environments, and more.
+  * See our [ESC page](/envelope/esc/).
