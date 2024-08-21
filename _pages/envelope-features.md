@@ -46,7 +46,7 @@ _The fundamental methodology of hashed data elision dramatically improves privac
 * **Herd Privacy.** Proofs of inclusion allow for herd privacy where all members of a class can share data such as a VC or DID without revealing individual information.
 * **Non-Correlation.** Encrypted Gordian Envelope data can optionally be made less correlatable with the addition of salt or through zero-knowledge proofs.
 
-## Encryption & Signing Support
+## Encryption Support
 
 _The expanded spec of Gordian Envelope supported through Blockchain Commons' [Research papers](https://github.com/BlockchainCommons/research/?tab=readme-ov-file#contents) provides support for optional encryption as well._
 
@@ -71,7 +71,7 @@ _With Blockchain Commons' expanded specs, data can be dynamic and support dynami
 
 * **Expressions.** Envelope elements can be recognized as functions and parameters, allowing for the implementation of application-specific logic within Envelopes, facilitating responsive and adaptive data interactions.
 * **Requests/Responses.** Expressions can be wrapped up in [Requests](/envelope/request/), allowing for the communication between two entities. Responses can then be sent in reply to Requests.
-* **Sealed Transactions (GSTP).**  Requests and responses can be built up into the [Gordian Sealed Transaction Protocol](https://github.com/BlockchainCommons/Research/blob/master/papers/bcr-2023-014-gstp.md) to support encrypted and authenticated communications across insecure channels such as QR codes and NFC, ensuring secure data exchanges even in vulnerable environments.
+* **Sealed Transactions (GSTP).**  Requests and responses can be built up into the [Gordian Sealed Transaction Protocol](/envelope/gstp/) to support encrypted and authenticated communications across insecure channels such as QR codes and NFC, ensuring secure data exchanges even in vulnerable environments. GSTP can manage state using [Encrypted State Continuations (ESC)](/envelope/esc/), which allow for local state to be stored in a distributed way.
 
 ### Data Management Support
 
