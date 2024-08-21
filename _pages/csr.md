@@ -69,7 +69,8 @@ CSR is an apex applications that uses a variety of Blockchain Commons specificat
 * [**SSKR.**](/sskr/) Seeds are sharded with SSKR, which is a seed-sharding library that currently supports an expanded version of Shamir's Secret Sharing that allows for grouping of shares.
 * [**Envelope.**](/envelope/) SSKR shares of seeds are stored in Envelopes, which is a Smart Document format that allows for the storage of both the seed and related metadata and later allows the elision of some of that data if preferred by the holder.
 * [**GSTP.**](/envelope/gstp/) The Gordian Sealed Transaction Protocol uses Envelopes to allow secure, distributed, transport-agnostic communication between a user and a share holder. This could be an online server, but alternatively an offline storage mechanism such as a Java Card.
-
+* [**Gordian Depository.**](https://github.com/BlockchainCommons/bc-depo-rust) The Gordian Depository is Blockchain Commons' own Share Server, which uses the above specifications and a [specific API](https://github.com/BlockchainCommons/bc-depo-api-rust).
+ 
 The following example depicts the recovery of a seed complete with
 note and name, something possible thanks to the use of Envelope.
 
@@ -88,11 +89,11 @@ There are six broad phases to CSR deployment.
 
 **Phase 3:** Release of Gordian Companion as a reference app for sharding a seed and communicating with Gordian Depositories. [ ]
 
-**Phase 4:** Work with third parties to support the creation of additional Share Servers in order to create an ecosystem truly supporting user choice, where a user of an application can meaningfully choose where to send the shares of his seed.
+**Phase 4:** Work with third parties to support the creation of additional Share Servers in order to create an ecosystem truly supporting user choice, where a user of an application can meaningfully choose where to send the shares of his seed. [ ]
 
-**Phase 5:** Expansion of SSKR to support VSS in the Trusted Dealer Key Generation mode, so that a user app can regularly test for the existence of seed shares without creating a danger of compromise by actually reconstructing the seed. Currently it seems most likely this will be accomplished with the recently audited [ZF FROST libraries](https://frost.zfnd.org/index.html).
+**Phase 5:** Expansion of SSKR to support VSS in the Trusted Dealer Key Generation mode, so that a user app can regularly test for the existence of seed shares without creating a danger of compromise by actually reconstructing the seed. Currently it seems most likely this will be accomplished with the recently audited [ZF FROST libraries](https://frost.zfnd.org/index.html). [ ]
 
-**Phase 6:** Leverage work with VSS and FROST into a full [CKM](/ckm/) deployment.
+**Phase 6:** Leverage work with VSS and FROST into a full [CKM](/ckm/) deployment. [ ]
 
 ## Videos
 
