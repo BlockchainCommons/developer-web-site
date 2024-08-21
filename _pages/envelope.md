@@ -18,7 +18,7 @@ redirect_from:
 
 ## Overview
 
-_**Latest News:** Released [GSTP](/envelope/gstp/) and [GSTP Tech Overview](/envelope/gstp/tech/) pages (8/20/24). Released [Undestanding Envelope](https://www.youtube.com/watch?v=-vcLCFKQvik), [Understanding Envelope Extensions](https://www.youtube.com/watch?v=uFxStP3ATkw), and [Understanding GSTP](https://www.youtube.com/watch?v=QnH14LkJOnI) videos (8/13/24)._
+_**Latest News:** Published [Envelope Teaser video](https://www.youtube.com/watch?v=uDI5ihfTB2Y) (8/21/24). Released [GSTP](/envelope/gstp/), [GSTP Tech Overview](/envelope/gstp/tech/), and [ESC](/envelope/esc/) pages (8/20/24). Released [Undestanding Envelope](https://www.youtube.com/watch?v=-vcLCFKQvik), [Understanding Envelope Extensions](https://www.youtube.com/watch?v=uFxStP3ATkw), and [Understanding GSTP](https://www.youtube.com/watch?v=QnH14LkJOnI) videos (8/13/24)._
 {: .notice--info}
 
 <a href="/core-stack/"><img src="https://developer.blockchaincommons.com/assets/images/bc-stack-core-envelope.png" style="float: right; margin-left: 20px;" width="25%"></a>
@@ -107,6 +107,12 @@ structure.
 <table width="100%">
   <tr>
     <td width="640px">
+      <b>Envelope Teaser:</b>
+
+{% include video id="uDI5ihfTB2Y" provider="youtube" %}
+
+    </td>    
+    <td width="640px">
       <b>Understanding Envelopes I:</b>
 
 {% include video id="-vcLCFKQvik" provider="youtube" %}
@@ -116,12 +122,6 @@ structure.
       <b>Understanding Envelopes II:</b>
 
 {% include video id="uFxStP3ATkw" provider="youtube" %}
-
-    </td>    
-    <td width="640px">
-      <b>Understanding GSTP:</b>
-
-{% include video id="QnH14LkJOnI" provider="youtube" %}
 
     </td>    
   </tr>
