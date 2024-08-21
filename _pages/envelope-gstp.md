@@ -54,7 +54,7 @@ GSTP uses this functionality as follows:
 
 * **Discovery**. A discovery system allows a party to identify itself with a public key.
 * **Request/Response.** The Request/Response system is used for communication.
-* **Encrypted State Continuation (ESC).** The sender encodes their state by encrypting it with their private key and copies over any state previously sent by the recipient (which is encoded with the recipient's private key).
+* **Encrypted State Continuation (ESC).** The sender encodes their state by encrypting it with their private key and copies over any state previously sent by the recipient (which is encoded with the recipient's private key). [See more on ESC](/envelope/esc/).
 * **Signature.** A sender signs the message with their private key. Validating the signature is a requirement for the recipient before processing the message.
 * **Symmetric Encryption.** The entire message is encrypted with a symmetric key.
 * **Public Key Cryptography.** The symmetric key is encrypted with the recipient's public key.
@@ -87,6 +87,7 @@ _See the [Gordian Envelope playlist](https://www.youtube.com/playlist?list=PLCkr
 **Intro:**
 
 * [**GSTP Technical Overview**](/envelope/gstp/tech/)
+* [**ESC Overview**](/envelope/esc/)
 * [**BCR-2023-14: GSTP**](https://github.com/BlockchainCommons/Research/blob/master/papers/bcr-2023-014-gstp.md) (GitHub repo)
 
 * [**Envelope Overview**](/envelope/)
