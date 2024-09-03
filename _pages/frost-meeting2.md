@@ -47,4 +47,4 @@ We would love to have a five-minute presentation from you on your work-to-date o
 * VSS Objects
    * Required Metadata
 
-Again, [let us know](mailto:team@blockchaincommons.com) about topics you'd like to see covered, particularly if you've hit any particular roadblocks or found any particular great solutions. We can add topics at the meeting, but we'd prefer to have as much as possible on the agenda, so that we can support everyone's time constraints. 
+Again, [let us know](mailto:team@blockchaincommons.com) about topics you'd like to see covered, particularly if you've hit any particular roadblocks or found any particularly great solutions. We can add topics at the meeting, but we'd prefer to have as much as possible on the agenda, so that we can support everyone's time constraints. 
