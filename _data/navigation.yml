@@ -184,11 +184,11 @@ frost:
     children:
     - title: "Intro to FROST"
       url: /frost/
-    - title: "Implementers Round Table (2023)"
+    - title: "Implementers Round Table 1 (2023)"
       url: /frost/meeting1/
-    - title: "Implementers Round Table (2024)"
+    - title: "Implementers Round Table 2 (2024)"
       url: /frost/meeting2/
-    - title: "Developers Meeting I"
+    - title: "Developers Meeting 1 (early 2024)"
       url: /frost/developers1/
     - title: "Return to Crypto Stack"
       url: /crypto-stack/
