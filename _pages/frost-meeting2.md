@@ -5,7 +5,7 @@ header:
   overlay_filter: "0.25"
   overlay_image: /assets/images/dev-frost-background.jpg
   og_image: /assets/images/bc-card.jpg
-title: "FROST Round Table II: Overview"
+title: "FROST Round Table II (2024): Overview"
 hide_description: true
 classes:
   - wide
