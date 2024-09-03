@@ -3,7 +3,7 @@ cover: false
 header:
   overlay_color: "#000"
   overlay_filter: "0.25"
-  overlay_image: /assets/images/dev-seed-background.jpg
+  overlay_image: /assets/images/dev-frost-background.jpg
   og_image: /assets/images/bc-card.jpg
 title: "FROST Round Table I: Overview"
 hide_description: true
