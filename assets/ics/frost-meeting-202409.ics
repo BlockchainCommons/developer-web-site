@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ical.marudot.com//iCal Event Maker
+CALSCALE:GREGORIAN
+BEGIN:VTIMEZONE
+TZID:America/Los_Angeles
+LAST-MODIFIED:20231222T233358Z
+TZURL:https://www.tzurl.org/zoneinfo-outlook/America/Los_Angeles
+X-LIC-LOCATION:America/Los_Angeles
+BEGIN:DAYLIGHT
+TZNAME:PDT
+TZOFFSETFROM:-0800
+TZOFFSETTO:-0700
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZNAME:PST
+TZOFFSETFROM:-0700
+TZOFFSETTO:-0800
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTAMP:20240716T201523Z
+UID:1721160892394-46223@ical.marudot.com
+DTSTART;TZID=America/Los_Angeles:20240918T100000
+DTEND;TZID=America/Los_Angeles:20240918T113000
+SUMMARY:FROST Implementers Round Table
+URL:https://us02web.zoom.us/j/84196792336?pwd=y1IWKhEYbbRTpht7G72Va16pbT6eZb.1
+DESCRIPTION:The second FROST Implementers Round Table from Blockchain Commons will give designers & developers of FROST specifications and libraries the opportunity to compare their experience and discuss how to continue the advancement of FROST.
+LOCATION:https://us02web.zoom.us/j/84196792336?pwd=y1IWKhEYbbRTpht7G72Va16pbT6eZb.1
+END:VEVENT
+END:VCALENDAR
