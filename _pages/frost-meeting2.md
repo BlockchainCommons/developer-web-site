@@ -21,11 +21,11 @@ The second FROST Implementer's Round Table is a meeting for FROST implementers (
 * HOW LONG? 90 minutes
 * WHERE? Zoom: [https://us02web.zoom.us/j/84196792336?pwd=y1IWKhEYbbRTpht7G72Va16pbT6eZb.1](https://us02web.zoom.us/j/84196792336?pwd=y1IWKhEYbbRTpht7G72Va16pbT6eZb.1)
 
-[Download a meeting reminder](https://developer.blockchaincommons.com/assets/ics/frostmeeting-202409.ics).
+We look forward to seeing you on September 18th!
+
+[Download a meeting reminder](https://developer.blockchaincommons.com/assets/ics/frost-meeting-202409.ics).
 
 [Join our announcements-only FROST Implementers list](https://www.blockchaincommons.com/subscribe/#frost-implementers).
-
-We look forward to seeing you on September 18th!
 
 Here's our agenda so far:
 
