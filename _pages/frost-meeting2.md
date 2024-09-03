@@ -27,7 +27,7 @@ We look forward to seeing you on September 18th!
 
 [Join our announcements-only FROST Implementers list](https://www.blockchaincommons.com/subscribe/#frost-implementers).
 
-Here's our agenda so far:
+Here's our agenda so far ...
 
 ## Feature Presentations
 
