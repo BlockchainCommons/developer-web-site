@@ -31,8 +31,10 @@ Here's our agenda so far ...
 
 ## Feature Presentations
 
-* secp-zkp FROST (Jesse Posner)
 * ChillDKG (Jonas Nick)
+* Serai DEX with IETF-compliant FROST (Luke Parker)
+* secp-zkp FROST (Jesse Posner)
+* ZF FROST (Conrado Gouvea)
 
 We would love to have a five-minute presentation from you on your work-to-date on FROST libraries or standards. Please [contact us](mailto:team@blockchaincommons.com) so we can add you to the agenda.
 
