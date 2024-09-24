@@ -154,7 +154,7 @@ _Verification:_ "I regret not offering public verification."
 ### GitHub
 
 * **secp256k1-zkp**
-   * [FROST PR](https://github.com/jesseposner/FROST-BIP340)
+   * [FROST-BIP340 PR](https://github.com/jesseposner/FROST-BIP340)
    * [FROST Trusted Dealer PR](https://github.com/BlockstreamResearch/secp256k1-zkp/pull/278)
    * [Dynamic Secret Sharing & D-H Key Exchange](https://github.com/jesseposner/FROST-BIP340)
 
