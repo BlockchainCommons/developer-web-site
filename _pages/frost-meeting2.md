@@ -46,7 +46,7 @@ For an intro to FROST, see the [FROST page](/frost/) and ["A Layperson's Intro t
 
      <b>FROST Federation:</b><br>
 
-<a href="/assets/pdfs/frostimp2/presentation-federation"><img src="/assets/pdfs/frostimp2/presentation-federation.jpg" style="border:2px solid white"></a>
+<a href="/assets/pdfs/frostimp2/presentation-federation.pdf"><img src="/assets/pdfs/frostimp2/presentation-federation.jpg" style="border:2px solid white"></a>
 
     </td>
     <td width="640px">
@@ -54,6 +54,29 @@ For an intro to FROST, see the [FROST page](/frost/) and ["A Layperson's Intro t
      <b>secp256k1-zkp:</b><br>
 
 <a href="/assets/pdfs/frostimp2/presentation-secp.pdf"><img src="/assets/pdfs/frostimp2/presentation-secp.jpg" style="border:2px solid white"></a>
+
+    </td>
+  </tr>
+  <tr>
+    <td width="640px">
+
+     <b>Serai DEX:</b><br>
+
+<a href="/assets/pdfs/frostimp2/presentation-serai.pdf"><img src="/assets/pdfs/frostimp2/presentation-serai.jpg" style="border:2px solid white"></a>
+
+    </td>
+    <td width="640px">
+
+     <b>FROST UniFFI SEDK:</b><br>
+
+<a href="/assets/pdfs/frostimp2/presentation-uniffi.pdf"><img src="/assets/pdfs/frostimp2/presentation-uniffi.jpg" style="border:2px solid white"></a>
+
+    </td>
+    <td width="640px">
+
+     <b>ZF FROST Updates:</b><br>
+
+<a href="/assets/pdfs/frostimp2/presentation-zffrost.pdf"><img src="/assets/pdfs/frostimp2/presentation-zffrost.jpg" style="border:2px solid white"></a>
 
     </td>
   </tr>
