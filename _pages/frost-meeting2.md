@@ -14,39 +14,113 @@ sidebar:
   nav: frost
 ---
 
-The second FROST Implementer's Round Table is a meeting for FROST implementers (including cryptographers, standards writers, and library implementers) to discuss the status of their FROST work with fellows.
+The second FROST Round Table occurred on **November 8, 2023**. Almost twenty experts in the field, including  members of the [ZF Frost team](https://github.com/ZcashFoundation/frost) and the [secp-zkp FROST team](https://github.com/BlockstreamResearch/secp256k1-zkp/pull/138) as well as a variety of designers working on libraries, federations, and deployments came together to talk about their experience with FROST.
 
-* WHEN? Wednesday September 18, 2024
-* WHAT TIME? 10am PDT (1pm EDT, 7pm CEST)
-* HOW LONG? 90 minutes
-* WHERE? Zoom: [https://us02web.zoom.us/j/84196792336?pwd=y1IWKhEYbbRTpht7G72Va16pbT6eZb.1](https://us02web.zoom.us/j/84196792336?pwd=y1IWKhEYbbRTpht7G72Va16pbT6eZb.1)
+For an intro to FROST, see the [FROST page](/frost/) and ["A Layperson's Intro to Schnorr"](https://www.blockchaincommons.com/musings/Schnorr-Intro/).
 
-We look forward to seeing you on September 18th!
+## Media
 
-[Download a meeting reminder](https://developer.blockchaincommons.com/assets/ics/frost-meeting-202409.ics).
+<table width="100%">
+  <tr>
+    <td width="640px">
+      <b>Video:</b>
 
-[Join our announcements-only FROST Implementers list](https://www.blockchaincommons.com/subscribe/#frost-implementers).
+{% include video id="VxLTJ_OxGT4" provider="youtube" %}
 
-Here's our agenda so far ...
+    </td>
+  </tr>
+</table>
 
-## Feature Presentations
+## Slides
 
-* ChillDKG (Jonas Nick)
-* Serai DEX with IETF-compliant FROST (Luke Parker)
-* secp-zkp FROST (Jesse Posner)
-* ZF FROST (Conrado Gouvea)
+<table width="100%">
+  <tr>
+    <td width="640px">
 
-We would love to have a five-minute presentation from you on your work-to-date on FROST libraries or standards. Please [contact us](mailto:team@blockchaincommons.com) so we can add you to the agenda.
+     <b>ChillDKG:</b><br>
 
-## Round Table Topics
+<a href="/assets/pdfs/frostimp2/presentation-chilldkg.pdf"><img src="/assets/pdfs/frostimp2/presentation-chilldkg.jpg"></a>
 
-* Standards
-   * IETF, BIPs, NIST
-* Key Formats
-   * DKG & BIP-32, x-only keys, single-key uses
-* VSS Compatibility
-   * FROST, Trusted Dealer, MuSig
-* VSS Objects
-   * Required Metadata
+    </td>
+  </tr>
+</table>
 
-Again, [let us know](mailto:team@blockchaincommons.com) about topics you'd like to see covered, particularly if you've hit any particular roadblocks or found any particularly great solutions. We can add topics at the meeting, but we'd prefer to have as much as possible on the agenda, so that we can support everyone's time constraints. 
+For more, also see the [rough summary](/frost/meeting1/summary/) or the [raw transcript](/frost/meeting1/transcript) of the event.
+
+## Key Quotes
+
+Quotes are drawn from [raw transcripts](/frost/meeting1/transcript/) and may not be entirely precise as a result, but convey many of the major themes of the meeting. See the video for more.
+
+### Initial Thoughts
+
+_Simplicity:_ "It's fairly straightforward to implement, but the hard part is getting deployed."
+{: .notice--info}
+
+_Community:_ "I'm excited to see the community coalescing and finding FROST to be useful."
+{: .notice--info}
+
+_UI:_ "my biggest concern ... is the user experience of this and what the user workflows are going to be."
+{: .notice--info}
+
+### Distributed Key Generation (DKG)
+
+_Difficulty:_ "I think the most difficult part is the DKG."
+{: .notice--info}
+
+_Possibilities:_ "Several people have talked about ... rekeying and other different types of things that might be possible with distributed key generation."
+{: .notice--info}
+
+### Trusted Dealer Generation
+
+_Usefulness (I):_ "I think my take on Trusted Dealer Generation is that it's not really worth the effort. I mean, if you're going to add so much complexity because you add a threshold scheme, then I think DKG really, really makes sense."
+{: .notice--info}
+
+_Usefulness (II)_: "I think Trusted Dealers can be useful for some custodians."
+{: .notice--info}
+
+_Usefulness (III)_: "The ability to do VSS and be able to have the shareholders sign different types of things without necessarily restoring is just really useful for wallet resilience of legacy keys, personal data, etc."
+{: .notice--info}
+
+### Resilience & Trust
+
+_Backups:_ "In the case of Frost, it's a bit tricky ... You need to share in the group key and the identifier and maybe other people's identifiers. So it's more information that you need to back up or save."
+{: .notice--info}
+
+_Restoration:_ "If you have a threshold of people come together, they can restore another person's share."
+{: .notice--info}
+
+### Curves
+
+_Variety:_ "The IETF draft covers a range of curves."
+{: .notice--info}
+
+_Efficiency:_ "[25519] is a bit less efficient than Ristretto because FROST needs a prime order group and 25519 is not a prime order."
+{: .notice--info}
+
+_Conversion:_ "If you compare Ristretto and SecP, I don't think they are any compatible because they are different groups, right? ... So I don't see how you could do a single DKG for both. But if you talk about Ristretto and 25519, they're kind of related, so maybe there's some way to make it work, but I would need to also think about it."
+{: .notice--info}
+
+### Trusted Channels
+
+_Privacy:_ "If your system  wants to have secure channels for privacy reasons ... then I guess you would use them. You would run DKG over the secure channel. You would also run signing over the secure channel."
+{: .notice--info}
+
+### Performance
+
+_Signing:_ "You can use a low power device to generate the shares. And then anyone on any computer anywhere can combine them into the final signature."
+{: .notice--info}
+
+### Wild Card Uses of FROST
+
+_Nesting:_ "There's an interesting cryptographic piece of this that I don't think has been fully explored, which is the notion of nesting FROST. So for example, if you have a MuSig construction, like in Lightning with a two of two MuSig for lightning channel ... to what extent can you nest FROST inside of one or two of the MuSig keys?
+{: .notice--info}
+
+### ROAST
+
+_About ROAST:_ "It's supposed to provide robustness so you can guarantee to get a signature and of course you if you implement it wrongly, then it won't work and you won't get a signature in the end."
+{: .notice--info}
+
+### FROST Quorums
+
+_Creating Accountability:_ "The easiest thing to do would be you publish your FROST signature and then you have some ledger or something where you persist information. ... You publish that and then you could either persist the T individual signature shares or we have this nice multi signature scheme called MuSig."
+{: .notice--info}
