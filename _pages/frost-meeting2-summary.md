@@ -16,33 +16,28 @@ sidebar:
 
 _This is a rough summary of the FROST Implementer's Round Table on September 18, 2024._
 
-FROST Implementers #2
-
-Second round table on topic
-
-[LOK AT LINKS IN CHATS]
-
 ## Presentation: secp-zkp FROST (Jesse Posner)
 
 New research:
 
-1) We want proactive and dynamic secret sharing protocols 
+### Proactive and Dynamic Secret Sharing Protocols 
+
 * Changing, repairing, refreshing shares without changing secrets
 * No sweeps required!
 
 But how do they work with FROST?
-* But they require a bivariate symmetric polynomial
-* Where FROST uses univariate polynomial
-* So we might need a different type of VSS!
+* They require a bivariate symmetric polynomial
+   * Where FROST uses univariate polynomial
+   * So we might need a different type of VSS!
 * Potentially, Feldman VSS
-   * From VSS, you can verify
 * Commit to values for repair, etc.
 * Test implementation:
-   * github.com/jesseposner/FROST-BIP340
+   * [github.com/jesseposner/FROST-BIP340](https://github.com/jesseposner/FROST-BIP340)
 
-No share stoppers so far!
+No show stoppers so far!
 
-2) Diffie-Hellman key exchange with FROST
+### Diffie-Hellman Key Exchange with FROST
+
 * BIP-352 says it's possible
 * Create Partial Shared Share
 * Experimenting with this
@@ -50,7 +45,8 @@ No share stoppers so far!
    * A lot of opportunities to do things on top of FROST!
    * We need good naming to describe them!
 
-3) It's unsafe to use raw DKG output directly on-chain
+### Unsafe to Use Raw DKG Output Directly On-chain
+
 * BIP-341 recommends adding an unspendable script path to disallow hidden script paths
 * So, better not to output an x-only public key from DKG
 * Gives confusing impression that key is safe to use onchain
@@ -58,8 +54,9 @@ No share stoppers so far!
 * So, the x-only negation logic should not be handled in the DKG
    * OK to use in signing, the question is whether to use it in key generaiton
 
-Next steps for secp256k1-zkp
-* PR 278 (trsuted dealer)
+### Next Steps for secp256k1-zkp
+
+* PR 278 (trusted dealer)
    * Review & merge first!
 * DKG will then be additive, limited to key gen
    * Separate PR
@@ -67,25 +64,25 @@ Next steps for secp256k1-zkp
 
 ## Presentation: ZF FROST (Conrado)
 
-Have audited Rust crates that implement FROST
+Audited Rust crates in ZF FROST implement FROST
 - very close to releasing 2.0.0
 - API adjustments related to serialization
 - Working on refresh shares functionality
 - There is a PR for Taproot, waiting for review
 
 Working on a Demo code
-* https://github.com/ZcashFoundation/frost-zcash-demo
+* [github.com/ZcashFoundation/frost-zcash-demo](https://github.com/ZcashFoundation/frost-zcash-demo)
 
 FROST Server:
 * Just helps participants to communicate
 
-Working on frost-client
+FROST Client:
 * CLI-tool to run FROST using the server
 
 Goals:
 * Have ZF FROST creates used in Zcash-supporting wallets
 
-##Presentation: frost-uniffi-sdk (Pacu)
+## Presentation: frost-uniffi-sdk (Pacu)
 
 https://github.com/pacu/frost-uniffi-sdk
 
