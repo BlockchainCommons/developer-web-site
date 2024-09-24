@@ -31,7 +31,7 @@ For an intro to FROST, see the [FROST page](/frost/) and ["A Layperson's Intro t
   </tr>
 </table>
 
-## Slides
+## Presentation Slides
 
 <table width="100%">
   <tr>
@@ -40,6 +40,20 @@ For an intro to FROST, see the [FROST page](/frost/) and ["A Layperson's Intro t
      <b>ChillDKG:</b><br>
 
 <a href="/assets/pdfs/frostimp2/presentation-chilldkg.pdf"><img src="/assets/pdfs/frostimp2/presentation-chilldkg.jpg"></a>
+
+    </td>
+    <td width="640px">
+
+     <b>FROST Federation:</b><br>
+
+<a href="/assets/pdfs/frostimp2/presentation-federation"><img src="/assets/pdfs/frostimp2/presentation-federation.jpg"></a>
+
+    </td>
+    <td width="640px">
+
+     <b>secp256k1-zkp:</b><br>
+
+<a href="/assets/pdfs/frostimp2/presentation-secp.pdf"><img src="/assets/pdfs/frostimp2/presentation-secp.jpg"></a>
 
     </td>
   </tr>
