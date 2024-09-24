@@ -117,7 +117,7 @@ _n^2:_ "I also wanted to share my personal opinions that protocols with N-square
 
 ### Use Cases
 
-_Mining Pools:_ "We want to replace the centralized Bitcoin mining pool operator with the Federation of pool operators."
+_Mining Pools:_ "We want to replace the centralized Bitcoin mining pool operator with the [FROST] Federation of pool operators."
 {: .notice--info}
 
 ### Channels
