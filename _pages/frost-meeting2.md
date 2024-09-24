@@ -149,6 +149,22 @@ _Avoiding Sweeps:_ "Sweep transactions ... are expensive and they’re bad for p
 _Verification:_ "I regret not offering public verification."
 {: .notice--info}
 
+## Key URLs
+
+### GitHub
+
+* **secp256k1-zkp**
+   * [FROST PR](https://github.com/jesseposner/FROST-BIP340)
+   * [FROST Trusted Dealer PR](https://github.com/BlockstreamResearch/secp256k1-zkp/pull/278)
+   * [Dynamic Secret Sharing & D-H Key Exchange](https://github.com/jesseposner/FROST-BIP340)
+
+### Specifications
+
+* [BIP Draft: Signing BIP](https://github.com/siv2r/bip-frost-signing)
+
+### Papers
+
+
 
 
 
