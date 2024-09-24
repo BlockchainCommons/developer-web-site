@@ -153,22 +153,25 @@ _Verification:_ "I regret not offering public verification."
 
 ### GitHub
 
+* **FROST Federation**
+   * [FROST Federation Repo](https://github.com/pool2win/frost-federation)
 * **secp256k1-zkp**
    * [FROST-BIP340 PR](https://github.com/jesseposner/FROST-BIP340)
    * [FROST Trusted Dealer PR](https://github.com/BlockstreamResearch/secp256k1-zkp/pull/278)
    * [FROST-BIP340 Current Work Repo](https://github.com/jesseposner/FROST-BIP340)
 * **ZF FROST**
-   * [ZF FROST](https://github.com/ZcashFoundation/frost)
-   * [FROST Demos](https://github.com/ZcashFoundation/frost-zcash-demo)
-   * [FROST UniFFI SDK](https://github.com/pacu/frost-uniffi-sdk)
+   * [ZF FROST Repo](https://github.com/ZcashFoundation/frost)
+   * [FROST Demos Repo](https://github.com/ZcashFoundation/frost-zcash-demo)
+   * [FROST UniFFI SDK Repo](https://github.com/pacu/frost-uniffi-sdk)
 
 ### Specifications
 
 * [BIP Draft: Signing BIP](https://github.com/siv2r/bip-frost-signing)
+* [BIP Draft: ChillDKG](https://github.com/BlockstreamResearch/bip-frost-dkg)
 
 ### Papers
 
-
-
+* [FROST: Flexible Round-Optimized Schnorr Threshold Signatures](https://eprint.iacr.org/2020/852.pdf) (Komlo & Goldberg)
+* [Practical Schnorr Threshold Signatures without the Algebraic Group Model](https://eprint.iacr.org/2023/899.pdf) (Chu, Gerhart, Ruffing & Schröder)
 
 
