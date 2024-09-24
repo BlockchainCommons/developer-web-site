@@ -62,7 +62,7 @@ No show stoppers so far!
    * Separate PR
    * Based on DKG BIP
 
-## Presentation: ZF FROST (Conrado)
+## Presentation: ZF FROST (Conrado Gouvea)
 
 Audited Rust crates in ZF FROST implement FROST
 - very close to releasing 2.0.0
@@ -143,7 +143,7 @@ Discussion of Ambiguous Blame: either a certain participant _or_ the coordinator
    * And that can be the network if the participants are just talking to each other
    * So you have to trust network/coordinator!
 
-## FROST Federation (Kulpreet)
+## FROST Federation (Kulpreet Singh)
 
 How we can create an online federation, even if there are occasional outages for parties?
 
@@ -197,7 +197,7 @@ Crates available and reviewed:
 * modular-frost audited in March 2023
 * bitcoin-serai audited in August 2023
 
-## FROST Signatures on Gordian Envelope
+## FROST Signatures on Gordian Envelope (Wolf McNally)
 
 - signatures are verifiable
 
