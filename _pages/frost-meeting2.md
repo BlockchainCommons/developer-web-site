@@ -140,7 +140,7 @@ _Distribution:_ "We’re assuming the public keys are already distributed."
 _Share Updates:_ "Can we use proactive and dynamic Secret sharing protocols? These are protocols where you can refresh shares, repair shares, add and remove participants, and increase and lower the threshold without changing the underlying secret."
 {: .notice--info}
 
-_Univariate Issues with Updates:_ "Unless there’s a way to convert the Frost shares in the univariate polynomial shares into bivariate shares and then back again, I think we need a different type of VSS."
+_Univariate Issues with Updates:_ "Unless there’s a way to convert the FROST shares in the univariate polynomial shares into bivariate shares and then back again, I think we need a different type of VSS."
 {: .notice--info}
 
 _Avoiding Sweeps:_ "Sweep transactions ... are expensive and they’re bad for privacy because they link all the UTXOs together."
