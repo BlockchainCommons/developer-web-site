@@ -107,6 +107,19 @@ _Signing:_ "We definitely want to do some negation logic during signing."
 _Checking Integrity & Agreement:_ "An integrity property is not enough. We need an additional property and we call that agreement or to be more precise conditional agreement. ... This agreement property is often an overlooked requirement in the in the FROST world."
 {: .notice--info}
 
+_Networks:_ "You always have to trust your network."
+{: .notice--info}
+
+### Efficiency
+
+_n^2:_ "I also wanted to share my personal opinions that protocols with N-squared complexity are too expensive to be regularly run."
+{: .notice--info}
+
+### Use Cases
+
+_Mining Pools:_ "We want to replace the centralized Bitcoin mining pool operator with the Federation of pool operators."
+{: .notice--info}
+
 ### Channels
 
 _Requirements:_  "It requires you to have, first of all, secure channels between the participants and, secondly and a more difficult problem, a broadcast channel between the participants."
@@ -115,6 +128,11 @@ _Requirements:_  "It requires you to have, first of all, secure channels between
 ### Distributed Key Generation
 
 _Specifications:_ "The RFC for Frost ... does not specify a DKG."
+{: .notice--info}
+
+### Public Keys
+
+_Distribution:_ "We’re assuming the public keys are already distributed."
 {: .notice--info}
 
 ### Secret Shares
@@ -127,6 +145,10 @@ _Univariate Issues with Updates:_ "Unless there’s a way to convert the Frost s
 
 _Avoiding Sweeps:_ "Sweep transactions ... are expensive and they’re bad for privacy because they link all the UTXOs together."
 {: .notice--info}
+
+_Verification:_ "I regret not offering public verification."
+{: .notice--info}
+
 
 
 
