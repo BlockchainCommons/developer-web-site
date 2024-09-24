@@ -84,11 +84,10 @@ Goals:
 
 ## Presentation: frost-uniffi-sdk (Pacu)
 
-https://github.com/pacu/frost-uniffi-sdk
-
 Uniffi is a wrapper for Rust where a single FFI interface allows you to generate bindings for different language (Python, Swift, Ruby, Kotlin, others from third-party extensions such as GoLang)
 
 So this project brings Zcash ZF FROST crates to other languages!
+* [github.com/pacu/frost-uniffi-sdk](https://github.com/pacu/frost-uniffi-sdk)
 * A unified tool generates bindings for Kotlin, Swift, GoLang
 * Then wrapped into more ergonomic API
 
@@ -98,7 +97,7 @@ Use Case: FROST Companion Application
 * Can backup or restore shares
 * In development
 * Early, POC
-* In the future, talks to the ZF FROST Server that's being worked on
+* In the future, will talk to the ZF FROST Server that's being worked on
 
 ## Presentation: ChillDKG (Jonas Nick & Tim Ruffing)
 
@@ -110,27 +109,28 @@ DKG is the big challenge
 * So had to write a specification for DKG themselves
 * "Practical Schnorr Threshold Signatures without the Algebraic Group Model" offered a new model
    * Replaces broadcast abstraction with Equality protocol
-* SimplPedPop!
-   * Requires making sure there's no malicious signer
-   * That's where the new Eq (Equality) protocol comes in
-   * Need to check INTEGRITY and AGREEMENT
-  
-CHILLDKG
-* Wraps EncPedPop
-* Wraps SimplePedPop
-
-EncPedPop
-* Encrypts SImplePedPop
-* ECDH key pairs
 
 ChillDKG
+* Wraps EncPedPop
+* Which Wraps SimplePedPop
+
+SimplPedPop!
+* Requires making sure there's no malicious signer
+* That's where the new Eq (Equality) protocol comes in
+* Need to check INTEGRITY and AGREEMENT
+
+EncPedPop
+* Encrypts SimplePedPop
+* ECDH key pairs
+
+In ChillDKG ...
 * Signers have long-term key pair
-* Eq uses concerte CertEq
+* Eq uses CertEq
    * Everyone sends a signature of their Eq input to everyone
    * Signers terminate when they receive valid signatures from all 'n' parcipants
  
 But do you backup?
-* Seed once
+* Seed backed up once
 * Recovery data per DKG session
    * The same for all participants!
 
@@ -160,9 +160,9 @@ Current plan
 - focus on DKG
 - BFT broadcast spec
 - Stay simple even if it costs runtime
-- https://github.com/pool2win/frost-federation
+- [github.com/pool2win/frost-federation](https://github.com/pool2win/frost-federation)
 
-## SeraiDEX-FROST (Luke Parker)
+## Serai DEX - FROST (Luke Parker)
 
 Serai is a decentralized exchange
 - Large signing sets (up to 150 signers in a multisig!)
@@ -170,7 +170,7 @@ Serai is a decentralized exchange
 
 Implements PedPoP from FROST paper
 - share encryption offered (D-H)
-- do not handle auth/communication/consensus
+- does not handle auth/communication/consensus
    - who sent what, etc
 
 Novel one-round DKG (DKG-576)
@@ -192,21 +192,27 @@ Beyond PedPop with identifiable aborts,
    * Have to be an active signer for verification
    * Greatly encourage adding public verification!
 
-Creates available and reviewed:
+Crates available and reviewed:
 * dkg with pedpop audited in March 2023
 * modular-frost audited in March 2023
 * bitcoin-serai audited in August 2023
 
-## FROST Signatures on GOrdian Envelope
+## FROST Signatures on Gordian Envelope
 
-Using ZF FROST Implementation
 - signatures are verifiable
 
-Gordian Envelope has some real advantages
+Using secp256k1 and frostsecp256k1 crates
+
+Can convert from (and to) FROST keys
+- allows FROST signing method
+- uses Trusted Dealer
+
+Signatures are verifiable
+- Entirely agnostic to how the key was generated!
 
 ## Q&A
 
-Raised many questions, limited discussion due to hour.
+Raised many questions, limited discussion due to having so many presentations!
 
 ## Q&A: Key Formats
 
@@ -225,18 +231,5 @@ Any plans for Trusted Channels using NFC or QR?
 
 ## Next Up
 
-[includes links]
-
-What more could we do:
+What more could we do?
 * actively soliciting groups to do security proofs
-
-## Presentation: Gordian Envelope/FROST (Wolf McNally)
-
-Using secp256k1 and frostsecp256k1 crates
-
-Can convert from (and to) FROST keys
-- allows FROST signing method
-- uses Trusted Dealer
-
-Entirely agnostic to how the key was generated!
-
