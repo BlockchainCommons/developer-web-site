@@ -88,23 +88,27 @@ For more, also see the [rough summary](/frost/meeting2/summary/) or the [raw tra
 
 Quotes are drawn from [raw transcripts](/frost/meeting1/transcript/) and may not be entirely precise as a result, but convey many of the major themes of the meeting. See the video for more.
 
-### Initial Thoughts
+### Dangers
 
-_Simplicity:_ "It's fairly straightforward to implement, but the hard part is getting deployed."
+_Script Paths:_ "Unlike MuSig, the FROST group public key is not randomized and that means a malicious party could add an undetectable script path during the DKG."
 {: .notice--info}
 
-_Community:_ "I'm excited to see the community coalescing and finding FROST to be useful."
+_DKG Outputs:_ "It’s better not to output an x-only public key from the DKG because we really don’t want the API callers to think it’s safe to just use that directly on-chain without adding an unspendable script path."
 {: .notice--info}
 
-_UI:_ "my biggest concern ... is the user experience of this and what the user workflows are going to be."
+_Signing:_ "We definitely want to do some negation logic during signing."
 {: .notice--info}
 
-### Distributed Key Generation (DKG)
+### Secret Shares
 
-_Difficulty:_ "I think the most difficult part is the DKG."
+_Share Updates:_ "Can we use proactive and dynamic Secret sharing protocols? These are protocols where you can refresh shares, repair shares, add and remove participants, and increase and lower the threshold without changing the underlying secret."
 {: .notice--info}
 
-_Possibilities:_ "Several people have talked about ... rekeying and other different types of things that might be possible with distributed key generation."
+_Univariate Issues with Updates:_ "Unless there’s a way to convert the Frost shares in the univariate polynomial shares into bivariate shares and then back again, I think we need a different type of VSS."
 {: .notice--info}
+
+_Avoiding Sweeps:_ "Sweep transactions ... are expensive and they’re bad for privacy because they link all the UTXOs together."
+{: .notice--info}
+
 
 
