@@ -172,6 +172,6 @@ _Verification:_ "I regret not offering public verification."
 ### Papers
 
 * [FROST: Flexible Round-Optimized Schnorr Threshold Signatures](https://eprint.iacr.org/2020/852.pdf) (Komlo & Goldberg)
+* [Exponent-VRFs and Their Applications](https://eprint.iacr.org/2024/397.pdf) (Boneh, Haitner & Lindell)
 * [Practical Schnorr Threshold Signatures without the Algebraic Group Model](https://eprint.iacr.org/2023/899.pdf) (Chu, Gerhart, Ruffing & Schröder)
-
 
