@@ -156,7 +156,11 @@ _Verification:_ "I regret not offering public verification."
 * **secp256k1-zkp**
    * [FROST-BIP340 PR](https://github.com/jesseposner/FROST-BIP340)
    * [FROST Trusted Dealer PR](https://github.com/BlockstreamResearch/secp256k1-zkp/pull/278)
-   * [Dynamic Secret Sharing & D-H Key Exchange](https://github.com/jesseposner/FROST-BIP340)
+   * [FROST-BIP340 Current Work Repo](https://github.com/jesseposner/FROST-BIP340)
+* **ZF FROST**
+   * [ZF FROST](https://github.com/ZcashFoundation/frost)
+   * [FROST Demos](https://github.com/ZcashFoundation/frost-zcash-demo)
+   * [FROST UniFFI SDK](https://github.com/pacu/frost-uniffi-sdk)
 
 ### Specifications
 
