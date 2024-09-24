@@ -88,6 +88,11 @@ For more, also see the [rough summary](/frost/meeting2/summary/) or the [raw tra
 
 Quotes are drawn from [raw transcripts](/frost/meeting1/transcript/) and may not be entirely precise as a result, but convey many of the major themes of the meeting. See the video for more.
 
+### Accessibility
+
+_Using FROST:_ "FROST itself is straightforward, right? The algorithm. So the hard part is to use it."
+{: .notice--info}
+
 ### Dangers
 
 _Script Paths:_ "Unlike MuSig, the FROST group public key is not randomized and that means a malicious party could add an undetectable script path during the DKG."
@@ -97,6 +102,19 @@ _DKG Outputs:_ "It’s better not to output an x-only public key from the DKG be
 {: .notice--info}
 
 _Signing:_ "We definitely want to do some negation logic during signing."
+{: .notice--info}
+
+_Checking Integrity & Agreement:_ "An integrity property is not enough. We need an additional property and we call that agreement or to be more precise conditional agreement. ... This agreement property is often an overlooked requirement in the in the FROST world."
+{: .notice--info}
+
+### Channels
+
+_Requirements:_  "It requires you to have, first of all, secure channels between the participants and, secondly and a more difficult problem, a broadcast channel between the participants."
+{: .notice--info}
+
+### Distributed Key Generation
+
+_Specifications:_ "The RFC for Frost ... does not specify a DKG."
 {: .notice--info}
 
 ### Secret Shares
