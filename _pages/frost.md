@@ -82,6 +82,33 @@ VSS protocol invented by Paul Feldmann.
 
 **Emerging Features.** At our first [FROST Meeting for Developers & Implementers](https://www.youtube.com/watch?v=uCM8dDql6oo&t=2762s), Jesse Posner talked about some of the emerging features of FROST. This included being able to proactively refresh or repair secret shares or even change the threshold up or down, all _without changing the underlying secret_. This is the sort of content that we hope to share at future Implementer Round Tables, to ensure that all FROST implementers have the opportunity to use FROST to its fullest capability.
 
+## Events
+
+<table width="100%">
+  <tr>
+    <td width="640px">
+      <b>Implementers RT 1 (2023):</b>
+      <a href="meeting1">
+        <img src="/assets/images/frost-implementers-2023.png">
+      </a>
+      <i>Our first Round Table allowed implementers to discuss a variety of issues related to FROST.</i>
+    </td>
+    <td width="640px">
+      <b>Developers Meeting 1 (2024):</b>
+      <a href="developers1">
+        <img src="/assets/images/frost-developers-2024.png">
+      </a>
+      <i>Jesse Posner & Christopher Allen overviewed FROST in our first meeting for wallet developers.</i>
+    </td>
+    <td width="640px">
+      <b>Implementers RT 2 (2024):</b>
+      <a href="meeting1">
+        <img src="/assets/images/frost-implementers-2024.png">
+      </a>
+      <i>Our second Round Table includes presentations from six FROST implementers on their projects.</i>
+    </td>
+  </tr>
+</table>
 ## Videos
 
 <table width="100%">
