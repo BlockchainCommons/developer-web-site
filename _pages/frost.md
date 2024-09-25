@@ -93,14 +93,14 @@ _The Blockchain Commons FROST events bring together principals in the space to a
       <a href="meeting1">
         <img src="/assets/images/frost-implementers-2023.png">
       </a>
-      <i>Our <a href="meeting1">first Round Table</a>a> allowed implementers to discuss a variety of issues related to FROST.</i>
+      <i>Our <a href="meeting1">first Round Table</a> allowed implementers to discuss a variety of issues related to FROST.</i>
     </td>
     <td width="640px">
       <b>Developers Meeting 1 (2024):</b>
       <a href="developers1">
         <img src="/assets/images/frost-developers-2024.png">
       </a>
-      <i>Jesse Posner & Christopher Allen overviewed FROST in our <a href="developers1">first meeting for wallet developers</a>a>.</i>
+      <i>Jesse Posner & Christopher Allen overviewed FROST in our <a href="developers1">first meeting for wallet developers</a>.</i>
     </td>
     <td width="640px">
       <b>Implementers RT 2 (2024):</b>
