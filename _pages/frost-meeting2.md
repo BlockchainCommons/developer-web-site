@@ -86,7 +86,7 @@ For more, also see the [rough summary](/frost/meeting2/summary/) or the [raw tra
 
 ## Key Quotes
 
-Quotes are drawn from [raw transcripts](/frost/meeting1/transcript/) and may not be entirely precise as a result, but convey many of the major themes of the meeting. See the video for more.
+Quotes are drawn from [raw transcripts](/frost/meeting2/transcript/) and may not be entirely precise as a result, but convey many of the major themes of the meeting. See the video for more.
 
 ### Accessibility
 
