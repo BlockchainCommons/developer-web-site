@@ -67,7 +67,7 @@ For an intro to FROST, see the [FROST page](/frost/) and ["A Layperson's Intro t
     </td>
     <td width="640px">
 
-     <b>FROST UniFFI SEDK:</b><br>
+     <b>FROST UniFFI SDK:</b><br>
 
 <a href="/assets/pdfs/frostimp2/presentation-uniffi.pdf"><img src="/assets/pdfs/frostimp2/presentation-uniffi.jpg" style="border:2px solid white"></a>
 
