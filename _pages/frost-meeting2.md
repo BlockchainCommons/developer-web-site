@@ -151,7 +151,7 @@ _Verification:_ "I regret not offering public verification."
 
 ## Key URLs
 
-### GitHub
+### GitHub & Crates
 
 * **FROST Federation**
    * [FROST Federation Repo](https://github.com/pool2win/frost-federation)
@@ -159,6 +159,10 @@ _Verification:_ "I regret not offering public verification."
    * [FROST-BIP340 PR](https://github.com/jesseposner/FROST-BIP340)
    * [FROST Trusted Dealer PR](https://github.com/BlockstreamResearch/secp256k1-zkp/pull/278)
    * [FROST-BIP340 Current Work Repo](https://github.com/jesseposner/FROST-BIP340)
+* **Serai DEX - FROST**
+   * [dkg crate](https://crates.io/crates/dkg)
+   * [modular-frost crate](https://crates.io/crates/modular-frost)
+   * [bitcoin-serai crate](https://crates.io/crates/bitcoin-serai)
 * **ZF FROST**
    * [ZF FROST Repo](https://github.com/ZcashFoundation/frost)
    * [FROST Demos Repo](https://github.com/ZcashFoundation/frost-zcash-demo)
@@ -166,6 +170,7 @@ _Verification:_ "I regret not offering public verification."
 
 ### Specifications
 
+* [BIP 340: Schnorr Signatures](https://github.com/bitcoin/bips/blob/master/bip-0340.mediawiki)
 * [BIP Draft: Signing BIP](https://github.com/siv2r/bip-frost-signing)
 * [BIP Draft: ChillDKG](https://github.com/BlockstreamResearch/bip-frost-dkg)
 
