@@ -92,8 +92,6 @@ VSS protocol invented by Paul Feldmann.
 {% include video id="uCM8dDql6oo" provider="youtube" %}
 
     </td>
-  </tr>
-  <tr>
     <td width="640px">
       <b>FROST Round Table I:</b>
 
