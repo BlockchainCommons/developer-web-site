@@ -165,3 +165,6 @@ Blockchain Commons' 2024 work on FROST has been sponsored by the [Human Rights F
 
 * [ZF FROST](https://frost.zfnd.org/index.html) (ZF FROST Book)
 
+<hr>
+
+<i>Snowflake icons courtesy of <a href="https://freedesignfile.com/?cat=20205&s=snowflake">free design file</a>.</I>
