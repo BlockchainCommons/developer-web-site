@@ -156,7 +156,7 @@ _Verification:_ "I regret not offering public verification."
 * **FROST Federation**
    * [FROST Federation Repo](https://github.com/pool2win/frost-federation)
 * **secp256k1-zkp**
-   * [FROST-BIP340 PR](https://github.com/jesseposner/FROST-BIP340)
+   * [FROST-BIP340 PR](https://github.com/BlockstreamResearch/secp256k1-zkp/pull/138)
    * [FROST Trusted Dealer PR](https://github.com/BlockstreamResearch/secp256k1-zkp/pull/278)
    * [FROST-BIP340 Current Work Repo](https://github.com/jesseposner/FROST-BIP340)
 * **Serai DEX - FROST**
