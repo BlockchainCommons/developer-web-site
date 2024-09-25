@@ -191,3 +191,10 @@ _Verification:_ "I regret not offering public verification."
 
 * [FROST Developers Page](https://developer.blockchaincommons.com/frost/)
 * [FROST Implementers Signal Group](https://signal.group/#CjQKICnRahYHb6OM8OtK6CZgyb0nDwUXiBwly9ZC9nNXlC2HEhAlpdqY9LqSoX0zdbUVCs9Z)
+
+## Sponsors
+
+This meeting was sponsored by the [Human Rights Foundation](https://hrf.org/).
+
+<center><a href="https://hrf.org/"><img src="https://www.blockchaincommons.com/images/sponsors/hrf-white.png"></a></center>
+
