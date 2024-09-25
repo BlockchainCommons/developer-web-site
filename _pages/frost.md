@@ -132,7 +132,6 @@ _The Blockchain Commons FROST events bring together principals in the space to a
     </td>
   </tr>
   <tr>
-    </td>
     <td width="640px">
       <b>FROST Round Table 2:</b>
 
