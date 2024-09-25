@@ -16,6 +16,9 @@ sidebar:
 
 ## Overview
 
+_**Latest News:** Published [report of 2024 FROST Implementers Meeting](/frost/meeting2), including slide decks, key quotes, key URLs, rough transcript, and rough summary (9/24/24)._
+{: .notice--info}
+
 <a href="/crypto-stack/"><img src="https://developer.blockchaincommons.com/assets/images/bc-stack-crypto-frost.png" style="margin-left: 20px; float: right" width="25%"></a>
 
 FROST (Flexible Round-Optimized Schnorr Threshold Signatures) is a threshold signature scheme built on Schnorr signatures that allows for
