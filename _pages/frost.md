@@ -84,6 +84,8 @@ VSS protocol invented by Paul Feldmann.
 
 ## Events
 
+_The Blockchain Commons FROST events bring together principals in the space to advance the technology. Each event is fully documented with videos, slidedecks, summaries, and key quotes._
+
 <table width="100%">
   <tr>
     <td width="640px">
@@ -91,24 +93,25 @@ VSS protocol invented by Paul Feldmann.
       <a href="meeting1">
         <img src="/assets/images/frost-implementers-2023.png">
       </a>
-      <i>Our first Round Table allowed implementers to discuss a variety of issues related to FROST.</i>
+      <i>Our <a href="meeting1">first Round Table</a>a> allowed implementers to discuss a variety of issues related to FROST.</i>
     </td>
     <td width="640px">
       <b>Developers Meeting 1 (2024):</b>
       <a href="developers1">
         <img src="/assets/images/frost-developers-2024.png">
       </a>
-      <i>Jesse Posner & Christopher Allen overviewed FROST in our first meeting for wallet developers.</i>
+      <i>Jesse Posner & Christopher Allen overviewed FROST in our <a href="developers1">first meeting for wallet developers</a>a>.</i>
     </td>
     <td width="640px">
       <b>Implementers RT 2 (2024):</b>
-      <a href="meeting1">
+      <a href="meeting2">
         <img src="/assets/images/frost-implementers-2024.png">
       </a>
-      <i>Our second Round Table includes presentations from six FROST implementers on their projects.</i>
+      <i>Our <a href="meeting2">second Round Table</a> includes presentations from six FROST implementers on their projects.</i>
     </td>
   </tr>
 </table>
+
 ## Videos
 
 <table width="100%">
