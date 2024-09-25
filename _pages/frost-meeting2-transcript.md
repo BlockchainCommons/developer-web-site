@@ -14,7 +14,7 @@ sidebar:
   nav: frost
 ---
 
-_This is a raw, unedited transcript of the FROST Implementer's Round Table on November 8, 2023._
+_This is a raw, unedited transcript of the FROST Implementer's Round Table on September 18, 2024._
 
 Welcome everybody to the Frost implementers roundtable.
 
