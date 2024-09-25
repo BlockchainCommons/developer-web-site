@@ -160,7 +160,8 @@ _Verification:_ "I regret not offering public verification."
    * [FROST Trusted Dealer PR](https://github.com/BlockstreamResearch/secp256k1-zkp/pull/278)
    * [FROST-BIP340 Current Work Repo](https://github.com/jesseposner/FROST-BIP340)
 * **Serai DEX - FROST**
-   * [dkg crate](https://crates.io/crates/dkg)
+   * [dkg Repo](https://github.com/serai-dex/serai/tree/next/crypto/dkg)
+      * [dkg crate](https://crates.io/crates/dkg)
    * [modular-frost crate](https://crates.io/crates/modular-frost)
    * [bitcoin-serai crate](https://crates.io/crates/bitcoin-serai)
 * **ZF FROST**
@@ -186,6 +187,7 @@ _Verification:_ "I regret not offering public verification."
 * [Requirements for a nested MuSig/FROST scheme Gist](https://gist.github.com/jonasnick/6a56ae6bdc7c3a444d01817a897fbcf6) (Nick)
 * [SPRINT: High-Throughput Robust Distributed Schnorr Signatures](https://eprint.iacr.org/2023/427) (Benhamouda, Halevi, Krawczyk, Ma & Rabin)
 
-### Chats
+### Blockchain Commons Resources
 
-* [Blockchain Commons FROST Signal Group](https://signal.group/#CjQKICnRahYHb6OM8OtK6CZgyb0nDwUXiBwly9ZC9nNXlC2HEhAlpdqY9LqSoX0zdbUVCs9Z)
+* [FROST Developers Page](https://developer.blockchaincommons.com/frost/)
+* [FROST Implementers Signal Group](https://signal.group/#CjQKICnRahYHb6OM8OtK6CZgyb0nDwUXiBwly9ZC9nNXlC2HEhAlpdqY9LqSoX0zdbUVCs9Z)
