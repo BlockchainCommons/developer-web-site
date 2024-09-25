@@ -157,8 +157,9 @@ Blockchain Commons' 2024 work on FROST has been sponsored by the [Human Rights F
 
 **Developer Resources:**
 
-* [FROST Implementer's Round Table I](/frost/meeting1/)
+* [FROST Implementer's Round Table 1](/frost/meeting1/)
 * [FROST Developer's Meeting](/frost/developers1/)
+* [FROST Implementer's Round Table 2](/frost/meeting2/)
 
 **Developer Reference Libraries:**
 
