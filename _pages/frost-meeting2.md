@@ -14,7 +14,7 @@ sidebar:
   nav: frost
 ---
 
-The second FROST Round Table occurred on **November 8, 2023**. Almost twenty experts in the field, including  members of the [ZF Frost team](https://github.com/ZcashFoundation/frost) and the [secp-zkp FROST team](https://github.com/BlockstreamResearch/secp256k1-zkp/pull/138) as well as a variety of designers working on libraries, federations, and deployments came together to talk about their experience with FROST.
+The second FROST Round Table occurred on **September 18, 2024**. Almost twenty experts in the field, including  members of the [ZF Frost team](https://github.com/ZcashFoundation/frost) and the [secp-zkp FROST team](https://github.com/BlockstreamResearch/secp256k1-zkp/pull/138) as well as a variety of designers working on libraries, federations, and deployments came together to talk about their experience with FROST.
 
 For an intro to FROST, see the [FROST page](/frost/) and ["A Layperson's Intro to Schnorr"](https://www.blockchaincommons.com/musings/Schnorr-Intro/).
 
