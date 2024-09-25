@@ -167,7 +167,10 @@ _Verification:_ "I regret not offering public verification."
    * [ZF FROST Repo](https://github.com/ZcashFoundation/frost)
    * [FROST Demos Repo](https://github.com/ZcashFoundation/frost-zcash-demo)
    * [FROST UniFFI SDK Repo](https://github.com/pacu/frost-uniffi-sdk)
-
+   * **PRs & Issues**
+      * [BIP-32 PR]()
+      * [Updating Shares Issue](https://github.com/ZcashFoundation/frost/issues/519)
+  
 ### Specifications
 
 * [BIP 340: Schnorr Signatures](https://github.com/bitcoin/bips/blob/master/bip-0340.mediawiki)
@@ -176,7 +179,8 @@ _Verification:_ "I regret not offering public verification."
 
 ### Papers
 
-* [FROST: Flexible Round-Optimized Schnorr Threshold Signatures](https://eprint.iacr.org/2020/852.pdf) (Komlo & Goldberg)
-* [Exponent-VRFs and Their Applications](https://eprint.iacr.org/2024/397.pdf) (Boneh, Haitner & Lindell)
-* [Practical Schnorr Threshold Signatures without the Algebraic Group Model](https://eprint.iacr.org/2023/899.pdf) (Chu, Gerhart, Ruffing & Schröder)
+* [FROST: Flexible Round-Optimized Schnorr Threshold Signatures](https://eprint.iacr.org/2020/852) (Komlo & Goldberg)
+* [SPRINT: High-Throughput Robust Distributed Schnorr Signatures](https://eprint.iacr.org/2023/427) (Benhamouda, Halevi, Krawczyk, Ma & Rabin)
+* [Practical Schnorr Threshold Signatures without the Algebraic Group Model](https://eprint.iacr.org/2023/899) (Chu, Gerhart, Ruffing & Schröder)
+* [Exponent-VRFs and Their Applications](https://eprint.iacr.org/2024/397) (Boneh, Haitner & Lindell)
 
