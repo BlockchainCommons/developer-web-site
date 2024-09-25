@@ -29,11 +29,7 @@ of Schnorr through improved network efficiency and protection against forgery at
 
 ## Upcoming Events
 
-* **SEPTEMBER 18th, 2024. FROST Implementer's Meeting.** This is a meeting for FROST implementers to discuss the status of their FROST work with fellows. If you're a FROST implementer, [Sign up to our FROST Implenter's announcement list](https://www.blockchaincommons.com/subscribe/#frost-implementers) to receive notices & links for the meeting.
-   * [See more information about the September 2024 meeting](/frost/meeting2/).
 * **DECEMBER 4th, 2024. FROST Implementer & Developer Meeting.** This is a joint meeting where we and FROST implementers will talk about real-world development of FROST for _your_ wallet. If you're a wallet or app developer, [Sign up to our Gordian Developer's announcement list](https://www.blockchaincommons.com/subscribe/#gordian-developers) or Signal group to stay up-to-date on this and other meetings of interest.
-
-For more info, see our [2023 FROST Implementer's Round Table](https://developer.blockchaincommons.com/frost/meeting1/) and our [early 2024 Developer's meeting](https://developer.blockchaincommons.com/frost/developers1/).
 
 ## Why is FROST Important?
 
@@ -123,11 +119,26 @@ _The Blockchain Commons FROST events bring together principals in the space to a
 
     </td>
     <td width="640px">
-      <b>FROST Round Table I:</b>
+      <b>FROST Round Table 1:</b>
 
 {% include video id="U9MvNuyCpE4" provider="youtube" %}
 
     </td>
+    <td width="640px">
+      <b>FROST Developers 1:</b>
+
+{% include video id="uCM8dDql6oo" provider="youtube" %}
+
+    </td>
+  </tr>
+  <tr>
+    </td>
+    <td width="640px">
+      <b>FROST Round Table 2:</b>
+
+{% include video id="VxLTJ_OxGT4" provider="youtube" %}
+
+    </td>    
   </tr>
 </table>
 
