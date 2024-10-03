@@ -108,7 +108,7 @@ Notation](https://github.com/BlockchainCommons/Gordian/blob/master/Envelope/Nota
 see the [Envelope-CLI
 Docs](https://github.com/BlockchainCommons/envelope-cli-swift/tree/master/Docs#readme),
 especially
-[01-Overview](https://github.com/BlockchainCommons/envelope-cli-swift/blob/master/Docs/1-OVERVIEW.md)._
+[Overview](https://github.com/BlockchainCommons/envelope-cli-swift/blob/master/Docs/Overview.md)._
 
 ## Sub Envelopes
 
