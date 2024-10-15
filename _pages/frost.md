@@ -16,7 +16,7 @@ sidebar:
 
 ## Overview
 
-_**Latest News:** Published [report of 2024 FROST Implementers Meeting](/frost/meeting2), including slide decks, key quotes, key URLs, rough transcript, and rough summary (9/24/24)._
+_**Latest News:** Published [report of 2024 FROST Implementers Meeting](/frost/meeting2), including slide decks, key quotes, key URLs, rough transcript, and rough summary (9/24/24). Remember that our FROST Developer's Meeting is on December 4th (10am). Sign up to our [Gordian Developers mailing list or Signal channel](https://www.blockchaincommons.com/subscribe/) to receive the invitations for the meeting._
 {: .notice--info}
 
 <a href="/crypto-stack/"><img src="https://developer.blockchaincommons.com/assets/images/bc-stack-crypto-frost.png" style="margin-left: 20px; float: right" width="25%"></a>
