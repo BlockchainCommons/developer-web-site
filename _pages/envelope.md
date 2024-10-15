@@ -18,7 +18,7 @@ redirect_from:
 
 ## Overview
 
-_**Latest News:** Published [Envelope Teaser video](https://www.youtube.com/watch?v=uDI5ihfTB2Y) (8/21/24). Released [GSTP](/envelope/gstp/), [GSTP Tech Overview](/envelope/gstp/tech/), and [ESC](/envelope/esc/) pages (8/20/24). Released [Undestanding Envelope](https://www.youtube.com/watch?v=-vcLCFKQvik), [Understanding Envelope Extensions](https://www.youtube.com/watch?v=uFxStP3ATkw), and [Understanding GSTP](https://www.youtube.com/watch?v=QnH14LkJOnI) videos (8/13/24)._
+_**Latest News:** Published [Envelope Teaser video](https://www.youtube.com/watch?v=uDI5ihfTB2Y) (8/21/24). Released [GSTP](/envelope/gstp/), [GSTP Tech Overview](/envelope/gstp/tech/), and [ESC](/envelope/esc/) pages (8/20/24). Released [Undestanding Envelope](https://www.youtube.com/watch?v=-vcLCFKQvik), [Understanding Envelope Extensions](https://www.youtube.com/watch?v=uFxStP3ATkw), and [Understanding GSTP](https://www.youtube.com/watch?v=QnH14LkJOnI) videos (8/13/24). Updated [dCBOR](https://datatracker.ietf.org/doc/draft-mcnally-deterministic-cbor/) to better support Unicode (8/8/24)._
 {: .notice--info}
 
 <a href="/core-stack/"><img src="https://developer.blockchaincommons.com/assets/images/bc-stack-core-envelope.png" style="float: right; margin-left: 20px;" width="25%"></a>
