@@ -49,6 +49,10 @@ at the repo for this website.
 
 _Blockchain Commons' Core Stack includes its two major user-facing innovations, Collaborative Seed Recovery (CSR) and Envelope, plus the binary encoding scheme that enables them both (dCBOR)._
 
+### Core: <font color="#ffff76">Identifier</font> Layer
+
+{% include stack-identifier.md %}
+
 ### Core: <font color="#221dff">CSR</font> Layer
 
 {% include stack-csr.md %}
