@@ -51,6 +51,10 @@ architecture:
 stack-core:
   - title: The Core Stack
     children:
+    - title: "Cliques"
+      url: /cliques/
+    - title: "Extensible Identifier (XID)"
+      url: /xid/
     - title: "Collaborative Seed Recovery (CSR)"
       url: /csr/
     - title: "dCBOR"
@@ -64,6 +68,8 @@ stack-crypto:
       url: /ckm/
     - title: "FROST"
       url: /frost/
+    - title: "MuSig 2"
+      url: /musig/
     - title: "SSKR"
       url: /sskr/
 stack-ux:
