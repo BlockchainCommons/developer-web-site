@@ -110,6 +110,15 @@ ckm:
       url: /ckm/use-cases
     - title: "Return to Crypto Stack"
       url: /crypto-stack/
+cliques:
+  - title: Cliques
+    children:
+    - title: "Edge Identifiers & Cliques"
+      url: https://www.blockchaincommons.com/musings/musings-cliques-1/
+    - title: "Open & Fuzzy Cliques"
+      url: https://www.blockchaincommons.com/musings/musings-cliques-2/
+    - title: "Return to Core Stack"
+      url: /core-stack/
 csr:
   - title: CSR
     children:
@@ -196,6 +205,8 @@ frost:
       url: /frost/meeting2/
     - title: "Developers Meeting 1 (early 2024)"
       url: /frost/developers1/
+    - title: "Go to MuSig"
+      url: /musig/
     - title: "Return to Crypto Stack"
       url: /crypto-stack/
 lifehash:
@@ -217,6 +228,12 @@ lifehash:
       url: /lifehash/use-cases/
     - title: "Return to UX Stack"
       url: /ux-stack/
+musig:
+  - title: MuSig 2
+    - title: "Go to FROST"
+      url: /frost/
+    - title: "Return to Crypto Stack"
+      url: /crypto-stack/
 oib:
   - title: OIB
     children:
@@ -262,4 +279,11 @@ ur:
       url: /ur/sskr/
     - title: "Return to UX Stack"
       url: /ux-stack/
+xid:
+  - title: Extensible Identifiers
+    children:
+    - title: "Go to Envelope"
+      url: /envelope/
+    - title: "Return to Core Stack"
+      url: /core-stack/
 
