@@ -26,6 +26,7 @@ The following example demonstrates a three-person (triadic) clique:
 <center>
   <img src="https://www.blockchaincommons.com/images/cliques/cliques-3.png" width="40%" height="40%">
 </center>
+<br>
 
 Three variations of clique can increase their power:
 
