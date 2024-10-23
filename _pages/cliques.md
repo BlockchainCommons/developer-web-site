@@ -51,15 +51,15 @@ From the start, self-sovereign identity was intended to be [about individuals in
 
 **Cliques:**
 
-* ["Edge Identifiers & Cliques" (2024)](https://www.blockchaincommons.com/musings/musings-cliques-1/)
-* ["Open & Fuzzy Cliques" (2024)](https://www.blockchaincommons.com/musings/musings-cliques-2/)
+* ["Edge Identifiers & Cliques" (2024)](https://www.blockchaincommons.com/musings/musings-cliques-1/) (Musings)
+* ["Open & Fuzzy Cliques" (2024)](https://www.blockchaincommons.com/musings/musings-cliques-2/) (Musings)
 
 **Schnorr:**
 
-* ["A Layperson's Intro to Schnorr" (2023)](https://www.blockchaincommons.com/musings/Schnorr-Intro/)
+* ["A Layperson's Intro to Schnorr" (2023)](https://www.blockchaincommons.com/musings/Schnorr-Intro/) (Musings)
 
 **Self-Sovereign Identity:**
 
-* ["The Path to Self-Sovereign Identity" (2016)](https://www.lifewithalacrity.com/article/the-path-to-self-soverereign-identity/)
-* ["Self-Sovereign Identity: Five Years On" (2021)](https://www.blockchaincommons.com/musings/SSI-5-Years-On/)
-* ["The Origins of Self-Soveriegn Identity" (2023)](https://www.blockchaincommons.com/musings/origins-SSI/)
+* ["The Path to Self-Sovereign Identity" (2016)](https://www.lifewithalacrity.com/article/the-path-to-self-soverereign-identity/) (Life with Alacrity)
+* ["Self-Sovereign Identity: Five Years On" (2021)](https://www.blockchaincommons.com/musings/SSI-5-Years-On/) (Musings)
+* ["The Origins of Self-Soveriegn Identity" (2023)](https://www.blockchaincommons.com/musings/origins-SSI/) (Musings)
