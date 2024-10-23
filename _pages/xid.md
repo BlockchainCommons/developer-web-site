@@ -16,7 +16,7 @@ sidebar:
 
 ## Overview
 
-The eXtensible IDentifier (XID) is an idea for how to use [Gordian Envelope](/envelope/) to create a DID-like method and perhaps more importantly how  to use dCBOR and Envelope to create a DID controller document. It is not necessarily conforming to the [DID spec](https://www.w3.org/TR/did-core/), but iy is inspired by the same needs and desires.
+The eXtensible IDentifier (XID) is an idea for how to use [Gordian Envelope](/envelope/) to create a DID-like method and perhaps more importantly how to use dCBOR and Envelope to create a DID controller document. It is not necessarily conforming to the [DID spec](https://www.w3.org/TR/did-core/), but it is inspired by the same needs and desires.
 
 Our initial presentation on XIDs was given at the October 22, 2024 meeting of the W3C Credentials Community Group (CCG). It suggests how to build a controller document using Gordian Envelope, desmonstrates how to elide that document, and reveals how to integrate with existing infrastructure.
 
@@ -37,15 +37,15 @@ Our initial presentation on XIDs was given at the October 22, 2024 meeting of th
   </tr>
 </table>
 
-We expect to expand on this topic more in the future! If you'd like to support it's development, please <a href="mailto:team@blockchaincommons.com">contact us</a>!
+We expect to expand on this topic more in the future! If you'd like to support its development, please <a href="mailto:team@blockchaincommons.com">contact us</a>!
 
 ## Why is XID Important?
 
-The main advantage of XIDs is that it allows for the **redaction** of content in a controller document. 
+The main advantage of XIDs is that they allow for the **redaction** of content in a controller document. 
 
-Currently, controller documents tend to include public keys and service endpoints. This is a great way to associate a variety of content into a singular identity. But the problem is that you may not want to publicly reveal all of that information. Public keys can create vulnerabilities when exposed and you may wish to divide different parts of your identity, to only be revealed to specific groups!
+Currently, controller documents tend to include public keys and service end-points. This is a great way to associate a variety of content into a singular identity. But you may not want to publicly reveal all of that information. Public keys can create vulnerabilities when exposed and you may wish to divide different parts of your identity, to only be revealed to specific groups!
 
-With Envelope-enabled controller documents you can still gather and validate all of your information as part of a singular identifier. But, you can elide most of it, most of the time, only revealing more private elements through inclusion proofs to specific groups. Your data remains organized and you don't have to manage a whole bunch of different identities, but at the same time, vulnerable material remains secure and private.
+With Envelope-enabled controller documents you can still gather and validate all of your information as part of a singular identifier. But, you can elide most of it most of the time, only revealing private elements through inclusion proofs to specific groups. Your data remains organized and you don't have to manage a whole bunch of different identities, but at the same time, vulnerable material remains secure and private.
 
 ## Links
 
