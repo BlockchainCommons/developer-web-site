@@ -16,6 +16,8 @@ sidebar:
 
 ## Overview
 
+<a href="/crypto-stack/"><img src="https://developer.blockchaincommons.com/assets/images/bc-stack-crypto-musig.png" style="margin-left: 20px; float: right" width="25%"></a>
+
 MuSig 2 is a simple two-round Schnorr multisig system. It's a signature scheme that is a notable improvement over Bitcoin's classic ECDSA-based multisign primarily due to its use of aggregation: multiple keys are "added" together to create a multisig, and the sum key is not just the same size as an individual key, but in fact indistiguishable from an individual key.
 
 MuSig was originally released in 2018, then updated in 2020 to reduce the required communication rounds from three to two, hence the name: MuSig 2.
