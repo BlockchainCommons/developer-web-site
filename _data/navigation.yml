@@ -230,6 +230,7 @@ lifehash:
       url: /ux-stack/
 musig:
   - title: MuSig 2
+    children:
     - title: "Go to FROST"
       url: /frost/
     - title: "Return to Crypto Stack"
