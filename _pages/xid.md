@@ -22,6 +22,8 @@ The eXtensible IDentifier (XID) is an idea for how to use [Gordian Envelope](/en
 
 Our initial presentation on XIDs was given at the October 22, 2024 meeting of the W3C Credentials Community Group (CCG). It suggests how to build a controller document using Gordian Envelope, desmonstrates how to elide that document, and reveals how to integrate with existing infrastructure.
 
+<br clear=all>
+
 <table width="100%">
   <tr>
     <td width="640px">
