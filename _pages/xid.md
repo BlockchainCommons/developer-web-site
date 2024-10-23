@@ -26,7 +26,7 @@ Our initial presentation on XIDs was given at the October 22, 2024 meeting of th
 
 <table width="100%">
   <tr>
-    <td width="640px">
+    <td width="50%">
       <b>Video [PENDING]:</b>
 
 {% include video id="XXXX" provider="youtube" %}
@@ -34,7 +34,7 @@ Our initial presentation on XIDs was given at the October 22, 2024 meeting of th
     </td>
   </tr>
   <tr>
-    <td width="640px">
+    <td width="50%">
       <b>Presentation:</b>
         <a href="/assets/pdfs/xid-intro.pdf"><img src="/assets/pdfs/xid-intro.jpg" style="border: solid 1px white;"></a>
     </td>
