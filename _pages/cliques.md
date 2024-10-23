@@ -19,12 +19,12 @@ sidebar:
 Traditionally, self-sovereign identity has focused on the Single Signature Paradigm: a unique private key is controlled by a unique individual (or entity), and that key is used to define the entity and to verify decision and commitments made by the entity. The cliques model instead recoqnizes identification as a relationship between two or more entities.
 
 * **Relational Edges** are created between any two entities, with a private key jointly created using a [Schnorr-based signature scheme](https://www.blockchaincommons.com/musings/Schnorr-Intro/), and with the corresponding public key identifying the edge. Decisions and commitments can then be made jointly by the two members, using the key.
-** **Cryptographic Cliques** (or closed cliques) are created after forming relational edges between *all* members of a group. The relational edges then jointly create a key pair that represents the clique as a whole.
+ **Cryptographic Cliques** (or closed cliques) are created after forming relational edges between *all* members of a group. The relational edges then jointly create a key pair that represents the clique as a whole.
 
 The following example demonstrates a three-person (triadic) clique:
 
 <center>
-  <img src="/images/cliques/cliques-3.png" width="40%" height="40%">
+  <img src="https://www.blockchaincommons.com/images/cliques/cliques-3.png" width="40%" height="40%">
 </center>
 
 Three variations of clique can increase their power:
