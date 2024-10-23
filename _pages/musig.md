@@ -32,7 +32,7 @@ The general advantages of Schnorr signatures, as described in ["A Layperson's In
 * Blind Signatures
 * Adapter Signatures 
 
-Unlike FROST, MuSig 2 does not support threshold signatures, except through the use of a supplement such as a Taproot tree. However, it does allow full accountability: an advantage of FROST is that you can keep private who signed in an m-of-n signature, in MuSig you always know exactly who signed.
+Unlike FROST, MuSig 2 does not support threshold signatures, except through the use of a supplement such as a Taproot tree. However, it can support full accountability: an advantage of FROST is that you can't prove who signed in an m-of-n signature, but in MuSig you  know exactly who signed if the public keys are available.
 
 ## Links
 
