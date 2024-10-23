@@ -16,6 +16,8 @@ sidebar:
 
 ## Overview
 
+<a href="/core-stack/"><img src="https://developer.blockchaincommons.com/assets/images/bc-stack-core-id.png" style="float: right; margin-left: 20px;" width="25%"></a>
+
 The eXtensible IDentifier (XID) is an idea for how to use [Gordian Envelope](/envelope/) to create a DID-like method and perhaps more importantly how to use dCBOR and Envelope to create a DID controller document. It is not necessarily conforming to the [DID spec](https://www.w3.org/TR/did-core/), but it is inspired by the same needs and desires.
 
 Our initial presentation on XIDs was given at the October 22, 2024 meeting of the W3C Credentials Community Group (CCG). It suggests how to build a controller document using Gordian Envelope, desmonstrates how to elide that document, and reveals how to integrate with existing infrastructure.
