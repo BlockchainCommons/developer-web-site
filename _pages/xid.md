@@ -51,5 +51,7 @@ With Envelope-enabled controller documents you can still gather and validate all
 
 * ["Gordian Envelope, Elision, and Controller Docs" Presentation](/assets/pdfs/xid-intro.pdf) (PDF)
 * ["Gordian Envelope, Elision, and Controller Docs" Video (Pending)]() (YouTube)
+* [Gordian Envelope pages](/envelope/)
 
-* [DIDs](https://www.w3.org/TR/did-core/) (W3C) 
+* [DID v1.0](https://www.w3.org/TR/did-core/) (W3C) 
+* [Controller Doc v1.0](https://www.w3.org/TR/controller-document/) (W3C)
