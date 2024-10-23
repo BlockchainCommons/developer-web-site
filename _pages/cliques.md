@@ -16,6 +16,8 @@ sidebar:
 
 ## Overview
 
+<a href="/core-stack/"><img src="https://developer.blockchaincommons.com/assets/images/bc-stack-core-id.png" style="float: right; margin-left: 20px;" width="25%"></a>
+
 Traditionally, self-sovereign identity has focused on the Single Signature Paradigm: a unique private key is controlled by a unique individual (or entity), and that key is used to define the entity and to verify decision and commitments made by the entity. The cliques model instead recoqnizes identification as a relationship between two or more entities.
 
 * **Relational Edges** are created between any two entities, with a private key jointly created using a [Schnorr-based signature scheme](https://www.blockchaincommons.com/musings/Schnorr-Intro/), and with the corresponding public key identifying the edge. Decisions and commitments can then be made jointly by the two members, using the key.
