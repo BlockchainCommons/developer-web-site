@@ -61,5 +61,5 @@ From the start, self-sovereign identity was intended to be [about individuals in
 **Self-Sovereign Identity:**
 
 * ["The Path to Self-Sovereign Identity" (2016)](https://www.lifewithalacrity.com/article/the-path-to-self-soverereign-identity/)
-* ["Self-Sovereign Identity: Five Years On (2021)"](https://www.blockchaincommons.com/musings/SSI-5-Years-On/)
+* ["Self-Sovereign Identity: Five Years On" (2021)](https://www.blockchaincommons.com/musings/SSI-5-Years-On/)
 * ["The Origins of Self-Soveriegn Identity" (2023)](https://www.blockchaincommons.com/musings/origins-SSI/)
