@@ -41,6 +41,8 @@ Our initial presentation on XIDs was given at the October 22, 2024 meeting of th
   </tr>
 </table>
 
+Also see the transcript on our [XID Presentation page](/xid/presentation/)
+
 We expect to expand on this topic more in the future! If you'd like to support its development, please <a href="mailto:team@blockchaincommons.com">contact us</a>!
 
 ## Why is XID Important?
