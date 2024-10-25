@@ -27,9 +27,9 @@ Our initial presentation on XIDs was given at the October 22, 2024 meeting of th
 <table width="100%">
   <tr>
     <td width="50%">
-      <b>Video [PENDING]:</b>
+      <b>Video:</b>
 
-{% include video id="XXXX" provider="youtube" %}
+{% include video id="k1iIO-bfVhM" provider="youtube" %}
 
     </td>
   </tr>
@@ -54,7 +54,7 @@ With Envelope-enabled controller documents you can still gather and validate all
 ## Links
 
 * ["Gordian Envelope, Elision, and Controller Docs" Presentation](/assets/pdfs/xid-intro.pdf) (PDF)
-* ["Gordian Envelope, Elision, and Controller Docs" Video (Pending)]() (YouTube)
+* ["Gordian Envelope, Elision, and Controller Docs" Video](https://www.youtube.com/watch?v=k1iIO-bfVhM) (YouTube)
 * [Gordian Envelope pages](/envelope/)
 
 * [DID v1.0](https://www.w3.org/TR/did-core/) (W3C) 
