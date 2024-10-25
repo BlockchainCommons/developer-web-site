@@ -256,9 +256,7 @@ Inclusion proofs can be generated later to reveal additional elided parts as nee
 Example of a DID with Gordian Envelope-elided services:
 
 ```plaintext
-"did
-
-:example:123456789abcdefghi" [
+"did:example:123456789abcdefghi" [
     'service': "https://example.com" [
         'isA': 'LinkedDomainsEndpoint'
         'salt': Salt
