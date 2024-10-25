@@ -33,7 +33,7 @@ sidebar:
   </tr>
 </table>
 
-## Transcript
+## Annotated Transcript
 
 ## Gordian Envelope, Elision, and Controller Documents
 
