@@ -1,19 +1,3 @@
----
-cover: false
-header:
-  overlay_color: "#000"
-  overlay_filter: "0.25"
-  overlay_image: /assets/images/dev-frost-background.jpg
-  og_image: /assets/images/bc-card.jpg
-title: "MuSig2 Sequence Diagrams"
-hide_description: true
-classes:
-  - wide
-permalink: /musig/seq-diag/
-sidebar:
-  nav: musig
----
-
 # MuSig2 Sequence Diagrams
 
 * **ABSTRACT:** This document provides sequence diagrams for the MuSig2 multisignature protocol, covering 2-of-2 multisig with direct peer-to-peer interaction and 3-of-3 multisig with a Coordinator. It integrates GSTP and ESC to ensure secure, trustless communication, offering a practical guide for implementing efficient, private, and secure multisig solutions.
@@ -122,7 +106,7 @@ In the **2-of-2 MuSig2 multisig process**, a **Coordinator is not required** bec
 
 The following diagram illustrates the 2-of-2 MuSig2 signing process, showing how Party A and Party B establish a secure connection, exchange their public keys and nonces, and complete the multisig process by combining their partial signatures.
 
-<pre><code class="language-mermaid">
+```mermaid
 sequenceDiagram
     participant Party A
     participant Party B
@@ -152,7 +136,7 @@ sequenceDiagram
     Party B->>Party A: [Final Signature B] encrypted with A⇔B key agreement
 
     Note left of Party A: MUSIG2 COMPLETE<br/>2-of-2 MuSig2 signing process finished
-</code></pre>
+```
 
 ---
 
