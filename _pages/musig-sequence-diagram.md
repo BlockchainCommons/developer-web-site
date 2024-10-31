@@ -2,7 +2,7 @@
 
 * **ABSTRACT:** This document provides sequence diagrams for the MuSig2 multisignature protocol, covering 2-of-2 multisig with direct peer-to-peer interaction and 3-of-3 multisig with a Coordinator. It integrates GSTP and ESC to ensure secure, trustless communication, offering a practical guide for implementing efficient, private, and secure multisig solutions.
 
-* **VERSION:** 0.1.1 (2024-05-05) - Initial Version Edited, Minor (for information on this versioning scheme, see [Status & Versioning](https://github.com/ChristopherA/Lists-of-High-Signal-Low-Noise-Links#status--versioning))
+* **VERSION:** 0.1.2 (2024-10-30) - Initial Version Edited, Minor (for information on this versioning scheme, see [Status & Versioning](https://github.com/ChristopherA/Lists-of-High-Signal-Low-Noise-Links#status--versioning))
 
 ## Table of Contents
 
