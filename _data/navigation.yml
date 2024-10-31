@@ -231,6 +231,8 @@ lifehash:
 musig:
   - title: MuSig 2
     children:
+    - title: "Sequence Diagram"
+      url: https://github.com/BlockchainCommons/developer-web-site/blob/master/_pages/musig-sequence-diagram.md
     - title: "Go to FROST"
       url: /frost/
     - title: "Return to Crypto Stack"
