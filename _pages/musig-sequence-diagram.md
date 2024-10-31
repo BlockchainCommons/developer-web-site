@@ -35,9 +35,11 @@ To enhance security and trustlessness, the document integrates [**GSTP (Gordian 
 **MuSig2** is a multisignature (multisig) protocol designed to allow multiple parties to collaborate in generating a single valid digital signature, even though each party has its own private key. MuSig2 improves upon earlier multisig protocols, offering greater **efficiency**, **security**, and **privacy**, particularly in situations requiring multi-party approvals (e.g., securing cryptocurrency transactions or authorizing joint decisions).
 
 Key advantages of MuSig2 include:
-- **Efficiency**: MuSig2 minimizes the number of interactions between signers, making it practical for real-world applications.
-- **Security**: It ensures that signatures cannot be forged or altered, even if a malicious party attempts manipulation.
-- **Privacy**: The protocol obfuscates which participants contributed to the signature, making it impossible to identify how many signers were involved.
+- **Scalability**: MuSig2 offers aggregated Schnorr signatures that are always the same size, whether they are a single signature or a multisignature.
+- **Efficiency**: Compared to FROST and certain other multisig systems, MuSig2 minimizes the number of interactions between signers to just two rounds, making it practical for real-world applications. 
+- **Security**: MuSig's nonce aggregation protects against the purposeful or accidental introduction of an insecure nonce from a single party.
+- **Privacy**: Signature aggregation means that non-participants can't tell if a signature is a single-sig or multi-sig. When used in Taproot trees to enable threshold signing, MuSig's privacy advantages can increase because some leaves of allowable signatures are hidden.
+- **Accountability**: Participants can choose to prove that they participated in a signature, something that is not trivially possible with FROST and certain other signature systems.
 
 For more technical details, you can refer to:
 - [BIP 327: MuSig2](https://github.com/bitcoin/bips/blob/master/bip-0327.mediawiki), the Bitcoin Improvement Proposal for the MuSig2 protocol.
@@ -113,7 +115,7 @@ sequenceDiagram
     Party A->>Party B: Establish authenticated connection<br/>via independent key agreement (e.g., TOFU)
     Party B->>Party A: Confirm key agreement and authenticated<br/>connection established {A⇔B Key Agreement}
 
-    Note left of Party A: Step 1: SIGNING KEY EXCHANGE<br/>Party A and Party B exchange signing public keys,<br/>encrypted using the key agreement previous established
+    Note left of Party A: Step 1: SIGNING KEY EXCHANGE<br/>Party A and Party B exchange signing public keys,<br/>encrypted using the key agreement previously established
     Party A->>Party B: [A's Public Key] encrypted with A⇔B key agreement
     Party B->>Party A: [B's Public Key] encrypted with A⇔B key agreement
 
@@ -178,7 +180,7 @@ sequenceDiagram
 
     Note over Party A, Coordinator: Step 0.2: Party A requests a <br/>3-party MuSig2 session
 
-    Party A->>Coordinator: Party A sends Coordinator 3:3 MuSig2 <br/>facilitation request and A's key agreement <br/>keys to be used introduce parties, <br/>(this request is encrypted with <br/>Coordinator⇔A key agreement)
+    Party A->>Coordinator: Party A sends Coordinator 3:3 MuSig2 <br/>facilitation request and A's key agreement <br/>keys to be used to introduce parties, <br/>(this request is encrypted with <br/>Coordinator⇔A key agreement)
 
     Note right of Coordinator: Step 0.3: Coordinator creates and sends <br/>single-use tokens for B and C, <br/>that introduce B & C to the coordinator, <br/>containing key agreement keys for each party, <br/>(this response is encrypted with <br/>Coordinator⇔A key agreement)
 
