@@ -122,7 +122,7 @@ In the **2-of-2 MuSig2 multisig process**, a **Coordinator is not required** bec
 
 The following diagram illustrates the 2-of-2 MuSig2 signing process, showing how Party A and Party B establish a secure connection, exchange their public keys and nonces, and complete the multisig process by combining their partial signatures.
 
-```mermaid
+<pre><code class="language-mermaid">
 sequenceDiagram
     participant Party A
     participant Party B
@@ -152,7 +152,7 @@ sequenceDiagram
     Party B->>Party A: [Final Signature B] encrypted with A⇔B key agreement
 
     Note left of Party A: MUSIG2 COMPLETE<br/>2-of-2 MuSig2 signing process finished
-```
+</code></pre>
 
 ---
 
