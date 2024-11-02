@@ -158,8 +158,6 @@ sequenceDiagram
 
   In summary, while the Coordinator is crucial for facilitating communication in the **3-of-3 MuSig2** multisig process, it remains **trustless** by not accessing sensitive data and focusing solely on routing messages and securely managing state transitions via **ESC**.
 
-To align the sequence diagram with MuSig2’s original design, where there should be only one round for nonce exchange (no separate nonce commitment round), I’ll remove the redundant nonce commitment step and consolidate the process as requested. Here’s the corrected sequence diagram:
-
 ### Sequence Diagram for 3-of-3 MuSig2 Setup with Trustless Coordinator Facilitation
 
 ```mermaid
