@@ -1,3 +1,19 @@
+---
+cover: false
+header:
+  overlay_color: "#000"
+  overlay_filter: "0.25"
+  overlay_image: /assets/images/dev-frost-background.jpg
+  og_image: /assets/images/bc-card.jpg
+title: "MuSig Sequence Diagrams"
+hide_description: true
+classes:
+  - wide
+permalink: /musig/sequence/
+sidebar:
+  nav: musig
+---
+
 <!DOCTYPE html>
 <html lang="en">
    <head>
