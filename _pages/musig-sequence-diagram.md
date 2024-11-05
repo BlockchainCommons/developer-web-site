@@ -1,10 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-   <head>
-    <script src="https://cdn.jsdelivr.net/npm/mermaid@11.4.0/dist/mermaid.min.js"></script>
-   </head>
-<body>
-  
 # MuSig2 Sequence Diagrams
 
 * **ABSTRACT:** This document provides sequence diagrams for the MuSig2 multisignature protocol, covering 2-of-2 multisig with direct peer-to-peer interaction and 3-of-3 multisig with a Coordinator. It integrates GSTP and ESC to ensure secure, trustless communication, offering a practical guide for implementing efficient, private, and secure multisig solutions.
