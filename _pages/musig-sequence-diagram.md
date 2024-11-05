@@ -1,3 +1,10 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+    <script src="https://cdn.jsdelivr.net/npm/mermaid@11.4.0/dist/mermaid.min.js"></script>
+   </head>
+<body>
+  
 ---
 cover: false
 header:
@@ -13,13 +20,6 @@ permalink: /musig/sequence/
 sidebar:
   nav: musig
 ---
-
-<!DOCTYPE html>
-<html lang="en">
-   <head>
-    <script src="https://cdn.jsdelivr.net/npm/mermaid@11.4.0/dist/mermaid.min.js"></script>
-   </head>
-<body>
 
 # MuSig2 Sequence Diagrams
 
