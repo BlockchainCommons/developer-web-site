@@ -9,7 +9,7 @@ title: "MuSig2 Sequence Diagrams"
 hide_description: true
 classes:
   - wide
-permalink: /musig/
+permalink: /musig/sequence/
 sidebar:
   nav: musig
 ---
