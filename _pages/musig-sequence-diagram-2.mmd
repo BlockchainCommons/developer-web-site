@@ -1,0 +1,37 @@
+sequenceDiagram
+    participant Alice
+    participant Bob
+    participant Verifier
+
+    Note left of Alice: Step 0: INDEPENDENT AUTHENTICATION <br/>AND KEY AGREEMENT
+    Alice->>Bob: Establish SESSION & ENCRYPTION (SE)<br/>via independent key agreement (e.g., TOFU)
+    Bob->>Alice: Confirm SESSION & ENCRYPTION (SE)
+
+    Note left of Alice: Step 1: SIGNING KEY EXCHANGE<br/>Exchange encrypted public keys
+    
+    Alice->>Bob: PARTIAL_PUBLIC_KEY_SE(Alice)
+    Bob->>Alice: PARTIAL_PUBLIC_KEY_SE(Bob)
+
+    Note over Alice, Bob: Step 1.3: PUBLIC KEY VERIFICATION<br/>Parties verify the public key
+
+    Note over Alice,Bob: Step 1.5: GROUP KEY CREATION<br>Parties create group public key
+    Bob->>Verifier: GROUP_PUBLIC_KEY
+    
+    Note left of Alice: Step 2: NONCE EXCHANGE<br/>Exchange encrypted nonces
+    Alice->>Bob: PUBLIC_NONCE_SE(Alice)
+    Bob->>Alice: PUBLIC_NONCE_SE(Bob)
+
+    Note over Alice, Bob: Step 2.3: NONCE VERIFICATION<br/>Parties verify the nonces
+
+    Note left of Alice: Step 3: PARTIAL SIGNATURES<br/>Exchange encrypted signatures
+    Alice->>Bob: PARTIAL_SIGNATURE_SE(Alice)
+    Bob->>Alice: PARTIAL_SIGNATURE_SE(Bob)
+
+    Note over Alice, Bob:  Step 3.3: SIGNATURE VERIFICATION<br/>Parties verify the partial signatures
+
+Note left of Alice: Step 4: FINAL SIGNATURE AGGREGATION<br/>Aggregate the final signature<br>Compute signed message
+    Bob->>Verifier: SIGNED_MESSAGE
+
+    Note over Verifier: VERIFY SIGNED MESSAGE
+
+    Note left of Alice: STEP Ω: MUSIG2 COMPLETE<br/>2-of-2 MuSig2 signing  finished
