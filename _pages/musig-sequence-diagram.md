@@ -106,36 +106,45 @@ In the **2-of-2 MuSig2 multisig process**, a **Coordinator is not required** bec
 
 The following diagram illustrates the 2-of-2 MuSig2 signing process, showing how Party A and Party B establish a secure connection, exchange their public keys and nonces, and complete the multisig process by combining their partial signatures.
 
+
 ```mermaid
 sequenceDiagram
-    participant Party A
-    participant Party B
+    participant Alice
+    participant Bob
+    participant Verifier
 
-    Note left of Party A: Step 0: INDEPENDENT AUTHENTICATION <br/>AND KEY AGREEMENT<br/>Party A and Party B authenticate<br/>and establish a key agreement
-    Party A->>Party B: Establish authenticated connection<br/>via independent key agreement (e.g., TOFU)
-    Party B->>Party A: Confirm key agreement and authenticated<br/>connection established {A⇔B Key Agreement}
+    Note left of Alice: Step 0: INDEPENDENT AUTHENTICATION <br/>AND KEY AGREEMENT
+    Alice->>Bob: Establish SESSION & ENCRYPTION (SE)<br/>via independent key agreement (e.g., TOFU)
+    Bob->>Alice: Confirm SESSION & ENCRYPTION (SE)
 
-    Note left of Party A: Step 1: SIGNING KEY EXCHANGE<br/>Party A and Party B exchange signing public keys,<br/>encrypted using the key agreement previously established
-    Party A->>Party B: [A's Public Key] encrypted with A⇔B key agreement
-    Party B->>Party A: [B's Public Key] encrypted with A⇔B key agreement
+    Note left of Alice: Step 1: SIGNING KEY EXCHANGE<br/>Exchange encrypted public keys
+    
+    Alice->>Bob: PARTIAL_PUBLIC_KEY_SE(Alice)
+    Bob->>Alice: PARTIAL_PUBLIC_KEY_SE(Bob)
 
-    Note left of Party A: Step 2: NONCE EXCHANGE<br/>Both parties exchange nonces directly,<br/>encrypted using the key agreement
-    Party A->>Party B: [A's Nonce] encrypted with A⇔B key agreement
-    Party B->>Party A: [B's Nonce] encrypted with A⇔B key agreement
+    Note over Alice, Bob: Step 1.3: PUBLIC KEY VERIFICATION<br/>Parties verify the public key
 
-    Note over Party A, Party B: OPERATIONS BEFORE PARTIAL SIGNATURES<br/>Both parties verify the nonces<br/>of the other party before proceeding<br/>with partial signatures.
+    Note over Alice,Bob: Step 1.5: GROUP KEY CREATION<br>Parties create group public key
+    Bob->>Verifier: GROUP_PUBLIC_KEY
+    
+    Note left of Alice: Step 2: NONCE EXCHANGE<br/>Exchange encrypted nonces
+    Alice->>Bob: PUBLIC_NONCE_SE(Alice)
+    Bob->>Alice: PUBLIC_NONCE_SE(Bob)
 
-    Note left of Party A: Step 3: PARTIAL SIGNATURES<br/>Both parties generate and<br/>exchange partial signatures,<br/>encrypted using the key agreement
-    Party A->>Party B: [A's Partial Signature] encrypted with A⇔B key agreement
-    Party B->>Party A: [B's Partial Signature] encrypted with A⇔B key agreement
+    Note over Alice, Bob: Step 2.3: NONCE VERIFICATION<br/>Parties verify the nonces
 
-    Note over Party A, Party B:  OPERATIONS BEFORE FINAL SIGNATURE AGGREGATION<br/>Both parties verify the partial signatures<br/>before aggregating the final signature.
+    Note left of Alice: Step 3: PARTIAL SIGNATURES<br/>Exchange encrypted signatures
+    Alice->>Bob: PARTIAL_SIGNATURE_SE(Alice)
+    Bob->>Alice: PARTIAL_SIGNATURE_SE(Bob)
 
-    Note left of Party A: Step 4: FINAL SIGNATURE AGGREGATION<br/>Both parties aggregate the final<br/>signature after verification,<br/>encrypted using the key agreement
-    Party A->>Party B: [Final Signature A] encrypted with A⇔B key agreement
-    Party B->>Party A: [Final Signature B] encrypted with A⇔B key agreement
+    Note over Alice, Bob:  Step 3.3: SIGNATURE VERIFICATION<br/>Parties verify the partial signatures
 
-    Note left of Party A: MUSIG2 COMPLETE<br/>2-of-2 MuSig2 signing process finished
+Note left of Alice: Step 4: FINAL SIGNATURE AGGREGATION<br/>Aggregate the final signature<br>Compute signed message
+    Bob->>Verifier: SIGNED_MESSAGE
+
+    Note over Verifier: VERIFY SIGNED MESSAGE
+
+    Note left of Alice: STEP Ω: MUSIG2 COMPLETE<br/>2-of-2 MuSig2 signing  finished
 ```
 
 ---
@@ -163,146 +172,79 @@ sequenceDiagram
 ```mermaid
 sequenceDiagram
     participant Coordinator
-    participant Party A
-    participant Party B
-    participant Party C
-    Note left of Coordinator: Step 0: INDEPENDENT AUTHENTICATION<br/>AND KEY AGREEMENT <br/>Parties authenticate and establish <br/>key agreement to request <br/>MuSig2 facilitation.
+    participant Alice
+    participant Bob
+    participant Carol
+    participant Verifier
+        Note left of Coordinator: Step 0: INDEPENDENT AUTHENTICATION <br/>AND KEY AGREEMENT
 
-    Note over Party A, Coordinator: Step 0.1: Party A initiates a <br/>request for key agreement <br/>with the Coordinator.
+    Note over Alice, Coordinator: Step 0.1: SESSION REQUEST
 
-    Party A->>Coordinator: Request TOFU key agreement <br/>with Coordinator
+    Alice->>Coordinator: Request SESSION
 
-    Coordinator->>Party A: TOFU key agreement established <br/>Coordinator⇔A
- 
-    Note right of Party A: Party A verifies the Coordinator’s <br/>authenticity via TOFU
+    Coordinator->>Alice: Establish SESSION
+        
+    Note right of Alice: Alice verifies Coordinator
 
-    Note over Party A, Coordinator: Step 0.2: Party A requests a <br/>3-party MuSig2 session
+    Note over Alice, Coordinator: Step 0.2: SESSION ESTABLISHMENT
 
-    Party A->>Coordinator: Party A sends Coordinator 3:3 MuSig2 <br/>facilitation request and A's key agreement <br/>keys to be used to introduce parties, <br/>(this request is encrypted with <br/>Coordinator⇔A key agreement)
-
-    Note right of Coordinator: Step 0.3: Coordinator creates and sends <br/>single-use tokens for B and C, <br/>that introduce B & C to the coordinator, <br/>containing key agreement keys for each party, <br/>(this response is encrypted with <br/>Coordinator⇔A key agreement)
-
-    Coordinator->>Party A: Sends Party A tokens for <br/>Parties B and C 
+    Alice->>Coordinator: Establish PARTICIPANTS & ENCRYPTION
+    Coordinator->>Bob: Establish SESSION & ENCRYPTION (SE)
+    Coordinator->>Carol: Establish SESSION & ENCRYPTION (SE)
     
-    Note over Party A, Party C: Step 0.4: Party A distributes single-use tokens <br/>to Parties B and C
+    Note over Bob, Carol: Bob & Carol verify everything
 
-    Party A->>Party B: Send single-use token for <br/>Party B out-of band (signal, nostr, etc.)
+    Note left of Coordinator: Step 1: SIGNING KEY EXCHANGE<br/>Exchange encrypted public keys
 
-    Party A->>Party C: Send single-use token for <br/>Party C out-of band (signal, nostr, etc.)
+    Note over Alice,Coordinator: Step 1.1: PUBLIC KEY COLLECTION
 
-    Note over Party B, Party C: Step 0.5: Actions for Parties B <br/>and C to authenticate with <br/>the Coordinator
+    Alice->>Coordinator: PARTIAL_PUBLIC_KEY_SE(Alice)
+    Bob->>Coordinator: PARTIAL_PUBLIC_KEY_SE(Bob)
+    Carol->>Coordinator: PARTIAL_PUBLIC_KEY_SE(Carol)
 
-    Note over Party B, Coordinator: Step 0.6: Party B uses token to <br/>authenticate and establish <br/>key agreement
+    Note over Alice,Coordinator: Step 1.2: PUBLIC KEY DISTRIBUTION<br>(messages combined for brevity)
 
-    Party B->>Coordinator: Establish key agreement <br/>using token 
+    Coordinator->>Alice: PARTIAL_PUBLIC_KEY_SE(Bob,Carol)
+    Coordinator->>Bob: PARTIAL_PUBLIC_KEY_SE(Alice,Carol)
+    Coordinator->>Carol: PARTIAL_PUBLIC_KEY_SE(Bob,Carol)
 
-    Coordinator->>Party B: TOFU Key agreement established <br/>Coordinator⇔B
+    Note over Alice, Coordinator: Step 1.3: PUBLIC KEY VERIFICATION<br/>Parties verify the public key
 
-    Note over Party C, Coordinator: Step 0.6: Party C uses token to <br/>authenticate and establish <br/>key agreement
-
-    Party C->>Coordinator: Establish key agreement <br/>using token 
-
-    Coordinator->>Party C: TOFU key agreement established <br/>Coordinator⇔C
-
-    Note right of Coordinator: Step 0.7: Coordinator verifies single-use tokens, <br/>confirms key agreements exist for all parties, <br/>and MuSig2 process setup is ready to proceed.
-
-    Note left of Coordinator: Step 1: SIGNING KEY EXCHANGE <br/>parties exchange public keys, <br/>encrypted using key agreement
-
-    Note right of Coordinator: Step 1.1: Coordinator passes <br/>encrypted public keys <br/>between parties <br/>(all P2P encrypted with Coordinator<⇔Party key <br/>agreements--however Coordinator can't decrypt any of <br/>the Parties's shared public keys).
-
-    Party A->>Coordinator: A’s Public Key encrypted <br/>with A⇔B key agreement 
+    Note over Alice,Coordinator: Step 1.5: GROUP KEY CREATION<br>Parties create group public key
+    Carol->>Verifier: GROUP_PUBLIC_KEY
     
-    Party A->>Coordinator: A’s Public Key encrypted <br/>with A⇔C key agreement 
-
-    Party B->>Coordinator: B’s Public Key encrypted <br/>with B⇔A key agreement 
+    Note left of Coordinator: Step 2: NONCE EXCHANGE<br/>Exchange encrypted nonces
     
-    Party B->>Coordinator: B’s Public Key encrypted <br/>with B⇔C key agreement 
+    Alice->>Coordinator: PUBLIC_NONCE_SE(Alice)
+    Bob->>Coordinator: PUBLIC_NONCE_SE(Bob)
+    Carol->>Coordinator: PUBLIC_NONCE_SE(Carol)
 
-    Party C->>Coordinator: C’s Public Key encrypted <br/>with C⇔A key agreement 
+    Coordinator->>Alice: PUBLIC_NONCE_SE(Bob, Carol)
+    Coordinator->>Bob: PUBLIC_NONCE_SE(Alice, Carol)
+    Coordinator->>Carol: PUBLIC_NONCE_SE(Alice, Bob)
 
-    Party C->>Coordinator: C’s Public Key encrypted <br/>with C⇔B key agreement 
+    Note over Alice, Coordinator: Step 2.3: NONCE VERIFICATION<br/>Parties verify the nonces
 
-    Note over Party A, Party C: Step 1.2: Each party verifies <br/>others’ public keys before proceeding.
+    Note left of Coordinator: Step 3: PARTIAL SIGNATURES<br/>Exchange encrypted signatures
 
-    Note left of Coordinator: Step 2: NONCE COMMITMENT <br/>Parties exchange nonce commitments,<br/>encrypted using the key agreement
-  
-    Note right of Coordinator: Step 2.1: Coordinator passes <br/>encrypted nonces between <br/>parties
+    Alice->>Coordinator: PUBLIC_SIGNATURE_SE(Alice)
+    Bob->>Coordinator: PUBLIC_SIGNATURE_SE(Bob)
+    Carol->>Coordinator: PUBLIC_SIGNATURE_SE(Carol)
 
-    Party A->>Coordinator: A’s Nonce encrypted <br/>with A⇔B 
+    Coordinator->>Alice: PUBLIC_SIGNATURE_SE(Bob, Carol)
+    Coordinator->>Bob: PUBLIC_SIGNATURE_SE(Alice, Carol)
+    Coordinator->>Carol: PUBLIC_SIGNATURE_SE(Alice, Bob)
 
-    Party A->>Coordinator: A’s Nonce encrypted <br/>with A⇔C 
 
-    Party B->>Coordinator: B’s Nonce encrypted <br/>with B⇔A 
+    Note over Alice, Coordinator:  Step 3.3: SIGNATURE VERIFICATION<br/>Parties verify the partial signatures
 
-    Party B->>Coordinator: B’s Nonce encrypted <br/>with B⇔C 
+    Note left of Coordinator: Step 4: FINAL SIGNATURE AGGREGATION<br/>Aggregate the final signature<br>Compute signed message
+    Carol->>Verifier: SIGNED_MESSAGE
 
-    Party C->>Coordinator: C’s Nonce encrypted <br/>with C⇔A 
+    Note over Verifier: VERIFY SIGNED MESSAGE
 
-    Party C->>Coordinator: C’s Nonce encrypted <br/>with C⇔B 
+    Note left of Coordinator: STEP Ω: MUSIG2 COMPLETE<br/>3-of-3 MuSig2 signing  finished
 
-    Note over Party A, Party C: Step 2.2: All parties verify <br/>each other’s nonces before signing.
-
-    Note left of Coordinator: Step 3: PARTIAL SIGNATURE EXCHANGE <br/>After verifying nonce commitments, <br/>the parties exchange partial signatures, <br/>(encrypted using their peer key agreements)
-
-    Note right of Coordinator: Step 3.1: Coordinator passes <br/>P2P encrypted partial signatures. <br/>(The Coordinator can't decrypt any of <br/>the parties's shared partial signatures.)
-
-    Party A->>Coordinator: A’s Partial Signature <br/>encrypted with A⇔B 
-    
-    Coordinator->>Party B: A’s Partial Signature 
-
-    Party A->>Coordinator: A’s Partial Signature <br/>encrypted with A⇔C 
-    
-    Coordinator->>Party C: A’s Partial Signature 
-
-    Party B->>Coordinator: B’s Partial Signature <br/>encrypted with B⇔A
-    
-    Coordinator->>Party A: B’s Partial Signature 
-
-    Party B->>Coordinator: B’s Partial Signature <br/>encrypted with B⇔C 
-
-    Coordinator->>Party C: B’s Partial Signature
-
-    Party C->>Coordinator: C’s Partial Signature <br/>encrypted with C⇔A 
-
-    Coordinator->>Party A: C’s Partial Signature
-
-    Party C->>Coordinator: C’s Partial Signature <br/>encrypted with C⇔B
-
-    Coordinator->>Party B: C’s Partial Signature 
-
-    Note over Party A, Party C: Step 3.2: Parties verify all <br/>partial signatures before aggregation.
-
-    Note left of Coordinator: Step 4: SIGNATURE AGGREGATION <br/>After verifying partial signatures, <br/>the parties aggregate signatures, <br/>(encrypted using their peer key agreements)
-
-    Note right of Coordinator: Step 4.1: The coordinator passes P2P encrypted <br/>final signatures for aggregation. <br/>(The Coordinator can't decrypt any of <br/>the parties's shared partial signatures.)
-    
-    Party A->>Coordinator: A’s Final aggregated signature <br/>(encrypted with A⇔B)
-    
-    Coordinator->>Party B: A’s Final aggregated signature <br/>Returned
-
-    Party A->>Coordinator: A’s Final aggregated signature <br/>(encrypted with A⇔C )
-    
-    Coordinator->>Party C: A’s Final aggregated signature <br/>Returned
-
-    Party B->>Coordinator: B’s Final aggregated signature <br/>(encrypted with B⇔A)
-    
-    Coordinator->>Party A: B’s Final aggregated signature <br/>Returned
-
-    Party B->>Coordinator: B’s Final aggregated signature <br/> (encrypted with B⇔C)
-
-    Coordinator->>Party C: B’s Final aggregated signature <br/>Returned
-
-    Party C->>Coordinator: C’s Final aggregated signature <br/>(encrypted with C⇔A)
-
-    Coordinator->>Party A: C’s Final aggregated signature <br/>Returned
-
-    Party C->>Coordinator: C’s Final aggregated signature <br/>(encrypted with C⇔B)
-
-    Coordinator->>Party B: C’s Final aggregated <br/>signature Returned
-
-    Note over Party A, Party C: Step 4.2: The parties verify that <br/>the final aggregated signatures <br/>from all other parties match
-
-    Note left of Coordinator: MUSIG2 FACILITATION COMPLETE
 ```
 ---
 
