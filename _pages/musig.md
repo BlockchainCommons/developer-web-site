@@ -57,7 +57,7 @@ MuSig2 focuses on simplicity and compactness but does not support native thresho
 
 ## Links
 
-* [MuSig Sequence Diagrams](https://github.com/BlockchainCommons/developer-web-site/blob/master/_pages/musig-sequence-diagram.md) (GitHub)
+* [MuSig Sequence Diagrams](/musig/sequence/)
 * [MuSig2: Simple Two-Round Schnorr Multisignatures](https://medium.com/blockstream/musig2-simple-two-round-schnorr-multisignatures-bf9582e99295) (Medium article)
   * [MuSig2: Simple Two-Round Schnorr Multi-Signatures](https://eprint.iacr.org/2020/1261.pdf) (eprint PDF)
 * [MuSig-DN: Schnorr Multisignatures with Verifiably Deterministic Nonces](https://medium.com/blockstream/musig-dn-schnorr-multisignatures-with-verifiably-deterministic-nonces-27424b5df9d6) (Medium article)
