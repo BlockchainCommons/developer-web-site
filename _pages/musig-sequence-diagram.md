@@ -1,8 +1,22 @@
-# MuSig2 Sequence Diagrams
+---
+cover: false
+header:
+  overlay_color: "#000"
+  overlay_filter: "0.25"
+  overlay_image: /assets/images/dev-frost-background.jpg
+  og_image: /assets/images/bc-card.jpg
+title: "MuSig2 Sequence Diagrams"
+hide_description: true
+classes:
+  - wide
+permalink: /musig/
+sidebar:
+  nav: musig
+---
 
-* **ABSTRACT:** This document provides sequence diagrams for the MuSig2 multisignature protocol, covering 2-of-2 multisig with direct peer-to-peer interaction and 3-of-3 multisig with a Coordinator. It integrates GSTP and ESC to ensure secure, trustless communication, offering a practical guide for implementing efficient, private, and secure multisig solutions.
+> * **ABSTRACT:** This document provides sequence diagrams for the MuSig2 multisignature protocol, covering 2-of-2 multisig with direct peer-to-peer interaction and 3-of-3 multisig with a Coordinator. It integrates GSTP and ESC to ensure secure, trustless communication, offering a practical guide for implementing efficient, private, and secure multisig solutions.
 
-* **VERSION:** 0.1.2 (2024-10-30) - Initial Version Edited, Minor (for information on this versioning scheme, see [Status & Versioning](https://github.com/ChristopherA/Lists-of-High-Signal-Low-Noise-Links#status--versioning))
+> * **VERSION:** 0.1.2 (2024-10-30) - Initial Version Edited, Minor (for information on this versioning scheme, see [Status & Versioning](https://github.com/ChristopherA/Lists-of-High-Signal-Low-Noise-Links#status--versioning))
 
 ## Table of Contents
 
@@ -106,46 +120,7 @@ In the **2-of-2 MuSig2 multisig process**, a **Coordinator is not required** bec
 
 The following diagram illustrates the 2-of-2 MuSig2 signing process, showing how Party A and Party B establish a secure connection, exchange their public keys and nonces, and complete the multisig process by combining their partial signatures.
 
-
-```mermaid
-sequenceDiagram
-    participant Alice
-    participant Bob
-    participant Verifier
-
-    Note left of Alice: Step 0: INDEPENDENT AUTHENTICATION <br/>AND KEY AGREEMENT
-    Alice->>Bob: Establish SESSION & ENCRYPTION (SE)<br/>via independent key agreement (e.g., TOFU)
-    Bob->>Alice: Confirm SESSION & ENCRYPTION (SE)
-
-    Note left of Alice: Step 1: SIGNING KEY EXCHANGE<br/>Exchange encrypted public keys
-    
-    Alice->>Bob: PARTIAL_PUBLIC_KEY_SE(Alice)
-    Bob->>Alice: PARTIAL_PUBLIC_KEY_SE(Bob)
-
-    Note over Alice, Bob: Step 1.3: PUBLIC KEY VERIFICATION<br/>Parties verify the public key
-
-    Note over Alice,Bob: Step 1.5: GROUP KEY CREATION<br>Parties create group public key
-    Bob->>Verifier: GROUP_PUBLIC_KEY
-    
-    Note left of Alice: Step 2: NONCE EXCHANGE<br/>Exchange encrypted nonces
-    Alice->>Bob: PUBLIC_NONCE_SE(Alice)
-    Bob->>Alice: PUBLIC_NONCE_SE(Bob)
-
-    Note over Alice, Bob: Step 2.3: NONCE VERIFICATION<br/>Parties verify the nonces
-
-    Note left of Alice: Step 3: PARTIAL SIGNATURES<br/>Exchange encrypted signatures
-    Alice->>Bob: PARTIAL_SIGNATURE_SE(Alice)
-    Bob->>Alice: PARTIAL_SIGNATURE_SE(Bob)
-
-    Note over Alice, Bob:  Step 3.3: SIGNATURE VERIFICATION<br/>Parties verify the partial signatures
-
-Note left of Alice: Step 4: FINAL SIGNATURE AGGREGATION<br/>Aggregate the final signature<br>Compute signed message
-    Bob->>Verifier: SIGNED_MESSAGE
-
-    Note over Verifier: VERIFY SIGNED MESSAGE
-
-    Note left of Alice: STEP Ω: MUSIG2 COMPLETE<br/>2-of-2 MuSig2 signing  finished
-```
+![](https://developer.blockchaincommons.com/assets/mermaid/musig-2.png)
 
 ---
 
@@ -169,83 +144,8 @@ Note left of Alice: Step 4: FINAL SIGNATURE AGGREGATION<br/>Aggregate the final 
 
 ### Sequence Diagram for 3-of-3 MuSig2 Setup with Trustless Coordinator Facilitation
 
-```mermaid
-sequenceDiagram
-    participant Coordinator
-    participant Alice
-    participant Bob
-    participant Carol
-    participant Verifier
-        Note left of Coordinator: Step 0: INDEPENDENT AUTHENTICATION <br/>AND KEY AGREEMENT
+![](https://developer.blockchaincommons.com/assets/mermaid/musig-3.png)
 
-    Note over Alice, Coordinator: Step 0.1: SESSION REQUEST
-
-    Alice->>Coordinator: Request SESSION
-
-    Coordinator->>Alice: Establish SESSION
-        
-    Note right of Alice: Alice verifies Coordinator
-
-    Note over Alice, Coordinator: Step 0.2: SESSION ESTABLISHMENT
-
-    Alice->>Coordinator: Establish PARTICIPANTS & ENCRYPTION
-    Coordinator->>Bob: Establish SESSION & ENCRYPTION (SE)
-    Coordinator->>Carol: Establish SESSION & ENCRYPTION (SE)
-    
-    Note over Bob, Carol: Bob & Carol verify everything
-
-    Note left of Coordinator: Step 1: SIGNING KEY EXCHANGE<br/>Exchange encrypted public keys
-
-    Note over Alice,Coordinator: Step 1.1: PUBLIC KEY COLLECTION
-
-    Alice->>Coordinator: PARTIAL_PUBLIC_KEY_SE(Alice)
-    Bob->>Coordinator: PARTIAL_PUBLIC_KEY_SE(Bob)
-    Carol->>Coordinator: PARTIAL_PUBLIC_KEY_SE(Carol)
-
-    Note over Alice,Coordinator: Step 1.2: PUBLIC KEY DISTRIBUTION<br>(messages combined for brevity)
-
-    Coordinator->>Alice: PARTIAL_PUBLIC_KEY_SE(Bob,Carol)
-    Coordinator->>Bob: PARTIAL_PUBLIC_KEY_SE(Alice,Carol)
-    Coordinator->>Carol: PARTIAL_PUBLIC_KEY_SE(Bob,Carol)
-
-    Note over Alice, Coordinator: Step 1.3: PUBLIC KEY VERIFICATION<br/>Parties verify the public key
-
-    Note over Alice,Coordinator: Step 1.5: GROUP KEY CREATION<br>Parties create group public key
-    Carol->>Verifier: GROUP_PUBLIC_KEY
-    
-    Note left of Coordinator: Step 2: NONCE EXCHANGE<br/>Exchange encrypted nonces
-    
-    Alice->>Coordinator: PUBLIC_NONCE_SE(Alice)
-    Bob->>Coordinator: PUBLIC_NONCE_SE(Bob)
-    Carol->>Coordinator: PUBLIC_NONCE_SE(Carol)
-
-    Coordinator->>Alice: PUBLIC_NONCE_SE(Bob, Carol)
-    Coordinator->>Bob: PUBLIC_NONCE_SE(Alice, Carol)
-    Coordinator->>Carol: PUBLIC_NONCE_SE(Alice, Bob)
-
-    Note over Alice, Coordinator: Step 2.3: NONCE VERIFICATION<br/>Parties verify the nonces
-
-    Note left of Coordinator: Step 3: PARTIAL SIGNATURES<br/>Exchange encrypted signatures
-
-    Alice->>Coordinator: PUBLIC_SIGNATURE_SE(Alice)
-    Bob->>Coordinator: PUBLIC_SIGNATURE_SE(Bob)
-    Carol->>Coordinator: PUBLIC_SIGNATURE_SE(Carol)
-
-    Coordinator->>Alice: PUBLIC_SIGNATURE_SE(Bob, Carol)
-    Coordinator->>Bob: PUBLIC_SIGNATURE_SE(Alice, Carol)
-    Coordinator->>Carol: PUBLIC_SIGNATURE_SE(Alice, Bob)
-
-
-    Note over Alice, Coordinator:  Step 3.3: SIGNATURE VERIFICATION<br/>Parties verify the partial signatures
-
-    Note left of Coordinator: Step 4: FINAL SIGNATURE AGGREGATION<br/>Aggregate the final signature<br>Compute signed message
-    Carol->>Verifier: SIGNED_MESSAGE
-
-    Note over Verifier: VERIFY SIGNED MESSAGE
-
-    Note left of Coordinator: STEP Ω: MUSIG2 COMPLETE<br/>3-of-3 MuSig2 signing  finished
-
-```
 ---
 
 ## Conclusion
