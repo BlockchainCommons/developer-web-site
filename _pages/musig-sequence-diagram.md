@@ -120,7 +120,7 @@ In the **2-of-2 MuSig2 multisig process**, a **Coordinator is not required** bec
 
 The following diagram illustrates the 2-of-2 MuSig2 signing process, showing how Party A and Party B establish a secure connection, exchange their public keys and nonces, and complete the multisig process by combining their partial signatures.
 
-<a href="ttps://developer.blockchaincommons.com/assets/mermaid/musig-2.png"><img src="ttps://developer.blockchaincommons.com/assets/mermaid/musig-2.png"></a>
+<a href="https://developer.blockchaincommons.com/assets/mermaid/musig-2.png"><img src="https://developer.blockchaincommons.com/assets/mermaid/musig-2.png"></a>
 
 ---
 
@@ -144,7 +144,7 @@ The following diagram illustrates the 2-of-2 MuSig2 signing process, showing how
 
 ### Sequence Diagram for 3-of-3 MuSig2 Setup with Trustless Coordinator Facilitation
 
-<a href="ttps://developer.blockchaincommons.com/assets/mermaid/musig-3.png"><img src="ttps://developer.blockchaincommons.com/assets/mermaid/musig-3.png"></a>
+<a href="https://developer.blockchaincommons.com/assets/mermaid/musig-3.png"><img src="https://developer.blockchaincommons.com/assets/mermaid/musig-3.png"></a>
 
 ---
 
