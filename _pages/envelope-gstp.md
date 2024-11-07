@@ -74,6 +74,14 @@ See the [GSTP technical overview](/envelope/gstp/tech/) or the following video f
 
     </td>    
   </tr>
+  <tr>
+    <td width="640px">
+      <b>MuSig & GSTP:</b>
+
+  {% include video id="FaNypFsGczg" provider="youtube" %}
+
+    </td>    
+  </tr>
 </table>  
 
 _See the [Gordian Envelope playlist](https://www.youtube.com/playlist?list=PLCkrqxOY1FbooYwJ7ZhpJ_QQk8Az1aCnG) for more._
@@ -98,3 +106,7 @@ _See the [Gordian Envelope playlist](https://www.youtube.com/playlist?list=PLCkr
 * [**Gordian Depository**](https://github.com/BlockchainCommons/bc-depo-rust)
 * [**Gordian Depository API**](https://github.com/BlockchainCommons/bc-depo-api-rust)
 * [**bc-envelope-cli-rust**](https://github.com/BlockchainCommons/bc-envelope-cli-rust)
+
+**MuSig Use Cases:**
+
+* [**MuSig & GSTP](https://www.youtube.com/watch?v=FaNypFsGczg)
