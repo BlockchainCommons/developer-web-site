@@ -38,6 +38,23 @@ Three variations of clique can increase their power:
  
 The _Musings_ articles, ["Edge Identifiers & Cliques"](https://www.blockchaincommons.com/musings/musings-cliques-1/) and ["Open & Fuzzy Cliques"](https://www.blockchaincommons.com/musings/musings-cliques-2/) give far more details on these foundational descriptions of cryptographic cliques.
 
+<center>
+<table width="100%">
+  <tr>
+    <td width="50%">
+      <b>Cliques Video:</b>
+
+{% include video id="EFHvyrUj7Kk" provider="youtube" %}
+
+    </td>
+    <td width="50%">
+      <b>Cliques Presentation:</b>
+        <a href="https://developer.blockchaincommons.com/assets/pdfs/cliques.pdf"><img src="/assets/pdfs/cliques.jpg" style="border: solid 1px white;"></a>
+    </td>
+  </tr>
+</table>
+</center>
+  
 ## Why Are Cliques Important?
 
 Cliques recognize identification as a fundamentally relational activity. As such, they create the opportunity to model identity with a totally new eye, avoiding many of the pitfalls of traditional identity. Other advantages that are detailed in ["Edge Identifiers & Cliques"](https://www.blockchaincommons.com/musings/musings-cliques-1/#conclusion) include:
