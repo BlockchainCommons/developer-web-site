@@ -32,6 +32,7 @@ sidebar:
 - [MuSig2 3-of-3 Multisig with Coordinator Facilitation](#musig2-3-of-3-multisig-with-coordinator-facilitation)
   - [Trustless Coordinator Assumptions](#trustless-coordinator-assumptions)
   - [Sequence Diagram](#sequence-diagram-1)
+- [Video](#video)
 - [Conclusion](#conclusion)
 
 ---
@@ -147,6 +148,10 @@ The following diagram illustrates the 2-of-2 MuSig2 signing process, showing how
 <a href="https://developer.blockchaincommons.com/assets/mermaid/musig-3.png"><img src="https://developer.blockchaincommons.com/assets/mermaid/musig-3.png"></a>
 
 ---
+
+## Video
+
+{% include video id="FaNypFsGczg" provider="youtube" %}
 
 ## Conclusion
 
