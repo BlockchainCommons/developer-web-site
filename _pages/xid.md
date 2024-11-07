@@ -26,16 +26,30 @@ Our initial presentation on XIDs was given at the October 22, 2024 meeting of th
 
 <table width="100%">
   <tr>
-    <td width="50%">
-      <b>Video:</b>
+    <td width="45%">
+      <b>XID Video:</b>
+
+{% include video id="lKVp5WzBZD4" provider="youtube" %}
+
+    </td>
+  </tr>
+  <tr>
+    <td width="45%">
+      <b>XID Presentation:</b>
+        <a href="https://developer.blockchaincommons.com/assets/pdfs/xids.pdf"><img src="/assets/pdfs/xids.jpg" style="border: solid 1px white;"></a>
+    </td>
+  </tr>
+  <tr>
+    <td width="45%">
+      <b>Overview Video:</b>
 
 {% include video id="k1iIO-bfVhM" provider="youtube" %}
 
     </td>
   </tr>
   <tr>
-    <td width="50%">
-      <b>Presentation:</b>
+    <td width="45%">
+      <b>Overview Presentation:</b>
         <a href="/assets/pdfs/xid-intro.pdf"><img src="/assets/pdfs/xid-intro.jpg" style="border: solid 1px white;"></a>
     </td>
   </tr>
