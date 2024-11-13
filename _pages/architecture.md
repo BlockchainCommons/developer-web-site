@@ -167,6 +167,11 @@ Principles](/principles/) as follows:
 
 * [**Authentication & Authorization**](/architecture/patterns/auth/)
 
+**Progressive Trust:**
+
+* [**Progressive Trust**](https://www.blockchaincommons.com/musings/musings-progressive-trust/) (Blockchain Commons blog)
+* [**Progressive Trust Life Cycle**](/progressive-trust/)
+
 **Self-Sovereign Identity:**
 
 * [**The Path to Self-Sovereign Identity**](http://www.lifewithalacrity.com/2016/04/the-path-to-self-soverereign-identity.html) (Life with Alacrity blog)
