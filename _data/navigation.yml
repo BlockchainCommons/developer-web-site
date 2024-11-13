@@ -46,6 +46,8 @@ architecture:
       url: /torgap/
     - title: "Auth Design Patterns"
       url: /architecture/patterns/auth/
+    - title: "Progressive Trust"
+      url: /progressive-trust/   
     - title: "Return to Main Page"
       url: /
 stack-core:
