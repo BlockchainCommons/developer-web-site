@@ -16,7 +16,7 @@ sidebar:
 
 ## Overview
 
-_**Latest News:** Published [report of 2024 FROST Implementers Meeting](/frost/meeting2), including slide decks, key quotes, key URLs, rough transcript, and rough summary (9/24/24). Remember that our FROST Developer's Meeting is on December 4th (10am). Sign up to our [Gordian Developers mailing list or Signal channel](https://www.blockchaincommons.com/subscribe/) to receive the invitations for the meeting._
+_**Latest News:** Published [report of late 2024 Developers Meeting](/frost/developers2) (12/11/24). Published [report of 2024 FROST Implementers Meeting](/frost/meeting2), including slide decks, key quotes, key URLs, rough transcript, and rough summary (9/24/24). Sign up to our [Gordian Developers mailing list or Signal channel](https://www.blockchaincommons.com/subscribe/) to receive invitations for future meetings._
 {: .notice--info}
 
 <a href="/crypto-stack/"><img src="https://developer.blockchaincommons.com/assets/images/bc-stack-crypto-frost.png" style="margin-left: 20px; float: right" width="25%"></a>
@@ -29,7 +29,7 @@ of Schnorr through improved network efficiency and protection against forgery at
 
 ## Upcoming Events
 
-* **DECEMBER 4th, 2024. FROST Implementer & Developer Meeting.** This is a joint meeting where we and FROST implementers will talk about real-world development of FROST for _your_ wallet. If you're a wallet or app developer, [Sign up to our Gordian Developer's announcement list](https://www.blockchaincommons.com/subscribe/#gordian-developers) or Signal group to stay up-to-date on this and other meetings of interest.
+_We are already considering agendas for 2025 FROST meetings. Sign up to our [Gordian Developers mailing list or Signal channel](https://www.blockchaincommons.com/subscribe/) to receive notification._
 
 ## Why is FROST Important?
 
@@ -92,6 +92,15 @@ _The Blockchain Commons FROST events bring together principals in the space to a
       <i>Our <a href="meeting1">first Round Table</a> allowed implementers to discuss a variety of issues related to FROST.</i>
     </td>
     <td width="640px">
+      <b>Implementers RT 2 (2024):</b>
+      <a href="meeting2">
+        <img src="/assets/images/frost-implementers-2024.png">
+      </a>
+      <i>Our <a href="meeting2">second Round Table</a> includes presentations from six FROST implementers on their projects.</i>
+    </td>
+  </tr>
+  <tr>
+    <td width="640px">
       <b>Developers Meeting 1 (2024):</b>
       <a href="developers1">
         <img src="/assets/images/frost-developers-2024.png">
@@ -99,11 +108,11 @@ _The Blockchain Commons FROST events bring together principals in the space to a
       <i>Jesse Posner & Christopher Allen overviewed FROST in our <a href="developers1">first meeting for wallet developers</a>.</i>
     </td>
     <td width="640px">
-      <b>Implementers RT 2 (2024):</b>
-      <a href="meeting2">
-        <img src="/assets/images/frost-implementers-2024.png">
+      <b>Developers Meeting 2 (2024):</b>
+      <a href="developers1">
+        <img src="/assets/images/frost-developers-2024-2.png">
       </a>
-      <i>Our <a href="meeting2">second Round Table</a> includes presentations from six FROST implementers on their projects.</i>
+      <i>An introduction, UX challenges, the UNiFFI SDK, and a FROST Federation at our <a href="developers2">second meeting for wallet developers</a>.</i>
     </td>
   </tr>
 </table>
