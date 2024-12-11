@@ -109,10 +109,10 @@ _The Blockchain Commons FROST events bring together principals in the space to a
     </td>
     <td width="640px">
       <b>Developers Meeting 2 (2024):</b>
-      <a href="developers1">
+      <a href="developers2">
         <img src="/assets/images/frost-developers-2024-2.png">
       </a>
-      <i>An introduction, UX challenges, the UNiFFI SDK, and a FROST Federation at our <a href="developers2">second meeting for wallet developers</a>.</i>
+      <i>An introduction, UX challenges, the UNiFFI SDK, and a FROST Federation were at our <a href="developers2">second meeting for wallet developers</a>.</i>
     </td>
   </tr>
 </table>
