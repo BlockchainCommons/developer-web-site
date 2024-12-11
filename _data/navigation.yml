@@ -207,6 +207,8 @@ frost:
       url: /frost/meeting2/
     - title: "Developers Meeting 1 (early 2024)"
       url: /frost/developers1/
+    - title: "Developers Meeting 2 (late 2024)"
+      url: /frost/developers2/
     - title: "Go to MuSig"
       url: /musig/
     - title: "Return to Crypto Stack"
