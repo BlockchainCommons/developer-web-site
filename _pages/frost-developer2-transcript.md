@@ -9,7 +9,7 @@ title: "FROST Developers II (2024): Transcript"
 hide_description: true
 classes:
   - wide
-permalink: /frost/developer2s/transcript/
+permalink: /frost/developers2/transcript/
 sidebar:
   nav: frost
 ---
