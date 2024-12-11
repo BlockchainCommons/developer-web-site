@@ -74,14 +74,65 @@ For more, also see the [rough summary](/frost/developer2/summary/) or the [raw t
 
 Quotes are drawn from [raw transcripts](/frost/meeting2/transcript/) and may not be entirely precise as a result, but convey many of the major themes of the meeting. See the video for more.
 
-### Category
+### Schnorr Signatures
 
-_Topic:_ "Quote."
+_Overview:_ "I think the key thing to understand is that it really is all about Schnorr and it allows for quorums and for thresholds."
+{: .notice--info}
+
+_Aggregation:_ "One of the cool things about Schnorr is its ability to aggregate and split keys."
+{: .notice--info}
+
+_Legacy:_ "Schnorr is not applicable to the older legacy signature formats."
+{: .notice--info}
+
+### Challenges
+
+_Bad Participants:_ "A misbehaving participant can denial of service as signature. ... Because of those privacy things we were just talking about, it makes it harder to identify the misbehaving or non-participating member."
+{: .notice--info}
+
+_Complexity:_ "We’ve made it as simple as we possibly can. It’s still really difficult."
+{: .notice--info}
+
+_Mistakes:_ "If a user messes this up, you can’t really go back a step. ... The non-robustness means you have to start from the beginning, which is very, very frustrating."
+{: .notice--info}
+
+_UX:_ "The user experience is bad. The user experience of crypto as a whole is bad. ... The features can be as good as they can possibly be. They can be the best in the business. But if it’s so difficult to use, nobody’s going to use it."
+{: .notice--info}
+
+### Distributed Key Generation
+
+_Key Creation:_ "With distributed key generation, DKG, it’s a multi-party protocol to create the key."
+{: .notice--info}
+
+_Standardization:_ "There are a variety of ways to implement the distributed key generation."
+{: .notice--info}
+
+### Privacy
+
+_All the Same:_ "You cannot distinguish a quorum signature from an individual signature."
+{: .notice--info}
+
+_Secrecy:_ "You can’t even tell which members of a group signed a threshold unless they reveal a lot of secret info."
+{: .notice--info}
+
+### Scalability
+
+_Size:_ "Even simple multisigs will be smaller."
+{: .notice--info}
+
+### Security
+
+_SPOFs:_ "The key is split. That means the risks of one single point of failure can be radically reduced."
+{: .notice--info}
+
+### Trusted Dealers
+
+_Transitional:_ "In many ways, it’s a great transitional technology as we move toward the distributed key generation, which is the next approach."
 {: .notice--info}
 
 ## Key URLs
 
-### GitHub & Crates
+### Presentation Links
 
 * **Stack Wallet**
    * [Stack Wallet](https://stackwallet.com/)
@@ -93,12 +144,17 @@ _Topic:_ "Quote."
 * **FROST Federation**
    * [FROST Federation Repo](https://github.com/pool2win/frost-federation)
   
-### Overviews
+### Specifications
 
+*Cryptology ePrints:*
+* [FROST: Flexible Round-Optimized Schnorr Threshold Signatures](https://eprint.iacr.org/2020/852) (Komlo & Goldberg)
+* [ROAST: Robust Asynchronous Schnorr Threshold Signatures](https://eprint.iacr.org/2022/550.pdf)
+* [STORM: Synchronous, disTributed, and Optimized geneRation of key Material](https://eprint.iacr.org/2023/292.pdf)
+
+*BIPs:*
 * [BIP 340: Schnorr Signatures](https://github.com/bitcoin/bips/blob/master/bip-0340.mediawiki)
 * [BIP Draft: Signing BIP](https://github.com/siv2r/bip-frost-signing)
 * [BIP Draft: ChillDKG](https://github.com/BlockstreamResearch/bip-frost-dkg)
-* [FROST: Flexible Round-Optimized Schnorr Threshold Signatures](https://eprint.iacr.org/2020/852) (Komlo & Goldberg)
 
 ### Blockchain Commons Resources
 
