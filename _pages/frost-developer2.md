@@ -90,6 +90,9 @@ _Legacy:_ "Schnorr is not applicable to the older legacy signature formats."
 _Bad Participants:_ "A misbehaving participant can denial of service as signature. ... Because of those privacy things we were just talking about, it makes it harder to identify the misbehaving or non-participating member."
 {: .notice--info}
 
+_Communication:_ "We needed some way for all parties to know that none of the parties is equivocating as in telling a bunch of parties X and telling the other parties Y."
+{: .notice--info}
+
 _Complexity:_ "We’ve made it as simple as we possibly can. It’s still really difficult."
 {: .notice--info}
 
@@ -99,10 +102,18 @@ _Mistakes:_ "If a user messes this up, you can’t really go back a step. ... Th
 _UX:_ "The user experience is bad. The user experience of crypto as a whole is bad. ... The features can be as good as they can possibly be. They can be the best in the business. But if it’s so difficult to use, nobody’s going to use it."
 {: .notice--info}
 
-_UX:_ "Every decision to make UX easier that exists right now often has decentralization or trust trade-offs."
+_Challenges:_ "There’s a lot of vocabulary here that the general public ... don’t have. ... Again, a lot of this is shared with multi-sig in general and with cryptocurrency in general."
 {: .notice--info}
 
-_Challenges:_ "There’s a lot of vocabulary here that the general public ... don’t have. ... Again, a lot of this is shared with multi-sig in general and with cryptocurrency in general."
+## Decentralization
+
+_Maximal Privacy:_ "First of all, I try to make available the most decentralized private version of something to exist. I think that is important to have out there in some capacity. Because then the users can decide how they want to exchange information out of band or whatever."
+{: .notice--info}
+
+_Trust:_ "We don’t want to centralize the trust."
+{: .notice--info}
+
+_UX:_ "Every decision to make UX easier that exists right now often has decentralization or trust trade-offs."
 {: .notice--info}
 
 ### Distributed Key Generation
@@ -115,11 +126,15 @@ _Standardization:_ "There are a variety of ways to implement the distributed key
 
 ### Privacy
 
-_All the Same:_ "You cannot distinguish a quorum signature from an individual signature."
+_FROST Advantages:_ "You cannot distinguish a quorum signature from an individual signature."
 {: .notice--info}
 
-_Secrecy:_ "You can’t even tell which members of a group signed a threshold unless they reveal a lot of secret info."
+_FROST Secrecy:_ "You can’t even tell which members of a group signed a threshold unless they reveal a lot of secret info."
 {: .notice--info}
+
+_Internet:_ "Anything that inherently touches the internet is less private."
+{: .notice--info}
+
 
 ### Reshares
 
