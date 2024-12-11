@@ -171,7 +171,7 @@ _Transitional:_ "In many ways, it’s a great transitional technology as we move
    * [Serai Library](https://crates.io/crates/bitcoin-serai)
 * **ZF FROST**
    * [ZF FROST Book](https://frost.zfnd.org/)
-   * [UNiFFI SDK](https://github.com/zecdev/frost-uniffi-sdk)
+   * [UNiFFI SDK](https://github.com/pacu/frost-uniffi-sdk)
 * **FROST Federation**
    * [FROST Federation Repo](https://github.com/pool2win/frost-federation)
   
