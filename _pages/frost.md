@@ -103,7 +103,7 @@ _The Blockchain Commons FROST events bring together principals in the space to a
     <td width="640px">
       <b>Developers Meeting 1 (2024):</b>
       <a href="developers1">
-        <img src="/assets/images/frost-developers-2024.png">
+        <img src="/assets/images/frost-developers-2024-1.png">
       </a>
       <i>Jesse Posner & Christopher Allen overviewed FROST in our <a href="developers1">first meeting for wallet developers</a>.</i>
     </td>
