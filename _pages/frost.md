@@ -148,6 +148,14 @@ _The Blockchain Commons FROST events bring together principals in the space to a
 
     </td>    
   </tr>
+  <tr>
+    <td width="640px">
+      <b>FROST Developers 2:</b>
+
+{% include video id="FbrB1SCXCNc" provider="youtube" %}
+
+    </td>    
+  </tr>
 </table>
 
 ## Sponsors
