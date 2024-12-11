@@ -99,6 +99,12 @@ _Mistakes:_ "If a user messes this up, you can’t really go back a step. ... Th
 _UX:_ "The user experience is bad. The user experience of crypto as a whole is bad. ... The features can be as good as they can possibly be. They can be the best in the business. But if it’s so difficult to use, nobody’s going to use it."
 {: .notice--info}
 
+_UX:_ "Every decision to make UX easier that exists right now often has decentralization or trust trade-offs."
+{: .notice--info}
+
+_Challenges:_ "There’s a lot of vocabulary here that the general public ... don’t have. ... Again, a lot of this is shared with multi-sig in general and with cryptocurrency in general."
+{: .notice--info}
+
 ### Distributed Key Generation
 
 _Key Creation:_ "With distributed key generation, DKG, it’s a multi-party protocol to create the key."
@@ -113,6 +119,16 @@ _All the Same:_ "You cannot distinguish a quorum signature from an individual si
 {: .notice--info}
 
 _Secrecy:_ "You can’t even tell which members of a group signed a threshold unless they reveal a lot of secret info."
+{: .notice--info}
+
+### Reshares
+
+_Changing Participants:_ "Yes, you can reshare, meaning you can kick some people off, bring some people on, etc. Just completely do the entire scheme. But that doesn’t invalidate old share schemes."
+{: .notice--info}
+
+### Rounds
+
+_One Round:_ "I am absolutely interested in any sort of thing that can bring this down to a one round handshake, which is still not great, but it’s better than two."
 {: .notice--info}
 
 ### Scalability
