@@ -9,7 +9,7 @@ title: "FROST Developer II (2024): Summary"
 hide_description: true
 classes:
   - wide
-permalink: /frost/developer2s/summary/
+permalink: /frost/developerss/summary/
 sidebar:
   nav: frost
 ---
