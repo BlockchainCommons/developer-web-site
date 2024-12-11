@@ -9,7 +9,7 @@ title: "FROST Developer II (2024): Overview"
 hide_description: true
 classes:
   - wide
-permalink: /frost/developer2/
+permalink: /frost/developers2/
 sidebar:
   nav: frost
 ---
@@ -68,7 +68,7 @@ For an intro to FROST, see the [FROST page](/frost/) and ["A Layperson's Intro t
   </tr>
 </table>
 
-For more, also see the [rough summary](/frost/developer2/summary/) or the [raw transcript](/frost/developer2/transcript) of the event.
+For more, also see the [rough summary](/frost/developers2/summary/) or the [raw transcript](/frost/developers2/transcript) of the event.
 
 ## Key Quotes
 
