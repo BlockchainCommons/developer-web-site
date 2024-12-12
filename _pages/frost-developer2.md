@@ -87,7 +87,7 @@ _Legacy:_ "Schnorr is not applicable to the older legacy signature formats."
 
 ### Challenges
 
-_Bad Participants:_ "A misbehaving participant can denial of service as signature. ... Because of those privacy things we were just talking about, it makes it harder to identify the misbehaving or non-participating member."
+_Bad Participants:_ "A misbehaving participant can denial of service a signature. ... Because of those privacy things we were just talking about, it makes it harder to identify the misbehaving or non-participating member."
 {: .notice--info}
 
 _Communication:_ "We needed some way for all parties to know that none of the parties is equivocating as in telling a bunch of parties X and telling the other parties Y."
