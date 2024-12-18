@@ -1,2 +1,2 @@
-_**Latest News:** Reorganized developer pages in stack-based methodology (7/14/24). Added [Achitectural Design Patterns & Auth Patterns](/architecture/patterns/auth) pages (5/8/24). Added [Envelope Executive Summary](/envelope/summary/) and [Feature List](/envelope/features/) pages (4/24/24)._
+_**Latest News:** Published [report of late 2024 FROST Developers Meeting](/frost/developers2) (12/11/24) and [report of 2024 FROST Implementers Meeting](/frost/meeting2)(9/24/24).Reorganized developer pages in stack-based methodology (7/14/24)._
 {: .notice--info}
