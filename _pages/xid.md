@@ -86,8 +86,6 @@ This specifics on all of this, XID resolution methods, permissions, delegation, 
 
 Also see the transcript on our [XID Presentation page](/xid/presentation/)
 
-We expect to expand on this topic more in the future! If you'd like to support its development, please <a href="mailto:team@blockchaincommons.com">contact us</a>!
-
 ## Links
 
 * [**BCR-2024-010: XID: Extensible Identifiers](https://github.com/BlockchainCommons/Research/blob/master/papers/bcr-2024-010-xid.md) (Blockchain Commons Research Document)
