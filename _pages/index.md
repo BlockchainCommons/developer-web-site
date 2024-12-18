@@ -9,7 +9,7 @@ title: Blockchain Commons Developer Pages
 hide_description: false
 classes:
   - wide
-permalink: /
+permalink: 
 sidebar:
   nav:
     - mainside
