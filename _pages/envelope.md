@@ -181,6 +181,7 @@ _See the [Gordian Envelope playlist](https://www.youtube.com/playlist?list=PLCkr
 * [**BCR-2023-014: Gordian Sealed Transaction Protocol (GSTP)**](https://github.com/BlockchainCommons/Research/blob/master/papers/bcr-2023-014-gstp.md) (GitHub repo)
 * [**BCR-2024-006: Representing Graphs**](https://github.com/BlockchainCommons/Research/blob/master/papers/bcr-2024-006-envelope-graph.md) (GitHub repo)
 * [**BCR-2024-007: Decorrelation**](https://github.com/BlockchainCommons/Research/blob/master/papers/bcr-2024-007-envelope-decorrelation.md) (GitHub repo)
+* [**BCR-2024-009: Signatures with Metadata**](https://github.com/BlockchainCommons/Research/blob/master/papers/bcr-2024-009-signature-metadata.md)
 
 ### Use Cases:
 
