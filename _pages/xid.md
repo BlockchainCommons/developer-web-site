@@ -88,7 +88,7 @@ Also see the transcript on our [XID Presentation page](/xid/presentation/)
 
 ## Links
 
-* [**BCR-2024-010: XID: Extensible Identifiers](https://github.com/BlockchainCommons/Research/blob/master/papers/bcr-2024-010-xid.md) (Blockchain Commons Research Document)
+* [**BCR-2024-010: XID: Extensible Identifiers**](https://github.com/BlockchainCommons/Research/blob/master/papers/bcr-2024-010-xid.md) (Blockchain Commons Research Document)
 * [**"Gordian Envelope, Elision, and Controller Docs" Presentation**](/assets/pdfs/xid-intro.pdf) (PDF)
 * [**"Gordian Envelope, Elision, and Controller Docs" Video**](https://www.youtube.com/watch?v=k1iIO-bfVhM) (YouTube)
 * [**Gordian Envelope pages**](/envelope/)
