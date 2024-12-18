@@ -22,7 +22,7 @@ redirect_from:
     - /seedrecovery/
 ---
 
-{% include /includes/news-index.md %}
+{% include news-index.md %}
 
 The Gordian Stack is a layered set of specifications founded on the CBOR data format and built up from that, step by step, to support digital-asset management in a way that fulfills [the Gordian Principles](/principles/). These developer pages contain developer resources that
 explain the elements in the Stack, and their importance, and make it easy
