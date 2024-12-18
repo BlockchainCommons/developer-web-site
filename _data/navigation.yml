@@ -289,7 +289,7 @@ ur:
 xid:
   - title: Extensible Identifiers
     children:
-    - title: "Presentation"
+    - title: "XID Presentation"
       url: /xid/presentation/
     - title: "Go to Envelope"
       url: /envelope/
