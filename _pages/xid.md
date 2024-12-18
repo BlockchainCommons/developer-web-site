@@ -20,9 +20,40 @@ sidebar:
 
 The eXtensible IDentifier (XID) is an idea for how to use [Gordian Envelope](/envelope/) to create a DID-like method and perhaps more importantly how to use dCBOR and Envelope to create a DID controller document. It is not necessarily conforming to the [DID spec](https://www.w3.org/TR/did-core/), but it is inspired by the same needs and desires.
 
-Our initial presentation on XIDs was given at the October 22, 2024 meeting of the W3C Credentials Community Group (CCG). It suggests how to build a controller document using Gordian Envelope, desmonstrates how to elide that document, and reveals how to integrate with existing infrastructure.
+## Why is XID Important?
 
-<br clear=all>
+The main advantage of XIDs is that they allow for the **redaction** of content in a DID-like controller document. 
+
+Currently, controller documents tend to include public keys and service end-points. This is a great way to associate a variety of content into a singular identity. But you may not want to publicly reveal all of that information. Public keys can create vulnerabilities when exposed and you may wish to divide different parts of your identity, to only be revealed to specific groups!
+
+With Envelope-enabled controller documents you can still gather and validate all of your information as part of a singular identifier. But, you can elide most of it most of the time, only revealing private elements through inclusion proofs to specific groups. Your data remains organized and you don't have to manage a whole bunch of different identities, but at the same time, vulnerable material remains secure and private.
+
+## How Does XID Work?
+
+A XID (“eXtensible IDentifier”) is a unique 32-byte identifier for a subject entity:
+```
+XID(71274df133169a0e2d2ffb11cbc7917732acafa31989f685cca6cb69d473b93c)
+```
+XIDs are encoded using CBOR. The hex is marked as length 32-bytes and then tagged with the CBOR tag `#6.40024`.
+```
+40024(h'71274df133169a0e2d2ffb11cbc7917732acafa31989f685cca6cb69d473b93c')
+```
+Converted to binary this is:
+```
+D9 9C58                                 # tag(40024)
+   58 20                                # bytes(32)
+      71274DF133169A0E2D2FFB11CBC7917732ACAFA31989F685CCA6CB69D473B93C
+```
+XIDs can also be encoded as [URs](/ur/):
+```
+ur:xid/hdcxjsdigtwneocmnybadpdlzobysbstmekteypspeotcfldynlpsfolsbintyjkrhfnvsbyrdfw
+```
+
+A XID is generated from the SHA-256 hash of the CBOR representation of a specific `PublicSigningKey` structure called the inception key. It can be resolved into a XID Document that declares public keys and their associated attributes.
+
+This specifics on all of this, XID resolution methods, permissions, delegation, rotation, and much more can be found in ["BCR-2024-10: XIDs"](https://github.com/BlockchainCommons/Research/blob/master/papers/bcr-2024-010-xid.md).
+
+## XID Videos & Presentations
 
 <center>
 <table width="100%">
@@ -57,19 +88,12 @@ Also see the transcript on our [XID Presentation page](/xid/presentation/)
 
 We expect to expand on this topic more in the future! If you'd like to support its development, please <a href="mailto:team@blockchaincommons.com">contact us</a>!
 
-## Why is XID Important?
-
-The main advantage of XIDs is that they allow for the **redaction** of content in a controller document. 
-
-Currently, controller documents tend to include public keys and service end-points. This is a great way to associate a variety of content into a singular identity. But you may not want to publicly reveal all of that information. Public keys can create vulnerabilities when exposed and you may wish to divide different parts of your identity, to only be revealed to specific groups!
-
-With Envelope-enabled controller documents you can still gather and validate all of your information as part of a singular identifier. But, you can elide most of it most of the time, only revealing private elements through inclusion proofs to specific groups. Your data remains organized and you don't have to manage a whole bunch of different identities, but at the same time, vulnerable material remains secure and private.
-
 ## Links
 
-* ["Gordian Envelope, Elision, and Controller Docs" Presentation](/assets/pdfs/xid-intro.pdf) (PDF)
-* ["Gordian Envelope, Elision, and Controller Docs" Video](https://www.youtube.com/watch?v=k1iIO-bfVhM) (YouTube)
-* [Gordian Envelope pages](/envelope/)
+* [**BCR-2024-010: XID: Extensible Identifiers](https://github.com/BlockchainCommons/Research/blob/master/papers/bcr-2024-010-xid.md) (Blockchain Commons Research Document)
+* [**"Gordian Envelope, Elision, and Controller Docs" Presentation**](/assets/pdfs/xid-intro.pdf) (PDF)
+* [**"Gordian Envelope, Elision, and Controller Docs" Video**](https://www.youtube.com/watch?v=k1iIO-bfVhM) (YouTube)
+* [**Gordian Envelope pages**](/envelope/)
 
-* [DID v1.0](https://www.w3.org/TR/did-core/) (W3C) 
-* [Controller Doc v1.0](https://www.w3.org/TR/controller-document/) (W3C)
+* [**W3C: DID v1.0**](https://www.w3.org/TR/did-core/) (W3C) 
+* [**W3C: Controller Doc v1.0**](https://www.w3.org/TR/controller-document/) (W3C)
