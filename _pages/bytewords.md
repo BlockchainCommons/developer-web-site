@@ -54,6 +54,20 @@ be unique.
 Bytewords"](https://github.com/BlockchainCommons/Research/blob/master/papers/bcr-2020-012-bytewords.md)
 lists the complete set of words and provides examples.
 
+### How Does Bytemoji Work?
+
+Words aren't the only ways to identify things! Blockchain Commons has also released "Bytemoji", a set of 256 emojis that can be used to generate visual strings. As with Bytewords, the Bytemojis were carefully curated to focus on emojis that are distinct, don't rely on color differences, read well at small sizes, and otherwise are easy to distinguish and remember. They were also selected to serialize as 3 or 4 UTF-8 bytes and to render as a single glyph 
+
+Bytemojis are intended to be released as "clusters" of four or more bytemojis, which together can produce a strong recognition of a digital object:
+```
+🌊 😹 🌽 🐞
+JUGS DELI GIFT WHEN
+71 27 4d f1
+```
+["BCR-2024-008:
+Bytemoji"](https://github.com/BlockchainCommons/Research/blob/master/papers/bcr-2024-008-bytemoji.md)
+lists the complete set of emojis and provides examples.
+
 ## Bytewords Videos
 
 
@@ -78,4 +92,5 @@ lists the complete set of words and provides examples.
 
 * [**BCR-2020-012:
 Bytewords**](https://github.com/BlockchainCommons/Research/blob/master/papers/bcr-2020-012-bytewords.md) (Blockchain Commons Research)
-
+* [**BCR-2024-008:
+Bytemoji**](https://github.com/BlockchainCommons/Research/blob/master/papers/bcr-2024-008-bytemoji.md) (Blockchain Commons Research)
