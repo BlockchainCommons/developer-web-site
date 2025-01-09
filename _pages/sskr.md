@@ -87,13 +87,27 @@ fiduciary.
 
 (Though this example is symmetrical, it's not required. You could
 require 2 of 3 from group #1 and 3 of 5 from group #2, and then only
-require 1 of 2 gorups, which means either threshold would fulfill the
+require 1 of 2 groups, which means either threshold would fulfill the
 requirement.)
 
 Once you generate advanced SSKR shares, the user would distribute them
 just like basic SSKR shares, but here being very careful to understand
 the roles of everyone they'ree giving shares to, since they're
 creating a more complex procedure.
+
+## What are SSKR URs?
+
+SSKR shares of seeds or keys can be encoded using [Uniform Resources](/ur/). As described in [BCR 2020-011](https://github.com/BlockchainCommons/Research/blob/master/papers/bcr-2020-011-sskr.md), each share is converted to CBOR and prefixed with a `ur:sskr` tag. This supports the storage of shares in a self-identifying manner.
+
+However, the methodology has generally been deprecated to instead prefer SSKR Envelopes.
+
+## What are SSKR Envelopes?
+
+[Envelope](/envelope/) is Blockchain Commons' privacy-focused format for the storage and transmission of data. Though the UR format allowed for the self-identifying storage of singular bits of data, Envelope goes further, allowing for the storage of multiple types of data, including metadata, to provide even more information on what's inside. (There are also many other advantages, as discussed on the [Envelope](/envelope/) page.)
+
+However, SSKR Envelopes take a somewhat different tack from SSKR URs. You _don't_ shard your seed or key. Instead, you place your seed or key in an Envelope, generate a new symmetric key, use the key to encrypt the Envelope, shard the key, and distribute copies of the Envelope that each contain the encrypted sub-Envelope and one of the shares. By this methodology, you can store many seeds and many keys in a single Envelope, but still only have one share to manage. It's much more in tune with the way that secrets work in the real world, where you may have many seeds for many different devices, and even old master keys generated _without_ seeds.
+
+SSKR Envelopes are our preferred way to encode and share secrets, but you might use SSKR URs if you had a very constrained device or a very simple use case. The [test vectors](/sskr/vector/) page includes examples of both.
 
 ## Videos
 
