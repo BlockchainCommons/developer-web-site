@@ -117,6 +117,23 @@ By this methodology, you can store many seeds and many keys in a single Envelope
 
 SSKR Envelopes are our preferred way to encode and share secrets, but you might use SSKR URs if you had a very constrained device or a very simple use case. The [test vectors](/sskr/vector/) page includes examples of both.
 
+## How to Get Started with SSKR
+
+You can easily incorporate SSKR into your project by using [an appropriate SSKR library](https://developer.blockchaincommons.com/sskr/#libraries) to shard your seed or other secret. However, we now instead suggest the use of SSKR Envelope to support the storage of metadata and multiple secrets. To fully support this, we suggest the following:
+
+1. Add support of [LifeHash](https://developer.blockchaincommons.com/lifehash/) for seeds in your UX, so that you can visually recognize seeds, making it easy to see when they have been reconstructed (or just transferred) correctly.
+2. Create a basic [`ur:envelope`](https://developer.blockchaincommons.com/envelope/) containing your seed, adding notes and date as metadata. You can use our [128-bit](https://developer.blockchaincommons.com/seed-128/) or [256-bit](https://developer.blockchaincommons.com/seed-256/) test seed for this purpose.
+3. Read your seed back. Throw out data that you don't need when you do so.
+4. Next, output your Envelope as a QR. Read that back in.
+5. Next, output your Envelope as an [Animated QR](https://developer.blockchaincommons.com/animated-qrs/). Read that back in.
+
+At this point you should have seeds that you know are interoperable thanks to the ability to check with LifeHash and the successful export and import in a variety of formats. You can now integrate SSKR as well:
+
+6. Integrate SSKR and export an SSKR Envelope of your seed as a 2-of-3 sharding.
+7. Test import with each of three combinations of two shares: AB, BC, and AC.
+8. Test a two-of-three groups 2-of-3 sharding, and import with a few different combination of two shares from two different groups, such as: A1A2B1B2, A2A3C2C3, and A1A3B2B3.
+9. Figure out what other metadata you'd like to include, such as seed name, seed creation date, and notes. Export your seed with this metadata, shard, and reconstruct
+
 ## Videos
 
 <table width="100%">
