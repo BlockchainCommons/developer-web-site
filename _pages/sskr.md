@@ -151,6 +151,12 @@ At this point you should have seeds that you know are interoperable thanks to th
 {% include video id="PIND7J096U8" provider="youtube" %}
 
     </td>
+    <td width="640px">
+      <b>SSKR & Envelope:</b>
+
+{% include video id="ERRhMDSEFm8" provider="youtube" %}
+
+    </td>
   </tr>
 </table>
 
