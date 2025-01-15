@@ -33,6 +33,14 @@ sure they generated the expected seeds.
 
 {% include seed-128.md %}
 
+### `ur:envelope` Test Vectors
+
+### `ur:sskr` Test Vectors
+
+The `ur:sskr` format has generally been deprecated. An [SSKR Envelope](https://developer.blockchaincommons.com/sskr/#what-are-sskr-envelopes) that locks data, including seeds, with an SSKRed symmetric key is now the preferred methodology. 
+
+Nonetheless, the following test vectors are presented in case of the need for a simple `ur:sskr`, for example in a more constrained environment.
+
 #### Two-of-Three SSKR
 
 A traditional use of Shamir's Secret Sharing shards a secret into
@@ -91,6 +99,14 @@ For a more complex SSKR such as this, you might want to use Gordian SeedTool's p
 ## 256-bit Seed
 
 {% include seed-256.md %}
+
+### `ur:envelope` Test Vectors
+
+### `ur:sskr` Test Vectors
+
+The `ur:sskr` format has generally been deprecated. An [SSKR Envelope](https://developer.blockchaincommons.com/sskr/#what-are-sskr-envelopes) that locks data, including seeds, with an SSKRed symmetric key is now the preferred methodology. 
+
+Nonetheless, the following test vectors are presented in case of the need for a simple `ur:sskr`, for example in a more constrained environment.
 
 #### Two-of-Three SSKR
 
