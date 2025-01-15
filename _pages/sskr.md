@@ -98,7 +98,7 @@ creating a more complex procedure.
 
 ## What are SSKR URs?
 
-The above examples show SSKR being encoded with[Uniform Resources](/ur/). As described in [BCR 2020-011](https://github.com/BlockchainCommons/Research/blob/master/papers/bcr-2020-011-sskr.md), each share is converted to CBOR and prefixed with a `ur:sskr` tag. This supports the storage of shares in a self-identifying manner.
+The above examples show SSKR being encoded with [Uniform Resources](/ur/). As described in [BCR 2020-011](https://github.com/BlockchainCommons/Research/blob/master/papers/bcr-2020-011-sskr.md), each share is converted to CBOR and prefixed with a `ur:sskr` tag. This supports the storage of shares in a self-identifying manner.
 
  This is the simplest way to use SSKR, though not the preferred one: it's generally been deprecated to instead prefer SSKR Envelopes.
 
