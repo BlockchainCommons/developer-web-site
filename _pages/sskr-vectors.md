@@ -101,6 +101,16 @@ tuna acid epic gyro jury jump able acid also exam high dark
 echo ruin wand lazy gray swan visa fish jazz logo gift kick
 atom wall yank atom many
 ```
+See the [SSKR FAQ](https://developer.blockchaincommons.com/sskr/faq/#what-do-the-different-parts-of-an-sskr-share-mean) for a description of what the different parts of an SSKR share mean.
+
+As described there, the first share breaks down as following:
+* `tuna acid epic` = SSKR
+* `gyro` = length
+* `jury jump` = fingerprint for this sharding
+* `able acid` = 2-of-3
+* `able flap rust king  roof item vast real hang plus free menu good plus keno vast  gray` = share
+* `maze oval whiz tomb` = checksum
+  
 The following shows that same 2-of-3 share exported as a [Uniform Resource (UR)](/ur/):
 ```
 ur:crypto-sskr/gojyjpaeadaefprtkgrfimvtrlhgpsfemugdpskovtgybagtiomh
