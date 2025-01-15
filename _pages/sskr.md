@@ -22,7 +22,8 @@ redirect_from:
 <a href="/crypto-stack/"><img src="https://developer.blockchaincommons.com/assets/images/bc-stack-crypto-sskr.png" style="margin-left: 20px; float: right" width="25%"></a>
 
 SSKR is Sharded Secret Key Reconstruction. It's a way that you can
-divide ("shard") the master seed underlying a Bitcoin HD wallet into
+divide ("shard") a seed (which is to say a secret, often used as the foundation for Hierarchical Deterministic, "HD", wallet)
+into
 "shares", which a user can then distribute to friends, family, or
 fiduciaries. If the user ever loses their seed, they can then
 "reconstruct" it by collecting sufficient of the shares (the
@@ -97,31 +98,31 @@ creating a more complex procedure.
 
 ## What are SSKR URs?
 
-SSKR shares of seeds or keys can be encoded using [Uniform Resources](/ur/). As described in [BCR 2020-011](https://github.com/BlockchainCommons/Research/blob/master/papers/bcr-2020-011-sskr.md), each share is converted to CBOR and prefixed with a `ur:sskr` tag. This supports the storage of shares in a self-identifying manner.
+The above examples show SSKR being encoded with[Uniform Resources](/ur/). As described in [BCR 2020-011](https://github.com/BlockchainCommons/Research/blob/master/papers/bcr-2020-011-sskr.md), each share is converted to CBOR and prefixed with a `ur:sskr` tag. This supports the storage of shares in a self-identifying manner.
 
-However, the methodology has generally been deprecated to instead prefer SSKR Envelopes.
+ This is the simplest way to use SSKR, though not the preferred one: it's generally been deprecated to instead prefer SSKR Envelopes.
 
 ## What are SSKR Envelopes?
 
-[Envelope](/envelope/) is Blockchain Commons' privacy-focused format for the storage and transmission of data. Though the UR format allowed for the self-identifying storage of singular bits of data, Envelope goes further, allowing for the storage of multiple types of data, including metadata, to provide even more information on what's inside. (There are also many other advantages, as discussed on the [Envelope](/envelope/) page.)
+[Envelope](/envelope/) is Blockchain Commons' privacy-focused format for the storage and transmission of data. Though the UR format allowed for the self-identifying storage of singular bits of data, Envelope goes further, allowing for the storage of multiple types of data, including metadata, allowing the preservation of multiple secrets and of descriptions of those secrets. (There are also many other advantages, as discussed on the [Envelope](/envelope/) page.)
 
-However, SSKR Envelopes take a somewhat different tack from SSKR URs. You _don't_ shard your seed or key. Instead you:
+To allow this, SSKR Envelopes takes a somewhat different tack from SSKR URs. You _don't_ shard your seed, key, or other secret. Instead you:
 
-1. Place your seed or key in an Envelope
-2. Generate a new symmetric key
-3. Use the new symmetric key to encrypt the Envelope containing your data
-4. Shard the symmetric key with SSKR
-5. Distribute copies of the Envelope that each contain the encrypted sub-Envelope and one of the shares.
+1. Place your seed or key in an Envelope.
+2. Generate a new symmetric key.
+3. Use the new symmetric key to encrypt the Envelope containing your data.
+4. Shard the symmetric key with SSKR.
+5. Distribute copies of the Envelope that each contain the encrypted sub-Envelope and one of the shares of the symmetric key.
 
-By this methodology, you can store many seeds and many keys in a single Envelope, but still only have one share to manage. You can also include metadata explaining what the seed or key is for, either inside _or_ outside the encrypted content. (Encrypted data might remind you what a key is for; unecrypted data might help you or heirs to recover sufficient key shares.) This method is much more in tune with the way that secrets work in the real world, where you may have many seeds for many different devices, and even old master keys generated _without_ seeds.
+By this methodology, you can store many seeds and many keys in a single Envelope, but still only have one share to manage. You can also include metadata explaining what the seed or key is for, either inside _or_ outside the encrypted content. (Encrypted data might remind you what a key is for; unecrypted data might help you or your heirs to recover sufficient key shares.) This method is much more in tune with the way that secrets work in the real world, where you may have many seeds for many different devices, and even old master keys generated _without_ seeds.
 
-SSKR Envelopes are our preferred way to encode and share secrets, but you might use SSKR URs if you had a very constrained device or a very simple use case. The [test vectors](/sskr/vector/) page includes examples of both.
+Though SSKR Envelopes are our preferred way to encode and share secrets, you might use SSKR URs if you had a very constrained device or a very simple use case. The [test vectors](/sskr/vector/) page includes examples of both.
 
-## How to Get Started with SSKR
+## How to Get Started with SSKR Envelopes
 
 You can easily incorporate SSKR into your project by using [an appropriate SSKR library](https://developer.blockchaincommons.com/sskr/#libraries) to shard your seed or other secret. However, we now instead suggest the use of SSKR Envelope to support the storage of metadata and multiple secrets. To fully support this, we suggest the following:
 
-1. Add support of [LifeHash](https://developer.blockchaincommons.com/lifehash/) for seeds in your UX, so that you can visually recognize seeds, making it easy to see when they have been reconstructed (or just transferred) correctly.
+1. Add support for [LifeHash](https://developer.blockchaincommons.com/lifehash/) for seeds in your UX, so that you can visually recognize seeds, making it easy to see when they have been reconstructed (or just transferred) correctly.
 2. Create a basic [`ur:envelope`](https://developer.blockchaincommons.com/envelope/) containing your seed, adding notes and date as metadata. You can use our [128-bit](https://developer.blockchaincommons.com/seed-128/) or [256-bit](https://developer.blockchaincommons.com/seed-256/) test seed for this purpose.
 3. Read your seed back. Throw out data that you don't need when you do so.
 4. Next, output your Envelope as a QR. Read that back in.
@@ -131,8 +132,8 @@ At this point you should have seeds that you know are interoperable thanks to th
 
 6. Integrate SSKR and export an SSKR Envelope of your seed as a 2-of-3 sharding.
 7. Test import with each of three combinations of two shares: AB, BC, and AC.
-8. Test a two-of-three groups 2-of-3 sharding, and import with a few different combination of two shares from two different groups, such as: A1A2B1B2, A2A3C2C3, and A1A3B2B3.
-9. Figure out what other metadata you'd like to include, such as seed name, seed creation date, and notes. Export your seed with this metadata, shard, and reconstruct
+8. Test a two-of-three group, 2-of-3 share sharding, and import with a few different combination of two shares from two different groups, such as: A1A2B1B2, A2A3C2C3, and A1A3B2B3.
+9. Figure out what other metadata you'd like to include, such as seed name, seed creation date, and notes. Export your seed with this metadata, shard, and reconstruct.
 
 ## Videos
 
@@ -159,6 +160,8 @@ At this point you should have seeds that you know are interoperable thanks to th
 
 {% include lib-sskr.md %}
 
+{% include lib-envelope.md %}
+
 ## Links
 
 **Intro:**
@@ -172,6 +175,7 @@ At this point you should have seeds that you know are interoperable thanks to th
 * [Developer FAQ](/sskr/faq/)
 * [Test Vectors](/sskr/vectors/)
 * [Using URs for SSKR](/ur/sskr/)
+* [Using Gordian Envelope](/envelope/)
 
 **Developer Reference Apps:**
 
