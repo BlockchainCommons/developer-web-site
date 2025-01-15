@@ -20,9 +20,11 @@ toc_label: SSKR FAQ
 
 ### What Can SSKR Do?
 
-SSKR allows you to protect a 32-byte seed. It's a tool for
+SSKR allows you to protect a seed. It's a tool for
 [Resilience](/principles/)
 intended to protect a seed from loss.
+
+The original SSKR was limited to 32-byte secrets, but SSKR Envelopes allow the storage of arbitrarily large amounts of data and metadata.
 
 ### What Are the Caveats to using SSKR?
 
@@ -33,7 +35,7 @@ with high entropy.
 * **Share Non-Determinism.** The shares are non-deterministic due to a
 random factor in their creation. This means that shares will look
 different every time you generate them.
-* **32-Byte Limit.** SSKR can only protect data that is no larger than
+* **32-Byte Limit.** SSKR without Envelopes can only protect data that is no larger than
 32 bytes.
 
 ### How Can I Protect Data Longer than 32 bytes?
@@ -41,17 +43,15 @@ different every time you generate them.
 Protecting larger amounts of data is often important.  Most notably, a
 standard BIP-32 HD wallet is typically built with a 32-byte private
 key and its 32-byte chain, which is twice what SSKR can
-protect. However, there are other use cases requiring more bytes, such
-as protecting a seed with associated metadata.
+protect.
 
-There are a number of ways this can be accomplished:
+So, use [SSKR Envelopes](https://developer.blockchaincommons.com/sskr/#what-are-sskr-envelopes)! That was one of the main reasons they were developed.
+
+However, if you're only able to use SSKR URs, likely due to being on a very constrained device, you have a few options.
 
 1. Create multiple SSKR objects.
 2. Protect a 32-byte symmetric key using SSKR, and then use that key
-to protect the larger data.
-3. Use [Gordian Envelope](/envelope).
-
-Gordian Envelope was specifically written to resolve this dilemma.
+to protect the larger data. (This is essentially what SSKR Envelope does, but SSKR does so in a much more automated way.)
 
 ## SSKR Standards
 
