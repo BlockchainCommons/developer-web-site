@@ -28,8 +28,6 @@ Blockchain Commons and Zingo Labs held the first public meeting regarding the Zc
 {% include video id="wy06xxpJy-M" provider="youtube" %}
 
     </td>
-  </tr>
-  <tr>
     <td width="640px">
       <b>Meeting Slides:</b>
 
