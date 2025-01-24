@@ -49,6 +49,6 @@ This work is sponsored by a [Zcash Community Grant](https://zcashcommunitygrants
    * [Spreadsheet of Zcash Wallet Data](https://docs.google.com/spreadsheets/d/1MdahX4igppx7a4BdrcO5TGB2-mO1EtXrlKssypfEHUQ/)
    * [Meeting on Wallet Data](/chains/zcash/zewif/meeting1)
 
-Zcash:**
+**Zcash:**
 * [Zcash Home Page](https://z.cash/)
 * [Zcash Community](https://z.cash/community-hub/)
