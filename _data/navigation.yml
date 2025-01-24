@@ -25,6 +25,8 @@ mainstacks:
       url: /crypto-stack/
     - title: "UX Stack"
       url: /ux-stack/
+    - title: "Chains"
+      url: /chains/zcash/
 architecture:
   - title: Gordian Architecture
     children:
@@ -289,10 +291,20 @@ ur:
 xid:
   - title: Extensible Identifiers
     children:
+    - title: "Intro to XIDs"
+      url: /xid/
     - title: "XID Presentation"
       url: /xid/presentation/
     - title: "Go to Envelope"
       url: /envelope/
     - title: "Return to Core Stack"
       url: /core-stack/
-
+zcash:
+  - title: Zcash
+    children:
+    - title: "Intro to Zcash"
+      url: "/chains/zcash/"
+    - title: "ZeWIF Project"
+      url: "/chains/zcash/zewif/"
+    - title "ZeWIF Meeting #1"
+      url: "/chains/zcash/zewif/meeting1/"
