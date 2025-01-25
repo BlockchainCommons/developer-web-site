@@ -13,7 +13,7 @@ permalink: /chains/zcash/zewif/
 sidebar:
   nav: zcash
 redirect_from:
-  - /zcash/zwif/
+  - /zcash/zewif/
 ---
 
 ZeWIF is a joint project between Blockchain Commons and [Zingo Labs](https://zingolabs.org/), sponsored by a [Zcash Community Grant](https://zcashcommunitygrants.org/). It was created in part to support the deprecation of the [zcashd reference wallet](https://z.cash/ecosystem/zcashd/) but moreso to create a format that supports [Openness and Indepence](https://developer.blockchaincommons.com/principles/) by allowing users to easily migrate among Zcash wallets without concern of loss of funds.
