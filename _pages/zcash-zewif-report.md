@@ -54,7 +54,9 @@ However, this may prove to be one of the easier categories for actual specificat
 
 The following model is in no ways final, but suggests the type of hierarchy that will likely need to be created:
 
-![](/assets/images/zewif1.png)
+<center>
+  <img src="/assets/images/zewif1.png">
+</center>
 
 ## Addresses
 
@@ -73,7 +75,9 @@ There's another important element for keys and addresses: accounts. Though accou
 
 Accounts should therefore be understood to be parts of the hierarchies of keys and addresses.
 
-![](/assets/images/zewif2.png)
+<center>
+  <img src="/assets/images/zewif2.png">
+</center>
 
 Account objects might include key sources, HD and chain information, birthdates, deathdates (after which an account's keys are not used), names, descriptions, and other metadata. Accounts were extremely varied from one wallet to another, as described in the [wallet-data spreadsheet](https://docs.google.com/spreadsheets/d/1MdahX4igppx7a4BdrcO5TGB2-mO1EtXrlKssypfEHUQ/edit?gid=0#gid=0).
 
