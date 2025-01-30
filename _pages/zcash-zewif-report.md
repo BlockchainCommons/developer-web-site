@@ -54,25 +54,7 @@ However, this may prove to be one of the easier categories for actual specificat
 
 The following model is in no ways final, but suggests the type of hierarchy that will likely need to be created:
 
-```mermaid
-flowchart TD
-    Mnemonic <--> Seed
-    Seed --> HD[hd path]
-    Seed --> CHAIN[chain code]
-    HD --> ESK
-    CHAIN --> ESK
-    ESK --> FVK
-    FVK --> IVK
-    IVK --> Address
-
-    UFVK --> FVKA[FVK]
-    UFVK --> FVKB[FVK]
-    UFVK --> FVKC[...]
-
-    UIVK --> IVKA[IVK]
-    UIVK --> IVKB[IVK]
-    UIVK --> IVKC[...]
- ```
+![](/assets/images/zewif1.png)
 
 ## Addresses
 
@@ -91,20 +73,7 @@ There's another important element for keys and addresses: accounts. Though accou
 
 Accounts should therefore be understood to be parts of the hierarchies of keys and addresses.
 
-```mermaid
-flowchart TD
-    Account --> SEED1[Seed]
-    SEED1 --> HD1[hd path]
-    SEED1 --> CHAIN1[chain code]
-    HD1 --> ETC1[...]
-    CHAIN1 --> ETC1
-    Account --> SEED2[Seed]
-    SEED2 --> HD2[hd path]
-    SEED2 --> CHAIN2[chain code]
-    HD2--> ETC2[...]
-    CHAIN2 --> ETC2
-
-```
+![](/assets/images/zewif2.png)
 
 Account objects might include key sources, HD and chain information, birthdates, deathdates (after which an account's keys are not used), names, descriptions, and other metadata. Accounts were extremely varied from one wallet to another, as described in the [wallet-data spreadsheet](https://docs.google.com/spreadsheets/d/1MdahX4igppx7a4BdrcO5TGB2-mO1EtXrlKssypfEHUQ/edit?gid=0#gid=0).
 
