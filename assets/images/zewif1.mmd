@@ -1,0 +1,17 @@
+flowchart TD
+    Mnemonic <--> Seed
+    Seed --> HD[hd path]
+    Seed --> CHAIN[chain code]
+    HD --> ESK
+    CHAIN --> ESK
+    ESK --> FVK
+    FVK --> IVK
+    IVK --> Address
+
+    UFVK --> FVKA[FVK]
+    UFVK --> FVKB[FVK]
+    UFVK --> FVKC[...]
+
+    UIVK --> IVKA[IVK]
+    UIVK --> IVKB[IVK]
+    UIVK --> IVKC[...]
