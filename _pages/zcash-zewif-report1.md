@@ -54,7 +54,7 @@ Seeds and keys, which are obviously the heart of any wallet, were also flagged a
 
 This definitely remains an implementation challenge. In particular, importing wallets will have to decide what to do with keys or key types that they do not support, and that might not even be modeled in their wallet design. (More on this in the best practices guide for conversions, but the general suggestion will be: always tell users about everything that isn't fully converted.)
 
-However, this may prove to be one of the easier categories for actual specification. The various seed usages and the various key types are all well understood and most importantly their usage is fairly standardized because they all have to (should!) follow Zcash specifications. As a result, the biggest challenge here will likely be creating a hierarchical organization within ZeWIF that matches how the keys and seeds are used and derived, and therefore makes it easy for importers to see how data is related and to fill in the gaps when some keys were not previously generated.
+However, this may prove to be one of the easier categories for actual specification. The various seed usages and the various key types are all well understood and most importantly their usage is fairly standardized because they all should follow Zcash specifications. As a result, the biggest challenge here will likely be creating a hierarchical organization within ZeWIF that matches how the keys and seeds are used and derived, and therefore makes it easy for importers to see how data is related and to fill in the gaps when some keys were not previously generated.
 
 The following models are in no ways final, but suggest the types of hierarchy that will likely need to be created.
 
