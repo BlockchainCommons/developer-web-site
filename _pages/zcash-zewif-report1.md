@@ -110,7 +110,7 @@ However, Zcash wallets have a much higher need to track transactions because of 
 
 This will result in transaction modeling being another challenging aspect in the ZeWIF specification. 
 
-Though there was some early discussion about whether transaction information that was freely available on the blockchain should be recorded in the ZeWIF format, thanks to the [expert advice at the first ZeWIF meeting](https://developer.blockchaincommons.com/chains/zcash/zewif/meeting1/), we were able to decide that the best-practices answer was “YES”. This ensures the best consistency and also avoids the whole question of whether data is recoverable or not (and also avoids the problem of an implementer mistakenly omitting something that was not recoverable). 
+Though there was some early discussion about whether transaction information that was freely available on the blockchain should be recorded in the ZeWIF format, thanks to the [expert advice at the first ZeWIF meeting](https://developer.blockchaincommons.com/chains/zcash/zewif/meeting1/), we were able to decide that the best-practices answer was “YES”. This ensures, the best consistency, avoids the whole question of whether data is recoverable or not (and more importantly an implementer mistakenly omitting something that was not recoverable), and supports privacy by averting the disclosure that could occur from redownloading select transactions from the blockchain.
 
 The ZeWIF specification will likely include fairly comprehensive modeling for transactions as a result, and our best practice suggestion will be to fully encode transactions from wallets, and perhaps even to incorporate missing data from the blockchain. However, special care must still be given to that data that is not recoverable, including not just information that is hidden in shielded transactions, but also other metadata such as current price that isn’t recoverable or at the least isn’t easily recoverable.
 
@@ -142,9 +142,9 @@ The Envelope data format that will be used for ZeWIF allows for the simple [encr
 
 ## Missing Categories
 
-The main category of information that we expected to find but did not in any of the six wallet formats that were examined was backup information. Single-sig private keys are fragile, with loss being the main threat to the average user. 
+The main category of information that we expected to find but did not in any of the six wallet formats that were examined was backup information. Single-sig private keys are fragile, with loss being the main threat to the average user. It's important to back them up via methods such as sharding using Shamir's Secret Sharing or engaging in simpler (but less secure) backups such as NFC tags or even metal engraving. It's equally important to leave pointers on a wallet to reveal where backups are. 
 
-This suggests to us that the Zcash ecosystem could benefit from secure backup methods such as [SSKR](https://developer.blockchaincommons.com/sskr/), which uses an advanced form of Shamir’s Secret Sharing, and a network of [Collaborative Share Recovery (CSR)](https://developer.blockchaincommons.com/csr/) servers, but that goes beyond the scope of this project.
+Though backups could be encouraged by not recorded in some of these wallets, we generally suspect that the Zcash ecosystem could benefit from secure backup methods such as [SSKR](https://developer.blockchaincommons.com/sskr/), which uses an advanced form of Shamir’s Secret Sharing, and a network of [Collaborative Share Recovery (CSR)](https://developer.blockchaincommons.com/csr/) servers, but that goes beyond the scope of this project.
 
 ## Final Notes
 
