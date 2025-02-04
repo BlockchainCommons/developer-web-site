@@ -55,7 +55,7 @@ However, this may prove to be one of the easier categories for actual specificat
 The following model is in no ways final, but suggests the type of hierarchy that will likely need to be created:
 
 <center>
-  <img src="/assets/images/zewif1.png">
+  <img src="/assets/images/zewif1a.png">
 </center>
 
 ## Addresses
