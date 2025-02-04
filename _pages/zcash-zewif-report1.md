@@ -18,7 +18,11 @@ sidebar:
 
 The first phase of the [ZeWIF project](/chains/zcash/zewif), to create a Zcash Extensible Wallet Interchange Format, involved undertaking a survey of existing wallets and then summarizing that survey with a spreadsheet and this report. The [initial surveys](https://github.com/zingolabs/zcash-wallet-formats/tree/master) involved looking at six major wallets: Zcashd, Zecwllet, Zingo, eZcash, Zashi, and Ywallet. The results are all available online. A [spreadsheet](https://docs.google.com/spreadsheets/d/1MdahX4igppx7a4BdrcO5TGB2-mO1EtXrlKssypfEHUQ/edit?gid=0#gid=0) then crossreferenced the data, with the intent of categorizing data for potential inclusion in a ZeWIF format and highlighting data that was frequently repeated on different wallets. A [1/24/25 meeting](https://developer.blockchaincommons.com/chains/zcash/zewif/meeting1/) further supplemented this initial work by inviting commentary from experts on the categorization to that point.
 
-_The ZeWIF project is being undertaken by [Blockchain Commons](https://www.blockchaincommons.com/) and [Zingo Labs](https://zingolabs.org/) under a [Zcash Community Grant](https://zcashcommunitygrants.org/). Its goal is to create an interchange format for Zcash wallets, to support the Zcashd deprecation, but in the longer term to create more freedom for users by improving interoperability, an important [Gordian principle](https://developer.blockchaincommons.com/principles/)._
+* [**ZeWIF Meeting**](https://developer.blockchaincommons.com/chains/zcash/zewif/meeting1/)
+* [**Wallets Survey**](https://github.com/zingolabs/zcash-wallet-formats/tree/master)
+* [**Wallets Spreadsheet**](https://docs.google.com/spreadsheets/d/1MdahX4igppx7a4BdrcO5TGB2-mO1EtXrlKssypfEHUQ/edit?gid=0#gid=0)
+* 
+_The ZeWIF project is being undertaken by [Blockchain Commons](https://www.blockchaincommons.com/) and [Zingo Labs](https://zingolabs.org/) under a [Zcash Community Grant](https://zcashcommunitygrants.org/). Its goal is to create an interchange format for Zcash wallets, immediately to support the Zcashd deprecation but in the longer term to create more freedom for users by improving interoperability, an important [Gordian principle](https://developer.blockchaincommons.com/principles/)._
 
 _ZeWIF wallet surveys courtesy of [@dorianvp from Zingo Labs](https://github.com/dorianvp/), categorization and this report by [@shannona from Blockchain Commons](https://github.com/shannona)._
 
@@ -40,9 +44,9 @@ To a certain extent, reading existing data is an implementation detail: the purp
 
 * **Flat Data.** The traditional `wallet.dat` file is a flat file with data often serialized into a key-value format, as is the case with Zcashd. 
 * **Hierarchical Data.** Other wallets such as eZcash use a [hierarchical data format](https://github.com/zingolabs/zcash-wallet-formats/blob/master/ezcash/README.md#ezcash-data-tree). 
-* **Database.** Finally, wallets such as Zashi and Ywallet utilize a database. 
+* **Database.** Finally, wallets such as Zashi and Ywallet utilize a relational database with interlinked tables. 
 
-Creating a single specification that can easily accommodate these many data models, with different ideas of hierarchy and abstraction is challenging, but is one of the reasons that the [Gordian Envelope](https://developer.blockchaincommons.com/envelope/) data format was chosen as a foundation, as its design using semantic triples has already proving effective at modeling a variety of different [data types](https://github.com/BlockchainCommons/Research/blob/master/papers/bcr-2024-006-envelope-graph.md).
+Creating a single specification that can easily accommodate these many data models, with different ideas of hierarchy and abstraction, is challenging, but is one of the reasons that the [Gordian Envelope](https://developer.blockchaincommons.com/envelope/) data format was chosen as a foundation, as its design using semantic triples has already proving effective at modeling a variety of different [data types](https://github.com/BlockchainCommons/Research/blob/master/papers/bcr-2024-006-envelope-graph.md).
 
 ## Seeds & Keys
 
@@ -52,7 +56,7 @@ This definitely remains an implementation challenge. In particular, importing wa
 
 However, this may prove to be one of the easier categories for actual specification. The various seed usages and the various key types are all well understood and most importantly their usage is fairly standardized because they all have to (should!) follow Zcash specifications. As a result, the biggest challenge here will likely be creating a hierarchical organization within ZeWIF that matches how the keys and seeds are used and derived, and therefore makes it easy for importers to see how data is related and to fill in the gaps when some keys were not previously generated.
 
-The following model is in no ways final, but suggests the type of hierarchy that will likely need to be created.
+The following models are in no ways final, but suggest the types of hierarchy that will likely need to be created.
 
 **Shielded Addresses:**
 
@@ -76,21 +80,7 @@ Though many addresses may be derived from keys in an account, there are actually
 3. Remote addresses appearing in contact books.
 4. Remote addresses to which funds were sent.
 
-Though all sorts of addresses might be built using the same data abstraction in ZeWIF, the four major types of addresses will likely need to be organized in different ways.
-
-## Accounts
-
-There's another important element for keys and addresses: accounts. Though accounts are described in [ZIP-32](https://zips.z.cash/zip-0032) as an element of hierarchical key creation, the usage of an account abstraction goes far beyond that and might be used by any wallet to group together any group of keys, whether they're related or not. These abstractions should be maintained in any ZeWIF format. Whether an account represents a cryptographic relationship or not, it represents the user's understanding of how their funds are organized, and so how they can be spent.
-
-Accounts should therefore be understood to be parts of the hierarchies of keys and addresses.
-
-<center>
-  <img src="/assets/images/zewif2.png">
-</center>
-
-Account objects might include key sources, HD and chain information, birthdates, deathdates (after which an account's keys are not used), names, descriptions, and other metadata. Accounts were extremely varied from one wallet to another, as described in the [wallet-data spreadsheet](https://docs.google.com/spreadsheets/d/1MdahX4igppx7a4BdrcO5TGB2-mO1EtXrlKssypfEHUQ/edit?gid=0#gid=0).
-
-Transactions can also be associated with accounts.
+Though all sorts of addresses will likely be recorded using the same data abstraction in ZeWIF, these four major types of addresses may need to be organized in different ways.
 
 ## Metadata
 
@@ -107,9 +97,23 @@ Address-related metadata had more of the expected diversity, including:
 
 1. Diversifier information
 2. Viewing keys
-3. User-supplied Description of address
-4. User-supplied Name for address
+3. User-supplied description of address
+4. User-supplied dame for address
 5. Transactions in which address was used
+6. 
+## Accounts
+
+There's another important element for seeds, keys, and addresses: accounts. Though accounts are described in [ZIP-32](https://zips.z.cash/zip-0032) as an element of hierarchical key creation, the usage of an account abstraction goes far beyond that and might be used by any wallet to group together any group of keys, whether they're truly related or not. These abstractions should be maintained in any ZeWIF format. Whether an account represents a cryptographic relationship or not, it represents the user's understanding of how their funds are organized, and so how they can be spent.
+
+Accounts should therefore be understood to be parts of the hierarchies of keys and addresses.
+
+<center>
+  <img src="/assets/images/zewif2.png">
+</center>
+
+Account metadata might include key sources, HD and chain information, birthdates, deathdates (after which an account's keys are not used), names, descriptions, and other informations. Accounts were extremely varied from one wallet to another, as described in the [wallet-data spreadsheet](https://docs.google.com/spreadsheets/d/1MdahX4igppx7a4BdrcO5TGB2-mO1EtXrlKssypfEHUQ/edit?gid=0#gid=0).
+
+Besides seeds, keys, and addresses, transactions can also be associated with accounts.
 
 ## Transactions
 
@@ -119,9 +123,9 @@ However, Zcash wallets have a much higher need to track transactions because of 
 
 This will result in transaction modeling being another challenging aspect in the ZeWIF specification. 
 
-Though there was some early discussion about whether transaction information that was freely available on the blockchain should be recorded in the ZeWIF format, thanks to the [expert advice at the first ZeWIF meeting](https://developer.blockchaincommons.com/chains/zcash/zewif/meeting1/), we were able to decide that the best-practices answer was “YES”. This ensures, the best consistency, avoids the whole question of whether data is recoverable or not (and more importantly an implementer mistakenly omitting something that was not recoverable), and supports privacy by averting the disclosure that could occur from redownloading select transactions from the blockchain.
+Though there was some early discussion about whether transaction information that was freely available on the blockchain should be recorded in the ZeWIF format, thanks to the [expert advice at the first ZeWIF meeting](https://developer.blockchaincommons.com/chains/zcash/zewif/meeting1/), we were able to decide that the best-practices answer was “YES”. This ensures the best consistency, avoids the whole question of whether data is recoverable or not (and more importantly an implementer mistakenly omitting something that was not recoverable), and supports privacy by avoiding the disclosure that could occur from redownloading select transactions from the blockchain.
 
-The ZeWIF specification will likely include fairly comprehensive modeling for transactions as a result, and our best practice suggestion will be to fully encode transactions from wallets, and perhaps even to incorporate missing data from the blockchain. However, special care must still be given to that data that is not recoverable, including not just information that is hidden in shielded transactions, but also other metadata such as current price that isn’t recoverable or at the least isn’t easily recoverable.
+The ZeWIF specification will likely include fairly comprehensive modeling for transactions as a result, and our best practice suggestion will be to fully encode transactions from wallets, and perhaps even to incorporate missing data from the blockchain (though again, there might be privacy issues here, and best practices likely would give the user a choice). However, special care must still be given to that data that is not recoverable, including not just information that is hidden in shielded transactions, but also other metadata such as current price that isn’t recoverable or at the least isn’t easily recoverable.
 
 Finally, it should be noted that some wallets save information for transactions that were not successfully mined. This should be incorporated as part of the ZeWIF specification.
 
@@ -147,13 +151,13 @@ The second is the commitment trees. Though these are theoretically recoverable, 
 
 A few wallets used encryption keys, wallet keys, or nonces to protect the sensitive data within the wallet. Our current best practice suggestion is that data should be decrypted as part of the export from the wallet, because otherwise its resilience is notably decreased (e.g., it would be easy to lose the data). 
 
-The Envelope data format that will be used for ZeWIF allows for the simple [encryption of its data](https://github.com/BlockchainCommons/bc-envelope-cli-rust/blob/master/docs/BasicExamples.md#example-4-symmetric-encryption) with the [envelope-cli](https://github.com/BlockchainCommons/bc-envelope-cli-rust/tree/master). Best practice suggestion will be to use this encryption that is native to Envelope if ZeWIF data is to be stored at rest. (Best practices will also offer some suggestions on how to keep the key safe!)
+The Envelope data format that will be used for ZeWIF allows for the simple [encryption of its data](https://github.com/BlockchainCommons/bc-envelope-cli-rust/blob/master/docs/BasicExamples.md#example-4-symmetric-encryption) with the [envelope-cli](https://github.com/BlockchainCommons/bc-envelope-cli-rust/tree/master). Best practice suggestion will be to use this encryption that is native to Envelope if ZeWIF data is to be stored at rest. This improves resiliency because there will be one standard for encryption, not a half-dozen. (Best practices will also offer some suggestions on how to keep that key safe!)
 
 ## Missing Categories
 
-The main category of information that we expected to find but did not in any of the six wallet formats that were examined was backup information. Single-sig private keys are fragile, with loss being the main threat to the average user. It's important to back them up via methods such as sharding using Shamir's Secret Sharing or engaging in simpler (but less secure) backups such as NFC tags or even metal engraving. It's equally important to leave pointers on a wallet to reveal where backups are. 
+The main category of information that we expected to find but did not in any of the six wallet formats that were examined was backup information. Single-sig private keys are fragile, with loss being the main threat to the average user. It's important to back them up via methods such as sharding using Shamir's Secret Sharing or engaging in simpler (but less secure) backups such as storing in NFC tags or even engraving on metal plates. It's equally important to leave pointers on a wallet to reveal where backups are. 
 
-Though backups could be encouraged by not recorded in some of these wallets, we generally suspect that the Zcash ecosystem could benefit from secure backup methods such as [SSKR](https://developer.blockchaincommons.com/sskr/), which uses an advanced form of Shamir’s Secret Sharing, and a network of [Collaborative Share Recovery (CSR)](https://developer.blockchaincommons.com/csr/) servers, but that goes beyond the scope of this project.
+Though backups of this sort could be encouraged but not recorded in some of these wallets, we generally suspect that the Zcash ecosystem could benefit from secure backup methods such as [SSKR](https://developer.blockchaincommons.com/sskr/), which uses an advanced form of Shamir’s Secret Sharing, and a network of [Collaborative Share Recovery (CSR)](https://developer.blockchaincommons.com/csr/) servers, but that goes beyond the scope of this project.
 
 ## Final Notes
 
@@ -162,7 +166,7 @@ The first phase of the ZeWIF project focused on [surveying existing wallets](htt
 The ZeWIF specification, which will be created in phase two, is the true end result of this, but in the meantime the initial phase of the project has not only exposed much of the information for incorporation into a specification, but also highlighted important elements such as:
 
 1. Data may not just be flowing in from traditional flat files, but also hierarchical structures and databases.
-2. Accounts are an important abstraction that should likely be a top level data element
+2. Accounts are an important abstraction that should likely be a top level data element.
 3. Accounts, seeds, and keys should likely be arranged into hierarchies.
 4. Addresses need to be flagged for different types, particularly receiving addresses and contact addresses.
 5. Transactions may be the most complex modeling primarily due to the different shielded info that’s stored by different wallets in different ways.
