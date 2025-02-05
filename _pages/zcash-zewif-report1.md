@@ -21,7 +21,7 @@ The first phase of the [ZeWIF project](/chains/zcash/zewif), to create a Zcash E
 * [**ZeWIF Meeting**](https://developer.blockchaincommons.com/chains/zcash/zewif/meeting1/)
 * [**Wallets Survey**](https://github.com/zingolabs/zcash-wallet-formats/tree/master)
 * [**Wallets Spreadsheet**](https://docs.google.com/spreadsheets/d/1MdahX4igppx7a4BdrcO5TGB2-mO1EtXrlKssypfEHUQ/edit?gid=0#gid=0)
-* 
+
 _The ZeWIF project is being undertaken by [Blockchain Commons](https://www.blockchaincommons.com/) and [Zingo Labs](https://zingolabs.org/) under a [Zcash Community Grant](https://zcashcommunitygrants.org/). Its goal is to create an interchange format for Zcash wallets, immediately to support the Zcashd deprecation but in the longer term to create more freedom for users by improving interoperability, an important [Gordian principle](https://developer.blockchaincommons.com/principles/)._
 
 _ZeWIF wallet surveys courtesy of [@dorianvp from Zingo Labs](https://github.com/dorianvp/), categorization and this report by [@shannona from Blockchain Commons](https://github.com/shannona)._
