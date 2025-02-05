@@ -127,22 +127,22 @@ confirms the truth and accuracy of introductory information, ensuring it is genu
 
 ----
 
-### 4. **References** *(Trust Aggregated)*
+### 4. **References** *(Trust Affirmed)*
 - **Description**: This step involves the collection from multiple sources of trust references declared within initial data assets, including certificates, endorsements, and other trust indicators, which together form a comprehensive view of trustworthiness to inform subsequent interactions. It may also involve collection of trust references from third parties _not_ mentioned in the original Introduction. It's likely that _all_ trust references are not collected: a party collects until they feel that they have enough; they could always return to this step in the future if needed.
 - **Actor**: Either party acting as or interacting with a validator.
-- **Action**: Gather trust declarations from various sources according to your trust model, aggregating them to create a grayscale vision of trust. Stop when you have enough.
-- **Success**: Sufficient trust declarations are aggregated, providing a comprehensive view of trust from multiple sources.
-  - If insufficient trust declarations are aggregated, references may be rechecked until sufficient are collected (phase 4).
-  - If insufficient trust declarations are aggregated, a new Introduction may be requested with different or additional references (phase 1).
-- **Use Case (The Kitchen Remodeling):** Hank checks Carala's contractor # in the state databasae and calls up her references for their testimonials. He calls up the phone number on her business card and assesses the professionalism of her office manager's response. Finally, he asks friends and family to see if anyone has heard about her. He then synthesizes those responses into an overall (but not binary) picture of her trustworthiness for this task.
+- **Action**: Gather declarations from various sources according to your trust model, aggregating them to create a grayscale vision of trustworthiness, and use that to affirm trust. Stop when you have enough.
+- **Success**: Sufficient trust declarations are collected to affirm the trustworthiness of the subject based on these external references.
+  - If insufficient trust declarations are collected, references may be rechecked until sufficient are collected (phase 4).
+  - If insufficient trust declarations are collected, a new Introduction may be requested with different or additional references (phase 1).
+- **Use Case (The Kitchen Remodeling):** Hank checks Carala's contractor # in the state databasae and calls up her references for their testimonials. He calls up the phone number on her business card and assesses the professionalism of her office manager's response. Finally, he asks friends and family to see if anyone has heard about her. He then synthesizes those responses into an overall (but not binary) picture that affirms her trustworthiness for this task.
 -  **Lexicon:**
    - **Key Terms**:
       - ___Preparatory Verbs.___ ENDORSE [entity].
-      - ___Active Verbs.___ AGGREGATE, check, look up, synthesize.
+      - ___Active Verbs.___ AFFIRM, aggregate, check, look up, synthesize.
       - ___Objects.___ TRUST, declarations, references, trust model.
    - **Etymology:**
         - ***References.*** From the Latin "referre", meaning to carry back. In this case, carrying back information.
-        - ***Trust Aggregated.*** The term "trust" originates from the Old Norse "traust," meaning "confidence" or "protection." "Aggregated" comes from the Latin "aggregare," meaning "to collect" or "to bring together." Together, "Trust Aggregated" emphasizes the gathering and synthesis of diverse trust data, providing a holistic picture of credibility and reliability, rather than making a binary judgment. 
+        - ***Trust Affirmed.*** The term "trust" originates from the Old Norse "traust," meaning "confidence" or "protection." "Affirmed" comes from the Latin "affirmare", meaing "to make steady, strengthen, confirm" (ad- "to" + firmare "make firm"). Together, "Trust Affirmed" emphasizes the gathering and synthesis of diverse trust data, to strengthen credibility and reliability, rather than making a binary judgment. 
 
 ---
 
