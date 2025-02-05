@@ -147,15 +147,15 @@ confirms the truth and accuracy of introductory information, ensuring it is genu
 ---
 
 ### 5. **Requirements** *(Community Compliance)*
-- **Description**: Following validation of initial and linked data assets, community standards are  checked to determine how an interaction would fit into general expectations for the space. Compliance may be determined through peer-to-peer mechanisms (for communities); or  through decisions from higher authorities (for hierarchical networks). This will often involve the revelation of additional data beyond the initial assets, which is a normative part of the progressive trust process.
+- **Description**: Following validation of initial and linked data assets, collected references are audited for adherence to community standards, to determine how an interaction would fit into general expectations for the space. Compliance may be determined through peer-to-peer mechanisms (for communities); or  through decisions from higher authorities (for hierarchical networks). This will often involve the revelation of additional data beyond the initial assets, which is a normative part of the progressive trust process.
 - **Actor**: Either party interacting with a community of mutual benefit.
-- **Action**: Evaluate whether the authenticated data assets meet related community standards, policies, and requirements, ensuring adherence to expected criteria. Request and authenticate additional data assets as necessary. 
+- **Action**: Audit whether the authenticated data assets meet related community standards, policies, and requirements, ensuring adherence to expected criteria. Request and authenticate additional data assets as necessary. 
 - **Success**: The content is deemed in compliance with community requirements.
   - If data fails Community Compliance, it may be outright rejected or a new compliant Introduction may be requested (phase 1).
 - **Use Case (The Kitchen Remodeling):** Hank determines that Carla's contractor # is indeed the standard to prove expertise for this sort of work. He requests a quote and verifies the costs fit within expectations for the work. He then requests a contract and compares it to sample contracts.
 - **Lexicon:**
   - **Key Terms**: 
-     - ___Request Verbs.___ CHECK [standards], request [requiements].
+     - ___Request Verbs.___ AUDIT [requirements], check [standards], request [requirements].
      - ___Additional Parties.___ COMMUNITY, peers.
      - ___Active Verbs.___ COMPLY, cerify, standardize, test.
      - ___Objects.___ REQUIREMENTS, expectations, policies.
