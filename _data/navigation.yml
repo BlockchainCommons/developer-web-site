@@ -308,3 +308,5 @@ zcash:
       url: "/chains/zcash/zewif/"
     - title: "ZeWIF Meeting #1"
       url: "/chains/zcash/zewif/meeting1/"
+    - title: "ZeWIF Wallet Report"
+      url: "/chains/zcash/zewif/report1/"
