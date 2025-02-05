@@ -25,7 +25,8 @@ The project has been broken into four phases:
 1. Survey of existing wallet data (January 2025)
    * [Survey of Zcash Data Formats](https://github.com/dorianvp/zcash-wallet-formats/tree/master)
    * [Spreadsheet of Zcash Wallet Data](https://docs.google.com/spreadsheets/d/1MdahX4igppx7a4BdrcO5TGB2-mO1EtXrlKssypfEHUQ/)
-   * [Meeting on Wallet Data](/chains/zcash/zewif/meeting1)
+   * [Meeting on Wallet Data](/chains/zcash/zewif/meeting1/)
+   * [Report on Wallet Data](/chains/zcash/zewif/report1/)
 3. Design of wallet interchange specification (February 2025)
 4. Creation of Rust import and export libraries (March 2025)
 5. Create of legacy wallet CLI tool, ZExCavator (April 2025)
@@ -47,7 +48,8 @@ This work is sponsored by a [Zcash Community Grant](https://zcashcommunitygrants
 **ZeWIF Survey:**
    * [Survey of Zcash Data Formats](https://github.com/dorianvp/zcash-wallet-formats/tree/master)
    * [Spreadsheet of Zcash Wallet Data](https://docs.google.com/spreadsheets/d/1MdahX4igppx7a4BdrcO5TGB2-mO1EtXrlKssypfEHUQ/)
-   * [Meeting on Wallet Data](/chains/zcash/zewif/meeting1)
+   * [Meeting on Wallet Data](/chains/zcash/zewif/meeting1/)
+   * [Report on Wallet Data](/chains/zcash/zewif/report1/)
 
 **Zcash:**
 * [Zcash Home Page](https://z.cash/)
