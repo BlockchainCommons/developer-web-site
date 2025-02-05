@@ -571,5 +571,5 @@ One of Asset Analysis' clients complains about their use of an open-source proje
 
 ## Versions
 
-**v1.0 (11/13/24):** Initial release on web site. (Previous versions existed in HackMD.)
-**v1.1 (2/5/25):** Language updates. Removed VALIDATE from p2, changed core verb in p4 from AGGREGATE to AFFIRM, changed core verb in p5 from CHECK to AUDIT. 
+* **v1.0 (11/13/24):** Initial release on web site. (Previous versions existed in HackMD.)
+* **v1.1 (2/5/25):** Language updates. Removed VALIDATE from p2, changed core verb in p4 from AGGREGATE to AFFIRM, changed core verb in p5 from CHECK to AUDIT. 
