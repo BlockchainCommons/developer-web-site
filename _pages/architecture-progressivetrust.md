@@ -399,11 +399,11 @@ When the clinic gets test data from a new brand of activity tracker, it must che
 
 #### Phase 5: Requirements
 
-The clinic does additional research to verify that all of the data they're collecting meets community requirements.
+The clinic does additional research to audit the data they're collecting to ensure that it meets community requirements.
 
 Some trackers are reporting too much data, violating community privacy standards and possibly putting the clinic's HIPAA compliance in question. Their data is rejected from the study.
 
-Some trackers are determined to report heart rates or step counts that are more than 10% off, affecting the study's accuracy. Their data is also rejected.
+Further audits determine that some trackers are reporting heart rates or step counts that are more than 10% off, affecting the study's accuracy. Their data is also rejected.
 
 #### Phase 6: Approval
 
@@ -449,7 +449,7 @@ E-Corp affirms Cyber U's accreditation as well as the roots of trust used to che
 
 #### Phase 5: Requirements
 
-E-Corp checks that the classes that Cybercat took meet the expected requirements for a Cyber security degree and that other companies in the space respect Cyber U's certifications.
+E-Corp audits Cybercat's classes to ensure that they meet the expected requirements for a Cyber security degree and that other companies in the space respect Cyber U's certifications.
 
 #### Phase 6: Approval
 
@@ -498,7 +498,7 @@ Arthur also needs to affirm references for external libraries and dependencies t
 
 #### Phase 5: Requirements
 
-Arthur checks whether DAI's releases meet Asset Analysis' standards. Do they respond to important Issues within a reasonable amount of time? Do they have a documented code review system and does it meet Asset Analysis' standards? Is software offered for third-party security review prior to its finalization for use in deployed systems? He likes the answers he gets, so checks off Requirements.
+Arthur audits whether DAI's releases meet Asset Analysis' standards. Do they respond to important Issues within a reasonable amount of time? Do they have a documented code review system and does it meet Asset Analysis' standards? Is software offered for third-party security review prior to its finalization for use in deployed systems? He likes the answers he gets, so checks off Requirements.
 
 #### Phase 6: Approval
 
