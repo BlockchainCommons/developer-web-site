@@ -100,7 +100,8 @@ Third, the goal of these phases is explicitly not to achieve binary trust, but t
 - **Lexicon:**
   - **Key Terms**: 
      - ___Preparatory Verbs.___ STRUCTURE, cohere, order, organize.
-     - ___Active Verbs.___ ASSESS, validate.
+     - ___Active Verbs.___ ASSESS.
+     - ___Deprecated Verbs.___ VALIDATE is widely used to refer to checking against rules-based correctness. That would place it in this phase. However, VALIDATE is a problematic verb because it is often confused with Verify and because it ensures a binary yes-or-no result that's the opposite of progressive trust. It's therefore omitted other than this reference.
      - ___Objects.___ INTEGRITY, consistency, wholeness.
   - **Etymology:** 
     - ___Wholeness.___ From the proto-Germanic "haila" meaning undamaged. This is data that is structurally sound.
@@ -111,7 +112,7 @@ Third, the goal of these phases is explicitly not to achieve binary trust, but t
 ### 3. **Proofs** *(Secrets Verified)*
 - **Description**: This step follows foundational wholeness verification and adds a layer of security by ensuring that cryptographic contents or other secrets are valid. This step demonstrates how modern technology really shines, because it's made algorithmic checks of this sort possible. Non-cryptographic secrets can be checked as well.
 - **Actor**: Either party acting as or interacting with a validator.
-- **Action**: Verify secrets. Assess non-cryptographic secrets via investigatory means. Check hashes, signatures, zero-knowledge proofs, or other cryptographic methods to ensure that data hasn't been tampered with.
+- **Action**: Verify secrets. Check non-cryptographic secrets via investigatory means. Authenticate hashes, signatures, zero-knowledge proofs, or other cryptographic methods to ensure that data hasn't been tampered with.
 - **Success**: Secrets are verified to confirm their authenticity, either by investigation or by cryptographic proof.
   - If data fails Cryptography Verification, a new Introduction is requested with verifiable Proof (phase 1).
 - **Use Case (The Kitchen Remodeling):** Hank has called Carla to receive names and phone numbers for a few testimonials about her work. These testimonials are non-cryptographic secrets since they're not publicly known. He looks up the names he's been given in a phone book and verifies that they indeed correlate with the phone numbers.
@@ -134,7 +135,7 @@ confirms the truth and accuracy of introductory information, ensuring it is genu
 - **Success**: Sufficient trust declarations are collected to affirm the trustworthiness of the subject based on these external references.
   - If insufficient trust declarations are collected, references may be rechecked until sufficient are collected (phase 4).
   - If insufficient trust declarations are collected, a new Introduction may be requested with different or additional references (phase 1).
-- **Use Case (The Kitchen Remodeling):** Hank checks Carala's contractor # in the state databasae and calls up her references for their testimonials. He calls up the phone number on her business card and assesses the professionalism of her office manager's response. Finally, he asks friends and family to see if anyone has heard about her. He then synthesizes those responses into an overall (but not binary) picture that affirms her trustworthiness for this task.
+- **Use Case (The Kitchen Remodeling):** Hank checks Carala's contractor # in the state databasae and calls up her references for their testimonials. He calls up the phone number on her business card and affirms the professionalism of her office manager's response. Finally, he asks friends and family to see if anyone has heard about her. He then synthesizes those responses into an overall (but not binary) picture that affirms her trustworthiness for this task.
 -  **Lexicon:**
    - **Key Terms**:
       - ___Preparatory Verbs.___ ENDORSE [entity].
@@ -223,9 +224,9 @@ confirms the truth and accuracy of introductory information, ensuring it is genu
 ----
 
 ### 9. **Escalation** *(Independently Inspected)* [optional]
-- **Description:** Following the initial fulfillment, a third party may be called in. Whether this is needed or not is determined by the risk model of the actors (going back to phase 6). A third party can assess whether the interaction occurred in compliance with the contract. In order to do so, the inspector may repeat some of the steps to date, including going through their own Validation (steps 2-4) and Approval (steps 6-7). Alternatively, they may repackage or reuse the results of the interaction for their own purposes, more implicitly endorsing it.
+- **Description:** Following the initial fulfillment, a third party may be called in. Whether this is needed or not is determined by the risk model of the actors (going back to phase 6). A third party can determine whether the interaction occurred in compliance with the contract. In order to do so, the inspector may repeat some of the steps to date, including going through their own assessment and approval (as in steps 2-7). Alternatively, they may repackage or reuse the results of the interaction for their own purposes, more implicitly endorsing it.
 - **Actor**: The community or either party interacting with an inspector.
-- **Action:** Validate, approve, and potentially endorse the results of an interaction. Or reject it. 
+- **Action:** Assess, approve, and potentially endorse the results of an interaction. Or reject it. 
 - **Success**: The interaction is independently endorsed.
      - If interaction is not endorsed, Fulfillment (phase 8) may have to be repeated by the counterparty.
      - If interaction is not endorsed, the actor requesting the Inspection may need to Dispute (phase 10).
@@ -292,7 +293,7 @@ This makes Upton feel comfortable enough to reveal additional secrets: he tells 
 
 #### Phase 4: References
 
-_The Tribune_ checks all references in the data package. For photographs, this likely means checking a root certificate for the camera. For Upton's signatures, this means checking his public key and any DID information. Some of these references may have another layer of certification and endorsement: _The Tribune's_  validator must recursively dig through it until they have the complete picture.
+_The Tribune_ affirms all references in the data package. For photographs, this likely means looking at a root certificate for the camera. For Upton's signatures, this means checking his public key and any DID information. Some of these references may have another layer of certification and endorsement: _The Tribune's_  validator must recursively dig through it until they have the complete picture.
 
 Since this would be a major exposé, _The Tribune_ goes the extra mile and also investigates Upton's previous publication of four well-received novels and even reaches out to Columbia University where he matriculated.
 
@@ -308,7 +309,7 @@ Joe also notes a few places in the article where claims aren't backed up by suff
 
 #### Phase 6: Approval
 
-Joe makes a final assessment of the credibility of all of Upton's sources and information. He compares that trust model to his risk model, which notes the huge economic power of slaughterhouses in Chicago. There's high trust, but there's high risk. Joe ultimately approves the article because he feels that the article also offers a high fulfillment of _The Tribune's_ goal of bettering the Chicago public.
+Joe makes a final determination of the credibility of all of Upton's sources and information. He compares that trust model to his risk model, which notes the huge economic power of slaughterhouses in Chicago. There's high trust, but there's high risk. Joe ultimately approves the article because he feels that the article also offers a high fulfillment of _The Tribune's_ goal of bettering the Chicago public.
 
 #### Phase 7: Agreement
 
@@ -346,7 +347,7 @@ Bitcoin verifies that Bob has access to one of the keys needed to sign the PSBT.
 
 #### Phase 4: References
 
-Bitcoin verifies the funds in the UTXOs by looking at _their_ inputs.
+Bitcoin affirms the funds in the UTXOs by looking at _their_ inputs.
 
 #### Phase 5: Requirements
 
@@ -376,7 +377,7 @@ Because Bitcoin prices dropped during the hour and a half that it took the trans
 
 #### Phase 0: Context
 
-A clinic considers a new health study that will collect steps records and heart rates to assess the rapidity of the degradation in heart health for users who fall off their fitness plans. They assess the technology of modern activity trackers and determine the accuracy is sufficient for their needs. They also informally poll users to determine whether enough will be willing to participate in the study.
+A clinic considers a new health study that will collect steps records and heart rates to determine the rapidity of the degradation in heart health for users who fall off their fitness plans. They consider the technology of modern activity trackers and determine the accuracy is sufficient for their needs. They also informally poll users to determine whether enough will be willing to participate in the study.
 
 #### Phase 1: Introduction
 
@@ -394,7 +395,7 @@ Each data entry is signed by the wellness tracker that sent it. The clinic makes
 
 #### Phase 4: References
 
-When the clinic gets test data from a new brand of activity tracker, it must check references. Cryptographically, they verify the the public key of the brand's signature against a PKI. 
+When the clinic gets test data from a new brand of activity tracker, it must check references. Cryptographically, they affirm the the public key of the brand's signature against a PKI. 
 
 #### Phase 5: Requirements
 
@@ -444,7 +445,7 @@ E-Corp checks Cyber U's signatures of the transcripts and diplomas. Digital badg
 
 #### Phase 4: References
 
-E-Corp checks Cyber U's accreditation as well as the roots of trust used to verify their signatures.
+E-Corp affirms Cyber U's accreditation as well as the roots of trust used to check their signatures.
 
 #### Phase 5: Requirements
 
@@ -491,17 +492,17 @@ Blockchain Commons signs its commits, tags, releases, and other metadata with SS
 
 #### Phase 4: References
 
-The inception commit for the Gordian Guardian repo acts as a root of trust. When a new engineer begins signing releases, their public key is in turn signed with the private key from the inception commit or else a private key whose public key was _previously_ signed. This creates a chain of trust. When Arthur examines the repo, he can thus reference signing keys all the way back to the key from the inception commit, via this chain.
+The inception commit for the Gordian Guardian repo acts as a root of trust. When a new engineer begins signing releases, their public key is in turn signed with the private key from the inception commit or else a private key whose public key was _previously_ signed. This creates a chain of trust. When Arthur checks the repo, he can therefore reference signing keys all the way back to the key from the inception commit, via this chain.
 
-Arthur also needs to check references for external libraries and dependencies to ensure their reliability. Besides verifying their signatures and commits, Arthur also examines these users' other projects and reads their repo issues to determine their general reputation in the space.
+Arthur also needs to affirm references for external libraries and dependencies to ensure their reliability. Besides checking their signatures and commits, Arthur also examines these users' other projects and reads their repo issues to determine their general reputation in the space.
 
 #### Phase 5: Requirements
 
-Arthur assesses whether DAI's releases meet Asset Analysis' standards. Do they respond to important Issues within a reasonable amount of time? Do they have a documented code review system and does it meet Asset Analysis' standards? Is software offered for third-party security review prior to its finalization for use in deployed systems? He likes the answers he gets, so checks off Requirements.
+Arthur checks whether DAI's releases meet Asset Analysis' standards. Do they respond to important Issues within a reasonable amount of time? Do they have a documented code review system and does it meet Asset Analysis' standards? Is software offered for third-party security review prior to its finalization for use in deployed systems? He likes the answers he gets, so checks off Requirements.
 
 #### Phase 6: Approval
 
-After fully assessing the validity of DAI's commits, the profiles of its developers, and the trustworthiness of its third-party libraries, Arthur makes a final call that it's safe to use Gordian Guardian.
+After checking the validity of DAI's commits, the profiles of its developers, and the trustworthiness of its third-party libraries, Arthur makes a final call that it's safe to use Gordian Guardian.
 
 #### Phase 7: Agreement
 
@@ -530,7 +531,8 @@ One of Asset Analysis' clients complains about their use of an open-source proje
      - ___Reactive Verbs.___ ACCEPT.
 * **Phase 2. Wholeness.**
      - ___Preparatory Verbs.___ STRUCTURE, cohere, order, organize.
-     - ___Active Verbs.___ ASSESS, validate.
+     - ___Active Verbs.___ ASSESS.
+     - ___Deprecated Verbs.___ VALIDATE.
      - ___Objects.___ INTEGRITY, consistency, wholeness.
 * **Phase 3. Proofs.**
      - ___Preparatory Verbs.___ ENCODE, hash, sign.
@@ -538,10 +540,10 @@ One of Asset Analysis' clients complains about their use of an open-source proje
      - ___Objects.___ SECRET, hash, proof, signature
 * **Phase 4. References.**
      - ___Preparatory Verbs.___ ENDORSE [entity].
-     - ___Active Verbs.___ AGGREGATE, check, look up, synthesize.
+     - ___Active Verbs.___ AFFIRM, Aggregate, check, look up, synthesize.
      - ___Objects.___ TRUST, declarations, references, trust model.
 * **Phase 5. Requirements.**
-     - ___Request Verbs.___ CHECK [standards], request [requiements].
+     - ___Request Verbs.___ AUDIT [requirements], check [standards], request [requiements].
      - ___Additional Parties.___ COMMUNITY, peers.
      - ___Active Verbs.___ COMPLY, cerify, standardize, test.
      - ___Objects.___ REQUIREMENTS, expectations, policies.
