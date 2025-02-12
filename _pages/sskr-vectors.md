@@ -24,6 +24,8 @@ Commons' standard seeds. THey are broken into four categories:
 * [SSKR Envelopes for 256-bit](#sskr-envelope-test-vectors-1)
 * [SSKR URs for 256-bit](#sskr-ur-test-vectors-1)
 
+---
+
 > :warning: **WARNING.** SSKR is non-deterministic. There is a random
 factor introduced when the shares are created, which means that
 every time you generate shares, they will be different. This is an
@@ -31,6 +33,8 @@ expected and correct result. For the purposes of these test vectors, this means 
 SSKR shares from these seeds, they will be different. However, you can
 still test your implementation by reading these shares back in to make
 sure they reconstruct the expected seeds. [LifeHash](/lifehash/) is an important tool for quickly recognizing a seed.
+
+---
 
 ## 128-bit Seed
 
