@@ -29,7 +29,7 @@ fiduciaries. If the user ever loses their seed, they can then
 "reconstruct" it by collecting sufficient of the shares (the
 "threshold").
 
-* [**Research Paper: BCR-2020-011](https://github.com/BlockchainCommons/Research/blob/master/papers/bcr-2020-011-sskr.md)
+* [**Research Paper: BCR-2020-011**](https://github.com/BlockchainCommons/Research/blob/master/papers/bcr-2020-011-sskr.md)
 
 ## Why is SSKR Important?
 
