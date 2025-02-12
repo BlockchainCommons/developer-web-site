@@ -94,6 +94,18 @@ You can then look at the CBOR at [cbor.me](https://cbor.me/):
 ```
 The encrypted subject is marked by tag `40002`. It has four parts as described in [BCR-2022-001](https://github.com/BlockchainCommons/Research/blob/master/papers/bcr-2022-001-encrypted-message.md). There is then a map of assertions on that subject, each of which is marked by the leaf tag `201`. The one assertion on the subject is tagged `40309`: it's an SSKR share. (See the [UR Registry](https://github.com/BlockchainCommons/Research/blob/master/papers/bcr-2020-006-urtypes.md) for a listing of all Envelope-related tags.)
 
+The [`envelope-cli`](https://github.com/BlockchainCommons/bc-envelope-cli-rust) also demonstrates that joining two different shares decrypts the SSKR Envelope, revealing not just a seed, but metadata (which is the advantage of using SSKR Envelope rather than SSKR UR):
+
+```
+% envelope sskr join $SSKR_E $SSKR_E_1 | envelope format
+Bytes(16) [
+    'isA': 'Seed'
+    'date': 2022-02-22T14:22:22Z
+    'name': "Yinmn Blue Acid Exam"
+    'note': "This is our standard 128-bit test seed."
+]
+```
+
 #### The Two-of-Three Two-of-Three SSKR
 
 SSKR can support arbitrary groups, where you can then reconstruct a secret by using some number of shares from some number of groups.
