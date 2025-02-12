@@ -257,7 +257,7 @@ ur:sskr/hddahgsoaeadaenbksihdtcavdcetdsbiamuwnjokgrehtfxpfvwbefgvwhnolaxbtjofxot
 ur:sskr/hddahgsoaeadadsknywsrofnspkeehvsmhuymhsskbsgwfetsahkvsnbnebgjtghlpplkeeouytsmubzsabtcw
 ur:sskr/hddahgsoaeadaoimosimbeherhuobslgnnaxeoaxjsgrbwreghlnzomebylrdppmamtsfsmkredkurjluttluy
 ```
-As explained in the [Uniform Resource (UR)](/ur/) specification, URs are built from a minimal (two-character) version of [ByteWords](/byetwords/). Where URs self identify with their prefix (`ur:sskr`), Bytewords instead self identify with a ByteWords prefix (`tuna next keep`) that is a ByteWords encoding of the CBOR tag.
+As explained in the [Uniform Resource (UR)](/ur/) specification, URs are built from a minimal (two-character) version of [ByteWords](/bytewords/). Where URs self identify with their prefix (`ur:sskr`), Bytewords instead self identify with a ByteWords prefix (`tuna next keep`) that is a ByteWords encoding of the CBOR tag.
 ```
 tuna next keep hard data hang solo able acid able numb keys inch diet cola void code tied stub idea menu when judo king race heat flux puff view blue frog view horn oval apex belt judo flux omit away lion holy yurt echo yank kiln
 tuna next keep hard data hang solo able acid acid silk navy webs redo fern soap kite each vows math ugly math sets knob song wolf exit saga hawk vows numb note brag jolt gush limp pool kite echo ugly toys menu what kiln lion drum
