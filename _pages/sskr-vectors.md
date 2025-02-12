@@ -16,24 +16,24 @@ sidebar:
     - seedlayer
 ---
 
-The following examples demonstrate SSKR test vectors for Blockchain
-Commons' standard seeds.
+These test vectors demonstrate SSKR test vectors for Blockchain
+Commons' standard seeds. THey are broken into four categories:
+
+* [SSKR Envelopes for 128-bit]
 
 > :warning: **WARNING.** SSKR is non-deterministic. There is a random
 factor introduced when the shares are created, which means that
 every time you generate shares, they will be different. This is an
-expected and correct result.
-
-> For the purposes of these test vectors, this means that if generate
+expected and correct result. For the purposes of these test vectors, this means that if you generate
 SSKR shares from these seeds, they will be different. However, you can
 still test your implementation by reading these shares back in to make
-sure they generated the expected seeds.
+sure they reconstruct the expected seeds. [LifeHash](/lifehash/) is an important tool for quickly recognizing a seed.
 
 ## 128-bit Seed
 
 {% include seed-128.md %}
 
-### `ur:envelope` Test Vectors
+### SSKR Envelope Test Vectors
 
 The [SSKR Envelope](https://developer.blockchaincommons.com/sskr/#what-are-sskr-envelopes) format is our current preference as a best practice because it allows the preservation of metadata and even the storage of multiple seedes or keys in a single container.
 
@@ -79,7 +79,7 @@ ur:envelope/lftansfwlrhdjzdafwtbgaiycemutywzcpdmisgspttihljogrzmmkbdbwuotlctrpbz
 ur:envelope/lftansfwlrhdjzdafwtbgaiycemutywzcpdmisgspttihljogrzmmkbdbwuotlctrpbzlnbkwnlnonnnssmwfmayvauogdztktbdryeoatfgvwfzkpuelfhlcsylketntnfduocwldhfpfhtnsolcnfztpfdlrynjzaoesfrcnmhjnfzhdlnhdjywnplfdherdaapkesayisidiaayzsinskrdlnhgtdmnjyuygssnndrhyldkksiyoxemiaidntgdcybtrsmybyjnbkimatjpzerkttahtehshddatansfphdcxlgcxlaetktpakeeoceiautksvtmndegrasjnutaxlrmutyiytbuywpasotwpsrfsoyamtpsotantkphddaleimbgclaohpjngswttystmobttpdwfeksnyjzbdldeylteeltrofzlstnswtkfhdwatwzcsrkatingdnl
 ```
 
-### `ur:sskr` Test Vectors
+### SSKR UR Test Vectors
 
 The `ur:sskr` format has generally been deprecated. An [SSKR Envelope](https://developer.blockchaincommons.com/sskr/#what-are-sskr-envelopes) that locks data, including seeds, with an SSKRed symmetric key is now the preferred methodology. 
 
@@ -146,7 +146,7 @@ The following shares were generated using Gordian SeedTool's print function.
 
 {% include seed-256.md %}
 
-### `ur:envelope` Test Vectors
+### SSKR Envelope Test Vectors
 
 The [SSKR Envelope](https://developer.blockchaincommons.com/sskr/#what-are-sskr-envelopes) format is our current preference as a best practice because it allows the preservation of metadata and even the storage of multiple seedes or keys in a single container.
 
@@ -192,7 +192,7 @@ ur:envelope/lftansfwlrhdfpaonlyljpfhytsbgdnbdktobbntvlsspdylotssolpezeaxisrljkjy
 ur:envelope/lftansfwlrhdfpaonlyljpfhytsbgdnbdktobbntvlsspdylotssolpezeaxisrljkjybevlueonpefrltiygskpcwrslagawnwetivacktldmenrfckrkmylewtiomkeymuknfhnyaeldjsgsropatnprttenskmtlkpdmkwegdttyagswfpkpafhkemuwfckwfoegucegshddatansfphdcxynjsoyihecgmdpqdyakiosssoswfwdptrsjsluutlfdwaatlkkzeadkgctmulgmwoyamtpsotantkphddaonhpbgclaooxdlwekoiaeylrkkhtyahgamchgllavefgdljpbdeebwplpagafthdftcahpmtsolbkpiaut
 ```
 
-### `ur:sskr` Test Vectors
+### SSKR UR Test Vectors
 
 The `ur:sskr` format has generally been deprecated. An [SSKR Envelope](https://developer.blockchaincommons.com/sskr/#what-are-sskr-envelopes) that locks data, including seeds, with an SSKRed symmetric key is now the preferred methodology. 
 
