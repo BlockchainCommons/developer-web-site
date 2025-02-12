@@ -57,7 +57,7 @@ ur:envelope/lftansfwlrhdjzjnntonknktfwrehlfliycybasezebymuhklkbanthekkksuezoylht
 ur:envelope/lftansfwlrhdjzjnntonknktfwrehlfliycybasezebymuhklkbanthekkksuezoylhttncnstzeimtlwdstrnwsgulandhtbnasdlfecwieeymwbkkkaoaoimhpkplkwmwtzenyrhecrftkdaregrbbwdleenveetbbptfefsflehjlimpezeasbsbdcfghmdnsbshdtyjpfgfrmywzspaoyadndmlsglglbzgsbkwtdifdsktpjyptfxmwoywzgdasdwseveglhpvdiyglhpsrlyotbdjzimhddatansfphdcxlgcxlaetktpakeeoceiautksvtmndegrasjnutaxlrmutyiytbuywpasotwpsrfsoyamtpsotantkphddaaxkeaeadaobzpmrohdeyaebdrkweltdsdeweuezorksrpalnhndernemwdverylacmmkurvdmssawlbeke
 ```
 
-***Breaking Down the Test Vector:*** Using the [`envelope-cli`](https://github.com/BlockchainCommons/bc-envelope-cli-rust) on the first SSKR share simply shows that the Envelope contains an `ENCRYPTED` subject with its SSKR share being an assertion. One more would be needed to open things up:
+***Breaking Down the Test Vector:*** Using the [`envelope-cli`](https://github.com/BlockchainCommons/bc-envelope-cli-rust) on the first SSKR share simply shows that the Envelope contains an `ENCRYPTED` subject with its SSKR share being an assertion. T
 
 ```
 % envelope format $SSKR_E
