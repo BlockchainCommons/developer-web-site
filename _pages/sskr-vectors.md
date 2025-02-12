@@ -19,7 +19,10 @@ sidebar:
 These test vectors demonstrate SSKR test vectors for Blockchain
 Commons' standard seeds. THey are broken into four categories:
 
-* [SSKR Envelopes for 128-bit]
+* [SSKR Envelopes for 128-bit](#sskr-envelope-test-vectors)
+* [SSKR URs for 128-bit](#sskr-ur-test-vectors)
+* [SSKR Envelopes for 256-bit](#sskr-envelope-test-vectors-1)
+* [SSKR URs for 256-bit](#sskr-ur-test-vectors-1)
 
 > :warning: **WARNING.** SSKR is non-deterministic. There is a random
 factor introduced when the shares are created, which means that
