@@ -57,6 +57,43 @@ ur:envelope/lftansfwlrhdjzjnntonknktfwrehlfliycybasezebymuhklkbanthekkksuezoylht
 ur:envelope/lftansfwlrhdjzjnntonknktfwrehlfliycybasezebymuhklkbanthekkksuezoylhttncnstzeimtlwdstrnwsgulandhtbnasdlfecwieeymwbkkkaoaoimhpkplkwmwtzenyrhecrftkdaregrbbwdleenveetbbptfefsflehjlimpezeasbsbdcfghmdnsbshdtyjpfgfrmywzspaoyadndmlsglglbzgsbkwtdifdsktpjyptfxmwoywzgdasdwseveglhpvdiyglhpsrlyotbdjzimhddatansfphdcxlgcxlaetktpakeeoceiautksvtmndegrasjnutaxlrmutyiytbuywpasotwpsrfsoyamtpsotantkphddaaxkeaeadaobzpmrohdeyaebdrkweltdsdeweuezorksrpalnhndernemwdverylacmmkurvdmssawlbeke
 ```
 
+**Breaking Down the Test Vector:** Using the [`envelope-cli`](https://github.com/BlockchainCommons/bc-envelope-cli-rust) on the first SSKR share simply shows that the Envelope contains an `ENCRYPTED` subject with its SSKR share being an assertion. One more would be needed to open things up:
+
+```
+% envelope format $SSKR_E
+ENCRYPTED [
+    'sskrShare': SSKRShare
+]
+```
+
+You can break down the CBOR encoded by the `ur:envelope` further by taking just the minimal Bytewords (everything after `ur:envelope/`) and converting them to hex using the [`bytewords-cli`](https://github.com/BlockchainCommons/bytewords-cli):
+
+```
+% bytewords -i minimal -o hex $SSKR_E_BW
+82d99c4284586c6d9da57a7742b55d47661a0ec1fe1193598c0e9d5f7978defbf75ada23c7fe6ad5eac7beef53809b5a0c092f451b6432940a7902026a5b758cebf0fe9ab935bccf25b54b14ea8a36e43814a9453d47316f6aaffe090f0b1954959c0f58d472463b8ff2c802f82b2e834e4e154c0af02748c5d874a94394a1f250092cc1e44e5be7664e5bc381a30b6c6a5825d99c4158208d20803877b17c331c63dd78e08e284b096ddd038493d466d6dbec09a3ecc33da106d8c9d99d755825037c000100b640ebd59e6c8b0b0e5ccf2b6cd50a80877a7eacb5cb93ace90803a916930218
+```
+You can then look at the CBOR at [cbor.me](https://cbor.me/):
+```
+82                                      # array(2)
+   D9 9C42                              # tag(40002)
+      84                                # array(4)
+         58 6C                          # bytes(108)
+            6D9DA57A7742B55D47661A0EC1FE1193598C0E9D5F7978DEFBF75ADA23C7FE6AD5EAC7BEEF53809B5A0C092F451B6432940A7902026A5B758CEBF0FE9AB935BCCF25B54B14EA8A36E43814A9453D47316F6AAFFE090F0B1954959C0F58D472463B8FF2C802F82B2E834E4E15 # "m\x9D\xA5zwB\xB5]Gf\u001A\u000E\xC1\xFE\u0011\x93Y\x8C\u000E\x9D_yx\xDE\xFB\xF7Z\xDA#\xC7\xFEj\xD5\xEAǾ\xEFS\x80\x9BZ\f\t/E\ed2\x94\ny\u0002\u0002j[u\x8C\xEB\xF0\xFE\x9A\xB95\xBC\xCF%\xB5K\u0014\xEA\x8A6\xE48\u0014\xA9E=G1oj\xAF\xFE\t\u000F\v\u0019T\x95\x9C\u000FX\xD4rF;\x8F\xF2\xC8\u0002\xF8+.\x83NN\u0015"
+         4C                             # bytes(12)
+            0AF02748C5D874A94394A1F2    # "\n\xF0'H\xC5\xD8t\xA9C\x94\xA1\xF2"
+         50                             # bytes(16)
+            092CC1E44E5BE7664E5BC381A30B6C6A # "\t,\xC1\xE4N[\xE7fN[Á\xA3\vlj"
+         58 25                          # bytes(37)
+            D99C4158208D20803877B17C331C63DD78E08E284B096DDD038493D466D6DBEC09A3ECC33D # "ٜAX \x8D \x808w\xB1|3\u001Cc\xDDx\xE0\x8E(K\tm\xDD\u0003\x84\x93\xD4f\xD6\xDB\xEC\t\xA3\xEC\xC3="
+   A1                                   # map(1)
+      06                                # unsigned(6)
+      D8 C9                             # tag(201)
+         D9 9D75                        # tag(40309)
+            58 25                       # bytes(37)
+               037C000100B640EBD59E6C8B0B0E5CCF2B6CD50A80877A7EACB5CB93ACE90803A916930218 # "\u0003|\u0000\u0001\u0000\xB6@\xEB՞l\x8B\v\u000E\\\xCF+l\xD5\n\x80\x87z~\xAC\xB5˓\xAC\xE9\b\u0003\xA9\u0016\x93\u0002\u0018"
+```
+The encrypted subject is marked by tag `40002`. It has four parts as described in [BCR-2022-001](https://github.com/BlockchainCommons/Research/blob/master/papers/bcr-2022-001-encrypted-message.md). There is then a map of assertions on that subject, each of which is marked by the leaf tag `201`. The one assertion on the subject is tagged `40309`: it's an SSKR share. (See the [UR Registry](https://github.com/BlockchainCommons/Research/blob/master/papers/bcr-2020-006-urtypes.md) for a listing of all Envelope-related tags.)
+
 #### The Two-of-Three Two-of-Three SSKR
 
 SSKR can support arbitrary groups, where you can then reconstruct a secret by using some number of shares from some number of groups.
