@@ -212,7 +212,7 @@ ur:envelope/lftansfwlrhdurlrktkphyoygtcfuykpwmcxaogwihgdpdvlsnjnkbbsldgldmryghdl
             58 25                       # bytes(37)
                3A46000100298ED2E0E9417326748F44BD01F2A9047059DC0A426B18A4E3552BE870A08339 # ":F\u0000\u0001\u0000)\x8E\xD2\xE0\xE9As&t\x8FD\xBD\u0001\xF2\xA9\u0004pY\xDC\nBk\u0018\xA4\xE3U+\xE8p\xA0\x839"
 ```
-That demonstrates an encrypted (`40002`) Gordian Envelope subject and one ensure that's an SSKR share (`40309`). See the [128-bit 2-of-3 vector](https://developer.blockchaincommons.com/sskr/vectors/#two-of-three-sskr) for a full explanation of how to get this CBOR and what it means.
+That demonstrates an encrypted (`40002`) Gordian Envelope subject and one assertion that's an SSKR share (`40309`). See the [128-bit 2-of-3 vector](https://developer.blockchaincommons.com/sskr/vectors/#two-of-three-sskr) for a full explanation of how to get this CBOR and what it means.
 
 #### The Two-of-Three Two-of-Three SSKR
 
