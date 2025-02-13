@@ -34,7 +34,7 @@ You will need to be careful of a few things when utilizing SSKR:
 with high entropy.
 * **Share Non-Determinism.** The shares are non-deterministic due to a
 random factor in their creation. This means that shares will look
-different every time you generate them.
+different every time you generate them. Most importantly, you can't use shares from two different shardings together!
 * **32-Byte Limit.** SSKR without Envelopes can only protect data that is no larger than
 32 bytes.
 
@@ -51,7 +51,7 @@ However, if you're only able to use SSKR URs, likely due to being on a very cons
 
 1. Create multiple SSKR objects.
 2. Protect a 32-byte symmetric key using SSKR, and then use that key
-to protect the larger data. (This is essentially what SSKR Envelope does, but SSKR does so in a much more automated way.)
+to protect the larger data. (This is essentially what SSKR Envelope does, but SSKR Envelope does so in a much more automated way.)
 
 ## SSKR Standards
 
@@ -121,7 +121,7 @@ distinguish.
 
 See [the ByteWords page](/bytewords/) for more information.
 
-BytesWords were purposefully chosen for use with SSKR to differentiate
+BytesWords were chosen for use with SSKR to differentiate
 it from the BIP-39 mnemonics and thus avoid confusion. If something is
 encoded with BIP-39 words, it's likely a SLIP-39 share, while if
 something is encoded with ByteWords, it's likely an SSKR share.
@@ -129,8 +129,8 @@ something is encoded with ByteWords, it's likely an SSKR share.
 ### What Do the Different Parts of an SSKR Share Mean?
 
 <figure class="half">
-  <a href="/assets/images/sskr/export-2.jpg"><img src="/assets/images/sskr/export-2.jpeg"></a>
-  <a href="/assets/images/sskr/export-3.jpg"><img src="/assets/images/sskr/export-3.jpeg"></a>  
+  <a href="/assets/images/sskr/export-2a.jpg"><img src="/assets/images/sskr/export-2a.jpeg"></a>
+  <a href="/assets/images/sskr/export-3a.jpg"><img src="/assets/images/sskr/export-3a.jpeg"></a>  
 </figure>
 
 An SSKR share contains a secret, but there are about a dozen
