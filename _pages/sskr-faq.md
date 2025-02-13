@@ -138,21 +138,21 @@ additional words that help to define the share.
 
 To start with, note the overlap in words in different
 shares:
-this is expected. The first four words will always be the same as they
-describe the share as SSKR ("tuna acid epic") of a specific length
-("gyro"). The next two ("flap pose") are a fingerprint that match all
-the shares in a split, and the next two ("able acid") describe the
+this is expected. The first words will always be the same. The first three
+describe the share as SSKR ("tuna next keep"), with the next one or two saying it's of a specific length
+("gyro"). The next two ("oboe bulb") are a fingerprint that match all
+the shares in a split, and the next three ("able acid able") describe the
 group threshold, count, and index, plus the member threshold, so
 they're the same for all the shares in a group.
 
-There's also a checksum at the end ("toys flap solo film"), which is
+There's also a checksum at the end ("real eyes view vows"), which is
 part of the [Uniform Resource](/ur/) specification that is used in
 conjunction with Bytewords: it allows for error detection when
 decoding the UR.
 
 SSKR | length | ID | group & member info | secret share | checksum
 ---|---|---|---|---|---
-tuna acid epic | gyro | flap pose | able acid able | even iris... taco wolf | toys flap solo film
+tuna next keep | gyro | oboe bulb | able acid able | arch kick ... oval fuel | real eyes view vows
 
 Note also that the non-repetitive words will change each time you
 regenerate SSKR shares from a secret. This is also expected: there is
