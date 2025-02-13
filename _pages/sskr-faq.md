@@ -141,9 +141,8 @@ shares:
 this is expected. The first words will always be the same. The first three
 describe the share as SSKR ("tuna next keep"), with the next one or two saying it's of a specific length
 ("gyro"). The next two ("oboe bulb") are a fingerprint that match all
-the shares in a split, and the next three ("able acid able") describe the
-group threshold, count, and index, plus the member threshold, so
-they're the same for all the shares in a group.
+the shares in a split. After that we get into ones that start to slightly vary. The next three ("able acid able") describe the
+group threshold, group count, group index, member threshold, [reserved], and member index, each at half a byte. The first word is the same for each SSKR and the second is the same for each group within an SSKR. The third word increments for each share ("able ... acid ... also ... apex ... aqua ...").
 
 There's also a checksum at the end ("real eyes view vows"), which is
 part of the [Uniform Resource](/ur/) specification that is used in
@@ -154,7 +153,7 @@ SSKR | length | ID | group & member info | secret share | checksum
 ---|---|---|---|---|---
 tuna next keep | gyro | oboe bulb | able acid able | arch kick ... oval fuel | real eyes view vows
 
-Note also that the non-repetitive words will change each time you
+Note that the non-repetitive words will change each time you
 regenerate SSKR shares from a secret. This is also expected: there is
 a random factor in SSKR generation.
 
