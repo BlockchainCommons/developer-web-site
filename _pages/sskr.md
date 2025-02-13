@@ -57,8 +57,8 @@ creating three shares, of which two must be recovered.
 
 <figure class="third">
   <a href="/assets/images/sskr/export-1.jpg"><img src="/assets/images/sskr/export-1.jpeg"></a>
-  <a href="/assets/images/sskr/export-2.jpg"><img src="/assets/images/sskr/export-2.jpeg"></a>
-  <a href="/assets/images/sskr/export-3.jpg"><img src="/assets/images/sskr/export-3.jpeg"></a>  
+  <a href="/assets/images/sskr/export-2a.jpg"><img src="/assets/images/sskr/export-2a.jpeg"></a>
+  <a href="/assets/images/sskr/export-3a.jpg"><img src="/assets/images/sskr/export-3a.jpeg"></a>  
 </figure>
 
 The user would take these shares and give one each to three different
