@@ -163,7 +163,8 @@ tuna next keep gyro away huts able acid also lava sets keys real help unit duty 
 * `gyro` = length
 * `away huts` = fingerprint for this sharding
 * `able acid` = 2-of-3
-* `able logo stub main poem help wasp rust kept cost days jowl zaps paid hawk safe peck` = share
+* `able` = share 1
+* `logo stub main poem help wasp rust kept cost days jowl zaps paid hawk safe peck` = share
 * `bald pose diet keno` = checksum
 
 The UR then uses the minimal [ByteWords](/bytewords/) form, meaning that it
@@ -269,7 +270,8 @@ tuna next keep hard data hang solo able acid also item owls item blue hope rich 
 * `hard data` = length
 * `hang solo` = fingerprint for this sharding
 * `able acid` = 2-of-3
-* `able numb keys inch diet cola void code tied stub idea menu when judo king race heat flux puff view blue frog view horn oval apex belt judo flux omit away lion holy` = share
+* `able` = share 1
+* `numb keys inch diet cola void code tied stub idea menu when judo king race heat flux puff view blue frog view horn oval apex belt judo flux omit away lion holy` = share
 * `yurt echo yank kiln` = checksum
 
 The UR then uses the minimal [ByteWords](/bytewords/) form, meaning that it
