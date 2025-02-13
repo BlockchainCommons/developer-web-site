@@ -56,9 +56,9 @@ SeedTool](https://github.com/BlockchainCommons/GordianSeedTool-iOS) of
 creating three shares, of which two must be recovered.
 
 <figure class="third">
-  <a href="/assets/images/sskr/export-1.jpg"><img src="/assets/images/sskr/export-1.jpeg"></a>
-  <a href="/assets/images/sskr/export-2a.jpg"><img src="/assets/images/sskr/export-2a.jpeg"></a>
-  <a href="/assets/images/sskr/export-3a.jpg"><img src="/assets/images/sskr/export-3a.jpeg"></a>  
+  <a href="/assets/images/sskr/export-1a.jpeg"><img src="/assets/images/sskr/export-1a.jpeg"></a>
+  <a href="/assets/images/sskr/export-2a.jpeg"><img src="/assets/images/sskr/export-2a.jpeg"></a>
+  <a href="/assets/images/sskr/export-3a.jpeg"><img src="/assets/images/sskr/export-3a.jpeg"></a>  
 </figure>
 
 The user would take these shares and give one each to three different
@@ -78,9 +78,9 @@ SeedTool](https://github.com/BlockchainCommons/GordianSeedTool-iOS)
 where 2 of 3 shares must come back from 2 of 3 groups.
 
 <figure class="third">
-  <a href="/assets/images/sskr/export-4.jpg"><img src="/assets/images/sskr/export-4.jpeg"></a>
-  <a href="/assets/images/sskr/export-5.jpg"><img src="/assets/images/sskr/export-5.jpeg"></a>
-  <a href="/assets/images/sskr/export-6.jpg"><img src="/assets/images/sskr/export-6.jpeg"></a>  
+  <a href="/assets/images/sskr/export-4a.jpeg"><img src="/assets/images/sskr/export-4a.jpeg"></a>
+  <a href="/assets/images/sskr/export-5a.jpeg"><img src="/assets/images/sskr/export-5a.jpeg"></a>
+  <a href="/assets/images/sskr/export-6a.jpeg"><img src="/assets/images/sskr/export-6a.jpeg"></a>  
 </figure>
 
 This can allow for more complex scenarios, such as a business that
