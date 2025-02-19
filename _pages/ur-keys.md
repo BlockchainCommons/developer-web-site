@@ -117,7 +117,7 @@ $ cbor2diag -x a1015059f2293a5bce7d4de59e71b4207ac5d2
 UR was built to support clean and efficient conversion into QR
 codes. That same seed can be encoded into a QR code as following:
 
-<imng src="/assets/images/ur/128-seed-new.png" width="40%">
+<img src="/assets/images/ur/128-seed-new.png" width="40%">
 
 If you read this with a QR reader you'll get:
 ```
@@ -168,9 +168,9 @@ Using the Bytewords CLI you can convert the CBOR to minimal Bytewords:
 $ bytewords -i hex -o minimal a4015059f2293a5bce7d4de59e71b4207ac5d202D8641A6092DC07036541636F726E046C436F66666565206D6F6E6579
 oxadgdhkwzdtfthptokigtvwnnjsqzcxknsktdaotpiecyhnmouoataxihfpiajljpjtaajzfxjliyiyihihcxjnjljtihkkpseernwl
 ```
-And you have a crypto-seed:
+And you have a `ur:seed`:
 ```
-UR:CRYPTO-SEED/OXADGDHKWZDTFTHPTOKIGTVWNNJSQZCXKNSKTDAOTPIECYHNMOUOATAXIHFPIAJLJPJTAAJZFXJLIYIYIHIHCXJNJLJTIHKKPSEERNWL
+UR:SEED/OXADGDHKWZDTFTHPTOKIGTVWNNJSQZCXKNSKTDAOTPIECYHNMOUOATAXIHFPIAJLJPJTAAJZFXJLIYIYIHIHCXJNJLJTIHKKPSEERNWL
 ```
 
 ## Mnemonic Words: [crypto-bip39](https://github.com/BlockchainCommons/Research/blob/master/papers/bcr-2020-006-urtypes.md#bip-39-encoded-seed-crypto-bip39)
