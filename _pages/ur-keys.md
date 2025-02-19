@@ -126,12 +126,12 @@ UR:SEED/OYADGDHKWZDTFTHPTOKIGTVWNNJSQZCXKNSKTDHPYLJEDA
 
 ### A Seed with Metadata
 
-More complex examples of `ur:crypto-seed` may incorporate a creation
+More complex examples of `ur:seed` may incorporate a creation
 date (map element #2, tagged 100), a name (map element #3), and/or a
-note (map element #4) as detailed in the [`crypto-seed`
-CDDL](https://github.com/BlockchainCommons/Research/blob/master/papers/bcr-2020-006-urtypes.md#cddl-2).
+note (map element #4) as detailed in the [`seed`
+CDDL](https://github.com/BlockchainCommons/Research/blob/master/papers/bcr-2020-006-urtypes.md#cddl).
 
-The CBOR for a `ur:crypto-seed` containing all of these elements could look like the following:
+The CBOR for a `ur:seed` containing all of these elements could look like the following:
 ```
 a4015059f2293a5bce7d4de59e71b4207ac5d202D8641A6092DC07036541636F726E046C436F66666565206D6F6E6579
 ```
@@ -173,42 +173,9 @@ And you have a `ur:seed`:
 UR:SEED/OXADGDHKWZDTFTHPTOKIGTVWNNJSQZCXKNSKTDAOTPIECYHNMOUOATAXIHFPIAJLJPJTAAJZFXJLIYIYIHIHCXJNJLJTIHKKPSEERNWL
 ```
 
-## Mnemonic Words: [crypto-bip39](https://github.com/BlockchainCommons/Research/blob/master/papers/bcr-2020-006-urtypes.md#bip-39-encoded-seed-crypto-bip39)
+## Mnemonic Seed Words: Deprecated
 
-[BIP39](https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki)
-details how mnemonic words can be used to define a master seed. These
-words can also be encoded for transportation using URs, as defined in
-the [CDDL for
-BIP39](https://github.com/BlockchainCommons/Research/blob/master/papers/bcr-2020-006-urtypes.md#cddl-3).
-
-The encoding is simple, requiring a map with an array of words and a language.
-
-The test vector `A2018C66736869656C646567726F75706565726F6465656177616B65646C6F636B6773617573616765646361736865676C6172656477617665646372657765666C616D6565676C6F76650262656E` demonstrates the usage:
-```
-cbor2diag -x A2018C66736869656C646567726F75706565726F6465656177616B65646C6F636B6773617573616765646361736865676C6172656477617665646372657765666C616D6565676C6F76650262656E
-{
- 1:
-    [
-     "shield",
-     "group",
-     "erode",
-     "awake",
-     "lock",
-     "sausage",
-     "cash",
-     "glare",
-     "wave",
-     "crew",
-     "flame",
-     "glove"
-    ],
- 2: "en"
-}
-```
-Converting this to minimal bytewords results in:
-```
-ur:crypto-bip39/oeadlkiyjkisinihjzieihiojpjlkpjoihihjpjlieihihhskthsjeihiejzjliajeiojkhskpjkhsioihieiahsjkisihiojzhsjpihiekthskoihieiajpihktihiyjzhsjnihihiojzjlkoihaoidihjtrkkndede
-```
+Mnemonic words were previously supported as a UR type but have been entirely deprecated for [SSKR](/sskr/).
 
 ## Key Material: [crypto-hdkey](https://github.com/BlockchainCommons/Research/blob/master/papers/bcr-2020-007-hdkey.md)
 
@@ -237,7 +204,7 @@ That Base58 `xprv` decodes to hex as follows:
 * 0046f8a7a92fc3ca4fd4cbf3cb5bacde4356ce790e2cd6bc206ea2574ef8991318 ; key data
 * fe6a22e3 ; base58 checksum
 
-Per the CDDL, creating the CBOR for this master key requires creating
+Per the `ur:hdkey` CDDL, creating the CBOR for this master key requires creating
 a map with 3 to 4 elements, which:
 
 1. identify the `hdkey` as a master key in map element #1;
@@ -266,7 +233,7 @@ oxadykaoykaxhdclaefgyaosptdlsrsggwtysbwfsbhppsuefxhftokkbadwtbrfcxjtoehgglyanlbw
 ```
 The result is:
 ```
-ur:crypto-hdkey/oxadykaoykaxhdclaefgyaosptdlsrsggwtysbwfsbhppsuefxhftokkbadwtbrfcxjtoehgglyanlbwcsaahdcxqzaxhkwmmshphyiycpmkuyhdnekpweingrchkphtrktioedysagwzolesarniyzcrhdntkbb
+ur:hdkey/oxadykaoykaxhdclaefgyaosptdlsrsggwtysbwfsbhppsuefxhftokkbadwtbrfcxjtoehgglyanlbwcsaahdcxqzaxhkwmmshphyiycpmkuyhdnekpweingrchkphtrktioedysagwzolesarniyzcrhdntkbb
 ```
 
 ### A Derived Key
@@ -304,7 +271,7 @@ The parent-fingerprint element (#8) is simply set to `3910671603` (or in hex: `1
 
 The resulting `crypto-hdkey` after conversion to minimal Bytewords is:
 ```
-ur:crypto-hdkey/onaxhdclaojlvoechgferkdpqdiabdrflawshlhdmdcemtfnlrctghchbdolvwsednvdztbgolaahdcxtottgostdkhfdahdlykkecbbweskrymwflvdylgerkloswtbrpfdbsticmwylklpahtaadehoyaoadamtaaddyoyadlecsdwykadykadykaewkadwkaycywlcscewfihbdaehn
+ur:hdkey/onaxhdclaojlvoechgferkdpqdiabdrflawshlhdmdcemtfnlrctghchbdolvwsednvdztbgolaahdcxtottgostdkhfdahdlykkecbbweskrymwflvdylgerkloswtbrpfdbsticmwylklpahtaadehoyaoadamtaaddyoyadlecsdwykadykadykaewkadwkaycywlcscewfihbdaehn
 ```
 
 ## Related Topics
@@ -312,168 +279,29 @@ ur:crypto-hdkey/onaxhdclaojlvoechgferkdpqdiabdrflawshlhdmdcemtfnlrctghchbdolvwse
 A few other URs are related to key material:
 
 * [SSKR](/ur/sskr/) allows for the transmission of shares that are recombined to reconstruct key material.
-* [Envelope](/envelope/) can store key material.
+* [Envelope](/envelope/) is the preferred method for storing key material.
 
 Each is covered in their own document.
 
 ## Testing Key Material URs with Blockchain Commons' Reference Tools
 
-Blockchain Commons reference tools allow for experimentation with the
-UR format. The following examples use our
-[seedtool](https://github.com/BlockchainCommons/seedtool-cli),
-[keytool](https://github.com/BlockchainCommons/keytool-cli), and the
-[bytewords](https://github.com/BlockchainCommons/bytewords-cli) CLIs,
-as well as the [CBOR cli](https://www.npmjs.com/package/cbor-cli).
-
-### The Seed
-
-A seed can be generated with `seedtool`:
-```
-$ seedtool
-9c49536666b3f5cdbbe8d6da01aa6a66
-$ seed=9c49536666b3f5cdbbe8d6da01aa6a66
-```
-Rather than outputting hex, seedtool can also output a UR for the `crypto-seed`:
-```
-$ seedtool -i hex $seed -u
-ur:crypto-seed/oyadgdnsgaguiyiyqdyksnrkvstbtnadpkimiybzrycyck
-```
-
-`bytewords` can decode this output:
-```
-$ bytewords -i minimal -o hex oyadgdnsgaguiyiyqdyksnrkvstbtnadpkimiybzrycyck
-a101509c49536666b3f5cdbbe8d6da01aa6a66
-```
-`cbor2diag` then reveals the original seed within the CBOR encoding:
-```
-$ cbor2diag -x a101509c49536666b3f5cdbbe8d6da01aa6a66
-{1: h'9c49536666b3f5cdbbe8d6da01aa6a66'}
-```
-
-### The BIP39
-
-`seedtool` can also generate BIP39 words, in either mnemonic or UR format:
-```
-$ seedtool -i hex $seed -o bip39
-ordinary enhance sunset sniff dismiss traffic use bracket sure ask once slot
-
-$ seedtool -i hex $seed -o bip39 -u
-ur:crypto-bip39/oyadlkisjljpieinjthsjpkkioihjtishsjtiaihiyjkkpjtjkihjyihjkjtiniyiyioieinjkjninjkjkiojyjphsiyiyiniaiakpjkihioidjphsiajeihjyiejkkpjpihiahsjkjeiejljtiaihiejkjzjljybyckylhl
-```
-Again, `bytewords` and `cbor2diag` can decode the UR:
-```
-$ bytewords -i minimal -o hex oyadlkisjljpieinjthsjpkkioihjtishsjtiaihiyjkkpjtjkihjyihjkjtiniyiyioieinjkjninjkjkiojyjphsiyiyiniaiakpjkihioidjphsiajeihjyiejkkpjpihiahsjkjeiejljtiaihiejkjzjljybyckylhl
-a1018c686f7264696e61727967656e68616e63656673756e73657465736e696666676469736d69737367747261666669636375736567627261636b657464737572656361736b646f6e636564736c6f74
-
-$ cbor2diag -x a1018c686f7264696e61727967656e68616e63656673756e73657465736e696666676469736d69737367747261666669636375736567627261636b657464737572656361736b646f6e636564736c6f74
-{1:
-    ["ordinary",
-     "enhance",
-     "sunset",
-     "sniff",
-     "dismiss",
-     "traffic",
-     "use",
-     "bracket",
-     "sure",
-     "ask",
-     "once",
-     "slot"]
-}
-```
-
-
-### The Master Key
-
-`keytool` supports key and address derivation. For example, it can produce a master `xprv` from a seed:
-```
-$ keytool --seed $seed master-key-base58
-xprv9s21ZrQH143K3zAmshnnUZcq8YF2GPBnf5C7DhH5Y3EEBbSQCoPTsG6kFCQDKm4qSopjFQnMWhPuytDxezCYir9hdwAWGmJfSxKdaZZPHxj
-```
-`keytool` also can produce URs:
-```
-$ keytool --seed $seed master-key
-ur:crypto-hdkey/oxadykaoykaxhdclaeswcspsndaezohttlpmfxdlqdcsaxfhuygwoteheylenbmolflninmsehmnhybdstaahdcxseoylrlbjkwmsfctzmetbyollbencftprprkswvwsrguesssnscxnbcftivsrlclbykiflbs
-```
-
-Again, you can decode that with `bytewords` and `cbor2diag`:
-```
-$ bytewords -i minimal -o hex oxadykaoykaxhdclaeswcspsndaezohttlpmfxdlqdcsaxfhuygwoteheylenbmolflninmsehmnhybdstaahdcxseoylrlbjkwmsfctzmetbyollbencftprprkswvwsrguesssnscxnbcftivsrlclbykiflbs
-a401f502f503582100c618ac9b00fb5ad5ad432fb318033fdb4fa331328aa09282866997318e5e0bc7045820c1a1847f73ebcc1fff3811a67f3619d8b6bbc6e5c35339c49c20a019d0e8b721
-
-$ cbor2diag -x a401f502f503582100c618ac9b00fb5ad5ad432fb318033fdb4fa331328aa09282866997318e5e0bc7045820c1a1847f73ebcc1fff3811a67f3619d8b6bbc6e5c35339c49c20a019d0e8b721
-{
-    1: true,
-    2: true,
-    3: h'00c618ac9b00fb5ad5ad432fb318033fdb4fa331328aa09282866997318e5e0bc7',
-    4: h'c1a1847f73ebcc1fff3811a67f3619d8b6bbc6e5c35339c49c20a019d0e8b721'
-}
-```
-
-### A Derived Key
-
-`keytool` can also create derived keys. The following example produced an `xprv` and a UR for the 44'/1'/1'/0/1 keypath:
-```
-$ /usr/local/bin/keytool --master-key xprv9s21ZrQH143K3zAmshnnUZcq8YF2GPBnf5C7DhH5Y3EEBbSQCoPTsG6kFCQDKm4qSopjFQnMWhPuytDxezCYir9hdwAWGmJfSxKdaZZPHxj --full-address-derivation-path m/44h/1h/1h/0/1 address-key-base58 address-key
-
-xprvA3px5eB5pEbMi5bApo1CcoLeXHMubgFJ8hedudWE3gdMeHP6FQYXNJpPxcuznwE4PBHRcEodyp7ykLKvvpCrDK6zTLMBG899dnHTzJ3aKty
-
-ur:crypto-hdkey/onaoykaxhdclaeknidehqdwsatwppfcfdklatdmkuyknckurlgnssrihsgdytniscntkwpcxsrmsnlaahdcxsazshllbztynlufnskreoefgdsztchihttnsahlkamlbcningefhnsjekoutyllkamoeadlecsdwykadykadykaewkadwkaocyahhfespfaycyrnnneooebkadltsn
-```
-The following shows the same for the `xpub`:
-```
-$ /usr/local/bin/keytool --master-key xprv9s21ZrQH143K3zAmshnnUZcq8YF2GPBnf5C7DhH5Y3EEBbSQCoPTsG6kFCQDKm4qSopjFQnMWhPuytDxezCYir9hdwAWGmJfSxKdaZZPHxj --full-address-derivation-path m/44h/1h/1h/0/1 address-pub-key-base58 address-pub-key
-
-xpub6GpJV9hyec9evZfdvpYCywHP5KCQ18y9VvaEi1uqc2ALX5iEnwrmv78sotc3ZhwnSw1mvu437TsZ31mCwxMenzVpXsjtsB5UUaKMsYxexnG
-
-ur:crypto-hdkey/oxaxhdclaottglktmoaoaerhonbygygejzzmhphfwnvaprjsfwfhdwsfvytpcxfxvavthkdiplaahdcxsazshllbztynlufnskreoefgdsztchihttnsahlkamlbcningefhnsjekoutyllkamoeadlecsdwykadykadykaewkadwkaocyahhfespfaycyrnnneooetldprhne
-```
-Here's the decoding of that `xprv`:
-```
-$ bytewords -i minimal -o hex onaoykaxhdclaeknidehqdwsatwppfcfdklatdmkuyknckurlgnssrihsgdytniscntkwpcxsrmsnlaahdcxsazshllbztynlufnskreoefgdsztchihttnsahlkamlbcningefhnsjekoutyllkamoeadlecsdwykadykadykaewkadwkaocyahhfespfaycyrnnneooebkadltsn
-a502f5035821007a6231b3ef07ecb0192480d298db7a1edf8d9cc365ca30da6823cfec20c39799045820c2fa5d7ffcf68b3cc5b5a24626fc1765d19c058c067f23694a3f9c6b76ddf78c06a2018a182cf501f501f500f401f4021a055639b0081abe9e33a2
-
-$ cbor2diag -x a502f5035821007a6231b3ef07ecb0192480d298db7a1edf8d9cc365ca30da6823cfec20c39799045820c2fa5d7ffcf68b3cc5b5a24626fc1765d19c058c067f23694a3f9c6b76ddf78c06a2018a182cf501f501f500f401f4021a055639b0081abe9e33a2
-{
-    2: true,
-    3: h'007a6231b3ef07ecb0192480d298db7a1edf8d9cc365ca30da6823cfec20c39799',
-    4: h'c2fa5d7ffcf68b3cc5b5a24626fc1765d19c058c067f23694a3f9c6b76ddf78c',
-    6: {1: [44, true, 1, true, 1, true, 0, false, 1, false], 2: 89536944},
-    8: 3198038946
-}
-```
-Similarly, here's the decoded `xpub`:
-```
-{
-    3: h'02d14e77920200b9a511514a6cff5b56f1e6b271423f2ccce1d82043e6e05927ae',
-    4: h'c2fa5d7ffcf68b3cc5b5a24626fc1765d19c058c067f23694a3f9c6b76ddf78c',
-    6: {1: [44, true, 1, true, 1, true, 0, false, 1, false], 2: 89536944},
-    8: 3198038946
-}
-```
+Output of bare `ur:seed`s is no longer supported by Blockchain Commons' newest reference tools. If you wish to test `ur:seed` from the command line you can use the older C++-based [`seedtool-cli`](https://github.com/BlockchainCommons/seedtool-cli).
 
 ## Integrating Key Material URs Into Your Code
 
-You can incorporate URs into your own code using [bc-ur for
-C++](https://github.com/BlockchainCommons/bc-ur) or through
-[conversions of that library to other languages such as Java and
-Swift](/ur/#libraries).
-
-bc-ur provides access to objects such as `UREncoder`, `URDecoder`, and
-`Bytewords`, which support many of the same functions as described
-here for the command line. They can also be used with other Blockchain
-Commons [Crypto Commons Reference Libraries](/libraries/) which
-support a variety of cryptography functions.
+You can incorporate URs into your own code using a variety of UR libraries:
 
 {% include lib-ur.md %}
 
 ## Conclusion
 
-Key material can be transferred using `ur:crypto-seed`,
-`ur:crypto-bip39`, and `ur:crypto-hdkey`. Doing so allows you to use
+Key material can be transferred using `ur:seed`,
+`ur:bip39`, and `ur:hdkey`. Doing so allows you to use
 airgaps, which increase the safety of these vulnerable operations; and
 also increases your interoperability, so that other software can work
 with you, and so that your key material remains usable far into the
 future.
+
+However, we now prefer the use of [Gordian Envelope](/envelope/) to allow for the storage of more data and related metadata.
 
 
