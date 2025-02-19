@@ -117,7 +117,7 @@ $ cbor2diag -x a1015059f2293a5bce7d4de59e71b4207ac5d2
 UR was built to support clean and efficient conversion into QR
 codes. That same seed can be encoded into a QR code as following:
 
-![](/assets/images/ur/128-seed.png)
+<imng src="/assets/images/ur/128-seed-new.png" width="40%">
 
 If you read this with a QR reader you'll get:
 ```
