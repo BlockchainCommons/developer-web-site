@@ -78,14 +78,14 @@ used in QRs.
 
 ### What Does CBOR Have to Do with URs?
 
-URs are constructed by encoding the data in CBOR using specific methodologies described in the [UR registry](https://github.com/BlockchainCommons/Research/blob/master/papers/bcr-2020-006-urtypes.md#registry), then converting that to [ByteWords](/bytewords/), as described in ["How Do URs Work"](https://developer.blockchaincommons.com/ur/#how-do-urs-work).
+URs are constructed by encoding the data in CBOR, using specific methodologies described in the [UR registry](https://github.com/BlockchainCommons/Research/blob/master/papers/bcr-2020-006-urtypes.md#registry), then converting that to [ByteWords](/bytewords/), as described in ["How Do URs Work"](https://developer.blockchaincommons.com/ur/#how-do-urs-work).
 
 ### What Tools Can I Use to Understand CBOR?
 
 Obviously, the most important tool is the [CBOR
 reference](https://tools.ietf.org/html/rfc7049), with our [dCBOR
 profile](https://datatracker.ietf.org/doc/draft-mcnally-deterministic-cbor/)
-trailing close behind.
+trailing close behind. This is all in service to our [UR registry](https://github.com/BlockchainCommons/Research/blob/master/papers/bcr-2020-006-urtypes.md#registry), which describes precisely how to encode each data type in CBOR.
 
 CBOR has a more human-readable text [diagnostic
 notation](https://datatracker.ietf.org/doc/html/rfc7049#page-33) you
@@ -113,6 +113,8 @@ A Multipart UR (MUR) is a UR that has been broken into multiple parts and sequen
 ```
 ur:seed/1-3/lpadaxcsencylobemohsgmoyadhdeynteelblrcygldwvarflojtcywyjydmylgdsa
 ```
+The [MUR Implementation Guide](https://github.com/BlockchainCommons/Research/blob/master/papers/bcr-2024-001-multipart-ur.md) provides more details on the specifics of putting together multipart URs.
+
 ### How Do MURs Relate to Animated QRs?
 
-MURs are primarily intended for usage in Animated QRs, since QR codes have a low limit on how much data they can contain. But, you don't want to just keep repeating the same sequence of QRs when you're displaying an Animated QR because if the recipient misses a single element in the sequence you have to repeat every single one. Instead, Blockchain Commons uses fountain codes, which allow for more efficient reading of the animated QRs. How to do so is described in the [Multipart UR (MUR) Implementation Guide](https://github.com/BlockchainCommons/Research/blob/master/papers/bcr-2024-001-multipart-ur.md).
+MURs are primarily intended for usage in [Animated QRs](/animated-qrs/), since QR codes have a low limit on how much data they can contain. But, you don't want to just keep repeating the same sequence of QRs when you're displaying an Animated QR because if the recipient misses a single element in the sequence you have to repeat every single one. Instead, Blockchain Commons uses fountain codes, which allow for more efficient reading of the animated QRs. This is what's described in the [Multipart UR (MUR) Implementation Guide](https://github.com/BlockchainCommons/Research/blob/master/papers/bcr-2024-001-multipart-ur.md).
