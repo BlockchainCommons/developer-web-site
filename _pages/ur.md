@@ -102,7 +102,7 @@ than that, can support data encoding and transmission for a large
 number of decentralized technologies whether they're airgapped or
 not._
 
-## How Does URs Work?
+## How Do URs Work?
 
 As detailed in the [UR
 specification](https://github.com/BlockchainCommons/Research/blob/master/papers/bcr-2020-005-ur.md),
