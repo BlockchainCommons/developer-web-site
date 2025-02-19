@@ -175,6 +175,12 @@ Bytes(16) [
 ]
 ```
 
+## Should I Use URs or Envelopes?
+
+URs remain the foundational encoding method for much of Blockchain Commons' data, including Gordian Envelopes. However, as noted above, encoding specific data other than Envelopes as URs has been deprecated. This is largely due to the greater scope of content that can be encoded in an Envelope: instead of encoding a single bit of data you can collect together all of the related data and even connected metadata that explains it. You also have access to related Envelope systems such as encryption (which can be vitally important for data such as seeds and key material) and [GSTP](/envelope/gstp/) (which can allow the secure transportation of that material).
+
+However, you might still wish to use UR in limited situations, such as on a constrained device or when you just need to transmit one very simple bit of data.
+
 ## UR Videos
 
 
