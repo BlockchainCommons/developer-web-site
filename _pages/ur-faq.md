@@ -58,23 +58,27 @@ types](https://github.com/BlockchainCommons/Research/blob/master/papers/bcr-2020
 To date, the major uses of URs have fallen into three categories:
 
 * **PSBT Signing.** URs can transfer PSBTs as they are being signed.
-* **Key Transfer.** URs can be encode seeds and HD keys.
+* **Key Transfer.** URs can encode seeds and HD keys.
 * **SSKR Shares.** URs can encode shards of a key or seed sharded by SSKR.
  
 When data is being transferred between airgapped apps, it is usually
-done with a [Gordian Envelope](/envelope/) and may be part of a
+done with an [animated QR](/animated-qrs/) or else a [Gordian Envelope](/envelope/), possibly part of a
 [request-response interaction](/envelope/request/).
 
 ## Encoding Questions
 
 ### Why Not Use Base64?
 
-URs were specifically designed to support more efficient usage in QRs,
+URs were specifically designed to support efficient usage in QRs,
 and that's one of their prime advantages over base64. When a UR is
 properly stored as upper-case letters, it can be encoded in a QR using
 the "alphanumeric" encoding mode, while base64 requires "binary"
 encoding mode. base64 thus wastes at least two bits per character when
 used in QRs.
+
+### What Does CBOR Have to Do with URs?
+
+URs are constructed by encoding the data in CBOR using specific methodologies described in the [UR registry](https://github.com/BlockchainCommons/Research/blob/master/papers/bcr-2020-006-urtypes.md#registry), then converting that to [ByteWords](/bytewords/), as described in ["How Do URs Work"](https://developer.blockchaincommons.com/ur/#how-do-urs-work).
 
 ### What Tools Can I Use to Understand CBOR?
 
