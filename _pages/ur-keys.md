@@ -69,7 +69,7 @@ usable far into the future, not becoming muddled with the huge variety
 of standards for key material that could otherwise result in it
 becoming effectively unsuable if a user has no idea what it is.
 
-_Please note that classics URs are a legacy technology, with [Gordian Envelopes](/envelope/) being preferred. This is because URs can only hold bare content, while Envelopes can not only hold multiple bits of data but also metadata about the contents of an Envelope. This multiplies the self-descriptive properties of URs._
+_Please note that classics URs are a legacy technology, with [Gordian Envelopes](/envelope/) being preferred. This is because URs can only hold bare content, while Envelopes can not only hold multiple bits of data but also metadata about the contents of an Envelope. This multiplies the self-descriptive properties of URs while also building on URs' other advantages._
 
 ## Key Material: [crypto-seed](https://github.com/BlockchainCommons/Research/blob/master/papers/bcr-2020-006-urtypes.md#cryptographic-seed-crypto-seed)
 
@@ -165,6 +165,101 @@ oxadgdhkwzdtfthptokigtvwnnjsqzcxknsktdaotpiecyhnmouoataxihfpiajljpjtaajzfxjliyiy
 And you have a `ur:seed`:
 ```
 UR:SEED/OXADGDHKWZDTFTHPTOKIGTVWNNJSQZCXKNSKTDAOTPIECYHNMOUOATAXIHFPIAJLJPJTAAJZFXJLIYIYIHIHCXJNJLJTIHKKPSEERNWL
+```
+
+### A Seed in Envelope
+
+The preferred method for encoding seeds is now to use a [Gordian Envelope](/envelope/).
+
+This is that same seed stored in a Gordian Envelope, which of course still uses UR formatting:
+```
+ur:envelope/lntpsogdhkwzdtfthptokigtvwnnjsqzcxknsktdoyadcsspoybdtpsokseceheyetdpidinjycxguihihiecxgdkpidjziniacxghihjkjycxhfihiajyjljpcxdehkinjtjnjtcxfwjzkpihdtcxendyeeideseoiyeyoyaatpsokkadwdghisinjkcxinjkcxjyisihcxeheyetdpidinjycxdeeyeecxktjljpiedtcxjkihihiecxkpjkihiecxhsjkcxhscxjokpidjziniacxjpihiojpihjkjkinjljtcxjyihjkjycxkoihiajyjljpcxiyjljpcxgogmjkdwcxfljljpieinhsjtcxguihihiecxghjljljzdwcxhsjtiecxjkihihiejyjljljzdpiajzindmbkbkghisinjkcxjkihihiecxhsjtiecxhsjzjzcxjeihkkjkcxioihjtihjphsjyihiecxiyjpjljncxinjycxjkisjlkpjziecxidihcxiajljtjkinieihjpihiecxkpjtjkihiakpjpihcxhsjkcxjyisinjkcxjeihkkcxjnhsjyihjpinhsjzcxinjkcxidihinjtiocxjkishsjpihiecxjokpidjziniajzkkcxhsjkcxhscxjyihjkjycxkoihiajyjljpdmbkbkfpjzjkjlcxjejtjlktjtcxhsjkcxfygdfpgscxdpcxvolansfyhsjpjecxgdkpjpjojzihcxfpjskphscxgsjlkoihvolantcxhsjkcxhsjtcxjljziecxkoihjpjkinjljtcxjliycxgsiniyihfdhsjkiscxishsiecxjyishsjycxiajljzjljpdmbkbkfwinjyiajlinjtcxgthsjkjyihjpcxgrihkkcxfginjtioihjpjojpinjtjyftcxendyeeideseoiyeybkfejyisihjpihkpjncxfpiaiajlkpjtjycxcndycxfpieiejpihjkjkcxhpjndleeeedidlendyvolanldldyvolanldldydldyhlftcxdyksececemeceyeciedyeeeoeneceniheseoetecfyetfefgfpfpesfxieeehseohsihfpiefedyehehenetbkoycfadzttpsotantjyoeadjsktjkisdeiajljkiniojtihjpdefzdydtdtaolytantjlonaxhdclaohldlmdrtlacxhnfpptplfyltwelafsnezslyndhllnvdimmwlpylkbwzjltbdmenaahdcxlejtimcnrlbtdemdoereyaqzprkpndbdgwfzflqdbzkohgzobycxcnvabaosbglfamtantjooeadlocsdyykaeykaeykaoykaocyhngrmuwzattantjooyadlslraewkadwklawkaycynewncnlboybetpsosezofptpbtlnlyjzkefmjejldeny
+```
+You can convert the minimal Bytewords to hex with the `bytewords-cli` and then view it in [cbor.me](https://cbor.me/):
+```
+86                                      # array(6)
+   D8 C9                                # tag(201)
+      50                                # bytes(16)
+         59F2293A5BCE7D4DE59E71B4207AC5D2 # "Y\xF2):[\xCE}M\xE5\x9Eq\xB4 z\xC5\xD2"
+   A1                                   # map(1)
+      01                                # unsigned(1)
+      18 C8                             # unsigned(200)
+   A1                                   # map(1)
+      0B                                # unsigned(11)
+      D8 C9                             # tag(201)
+         78 35                          # text(53)
+            3132382D6269742053656564205075626C6963205465737420566563746F72202859696E6D6E20426C756529203630346239336632 # "128-bit Seed Public Test Vector (Yinmn Blue) 604b93f2"
+   A1                                   # map(1)
+      04                                # unsigned(4)
+      D8 C9                             # tag(201)
+         79 01EA                        # text(490)
+            5468697320697320746865203132382D6269742028323420776F726429207365656420757365642061732061207075626C69632072656772657373696F6E207465737420766563746F7220666F72205552732C20476F726469616E205365656420546F6F6C2C20616E642073656564746F6F6C2D636C692E0A0A54686973207365656420616E6420616C6C206B6579732067656E6572617465642066726F6D2069742073686F756C6420626520636F6E7369646572656420756E7365637572652061732074686973206B6579206D6174657269616C206973206265696E6720736861726564207075626C69636C792061732061207465737420766563746F722E0A0A416C736F206B6E6F776E206173204450414C202D20E2809C4461726B20507572706C652041717561204C6F7665E2809D20617320616E206F6C642076657273696F6E206F66204C6966654861736820686164207468617420636F6C6F722E0A0A426974636F696E204D6173746572204B65792046696E6765727072696E743A2036303462393366320A457468657265756D204163636F756E742023302041646472657373205B6D2F3434272F3630E280992F30E280992F302F305D3A203078353537353235643034333635366539333835443845464141394364346133616541644530313136380A # "This is the 128-bit (24 word) seed used as a public regression test vector for URs, Gordian Seed Tool, and seedtool-cli.\n\nThis seed and all keys generated from it should be considered unsecure as this key material is being shared publicly as a test vector.\n\nAlso known as DPAL - “Dark Purple Aqua Love” as an old version of LifeHash had that color.\n\nBitcoin Master Key Fingerprint: 604b93f2\nEthereum Account #0 Address [m/44'/60’/0’/0/0]: 0x557525d043656e9385D8EFAA9Cd4a3aeAdE01168\n"
+   A1                                   # map(1)
+      19 01FC                           # unsigned(508)
+      D8 C9                             # tag(201)
+         D9 9D74                        # tag(40308)
+            A2                          # map(2)
+               01                       # unsigned(1)
+               71                       # text(17)
+                  77736828636F7369676E65722840302929 # "wsh(cosigner(@0))"
+               02                       # unsigned(2)
+               81                       # array(1)
+                  D9 9D6F               # tag(40303)
+                     A5                 # map(5)
+                        03              # unsigned(3)
+                        58 21           # bytes(33)
+                           025D2F95C080206041A9AE4487ED803D9FFA819B5D86E76A9485F77EF26FD62E36 # "\u0002]/\x95\xC0\x80 `A\xA9\xAED\x87\xED\x80=\x9F\xFA\x81\x9B]\x86\xE7j\x94\x85\xF7~\xF2o\xD6.6"
+                        04              # unsigned(4)
+                        58 20           # bytes(32)
+                           8A6E6A23B70D2895A2B5F8B4B2759B0B4F4047B3157657FB112023E60EA71282 # "\x8Anj#\xB7\r(\x95\xA2\xB5\xF8\xB4\xB2u\x9B\vO@G\xB3\u0015vW\xFB\u0011 #\xE6\u000E\xA7\u0012\x82"
+                        06              # unsigned(6)
+                        D9 9D70         # tag(40304)
+                           A2           # map(2)
+                              01        # unsigned(1)
+                              88        # array(8)
+                                 18 30  # unsigned(48)
+                                 F5     # primitive(21)
+                                 00     # unsigned(0)
+                                 F5     # primitive(21)
+                                 00     # unsigned(0)
+                                 F5     # primitive(21)
+                                 02     # unsigned(2)
+                                 F5     # primitive(21)
+                              02        # unsigned(2)
+                              1A 604B93F2 # unsigned(1615565810)
+                        07              # unsigned(7)
+                        D9 9D70         # tag(40304)
+                           A1           # map(1)
+                              01        # unsigned(1)
+                              83        # array(3)
+                                 84     # array(4)
+                                    00  # unsigned(0)
+                                    F4  # primitive(20)
+                                    01  # unsigned(1)
+                                    F4  # primitive(20)
+                                 80     # array(0)
+                                 F4     # primitive(20)
+                        08              # unsigned(8)
+                        1A 9FF1237F     # unsigned(2683380607)
+   A1                                   # map(1)
+      10                                # unsigned(16)
+      D8 C9                             # tag(201)
+         C1                             # tag(1)
+            FB 41D80D86816C7C3E         # primitive(4744557078782966846)
+```
+Besides the seed, a name, and a long note, this Envelope also contains an output descriptor. It's everything that you need to actually make use of the seed when you recover it, while a bare seed can't provide that information.
+
+You can directly compare that CBOR dump to the dump of the `ur:seed` above, but if you want even a clearer description of your `ur:envelope`, all you need to do is examine it in [bc-envelope-cli-rust](https://github.com/BlockchainCommons/bc-envelope-cli-rust):
+
+```
+$ envelope format ur:envelope/lntpsogdhkwzdtfthptokigtvwnnjsqzcxknsktdoyadcsspoybdtpsokseceheyetdpidinjycxguihihiecxgdkpidjziniacxghihjkjycxhfihiajyjljpcxdehkinjtjnjtcxfwjzkpihdtcxendyeeideseoiyeyoyaatpsokkadwdghisinjkcxinjkcxjyisihcxeheyetdpidinjycxdeeyeecxktjljpiedtcxjkihihiecxkpjkihiecxhsjkcxhscxjokpidjziniacxjpihiojpihjkjkinjljtcxjyihjkjycxkoihiajyjljpcxiyjljpcxgogmjkdwcxfljljpieinhsjtcxguihihiecxghjljljzdwcxhsjtiecxjkihihiejyjljljzdpiajzindmbkbkghisinjkcxjkihihiecxhsjtiecxhsjzjzcxjeihkkjkcxioihjtihjphsjyihiecxiyjpjljncxinjycxjkisjlkpjziecxidihcxiajljtjkinieihjpihiecxkpjtjkihiakpjpihcxhsjkcxjyisinjkcxjeihkkcxjnhsjyihjpinhsjzcxinjkcxidihinjtiocxjkishsjpihiecxjokpidjziniajzkkcxhsjkcxhscxjyihjkjycxkoihiajyjljpdmbkbkfpjzjkjlcxjejtjlktjtcxhsjkcxfygdfpgscxdpcxvolansfyhsjpjecxgdkpjpjojzihcxfpjskphscxgsjlkoihvolantcxhsjkcxhsjtcxjljziecxkoihjpjkinjljtcxjliycxgsiniyihfdhsjkiscxishsiecxjyishsjycxiajljzjljpdmbkbkfwinjyiajlinjtcxgthsjkjyihjpcxgrihkkcxfginjtioihjpjojpinjtjyftcxendyeeideseoiyeybkfejyisihjpihkpjncxfpiaiajlkpjtjycxcndycxfpieiejpihjkjkcxhpjndleeeedidlendyvolanldldyvolanldldydldyhlftcxdyksececemeceyeciedyeeeoeneceniheseoetecfyetfefgfpfpesfxieeehseohsihfpiefedyehehenetbkoycfadzttpsotantjyoeadjsktjkisdeiajljkiniojtihjpdefzdydtdtaolytantjlonaxhdclaohldlmdrtlacxhnfpptplfyltwelafsnezslyndhllnvdimmwlpylkbwzjltbdmenaahdcxlejtimcnrlbtdemdoereyaqzprkpndbdgwfzflqdbzkohgzobycxcnvabaosbglfamtantjooeadlocsdyykaeykaeykaoykaocyhngrmuwzattantjooyadlslraewkadwklawkaycynewncnlboybetpsosezofptpbtlnlyjzkefmjejldeny
+Bytes(16) [
+    'isA': 'Seed'
+    '508': 40308({1: "wsh(cosigner(@0))", 2: [40303({3: h'025d2f95c080206041a9ae4487ed803d9ffa819b5d86e76a9485f77ef26fd62e36', 4: h'8a6e6a23b70d2895a2b5f8b4b2759b0b4f4047b3157657fb112023e60ea71282', 6: 40304({1: [48, true, 0, true, 0, true, 2, true], 2: 1615565810}), 7: 40304({1: [[0, false, 1, false], [], false]}), 8: 2683380607})]})
+    'date': 2021-02-24T09:19:01Z
+    'name': "128-bit Seed Public Test Vector (Yinmn Blue) 604b93f2"
+    'note': "This is the 128-bit (24 word) seed used as a public regression test vector for URs, Gordian Seed Tool, and seedtool-cli.\n\nThis seed and all keys generated from it should be considered unsecure as this key material is being shared publicly as a test vector.\n\nAlso known as DPAL - “Dark Purple Aqua Love” as an old version of LifeHash had that color.\n\nBitcoin Master Key Fingerprint: 604b93f2\nEthereum Account #0 Address [m/44'/60’/0’/0/0]: 0x557525d043656e9385D8EFAA9Cd4a3aeAdE01168\n"
+]
 ```
 
 ## Mnemonic Seed Words: Deprecated
