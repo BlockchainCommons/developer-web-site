@@ -384,13 +384,12 @@ You can incorporate URs into your own code using a variety of UR libraries:
 
 ## Conclusion
 
-Key material can be transferred using `ur:seed`,
-`ur:bip39`, and `ur:hdkey`. Doing so allows you to use
+Key material can be transferred using `ur:seed` or `ur:hdkey`. Doing so allows you to use
 airgaps, which increase the safety of these vulnerable operations; and
 also increases your interoperability, so that other software can work
 with you, and so that your key material remains usable far into the
 future.
 
-However, we now prefer the use of [Gordian Envelope](/envelope/) to allow for the storage of more data and related metadata.
+However, we now prefer the use of [`ur:envelope`](/envelope/) to allow for the storage of more data and related metadata.
 
 
