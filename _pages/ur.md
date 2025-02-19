@@ -33,7 +33,7 @@ To be precise, Uniform Resources (URs) include:
 1. A standard way to wrap [CBOR-encoded data
 structures](https://cbor.io/) in a URI.
 2. A standard way to type the data in the URI so that it is self-describing.
-3. A standard way split and sequence longer messages.
+3. A standard way to split and sequence longer messages.
 4. Optimizations for efficiency when URs are presented as QR codes.
 
 URs allow for the self-identified encoding of a variety of
@@ -44,6 +44,8 @@ such as seeds, keys, and shards, [all listed in a registry of data
 types](https://github.com/BlockchainCommons/Research/blob/master/papers/bcr-2020-006-urtypes.md). It's
 optimized for airgapped usage and allows for standardized
 interoperability for Bitcoin apps released by different companies.
+
+_The [Gordian Envelopes](/envelope/) is now preferred over bare URs as a method for data storage and transmission. This page is maintained for legacy purposes and also because Gordian Envelopes can be encoded as URs._
 
 ## Why are URs Important?
 
@@ -159,7 +161,7 @@ For example:
 * **UR:** ur:crypto-seed/oyadgdhkwzdtfthptokigtvwnnjsqzcxknsktdhpyljeda
 * **UR for QR:** UR:CRYPTO-SEED/OYADGDHKWZDTFTHPTOKIGTVWNNJSQZCXKNSKTDHPYLJEDA
 
-Note that simplistic encoding of seeds as `ur:seed` is largely
+Note again that simplistic encoding of seeds as `ur:seed` is largely
 being deprecated in favor of [Gordian Envelope](/envelope/). This
 example is being maintained as a simplest-possible example of a use of
 URs, but a corresponding Envelope would instead look as follows:
@@ -177,7 +179,7 @@ Bytes(16) [
 
 ## Should I Use URs or Envelopes?
 
-URs remain the foundational encoding method for much of Blockchain Commons' data, including Gordian Envelopes. However, as noted above, encoding specific data other than Envelopes as URs has been deprecated. This is largely due to the greater scope of content that can be encoded in an Envelope: instead of encoding a single bit of data you can collect together all of the related data and even connected metadata that explains it. You also have access to related Envelope systems such as encryption (which can be vitally important for data such as seeds and key material) and [GSTP](/envelope/gstp/) (which can allow the secure transportation of that material).
+URs remain a foundational encoding method for much of Blockchain Commons' data and is often used with Gordian Envelopes. However, as noted above, encoding specific data other than Envelopes as URs has been deprecated. This is largely due to the greater scope of content that can be encoded in an Envelope: instead of encoding a single bit of data you can collect together all of the related data and even connected metadata that explains it. You also have access to related Envelope systems such as encryption (which can be vitally important for data such as seeds and key material) and [GSTP](/envelope/gstp/) (which can allow the secure transportation of that material).
 
 However, you might still wish to use UR in limited situations, such as on a constrained device or when you just need to transmit one very simple bit of data.
 
@@ -230,11 +232,9 @@ https://github.com/BlockchainCommons/Research/blob/master/papers/bcr-2020-006-ur
 * [**UR FAQ**](ur-faq.md)
 * [**A Guide to Using URs for PSBTs**](/ur/psbts/) [our biggest success story]
 * [**A Guide to Using URs for Key Material**](/ur/keys/)
-* [**A Guide to Using URs for SSKR**](/ur/sskr/)
-* A Guide to Using URs for Request & Response (new version pending)
+* [**UR SSKRs & Envelope SSKRs**](/sskr/)
 
 * [**ur:seed Test Vectors**](/ur/vectors/seeds/)
-* Request & Response Test Vectors (new version pending)
 
 **Developer Reference Apps:**
 
