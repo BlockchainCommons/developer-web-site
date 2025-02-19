@@ -69,13 +69,7 @@ usable far into the future, not becoming muddled with the huge variety
 of standards for key material that could otherwise result in it
 becoming effectively unsuable if a user has no idea what it is.
 
-## Why Use URs Instead of Envelopes?
-
-Classics URs are a legacy technology, with [Gordian Envelopes](/envelope/) being preferred. This is because URs can only hold bare content, while Envelopes can not only hold multiple bits of data but also metadata about the contents of an Envelope. This multiplies the self-descriptive properties of URs.
-
-URs are still a part of Envelopes, because Envelopes can be stored as `ur:envelope`. However, you might also choose to use URs for other data types, such as the seeds in these examples for purposes of simplicity or because you're working on a constrained devices.
-
-In other situations, however, we instead suggest Gordian Envelope.
+_Please note that classics URs are a legacy technology, with [Gordian Envelopes](/envelope/) being preferred. This is because URs can only hold bare content, while Envelopes can not only hold multiple bits of data but also metadata about the contents of an Envelope. This multiplies the self-descriptive properties of URs._
 
 ## Key Material: [crypto-seed](https://github.com/BlockchainCommons/Research/blob/master/papers/bcr-2020-006-urtypes.md#cryptographic-seed-crypto-seed)
 
