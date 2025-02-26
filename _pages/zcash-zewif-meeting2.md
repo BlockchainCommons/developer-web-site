@@ -29,7 +29,7 @@ The following video covers the latter half of the meeting, starting with the `zm
     <td width="640px">
       <b>Meeting Video:</b>
 
-{% include video id="wy06xxpJy-M" provider="youtube" %}
+{% include video id="wSeAdx6oZLw" provider="youtube" %}
 
     </td>
   </tr>
