@@ -140,17 +140,4 @@ However UR libraries are also available if there's a use case where you need to 
 
 ## Conclusion
 
-PSBTs are perhaps the easiest data type to convert into URs. They also
-offer one of the strongest use cases for URs.
-
-1. The animated QRs that are easy to create using UR sequences are
-very important for PSBTs because of their potential for large sizes,
-particularly with multisig PSBTs.
-2. The fact that PSBTs are very likely to be passed from device to
-device makes their interoperability that much more important, and URs
-(especially when integrated with QRs) offer a way to do so that's
-accessible and easy to use for an average user, while its
-self-describing nature also ensures that devices know what to do with
-the data!
-
-However, if you have any use case for incorporating additional data into your PSBT, such as descriptions or instructions, you should use [Gordian Envelope](/envelope/) instead. Since Gordian Envelopes encode as URs, they still have also these advantages, but also the additional benefits of being able to package the PSBT with more content and being able to use Envelope Extensions such as [GSTP](/envelope/gstp/), which allows for secure transmission of your PSBT by means other than QRs.
+UR is a great format for storing a variety of data types that have been encoded as CBOR. The ultimate question is: what data do you put in there? At this point, Blockchain Commons suggests using UR to transmit and save data stored as a [Gordian Envelope](/envelope/). This allows you to maintain all of the advantages of URs, such as QR integration, self-description, printed storage, and error checking, with the advantages of Envelopes, such as metadata inclusion, privacy-focused elision, and the use of extensions such as GSTP. They also fit together entirely naturally, as Envelope is a CBOR data format and UR is a way to encode that CBOR as ASCII.
