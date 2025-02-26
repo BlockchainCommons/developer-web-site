@@ -276,16 +276,18 @@ ur:
       url: /ur/
     - title: "UR FAQs"
       url: /ur/faq/
-    - title: "UR Implementations"
-      url: /ur/implementations/
-    - title: "crypto-seed Vectors"
-      url: /ur/vectors/seeds
+    - title: "URs for Envelopes"
+      url: /ur/envelope/
     - title: "URs for Keys"
       url: /ur/keys/
+    - title: "crypto-seed Vectors"
+      url: /ur/vectors/seeds
     - title: "URs for PSBTs"
       url: /ur/psbts/
     - title: "URs for SSKR"
       url: /ur/sskr/
+    - title: "UR Implementations"
+      url: /ur/implementations/
     - title: "Return to UX Stack"
       url: /ux-stack/
 xid:
