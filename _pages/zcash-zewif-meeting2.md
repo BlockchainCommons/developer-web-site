@@ -35,4 +35,4 @@ The following video covers the latter half of the meeting, starting with the `zm
   </tr>
 </table>
 
-_We continue to welcome comments. The [video itself](https://www.youtube.com/watch?v=wSeAdx6oZLw) might be a great place to leave comments on this work, but also free to leave Issues on the [zcash-wallet-formats repo](https://github.com/zingolabs/zcash-wallet-formats/issues)._
+_We continue to welcome comments. The [video itself](https://www.youtube.com/watch?v=wSeAdx6oZLw) might be a great place to leave comments on this work, but also free to leave Issues on the [zcash-wallet-formats repo](https://github.com/zingolabs/zcash-wallet-formats/issues) or the [`zmigrate` crate](https://github.com/BlockchainCommons/zmigrate) as you think appropriate._
