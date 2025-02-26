@@ -13,7 +13,7 @@ permalink: /chains/zcash/zewif/meeting1/
 sidebar:
   nav: zcash
 redirect_from:
-  - /zcash/zwif/meeting1/
+  - /zcash/zewif/meeting1/
 ---
 
 Blockchain Commons and Zingo Labs held the first public meeting regarding the Zcash Extensible Wallet Interchange Format (ZeWIF) on January 24, 2025. The goal was to get early feedback on the data being collected in the survey and collated into spreadsheets and diagrams in order to capture Zcash expertise before the specification process began.
