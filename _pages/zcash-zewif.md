@@ -25,11 +25,12 @@ The project has been broken into four phases:
 1. Survey of existing wallet data (January 2025)
    * [Survey of Zcash Data Formats](https://github.com/dorianvp/zcash-wallet-formats/tree/master)
    * [Spreadsheet of Zcash Wallet Data](https://docs.google.com/spreadsheets/d/1MdahX4igppx7a4BdrcO5TGB2-mO1EtXrlKssypfEHUQ/)
-   * [Meeting on Wallet Data](/chains/zcash/zewif/meeting1/)
+   * [Meeting on Wallet Data (1/24/25)](/chains/zcash/zewif/meeting1/)
    * [Report on Wallet Data](/chains/zcash/zewif/report1/)
-3. Design of wallet interchange specification (February 2025)
-4. Creation of Rust import and export libraries (March 2025)
-5. Create of legacy wallet CLI tool, ZExCavator (April 2025)
+2. Design of wallet interchange specification (February 2025)
+3. Creation of Rust import and export libraries (March 2025)
+    * [Meeting with first zmigrate demo (2/25/25)](https://www.youtube.com/watch?v=wSeAdx6oZLw)
+4. Create of legacy wallet CLI tool, ZExCavator (April 2025)
 
 ## Interchange Format
 
@@ -50,6 +51,9 @@ This work is sponsored by a [Zcash Community Grant](https://zcashcommunitygrants
    * [Spreadsheet of Zcash Wallet Data](https://docs.google.com/spreadsheets/d/1MdahX4igppx7a4BdrcO5TGB2-mO1EtXrlKssypfEHUQ/)
    * [Meeting on Wallet Data](/chains/zcash/zewif/meeting1/)
    * [Report on Wallet Data](/chains/zcash/zewif/report1/)
+
+**Zmigrate Tool:**
+   * [Meeting with first zmigrate code demo](https://www.youtube.com/watch?v=wSeAdx6oZLw)
 
 **Zcash:**
 * [Zcash Home Page](https://z.cash/)
