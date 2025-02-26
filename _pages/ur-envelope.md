@@ -108,7 +108,13 @@ As shown, this Envelope is an array of a subject ("alice") and an assertion, wit
 
 ## Integrating Envelope URs Into Your Code
 
-You can incorporate URs into your own code using the UR library of your choice:
+You can incorporate URs into your own code using the libraries of your choice:
+
+You're most likely to use higher level Envelope libraries.
+
+{% include lib-envelope.md %}
+
+However UR libraries are also available if there's a use case where you need to encode an Envelope yourself:
 
 {% include lib-ur.md %}
 
