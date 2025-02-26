@@ -106,6 +106,26 @@ The [cbor.me website](https://cbor.me/) breaks down the CBOR even further:
 ```
 As shown, this Envelope is an array of a subject ("alice") and an assertion, with the latter being a map containing "knows" and "bob". Each individual element of the Envelope is tagged `201` to mark it as an Envelope leaf, all in accordance with the [IETF spec](https://datatracker.ietf.org/doc/draft-mcnally-envelope/).
 
+### Crypto Secrets in Envelopes
+
+These UR documents describe holding a variety of crypto-secrets in URs, including keys, SSKR shares, and PSBTs. Today we believe that most of these could be better stored as Envelopes, with the Envelope then encoded as a UR.
+
+Our [URs for Keys page](https://developer.blockchaincommons.com/ur/keys/) therefore offers an exampl of a Seed Envelope:
+```
+$ envelope format ur:envelope/lntpsogdhkwzdtfthptokigtvwnnjsqzcxknsktdoyadcsspoybdtpsokseceheyetdpidinjycxguihihiecxgdkpidjziniacxghihjkjycxhfihiajyjljpcxdehkinjtjnjtcxfwjzkpihdtcxendyeeideseoiyeyoyaatpsokkadwdghisinjkcxinjkcxjyisihcxeheyetdpidinjycxdeeyeecxktjljpiedtcxjkihihiecxkpjkihiecxhsjkcxhscxjokpidjziniacxjpihiojpihjkjkinjljtcxjyihjkjycxkoihiajyjljpcxiyjljpcxgogmjkdwcxfljljpieinhsjtcxguihihiecxghjljljzdwcxhsjtiecxjkihihiejyjljljzdpiajzindmbkbkghisinjkcxjkihihiecxhsjtiecxhsjzjzcxjeihkkjkcxioihjtihjphsjyihiecxiyjpjljncxinjycxjkisjlkpjziecxidihcxiajljtjkinieihjpihiecxkpjtjkihiakpjpihcxhsjkcxjyisinjkcxjeihkkcxjnhsjyihjpinhsjzcxinjkcxidihinjtiocxjkishsjpihiecxjokpidjziniajzkkcxhsjkcxhscxjyihjkjycxkoihiajyjljpdmbkbkfpjzjkjlcxjejtjlktjtcxhsjkcxfygdfpgscxdpcxvolansfyhsjpjecxgdkpjpjojzihcxfpjskphscxgsjlkoihvolantcxhsjkcxhsjtcxjljziecxkoihjpjkinjljtcxjliycxgsiniyihfdhsjkiscxishsiecxjyishsjycxiajljzjljpdmbkbkfwinjyiajlinjtcxgthsjkjyihjpcxgrihkkcxfginjtioihjpjojpinjtjyftcxendyeeideseoiyeybkfejyisihjpihkpjncxfpiaiajlkpjtjycxcndycxfpieiejpihjkjkcxhpjndleeeedidlendyvolanldldyvolanldldydldyhlftcxdyksececemeceyeciedyeeeoeneceniheseoetecfyetfefgfpfpesfxieeehseohsihfpiefedyehehenetbkoycfadzttpsotantjyoeadjsktjkisdeiajljkiniojtihjpdefzdydtdtaolytantjlonaxhdclaohldlmdrtlacxhnfpptplfyltwelafsnezslyndhllnvdimmwlpylkbwzjltbdmenaahdcxlejtimcnrlbtdemdoereyaqzprkpndbdgwfzflqdbzkohgzobycxcnvabaosbglfamtantjooeadlocsdyykaeykaeykaoykaocyhngrmuwzattantjooyadlslraewkadwklawkaycynewncnlboybetpsosezofptpbtlnlyjzkefmjejldeny
+Bytes(16) [
+    'isA': 'Seed'
+    '508': 40308({1: "wsh(cosigner(@0))", 2: [40303({3: h'025d2f95c080206041a9ae4487ed803d9ffa819b5d86e76a9485f77ef26fd62e36', 4: h'8a6e6a23b70d2895a2b5f8b4b2759b0b4f4047b3157657fb112023e60ea71282', 6: 40304({1: [48, true, 0, true, 0, true, 2, true], 2: 1615565810}), 7: 40304({1: [[0, false, 1, false], [], false]}), 8: 2683380607})]})
+    'date': 2021-02-24T09:19:01Z
+    'name': "128-bit Seed Public Test Vector (Yinmn Blue) 604b93f2"
+    'note': "This is the 128-bit (24 word) seed used as a public regression test vector for URs, Gordian Seed Tool, and seedtool-cli.\n\nThis seed and all keys generated from it should be considered unsecure as this key material is being shared publicly as a test vector.\n\nAlso known as DPAL - “Dark Purple Aqua Love” as an old version of LifeHash had that color.\n\nBitcoin Master Key Fingerprint: 604b93f2\nEthereum Account #0 Address [m/44'/60’/0’/0/0]: 0x557525d043656e9385D8EFAA9Cd4a3aeAdE01168\n"
+]
+```
+SSKRs offer a slightly more complex situation, as Gordian Envelopes offer a whole new paradigm, where an SSKR share becomes [a lock for an entire Envelope](https://developer.blockchaincommons.com/sskr/#what-are-sskr-envelopes).
+
+We suspect PSBTs are the most likely to stick around as bare URs, but there are considerable advantages to instead storing them in Envelopes, especially the ability to use [GSTP](/envelope/gstp/) to improve the security of communications.
+
+
 ## Integrating Envelope URs Into Your Code
 
 You can incorporate URs into your own code using the libraries of your choice:
