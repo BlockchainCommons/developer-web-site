@@ -183,6 +183,20 @@ URs remain a foundational encoding method for much of Blockchain Commons' data a
 
 However, you might still wish to use UR in limited situations, such as on a constrained device or when you just need to transmit one very simple bit of data.
 
+## How to Get Started with URs
+
+URs are a simple, low-level data encoding method. Their use is trivial once you've decided that you'd like to store content in an interoperable and self-describing way, to ensure its resilience well into the future.
+
+1. **Decide What Data You Will Be Storing.** The first step is to decide what data you will be storing. Seeds? Keys? Sharded data? Make sure that there is a purpose is UR storage, which is primarily interoperable transmission or storage of data that might need to be reclaimed in the far future.
+1. **Clarify Your Use Case.** This will help you decide whether to use bare URs, where you encode a simple piece of CBOR data with a UR, or Envelope, where you encode a whole collection of data with a UR.
+   * Bare URs are not generally recommended, but they might be useful in a constrained environment where you have severe limitations on memory or storage or when you have an extremely limited use case and the additional (but light) overhead of Envelope doesn't make sense.
+   * Envelope URs are crucial in situations where you want to package multiple data elements, where you have metadata, or where there are privacy concerns that might require encryption of data or the elision of some data at some times. There is a small bit of additional complexity (as little as a few bytes of data), but you'll retain all the advantages of URs when you encode in that format.
+1. **Download an Appropriate Library.** A [full listing](https://developer.blockchaincommons.com/ur/#libraries) of UR libraries from Blockchain Commons and a variety of third parties is available. (This and later steps may not be necessary if you're working with an Envelope library, which may take care of the UR output all on its own.)
+1. **Encode Your Data as CBOR.** Find your data type in the [UR registry](https://github.com/BlockchainCommons/Research/blob/master/papers/bcr-2020-006-urtypes.md#registry) and encode it according to the CDDL.
+   * If there is not a CDDL for your data type, decide on a format and submit it as an issue!
+1. **Use Your UR Library to Encode Your CBOR.** Run the encoder function on your library to turn your CBOR data into a UR.
+1. **Test Your UR.** Test the data you have created by stripping the `ur:type/` prefix and using the [`bytewords-cli`](https://github.com/BlockchainCommons/bytewords-cli) to turn the minimal Bytewords format into hex. Then read the hex using an app such as `cbor2diag` or a site such as [cbor.me](https://cbor.me/). (See [this example](https://developer.blockchaincommons.com/ur/keys/#decoding-a-simple-seed) or how to test the decoding of a seed.)
+
 ## UR Videos
 
 
