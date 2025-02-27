@@ -55,15 +55,13 @@ lists data types that Blockchain Commons specifies, maintains, and
 promotes. You can also define proprietary [user-defined
 types](https://github.com/BlockchainCommons/Research/blob/master/papers/bcr-2020-006-urtypes.md#user-defined-types-x-).
 
-To date, the major uses of URs have fallen into three categories:
+We suggest URs especially for the encoding of [Gordian Envelopes](/envelope/), which allow the collection and the resilient, private storage of a variety of sorts of data and metadata. Prior to the advent of Gordian Envelopes, URs were primarily used for:
 
 * **PSBT Signing.** URs can transfer PSBTs as they are being signed.
 * **Key Transfer.** URs can encode seeds and HD keys.
 * **SSKR Shares.** URs can encode shards of a key or seed sharded by SSKR.
- 
-When data is being transferred between airgapped apps, it is usually
-done with an [animated QR](/animated-qrs/) or else a [Gordian Envelope](/envelope/), possibly part of a
-[request-response interaction](/envelope/request/).
+
+We expect these uses to continue, but that many of them may now use the Gordian Envelope format prior to UR encoding for its several advantages.
 
 ## Encoding Questions
 
