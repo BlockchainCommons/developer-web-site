@@ -21,6 +21,8 @@ sidebar:
 
 {% include seed-128.md %}                                              
 
+The following examples demonstrate versions of this seed encoded as bare URs with a variety of data.
+
 ### Seed with No Additional Data
 ![](/assets/images/ur/vector-seed-yinmn-new.png)
 
@@ -86,7 +88,7 @@ sidebar:
 ## Appendix: Standard Process for Creating Test Vectors:
 
 The following process, which can be used for all test vector creation,
-using a detailed `ur:seed` as an example.
+uses a detailed `ur:seed` as an example.
 
 1. Write the JSON vector using [BCR-2020-006](https://github.com/BlockchainCommons/Research/blob/master/papers/bcr-2020-006-urtypes.md#cryptographic-seed-crypto-seed) as reference. Place the hex seed in map element #1, and then optionally place a creation date in element #2, a name in element #3, and a note in element #4.
 ```
@@ -110,8 +112,8 @@ oxadgdhkwzdtfthptokigtvwnnjsqzcxknsktdaosecyidbbwnnnaxjyhkinjtjnjtcxfwjzkpihcxfp
 ```
 ur:seed/oxadgdhkwzdtfthptokigtvwnnjsqzcxknsktdaosecyidbbwnnnaxjyhkinjtjnjtcxfwjzkpihcxfpiainiecxfekshsjnaaksdighisinjkcxinjkcxjlkpjpcxjkjyhsjtiehsjpiecxeheyetdpidinjycxjyihjkjycxjkihihiedmksjpaate
 ```
-5. Encode the `ur:crypto-seed` as a QR.
+5. Encode the `ur:seed` as a QR.
 ```
-echo "ur:crypto-seed/oxadgdhkwzdtfthptokigtvwnnjsqzcxknsktdaosecyidbbwnnnaxjyhkinjtjnjtcxfwjzkpihcxfpiainiecxfekshsjnaaksdighisinjkcxinjkcxjlkpjpcxjkjyhsjtiehsjpiecxeheyetdpidinjycxjyihjkjycxjkihihiedmksjpaate" | qrencode -o ~/vector-seed-yinmn-note.png
+echo "ur:seed/oxadgdhkwzdtfthptokigtvwnnjsqzcxknsktdaosecyidbbwnnnaxjyhkinjtjnjtcxfwjzkpihcxfpiainiecxfekshsjnaaksdighisinjkcxinjkcxjlkpjpcxjkjyhsjtiehsjpiecxeheyetdpidinjycxjyihjkjycxjkihihiedmksjpaate" | qrencode -o ~/vector-seed-yinmn-note.png
 ```
 
