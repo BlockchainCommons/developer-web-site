@@ -18,18 +18,19 @@ sidebar:
 Bare Uniform Resources (URs) allow for the encoding of a variety of
 information, including a variety of crypto-data. It was originally Blockchain Commons' suggested methodology to encode CBOR data such as seeds and private keys in a self-describing way.
 
-However, following the release of URs, Blockchain Commons developed the [Gordian Envelope](/envelope/) format. This "Smart Document" system describes how to use CBOR in a more comprehensive way to encode data so that it's not only self-describing, but also privacy-focused. It also allows for much more data to be stored together due to its ability to model more complex structures. Envelope is now Blockchain Commons' preferred methodology for data storage.
+However, after the release of URs, Blockchain Commons developed the [Gordian Envelope](/envelope/) format. This "Smart Document" system describes how to use CBOR in a more comprehensive way to encode data so that it's not only self-describing, but also privacy-focused. It also allows for much more data to be stored together due to its ability to model more complex structures. Envelope is now Blockchain Commons' preferred methodology for data storage.
 
-UR nonetheless remains relevant: it's a way to encode binary CBOR in a hardened, easily transmissible way using plain text and checksums. Envelopes can therefore be encoded for transmission using URs (and therefore [Animated QRs](/animated-qrs/), offering all of the original advantages of URs to the more robust and extensive Envelope data format.
+UR nonetheless remains relevant: they're a way to encode binary CBOR in a hardened, easily transmissible way using plain text and checksums. Since Envelopes are CBOR-based, they can be encoded for transmission using URs (and therefore [Animated QRs](/animated-qrs/), adding all of the original advantages of URs to the more robust and extensive Envelope data format.
 
 ## Why Use URs for Envelopes?
 
-Gordian Envelopes can be kept in memory or stored as a binary stream. However, there are many situations when you might want to store or transmit them when the UR format will offer all of its normal benefits:
+Gordian Envelopes can be kept in memory or stored as a binary stream. However, there are many situations when you might want to store or transmit them, and in these situations, the UR format offers all of its normal benefits:
 
-1. **Improves Self-Description.** The content within a Gordian Envelope is all self-described by CBOR tags. But how do you know that big blob of data is a Gordian Envelope at all? That's where `ur:envelope` comes in. 
+1. **Improves Self-Description.** The content within a Gordian Envelope is all self-described by CBOR tags. But how do you know that big blob of data is a Gordian Envelope at all? That's where `ur:envelope` comes in.
+1. **Improves Interoperability.** As a standard URI, a UR can instantly be understood by many different applications.
 1. **Offers Error Checking.** The checksum digits at the end of a UR can identify if an Envelope has been corrupted.
 1. **Allows Printing.** URs can be printed out and stored. Though Envelope URs can be very long and therefore a huge pain to reenter, doing so might allow the recovery of otherwise lost data.
-1. **Supports Animated QRs.** URs are built to be efficiently encoded as QRs. This allows Envelopes to be stored as QRs or even Animated QRs for larger data. This allows the easy transmission of Envelopes across [airgaps](/airgaps/). This also allows for much easier recovery fromt printed content, even for larger Envelopes, as Animated QRs can be printed out using multiple frames.
+1. **Supports Animated QRs.** URs are built to be efficiently encoded as QRs. As a result, UR-encoded Envelopes can be stored as QRs or even Animated QRs for larger data. This allows the easy transmission of Envelopes across [airgaps](/airgaps/). It also allows for much easier recovery from printed content, even for larger Envelopes, as Animated QRs can be printed out using multiple frames.
 
 None of these advantages are unique to Envelopes: they're all general advantages of the UR form that can be extended to Envelopes stored as URs.
 
@@ -39,19 +40,19 @@ Envelopes allow for the encoding of semantic triples, as shown in the following 
 ```
 $ ENVELOPE=`envelope subject type string alice | envelope assertion add pred-obj string knows string bob`
 ```
-The `envelope-cli` actually encodes its data as a UR for default, because it's such a useful format for data storage of this type
+The `envelope-cli` actually encodes its data as a UR by default, because it's such a useful format for data storage of this type.
 ```
 $ echo $ENVELOPE
 ur:envelope/lftpsoihhsjziniaihoytpsoihjejtjlktjktpsoiaidjlidzmvllokt
 ```
-The `envelope-cli` tool also allows the output of this data in Envelope format, which clearly shows what's being stored:
+The `envelope-cli` tool also supports the output of data in Envelope format, which clearly shows what's being stored:
 ```
 $ envelope format $ENVELOPE
 "alice" [
     "knows": "bob"
 ]
 ```
-However, the data is actually written as CBOR using the [Envelope IETF spec](https://datatracker.ietf.org/doc/draft-mcnally-envelope/) prior to its output as a UR. As of this writing, the following CDDL description details how an Envelope is encoded:
+Internally, the data is actually stored as CBOR using the [Envelope IETF spec](https://datatracker.ietf.org/doc/draft-mcnally-envelope/) . As of this writing, the following CDDL description details how an Envelope is encoded. (See the spec to ensure it's up to date!)
 
 ```
    envelope = #6.200(envelope-content)
@@ -78,13 +79,15 @@ However, the data is actually written as CBOR using the [Envelope IETF spec](htt
 
    wrapped = envelope
 ```
-You can examine what the original CBOR for a `ur:envelope` encoding looks like using a few other tools. Remember that each UR is divided into a self-description (`ur:envelope/`) and a set of minimal [Bytewords](/bytewords/) that encode the CBOR and then provide a checksum (`lftpsoihhsjziniaihoytpsoihjejtjlktjktpsoiaidjlidzmvllokt`). To convert the UR back to CBOR, you must first convert the minimal bytewords back to hex.
+You can examine the original CBOR for a `ur:envelope` encoding using a few CBOR-related tools. Remember that each UR is divided into a self-description (`ur:envelope/`) and a set of minimal [Bytewords](/bytewords/) that encode the CBOR and then provide a checksum (`lftpsoihhsjziniaihoytpsoihjejtjlktjktpsoiaidjlidzmvllokt`). To convert the UR back to CBOR, you must first convert the minimal bytewords back to hex.
 
-Blockchain Commons [`bytewords-cli`](https://github.com/BlockchainCommons/bytewords-cli) provides the easiest way to do so:
+Blockchain Commons' [`bytewords-cli`](https://github.com/BlockchainCommons/bytewords-cli) provides the easiest way to do so:
 ```
 $ bytewords -i minimal -o hex lftpsoihhsjziniaihoytpsoihjejtjlktjktpsoiaidjlidzmvllokt
 82d8c965616c696365a1d8c9656b6e6f7773d8c963626f62
 ```
+You can then read that hex using an CBOR tool.
+
 [cbor2diag](https://github.com/cabo/cbor-diag/tree/master) provides one way to do so:
 ```
 $ cbor2diag -x 82d8c965616c696365a1d8c9656b6e6f7773d8c963626f62
@@ -104,13 +107,13 @@ The [cbor.me website](https://cbor.me/) breaks down the CBOR even further:
          63            # text(3)
             626F62     # "bob"
 ```
-As shown, this Envelope is an array of a subject ("alice") and an assertion, with the latter being a map containing "knows" and "bob". Each individual element of the Envelope is tagged `201` to mark it as an Envelope leaf, all in accordance with the [IETF spec](https://datatracker.ietf.org/doc/draft-mcnally-envelope/).
+As shown, this Envelope is an array of a subject ("alice") and an assertion, with the latter being a map that contains the predicate "knows" and and the object "bob". Each individual element of the Envelope is tagged `201` to mark it as an Envelope leaf, all in accordance with the [IETF spec](https://datatracker.ietf.org/doc/draft-mcnally-envelope/).
 
 ### Crypto Secrets in Envelopes
 
-These UR documents describe holding a variety of crypto-secrets in URs, including keys, SSKR shares, and PSBTs. Today we believe that most of these could be better stored as Envelopes, with the Envelope then encoded as a UR.
+Our original UR documents describe holding a variety of crypto-secrets in bare URs, including keys, SSKR shares, and PSBTs. Today we believe that most of these could be better stored as Envelopes, with the Envelope then encoded as a UR.
 
-Our [URs for Keys page](https://developer.blockchaincommons.com/ur/keys/) therefore offers an exampl of a Seed Envelope:
+Our [URs for Keys page](https://developer.blockchaincommons.com/ur/keys/) therefore offers an example of a Seed Envelope:
 ```
 $ envelope format ur:envelope/lntpsogdhkwzdtfthptokigtvwnnjsqzcxknsktdoyadcsspoybdtpsokseceheyetdpidinjycxguihihiecxgdkpidjziniacxghihjkjycxhfihiajyjljpcxdehkinjtjnjtcxfwjzkpihdtcxendyeeideseoiyeyoyaatpsokkadwdghisinjkcxinjkcxjyisihcxeheyetdpidinjycxdeeyeecxktjljpiedtcxjkihihiecxkpjkihiecxhsjkcxhscxjokpidjziniacxjpihiojpihjkjkinjljtcxjyihjkjycxkoihiajyjljpcxiyjljpcxgogmjkdwcxfljljpieinhsjtcxguihihiecxghjljljzdwcxhsjtiecxjkihihiejyjljljzdpiajzindmbkbkghisinjkcxjkihihiecxhsjtiecxhsjzjzcxjeihkkjkcxioihjtihjphsjyihiecxiyjpjljncxinjycxjkisjlkpjziecxidihcxiajljtjkinieihjpihiecxkpjtjkihiakpjpihcxhsjkcxjyisinjkcxjeihkkcxjnhsjyihjpinhsjzcxinjkcxidihinjtiocxjkishsjpihiecxjokpidjziniajzkkcxhsjkcxhscxjyihjkjycxkoihiajyjljpdmbkbkfpjzjkjlcxjejtjlktjtcxhsjkcxfygdfpgscxdpcxvolansfyhsjpjecxgdkpjpjojzihcxfpjskphscxgsjlkoihvolantcxhsjkcxhsjtcxjljziecxkoihjpjkinjljtcxjliycxgsiniyihfdhsjkiscxishsiecxjyishsjycxiajljzjljpdmbkbkfwinjyiajlinjtcxgthsjkjyihjpcxgrihkkcxfginjtioihjpjojpinjtjyftcxendyeeideseoiyeybkfejyisihjpihkpjncxfpiaiajlkpjtjycxcndycxfpieiejpihjkjkcxhpjndleeeedidlendyvolanldldyvolanldldydldyhlftcxdyksececemeceyeciedyeeeoeneceniheseoetecfyetfefgfpfpesfxieeehseohsihfpiefedyehehenetbkoycfadzttpsotantjyoeadjsktjkisdeiajljkiniojtihjpdefzdydtdtaolytantjlonaxhdclaohldlmdrtlacxhnfpptplfyltwelafsnezslyndhllnvdimmwlpylkbwzjltbdmenaahdcxlejtimcnrlbtdemdoereyaqzprkpndbdgwfzflqdbzkohgzobycxcnvabaosbglfamtantjooeadlocsdyykaeykaeykaoykaocyhngrmuwzattantjooyadlslraewkadwklawkaycynewncnlboybetpsosezofptpbtlnlyjzkefmjejldeny
 Bytes(16) [
@@ -123,8 +126,7 @@ Bytes(16) [
 ```
 SSKRs offer a slightly more complex situation, as Gordian Envelopes offer a whole new paradigm, where an SSKR share becomes [a lock for an entire Envelope](https://developer.blockchaincommons.com/sskr/#what-are-sskr-envelopes).
 
-We suspect PSBTs are the most likely to stick around as bare URs, but there are considerable advantages to instead storing them in Envelopes, especially the ability to use [GSTP](/envelope/gstp/) to improve the security of communications.
-
+We suspect PSBTs are the most likely to stick around as bare URs, but there are considerable advantages to store them in Envelopes, especially the ability to use [GSTP](/envelope/gstp/) to improve the security of communications.
 
 ## Integrating Envelope URs Into Your Code
 
@@ -140,4 +142,6 @@ However UR libraries are also available if there's a use case where you need to 
 
 ## Conclusion
 
-UR is a great format for storing a variety of data types that have been encoded as CBOR. The ultimate question is: what data do you put in there? At this point, Blockchain Commons suggests using UR to transmit and save data stored as a [Gordian Envelope](/envelope/). This allows you to maintain all of the advantages of URs, such as QR integration, self-description, printed storage, and error checking, with the advantages of Envelopes, such as metadata inclusion, privacy-focused elision, and the use of extensions such as GSTP. They also fit together entirely naturally, as Envelope is a CBOR data format and UR is a way to encode that CBOR as ASCII.
+UR is a great format for storing a variety of data types that have been encoded as CBOR. The ultimate question is: what data do you put in there? At this point, Blockchain Commons suggests using UR to transmit and save data that has been stored as a [Gordian Envelope](/envelope/). This allows you to maintain all of the advantages of URs, such as QR integration, self-description, printed storage, and error checking, and also receive the advantages of Envelopes, such as metadata inclusion, privacy-focused elision, and the use of extensions such as GSTP. 
+
+They also fit together entirely naturally, as Envelope is a CBOR data format and UR is a way to encode that CBOR as ASCII.
