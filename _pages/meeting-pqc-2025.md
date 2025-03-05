@@ -59,97 +59,80 @@ This meeting also includes a short discussion of the [ZeWIF project](/chains/zca
   </tr>
 </table>
 
-For more, also see the [rough summary](/meeting/2025-pqc/summary/) or the [raw transcript](/meeting/2025-pqc/transcript/) of the event.
+For more, also see the [rough summary](/meeting/2025-pqc/summary/) and the [raw transcript](/meeting/2025-pqc/transcript/).
 
 ## Key Quotes
 
-Quotes are drawn from [raw transcripts](/frost/meeting2/transcript/) and may not be entirely precise as a result, but convey many of the major themes of the meeting. See the video for more.
+Quotes are drawn from the [raw transcript](/meeting/2025-pqc/transcript/) and may not be entirely precise as a result, but convey many of the major themes of the meeting. See the video for more.
 
-### Schnorr Signatures
+### Quantum Computing Overview
 
-_Overview:_ "I think the key thing to understand is that it really is all about Schnorr and it allows for quorums and for thresholds."
+_What is Quantum Computing?_ "Quantum computers take advantage of the superposition and entanglement of very small particles."
 {: .notice--info}
 
-_Aggregation:_ "One of the cool things about Schnorr is its ability to aggregate and split keys."
+_Are Quantum Computers Real?_ "Quantum computers do really exist. This isn't science fiction, but there are some limitations."
 {: .notice--info}
 
-_Legacy:_ "Schnorr is not applicable to the older legacy signature formats."
+_When Will Quantum Computers Break Crypto?_ "Practical crypto-attacks by major funded, say, sovereign governments are still probably five to ten years off, but we really don’t know. Thus, in order to be proactive, we need post-quantum cryptography."
 {: .notice--info}
 
-### Challenges
-
-_Bad Participants:_ "A misbehaving participant can denial of service a signature. ... Because of those privacy things we were just talking about, it makes it harder to identify the misbehaving or non-participating member."
+_Is all Cryptography Endangered?_ "Even with quantum attacks, ChaCha20Poly1305 remains secure for the foreseeable future. ... But public-key cryptography, RSA, ECC, Diffie-Hellman, is completely broken by Shor’s algorithm."
 {: .notice--info}
 
-_Communication:_ "We needed some way for all parties to know that none of the parties is equivocating as in telling a bunch of parties X and telling the other parties Y."
+### QuantumLink
+
+_What's the basis of QuantumLink?_ "I wanted to talk today about a protocol that we’ve been implementing called QuantumLink, and it’s based on a lot of underlying Blockchain Commons protocols and specifications."
 {: .notice--info}
 
-_Complexity:_ "We’ve made it as simple as we possibly can. It’s still really difficult."
+_Why was QuantumLink needed as a new communication method?_ "We started to work on the design of [Passport Prime], and we realized this QR code scanning is not really going to scale to the next billion people that are going to onboard to Bitcoi ... we wanted a protocol that would provide sort of all the benefits of air gap security, but with a lot of improvements to the user experience."
 {: .notice--info}
 
-_Mistakes:_ "If a user messes this up, you can’t really go back a step. ... The non-robustness means you have to start from the beginning, which is very, very frustrating."
+_How does QuantumLink work?_ "QuantumLeak works by using out of band key exchange to establish initial trust. ... Then we create an encrypted tunnel between two devices [over Bluetooth], and when a message is sent, every message is signed with a cryptographic signature. So every message is both encrypted and digitally signed."
 {: .notice--info}
 
-_UX:_ "The user experience is bad. The user experience of crypto as a whole is bad. ... The features can be as good as they can possibly be. They can be the best in the business. But if it’s so difficult to use, nobody’s going to use it."
+_How are devices identified?_ "In addition to some of the metadata, it includes something called a XID document, which is another Blockchain Commons standard, where there’s an extensible identifier, which is a unique ID for each of the parties."
 {: .notice--info}
 
-_Challenges:_ "There’s a lot of vocabulary here that the general public ... don’t have. ... Again, a lot of this is shared with multi-sig in general and with cryptocurrency in general."
+_Why use Bluetooth?_ "The bandwidth on Bluetooth is high enough that we can do firmware updates or downloads of new apps over the air. The other thing is now Passport could be kept up to date, so it can have the current Bitcoin price, it can have blockchain status info, it can have UTXO data, it can know which addresses have been used."
 {: .notice--info}
 
-## Decentralization
-
-_Maximal Privacy:_ "First of all, I try to make available the most decentralized private version of something to exist. I think that is important to have out there in some capacity. Because then the users can decide how they want to exchange information out of band or whatever."
+_Is the Bluetooth chip secure?_ "The main MCU and the Bluetooth MCU are separate chips. So it’s not possible to compromise the Bluetooth chip and have that affect the main MCU."
 {: .notice--info}
 
-_Trust:_ "We don’t want to centralize the trust."
+_How is Quantum Link quantum resistant?_ "For QuantumLink, we chose ML-KEM for encryption. This is the module lattice-based key encapsulation mechanism. ... It’s not actually used for asymmetric encryption of the payload, but instead it’s used to encrypt a symmetric encryption key like ChaCha20POLY1305 or AES256. And for the digital signatures, we chose ML-DSA, which is Module Lattice-Based Digital Signature Algorithm."
 {: .notice--info}
 
-_UX:_ "Every decision to make UX easier that exists right now often has decentralization or trust trade-offs."
+_How hard is quantum resistance to implement?_ "We were able to essentially drop in the post-quantum encryption over top of the GSTP version we were already running."
 {: .notice--info}
 
-### Distributed Key Generation
-
-_Key Creation:_ "With distributed key generation, DKG, it’s a multi-party protocol to create the key."
+_What Blockchain Commons protocols were used?_ "All the protocols we mentioned, all the standards are open source. So GSTP, UR, Envelope, XID. These are all provided by Blockchain Commons, I think almost all under the BSD2 clause plus patent license."
 {: .notice--info}
 
-_Standardization:_ "There are a variety of ways to implement the distributed key generation."
+## Post-Quantum Cryptography at Blockchain Commons
+
+_What Cryptographic Algorithms Are Available in Blockchain Commons' Reference Libraries?_ "You can basically choose between classical algorithms and quantum algorithms just by changing essentially one line of code. ... we don’t consider this to be crypto agility as is used by some standards organizations, but we are crypto agnostic."
 {: .notice--info}
 
-### Privacy
-
-_FROST Advantages:_ "You cannot distinguish a quorum signature from an individual signature."
+_How Hard Is It To Use?_ "Part of one of our guiding principles is that average engineers, like myself in many ways, should not have to be cryptographers. So we choose best of breed kind of algorithms and try to make it very hard to do the wrong thing with our APIs."
 {: .notice--info}
 
-_FROST Secrecy:_ "You can’t even tell which members of a group signed a threshold unless they reveal a lot of secret info."
+_What Are the Disadvantages of Quantum-Resistant Algorithms?_ "quantum signatures and encapsulated keys are significantly slower and larger."
 {: .notice--info}
 
-_Internet:_ "Anything that inherently touches the internet is less private."
+_Quantum Keys and Signatures Are Bigger?_ "Schnorr, ECDSA, and ED25519 have 32-byte keys and 64-byte signatures ... but that’s dwarfed by the size of the ML-DSA keys and signatures."
 {: .notice--info}
 
+## The ZeWIF Project
 
-### Reshares
+_See [the ZeWIF pages](/chain/zcash/zewif/) for more on the ZeWIF project._
 
-_Changing Participants:_ "Yes, you can reshare, meaning you can kick some people off, bring some people on, etc. Just completely do the entire scheme. But that doesn’t invalidate old share schemes."
+_What is Blockchain Commons Working with Zcash?_ "Our goal is to protect everybody. So if you’re doing self-sovereign digital wallets, we want you to use our kind of layer zero standards to make sure that your customers do not have losses or are vulnerable to various kinds of attacks."
 {: .notice--info}
 
-### Rounds
-
-_One Round:_ "I am absolutely interested in any sort of thing that can bring this down to a one round handshake, which is still not great, but it’s better than two."
+_Why Is an Interchange Format Important?_ "Interchange allows people to freely move their funds. We don’t want people to be locked into a single wallet. We want to encourage cooperation between wallets so that they can do things, but we also want to make sure that users don’t get locked in."
 {: .notice--info}
 
-### Scalability
-
-_Size:_ "Even simple multisigs will be smaller."
-{: .notice--info}
-
-### Security
-
-_SPOFs:_ "The key is split. That means the risks of one single point of failure can be radically reduced."
-{: .notice--info}
-
-### Trusted Dealers
-
-_Transitional:_ "In many ways, it’s a great transitional technology as we move toward the distributed key generation, which is the next approach."
+_How Does This Relate to Blockchain Commons' Vision?_ "These are fundamental [Gordian principles](https://developer.blockchaincommons.com/principles/) of openness, independence and resilience. These are fundamental to self-sovereign management of digital assets."
 {: .notice--info}
 
 ## Key URLs
