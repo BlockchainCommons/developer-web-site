@@ -5,7 +5,7 @@ header:
   overlay_filter: "0.25"
   overlay_image: /assets/images/dev-arch-background.jpg
   og_image: /assets/images/bc-card.jpg
-title: "Most: Post Quantum Cryptography (2025)"
+title: "Meeting: Post Quantum Cryptography (2025)"
 hide_description: true
 classes:
   - wide
