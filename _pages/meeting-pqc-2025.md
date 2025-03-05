@@ -39,30 +39,21 @@ This meeting also includes a short discussion of the [ZeWIF project](/chains/zca
 
      <b>Meeting Overview:</b><br>
 
-<a href="/assets/pdfs/202503-pqc-overview.pdf"><img src="/assets/pdfs/2025-03-pqc-overview.jpg" style="border:2px solid white"></a>
+<a href="/assets/pdfs/202503-pqc-overview.pdf"><img src="/assets/pdfs/202503-pqc-overview.jpg" style="border:2px solid white"></a>
 
     </td>
     <td width="640px">
 
      <b>QuantumLink:</b><br>
 
-<a href="/assets/pdfs/202503-quantumlink.pdf"><img src="/assets/pdfs/2025-03-quantumlink.jpg" style="border:2px solid white"></a>
+<a href="/assets/pdfs/202503-quantumlink.pdf"><img src="/assets/pdfs/202503-quantumlink.jpg" style="border:2px solid white"></a>
 
     </td>
-  </tr>
-  <tr>
     <td width="640px">
 
      <b>PQC @ Blockchain Commons:</b><br>
 
-<a href="/assets/pdfs/202503-pqc-bc.pdf"><img src="/assets/pdfs/2025-03-pqc-bc.jpg" style="border:2px solid white"></a>
-
-    </td>
-    <td width="640px">
-
-     <b>FROST Federations:</b><br>
-
-<a href="/assets/pdfs/frost-dev2-federation.pdf"><img src="/assets/pdfs/frost-dev2-federation.jpg" style="border:2px solid white"></a>
+<a href="/assets/pdfs/202503-pqc-bc.pdf"><img src="/assets/pdfs/202503-pqc-bc.jpg" style="border:2px solid white"></a>
 
     </td>
   </tr>
