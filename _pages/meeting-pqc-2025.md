@@ -84,7 +84,7 @@ Quotes are drawn from the [raw transcript](/meeting/2025-pqc/transcript/) and ma
 ***What's the basis of QuantumLink?*** "I wanted to talk today about a protocol that we’ve been implementing called QuantumLink, and it’s based on a lot of underlying Blockchain Commons protocols and specifications."
 {: .notice--info}
 
-***Why was QuantumLink needed as a new communication method?*** "We started to work on the design of [Passport Prime], and we realized this QR code scanning is not really going to scale to the next billion people that are going to onboard to Bitcoi ... we wanted a protocol that would provide sort of all the benefits of air gap security, but with a lot of improvements to the user experience."
+***Why was QuantumLink needed as a new communication method?*** "We started to work on the design of [Passport Prime], and we realized this QR code scanning is not really going to scale to the next billion people that are going to onboard to Bitcoin ... we wanted a protocol that would provide sort of all the benefits of air gap security, but with a lot of improvements to the user experience."
 {: .notice--info}
 
 ***How does QuantumLink work?*** "QuantumLeak works by using out of band key exchange to establish initial trust. ... Then we create an encrypted tunnel between two devices [over Bluetooth], and when a message is sent, every message is signed with a cryptographic signature. So every message is both encrypted and digitally signed."
