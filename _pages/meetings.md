@@ -64,5 +64,69 @@ If you're a developer, or just an interesting party, you're welcome to join us! 
        
     </td>
   </tr>
-
 </table>
+
+## 2024 Meetings
+
+<table>
+  <tr>
+    <td>
+
+      <a href="/frost/developers2/"><img src="https://img.youtube.com/vi/FbrB1SCXCNc/0.jpg" style="border: 1px solid blue"></a>
+
+    </td>
+    <td>
+       <h2><a href="/frost/developers2/">FROST: Developers Meeting II (December 2024)</a></h2>
+       
+       <p>The second FROST Developers Meeting featured an Intro to FROST as well as presentations on "FROST for the Masses", the "FROST Uniffi SDK", and "FROST Federation Progress".</p>
+       
+    </td>
+  </tr>
+  <tr>
+    <td>
+
+      <a href="/frost/meeting2/"><img src="https://img.youtube.com/vi/VxLTJ_OxGT4/0.jpg" style="border: 1px solid blue"></a>
+
+    </td>
+    <td>
+       <h2><a href="/frost/meeting/">FROST: Implementers Meeting II (September 2024)</a></h2>
+       
+       <p>The second FROST Implementers Meeting allowed six different teams to share their progress: ChillDKG, Frost Federations, secp256k1-zkp, Serai DEX, FROST Uniffi SDK, and ZF FROST.</p>
+       
+    </td>
+  </tr>
+  <tr>
+    <td>
+
+      <a href="/frost/developers1/"><img src="https://img.youtube.com/vi/uCM8dDql6oo/0.jpg" style="border: 1px solid blue"></a>
+
+    </td>
+    <td>
+       <h2><a href="/frost/developers1/">FROST: Developers Meeting I (April 2024)</a></h2>
+       
+       <p>The initial FROST meeting for wallet developers was combined with the April 2024 Gordian Meeting. It featured an intro to FROST from Jesse Posner as well as discussions of Gordian Advancements and Wyoming legislation.</p>
+       
+    </td>
+  </tr>
+</table>
+
+## Late 2023 Meetings
+
+<table>
+  <tr>
+    <td>
+
+      <a href="/frost/meeting2/"><img src="https://img.youtube.com/vi/U9MvNuyCpE4/0.jpg" style="border: 1px solid blue"></a>
+
+    </td>
+    <td>
+       <h2><a href="/frost/meeting/">FROST: Implementers Meeting I (November 2023)</a></h2>
+       
+       <p>The initial FROST Implementers meeting was the first opportunity for FROST implementers to discuss their work. The major focus was on the ZF FROST and secp256k1-zkp projects.
+       
+    </td>
+  </tr>
+</table>
+
+## Previous Meetings
+
