@@ -26,11 +26,12 @@ If you're a developer, or just an interesting party, you're welcome to join us! 
   <tr>
     <td>
 
-      <a href="/meetings/2025-03-pqc/"><img src="https://img.youtube.com/vi/ZfsH2fIHCIA/0.jpg"></a>
+      <a href="/meetings/2025-03-pqc/"><img src="https://img.youtube.com/vi/ZfsH2fIHCIA/0.jpg" style="border: 1px solid blue"></a>
 
     </td>
     <td>
-       <p><a href="/meetings/2025-03-pqc/"><b>Post-Quantum Cryptography (March 2025).</b></a> Presentation from <a href="https://foundation.xyz/">Foundation</a> on QuantumLink for Passport Prime and from Blockchain Commons on PQC in the BC Rust stack.
+       <p><a href="/meetings/2025-03-pqc/"><b>Post-Quantum Cryptography (March 2025).</b></a><p>Presentation from <a href="https://foundation.xyz/">Foundation</a> on QuantumLink for Passport Prime and from Blockchain Commons on PQC in the BC Rust stack.
 
+    </td>
   </tr>
 </table>
