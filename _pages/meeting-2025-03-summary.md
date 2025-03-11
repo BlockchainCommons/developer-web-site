@@ -9,7 +9,8 @@ title: "Meeting: Post Quantum Cryptography (2025) Rough Summary"
 hide_description: true
 classes:
   - wide
-permalink: /meeting/2025-pqc/summary/
+permalink: /meetings/2025-03-pqc/summary/
+redirect_from: /meeting/2025-pqc/summary/
 sidebar:
   nav: architecture
 ---
