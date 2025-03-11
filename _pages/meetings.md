@@ -44,7 +44,7 @@ If you're a developer, or just an interesting party, you're welcome to join us! 
 
     </td>
     <td>
-       <h3><a href="/chains/zcash/zewif/meeting2/"><b>ZeWIF: Zmigrate Demo (February 2025)</a></h3>
+       <h2><a href="/chains/zcash/zewif/meeting2/">ZeWIF: Zmigrate Demo (February 2025)</a></h2>
        
        <p>Excerpt from the second meeting for the <a href="/chains/zcash/zewif/">ZeWIF</a> group, featuring a first demonstration of the Zmigrate utility for converting Zcash wallet data to the ZeWIF format.</P>
        
