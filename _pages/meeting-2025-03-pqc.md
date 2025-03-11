@@ -9,7 +9,9 @@ title: "Meeting: Post Quantum Cryptography (2025)"
 hide_description: true
 classes:
   - wide
-permalink: /meeting/2025-pqc/
+permalink: /meetings/2025-03-pqc/
+redirect_from:
+  - /meeting/2025-pqc/
 sidebar:
   nav: architecture
 ---
