@@ -10,7 +10,8 @@ hide_description: true
 classes:
   - wide
 permalink: /meetings/2025-03-pqc/summary/
-redirect_from: /meeting/2025-pqc/summary/
+redirect_from:
+  - /meeting/2025-pqc/summary/
 sidebar:
   nav: architecture
 ---
