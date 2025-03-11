@@ -89,7 +89,7 @@ If you're a developer, or just an interesting party, you're welcome to join us! 
 
     </td>
     <td>
-       <h2><a href="/frost/meeting/">FROST: Implementers Meeting II (September 2024)</a></h2>
+       <h2><a href="/frost/meeting2/">FROST: Implementers Meeting II (September 2024)</a></h2>
        
        <p>The second FROST Implementers Meeting allowed six different teams to share their progress: ChillDKG, Frost Federations, secp256k1-zkp, Serai DEX, FROST Uniffi SDK, and ZF FROST.</p>
        
@@ -116,11 +116,11 @@ If you're a developer, or just an interesting party, you're welcome to join us! 
   <tr>
     <td>
 
-      <a href="/frost/meeting2/"><img src="https://img.youtube.com/vi/U9MvNuyCpE4/0.jpg" style="border: 1px solid blue"></a>
+      <a href="/frost/meeting1/"><img src="https://img.youtube.com/vi/U9MvNuyCpE4/0.jpg" style="border: 1px solid blue"></a>
 
     </td>
     <td>
-       <h2><a href="/frost/meeting/">FROST: Implementers Meeting I (November 2023)</a></h2>
+       <h2><a href="/frost/meeting1/">FROST: Implementers Meeting I (November 2023)</a></h2>
        
        <p>The initial FROST Implementers meeting was the first opportunity for FROST implementers to discuss their work. The major focus was on the ZF FROST and secp256k1-zkp projects.
        
