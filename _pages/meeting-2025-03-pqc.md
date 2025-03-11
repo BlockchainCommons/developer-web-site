@@ -14,7 +14,7 @@ permalink: /meetings/2025-03-pqc/
 redirect_from:
   - /meeting/2025-pqc/
 sidebar:
-  nav: architecture
+  nav: meetings
 ---
 
 The [Gordian Developer Meeting](https://www.blockchaincommons.com/subscribe/#gordian-developers) on **March 5, 2025** focused on Post-Quantum Cryptography, including a presentation from [Foundation](https://foundation.xyz/) on their QuantumLink communications protocol, built into [Passport Prime](https://foundation.xyz/buy-passport-prime/) and a presentation from Blockchain Commons Lead Researcher [Wolf McNally](https://wolfmcnally.com/) on the Post-Quantum Cryptography incorporated into the Blockchain Commons stack to support Foundation's work.
