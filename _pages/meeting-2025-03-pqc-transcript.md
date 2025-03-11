@@ -13,7 +13,7 @@ permalink: /meetings/2025-03-pqc/transcript/
 redirect_from:
   - /meeting/2025-pqc/transcript/
 sidebar:
-  nav: architecture
+  nav: meetings
 ---
 
 _The following raw transcript was automatically generated._
