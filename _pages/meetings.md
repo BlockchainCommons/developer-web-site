@@ -30,7 +30,7 @@ If you're a developer, or just an interesting party, you're welcome to join us! 
 
     </td>
     <td>
-       <h3><a href="/meetings/2025-03-pqc/">GDM: Post-Quantum Cryptography (March 2025)</a></h3>
+       <h2><a href="/meetings/2025-03-pqc/">GDM: Post-Quantum Cryptography (March 2025)</a></h2>
        
        <p>Gordian Developers Meeting with presentation from <a href="https://foundation.xyz/">Foundation</a> on QuantumLink for Passport Prime and from Blockchain Commons on PQC in the BC Rust stack.</p>
        
@@ -47,6 +47,20 @@ If you're a developer, or just an interesting party, you're welcome to join us! 
        <h2><a href="/chains/zcash/zewif/meeting2/">ZeWIF: Zmigrate Demo (February 2025)</a></h2>
        
        <p>Excerpt from the second meeting for the <a href="/chains/zcash/zewif/">ZeWIF</a> group, featuring a first demonstration of the Zmigrate utility for converting Zcash wallet data to the ZeWIF format.</P>
+       
+    </td>
+  </tr>
+
+  <tr>
+    <td>
+
+      <a href="/chains/zcash/zewif/meeting1/"><img src="https://img.youtube.com/vi/wy06xxpJy-M/0.jpg" style="border: 1px solid blue"></a>
+
+    </td>
+    <td>
+       <h2><a href="/chains/zcash/zewif/meeting1/">ZeWIF: Zcash Wallet Data Survey (January 2025)</a></h2>
+       
+       <p>The first <a href="/chains/zcash/zewif/">ZeWIF</a> meeting focused on the initial data collection phase of the project, with discussion of levels of content being collected and what was considered particularly critical.</p>
        
     </td>
   </tr>
