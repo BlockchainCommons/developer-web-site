@@ -10,7 +10,7 @@ title: "GDM: February 2024"
 hide_description: true
 classes:
   - wide
-permalink: /meetings/2024-03-foremembrance/
+permalink: /meetings/2024-02-gdm/
 sidebar:
   nav: meetings
 ---
