@@ -201,7 +201,7 @@ If you're a developer, or just an interesting party, you're welcome to join us! 
   </tr>
 </table>
 
-## Major Meetings Pre-2024
+## Major Meetings 2022-2023
 
 <table>
   <tr>
