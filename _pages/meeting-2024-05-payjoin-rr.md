@@ -50,14 +50,21 @@ The [Gordian Developer Meeting](https://www.blockchaincommons.com/subscribe/#gor
 
      <b>Overview:</b><br>
 
-<a href="/assets/pdfs/2024-07-gstp-overview.pdf"><img src="/assets/pdfs/2024-07-gstp-overview.jpg" style="border:2px solid white"></a>
+<a href="/assets/pdfs/2024-05-overview.pdf"><img src="/assets/pdfs/2024-05-overview.jpg" style="border:2px solid white"></a>
 
     </td>
     <td width="640px">
 
-     <b>GSTP:</b><br>
+     <b>Request/Response:</b><br>
 
-<a href="/assets/pdfs/2024-07-gstp.pdf"><img src="/assets/pdfs/2024-07-gstp.jpg" style="border:2px solid white"></a>
+<a href="/assets/pdfs/2024-05-request.pdf"><img src="/assets/pdfs/2024-05-request.jpg" style="border:2px solid white"></a>
+
+    </td>
+    <td width="640px">
+
+     <b>PayJoin:</b><br>
+
+<a href="/assets/pdfs/2024-05-payjoin.pdf"><img src="/assets/pdfs/2024-05-payjoin.jpg" style="border:2px solid white"></a>
 
     </td>
   </tr>
