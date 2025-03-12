@@ -20,6 +20,8 @@ If you're a developer, or just an interesting party, you're welcome to join us! 
 
 ## Major Topics
 
+### Other Topics of Interest
+
 ## 2025 Meetings
 
 <table>
