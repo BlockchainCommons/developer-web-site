@@ -120,7 +120,7 @@ If you're a developer, or just an interesting party, you're welcome to join us! 
     <td>
        <h2><a href="/meetings/2024-08-seeds/">GDM: Seeds (August 2024)</a></h2>
        
-       <p>Gordian Developers Meeting focusing on seeds, the crucial foundation of crypto-security, including a look at the work on BIP-85 and at the Ledger Seed Tool app, using [SSKR](/sskr/).</p>
+       <p>Gordian Developers Meeting focusing on seeds, the crucial foundation of crypto-security, including a look at the work on BIP-85 and at the Ledger Seed Tool app, using <a href="/sskr/">SSKR</a>.</p>
        
     </td>
   </tr>
@@ -133,7 +133,7 @@ If you're a developer, or just an interesting party, you're welcome to join us! 
     <td>
        <h2><a href="/meetings/2024-07-gstp/">GDM: GSTP (July 2024)</a></h2>
        
-       <p>Gordian Developers Meeting focusing on the [Gordian Sealed Transaction Protocol](/envelope/gstp/), a way to use [Gordian Envelope](/envelope/) to securely transmit sensitive data using insecure & unreliable transport mechanisms.</P> 
+       <p>Gordian Developers Meeting focusing on the <a href="/envelope/gstp">Gordian Sealed Transaction Protocol</a>, a way to use <a href="/envelope/">Gordian Envelope</a> to securely transmit sensitive data using insecure & unreliable transport mechanisms.</P> 
     </td>
   </tr>
   <tr>
@@ -145,7 +145,7 @@ If you're a developer, or just an interesting party, you're welcome to join us! 
     <td>
        <h2><a href="/meetings/2024-05-payjoin-rr/">GDM: PayJoin & Request/Response (May 2024)</a></h2>
        
-       <p>Gordian Developers Meeting with special presentations on [PayJoin](https://payjoin.org/) and the [Request/Response system](/envelope/request/) for [Gordian Envelope](/envelope/).</p>
+       <p>Gordian Developers Meeting with special presentations on <a href="https://payjoin.org/">PayJoin</a> and the <a href="/envelope/request/">Request/Response system</a> for <a href="/envelope/">Gordian Envelope</a>.</p>
     </td>
   </tr>
   <tr>
