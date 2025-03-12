@@ -161,6 +161,19 @@ If you're a developer, or just an interesting party, you're welcome to join us! 
        
     </td>
   </tr>
+  <tr>
+    <td>
+
+      <a href="/meetings/2024-03-foremembrance/"><img src="https://img.youtube.com/vi/R9KuIlAg4wg/0.jpg" style="border: 1px solid blue"></a>
+
+    </td>
+    <td>
+       <h2><a href="/meetings/2024-03-foremembrance/">Foremembrance: 2024 Memorial (March 2024)</a></h2>
+       
+       <p>A special presentation by Christopher Allen remembering the burning of the Amsterdam Identity Archives on March 27, 1943 as part of the World War II identity tragedy.</p>
+       
+    </td>
+  </tr>
 </table>
 
 ## Late 2023 Meetings
