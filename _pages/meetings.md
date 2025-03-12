@@ -24,7 +24,7 @@ If you're a developer, or just an interesting party, you're welcome to join us! 
 
 <table>
   <tr>
-    <td width=300>
+    <td width=250>
 
       <a href="/meetings/2025-03-pqc/"><img src="https://img.youtube.com/vi/ZfsH2fIHCIA/0.jpg" style="border: 1px solid blue"></a>
 
@@ -70,7 +70,7 @@ If you're a developer, or just an interesting party, you're welcome to join us! 
 
 <table>
   <tr>
-    <td width=300>
+    <td width=250>
 
       <a href="/frost/developers2/"><img src="https://img.youtube.com/vi/FbrB1SCXCNc/0.jpg" style="border: 1px solid blue"></a>
 
@@ -128,7 +128,7 @@ If you're a developer, or just an interesting party, you're welcome to join us! 
 
 <table>
   <tr>
-    <td width=300>
+    <td width=250>
 
       <a href="/frost/meeting1/"><img src="https://img.youtube.com/vi/U9MvNuyCpE4/0.jpg" style="border: 1px solid blue"></a>
 
