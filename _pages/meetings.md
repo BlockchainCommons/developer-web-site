@@ -213,7 +213,7 @@ If you're a developer, or just an interesting party, you're welcome to join us! 
   </tr>
 </table>
 
-## Major Meetings 2022-2023
+## 2022-2023 Major Meetings
 
 <table>
   <tr>
@@ -226,6 +226,19 @@ If you're a developer, or just an interesting party, you're welcome to join us! 
        <h2><a href="/frost/meeting1/">FROST: Implementers Meeting I (November 2023)</a></h2>
        
        <p>The initial FROST Implementers meeting was the first opportunity for FROST implementers to discuss their work. The major focus was on the ZF FROST and secp256k1-zkp projects.</p>
+       
+    </td>
+  </tr>
+  <tr>
+    <td width=250>
+
+      <a href="https://www.siliconsalon.info/salon4/"><img src="https://img.youtube.com/vi/1lmkdCCQPZc/0.jpg" style="border: 1px solid blue"></a>
+
+    </td>
+    <td>
+       <h2><a href="https://www.siliconsalon.info/salon4/">Silicon Salon IV: Filling in the Gaps (May 2023)</a></h2>
+       
+       <p>The fourth Silicon Salon offered a potpurri of topics, filling in some of the gaps from previous Salons, including presentations on how to ensure a hardware wallet is avoiding key leakage and how to better enable biginteger operations in silicon.</o> 
        
     </td>
   </tr>
