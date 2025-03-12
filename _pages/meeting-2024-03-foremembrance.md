@@ -22,7 +22,6 @@ Christopher Allen may a special presentation on **March 27, 2024** in memory of 
 <table width="100%">
   <tr>
     <td width="640px">
-      <b>Video:</b>
 
 {% include video id="R9KuIlAg4wg" provider="youtube" %}
 
@@ -35,8 +34,6 @@ Christopher Allen may a special presentation on **March 27, 2024** in memory of 
 <table width="100%">
   <tr>
     <td width="640px">
-
-     <b>Presentation:</b><br>
 
 <a href="/assets/pdfs/2024-03-foremembrance.pdf"><img src="/assets/pdfs/2024-03-foremembrance.jpg" style="border:2px solid white"></a>
 
