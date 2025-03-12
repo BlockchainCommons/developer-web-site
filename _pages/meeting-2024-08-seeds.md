@@ -48,19 +48,26 @@ The [Gordian Developer Meeting](https://www.blockchaincommons.com/subscribe/#gor
   <tr>
     <td width="640px">
 
-     <b>XIDs:</b><br>
+     <b>Overview:</b><br>
 
-<a href="/assets/pdfs/xids.pdf"><img src="/assets/pdfs/xids.jpg" style="border:2px solid white"></a>
+<a href="/assets/pdfs/2024-08-seeds.pdf"><img src="/assets/pdfs/2024-08-seeds.jpg" style="border:2px solid white"></a>
 
     </td>
     <td width="640px">
 
-     <b>Cliques:</b><br>
+     <b>BIP-85:</b><br>
 
-<a href="/assets/pdfs/cliques.pdf"><img src="/assets/pdfs/cliques.jpg" style="border:2px solid white"></a>
+<a href="/assets/pdfs/2024-08-bip85.pdf"><img src="/assets/pdfs/2024-08-bip85.jpg" style="border:2px solid white"></a>
+
+    </td>
+    <td width="640px">
+
+     <b>Ledger Seed Tool:</b><br>
+
+<a href="/assets/pdfs/2024-08-lst.pdf"><img src="/assets/pdfs/2024-08-lst.jpg" style="border:2px solid white"></a>
 
     </td>
   </tr>
 </table>
 
-_Also see the [rough summary](https://github.com/BlockchainCommons/Gordian-Developer-Community/discussions/137) on GitHub._
+_Also see the [rough summary](https://github.com/BlockchainCommons/Gordian-Developer-Community/discussions/132) and [raw transcript](https://github.com/BlockchainCommons/Gordian-Developer-Community/blob/master/meetings/2024/08-07/transcript.md) on GitHub._
