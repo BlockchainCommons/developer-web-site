@@ -230,7 +230,7 @@ If you're a developer, or just an interesting party, you're welcome to join us! 
     </td>
   </tr>
   <tr>
-    <td width=250>
+    <td>
 
       <a href="https://www.siliconsalon.info/salon4/"><img src="https://img.youtube.com/vi/1lmkdCCQPZc/0.jpg" style="border: 1px solid blue"></a>
 
@@ -239,6 +239,21 @@ If you're a developer, or just an interesting party, you're welcome to join us! 
        <h2><a href="https://www.siliconsalon.info/salon4/">Silicon Salon IV: Filling in the Gaps (May 2023)</a></h2>
        
        <p>The fourth Silicon Salon offered a potpurri of topics, filling in some of the gaps from previous Salons, including presentations on how to ensure a hardware wallet is avoiding key leakage and how to better enable biginteger operations in silicon.</p> 
+       
+    </td>
+  </tr>
+  <tr>
+    <td>
+
+      <a href="https://www.siliconsalon.info/salon3/"><img src="https://img.youtube.com/vi/_0pSb2Wq75Y/0.jpg" style="border: 1px solid blue"></a>
+
+    </td>
+    <td>
+       <h2><a href="https://www.siliconsalon.info/salon3/">Silicon Salon III: Multi-Party Computation & More (January 2023)</a></h2>
+       
+       <p>The third Silicon Salon expanded the community of crypto-wallet developers and semiconductor manufacturers to also include the halls of academia.</p>
+
+
        
     </td>
   </tr>
