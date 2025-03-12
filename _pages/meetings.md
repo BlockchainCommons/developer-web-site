@@ -122,7 +122,7 @@ If you're a developer, or just an interesting party, you're welcome to join us! 
     <td>
        <h2><a href="/frost/meeting1/">FROST: Implementers Meeting I (November 2023)</a></h2>
        
-       <p>The initial FROST Implementers meeting was the first opportunity for FROST implementers to discuss their work. The major focus was on the ZF FROST and secp256k1-zkp projects.
+       <p>The initial FROST Implementers meeting was the first opportunity for FROST implementers to discuss their work. The major focus was on the ZF FROST and secp256k1-zkp projects.</p>
        
     </td>
   </tr>
