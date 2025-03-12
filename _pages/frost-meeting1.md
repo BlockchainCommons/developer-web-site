@@ -5,7 +5,8 @@ header:
   overlay_filter: "0.25"
   overlay_image: /assets/images/dev-frost-background.jpg
   og_image: /assets/images/bc-card.jpg
-title: "FROST Round Table I (2023): Overview"
+title: "FROST Round Table I: November 2023"
+tagline: "Introducing the FROST Implementers"
 hide_description: true
 classes:
   - wide
