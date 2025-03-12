@@ -16,5 +16,10 @@ sidebar:
 ---
 The first meeting for FROST Developers included a key note by FROST implementer Jesse Posner. Jesse's presentation begins at 17m13s.
 
+## Media
+
 {% include video id="uCM8dDql6oo" provider="youtube" %}
 
+## Presentation Slides
+
+<a href="/assets/pdfs/202404-frostdev1.pdf"><img src="/assets/pdfs/202404-frostdev1.jpg"></a>
