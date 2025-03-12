@@ -199,6 +199,18 @@ If you're a developer, or just an interesting party, you're welcome to join us! 
        <p>Gordian Developers Meeting with a demo of the Gordian Seed Tool 1.6 release and discussions of metadata in <a href="/envelope/">Gordian Envelopes</a> and NFC usage.</p>
     </td>
   </tr>
+  <tr>
+    <td>
+
+      <a href="/meetings/2024-02-mur/"><img src="https://img.youtube.com/vi/xRYgEczhekg/0.jpg" style="border: 1px solid blue"></a>
+
+    </td>
+    <td>
+       <h2><a href="/meetings/2024-02-mur/">GDM: Multi-Part UR Guide (January 2024)</a></h2>
+       
+       <p>Gordian Developers Meeting debuting the <a href="https://github.com/BlockchainCommons/Research/blob/master/papers/bcr-2024-001-multipart-ur.md">Multi-part UR Implementation Guide</a>.</p>
+    </td>
+  </tr>
 </table>
 
 ## Major Meetings 2022-2023
