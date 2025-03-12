@@ -50,7 +50,7 @@ The [Gordian Developer Meeting](https://www.blockchaincommons.com/subscribe/#gor
 
      <b>XIDs:</b><br>
 
-<a href="/assets/pdfs/xids.jpg"><img src="/assets/pdfs/xids.jpg" style="border:2px solid white"></a>
+<a href="/assets/pdfs/xids.pdf"><img src="/assets/pdfs/xids.jpg" style="border:2px solid white"></a>
 
     </td>
     <td width="640px">
