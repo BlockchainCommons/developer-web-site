@@ -257,6 +257,32 @@ If you're a developer, or just an interesting party, you're welcome to join us! 
        
     </td>
   </tr>
+  <tr>
+    <td>
+
+      <a href="https://www.siliconsalon.info/salon2/"><img src="https://img.youtube.com/vi/9j7e0XnTy9o/0.jpg" style="border: 1px solid blue"></a>
+
+    </td>
+    <td>
+       <h2><a href="https://www.siliconsalon.info/salon2/">Silicon Salon II (September 2022)</a></h2>
+       
+       <p>The second Silicon Salon focused on secure boot, supply-chain security, and firmware upgrades.</p>
+       
+    </td>
+  </tr>
+  <tr>
+    <td>
+
+      <a href="https://www.siliconsalon.info/salon1/"><img src="https://img.youtube.com/vi/YBQh_WHyPAs/0.jpg" style="border: 1px solid blue"></a>
+
+    </td>
+    <td>
+       <h2><a href="https://www.siliconsalon.info/salon1/">Silicon Salon I (June 2022)</a></h2>
+       
+       <p>The first Silicon Salon featured presentations by Christopher Allen, Bryan Bishop, CrossBar, Proxy, Tropic Square, and Libre-SOC to introduce the issues of cryptography and silicon chips.</p>
+       
+    </td>
+  </tr>
 </table>
 
 ## Previous Meetings
