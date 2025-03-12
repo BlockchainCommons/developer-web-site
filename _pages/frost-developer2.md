@@ -5,7 +5,8 @@ header:
   overlay_filter: "0.25"
   overlay_image: /assets/images/dev-frost-background.jpg
   og_image: /assets/images/bc-card.jpg
-title: "FROST Developer II (2024): Overview"
+title: "FROST Developer II: December 2024"
+tagline: "Intro to FROST for Developers & Current Projects"
 hide_description: true
 classes:
   - wide
