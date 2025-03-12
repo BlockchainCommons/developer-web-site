@@ -34,7 +34,7 @@ The [Gordian Developer Meeting](https://www.blockchaincommons.com/subscribe/#gor
 
     </td>
     <td width="640px">
-      <b>Cliques:</b>
+      <b>MuSig:</b>
 
 {% include video id="FaNypFsGczg" provider="youtube" %}
 
