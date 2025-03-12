@@ -10,7 +10,7 @@ title: "Gordian Developer Meeting: November 2024"
 hide_description: true
 classes:
   - wide
-permalink: /meetings/2025-11-identifiers/
+permalink: /meetings/2024-11-identifiers/
 sidebar:
   nav: meetings
 ---
