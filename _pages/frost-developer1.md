@@ -20,6 +20,8 @@ The first meeting for FROST Developers included a key note by FROST implementer 
 
 {% include video id="uCM8dDql6oo" provider="youtube" %}
 
+_Also see the [rough summary](https://github.com/BlockchainCommons/Gordian-Developer-Community/discussions/127) of the meeting on GitHub._
+
 ## Presentation Slides
 
-<a href="/assets/pdfs/202404-frostdev1.pdf"><img src="/assets/pdfs/202404-frostdev1.jpg"></a>
+<a href="/assets/pdfs/2024-04-frostdev1.pdf"><img src="/assets/pdfs/2024-04-frostdev1.jpg"></a>
