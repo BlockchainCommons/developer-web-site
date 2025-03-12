@@ -82,6 +82,21 @@ If you're a developer, or just an interesting party, you're welcome to join us! 
        
     </td>
   </tr>
+
+    <tr>
+    <td>
+
+      <a href="/frost/developers2/"><img src="https://img.youtube.com/vi/FbrB1SCXCNc/0.jpg" style="border: 1px solid blue"></a>
+
+    </td>
+    <td>
+       <h2><a href="/meetings/2024-11-identifiers/">GDM: Identifiers (November 2024)</a></h2>
+       
+       <p>Gordian Developers Meeting focused on decentralized identifiers, with presentations on "Cliques & Edge Identifiers" and on "XIDs".</p>
+       
+    </td>
+  </tr>
+
   <tr>
     <td>
 
