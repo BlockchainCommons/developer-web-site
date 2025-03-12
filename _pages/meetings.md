@@ -202,11 +202,11 @@ If you're a developer, or just an interesting party, you're welcome to join us! 
   <tr>
     <td>
 
-      <a href="/meetings/2024-02-mur/"><img src="https://img.youtube.com/vi/xRYgEczhekg/0.jpg" style="border: 1px solid blue"></a>
+      <a href="/meetings/2024-01-mur/"><img src="https://img.youtube.com/vi/xRYgEczhekg/0.jpg" style="border: 1px solid blue"></a>
 
     </td>
     <td>
-       <h2><a href="/meetings/2024-02-mur/">GDM: Multi-Part UR Guide (January 2024)</a></h2>
+       <h2><a href="/meetings/2024-01-mur/">GDM: Multi-Part UR Guide (January 2024)</a></h2>
        
        <p>Gordian Developers Meeting debuting the <a href="https://github.com/BlockchainCommons/Research/blob/master/papers/bcr-2024-001-multipart-ur.md">Multi-part UR Implementation Guide</a>.</p>
     </td>
