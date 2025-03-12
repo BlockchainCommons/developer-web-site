@@ -5,7 +5,7 @@ header:
   overlay_filter: "0.25"
   overlay_image: /assets/images/dev-arch-background.jpg
   og_image: /assets/images/bc-card.jpg
-tagline: Decentralized Identifiers
+tagline: Seeds
 title: "Gordian Developer Meeting: August 2024"
 hide_description: true
 classes:
@@ -22,21 +22,21 @@ The [Gordian Developer Meeting](https://www.blockchaincommons.com/subscribe/#gor
 <table width="100%">
   <tr>
     <td width="640px">
-      <b>XIDs:</b>
+      <b>Full Meeting:</b>
 
-{% include video id="lKVp5WzBZD4" provider="youtube" %}
-
-    </td>
-    <td width="640px">
-      <b>Cliques:</b>
-
-{% include video id="EFHvyrUj7Kk" provider="youtube" %}
+{% include video id="e6Ag1X2oC1Y" provider="youtube" %}
 
     </td>
     <td width="640px">
-      <b>MuSig:</b>
+      <b>BIP-85:</b>
 
-{% include video id="FaNypFsGczg" provider="youtube" %}
+{% include video id="4W4kmV-oHrA" provider="youtube" %}
+
+    </td>
+    <td width="640px">
+      <b>Ledger Seed Tool:</b>
+
+{% include video id="2GjnZjZloec" provider="youtube" %}
 
     </td>
   </tr>
