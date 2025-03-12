@@ -139,6 +139,18 @@ If you're a developer, or just an interesting party, you're welcome to join us! 
   <tr>
     <td>
 
+      <a href="/meetings/2024-05-payjoin-rr/"><img src="https://img.youtube.com/vi/w-w80NJiss8/0.jpg" style="border: 1px solid blue"></a>
+
+    </td>
+    <td>
+       <h2><a href="/meetings/2024-05-payjoin-rr/">GDM: PayJoin & Request/Response (May 2024)</a></h2>
+       
+       <p>Gordian Developers Meeting with special presentations on [PayJoin](https://payjoin.org/) and the [Request/Response system](/envelope/request/) for [Gordian Envelope](/envelope/).</p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+
       <a href="/frost/developers1/"><img src="https://img.youtube.com/vi/uCM8dDql6oo/0.jpg" style="border: 1px solid blue"></a>
 
     </td>
