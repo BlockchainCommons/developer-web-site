@@ -40,3 +40,5 @@ Christopher Allen may a special presentation on **March 27, 2024** in memory of 
     </td>
   </tr>
 </table>
+
+For more see ["Echoes from History"](https://www.blockchaincommons.com/articles/echoes-history/).
