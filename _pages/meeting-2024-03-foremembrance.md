@@ -15,7 +15,7 @@ sidebar:
   nav: meetings
 ---
 
-Christopher Allen may a special presentation on **March 27, 2024** in memory of World War II's identity tragedy.
+Christopher Allen makes a special presentation on **March 27, 2024** in memory of World War II's identity tragedy.
 
 ## Media
 
