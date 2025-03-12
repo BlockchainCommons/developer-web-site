@@ -190,7 +190,7 @@ If you're a developer, or just an interesting party, you're welcome to join us! 
   <tr>
     <td>
 
-      <a href="/meetings/2024-02-gdm/"><img src="https://img.youtube.com/vi/w-w80NJiss8/0.jpg" style="border: 1px solid blue"></a>
+      <a href="/meetings/2024-02-gdm/"><img src="https://img.youtube.com/vi/mkzCKpWvXXE/0.jpg" style="border: 1px solid blue"></a>
 
     </td>
     <td>
