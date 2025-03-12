@@ -174,6 +174,19 @@ If you're a developer, or just an interesting party, you're welcome to join us! 
        
     </td>
   </tr>
+  <tr>
+    <td>
+
+      <a href="/meetings/2024-03-elision/"><img src="https://img.youtube.com/vi/soI-j6LF4Xg/0.jpg" style="border: 1px solid blue"></a>
+
+    </td>
+    <td>
+       <h2><a href="/meetings/2024-03-elision/">IETF: Hashed Data Elision Presentation (March 2024)</a></h2>
+       
+       <p>A special presentation by Shannon Appelcline for IETF 119 about the importance of hashed data elision for privacy and data security.</p>
+       
+    </td>
+  </tr>
 </table>
 
 ## Late 2023 Meetings
