@@ -10,7 +10,7 @@ title: "Gordian Developer Meeting: May 2024"
 hide_description: true
 classes:
   - wide
-permalink: /meetings/2024-07-payjoin-rr/
+permalink: /meetings/2024-05-payjoin-rr/
 sidebar:
   nav: meetings
 ---
