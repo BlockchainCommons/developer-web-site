@@ -187,9 +187,21 @@ If you're a developer, or just an interesting party, you're welcome to join us! 
        
     </td>
   </tr>
+  <tr>
+    <td>
+
+      <a href="/meetings/2024-02-gdm/"><img src="https://img.youtube.com/vi/w-w80NJiss8/0.jpg" style="border: 1px solid blue"></a>
+
+    </td>
+    <td>
+       <h2><a href="/meetings/2024-02-gdm/">GDM: GST, Metadata, NFCs (February 2024)</a></h2>
+       
+       <p>Gordian Developers Meeting with a demo of the Gordian Seed Tool 1.6 release and discussions of metadata in <a href="/envelope/">Gordian Envelopes</a> and NFC usage.</p>
+    </td>
+  </tr>
 </table>
 
-## Late 2023 Meetings
+## Major Meetings Pre-2024
 
 <table>
   <tr>
