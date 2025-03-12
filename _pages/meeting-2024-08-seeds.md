@@ -10,12 +10,12 @@ title: "Gordian Developer Meeting: August 2024"
 hide_description: true
 classes:
   - wide
-permalink: /meetings/2024-08-bip85/
+permalink: /meetings/2024-08-seeds/
 sidebar:
   nav: meetings
 ---
 
-The [Gordian Developer Meeting](https://www.blockchaincommons.com/subscribe/#gordian-developers) on **August 7, 2024** had two major presentations, one on [BIP-85](https://bip85.com/) and one on the [Ledger Seed Tool app](https://support.ledger.com/article/Seed-tool), as well as Blockchain Commons' normal presentations.
+The [Gordian Developer Meeting](https://www.blockchaincommons.com/subscribe/#gordian-developers) on **August 7, 2024** focused on seeds. After a Blockchain Commons overview, it included two major presentations, one on [BIP-85](https://bip85.com/) and one on the [Ledger Seed Tool app](https://support.ledger.com/article/Seed-tool), as well as Blockchain Commons' normal presentations.
 
 ## Media
 
