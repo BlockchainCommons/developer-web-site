@@ -5,7 +5,8 @@ header:
   overlay_filter: "0.25"
   overlay_image: /assets/images/dev-frost-background.jpg
   og_image: /assets/images/bc-card.jpg
-title: "FROST Developers Meeting I"
+title: "FROST Developers Meeting I: April 2024"
+tagline: "Gordian Developers Meeting with Jesse Posner on FROST"
 hide_description: true
 classes:
   - wide
