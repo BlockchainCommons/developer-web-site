@@ -109,8 +109,8 @@ If you're a developer, or just an interesting party, you're welcome to join us! 
        
     </td>
   </tr>
-    <tr>
-    <td width=250>
+  <tr>
+    <td>
 
       <a href="/meetings/2024-08-seeds/"><img src="https://img.youtube.com/vi/e6Ag1X2oC1Y/0.jpg" style="border: 1px solid blue"></a>
 
@@ -120,6 +120,18 @@ If you're a developer, or just an interesting party, you're welcome to join us! 
        
        <p>Gordian Developers Meeting focusing on seeds, the crucial foundation of crypto-security, including a look at the work on BIP-85 and at the Ledger Seed Tool app, using [SSKR](/sskr/).</p>
        
+    </td>
+  </tr>
+  <tr>
+    <td>
+
+      <a href="/meetings/2024-07-gstp/"><img src="https://img.youtube.com/vi/xLCuvJYnTFs/0.jpg" style="border: 1px solid blue"></a>
+
+    </td>
+    <td>
+       <h2><a href="/meetings/2024-07-gstp/">GDM: GSTP (July 2024)</a></h2>
+       
+       <p>Gordian Developers Meeting focusing on the [Gordian Sealed Transaction Protocol](/envelope/gstp/), a way to use [Gordian Envelope](/envelope/) to securely transmit sensitive data using insecure & unreliable transport mechanisms.</P> 
     </td>
   </tr>
   <tr>
