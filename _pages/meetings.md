@@ -312,5 +312,12 @@ If you're a developer, or just an interesting party, you're welcome to join us! 
 
 ## Previous Meetings
 
+<center>
+  
 GDM: December 2023 | [ [Video](https://www.youtube.com/watch?v=Z8zHew8fhT0) | ~~Slides~~ | [Summary](https://github.com/BlockchainCommons/Gordian-Developer-Community/discussions/123) | [Transcript](https://github.com/BlockchainCommons/Gordian-Developer-Community/blob/master/meetings/2023/12-06/transcript.md) ]
 GDM: November 2023 | [ [Video](https://www.youtube.com/watch?v=gid528Ivxww) | [Slides](https://github.com/BlockchainCommons/Gordian-Developer-Community/blob/master/meetings/2023/11-01/presentation.pdf) | [Summary](https://github.com/BlockchainCommons/Gordian-Developer-Community/discussions/120) | [Transcript](https://github.com/BlockchainCommons/Gordian-Developer-Community/blob/master/meetings/2023/11-01/transcript.md) ]
+GDM: September 2023 | [ [Video](https://www.youtube.com/watch?v=KlauBKUA9xw) | [Slides](https://github.com/BlockchainCommons/Gordian-Developer-Community/blob/master/meetings/2023/09-06/presentation.pdf) | [Summary](https://github.com/BlockchainCommons/Gordian-Developer-Community/discussions/118) | ~~Transcript~~ ]
+GDM: July 2023 | [ [Video](https://www.youtube.com/watch?v=9fyICk0lwL0) | [Slides](https://github.com/BlockchainCommons/Gordian-Developer-Community/blob/master/meetings/2023/07-05/presentation.pdf) | [Summary](https://github.com/BlockchainCommons/Gordian-Developer-Community/discussions/114) | [Transcript](https://github.com/BlockchainCommons/Gordian-Developer-Community/blob/master/meetings/2023/07-05/transcript.md) ]
+GDM: June 2023 | [ [SeedHammer](https://www.youtube.com/watch?v=fXP9LjnLAfo)<br>[Rust](https://www.youtube.com/watch?v=KvO1GRRu_ow) | [Slides](https://github.com/BlockchainCommons/Gordian-Developer-Community/blob/master/meetings/2023/06-07/presentation.pdf) | [Summary](https://github.com/BlockchainCommons/Gordian-Developer-Community/discussions/112) | [SeedHammer](https://github.com/BlockchainCommons/Gordian-Developer-Community/blob/master/meetings/2023/06-07/seedhammer-transcript.md)<br>[Rust](https://github.com/BlockchainCommons/Gordian-Developer-Community/blob/master/meetings/2023/06-07/rust-transcript.md) ]
+
+</center>
