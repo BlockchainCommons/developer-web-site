@@ -40,6 +40,28 @@ The format will be specified as the second phase of this project. The current pl
 2. **Second Class Data.** This will be most other data, especially data that is only used by a single wallet or not considered current or important. This data will not be specified and is instead suggested for inclusion using [attachments](https://github.com/BlockchainCommons/Research/blob/master/papers/bcr-2023-006-envelope-attachment.md).
 3. **Third Class Data.** There may be some data, especially state, configuration, or encryption data, that is not considered useful for preservation. This will not be included in the core specifications and will not be suggested for inclusion in specifications. However, the best practice will be to preserve the entire original wallet data file, so that this "third class data" is not lost is there is a need for it in the future.
 
+## Meetings
+
+<table width="100%">
+  <tr>
+    <td width="640px">
+      <b>Full Meeting:</b>
+
+{% include video id="wy06xxpJy-M" provider="youtube" %}
+
+    </td>
+    <td width="640px">
+      <b>Request/Response:</b>
+
+{% include video id="wSeAdx6oZLw" provider="youtube" %}
+
+    </td>
+  </tr>
+</table>
+
+Please see the [Meeting on Wallet Data](/chains/zcash/zewif/meeting1/) and [Meeting with first zmigrate code demo](https://www.youtube.com/watch?v=wSeAdx6oZLw) for more detailed info on these two meetings.
+
+
 ## Sponsors
 
 This work is sponsored by a [Zcash Community Grant](https://zcashcommunitygrants.org/). See [our grant proposal](https://github.com/ZcashCommunityGrants/zcashcommunitygrants/issues/3) for more information on the project, its schedule, and its deliverables.
