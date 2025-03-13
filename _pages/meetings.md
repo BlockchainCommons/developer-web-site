@@ -20,6 +20,22 @@ If you're a developer, or just an interesting party, you're welcome to join us! 
 
 ## Major Topics
 
+<table>
+  <tr>
+    <td>
+      <b>FROST:</b>
+      <a href="https://developer.blockchaincommons.com/frost/#events"><img width=500 src="/assets/images/frost.png"></a>
+    </td>
+    <td>
+      <b>Silicon Salon:</b>
+      <a href="https://www.siliconsalon.info/salons/"><img width=500 src="/assets/images/silcon.png"></a>
+    </td>
+    <td>
+      <b>Zcash ZeWIF:</b>
+      <a href="https://developer.blockchaincommons.com/chains/zcash/zewif/#meetings"><img width=500 src="/assets/images/zcash.png"></a>
+    </td>
+  </tr>
+</table>
 ### Other Topics of Interest
 
 ## 2025 Meetings
