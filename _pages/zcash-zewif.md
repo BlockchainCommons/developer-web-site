@@ -45,13 +45,13 @@ The format will be specified as the second phase of this project. The current pl
 <table width="100%">
   <tr>
     <td width="640px">
-      <b>Full Meeting:</b>
+      <b>Wallet Survey:</b>
 
 {% include video id="wy06xxpJy-M" provider="youtube" %}
 
     </td>
     <td width="640px">
-      <b>Request/Response:</b>
+      <b>Zmigrate demo:</b>
 
 {% include video id="wSeAdx6oZLw" provider="youtube" %}
 
