@@ -10,8 +10,9 @@ hide_description: true
 classes:
   - wide
 permalink: /frost/developers2/summary/
-sidebar:
-  nav: frost
+  nav:
+    - frost
+    - meetings
 ---
 
 Our developer's meetings focus on helping developers to implement FROST. The first occurred in [early 2024](https://developer.blockchaincommons.com/frost/developers1/) and featured a presentation from Jesse Posner on his current work on FROST. This second meeting, held on December 4, 2024 and sponsored by [HRF](https://hrf.org/) was much more all-encompassing and featured not just an intro to FROST, but also discussions from developers who were already implementing FROST.
