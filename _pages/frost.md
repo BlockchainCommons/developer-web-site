@@ -11,7 +11,9 @@ classes:
   - wide
 permalink: /frost/
 sidebar:
-  nav: frost
+  nav:
+    - frost
+    - meetings
 ---
 
 ## Overview
