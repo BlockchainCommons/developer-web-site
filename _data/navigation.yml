@@ -16,6 +16,8 @@ mainside:
       url: /
     - title: "Architecture"
       url: /architecture/
+    - title: "Meetings"
+      url: /meetings/
 mainstacks:
   - title: The Stacks
     children:
@@ -234,6 +236,17 @@ lifehash:
       url: /lifehash/use-cases/
     - title: "Return to UX Stack"
       url: /ux-stack/
+meetings:
+  - title: Meetings
+    children:
+    - title: "FROST Meetings"
+      url: /frost/#events
+    - title: "Silicon Salons"
+      url: https://www.siliconsalon.info/salons/
+    - title: "ZeWIF Meetings"
+      url: /chains/zcash/zewif/#meetings 
+    - title: "Meeting List"
+      url: /meetings/#2025-meetings
 musig:
   - title: MuSig 2
     children:
