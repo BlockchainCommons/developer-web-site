@@ -12,7 +12,9 @@ classes:
   - wide
 permalink: /chains/zcash/zewif/meeting2/
 sidebar:
-  nav: zcash
+  nav:
+    - zcash
+    - meetings
 redirect_from:
   - /zcash/zewif/meeting2/
 ---
