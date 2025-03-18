@@ -11,7 +11,9 @@ classes:
   - wide
 permalink: /frost/meeting1/summary/
 sidebar:
-  nav: frost
+  nav:
+    - frost
+    - meetings
 ---
 
 _This is a rough summary of the FROST Implementer's Round Table on November 8, 2023._
