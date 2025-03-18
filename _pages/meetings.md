@@ -53,6 +53,19 @@ If you're a developer, or just an interesting party, you're welcome to join us! 
   <tr>
     <td width=250>
 
+      <a href="/chains/zcash/zewif/meeting3/"><img src="https://img.youtube.com/vi/qptTRJP_K2U/0.jpg" style="border: 1px solid blue"></a>
+
+    </td>
+    <td>
+       <h2><a href="/chains/zcash/zewif/meeting3/">ZeWIF: Absraction Discussion (March 2025)</a></h2>
+       
+       <p>The third meeting for ZeWIF for Zcash talked about the work to date on the Zmigrate tool and the continued work needed to define the abstractions for ZeWIF.</p>
+       
+    </td>
+  </tr>
+  <tr>
+    <td>
+
       <a href="/meetings/2025-03-pqc/"><img src="https://img.youtube.com/vi/ZfsH2fIHCIA/0.jpg" style="border: 1px solid blue"></a>
 
     </td>
