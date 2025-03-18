@@ -12,7 +12,9 @@ classes:
   - wide
 permalink: /frost/meeting2/
 sidebar:
-  nav: frost
+  nav:
+    - frost
+    - meetings
 ---
 
 The second FROST Round Table occurred on **September 18, 2024**. Almost twenty experts in the field, including  members of the [ZF Frost team](https://github.com/ZcashFoundation/frost) and the [secp-zkp FROST team](https://github.com/BlockstreamResearch/secp256k1-zkp/pull/138) as well as a variety of designers working on libraries, federations, and deployments came together to talk about their experience with FROST.
