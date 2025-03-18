@@ -11,7 +11,9 @@ classes:
   - wide
 permalink: /frost/meeting1/transcript/
 sidebar:
-  nav: frost
+  nav:
+    - frost
+    - meetings
 ---
 
 _This is a raw, unedited transcript of the FROST Implementer's Round Table on November 8, 2023._
