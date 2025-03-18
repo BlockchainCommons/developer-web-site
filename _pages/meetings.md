@@ -310,7 +310,7 @@ If you're a developer, or just an interesting party, you're welcome to join us! 
   </tr>
 </table>
 
-## Previous Meetings
+## 2022-2023 Meetings
   
 GDM: December 2023 | [ | [Video](https://www.youtube.com/watch?v=Z8zHew8fhT0) | ~~Slides~~ | [Summary](https://github.com/BlockchainCommons/Gordian-Developer-Community/discussions/123) | [Transcript](https://github.com/BlockchainCommons/Gordian-Developer-Community/blob/master/meetings/2023/12-06/transcript.md) | ]
 GDM: November 2023 | [ | [Video](https://www.youtube.com/watch?v=gid528Ivxww) | [Slides](https://github.com/BlockchainCommons/Gordian-Developer-Community/blob/master/meetings/2023/11-01/presentation.pdf) | [Summary](https://github.com/BlockchainCommons/Gordian-Developer-Community/discussions/120) | [Transcript](https://github.com/BlockchainCommons/Gordian-Developer-Community/blob/master/meetings/2023/11-01/transcript.md) | ]
