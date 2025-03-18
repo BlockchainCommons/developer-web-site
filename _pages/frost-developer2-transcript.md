@@ -11,7 +11,9 @@ classes:
   - wide
 permalink: /frost/developers2/transcript/
 sidebar:
-  nav: frost
+  nav:
+    - frost
+    - meetings
 ---
 
 _This is a raw, unedited transcript of the FROST Developer's Meeting on December 4, 2024._
