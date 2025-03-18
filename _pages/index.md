@@ -26,7 +26,7 @@ redirect_from:
 
 The Gordian Stack is a layered set of specifications founded on the CBOR data format and built up from that, step by step, to support digital-asset management in a way that fulfills [the Gordian Principles](/principles/). These developer pages contain developer resources that
 explain the elements in the Stack, and their importance, and make it easy
-for you to adopt them.
+for you to adopt them. For more support, you can also attend our [Gordian Meetings](https://developer.blockchaincommons.com/meetings/), usually on the first Wednesday of the month.
 
 ![bc-stack](https://developer.blockchaincommons.com/assets/images/bc-stack.png)
 
