@@ -5,7 +5,7 @@ header:
   overlay_filter: "0.25"
   overlay_image: /assets/images/dev-chain-background.jpg
   og_image: /assets/images/bc-card.jpg
-title: "ZeWIF Meeting: February 2025"
+title: "ZeWIF Meeting #2 (2/24/25)"
 tagline: Zmigrate Demo
 hide_description: true
 classes:
