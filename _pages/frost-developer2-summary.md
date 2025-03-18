@@ -10,6 +10,7 @@ hide_description: true
 classes:
   - wide
 permalink: /frost/developers2/summary/
+sidebar:
   nav:
     - frost
     - meetings
