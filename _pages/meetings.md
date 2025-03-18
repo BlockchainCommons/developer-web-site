@@ -329,3 +329,5 @@ CSR: Seed Tool & SSKR | [ | [Video](https://www.youtube.com/watch?v=aciTNh402Co)
 CSR: Envelope & SSKR | [ | [Video](https://www.youtube.com/watch?v=ERRhMDSEFm8) | ~~Slides~~ | ~~Summary~~ | ~~Transcript~~ | ]
 CSR: Envelope MVA | [ | [Video](https://www.youtube.com/watch?v=S0deyIHXukk&l) | ~~Slides~~ | ~~Summary~~ | ~~Transcript~~ | ]
 CSR: CSR Kickoff | [ | [Video](https://www.youtube.com/watch?v=FVzTRsqcyMU) | ~~Slides~~ | ~~Summary~~ | ~~Transcript~~ | ]
+
+_The [Gordian Developer Meetings](https://www.blockchaincommons.com/subscribe/) ("GDM:") started out as meetings for a working group focused on [Collaborative Seed Recovery](https://developer.blockchaincommons.com/csr/) ("CSR:"). This listing covers the entire spectrum of meetings._
