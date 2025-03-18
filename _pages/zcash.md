@@ -27,7 +27,6 @@ Blockchain Commons' main work to date with Zcash has been the development of [Ze
 
 **ZeWIF Project:**
 * [ZeWIF Overview](/chains/zcash/zewif/)
-* [ZeWIF Meeting: 1/24/2025](/chains/zcash/zewif/meeting1/)
 
 **Zcash:**
 * [Zcash Home Page](https://z.cash/)
