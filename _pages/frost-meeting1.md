@@ -12,7 +12,9 @@ classes:
   - wide
 permalink: /frost/meeting1/
 sidebar:
-  nav: frost
+  nav:
+    - frost
+    - meetings
 ---
 
 The first FROST Round Table occurred on **November 8, 2023**. Almost a dozen experts in the field, including the designers of the protocol, members of the [ZF Frost team](https://github.com/ZcashFoundation/frost), and members of the [secp-zkp FROST team](https://github.com/BlockstreamResearch/secp256k1-zkp/pull/138) came together to talk about their experience with FROST and answer questions about its usage.
