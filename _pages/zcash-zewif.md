@@ -25,12 +25,14 @@ The project has been broken into four phases:
 1. Survey of existing wallet data (January 2025)
    * [Survey of Zcash Data Formats](https://github.com/dorianvp/zcash-wallet-formats/tree/master)
    * [Spreadsheet of Zcash Wallet Data](https://docs.google.com/spreadsheets/d/1MdahX4igppx7a4BdrcO5TGB2-mO1EtXrlKssypfEHUQ/)
-   * [Meeting on Wallet Data (1/24/25)](/chains/zcash/zewif/meeting1/)
+   * [Meeting #1 on Wallet Data (1/24/25)](/chains/zcash/zewif/meeting1/)
    * [Report on Wallet Data](/chains/zcash/zewif/report1/)
 2. Design of wallet interchange specification (February 2025)
 3. Creation of Rust import and export libraries (March 2025)
-    * [Meeting with first zmigrate demo (2/25/25)](https://www.youtube.com/watch?v=wSeAdx6oZLw)
-4. Create of legacy wallet CLI tool, ZExCavator (April 2025)
+    * [Zmigrate Repo](https://github.com/BlockchainCommons/zmigrate)
+    * [Meeting #2 with first zmigrate demo (2/25/25)](https://www.youtube.com/watch?v=wSeAdx6oZLw)
+    * [Meeting #3 with abstraction discussion (3/14/25)](https://www.youtube.com/watch?v=qptTRJP_K2U)
+5. Create of legacy wallet CLI tool, ZExCavator (April 2025)
 
 ## Interchange Format
 
@@ -45,15 +47,21 @@ The format will be specified as the second phase of this project. The current pl
 <table width="100%">
   <tr>
     <td width="640px">
-      <b>Wallet Survey:</b>
+      <b>#1: Wallet Survey:</b>
 
 {% include video id="wy06xxpJy-M" provider="youtube" %}
 
     </td>
     <td width="640px">
-      <b>Zmigrate demo:</b>
+      <b>#2: Zmigrate demo:</b>
 
 {% include video id="wSeAdx6oZLw" provider="youtube" %}
+
+    </td>
+    <td width="640px">
+      <b>#3: Abstraction Discussion:</b>
+
+{% include video id="qptTRJP_K2U" provider="youtube" %}
 
     </td>
   </tr>
@@ -71,11 +79,16 @@ This work is sponsored by a [Zcash Community Grant](https://zcashcommunitygrants
 **ZeWIF Survey:**
    * [Survey of Zcash Data Formats](https://github.com/dorianvp/zcash-wallet-formats/tree/master)
    * [Spreadsheet of Zcash Wallet Data](https://docs.google.com/spreadsheets/d/1MdahX4igppx7a4BdrcO5TGB2-mO1EtXrlKssypfEHUQ/)
-   * [Meeting on Wallet Data](/chains/zcash/zewif/meeting1/)
+   * [Meeting #1 on Wallet Data](/chains/zcash/zewif/meeting1/)
    * [Report on Wallet Data](/chains/zcash/zewif/report1/)
 
+* [Wallet Format Survey](https://github.com/zingolabs/zcash-wallet-formats/)
+* [ZeWIF Meeting: 1/24/2025](/chains/zcash/zewif/meeting1/)
+
 **Zmigrate Tool:**
-   * [Meeting with first zmigrate code demo](https://www.youtube.com/watch?v=wSeAdx6oZLw)
+* [Zmigrate Repo](https://github.com/BlockchainCommons/zmigrate)
+* [Meeting #2 with first zmigrate code demo](https://www.youtube.com/watch?v=wSeAdx6oZLw)
+* [Meeting #3 with abstraction discussion](https://www.youtube.com/watch?v=qptTRJP_K2U)
 
 **Zcash:**
 * [Zcash Home Page](https://z.cash/)
