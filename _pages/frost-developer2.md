@@ -12,7 +12,9 @@ classes:
   - wide
 permalink: /frost/developers2/
 sidebar:
-  nav: frost
+  nav:
+    - frost
+    - meetings
 ---
 
 The second FROST Developer Meeting occurred on **December 4, 2024**. The goal was to introduce FROST to developers and to present them with the opportunity to integrate FROST in 2025 as well as discussing the challenges of integration and revealing use cases that demonstrate how FROST is widely useful for a variety of tasks.
