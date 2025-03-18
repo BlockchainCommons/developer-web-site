@@ -12,7 +12,9 @@ classes:
   - wide
 permalink: /frost/developers1/
 sidebar:
-  nav: frost
+  nav:
+    - frost
+    - meetings
 ---
 The first meeting for FROST Developers included a key note by FROST implementer Jesse Posner. Jesse's presentation begins at 17m13s.
 
