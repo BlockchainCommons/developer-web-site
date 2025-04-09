@@ -11,7 +11,9 @@ classes:
   - wide
 permalink: /chains/zcash/
 sidebar:
-  nav: zcash
+  nav:
+    - zcash
+    - chains
 redirect_from:
   - /zcash/
 ---
