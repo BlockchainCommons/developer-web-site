@@ -56,6 +56,11 @@ architecture:
       url: /progressive-trust/   
     - title: "Return to Main Page"
       url: /
+chains: 
+  - title: Blockchains
+    children:
+    - title: Zcash
+      url: /chains/zcash/
 stack-core:
   - title: The Core Stack
     children:
