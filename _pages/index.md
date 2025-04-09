@@ -108,8 +108,9 @@ _The Gordian Stack is built atop a carefully considered architecture that works 
 _Blockchain Commons' specifications aren't built for any specific blockchain. (In fact, most don't require a blockchain at all!) However, we've also done work with certain blockchains to help bring their digital-asset management into harmony with the [Gordian principles](/principles/), while a lot of the long-term members of the Gordian Developers community are Bitcoin-focused._
 
    * See our [Zcash page](/chains/zcash/)
+   * See our [Learning Bitcoin from the Command Line repo](https://github.com/BlockchainCommons/Learning-Bitcoin-from-the-Command-Line/blob/master/README.md)
 
-   ## Other <font color="#888888">Future</font> Development
+## Other <font color="#888888">Future</font> Development
 
 _A few other technologies are currently in early stages of development or integration._
 
