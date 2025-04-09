@@ -11,7 +11,9 @@ classes:
   - wide
 permalink: /chains/zcash/zewif/report1/
 sidebar:
-  nav: zcash
+  nav:
+    - zcash
+    - chains
 ---
 
 # Zcash Wallet Report
