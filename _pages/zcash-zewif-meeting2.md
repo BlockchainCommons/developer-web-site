@@ -15,6 +15,7 @@ sidebar:
   nav:
     - zcash
     - meetings
+    - chains
 redirect_from:
   - /zcash/zewif/meeting2/
 ---
