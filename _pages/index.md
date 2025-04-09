@@ -17,6 +17,7 @@ sidebar:
     - stack-core
     - stack-crypto
     - stack-ux
+    - chains
 redirect_from:
     - /dataformat/
     - /seedrecovery/
