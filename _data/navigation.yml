@@ -29,8 +29,6 @@ mainstacks:
       url: /crypto-stack/
     - title: "UX Stack"
       url: /ux-stack/
-    - title: "Chains"
-      url: /chains/zcash/
 architecture:
   - title: Gordian Architecture
     children:
