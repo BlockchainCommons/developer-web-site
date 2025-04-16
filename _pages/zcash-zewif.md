@@ -68,6 +68,8 @@ The interchange format has two representations: in memory and as a [Gordian Enve
 {% include video id="wSeAdx6oZLw" provider="youtube" %}
 
     </td>
+  </tr>
+  <tr>
     <td width="640px">
       <b>#3: Abstraction Discussion:</b>
 
