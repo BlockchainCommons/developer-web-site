@@ -77,7 +77,7 @@ The interchange format has two representations: in memory and as a [Gordian Enve
 
     </td>
     <td width="640px">
-      <b>#3: Abstraction Discussion:</b>
+      <b>#4: Envelope Demo:</b>
 
 {% include video id="oXm2FsR4KTs" provider="youtube" %}
 
