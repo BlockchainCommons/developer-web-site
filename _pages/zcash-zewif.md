@@ -22,19 +22,27 @@ ZeWIF is a joint project between Blockchain Commons and [Zingo Labs](https://zin
 
 ## Project Schedule
 
-The project has been broken into four phases:
+The project has been broken into five phases<sup>*</sup>:
 
 1. Survey of existing wallet data (January 2025)
    * [Survey of Zcash Data Formats](https://github.com/dorianvp/zcash-wallet-formats/tree/master)
    * [Spreadsheet of Zcash Wallet Data](https://docs.google.com/spreadsheets/d/1MdahX4igppx7a4BdrcO5TGB2-mO1EtXrlKssypfEHUQ/)
    * [Meeting #1 on Wallet Data (1/24/25)](/chains/zcash/zewif/meeting1/)
    * [Report on Wallet Data](/chains/zcash/zewif/report1/)
-2. Design of wallet interchange specification (February 2025)
-3. Creation of Rust import and export libraries (March 2025)
-    * [Zmigrate Repo](https://github.com/BlockchainCommons/zmigrate)
+2. Coding of initial ZeWIF crates (February 2025)
     * [Meeting #2 with first zmigrate demo (2/25/25)](https://www.youtube.com/watch?v=wSeAdx6oZLw)
+3. Release of documented in-memory ZeWIF format (March 2025)
     * [Meeting #3 with abstraction discussion (3/14/25)](https://www.youtube.com/watch?v=qptTRJP_K2U)
-5. Create of legacy wallet CLI tool, ZExCavator (April 2025)
+    * [zewif Repo](https://github.com/BlockchainCommons/zewif)
+    * [zewif-zcashd Repo](https://github.com/BlockchainCommons/zewif-zcashd)
+    * [zewif-zingo Repo](https://github.com/BlockchainCommons/zewif-zingo)
+    * [Zmigrate Repo](https://github.com/BlockchainCommons/zmigrate)
+4. Release of ZeWIF data file format (April 2025)
+    * Meeting #4 with ZeWIF envelope demo (April 2025)
+5. Creation of legacy wallet CLI tool, ZExCavator (April 2025)
+    * [Zexcavator Repo](https://github.com/zingolabs/zexcavator)
+
+<i>* This is a revision from the original project schedule. The original proposal suggested a top-down design, with a specification leading to coding, while in practice a bottom-up design was used, with coded crates leading to a specification.</I>
 
 ## Interchange Format
 
