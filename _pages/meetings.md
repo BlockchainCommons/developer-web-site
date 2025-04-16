@@ -53,6 +53,19 @@ If you're a developer, or just an interesting party, you're welcome to join us! 
   <tr>
     <td width=250>
 
+      <a href="/chains/zcash/zewif/meeting4/"><img src="https://img.youtube.com/vi/oXm2FsR4KTs/0.jpg" style="border: 1px solid blue"></a>
+
+    </td>
+    <td>
+       <h2><a href="/chains/zcash/zewif/meeting4/">ZeWIF: File Format Demo (April 2025)</a></h2>
+       
+       <p>The fourth meeting for ZeWIF for Zcash included a demo of the Envelope-based ZeWIF file format.</p>
+       
+    </td>
+  </tr>
+  <tr>
+    <td width=250>
+
       <a href="/chains/zcash/zewif/meeting3/"><img src="https://img.youtube.com/vi/qptTRJP_K2U/0.jpg" style="border: 1px solid blue"></a>
 
     </td>
