@@ -85,7 +85,7 @@ The interchange format has two representations: in memory and as a [Gordian Enve
   </tr>
 </table>
 
-Also see the meeting pages for the [survey meeting (January)](/chains/zcash/zewif/meeting1/), the [Zmigrate demo (February)](/chains/zcash/zewif/meeting2/), and the [abstraction discussion (March)](/chains/zcash/zewif/meeting3/) for more information.
+Also see the meeting pages for the [survey meeting (January)](/chains/zcash/zewif/meeting1/), the [Zmigrate demo (February)](/chains/zcash/zewif/meeting2/), the [abstraction discussion (March)](/chains/zcash/zewif/meeting3/), and the [Envelope demo (April)](/chains/zcash/zewif/meeting4/) for more information.
 
 
 ## Sponsors
