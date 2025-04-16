@@ -36,7 +36,7 @@ The project has been broken into five phases<sup>*</sup>:
     * [zewif Repo](https://github.com/BlockchainCommons/zewif)
     * [zewif-zcashd Repo](https://github.com/BlockchainCommons/zewif-zcashd)
     * [zewif-zingo Repo](https://github.com/BlockchainCommons/zewif-zingo)
-    * [Zmigrate Repo](https://github.com/BlockchainCommons/zmigrate)
+    * [zmigrate CLI Repo](https://github.com/BlockchainCommons/zmigrate)
 4. Release of ZeWIF data file format (April 2025)
     * Meeting #4 with ZeWIF envelope demo (April 2025)
 5. Creation of legacy wallet CLI tool, ZExCavator (April 2025)
@@ -46,10 +46,10 @@ The project has been broken into five phases<sup>*</sup>:
 
 ## Interchange Format
 
-The format will be specified as the second phase of this project. The current plan is to specify it in the CBOR-based [Envelope](/envelope/) format. Data will be divided between three classes:
+The interchange format has two representations: in memory and as a [Gordian Envelope](/envelope/) file. For the creation of ZeWIF files, data is divided into three classes:
 
-1. **First Class Data.** Data that is used by two or more wallets and considered to be current and important. This data will be included in the core specification and likely assigned specific CBOR tags.
-2. **Second Class Data.** This will be most other data, especially data that is only used by a single wallet or not considered current or important. This data will not be specified and is instead suggested for inclusion using [attachments](https://github.com/BlockchainCommons/Research/blob/master/papers/bcr-2023-006-envelope-attachment.md).
+1. **First Class Data.** Data that is used by two or more wallets and considered to be current and important. This data is included in the core specification and is largely represented by Envelope typing using `isA` constructs.
+2. **Second Class Data.** This will be most other data, especially data that is only used by a single wallet or not considered current or important. This data will not be specified and is instead suggested for inclusion using [attachments](https://github.com/BlockchainCommons/Research/blob/master/papers/bcr-2023-006-envelope-attachment.md). Specific attachment points are available in many ZeWIF data structures.
 3. **Third Class Data.** There may be some data, especially state, configuration, or encryption data, that is not considered useful for preservation. This will not be included in the core specifications and will not be suggested for inclusion in specifications. However, the best practice will be to preserve the entire original wallet data file, so that this "third class data" is not lost is there is a need for it in the future.
 
 ## Meetings
@@ -77,25 +77,33 @@ The format will be specified as the second phase of this project. The current pl
   </tr>
 </table>
 
-Please see the [Meeting on Wallet Data](/chains/zcash/zewif/meeting1/) and [Meeting with first zmigrate code demo](https://www.youtube.com/watch?v=wSeAdx6oZLw) for more detailed info on these two meetings.
+Also see the meeting pages for the [survey meeting (January)](/chains/zcash/zewif/meeting1/), the [Zmigrate demo (February)](/chains/zcash/zewif/meeting2/), and the [abstraction discussion (March)](/chains/zcash/zewif/meeting3/) for more information.
 
 
 ## Sponsors
 
-This work is sponsored by a [Zcash Community Grant](https://zcashcommunitygrants.org/). See [our grant proposal](https://github.com/ZcashCommunityGrants/zcashcommunitygrants/issues/3) for more information on the project, its schedule, and its deliverables.
+This work is sponsored by a [Zcash Community Grant](https://zcashcommunitygrants.org/). See [our grant proposal](https://github.com/ZcashCommunityGrants/zcashcommunitygrants/issues/3) for more information on the project, its original schedule, and its deliverables.
 
 ## Links
 
-**ZeWIF Survey:**
-   * [Survey of Zcash Data Formats](https://github.com/dorianvp/zcash-wallet-formats/tree/master)
-   * [Spreadsheet of Zcash Wallet Data](https://docs.google.com/spreadsheets/d/1MdahX4igppx7a4BdrcO5TGB2-mO1EtXrlKssypfEHUQ/)
-   * [Meeting #1 on Wallet Data](/chains/zcash/zewif/meeting1/)
-   * [Report on Wallet Data](/chains/zcash/zewif/report1/)
+**ZeWIF Repos:**
+* [zewif Repo](https://github.com/BlockchainCommons/zewif)
+* [zewif-zcashd Repo](https://github.com/BlockchainCommons/zewif-zcashd)
+* [zewif-zingo Repo](https://github.com/BlockchainCommons/zewif-zingo)
+* [zmigrate Repo](https://github.com/BlockchainCommons/zmigrate)
 
-**Zmigrate Tool:**
-* [Zmigrate Repo](https://github.com/BlockchainCommons/zmigrate)
+**ZeWIF Crates:**
+* [awaiting full release]
+
+**Meeting Records:**
+* [Meeting #1 on Wallet Data](/chains/zcash/zewif/meeting1/)
 * [Meeting #2 with first zmigrate code demo](https://www.youtube.com/watch?v=wSeAdx6oZLw)
 * [Meeting #3 with abstraction discussion](https://www.youtube.com/watch?v=qptTRJP_K2U)
+
+**ZeWIF Survey:**
+* [Survey of Zcash Data Formats](https://github.com/dorianvp/zcash-wallet-formats/tree/master)
+* [Spreadsheet of Zcash Wallet Data](https://docs.google.com/spreadsheets/d/1MdahX4igppx7a4BdrcO5TGB2-mO1EtXrlKssypfEHUQ/)
+* [Report on Wallet Data](/chains/zcash/zewif/report1/)
 
 **Zcash:**
 * [Zcash Home Page](https://z.cash/)
