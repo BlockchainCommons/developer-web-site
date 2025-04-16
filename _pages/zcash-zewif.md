@@ -96,9 +96,9 @@ This work is sponsored by a [Zcash Community Grant](https://zcashcommunitygrants
 * [awaiting full release]
 
 **Meeting Records:**
-* [Meeting #1 on Wallet Data](/chains/zcash/zewif/meeting1/)
-* [Meeting #2 with first zmigrate code demo](https://www.youtube.com/watch?v=wSeAdx6oZLw)
-* [Meeting #3 with abstraction discussion](https://www.youtube.com/watch?v=qptTRJP_K2U)
+* [Meeting #1 on Wallet Data](/chains/zcash/zewif/meeting1/) [ [Video](https://www.youtube.com/watch?v=wy06xxpJy-M) ]
+* [Meeting #2 with first zmigrate code demo](/chains/zcash/zewif/meeting2/) [ [Video](https://www.youtube.com/watch?v=wSeAdx6oZLw) ]
+* [Meeting #3 with abstraction discussion](/chains/zcash/zewif/meeting3/) [ [Video](https://www.youtube.com/watch?v=qptTRJP_K2U) ]
 
 **ZeWIF Survey:**
 * [Survey of Zcash Data Formats](https://github.com/dorianvp/zcash-wallet-formats/tree/master)
