@@ -30,7 +30,7 @@ Blockchain Commons and Zingo Labs held the four public meeting regarding the Zca
     <td width="640px">
       <b>Meeting Video:</b>
 
-{% include video id="PENDING" provider="youtube" %}
+{% include video id="oXm2FsR4KTs" provider="youtube" %}
 
     </td>
   </tr>
