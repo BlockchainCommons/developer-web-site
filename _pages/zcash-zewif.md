@@ -92,9 +92,6 @@ This work is sponsored by a [Zcash Community Grant](https://zcashcommunitygrants
    * [Meeting #1 on Wallet Data](/chains/zcash/zewif/meeting1/)
    * [Report on Wallet Data](/chains/zcash/zewif/report1/)
 
-* [Wallet Format Survey](https://github.com/zingolabs/zcash-wallet-formats/)
-* [ZeWIF Meeting: 1/24/2025](/chains/zcash/zewif/meeting1/)
-
 **Zmigrate Tool:**
 * [Zmigrate Repo](https://github.com/BlockchainCommons/zmigrate)
 * [Meeting #2 with first zmigrate code demo](https://www.youtube.com/watch?v=wSeAdx6oZLw)
