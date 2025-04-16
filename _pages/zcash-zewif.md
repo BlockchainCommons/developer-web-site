@@ -38,7 +38,7 @@ The project has been broken into five phases<sup>*</sup>:
     * [zewif-zingo Repo](https://github.com/BlockchainCommons/zewif-zingo)
     * [zmigrate CLI Repo](https://github.com/BlockchainCommons/zmigrate)
 4. Release of ZeWIF data file format (April 2025)
-    * Meeting #4 with ZeWIF envelope demo (April 2025)
+    * [Meeting #4 with ZeWIF envelope demo (April 2025)](/chains/zcash/zewif/meeting4/)
 5. Creation of legacy wallet CLI tool, ZExCavator (April 2025)
     * [Zexcavator Repo](https://github.com/zingolabs/zexcavator)
 
@@ -74,6 +74,12 @@ The interchange format has two representations: in memory and as a [Gordian Enve
 {% include video id="qptTRJP_K2U" provider="youtube" %}
 
     </td>
+    <td width="640px">
+      <b>#3: Abstraction Discussion:</b>
+
+{% include video id="oXm2FsR4KTs" provider="youtube" %}
+
+    </td>
   </tr>
 </table>
 
@@ -99,6 +105,7 @@ This work is sponsored by a [Zcash Community Grant](https://zcashcommunitygrants
 * [Meeting #1 on Wallet Data](/chains/zcash/zewif/meeting1/) [ [Video](https://www.youtube.com/watch?v=wy06xxpJy-M) ]
 * [Meeting #2 with first zmigrate code demo](/chains/zcash/zewif/meeting2/) [ [Video](https://www.youtube.com/watch?v=wSeAdx6oZLw) ]
 * [Meeting #3 with abstraction discussion](/chains/zcash/zewif/meeting3/) [ [Video](https://www.youtube.com/watch?v=qptTRJP_K2U) ]
+* [Meeting #4 with ZeWIF envelope demo (April 2025)](/chains/zcash/zewif/meeting4/) [ [Video](https://www.youtube.com/watch?v=oXm2FsR4KTs) ]
 
 **ZeWIF Survey:**
 * [Survey of Zcash Data Formats](https://github.com/dorianvp/zcash-wallet-formats/tree/master)
