@@ -51,6 +51,20 @@ If you're a developer, or just an interesting party, you're welcome to join us! 
 
 <table>
   <tr>
+    <td>
+
+      <a href="/meetings/2025-05-interop/"><img src="https://img.youtube.com/vi/kD2PV8bLFhw/0.jpg" style="border: 1px solid blue"></a>
+
+    </td>
+    <td>
+       <h2><a href="/meetings/2025-05-interop/">GDM: Interop (May 2025)</a></h2>
+
+       <p>Interop, What's It Good For? That was the topic of our May 2025 Gordian Developers Meeting, where we talked about the importance of interop and the work that Blockchain Commons has done with both the Bitcoin and Zcash communities.</p>
+       
+    </td>
+  </tr>
+
+  <tr>
     <td width=250>
 
       <a href="/chains/zcash/zewif/meeting4/"><img src="https://img.youtube.com/vi/oXm2FsR4KTs/0.jpg" style="border: 1px solid blue"></a>
