@@ -125,11 +125,11 @@ The following diagram illustrates the 2-of-2 MuSig2 signing process, showing how
 
 ---
 
-  ## MuSig2 3-of-3 Multisig with Coordinator Facilitation
+## MuSig2 3-of-3 Multisig with Coordinator Facilitation
 
   In this setup, three parties—**Party A**, **Party B**, and **Party C**—require the assistance of a **Coordinator** to facilitate the secure exchange of public keys, nonce commitments, and signatures. The Coordinator ensures that all parties' inputs are routed securely and maintains the process state through **Encrypted State Encapsulation (ESC)**. The goal is to make the Coordinator's role as **trustless as possible**.
 
-  ### Trustless Coordinator Assumptions
+### Trustless Coordinator Assumptions
 
   - **Coordinator Does Not Access Sensitive Data**: The Coordinator facilitates the exchange of data between parties but does not have access to the sensitive information being exchanged. Public keys, nonce commitments, nonces, and signatures are all **encrypted** using the independent key agreements established between the Coordinator and each party. The Coordinator cannot decrypt any of these values and simply acts as a messenger.
 
