@@ -47,8 +47,8 @@ GSTP was originally built for digital-asset wallets, to allow the storage and re
 Though simple to use, GSTP is built upon a stack of Core Blockchain Commons functionality.
 
 * [**Envelope**](/envelope). Gordian Envelope is a Smart Document system. GSTP transmits data in this format.
-* [**Expressions**](https://github.com/BlockchainCommons/Research/blob/master/papers/bcr-2023-012-envelope-expression.md). Expressions are a standardized methodology for encoding function calls into Envelopes, to be run by the Envelope opener.
-* [**Request/Response**](/envelope/request/). The Envelope Request/Response system is a way for one party to request that another party run a specific Expression, and then for that other party to return a Response using the same transaction ID.
+* [**Expressions**](https://github.com/BlockchainCommons/Research/blob/master/papers/bcr-2023-012-envelope-expression.md). Expressions are a standardized methodology for encoding function calls into envelopes, to be run by the envelope opener.
+* [**Request/Response**](/envelope/request/). The Gordian Envelope Request/Response system is a way for one party to request that another party run a specific Expression, and then for that other party to return a Response using the same transaction ID.
 
 GSTP uses this functionality as follows:
 
