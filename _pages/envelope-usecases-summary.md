@@ -14,15 +14,15 @@ sidebar:
   nav: envelopeuse
 ---
 
-The [Gordian Envelope](/envelope/) Smart Document is a powerful new
+The [Gordian Envelope](/envelope/) Smart Document system is a powerful new
 method of data storage and transmission that focuses on protecting the
 privacy of its contents through cryptographic functions such as
 signatures, elision, and inclusion proofs.
 
 But what does that mean? Why would you use it? To answer these
 questions we've written a set of use cases that not only demonstrate
-many innovative uses for Gordian Envelopes, but also show precisely
-how those Envelopes would be structured — because these use cases
+many innovative uses for envelopes, but also show precisely
+how those envelopes would be structured — because these use cases
 aren't theoretical, but instead real possibilities with the current
 iteration of the Gordian Envelope specification.
 
@@ -43,8 +43,8 @@ Educational use cases demonstrate how Gordian Envelope can transmit sensitive st
 The first set of use cases demonstrates how recognized issuers can create and use credentials.
 
 1. [**Danika Proves Her Worth (Credentials, Signature)**](https://github.com/BlockchainCommons/developer-web-site/blob/master/_pages/envelope-usecases-educational.md#1-danika-proves-her-worth-credentials-signature) — Issuing authenticated credentials with Gordian Envelope
-2. [**Danika Restricts Her Revelations (Elision)**](https://github.com/BlockchainCommons/developer-web-site/blob/master/_pages/envelope-usecases-educational.md#2-danika-restricts-her-revelations-elision) — Using elision to allow a holder to selectively hide Envelope contents.
-3. [**Thunder & Lightning Spotlights Danika (Third-Party Repackaging)**](https://github.com/BlockchainCommons/developer-web-site/blob/master/_pages/envelope-usecases-educational.md#3-thunder--lightning-spotlights-danika-third-party--repackaging) — Adding content to an existing Envelope & republishing it.
+2. [**Danika Restricts Her Revelations (Elision)**](https://github.com/BlockchainCommons/developer-web-site/blob/master/_pages/envelope-usecases-educational.md#2-danika-restricts-her-revelations-elision) — Using elision to allow a holder to selectively hide Eenvelope contents.
+3. [**Thunder & Lightning Spotlights Danika (Third-Party Repackaging)**](https://github.com/BlockchainCommons/developer-web-site/blob/master/_pages/envelope-usecases-educational.md#3-thunder--lightning-spotlights-danika-third-party--repackaging) — Adding content to an existing envelope & republishing it.
 
 #### [Part Two: Web of Trust Credentials](https://github.com/BlockchainCommons/developer-web-site/blob/master/_pages/envelope-usecases-educational.md#part-two-web-of-trust-credentials)
 
@@ -62,11 +62,11 @@ Another possibility for credential release is through large data dumps that allo
 
 ## [Wellness Use Cases](https://github.com/BlockchainCommons/developer-web-site/blob/master/_pages/envelope-usecases-wellness.md)
 
-Wellness use cases demonstrate how Gordian Envelopes can protect highly sensitive information while still supporting its sharing in a variety of ways.
+Wellness use cases demonstrate how Gordian Envelope can protect highly sensitive information while still supporting its sharing in a variety of ways.
 
 #### [Part One: Personal Sensor Data](https://github.com/BlockchainCommons/developer-web-site/blob/master/_pages/envelope-usecases-wellness.md#part-one-personal-sensor-data)
 
-How to structure and protect sensitive data with Gordian Envelopes.
+How to structure and protect sensitive data with Gordian Envelope.
 
 1. [**Nadia Gets Fit (Metadata)**](https://github.com/BlockchainCommons/developer-web-site/blob/master/_pages/envelope-usecases-wellness.md#1-nadia-gets-fit-metadata) — Creating a structure for sensitive data.
 2. [**Nadia Protects Her Privacy (Encryption)**](https://github.com/BlockchainCommons/developer-web-site/blob/master/_pages/envelope-usecases-wellness.md#2-nadia-protects-her-privacy-encryption) — Protecting sensitive data with encryption.
@@ -74,7 +74,7 @@ How to structure and protect sensitive data with Gordian Envelopes.
 
 #### [Part Two: Personal Shared Sensor Data](https://github.com/BlockchainCommons/developer-web-site/blob/master/_pages/envelope-usecases-wellness.md#part-two-personal-shared-sensor-data)
 
-The value of Wellness information is that it can help you improve your health. Gordian Envelopes can make sure that doesn't compromise your privacy.
+The value of Wellness information is that it can help you improve your health. Gordian Envelope can make sure that doesn't compromise your privacy.
 
 4. [**Nadia Hearts Her Doctor (Elision)**](https://github.com/BlockchainCommons/developer-web-site/blob/master/_pages/envelope-usecases-wellness.md#4-nadia-hearts-her-doctor-elision) — Eliding data so that you don't pass on person or health information that could be detrimental.
 5. [**Nadia is a Bit Remote (Multi-Permit)**](https://github.com/BlockchainCommons/developer-web-site/blob/master/_pages/envelope-usecases-wellness.md#5-nadia-is-a-bit-remote-multi-permit) — Using multipermits to give third-party monitors regular access to your data.
@@ -83,7 +83,7 @@ The value of Wellness information is that it can help you improve your health. G
 
 #### [Part Three: Clinically Shared Sensor Data](https://github.com/BlockchainCommons/developer-web-site/blob/master/_pages/envelope-usecases-wellness.md#part-three-clinically-shared-sensor-data)
 
-Your personal health data can also help our society (and its public health), and Gordian Envelopes can ensure that your privacy is _still_ safe.
+Your personal health data can also help our society (and its public health), and Gordian Envelope can ensure that your privacy is _still_ safe.
 
 8. [**Nadia Gets Clinical (Elision, Third-Party Encryption)**](https://github.com/BlockchainCommons/developer-web-site/blob/master/_pages/envelope-usecases-wellness.md#8-nadia-gets-clinical-elision-third-party-encryption) — Contributing to a clinical trial and protecting _everyone_ with encryption.
 9. [**Nadia Proves Her Worth (Proof of Inclusion)**](https://github.com/BlockchainCommons/developer-web-site/blob/master/_pages/envelope-usecases-wellness.md#9-nadia-proves-her-worth-proof-of-inclusion) — Proving your contribution with hash-based elision.
@@ -99,11 +99,11 @@ Software use cases demonstrate how the structure of Gordian Envelope can innovat
 
 #### [Part One: Chained Signing](https://github.com/BlockchainCommons/developer-web-site/blob/master/_pages/envelope-usecases-software.md#part-one-chained-signing)
 
-Gordian Envelopes can automate releases of data over time by creating and updating a root of trust within the Envelope.
+Gordian Envelope can automate releases of data over time by creating and updating a root of trust within the Envelope.
 
 1. [**Casey Codifies Software Releases (Multiple Signatures, Structured Data)**](https://github.com/BlockchainCommons/developer-web-site/blob/master/_pages/envelope-usecases-software.md#1-casey-codifies-software-releases-multiple-signatures-structured-data) — Structuring release data and authenticating it with multiple signatures.
-2. [**Blockchain Everyday Confirms Casey (Repackaging Data, Third-Party Verification)**](https://github.com/BlockchainCommons/developer-web-site/blob/master/_pages/envelope-usecases-software.md#2-blockchain-everyday-confirms-casey-repackaging-data-third-party-verification) — Adding additional levels of data verification by repackaging Envelopes.
-3. [**Casey Chains His Software Releases (Chained Data)**](https://github.com/BlockchainCommons/developer-web-site/blob/master/_pages/envelope-usecases-software.md#3-casey-chains-his-software-releases-chained-data) — Using Envelope structure to automate the release of future data.
+2. [**Blockchain Everyday Confirms Casey (Repackaging Data, Third-Party Verification)**](https://github.com/BlockchainCommons/developer-web-site/blob/master/_pages/envelope-usecases-software.md#2-blockchain-everyday-confirms-casey-repackaging-data-third-party-verification) — Adding additional levels of data verification by repackaging envelopes.
+3. [**Casey Chains His Software Releases (Chained Data)**](https://github.com/BlockchainCommons/developer-web-site/blob/master/_pages/envelope-usecases-software.md#3-casey-chains-his-software-releases-chained-data) — Using envelope structure to automate the release of future data.
 4. [**Casey Checks Compliance (Attestation, Metadata)**](https://github.com/BlockchainCommons/developer-web-site/blob/master/_pages/envelope-usecases-software.md#4-casey-check-compliance-attestation-metadata) — Adding signed metadata to a structured data set.
 5. [**Casey Changes Up His Software Releases (Chained Changes)**](https://github.com/BlockchainCommons/developer-web-site/blob/master/_pages/envelope-usecases-software.md#5-casey-changes-up-his-software-releases-chained-changes) — Using structured data to announce changes in trust over time.
 
@@ -144,13 +144,13 @@ There are many other options for cryptographic data distribution, building on si
 
 ## [Financial Industry Use Cases](https://github.com/BlockchainCommons/developer-web-site/blob/master/_pages/envelope-usecases-assets.md)
 
-Although the financial industry can make many uses of Gordian Envelopes to preserve assets, these use cases concentrate on self-sovereign control of assets: how an individual can use Gordian Envelopes to make sure he doesn't lose them. 
+Although the financial industry can make many uses of Gordian Envelope to preserve assets, these use cases concentrate on self-sovereign control of assets: how an individual can use Gordian Envelope to make sure he doesn't lose them. 
 
 #### [Part One: Self-Sovereign Storage of Secrets](https://github.com/BlockchainCommons/developer-web-site/blob/master/_pages/envelope-usecases-assets.md#part-one-self-sovereign-storage-of-secrets)
 
 Envelopes can simply and securely store digital assets.
 
-1. [**Sam Stores a Secret (Secure Storage with Metadata)**](https://github.com/BlockchainCommons/developer-web-site/blob/master/_pages/envelope-usecases-assets.md#1-sam-stores-a-secret-secure-storage-with-metadata) — Using metadata in an Envelope to increase the resilience of stored assets.
+1. [**Sam Stores a Secret (Secure Storage with Metadata)**](https://github.com/BlockchainCommons/developer-web-site/blob/master/_pages/envelope-usecases-assets.md#1-sam-stores-a-secret-secure-storage-with-metadata) — Using metadata in an envelope to increase the resilience of stored assets.
 2. [**Sam is Salty about Compliance (Non-Correlation)**](https://github.com/BlockchainCommons/developer-web-site/blob/master/_pages/envelope-usecases-assets.md#2-sam-is-salty-about-compliance-non-correlation) — Salting data to eliminate correlation dangers.
 3. [**Sam Gets Paranoid about Privacy (Wrapped Encryption)**](https://github.com/BlockchainCommons/developer-web-site/blob/master/_pages/envelope-usecases-assets.md#3-sam-gets-paranoid-about-privacy-wrapped-encryption) — Improving privacy at the cost of resilience.
 
