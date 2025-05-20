@@ -35,7 +35,7 @@ trust](https://www.blockchaincommons.com/musings/musings-progressive-trust/)
 and Merkle-based selective disclosure.
 
 Blockchain Commons is currently working with multiple companies on the
-development and deployment of Gordian Envelopes via regular monthly
+development and deployment of Gordian Envelope via regular monthly
 meetings; [subscribe](https://www.blockchaincommons.com/subscribe/) to our announcements-only mailing list or join our Signal channel if you'd like to get involved. You can also
 [contact us](mailto:team@blockchaincommons.com) if you'd prefer to get more information first.  
 
@@ -84,9 +84,9 @@ These capabilities include:
     open a normal envelope, special permits can grant people different
     ways to open a Gordian Envelope.
 
-## Why Are Envelopes Important?
+## Why Is Gordian Envelope Important?
 
-The Gordian Envelope is intended as a more privacy-focused encoding
+Gordian Envelope is intended as a more privacy-focused encoding
 architecture than existing data formats such as JWT and JSON-LD. We
 believe it has a better security architecture than JWT and that it
 doesn't fall victim to the barriers of canonicalization complexity
@@ -97,7 +97,7 @@ However, new features of Gordian Envelope not available in JWT or
 JSON-LD offer some of the best arguments for using the Smart Document
 structure.
 
-* For a more extensive overview of Gordian Envelopes, see [Executive Summary](/envelope/summary).
+* For a more extensive overview of Gordian Envelope, see [Executive Summary](/envelope/summary).
 * For a list of Gordian Envelope features, see [Features List](/envelope/features).
 * For a technical look at Gordian Envelope, see [Technical Overview](/envelope/tech).
 
@@ -112,13 +112,13 @@ structure.
 
     </td>    
     <td width="640px">
-      <b>Understanding Envelopes I:</b>
+      <b>Understanding Envelope I:</b>
 
 {% include video id="-vcLCFKQvik" provider="youtube" %}
 
     </td>
     <td width="640px">
-      <b>Understanding Envelopes II:</b>
+      <b>Understanding Envelope II:</b>
 
 {% include video id="uFxStP3ATkw" provider="youtube" %}
 
