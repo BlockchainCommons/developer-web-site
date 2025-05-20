@@ -15,21 +15,21 @@ sidebar:
 ---
 ## Gordian Envelope Use Cases: Software & AI Industry
 
-Gordian Envelopes can be used to manage the secure development and distribution of open-source software, as well as the development of AI systems. There are a number of possible usages.
+Gordian Envelope can be used to manage the secure development and distribution of open-source software, as well as the development of AI systems. There are a number of possible usages.
 
-Gordian Envelopes can securely and accurately transmit complex data structures, such as software source code, AI training sets, and model data, between members of a development team and other stakeholders. This helps to ensure that the integrity of the code or models is maintained throughout the software development life-cycle and that only authorized individuals have access to the potentially sensitive data. Though ensuring the validity of software libraries has been a known problem for years, maintaining valid, high-quality AI training sets is a newer issue that requires its own options for independent verification and auditing — options that can be supported by Gordian Envelope.
+Gordian Envelope can securely and accurately transmit complex data structures, such as software source code, AI training sets, and model data, between members of a development team and other stakeholders. This helps to ensure that the integrity of the code or models is maintained throughout the software development life-cycle and that only authorized individuals have access to the potentially sensitive data. Though ensuring the validity of software libraries has been a known problem for years, maintaining valid, high-quality AI training sets is a newer issue that requires its own options for independent verification and auditing — options that can be supported by Gordian Envelope.
 
-Gordian Envelopes can also be used to improve the security of the software supply chain. They can be used to securely transmit software packages and updates between different parties such as developers, distributors, and end users. This can help to prevent tampering or other security breaches and ensure that only verified, trustworthy software is distributed. Much of this support comes through robust authentication and signing mechanisms, allowing signing of releases by multiple parties, by dynamically changing parties, and even by anonymous parties.
+Gordian Envelope can also be used to improve the security of the software supply chain. They can be used to securely transmit software packages and updates between different parties such as developers, distributors, and end users. This can help to prevent tampering or other security breaches and ensure that only verified, trustworthy software is distributed. Much of this support comes through robust authentication and signing mechanisms, allowing signing of releases by multiple parties, by dynamically changing parties, and even by anonymous parties.
 
-Finally, Gordian Envelopes can support the reliability and availability of software infrastructure. For example, they can be used to securely transmit configuration data, cryptographic keys, and other information needed to maintain and operate software systems. This can help to ensure that systems are more reliable and properly configured and that data needed for backup and recovery is securely transmitted and stored.
+Finally, Gordian Envelope can support the reliability and availability of software infrastructure. For example, they can be used to securely transmit configuration data, cryptographic keys, and other information needed to maintain and operate software systems. This can help to ensure that systems are more reliable and properly configured and that data needed for backup and recovery is securely transmitted and stored.
 
-Overall, Gordian Envelopes offer a range of benefits for the software and AI industry, including improved security, reliability, and support for open-source collaboration and the deployment of AI systems.
+Overall, Gordian Envelope offer a range of benefits for the software and AI industry, including improved security, reliability, and support for open-source collaboration and the deployment of AI systems.
 
 ## Software Use Cases Table of Contents
 
 Envelopes can be used in a variety of collaborative forms. Following are examples of collaborative signing, where a group of individuals jointly declare the validity of an envelope to ensure the trustworthiness of a software release.  Two setse of use cases are each presented progressively. The first demonstrates how a group of users can jointly validate the contents of an envelope, even as the group evolves over time; and the second shows how an individual can chose first anonymity and then progressive disclosure.
 
-Gordian Envelopes are useful for signing software releases in large part because of their ability to combine signatures with metadata and to chain that information over time through multiple signed documents. This allows for the creation of a history of signatures, which can have a variety of applications. Elision can also add powerful privacy enhancements to traditional signing methodologies.
+Gordian Envelope is useful for signing software releases in large part because of its ability to combine signatures with metadata and to chain that information over time through multiple signed documents. This allows for the creation of a history of signatures, which can have a variety of applications. Elision can also add powerful privacy enhancements to traditional signing methodologies.
 
 * [Part One: Chained Signing](Software.md#part-one-chained-signing)
    * #1: [Casey Codifies Software Releases (Multiple Signatures, Structured Data)](Software.md#1-casey-codifies-software-releases-multiple-signatures-structured-data)
@@ -51,9 +51,9 @@ This set of progressive use cases describes how a user can structure and sign da
 
 The possibility of malicious actors injecting code into software is a [prime attack vector](https://github.com/WebOfTrustInfo/rwot11-the-hague/blob/master/final-documents/taking-out-the-crud-five-fabulous-did-attacks.md#1-create-the-did-creation-switcharoo), especially on the modern internet with its open-source repositories. Thus, checksumming and signing sotware releases has become increasingly important. Unfortunately, it remains very ad hoc, with styles of release varying widely and information often split among many files.
 
-Casey is the project head for Blockchain Everyday's Gordian Envelope. He decides on a methodology for releases where he'll store all of the release information in a single Gordian Envelope with regularized data and then have the engineers sign that data. He also wants to do his best to automate validation of the envelope data, since he knows that will make it more likely that the data is actually checked. He'll provide some bootstrapping information in the first Envelope to support validation, and then link later software releases to this initial one, allowing for programmatic validation.
+Casey is the project head for Blockchain Everyday's Gordian Envelope. He decides on a methodology for releases where he'll store all of the release information in a single envelope with regularized data and then have the engineers sign that data. He also wants to do his best to automate validation of the envelope data, since he knows that will make it more likely that the data is actually checked. He'll provide some bootstrapping information in the first envelope to support validation, and then link later software releases to this initial one, allowing for programmatic validation.
 
-A precise and carefully considered structure is the foundation of the software-release information. Casey fills in an Envelope with a list of all the files, a list of all the signers, data on each, and some additional notes:
+A precise and carefully considered structure is the foundation of the software-release information. Casey fills in an envelope with a list of all the files, a list of all the signers, data on each, and some additional notes:
 
 ```
 "Gordian Envelope 1.0.0" [
@@ -189,7 +189,7 @@ graph LR
     linkStyle 27 stroke:#55f,stroke-width:2.0px
 
 ```
-Since this is the initial release of the Envelope, no one knows whether the signers can be trusted or not. Casey bootstraps the envelope by adding `signerInfo` hints, which tell validators where they can go to get more information about the included public keys. As usual, validators will then have to thoughtfully address the trustworthiness of that information.
+Since this is the initial release of the envelope, no one knows whether the signers can be trusted or not. Casey bootstraps the envelope by adding `signerInfo` hints, which tell validators where they can go to get more information about the included public keys. As usual, validators will then have to thoughtfully address the trustworthiness of that information.
 
 ```
 "Gordian Envelope 1.0.0" [
@@ -386,7 +386,7 @@ graph LR
     linkStyle 40 stroke:green,stroke-width:2.0px
     linkStyle 41 stroke:#55f,stroke-width:2.0px
 ```
-Of course, one more thing is necessary to make the `fileInfo` trustworthy: the Envelope must be signed. Casey's lead developers, Bill and Omar, each provide a signature, creating a group verification that can be checked against either signature (or both).
+Of course, one more thing is necessary to make the `fileInfo` trustworthy: the envelope must be signed. Casey's lead developers, Bill and Omar, each provide a signature, creating a group verification that can be checked against either signature (or both).
 
 In order for those signatures to apply to the entire envelope, the envelope must first be wrapped; because signatures are assertions, they'd otherwise just apply to the subject, "Gordian Envelope 1.0.0", which wouldn't be that useful! After wrapping the envelope, both Bill and Omar can sign.
 ```
@@ -628,9 +628,9 @@ graph LR
 
 Casey's plan for bootstrapping the validation of Blockchain Everyday's Gordian Envelope should be sufficient for most users of the software. However, Blockchain Everyday soon discovers that there are corporations that aren't willing to use the software based solely on the public-key-infrastructure (PKI) information derived from individual GitHub accounts. They want the validation of a company that they can look up in Dun & Bradstreet.
 
-Blockchain Everyday doesn't want to reissue the existing release information, but Gordian Envelopes can be repackaged by any holder. That allows Blockchain Everyday to take the release information that Casey registered with GitHub, add more data, sign it themselves, and then publish it through their own website. Similarly, if users of Gordian Envelope were incorporating the software into software libraries _they too_ could repackage either Casey or Blockchain Everyday's Envelope and add their own seal to it before passing it on their customers! (It's Envelopes all the way down.)
+Blockchain Everyday doesn't want to reissue the existing release information, but envelopes can be repackaged by any holder. That allows Blockchain Everyday to take the release information that Casey registered with GitHub, add more data, sign it themselves, and then publish it through their own website. Similarly, if users of Gordian Envelope were incorporating the software into software libraries _they too_ could repackage either Casey or Blockchain Everyday's envelope and add their own seal to it before passing it on their customers! (It's envelopes all the way down.)
 
-Blockchain Everday initially produces an Envelope containing their information:
+Blockchain Everday initially produces an envelope containing their information:
 ```
 "Blockchain Everyday" [
     "dunsID": "000000000"
@@ -709,7 +709,7 @@ graph LR
     linkStyle 14 stroke:green,stroke-width:2.0px
     linkStyle 15 stroke:#55f,stroke-width:2.0px
 ```
-They then wrap the 1.0.0 release information and add on the Envelope with their details using a `certifiedBy` predicate.
+They then wrap the 1.0.0 release information and add on the envelope with their details using a `certifiedBy` predicate.
 ```
 {
     {
@@ -1393,7 +1393,7 @@ By signing Casey's release, Blockchain Everyday has created a new root of trust 
 
 Because Casey (and/or Blockchain Everyday) has established a root of trust with the initial release of Gordian Envelope, future releases can now be published without the need to reestablish the signers. This is done by including links to previous releases in each envelope. As long as users stored previous envelopes and recorded their validation, they will know that they can trust the new envelope because its still being signed with the private keys linked to the pubkeys from that initial release.
 
-The Gordian Envelope for a new release looks much like that for a previous release, with the addition of a `previousRelease` link and the removal of the `signerInfo` (which appeared when the signers debuted in Gordian Envelope 1.0.0) and can be rediscovered by chaining `previousRelease` links.
+The envelope for a new release looks much like that for a previous release, with the addition of a `previousRelease` link and the removal of the `signerInfo` (which appeared when the signers debuted in Gordian Envelope 1.0.0) and can be rediscovered by chaining `previousRelease` links.
 ```
 "Gordian Envelope 1.0.1" [
     "fileInfo": "gordian-envelope-1.0.1.dm" [
@@ -1732,9 +1732,9 @@ More complexity is required only if the previous envelope were not kept. In this
 
 > _Problem Solved:_ Casey needs to affirm compliance with a consent resolution in each release.
 
-The massive success of Gordian Envelope allows Blockchain Everyday to purchase GoodGossip. Unfortunately, GoodGossip was under a consent decree with the FTC due to a previous privacy breach. Because Envelope incorporates a bit of GoodGossip's technology, that means that Blockchain Everday must now attest to compliance with the consent decree within each of their Gordian Envelope releases for the next year (at which point the resolution comes to an end!).
+The massive success of Gordian Envelope allows Blockchain Everyday to purchase GoodGossip. Unfortunately, GoodGossip was under a consent decree with the FTC due to a previous privacy breach. Because Gordian Envelope incorporates a bit of GoodGossip's technology, that means that Blockchain Everday must now attest to compliance with the consent decree within each of their Gordian Envelope releases for the next year (at which point the resolution comes to an end!).
 
-This is easy to do with Gordian Envelope because metadata such as attestations can be added to any new envelope. As compliance officer, Casey will just need to verify compliance for each release and then attest to it through the creation of a signed envelope; he'll then ask for that attestation to be added to the main Gordian Envelope for the release. It can then be cleanly incorporated into the structured release information.
+This is easy to do with Gordian Envelope because metadata such as attestations can be added to any new envelope. As compliance officer, Casey will just need to verify compliance for each release and then attest to it through the creation of a signed envelope; he'll then ask for that attestation to be added to the main envelope for the release. It can then be cleanly incorporated into the structured release information.
 
 Casey creates a sub-envelope that notes the existence of the FTC consent decree:
 ```
@@ -2208,9 +2208,9 @@ Note the use of the predicate `complianceCheck` to incorporate Casey's attestati
 ```
 If a predicate like `isCompliant` were instead used, that might mislead readers into thinking that Casey stated something that he didn't. All that Casey attested to is knowledge of the FTC Consent, that he was the verifier, and that he `verifiedFor` a specific image, designated by a SHA hash.
 
-Attestations can be tricky: an Envelope creator must carefully think about what's getting signed and what's not!
+Attestations can be tricky: an envelope creator must carefully think about what's getting signed and what's not!
 
-A final version of the Envelope will also include the normal signatures by Bill and Omar:
+A final version of the envelope will also include the normal signatures by Bill and Omar:
 ```
 {
     "Gordian Envelope 1.1.0" [
@@ -2504,7 +2504,7 @@ graph LR
 
 A few years on, Bill leaves software programming for a lucrative career in television and lectures. Though Omar is maintaining the software on his own at this point, Casey wants to ensure that the software still is signed by multiple parties to allow for more robust validation. So he takes over as release manager, checking the software prior to release and adding his own signature.
  
-An ordinary validator will be able to verify that one of the signatures matches a public key he has in his saved Envelope from release 1.7.2. Automatic validation! This will then allow for a continued chain of validation going forward. If Casey produces 1.7.4 on his own, because Omar is out sick, validators can see that Casey's public key was in 1.7.3, signed by Omar, so they know the new release is safe.
+An ordinary validator will be able to verify that one of the signatures matches a public key he has in his saved envelope from release 1.7.2. Automatic validation! This will then allow for a continued chain of validation going forward. If Casey produces 1.7.4 on his own, because Omar is out sick, validators can see that Casey's public key was in 1.7.3, signed by Omar, so they know the new release is safe.
 
 A more strict validator might instead validate the `signerInfo` for Casey themselves. Even if they miss 1.7.3, they'll be able to chain back from any later release until they find the initial one with the `signerInfo`.
 
