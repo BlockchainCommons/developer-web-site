@@ -153,7 +153,7 @@ dcbor:
 envelope:
   - title: Gordian Envelope
     children:
-    - title: "Intro to Envelopes"
+    - title: "Intro to Envelope"
       url: /envelope/
     - title: "Executive Summary"
       url: /envelope/summary/
