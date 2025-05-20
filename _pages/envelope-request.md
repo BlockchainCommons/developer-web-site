@@ -14,11 +14,11 @@ sidebar:
   nav: envelopereq
 ---
 
-[Gordian Envelope](/envelope/) includes request and response functionality: one user can issue an Envelope requesting certain information or certain actions and then another user can respond to that request with the data. These functions are important for enabling interoperability and automating complex or error-prone usage of digital assets.
+[Gordian Envelope](/envelope/) includes request and response functionality: one user can issue an envelope requesting certain information or certain actions and then another user can respond to that request with the data. These functions are important for enabling interoperability and automating complex or error-prone usage of digital assets.
 
 ## Implementation Guide for Requests & Responses
 
-Please see the [complete Implementation Guide](https://github.com/BlockchainCommons/Research/blob/master/papers/bcr-2024-004-request.md) in our Blockchain Commons Research depo for the specifications of using Requests & Responses in Gordian Envelopes. 
+Please see the [complete Implementation Guide](https://github.com/BlockchainCommons/Research/blob/master/papers/bcr-2024-004-request.md) in our Blockchain Commons Research depo for the specifications of using Requests & Responses in Gordian Envelope. 
 
 ## Best Practices for Request & Response
 
