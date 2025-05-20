@@ -39,7 +39,7 @@ development and deployment of Gordian Envelope via regular monthly
 meetings; [subscribe](https://www.blockchaincommons.com/subscribe/) to our announcements-only mailing list or join our Signal channel if you'd like to get involved. You can also
 [contact us](mailto:team@blockchaincommons.com) if you'd prefer to get more information first.  
 
-Envelope is also on the experimental track as an
+Gordian Envelope is also on the experimental track as an
 [Informational Draft for the
 IETF](https://blockchaincommons.github.io/WIPs-IETF-draft-envelope/draft-mcnally-envelope.html).
 Further, ongoing discussions are occurring with the W3C Credentials
@@ -68,7 +68,7 @@ These capabilities include:
     is fully recursive: any part of an envelope can actually be
     another envelope.
 * **Envelopes can have a seal.** A signature can be made for the
-    contents of a Gordian Envelope, verifying their authenticity and
+    contents of an envelope, verifying their authenticity and
     that they haven't been changed.
 * **Envelopes can be certified.** Beyond just guarding against
     changes, a Gordian Envelope signature can also act as a
