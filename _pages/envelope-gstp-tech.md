@@ -18,7 +18,7 @@ _The following step-by-step process demonstrates how GSTP messages are created._
 
 ## Step 1: Build a Request/Response Message
 
-GSTP messages are built as [Request/Response messages](/envelope/request/) using [Gordian Envelope](/envelope/). A Request/Response message basically means that a sender is asking a remote Envelope recipient to do something and return the results. 
+GSTP messages are built as [Request/Response messages](/envelope/request/) using [Gordian Envelope](/envelope/). A Request/Response message basically means that a sender is asking a remote envelope recipient to do something and return the results. 
 
 <img src="/assets/images/gstp-ex-1.jpeg" style="border: 1px solid gray !important">
 
@@ -48,19 +48,19 @@ The sender also copies over the continuation sent by the recipient in a previous
 
 ## Step 6: Wrap the Content
 
-All Envelope assertions apply to a subject. That means that whenever you want something to apply to the entire contents of an Envelope, and not just the subject, you need to wrap it, essentially creating a new Envelope with the entirety of the previous Envelope as the subject. Wrapping the envelope-to-date is the next step.
+All Gordian Envelope assertions apply to a subject. That means that whenever you want something to apply to the entire contents of an envelope, and not just the subject, you need to wrap it, essentially creating a new envelope with the entirety of the previous envelope as the subject. Wrapping the envelope-to-date is the next step.
 
 <img src="/assets/images/gstp-ex-6.jpeg" style="border: 1px solid gray !important">
 
 ## Step 7: Sign the Wrapped Envelope
 
-With the Envelope now wrapped, the sender can sign the entire contents with the private key matching the public key that's included in the contents.
+With the envelope now wrapped, the sender can sign the entire contents with the private key matching the public key that's included in the contents.
 
 <img src="/assets/images/gstp-ex-7.jpeg" style="border: 1px solid gray !important">
 
 ## Step 8: Wrap the Envelope Again
 
-The Envelope is now wrapped a second time. This is so that when encryption is applied, it applies to the entire Envelope. Otherwise, it would only apply to the subject, which does not include the brand-new signature. This wrapping creates the foundation for the Encryption layer.
+The envelope is now wrapped a second time. This is so that when encryption is applied, it applies to the entire envelope. Otherwise, it would only apply to the subject, which does not include the brand-new signature. This wrapping creates the foundation for the Encryption layer.
 
 <img src="/assets/images/gstp-ex-8.jpeg" style="border: 1px solid gray !important">
 
