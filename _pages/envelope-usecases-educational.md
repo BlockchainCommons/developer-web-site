@@ -14,11 +14,11 @@ sidebar:
   nav: envelopeuse
 ---
 
-Gordian Envelopes can be used in educational credential-issuing industries to encode and transmit sensitive student  information. This allows authorized parties, such as potential employers or other educational institutions, to access only the information they are authorized to view while still preserving the privacy and security of the rest of the data.
+Gordian Envelope can be used in educational credential-issuing industries to encode and transmit sensitive student  information. This allows authorized parties, such as potential employers or other educational institutions, to access only the information they are authorized to view while still preserving the privacy and security of the rest of the data.
 
-For example, a student's transcript could be encoded and transmitted using a Gordian Envelope, with portions of that data elided, to allow potential employers to verify some of the student's educational qualifications without having access to the student's full transcript or other sensitive information. Similarly, a credential such as a certification or license could be encoded and transmitted using a Gordian Envelope, to allow employers or regulators to verify the credential without having access to irrelevant details. Seals and signatures can additionally be used to verify the authenticity and provenance of a student's credentials and to ensure that they have not been tampered with. This adds an extra layer of security and trust to the information transmitted using Gordian Envelopes. 
+For example, a student's transcript could be encoded and transmitted using Gordian Envelope, with portions of that data elided, to allow potential employers to verify some of the student's educational qualifications without having access to the student's full transcript or other sensitive information. Similarly, a credential such as a certification or license could be encoded and transmitted using Gordian Envelope, to allow employers or regulators to verify the credential without having access to irrelevant details. Seals and signatures can additionally be used to verify the authenticity and provenance of a student's credentials and to ensure that they have not been tampered with. This adds an extra layer of security and trust to the information transmitted using Gordian Envelope. 
 
-Overall, Gordian Envelopes offer a flexible and privacy-enhancing solution for the transmission and storage of sensitive educational credential information, creating opportunities to transmit sensitive information in restrictive ways.
+Overall, Gordian Envelope offers a flexible and privacy-enhancing solution for the transmission and storage of sensitive educational credential information, creating opportunities to transmit sensitive information in restrictive ways.
 
 ## The Dangers of Digital Credentials in Education
 
@@ -30,9 +30,9 @@ Holder-based elision lets the students take control of what is revealed, while a
 
 ## Educational Use Case Table of Contents
 
-The following set of use cases demonstrates how Gordian Envelopes can store educational credentials. Individual categories are presented progressively: each use case within a section builds on the previous one by demonstrating a new capability. The first set refers to Danika Kaschak, an electrical engineer, and her official credentials. A standalone use case then focuses on the more ad-hoc credentials possible through a Web of Trust. A final set of use cases demonstrates the distribution of educational credentials with a different priority: herd privacy.
+The following set of use cases demonstrates how Gordian Envelope can store educational credentials. Individual categories are presented progressively: each use case within a section builds on the previous one by demonstrating a new capability. The first set refers to Danika Kaschak, an electrical engineer, and her official credentials. A standalone use case then focuses on the more ad-hoc credentials possible through a Web of Trust. A final set of use cases demonstrates the distribution of educational credentials with a different priority: herd privacy.
 
-Gordian Envelopes are useful for credentials in large part because of their ability to support advanced features such as elision, peer-based attestation, and herd privacy. They go far beyond just presenting validatable credentials to allowing the individual holders to decide what gets shown, how, and in what context. They thus add self-sovereign control to the standard rubric of Verifiable Credentials.
+Gordian Envelope is useful for credentials in large part because of their ability to support advanced features such as elision, peer-based attestation, and herd privacy. They go far beyond just presenting validatable credentials to allowing the individual holders to decide what gets shown, how, and in what context. They thus add self-sovereign control to the standard rubric of Verifiable Credentials.
 
 * [Part One: Official Credentials](Educational.md#part-one-official-credentials)
    * #1: [Danika Proves Her Worth (Credentials, Signature)](Educational.md#1-danika-proves-her-worth-credentials-signature)
@@ -45,7 +45,7 @@ Gordian Envelopes are useful for credentials in large part because of their abil
    * #6: [Paul Proves His Proficiency with Improved Privacy (Herd Privacy with Non-Correlation)](Educational.md#6-paul-proves-proficiency-with-improved-privacy-herd-privacy-with-non-correlation)
    * #7: [Burton Bank Avoids Toxicity (Herd Privacy with Selective Correlation)](Educational.md#7-burton-bank-avoids-toxicity-herd-privacy-with-selective-correlation)
  
-_The Danika Kaschak examples in #1 through #3 are drawn directly from [07-Elision-Example](https://github.com/BlockchainCommons/envelope-cli-swift/blob/master/Docs/7-VC-ELISION-EXAMPLE.md), one of the documents for the [Envelope-CLI app](https://github.com/BlockchainCommons/envelope-cli-swift). The Burton Bank example is drawn from a use case in a [Selective Disclosure white paper](https://github.com/WebOfTrustInfo/rwot11-the-hague/blob/master/draft-documents/selective-correlation.md) in process from Rebooting the Web of Trust XI._
+_The Danika Kaschak examples in #1 through #3 are drawn directly from [VC Ellision Example](https://github.com/BlockchainCommons/bc-envelope-cli-rust/blob/master/docs/VCElisionExample.md), one of the documents for the [Envelope-CLI app](https://github.com/BlockchainCommons/bc-envelope-cli-rust/tree/master). The Burton Bank example is drawn from a use case in an unfinished [Selective Disclosure white paper](https://github.com/WebOfTrustInfo/rwot11-the-hague/blob/master/draft-documents/selective-correlation.md) from Rebooting the Web of Trust XI._
 
 ## Part One: Official Credentials
 
@@ -60,7 +60,7 @@ This first set of use cases demonstrates how to create (and sign) simple credent
 
 Danika is a credentialed electrical engineer who maintains her certification through continuing education. In past years she would have listed her credentials and then potential employers would have had to go to the certification board to verify them. This was ideal for no one, because most employers didn't check certifications (leaving them vulnerable), and if they did, the check was beholden to the certification board, who might fail to verify valid credentials for any number of reasons.
 
-Enter the new world of digital credentials. The certification board can now produce a signed version of Danika's credentials that lists all of her professional development and continuing employment using a Gordian Envelope. There's no need to contact the cerification board afterward because Danika can produce the credential and it can be validated by compared the signature to the board's public key, stored in Public Key Infrastructure (PKI). Danika can also prove that the credential belongs to her by signing something with the private key linked to the public key stored in the Envelope.
+Enter the new world of digital credentials. The certification board can now produce a signed version of Danika's credentials that lists all of her professional development and continuing employment using Gordian Envelope. There's no need to contact the cerification board afterward because Danika can produce the credential and it can be validated by compared the signature to the board's public key, stored in Public Key Infrastructure (PKI). Danika can also prove that the credential belongs to her by signing something with the private key linked to the public key stored in the envelope.
 
 To create the credential, Danika submits information to the Electrical Engineering Board listing her experience:
 
@@ -260,7 +260,7 @@ graph LR
     linkStyle 42 stroke:#55f,stroke-width:2.0px
 
 ```
-The certification board validates the information submitted by Danika, and then wraps the Envelope and signs it before returning it to Danika. This is what gives the Envelope its power. Because it's signed, no one now needs to contact the board (as long as their public key is indeed stored in a PKI, or at some other well-known site, to allow for validation).
+The certification board validates the information submitted by Danika, and then wraps the envelope and signs it before returning it to Danika. This is what gives the envelope its power. Because it's signed, no one now needs to contact the board (as long as their public key is indeed stored in a PKI, or at some other well-known site, to allow for validation).
 ```
 {
     CID(4676635a) [
@@ -507,7 +507,7 @@ Overall, just this first, simple educational use case offers strong benefits, be
 
 Danika is very confident in her prowess as an electrical engineer, but she fears prejudice when she seeks employment. Primarily, she is concerned about prejudice over her Eastern Europe name, but she also fears prejudice over the recent date of her certification. As a result, she wants to elide (omit) that information in her credential, as well as other details that she considers irrelevent to her application.
 
-Gordian Envelope gives any holder of a credential the ability to elide information from a credential. Danika simply needs to use an application such as `envelope-cli` that removes specific content. Gordian Envelope is designed so that this removal of information doesn't affect any of the digital hashes within the Envelope. As a result, the signature on the Envelope remains valid. Danika can still present the information and someone examining it can then assess the remaining information and verify that it's been signed, in this case by the certification board.
+Gordian Envelope gives any holder of a credential the ability to elide information from a credential. Danika simply needs to use an application such as [`envelope-cli`](https://github.com/BlockchainCommons/bc-envelope-cli-rust/tree/master) that removes specific content. Gordian Envelope is designed so that this removal of information doesn't affect any of the digital hashes within an envelope. As a result, the signature on the envelope remains valid. Danika can still present the information and someone examining it can then assess the remaining information and verify that it's been signed, in this case by the certification board.
 
 When Danika elides her envelope, it shows that information has been removed:
 ```
@@ -652,13 +652,13 @@ After submitting her credentials, Danika supplements them with excellent scores 
 * **Use Case:** Thunder & Lightning Inc. needs to repackage Danika's credentials for their customers.
 * **Independence Benefits:** Any holder of credentials can repackage them for appropriate use, not just the subject. That allows credentials to be more widely used and for a variety of parties to be more confident about the credentials of workers.
 * **Privacy Benefits:** Danika and Thunder & Lightning can work together to produce new elided credentials that match only what's required by a third party, rather than having to continually reuse either the original, full credentials or the redacted versions forwarded on as part of Danika's application. This reduces data to the minimum required for any specific task.
-* **Openness Benefits:** Credentials that can be elided, passed on, re-signed, and otherwise updated by a variety of parties reveal that an open infrastructure underlies the use of Gordian Envelopes for credentials.
+* **Openness Benefits:** Credentials that can be elided, passed on, re-signed, and otherwise updated by a variety of parties reveal that an open infrastructure underlies the use of Gordian Envelope for credentials.
 
-Thunder & Lightning Inc. is ready to send Danika to a job site! To do so they must both reveal and affirm her credentials to the job-site supervisors. Even though they are neither the issuer nor the subject of Danika's educational credentials, Thunder & Lightning is able to produce their own version of those credentials based on the copy of the Gordian Envelope that they hold.
+Thunder & Lightning Inc. is ready to send Danika to a job site! To do so they must both reveal and affirm her credentials to the job-site supervisors. Even though they are neither the issuer nor the subject of Danika's educational credentials, Thunder & Lightning is able to produce their own version of those credentials based on the copy of the envelope that they hold.
 
-They want Danika's name in the credentials, so they must ask her for a copy of the credentials containing that information, but then they elide the rest of the information just like she did, using an application such as `envelope-cli`. This is one of the strengths of Gordian Envelope: each party who holds the Envelope (or even an already-elided form of the Envelope) can choose how to further elide it to match their own requirements and their own risk models. It allows for the exchange of credential data while holding to principles of Data Minimization.
+They want Danika's name in the credentials, so they must ask her for a copy of the credentials containing that information, but then they elide the rest of the information just like she did, using an application such as `envelope-cli`. This is one of the strengths of Gordian Envelope: each party who holds an envelope (or even an already-elided form of the envelope) can choose how to further elide it to match their own requirements and their own risk models. It allows for the exchange of credential data while holding to principles of Data Minimization.
 
-But a holder can do more than that: they can also add information. In this case, Thunder & Lightning wants to add details about Danika's work with them. The open specification for Gordian Envelopes allows them to do so by wrapping the original, signed information, adding content, and then putting another signature on top of that. The original certification information remains verified by the certification board, and the new employment information is verified by Thunder & Lightning.
+But a holder can do more than that: they can also add information. In this case, Thunder & Lightning wants to add details about Danika's work with them. The open specification for Gordian Envelope allows it to do so by wrapping the original, signed information, adding content, and then putting another signature on top of that. The original certification information remains verified by the certification board, and the new employment information is verified by Thunder & Lightning.
 
 Thunder & Lightning's elided version of Danika's certification reveals slightly different information than the previous version:
 ```
@@ -1405,7 +1405,7 @@ Danika and Thunder & Lightning have successfully minimized Danika's credential i
 
 ## Part Two: Web of Trust Credentials
 
-It can be relatively easy to validate official credentials from centralized authorities. However, Gordian Envelopes also allow for the issuance of peer-to-peer credentials by incorporating metadata that can aid in their validation.
+It can be relatively easy to validate official credentials from centralized authorities. However, Gordian Envelope also allows for the issuance of peer-to-peer credentials by incorporating metadata that can aid in their validation.
 
 ### 4. Omar Offers an Open Badge [Web of Trust Credentials]
 
@@ -1750,7 +1750,7 @@ It's not just that Jonathan and Omar were able to create this credential where n
 
 ## Part Three: Herd Privacy Credentials
 
-Educational credentials are usually presumed to be packaged in discrete Envelopes that identify a single user. However, some situations may benefit from conglomerating thousands of credentials in a single Envelope, giving each of those users privacy — even from the credential issuer! The following examples include a pair of progressive use cases showing how an internet user can benefit from herd privacy and then a single example demonstrating how a company can do so.
+Educational credentials are usually presumed to be packaged in discrete envelopes that identify a single user. However, some situations may benefit from conglomerating thousands of credentials in a single envelope, giving each of those users privacy — even from the credential issuer! The following examples include a pair of progressive use cases showing how an internet user can benefit from herd privacy and then a single example demonstrating how a company can do so.
 
 ### 5. Paul Privately Proves Proficiency [Herd Privacy]
 
@@ -1762,9 +1762,9 @@ Paul wants to get a credential showing proficiency in Gordian Envelope from Bloc
 
 Paul can take an online test in either Basic form (automated Q&A with a time limit) or Advanced form (Q&A with a live proctor on Zoom). He chooses the former, again for privacy reasons. After he succeeds at the test (50 out of 50, of course!), he needs to get his credential.
 
-At this point, most credential issuers would require Paul to give up an email address and then mail them the personal credential, but Blockchain Commons' privacy preserving methodology simply requires Paul to give them a self certifying identifier or some sort (for which he presumably controls the private key). They'll then embed that identifier in a very large Envelope with the credentials of everyone who succeeded at the test that month. (Paul must wait until the Envelope is generated before he can prove anything!)
+At this point, most credential issuers would require Paul to give up an email address and then mail them the personal credential, but Blockchain Commons' privacy preserving methodology simply requires Paul to give them a self certifying identifier or some sort (for which he presumably controls the private key). They'll then embed that identifier in a very large envelope with the credentials of everyone who succeeded at the test that month. (Paul must wait until the envelope is generated before he can prove anything!)
 
-At the end of the month, Blockchain Commons will create a large Gordian Envelope that contains the identifiers of everyone who passed their test that month, with a statement as to whether each DID `isBasic` or `isAdvanced`. However, it will be largely elided to protect everyone's privacy! Paul will then be able to create a simple proof that shows he's a member of the class ... but remains relatively anonymous until he does so.
+At the end of the month, Blockchain Commons will create a large envelope that contains the identifiers of everyone who passed their test that month, with a statement as to whether each DID `isBasic` or `isAdvanced`. However, it will be largely elided to protect everyone's privacy! Paul will then be able to create a simple proof that shows he's a member of the class ... but remains relatively anonymous until he does so.
 
 The following example shows a credential for a number of different participants. A real-life example would likely have hundreds of entries to ensure herd privacy, but that's reduced here for readability:
 ```
@@ -2168,7 +2168,7 @@ graph LR
     linkStyle 44 stroke:green,stroke-width:2.0px
     linkStyle 45 stroke:#55f,stroke-width:2.0px
 ```
-However, to create herd privacy, Blockchain Commons doesn't release the full Envelope. Instead, they release an elided version that only contains the certification information and signature.
+However, to create herd privacy, Blockchain Commons doesn't release the full envelope. Instead, they release an elided version that only contains the certification information and signature.
 ```
 {
     "Blockchain Commons Certifactions #13" [
@@ -2326,21 +2326,21 @@ Now, Paul can point to Blockchain Common's partially redacted tree of November 2
 
 More notably, Paul can decide never to reveal his CID, in which case it is at least somewhat difficult for anyone else to prove that Paul is a member of the group. 
 
-Mind you, because the tree is partially redacted, and because no particular attempt has been made to prevent correlation, it's possible that identifiers in the Envelope could be guessed (though someone would have to know a precise identifier to look for, which shouldn't occur if Paul has practiced proper ID hygeine). There are several ways this could be prevented. They all require Blockchain Commons to provide additional information to Paul, increasing the communication requirements (and thus potentially impacting privacy), but they add strong non-correlation defenses.
+Mind you, because the tree is partially redacted, and because no particular attempt has been made to prevent correlation, it's possible that identifiers in the envelope could be guessed (though someone would have to know a precise identifier to look for, which shouldn't occur if Paul has practiced proper ID hygeine). There are several ways this could be prevented. They all require Blockchain Commons to provide additional information to Paul, increasing the communication requirements (and thus potentially impacting privacy), but they add strong non-correlation defenses.
 
-1.) Blockchain Commons could choose to fully redact the Envelope, publishing only a top-level hash. They would then supply Paul with a path to his lower-level hash by partially redacting the tree when he supplied them with his CID. Paul could then prove his presence in the Envelope with his digest and that path. If that path were to be more widely released, there would be the same correlation problems, but obviously they'd be lesser because it probably would never be widely published.
+1.) Blockchain Commons could choose to fully redact the envelope, publishing only a top-level hash. They would then supply Paul with a path to his lower-level hash by partially redacting the tree when he supplied them with his CID. Paul could then prove his presence in the envelope with his digest and that path. If that path were to be more widely released, there would be the same correlation problems, but obviously they'd be lesser because it probably would never be widely published.
 
-2.) Alternatively, Blockchain Commons could restructure the Envelope so that every 5 or 10 or 20 CIDs were placed in a subenvelope. Their publicly published proof would only show the hashes of these subenvelopes, which will be relatively impossible to correlate. Paul would then be able to request a path to his own subenvelope. Even if this path were more widely released, there would only be a possibility of correlation for the other CIDs that happen to be in that subenvelope. (This example is shown in the next use case.)
+2.) Alternatively, Blockchain Commons could restructure the envelope so that every 5 or 10 or 20 CIDs were placed in a subenvelope. Their publicly published proof would only show the hashes of these subenvelopes, which will be relatively impossible to correlate. Paul would then be able to request a path to his own subenvelope. Even if this path were more widely released, there would only be a possibility of correlation for the other CIDs that happen to be in that subenvelope. (This example is shown in the next use case.)
 
-3.) Finally, Blockchain Commons could choose to salt every CID in the Envelope. They would then have to supply Paul with his salt. (The twin limitations here are that salting everything dramatically increases the size of the Envelope and that Paul then has a piece of data that he can't lose).
+3.) Finally, Blockchain Commons could choose to salt every CID in the envelope. They would then have to supply Paul with his salt. (The twin limitations here are that salting everything dramatically increases the size of the envelope and that Paul then has a piece of data that he can't lose).
 
 ### 6. Paul Proves Proficiency with Improved Privacy [Herd Privacy with Non-Correlation]
 
 * **Use Case:** Blockchain Commons wants to improve the herd privacy of its test takers by reducing correlation.
 * **Independence Benefits:** Though Paul will have to engage in additional back-and-forth with Blockchain Commons to receive a proof, once he has it in hand, he has total independence in the control of his credential, just as with simpler use cases.
-* **Privacy Benefits:** Through a better structure for an envelope, fewer low-level hashes are revealed, making it much harder to "guess" the source of any hash. This is a largely administrative process that requires good Envelope design on the part of an issue.
+* **Privacy Benefits:** Through a better structure for an envelope, fewer low-level hashes are revealed, making it much harder to "guess" the source of any hash. This is a largely administrative process that requires good envelope design on the part of an issue.
 
-Blockchain Commons is aware of the correlation possibilities in their test-result Envelopes. They choose a middle road to dramatically reduce correlation: they store every 5 CIDs in a separate sub-Envelope. (A real-life example might instead have clumps of 10 or 20 CIDs, but again this one is reduced in size to make it manageable.) Paul will then be able to request a path to his specific envelope, which he can combine with an assertion and the published top-level hashes of the envelope to, once more, show his participation. However the published hashes, which just contain the subenvelope, are more-or-less impossible to correlate.
+Blockchain Commons is aware of the correlation possibilities in their test-result envelopes. They choose a middle road to dramatically reduce correlation: they store every 5 CIDs in a separate sub-envelope. (A real-life example might instead have clumps of 10 or 20 CIDs, but again this one is reduced in size to make it manageable.) Paul will then be able to request a path to his specific envelope, which he can combine with an assertion and the published top-level hashes of the envelope to, once more, show his participation. However the published hashes, which just contain the subenvelope, are more-or-less impossible to correlate.
 
 The envelope of certifications is bundled in a new, hierarchical manner:
 ```
@@ -2814,7 +2814,7 @@ graph LR
     linkStyle 52 stroke:green,stroke-width:2.0px
     linkStyle 53 stroke:#55f,stroke-width:2.0px
 ```
-As before, Blockchain Commons publishes a partially elided Envelope with the foundational information about the test results.
+As before, Blockchain Commons publishes a partially elided envelope with the foundational information about the test results.
 ```
 {
     "Blockchain Commons Certifactions #13A" [
@@ -2924,7 +2924,7 @@ graph LR
     linkStyle 0 stroke:green,stroke-width:2.0px
     linkStyle 1 stroke:#55f,stroke-width:2.0px
 ```
-However, due to the fact that the contents of the bundles of identifiers remain hidden, that's not enough. Paul needs to hand his assertion to Blockchain Commons, and then they need to send back a proof that reveals just enough of the Envelope structure to open up the bundle that contains his identifier. Though this is more back-and-forth than in the previous Use Case, it can still be done in a privacy preserving way, such as Paul requesting the Proof over a Tor connection.
+However, due to the fact that the contents of the bundles of identifiers remain hidden, that's not enough. Paul needs to hand his assertion to Blockchain Commons, and then they need to send back a proof that reveals just enough of the envelope structure to open up the bundle that contains his identifier. Though this is more back-and-forth than in the previous Use Case, it can still be done in a privacy preserving way, such as Paul requesting the Proof over a Tor connection.
 
 Here's what the proof looks like. 
 ```
@@ -3551,6 +3551,6 @@ graph LR
     linkStyle 7 stroke:green,stroke-width:2.0px
     linkStyle 8 stroke:#55f,stroke-width:2.0px
 ```
-If the hash for the assertion (`0fbe062c` for `Gray`) appears in the elided Gordian Envelope, then the Bank knows that they can update their records to show that loan holder has graduated.
+If the hash for the assertion (`0fbe062c` for `Gray`) appears in the elided envelope, then the Bank knows that they can update their records to show that loan holder has graduated.
 
 And, this was all done without exchanging toxic information, but instead _depending_ on selective correlation. Only someone who already held the information could possibly correlate the hash back to its original data! As a result, data was entirely minimized! 
