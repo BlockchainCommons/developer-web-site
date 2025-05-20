@@ -14,19 +14,19 @@ sidebar:
   nav: envelopeuse
 ---
 
-In the financial industry, Gordian Envelopes can be used to encode and transmit sensitive financial information while preserving their complex data structures and ensuring privacy. This can include personally controlled (self-sovereign) assets such as seeds and keys as well as corporate assets such as contracts, transaction records, and audit reports. Gordian Envelopes offer protection for these assets not just through their ability to encrypt data, but also through their ability to elide or externally reference only certain parts of the Envelope. This can support both fair competition and cooperation in the financial industry through the use of [progressive trust](https://www.blockchaincommons.com/musings/musings-progressive-trust/) and selective disclosure. 
+In the financial industry, Gordian Envelope can be used to encode and transmit sensitive financial information while preserving their complex data structures and ensuring privacy. This can include personally controlled (self-sovereign) assets such as seeds and keys as well as corporate assets such as contracts, transaction records, and audit reports. Gordian Envelope offers protection for these assets not just through their ability to encrypt data, but also through their ability to elide or externally reference only certain parts of an envelope. This can support both fair competition and cooperation in the financial industry through the use of [progressive trust](https://www.blockchaincommons.com/musings/musings-progressive-trust/) and selective disclosure. 
 
-For example, two financial institutions collaborating on a project could use Gordian Envelopes to share the information they need for the project, while still protecting their competitive advantage and keeping their data secure. Alternatively, an individual could encrypt his most sensitive information (such as a seed) while maintaining other referential data unencrypted.
+For example, two financial institutions collaborating on a project could use Gordian Envelope to share the information they need for the project, while still protecting their competitive advantage and keeping their data secure. Alternatively, an individual could encrypt his most sensitive information (such as a seed) while maintaining other referential data unencrypted.
 
-The ability of Gordian Envelopes to have different recipients open them in different ways is also useful in the financial industry, because it allows different parties to access the information for different purposes. For example, financial institutions could share data with aligned partners, each of whom have their own private keys, while an individual protecting their personal assets could back it up himself with a secret sharding scheming while also giving a secondary key to his attorney.
+The ability of Gordian Envelope to have different recipients open them in different ways is also useful in the financial industry, because it allows different parties to access the information for different purposes. For example, financial institutions could share data with aligned partners, each of whom have their own private keys, while an individual protecting their personal assets could back it up himself with a secret sharding scheming while also giving a secondary key to his attorney.
 
-Overall, Gordian Envelopes offer a flexible and privacy-enhancing solution for the transmission and storage of sensitive financial information.
+Overall, Gordian Envelope offers a flexible and privacy-enhancing solution for the transmission and storage of sensitive financial information.
 
 ## Financal Use Cases Table of Contents
 
-The following set of use cases currently focuses on using Gordian Envelopes to protect digital assets controlled in an individual, self-sovereign way. They are presented progressively: each use case builds on the previous one by demonstrating a new capability. They all refer to the same user (Sam) with the same self-sovereign storage needs.
+The following set of use cases currently focuses on using Gordian Envelope to protect digital assets controlled in an individual, self-sovereign way. They are presented progressively: each use case builds on the previous one by demonstrating a new capability. They all refer to the same user (Sam) with the same self-sovereign storage needs.
 
-Gordian Envelopes are powerful for the self-sovereign control of assets because they provide storage that is both resilient and secure. The security comes from the use of encryption in Envelopes while the resilience comes from Gordian Envelope's versatility in deciding what's encrypted and what's not, its ability to store high amounts of metadata, and its system of permits, which allow Envelopes to be opened in a wide variety of ways.
+Gordian Envelope is powerful for the self-sovereign control of assets because they provide storage that is both resilient and secure. The security comes from the use of encryption in envelopes while the resilience comes from Gordian Envelope's versatility in deciding what's encrypted and what's not, its ability to store high amounts of metadata, and its system of permits, which allow envelopes to be opened in a wide variety of ways.
 
 * [Part One: Self-Sovereign Storage of Secrets](Financial.md#part-one-self-sovereign-storage-of-secrets)
    * #1: [Sam Stores a Secret (Secure Storage with Metadata)](Financial.md#1-sam-stores-a-secret-secure-storage-with-metadata)
@@ -44,9 +44,9 @@ This first set of progressive use cases demonstrates how to store secret informa
 
 > _Problem Solved:_ Sam wants to securely and resiliently store data that he personally controls.
 
-Sam has too many keys! In order to organize them in a secure way, he plans to place each private key in an encrypted Gordian Envelope, indexed by the pubkey. But, he'll go beyond that and also add metadata to the secure storage mechanism; this will allow him to rebuild the private key if he loses the symmetric key he used to encrypt the Envelope!
+Sam has too many keys! In order to organize them in a secure way, he plans to place each private key in an encrypted Gordian Envelope, indexed by the pubkey. But, he'll go beyond that and also add metadata to the secure storage mechanism; this will allow him to rebuild the private key if he loses the symmetric key he used to encrypt the envelope!
 
-The basic Gordian Envelope just combines the key's `xpub` as its subject with its `xprv` as an object:
+This basic Gordian Envelope just combines the key's `xpub` as its subject with its `xprv` as an object:
 ```
 "xpub6CiXsHfXkeXW2GBijsfihd64i8nebEWgxTxEq7j2ntT3GpyGKrP4v6dnz7ZNiZufVavY6pPwLTvdiUWSFD7tbCMpb3dvkpUqPiMdh4BRrso" [
     "xprv": "xprv9yjBTn8dvGyCon7Fdr8iLV9LA6xABmnqbF2e2jKREYv4Q2e7nK4pNJKK8qrLMJNKHrNTyHUatP7TepCeTHPWv64HQShKfy6eNxUzDgStSBg"
@@ -76,7 +76,7 @@ graph LR
 ```
 Sam is planning to encrypt this private-key information with a single symmetric-encryption key, and he's aware of the dangers that causes for resilience: the symmetric key becomes a Single Point of Failure. 
 
-He can't get around that (yet) but he can use the structure of the Envelope to offer _other_ ways to rebuild his private keys. He adds a metadata hint to each Envelope: the `derivationPath` and the `seedDigest` of the seed used to create the keys. He does this by turning the `xprv` object into a new envelope containing the additional information as assertions.
+He can't get around that (yet) but he can use the structure of the envelope to offer _other_ ways to rebuild his private keys. He adds a metadata hint to each envelope: the `derivationPath` and the `seedDigest` of the seed used to create the keys. He does this by turning the `xprv` object into a new envelope containing the additional information as assertions.
 
 ```
 "xpub6CiXsHfXkeXW2GBijsfihd64i8nebEWgxTxEq7j2ntT3GpyGKrP4v6dnz7ZNiZufVavY6pPwLTvdiUWSFD7tbCMpb3dvkpUq…" [
@@ -194,13 +194,13 @@ graph LR
     linkStyle 9 stroke:green,stroke-width:2.0px
     linkStyle 10 stroke:#55f,stroke-width:2.0px
 ```
-Now, Sam can rapidly look up his many `xprvs` through their `xpubs` while storing them securely. If he ever loses the symmetric key that he used to encrypt his Gordian Envelopes, he can regenerate the private keys from the separately stored seeds, based on the `seedDigest` and `derivationPath` information.
+Now, Sam can rapidly look up his many `xprvs` through their `xpubs` while storing them securely. If he ever loses the symmetric key that he used to encrypt his envelopes, he can regenerate the private keys from the separately stored seeds, based on the `seedDigest` and `derivationPath` information.
 
 ### #2. Sam is Salty about Compliance (Non-Correlation)
 
 > _Problem Solved:_ Sam needs to avoid potential correlation of his data through hashes when selective disclosure is required.
 
-Sam foresees a near-future where compliance regulations will require him to prove ownership of his private key. This will likely require selective disclosure. Sam is worried about the possibility of correlation for the additional data he's stored in his Gordian Envelope, even when it's elided.
+Sam foresees a near-future where compliance regulations will require him to prove ownership of his private key. This will likely require selective disclosure. Sam is worried about the possibility of correlation for the additional data he's stored in his envelope, even when it's elided.
 
 The problem is that standard word like "derivationPath" or "seedDigest" or "m/44h/0h/0h" might be guessable by brute-forcing against the hash of the data. Fortunately, the problem is solvable by adding salt to those three elements. This adds a large random number as an assertion for each standard words. They can no longer be guessed. Even if their hashes need to be revealed as part of a compliance disclosure, the contents will remain secret.
 
@@ -328,7 +328,7 @@ This requires "wrapping" the `xprv` information from the previous envelope, whic
 
 (In the process of this adjusment, Sam also removes the salts he previously added, since eliding of the additional data is no longer an issue, and it makes the example clearer.)
 
-Here's what the Gordian Envelope looked like originally:
+Here's what the envelope looked like originally:
 ```
 "xpub6CiXsHfXkeXW2GBijsfihd64i8nebEWgxTxEq7j2ntT3GpyGKrP4v6dnz7ZNiZufVavY6pPwLTvdiUWSFD7tbCMpb3dvkpUq…" [
     "xprv": "xprv9yjBTn8dvGyCon7Fdr8iLV9LA6xABmnqbF2e2jKREYv4Q2e7nK4pNJKK8qrLMJNKHrNTyHUatP7TepCeTHPWv64HQShKfy6e…" [
@@ -430,7 +430,7 @@ graph LR
     linkStyle 2 stroke:green,stroke-width:2.0px
     linkStyle 3 stroke:#55f,stroke-width:2.0px
 ```
-Of course, if Sam loses the symmetric key used to encrypt his  Gordian Envelope without any metadata backup, he's going to have a very bad day ...
+Of course, if Sam loses the symmetric key used to encrypt his envelope without any metadata backup, he's going to have a very bad day ...
 
 ## Part Two: Raising Resilience of Restricted Results
 
@@ -603,11 +603,11 @@ graph LR
     linkStyle 2 stroke:green,stroke-width:2.0px
     linkStyle 3 stroke:#55f,stroke-width:2.0px
 ```
-Note that all three Gordian Envelopes have the exact same encrypted data, whose hash matches the wrapped information that Sam is storing, but that they each contains a different SSKRshare, as shown by the varying hashes.
+Note that all three envelopes have the exact same encrypted data, whose hash matches the wrapped information that Sam is storing, but that they each contains a different SSKRshare, as shown by the varying hashes.
 
 Sam stores one copy of his share at home, one at his bank, and one at work. If he ever loses this seed, he can restore it by bringing any two of these envelope shares together.
 
-_See [02-SSKR-Example](https://github.com/BlockchainCommons/envelope-cli-swift/blob/master/Docs/3-SSKR-EXAMPLE.md) in the Envelope-CLI docs for an example of how to produce SSKR shared Envelopes with the CLI._
+_See [SSKR Example](https://github.com/BlockchainCommons/bc-envelope-cli-rust/blob/master/docs/SSKRExample.md) in the [Rust Envelope-CLI](https://github.com/BlockchainCommons/bc-envelope-cli-rust/tree/master) for an example of how to produce SSKR shared envelopes with the CLI._
 
 ### #5. Sam Promotes a Partner (Multi-permit)
 
@@ -615,7 +615,7 @@ _See [02-SSKR-Example](https://github.com/BlockchainCommons/envelope-cli-swift/b
 
 Sam takes on a partner: his super wife, Sophia. He now wants to make it easy for her to recover his funds if something happens to him. To do so, he rerolls his envelope with a second permit. It can still be opened with SSKR shares (which must be regenerated as part of the process), but now the envelope is also locked with Sophia's public key, which allows her to open it with her private key.
 
-The three sharded Envelopes are created in the same way as when Sam just locked them with his SSKR shares, but now when the encryption occurs, a second assertion is added to each envelope, `hasRecipient`:
+The three sharded envelopes are created in the same way as when Sam just locked them with his SSKR shares, but now when the encryption occurs, a second assertion is added to each envelope, `hasRecipient`:
 ```
 ENCRYPTED [
     hasRecipient: SealedMessage
@@ -729,9 +729,9 @@ graph LR
 That's because the creation of the `SealedMessage` is a multi-part process. The major steps are:
 
 1. Randomly generate a nonce.
-2. Encrypt the symmetric key used to encrypt the Envelope using the recipient's public key and the nonce.
+2. Encrypt the symmetric key used to encrypt the envelope using the recipient's public key and the nonce.
 3. Store the encrypted key and the nonce in a [`crypto-message`](https://github.com/BlockchainCommons/Research/blob/master/papers/bcr-2022-001-secure-message.md#cddl-for-secure-message), stored in `sealedMessage`.
 
-It's the usage of a nonce with each encryption that causes the `SealedMessage` for each share of the Envelope to vary.
+It's the usage of a nonce with each encryption that causes the `SealedMessage` for each share of the envelope to vary.
 
 Now, Sam can feel increasingly comfortable about the resilience of his envelope, knowing that not only can he recover it by putting together SSKR shares, but that his wife can recover it as well, using her private key (which presumably she protects from both compromise and failure using her own #SmartCustody methodology).
