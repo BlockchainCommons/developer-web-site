@@ -27,14 +27,14 @@ keys, Decentralized Identifiers (DIDs), Verifiable Credentials
 (VCs), and Verifiable Presentations (VPs).
 
 This document outlines the most important technical features of
-Gordian Envelopes in abstract Alice and Bob form. See our [Use Case
+Gordian Envelope in abstract Alice and Bob form. See our [Use Case
 Intro](/envelope/use-cases/) for more real-world focused designs.
 
 ## Envelope Structure
 
-The Gordian Envelope is organized with semantic triples:
+Gordian Envelope is organized with semantic triples:
 subject-predicate-object. These are essentially statements such as
-"Alice Knows Bob". Given that Gordian Envelopes are designed to store
+"Alice Knows Bob". Given that Gordian Envelope is designed to store
 and transmit digital assets, they might actually be storage statements
 such as "Seed is XXX", credential statements such as "Bob is certified
 as a welder", or certification statements such as "This statement is
@@ -43,11 +43,9 @@ certified by the Welder's Guild of Normal, Illinois".
 Each envelope has one subject, but can have zero or more
 predicate-object pairs, which are called assertions.
 
-_All examples in this overview are generated with
-[envelope-cli-swift](https://github.com/BlockchainCommons/envelope-cli-swift). The
-Reference App is suggested as an excellent way to further explore the
+_All examples in this overview were generated with our older `envelope-cli-swift` app. We now suggest our newer [`envelope-cli-rust`](https://github.com/BlockchainCommons/bc-envelope-cli-rust) as an excellent way to further explore the
 technical details of Gordian Envelope. Please see the [Envelope-CLI
-Docs](https://github.com/BlockchainCommons/envelope-cli-swift/tree/master/Docs)
+Docs](https://github.com/BlockchainCommons/bc-envelope-cli-rust/tree/master/docs#readme)
 for its usage._
 
 Though an envelope can include just a Subject, the most basic example of a full semantic triple is:
@@ -106,9 +104,9 @@ for more information on basic envelope structure, especially
 and [Envelope
 Notation](https://github.com/BlockchainCommons/Gordian/blob/master/Envelope/Notation.md). Also
 see the [Envelope-CLI
-Docs](https://github.com/BlockchainCommons/envelope-cli-swift/tree/master/Docs#readme),
+Docs](https://github.com/BlockchainCommons/bc-envelope-cli-rust/tree/master/docs#readme),
 especially
-[Overview](https://github.com/BlockchainCommons/envelope-cli-swift/blob/master/Docs/Overview.md)._
+[Overview](https://github.com/BlockchainCommons/bc-envelope-cli-rust/blob/master/docs/Overview.md)._
 
 ## Sub Envelopes
 
@@ -143,7 +141,7 @@ and public keys that can be used to identify them:
 Metadata Example in the Envelope
 Docs](https://github.com/BlockchainCommons/Gordian/blob/master/Envelope/Examples.md#example-10-complex-metadata)
 and
-[04-Metadata-Example](https://github.com/BlockchainCommons/envelope-cli-swift/blob/master/Docs/4-METADATA-EXAMPLE.md)
+[Complex Metadata Example](https://github.com/BlockchainCommons/bc-envelope-cli-rust/blob/master/docs/MetadataExample.md)
 in the Envelope-CLI docs._
 
 ## Wrapped Envelopes
@@ -271,7 +269,7 @@ with a grain of salt!)
 the [Examples of the Envelope
 Docs](https://github.com/BlockchainCommons/Gordian/blob/master/Envelope/Examples.md#example-2-signed-plaintext)
 and the [Examples of the Envelope-CLI
-Docs](https://github.com/BlockchainCommons/envelope-cli-swift/blob/master/Docs/2-BASIC-EXAMPLES.md#example-2-signed-plaintext)._
+Docs](https://github.com/BlockchainCommons/bc-envelope-cli-rust/blob/master/docs/BasicExamples.md)._
 
 ## Hashing Envelopes
 
@@ -286,7 +284,7 @@ not quite the same as a classic Merkle Tree:
 * Gordian Envelope's Merkle-like Tree instead is generated as needed.
    * Its leaves typically contain data.
    * Hashes are generated for leaves primarily when the data is elided (currently, elision can be due to encryption, compression, or purposeful redaction of information), creating a cryptographic commitment for the original data that has been removed or transformed.
-   * A hash of an Envelope's subject is also ephemerally calculated (but not stored) when a signature occurs, as signature occurs across the hash, not the underlying data.
+   * A hash of an envelope's subject is also ephemerally calculated (but not stored) when a signature occurs, as signature occurs across the hash, not the underlying data.
    * Otherwise, hashes are generated when a Tree is deserialized and placed in memory.
    * During deserialization, inner nodes are also generated, with their hashes built appropriately from the hashes of the leaves (which may have been previously generated due to elision or generated now during deserialization).
 
@@ -297,10 +295,10 @@ As for the advantages of a Merkle-like tree? The dynamically generated hashes en
 ## Eliding Envelopes
 
 One of the biggest advances of Gordian Envelope is that it includes
-elision as a fundamental principle. Any element of an Envelope may be
+elision as a fundamental principle. Any element of an envelope may be
 elided; the elision may be done by the Holder (not just an Issuer, as
 is the case with most extant credential data structures); and elision
-does not change the hashes of the Envelope.
+does not change the hashes of the envelope.
 
 Take as an example the signed Alice Knows Bob example:
 
@@ -390,7 +388,7 @@ In this case, we might reveal that Alice is the subject of an assertion, without
 ```
 However, this example is obviously abstract, and intended mainly for its simplicity. In a more realistic case, a Gordian Envelope with multiple assertions would be partially elided to only reveal some of what it contains.
 
-Remember Alice's two-part Envelope?
+Remember Alice's two-part envelope?
 
 ```
 00643efa NODE
@@ -430,12 +428,12 @@ which not to.
 > _Further examples of redaction may be found in
   [Elision/Redaction](https://github.com/BlockchainCommons/Gordian/blob/master/Envelope/Elision.md)
   in the Envelope Docs and
-  [07-VC-Elision-Example](https://github.com/BlockchainCommons/envelope-cli-swift/blob/master/Docs/7-VC-ELISION-EXAMPLE.md)
+  [VC with Detailed Elision Example](https://github.com/BlockchainCommons/bc-envelope-cli-rust/blob/master/docs/VCElisionExample.md)
   in the Envelope-CLI docs._
 
 ## Encrypting Envelopes
 
-Obviously, the critical tool in the Gordian-Envelope toolbox is encryption, as it allows for the protection of contents.
+Obviously, the critical tool in the Gordian Envelope toolbox is encryption, as it allows for the protection of contents.
 
 This penultimate example uses the old favorite:
 ```
@@ -471,7 +469,7 @@ ENCRYPTED [
 
 The fact that only the subject is encrypted means that wrapping is
 again required if you want to encrypt the entire contents of an
-Envelope.
+envelope.
 
 Wrapping results in:
 ```
@@ -529,7 +527,7 @@ Once more, it's envelopes all the way down!
 > _For further examples see [Symmetric
 Encryption](https://github.com/BlockchainCommons/Gordian/blob/master/Envelope/Examples.md#example-4-symmetric-encryption)
 and additional examples in the Envelope Docs and [Symmetric
-Encryption](https://github.com/BlockchainCommons/envelope-cli-swift/blob/master/Docs/2-BASIC-EXAMPLES.md#example-4-symmetric-encryption)
+Encryption](https://github.com/BlockchainCommons/bc-envelope-cli-rust/blob/master/docs/BasicExamples.md#example-4-symmetric-encryption)
 and additional examples in the Envelope-CLI docs._
 
 ## Salting Envelopes
@@ -544,7 +542,7 @@ made about the contents of elided or encrypted data, they can be
 solved! In situations where that is an issue, Gordian Envelope
 supports salting.
 
-The methodology behind salting is simple: add a new assertion to an Envelope that contains `salt` as a predicate and a random number as an object.
+The methodology behind salting is simple: add a new assertion to an envelope that contains `salt` as a predicate and a random number as an object.
 
 This is particularly useful when adding it to a subject, predicate, or
 object that might be easily guessable and that you don't _want_ to be
@@ -576,7 +574,7 @@ The following example shows a salt of the subject "Alice":
 ```
 
 The standard hash of "Alice", `13941b48` (which can still be seen in
-the depths of the Envelope), is now replaced with a wrapped Envelope
+the depths of the envelope), is now replaced with a wrapped envelope
 hash of `e282424e` thanks to the inclusion of salt. Where a
 brute-force search might be able to determine that Alice were
 `13941b48` even when Alice was elided or encrypted, the same would not
@@ -590,13 +588,13 @@ either be used or foiled; salt is what makes the latter happen.
 ## Final Notes
 
 This technical introduction is intended to give a broad overview of
-the major capabilities of Gordian Envelopes with diagrams
-demonstrating what those Envelopes actually look like.
+the major capabilities of Gordian Envelope with diagrams
+demonstrating what those envelopes actually look like.
 
 For further details please see the [Envelope
 Docs](https://github.com/BlockchainCommons/Gordian/tree/master/Envelope#articles)
 and if you are able, follow-along with the [Envelope-CLI
-Docs](https://github.com/BlockchainCommons/envelope-cli-swift/tree/master/Docs). Those
+Docs](https://github.com/BlockchainCommons/bc-envelope-cli-rust/tree/master/docs#readme). Those
 documents provide _much_ more detail on all the examples here. In some
 cases the examples here were drawn from those docs.
 
