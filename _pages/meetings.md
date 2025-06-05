@@ -50,6 +50,21 @@ If you're a developer, or just an interesting party, you're welcome to join us! 
 ## 2025 Meetings
 
 <table>
+
+  <tr>
+    <td>
+
+      <a href="/meetings/2025-06-provenance-marks/"><img src="https://img.youtube.com/vi/vKAK6j4mqgE/0.jpg" style="border: 1px solid blue"></a>
+
+    </td>
+    <td>
+       <h2><a href="/meetings/2025-06-provenance-marks/">GDM: Providence Marks (June 2025)</a></h2>
+
+       <p>Introducing a cryptographically-secured chain of marks associated with works that facilitates easy and public verification of provenance.</p>
+       
+    </td>
+  </tr>
+
   <tr>
     <td>
 
