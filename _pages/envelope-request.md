@@ -1,4 +1,4 @@
----
+s---
 cover: false
 header:
   overlay_color: "#000"
@@ -24,7 +24,7 @@ Please see the [complete Implementation Guide](https://github.com/BlockchainComm
 
 The follow best practices apply to the use of Request & Response:
 
-**Require User Intervention for New Access.** Never respond to a Request for new data or any type of senesitive signing without user intervention. A user should always be given specific, meaningful, and accessible information on what a request is, alongside any warnings or any suggestions on why they might or might not want to respond. A Response should only occur in these situations after a user has agreed to the Request. (Responses without user intervention may be made when a user has already agreed to the interaction, such as to ensure the seamless and constant backup of data to a pre-agreed location.)
+**Require User Intervention for New Access.** Never respond to a Request for new data or any type of sensitive signing without user intervention. A user should always be given specific, meaningful, and accessible information on what a request is, alongside any warnings or any suggestions on why they might or might not want to respond. A Response should only occur in these situations after a user has agreed to the Request. (Responses without user intervention may be made when a user has already agreed to the interaction, such as to ensure the seamless and constant backup of data to a pre-agreed location.)
 
 **Separate Out Separate Decisions.** Try to assess which elements of intervention require different cognitive processes and separate them out. For example, if a user is signing a PSBT to send money to a certain address, there might be three cognitive steps: (1) confirm the receipt address [address recognition]; (2) confirm the funding source [seed recognition]; (3) confirm the transaction [assessment of danger/consideration of fraud]. These separate decisions don't each have to have a confirm button, but they should each be clearly distinct, perhaps in different sections on a single page, perhaps on different pages (and obviously you want some explicit confirmation by the time you're done).
 
