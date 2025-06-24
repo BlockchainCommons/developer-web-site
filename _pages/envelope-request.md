@@ -1,4 +1,4 @@
-s---
+---
 cover: false
 header:
   overlay_color: "#000"
