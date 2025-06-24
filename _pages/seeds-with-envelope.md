@@ -262,5 +262,5 @@ ENCRYPTED [
 ## Download the Software
 
 * **Envelope CLI:** `cargo install bc-envelope-cli`
-* **Bytewords CLI:** compile from https://github.com/BlockchainCommons/bytewords-cli?tab=readme-ov-file#recommended-installation-instructions
-* **Cbor2Diag:** compile from https://github.com/hildjj/node-cbor/tree/main/packages/cbor-cli#cbor2diag
+* **Bytewords CLI:** compile from [bytewords-cli](https://github.com/BlockchainCommons/bytewords-cli?tab=readme-ov-file#recommended-installation-instructions)
+* **Cbor2Diag:** compile from [cbor-cli](https://github.com/hildjj/node-cbor/tree/main/packages/cbor-cli#cbor2diag)
