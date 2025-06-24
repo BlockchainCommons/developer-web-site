@@ -78,19 +78,53 @@ ur:envelope/tpsotantjzoyadgdtburldbkjpjeclprcnwpfnsrcakkgdwmprkgvlzc
 ### Examing a Seed Envelope
 
 The envelope-cli will directly output the CBOR of an envelope for you:
-d8c8d8c9d99d6ca10150d6df890a726b21b223ec3cc31d7950eb
 
+```
 % envelope format --type cbor $SEED_E 
+d8c8d8c9d99d6ca10150d6df890a726b21b223ec3cc31d7950eb
+```
 
+That can also be viewed with cbor2diag or with [cbor.me](https://cbor.me/):
+```
 SEED_E_CBOR=$(envelope format --type cbor $SEED_E)
-
 cbor2diag -x $SEED_E_CBOR
 200(201(40300({1: h'd6df890a726b21b223ec3cc31d7950eb'})))
+```
 
+That's now:
+* a envelope (CBOR tag 200)
+* With a single leaf (CBOR tag 201)
+* That contains a seed (CBOR tag 40300)
+* Which is still a map with one entry for key `1` (`{1:`)
+* Which is the seed `d6df890a726b21b223ec3cc31d7950eb`
+
+One important difference between the UR Seed and the Envelope Seed is that the UR seed was preceded by `ur:seed`, so it did not need a CBOR tag for the seed. However, once it's an envelope, it now needs the CBOR tag of `40300` to define what that part of the envelope is. A particular element will self-identify with a CBOR tag (like `200` or `40300`) or a UR tag (like `ur:envelope` or `ur:seed`) but not both.
+
+### Modifying a Seed
+
+There are many advantages to having a seed in an envelope, rather than it being a bare seed. One advantage is that you can add metadata as assertions in the envelope (with the actual seed remaining the subject):
+```
 SEED_E=$(envelope assertion add pred-obj known note string "Zcash seed" $SEED_E)
+```
 
+The seed now looks like this:
+```
 envelope format $SEED_E
 Seed [
+    'note': "Zcash seed"
+]
+```
+
+### Encrypting a Seed
+
+You can also encrypt an envelope, or rather you can encrypt the _subject_ of an evelope.
+
+This demonstrates the generation of a 
+
+SKEY=$(envelope generate key)
+SEED_E_ENCS=$(envelope encrypt --key $SKEY $SEED_E) 
+
+ENCRYPTED [
     'note': "Zcash seed"
 ]
 
@@ -102,12 +136,7 @@ ENCRYPTED [
     'note': "Zcash seed"
 ]
 
-SKEY=$(envelope generate key)
-SEED_E_ENCS=$(envelope encrypt --key $SKEY $SEED_E) 
 
-ENCRYPTED [
-    'note': "Zcash seed"
-]
 
 envelope encrypt --recipient $PUBKEYS --recipient $PUBKEYS2 --key $SKEY $SEED_E | envelope format
 ENCRYPTED [
@@ -156,3 +185,9 @@ ENCRYPTED [
     'hasRecipient': SealedMessage
     'sskrShare': SSKRShare
 ]
+
+envelope sskr join
+ur:envelope/lstansfwlrhddwecheengronhhisesvshlrpzednprmkoehtrddrfgrsfgfgehdamefyjymehdrhhggrdwgtkkcabwfdzojeyahglugstllsykfncsjtwytpdtsbbdmhgdkimncafxpllgbkgojtmnvdtpdttdwtzehddatansfphdcxkpltendpolzcrtdickwmtpplmybbsnwefhinmntabzotlodirddkjlzsmdftztgaoyahtpsotansgulftansfwlshddasfvymnrlwncyueidmekiqdvwgtclledtnsmhcehhvwfyaologlfwhsvwlfvllevtpmiegduocngsuesspeolwefeamrlytaeptlogdeyisrdtkpsksjzbgcsgesoksmwhldygrtansgrhdcxstfzqzfhyadmlbimnnfpcxwtflmkrokkhedyfhhgsnlbtyaxlawsvezslnhhykgwoyamtpsotantkphddalrjzaeadaelaamcpktaogstpjnjkmyuooyhhsgospmonfyldrdjywpjzlgnbdiasrffgmoahosaxaxgwpf 
+ur:envelope/lstansfwlrhddwecheengronhhisesvshlrpzednprmkoehtrddrfgrsfgfgehdamefyjymehdrhhggrdwgtkkcabwfdzojeyahglugstllsykfncsjtwytpdtsbbdmhgdkimncafxpllgbkgojtmnvdtpdttdwtzehddatansfphdcxkpltendpolzcrtdickwmtpplmybbsnwefhinmntabzotlodirddkjlzsmdftztgaoyahtpsotansgulftansfwlshddabsttwzgsgltbntwzgolnskidpakortrfltcldmdakedkntjpiypklggshseecafrutmwflwzhtgsbepfpenbrlwmhkqdluatgdlkgdadbwayfysedmtsdrweqdoxuttlgwtemktansgrhdcxtbnnssmenlsadihfurpdrogrdszemuprlbtkvanykibkswcwdibnrknegrtpuobwoyamtpsotantkphddalrjzaeadadcxtavtchadnbttehlnftkbntgrjnclnsynlovltlgrolcevddsgevezcsbmufyecadlpqzdl 
+ur:envelope/lftpsotantjzoyadgdtburldbkjpjeclprcnwpfnsrcakkgdwmoyaatpsoimhtiahsjkiscxjkihihieguaturnb
+
