@@ -81,6 +81,8 @@ stack-crypto:
       url: /frost/
     - title: "MuSig 2"
       url: /musig/
+    - title: "Seed"
+      url: /envelope/seed/
     - title: "SSKR"
       url: /sskr/
 stack-ux:
@@ -177,6 +179,8 @@ envelope:
       url: /envelope/gstp/tech/
     - title: "Request & Response"
       url: /envelope/request/
+    - title: "Seeds in Envelope"
+      url: /envelope/seed/      
 envelopereq:
   - title: "Request & Response"
     children:
