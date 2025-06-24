@@ -9,12 +9,10 @@ title: "Seeds: Gordian Envelope Support"
 hide_description: true
 classes:
   - wide
-permalink: /ckm/
+permalink: /envelope/seed/
 sidebar:
-  nav: ckm
-redirect_from:
-  - /ckm/overview/
----
+  nav: envelope
+r---
 
 ## Overview
 
