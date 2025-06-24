@@ -228,47 +228,41 @@ Someone with the corresponding private key could decrypt the `hasRecipient` obje
 
 ### Wrapping a Seed Envelope
 
-SEED_E_W=$(envelope subject type wrapped $SEED_E)
+All of the above encryption examples talk about encrypting the subject of an envelope. That's the standard way that Gordian Envelope works. Assertions (including encryption!) are applied to the subject of an envelope.
 
+There's a strong use case for this:  you might want to have notes or other metadata that are readable even after the sensitive data (such as a seed) have been encrypted. This can include tips on how to decrypt the data, which can be crucial for heirs, or even for an envelope that you haven't touched in several years:
+```
+ENCRYPTED [
+    'note': "Decryption key is engraved QR code at safety deposit box"
+]
+```
+But, you might also want to encrypt the entire contents of an envelope. To do so, you "wrap" the envelope, which turns the entire contents of an envelope into the subject of a new envelope:
+```
+SEED_E_W=$(envelope subject type wrapped $SEED_E)
+envelope format $SEED_E_W
 {
     Seed [
         'note': "Zcash seed"
     ]
 }
-
+```
+Now, when you encrypt the wrapped envelope, you include everything (because it's all the subject):
+```
 SEED_E_W_ENCPUB=$(envelope encrypt --recipient $PUBKEYS $SEED_E_W)
-
+envelope format $SEED_E_W_ENCPUB
 ENCRYPTED [
     'hasRecipient': SealedMessage
 ]
+```
+## What's Next
 
+* [**Gordian Envelope Developer's Page**](https://developer.blockchaincommons.com/envelope/)
+* [**Envelope-CLI Docs**](https://github.com/BlockchainCommons/bc-envelope-cli-rust/tree/master/docs#readme)
+* [**128-bit sample seed**](https://developer.blockchaincommons.com/seed-128/)
+* [**256-bit sample seed**](https://developer.blockchaincommons.com/seed-256/)
 
-envelope sskr split $SEED_E -g 2-of-3
-ur:envelope/lftansfwlrhddwgofzbsfxrltpdelpuoptsakelsemprfmrtongtrfmyaooxbshphfpaoxldeehltiihcyjsfrjoprrymhlswmjsbegsytwmchfmplltmuwtahtdtkdwgdioplonynrfgywsfhrfkpnlwtbdvssapshddatansfphdcxkpltendpolzcrtdickwmtpplmybbsnwefhinmntabzotlodirddkjlzsmdftztgaoyamtpsotantkphddainkoaeadaeurskzefrbdfwtkvobeemgacabdwyjzkkjopmgmdivszsjljtwlotknhlnyyncsvapmhseykk 
+## Download the Software
 
-ur:envelope/lftansfwlrhddwgofzbsfxrltpdelpuoptsakelsemprfmrtongtrfmyaooxbshphfpaoxldeehltiihcyjsfrjoprrymhlswmjsbegsytwmchfmplltmuwtahtdtkdwgdioplonynrfgywsfhrfkpnlwtbdvssapshddatansfphdcxkpltendpolzcrtdickwmtpplmybbsnwefhinmntabzotlodirddkjlzsmdftztgaoyamtpsotantkphddainkoaeadadaobarkvdbnlpetwfgtdlkppyiewfcssfnnlrwynyamiyhsgwgomknllpltvwoydtckdtlprp 
-
-ur:envelope/lftansfwlrhddwgofzbsfxrltpdelpuoptsakelsemprfmrtongtrfmyaooxbshphfpaoxldeehltiihcyjsfrjoprrymhlswmjsbegsytwmchfmplltmuwtahtdtkdwgdioplonynrfgywsfhrfkpnlwtbdvssapshddatansfphdcxkpltendpolzcrtdickwmtpplmybbsnwefhinmntabzotlodirddkjlzsmdftztgaoyamtpsotantkphddainkoaeadaokbfdjymkahtsftrtpkatehimtltylrayrlzmehfgdltajkdwletlosynnbtijsiartzemkhh
-
-ENCRYPTED [
-    'sskrShare': SSKRShare
-]
-
-envelope sskr split $SEED_E -g 2-of-3 -r $PUBKEYS
-
-ur:envelope/lstansfwlrhddwecheengronhhisesvshlrpzednprmkoehtrddrfgrsfgfgehdamefyjymehdrhhggrdwgtkkcabwfdzojeyahglugstllsykfncsjtwytpdtsbbdmhgdkimncafxpllgbkgojtmnvdtpdttdwtzehddatansfphdcxkpltendpolzcrtdickwmtpplmybbsnwefhinmntabzotlodirddkjlzsmdftztgaoyahtpsotansgulftansfwlshddasfvymnrlwncyueidmekiqdvwgtclledtnsmhcehhvwfyaologlfwhsvwlfvllevtpmiegduocngsuesspeolwefeamrlytaeptlogdeyisrdtkpsksjzbgcsgesoksmwhldygrtansgrhdcxstfzqzfhyadmlbimnnfpcxwtflmkrokkhedyfhhgsnlbtyaxlawsvezslnhhykgwoyamtpsotantkphddalrjzaeadaelaamcpktaogstpjnjkmyuooyhhsgospmonfyldrdjywpjzlgnbdiasrffgmoahosaxaxgwpf 
-
-ur:envelope/lstansfwlrhddwecheengronhhisesvshlrpzednprmkoehtrddrfgrsfgfgehdamefyjymehdrhhggrdwgtkkcabwfdzojeyahglugstllsykfncsjtwytpdtsbbdmhgdkimncafxpllgbkgojtmnvdtpdttdwtzehddatansfphdcxkpltendpolzcrtdickwmtpplmybbsnwefhinmntabzotlodirddkjlzsmdftztgaoyahtpsotansgulftansfwlshddabsttwzgsgltbntwzgolnskidpakortrfltcldmdakedkntjpiypklggshseecafrutmwflwzhtgsbepfpenbrlwmhkqdluatgdlkgdadbwayfysedmtsdrweqdoxuttlgwtemktansgrhdcxtbnnssmenlsadihfurpdrogrdszemuprlbtkvanykibkswcwdibnrknegrtpuobwoyamtpsotantkphddalrjzaeadadcxtavtchadnbttehlnftkbntgrjnclnsynlovltlgrolcevddsgevezcsbmufyecadlpqzdl 
-
-ur:envelope/lstansfwlrhddwecheengronhhisesvshlrpzednprmkoehtrddrfgrsfgfgehdamefyjymehdrhhggrdwgtkkcabwfdzojeyahglugstllsykfncsjtwytpdtsbbdmhgdkimncafxpllgbkgojtmnvdtpdttdwtzehddatansfphdcxkpltendpolzcrtdickwmtpplmybbsnwefhinmntabzotlodirddkjlzsmdftztgaoyamtpsotantkphddalrjzaeadaouyotryrlaamysgtllfzelstajpnepftkaxsthliebkkslkhkrlzcspfmflmhltmkoyahtpsotansgulftansfwlshddafgdyenwzcajpfyvwsnditdwsoxmelebatiftfpghssrnqdhsuylfzcbbldkgvaswetttmwjkcsgsbzaozcstvtcfkpsrkimottgugdiabbfmihpkfgeelbvyykueuebeftutbbtansgrhdcxhffrjndwfyfywmihtprlhhpectsbzmsanblfsflusefplegllowpnbsoosgsdscxknwfmnbw
-
-ENCRYPTED [
-    'hasRecipient': SealedMessage
-    'sskrShare': SSKRShare
-]
-
-envelope sskr join
-ur:envelope/lstansfwlrhddwecheengronhhisesvshlrpzednprmkoehtrddrfgrsfgfgehdamefyjymehdrhhggrdwgtkkcabwfdzojeyahglugstllsykfncsjtwytpdtsbbdmhgdkimncafxpllgbkgojtmnvdtpdttdwtzehddatansfphdcxkpltendpolzcrtdickwmtpplmybbsnwefhinmntabzotlodirddkjlzsmdftztgaoyahtpsotansgulftansfwlshddasfvymnrlwncyueidmekiqdvwgtclledtnsmhcehhvwfyaologlfwhsvwlfvllevtpmiegduocngsuesspeolwefeamrlytaeptlogdeyisrdtkpsksjzbgcsgesoksmwhldygrtansgrhdcxstfzqzfhyadmlbimnnfpcxwtflmkrokkhedyfhhgsnlbtyaxlawsvezslnhhykgwoyamtpsotantkphddalrjzaeadaelaamcpktaogstpjnjkmyuooyhhsgospmonfyldrdjywpjzlgnbdiasrffgmoahosaxaxgwpf 
-ur:envelope/lstansfwlrhddwecheengronhhisesvshlrpzednprmkoehtrddrfgrsfgfgehdamefyjymehdrhhggrdwgtkkcabwfdzojeyahglugstllsykfncsjtwytpdtsbbdmhgdkimncafxpllgbkgojtmnvdtpdttdwtzehddatansfphdcxkpltendpolzcrtdickwmtpplmybbsnwefhinmntabzotlodirddkjlzsmdftztgaoyahtpsotansgulftansfwlshddabsttwzgsgltbntwzgolnskidpakortrfltcldmdakedkntjpiypklggshseecafrutmwflwzhtgsbepfpenbrlwmhkqdluatgdlkgdadbwayfysedmtsdrweqdoxuttlgwtemktansgrhdcxtbnnssmenlsadihfurpdrogrdszemuprlbtkvanykibkswcwdibnrknegrtpuobwoyamtpsotantkphddalrjzaeadadcxtavtchadnbttehlnftkbntgrjnclnsynlovltlgrolcevddsgevezcsbmufyecadlpqzdl 
-ur:envelope/lftpsotantjzoyadgdtburldbkjpjeclprcnwpfnsrcakkgdwmoyaatpsoimhtiahsjkiscxjkihihieguaturnb
-
+* **Envelope CLI:** `cargo install bc-envelope-cli`
+* **Bytewords CLI:** compile from https://github.com/BlockchainCommons/bytewords-cli?tab=readme-ov-file#recommended-installation-instructions
+* **Cbor2Diag:** compile from https://github.com/hildjj/node-cbor/tree/main/packages/cbor-cli#cbor2diag
