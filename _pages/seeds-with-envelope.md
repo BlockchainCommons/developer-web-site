@@ -12,7 +12,7 @@ classes:
 permalink: /envelope/seed/
 sidebar:
   nav: envelope
-r---
+---
 
 ## Overview
 
