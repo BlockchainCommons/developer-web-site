@@ -18,15 +18,19 @@ redirect_from:
 
 ## Overview
 
-Cryptographic seeds are the heart of crypto asset control. [#SmartCustody](https://www.smartcustody.com/), one of Blockchain Commons' earliest initiatives, is all about keeping them safe. That's continued forward with resilience being a core [Gordian principles](https://developer.blockchaincommons.com/principles/). We're aware that loss of a seed or private key can be one of the most likely ways to lose a digital asset; Blockchain Commons is working to help developers and users to avoid that.
+Cryptographic seeds are the heart of crypto asset control. [#SmartCustody](https://www.smartcustody.com/), one of Blockchain Commons' earliest initiatives, was all about keeping them safe. That's continued forward, with resilience being a core [Gordian principles](https://developer.blockchaincommons.com/principles/). We believe that loss of a seed or private key is one of the most likely ways for the average user to lose a digital asset; Blockchain Commons is working to help developers and users to avoid that.
 
 One of the major ways to keep a seed safe is encode it in a Gordian Envelope. Not only is it a well-known, well-specified format that should be readable into the far future, but it also allows for encryption, sharding, multiple permits, and in the future storage with [GSTP](/envelope/gstp/) and CSR [/csr/].
 
-The following examples demonstrate how many of these techniques work using the [Rust envelope-cli](https://github.com/BlockchainCommons/bc-envelope-cli-rust). The [bytewords-cli](https://github.com/BlockchainCommons/bytewords-cli) and [cbor2diag](https://github.com/cabo/cbor-diag) are also used for a few minor examples, but not necessary to fully understand this tutorial. You don't necessarily want to engage in this digital-asset work with [envelope-cli], as a command line is not secure enough for most digital assets; but, as a reference app, [envelope-cli] shows what Envelopes can do for seeds, and how they work, and can also be used to generate sample envelopes for testing elsewhere.
+The following examples demonstrate how many of these techniques work using the [Rust envelope-cli](https://github.com/BlockchainCommons/bc-envelope-cli-rust). The [bytewords-cli](https://github.com/BlockchainCommons/bytewords-cli) and [cbor2diag](https://github.com/cabo/cbor-diag) are also used for a few minor examples, but they're not necessary to fully understand this tutorial (so if you don't have them, no problem). 
+
+⚠️ **Warning:** ⚠️ Do not work with real assets using envelope-cli. Because it's a command line, it's probably not secure enough for most digital assets; but, as a reference app, envelope-cli shows what envelopes can do for seeds and how they work. It can also be used to generate sample envelopes for testing elsewhere.
 
 ## Generating Seeds
 
-Seeds and their associated private keys and public keys can all be generated using `seedtool-cli`, but this capability should be used solely for testing purposes. You'll ideally want a hardened offline wallet for generating your real seeds.
+Seeds and their associated private keys and public keys can all be generated using `seedtool-cli`, but this capability should be used solely for testing purposes. 
+
+(You'll ideally want a hardened offline wallet for generating your real seeds.)
 
 ```
 SEED=$(envelope generate seed)
@@ -44,24 +48,39 @@ ur:crypto-pubkeys/lftanshfhdcxldrlemtomeiarlnsfsdloybgzoeeecbyzctpjlmslenyuocheh
 
 ## Examining Seeds
 
-Seeds are generated as `ur:seed`s, in accordance with the [crypto-seed CDDL](https://github.com/BlockchainCommons/Research/blob/master/papers/bcr-2020-006-urtypes.md#cryptographic-seed-seed). 
-
-[TBD: this is process]
-
-bytewords -i minimal -o hex `echo $SEED | awk -F"/" '{print $2}'`
-a10150d6df890a726b21b223ec3cc31d7950eb
-
+Seeds are generated as `ur:seed`s, in accordance with the [crypto-seed CDDL](https://github.com/BlockchainCommons/Research/blob/master/papers/bcr-2020-006-urtypes.md#cryptographic-seed-seed). If you want to examine a seed more closely, you can do so by stripping off the `ur:seed` prefix. What's left is the CBOR of the seed, prepared per the CDDL.
+```
 SEED_CBOR=$(bytewords -i minimal -o hex `echo $SEED | awk -F"/" '{print $2}'`)
+echo $SEED_CBOR
+a10150d6df890a726b21b223ec3cc31d7950eb
+```
+In [CBOR](https://cbor.me/), that's:
+* a map [`a1`]
+* Whose first entry [`01`]
+* Is 16 bytes [`50`]
+* Which is the seed `d6df890a726b21b223ec3cc31d7950eb`
 
-envelope subject type ur $SEED
-ur:envelope/tpsotantjzoyadgdtburldbkjpjeclprcnwpfnsrcakkgdwmprkgvlzc
-SEED_E=$(envelope subject type ur $SEED)
-
+The cbor2diag utility will do that breakdown for you, which is why it's a convenient tool:
+```
 cbor2diag -x $SEED_CBOR
 {1: h'd6df890a726b21b223ec3cc31d7950eb'}
+```
+Per the CDDL, there could have been an optional creation date, name, or note, as map entries 2, 3, or 4, respectively, but there aren't in this simple example.
+
+## Putting a Seed in an Envelope
+
+The envelope-cli allows a seed to easily be placed in an envelope: you just define the seed you've generated as the subject of an envelope, using type `ur`:
+```
+SEED_E=$(envelope subject type ur $SEED)
+echo $SEED_E
+ur:envelope/tpsotantjzoyadgdtburldbkjpjeclprcnwpfnsrcakkgdwmprkgvlzc
+```
+### Examing a Seed Envelope
+
+The envelope-cli will directly output the CBOR of an envelope for you:
+d8c8d8c9d99d6ca10150d6df890a726b21b223ec3cc31d7950eb
 
 % envelope format --type cbor $SEED_E 
-d8c8d8c9d99d6ca10150d6df890a726b21b223ec3cc31d7950eb
 
 SEED_E_CBOR=$(envelope format --type cbor $SEED_E)
 
