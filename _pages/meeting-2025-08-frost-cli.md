@@ -40,3 +40,9 @@ The [Gordian Developer Meeting](https://www.blockchaincommons.com/subscribe/#gor
 ## For More
 
 * [**Demo Overview**](https://hackmd.io/@bc-community/H1MfEMdvel)
+* [**ZF FROST Tools**](https://github.com/ZcashFoundation/frost-tools)
+   * [**Our Secp256k1-tr PR**](https://github.com/ZcashFoundation/frost-tools/pull/53)
+   * [**Our Taproot tweak branch**](https://github.com/BlockchainCommons/zcash-frost-tools/pull/2)
+* [**BIP-341 Concerns**](https://github.com/ZcashFoundation/frost/pull/730#issuecomment-2362363340)
+* [**Chain Code Delegation**](https://delvingbitcoin.org/t/chain-code-delegation-private-access-control-for-bitcoin-keys/1837)
+* [**Bitcoin Dev Kit**]
