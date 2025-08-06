@@ -45,4 +45,4 @@ The [Gordian Developer Meeting](https://www.blockchaincommons.com/subscribe/#gor
    * [**Our Taproot tweak branch**](https://github.com/BlockchainCommons/zcash-frost-tools/pull/2)
 * [**BIP-341 Concerns**](https://github.com/ZcashFoundation/frost/pull/730#issuecomment-2362363340)
 * [**Chain Code Delegation**](https://delvingbitcoin.org/t/chain-code-delegation-private-access-control-for-bitcoin-keys/1837)
-* [**Bitcoin Dev Kit**]
+* [**Bitcoin Dev Kit**](https://bitcoindevkit.org/)
