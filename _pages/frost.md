@@ -172,7 +172,7 @@ _The Blockchain Commons FROST events bring together principals in the space to a
 
 ## Sponsors
 
-Blockchain Commons' 2024 work on FROST has been sponsored by the [Human Rights Foundation](https://hrf.org/).
+Blockchain Commons' 2024 & 2025 work on FROST has been sponsored by the [Human Rights Foundation](https://hrf.org/).
 
 <center><a href="https://hrf.org/"><img src="https://www.blockchaincommons.com/images/sponsors/hrf-white.png"></a></center>
 
