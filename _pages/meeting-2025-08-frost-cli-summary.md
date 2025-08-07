@@ -6,6 +6,7 @@ header:
   overlay_image: /assets/images/dev-arch-background.jpg
   og_image: /assets/images/bc-card.jpg
 title: "Gordian FROST-CLI Meeting (08/25): Summary"
+permalink: /meetings/2025-08-frost-cli/summary/
 hide_description: true
 classes:
   - wide
