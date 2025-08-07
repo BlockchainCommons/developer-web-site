@@ -40,6 +40,7 @@ The [Gordian Developer Meeting](https://www.blockchaincommons.com/subscribe/#gor
 ## For More
 
 * [**Demo Overview**](https://hackmd.io/@bc-community/H1MfEMdvel)
+   * [**Step-By-Step Demo Instructions**](https://hackmd.io/@bc-community/BJ2VtYKUxl)
 * [**ZF FROST Tools**](https://github.com/ZcashFoundation/frost-tools)
    * [**Our Secp256k1-tr PR**](https://github.com/ZcashFoundation/frost-tools/pull/53)
    * [**Our Taproot tweak branch**](https://github.com/BlockchainCommons/zcash-frost-tools/pull/2)
