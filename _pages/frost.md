@@ -120,7 +120,7 @@ _The Blockchain Commons FROST events bring together principals in the space to a
       <a href="/meetings/2025-08-frost-cli/">
         <img src="/assets/images/frost-cli-2025.png">
       </a>
-      <i>A demo of signing a Bitcoin PSBT with a FROST quorum, using BDK, ZF FROST, and our own tools.</i>
+      <i>A <a href="/meetings/2025-08-frost-cli/">demo of signing a Bitcoin PSBT with a FROST quorum</a>, using BDK, ZF FROST, and our own tools.</i>
     </td>
   </tr>
 </table>
@@ -162,7 +162,7 @@ _The Blockchain Commons FROST events bring together principals in the space to a
 
     </td>    
     <td width="640px">
-      <b>FROST Developers 2:</b>
+      <b>Signing CLI Demo:</b>
 
 {% include video id="8csdApREJIs" provider="youtube" %}
 
