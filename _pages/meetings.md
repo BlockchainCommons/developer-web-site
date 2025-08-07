@@ -54,6 +54,20 @@ If you're a developer, or just an interesting party, you're welcome to join us! 
   <tr>
     <td>
 
+      <a href="/meetings/2025-08-frost-cli/"><img src="https://img.youtube.com/vi/8csdApREJIs/0.jpg" style="border: 1px solid blue"></a>
+
+    </td>
+    <td>
+       <h2><a href="/meetings/2025-08-frost-cli/">GDM: Frost Signing on the Command Line (August 2025)</a></h2>
+
+       <p>A demo of signing a Bitcoin PSBT with a FROST quorum, using BDK, ZF FROST, and our own tools. Plus Q&A with FROST implementers.</p>
+       
+    </td>
+  </tr>
+
+  <tr>
+    <td>
+
       <a href="/meetings/2025-06-provenance-marks/"><img src="https://img.youtube.com/vi/vKAK6j4mqgE/0.jpg" style="border: 1px solid blue"></a>
 
     </td>
