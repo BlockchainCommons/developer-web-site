@@ -124,3 +124,9 @@ There's a paper setting out possibilities.
 * **What are best practices of storing DKG and VSS values?**
 
 (Definitely an open question!)
+
+## What's Next
+
+We've got more to come on FROST this year. More meetings are planned for this fall. If you're an implementer, we'd love to hear about your tech; if you're a developer, we'd love to hear about your needs. <a href="mailto:team@blockchaincommons.com>email us</a> if you'd like to give a short presentation!
+
+Thanks to <a href="https://hrf.org/">HRF</a> for their support of our FROST work both last year and this year!
