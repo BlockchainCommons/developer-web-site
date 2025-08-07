@@ -115,6 +115,13 @@ _The Blockchain Commons FROST events bring together principals in the space to a
       </a>
       <i>An introduction, UX challenges, the UNiFFI SDK, and a FROST Federation were at our <a href="developers2">second meeting for wallet developers</a>.</i>
     </td>
+    <td width="640px">
+      <b>Signing CLI Demo (2025):</b>
+      <a href="/meetings/2025-08-frost-cli/">
+        <img src="/assets/images/frost-cli-2025.png">
+      </a>
+      <i>A demo of signing a Bitcoin PSBT with a FROST quorum, using BDK, ZF FROST, and our own tools.</i>
+    </td>
   </tr>
 </table>
 
@@ -152,6 +159,12 @@ _The Blockchain Commons FROST events bring together principals in the space to a
       <b>FROST Developers 2:</b>
 
 {% include video id="FbrB1SCXCNc" provider="youtube" %}
+
+    </td>    
+    <td width="640px">
+      <b>FROST Developers 2:</b>
+
+{% include video id="8csdApREJIs" provider="youtube" %}
 
     </td>    
   </tr>
