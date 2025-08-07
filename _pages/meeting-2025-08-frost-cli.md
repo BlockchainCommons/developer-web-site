@@ -36,6 +36,7 @@ The [Gordian Developer Meeting](https://www.blockchaincommons.com/subscribe/#gor
   </tr>
 </table>
 
+Also see the [rough summary of the meeting](/meetings/2025-08-frost-cli/summary/) and [raw (but mechnically cleaned up) transcript](/meetings/2025-08-frost-cli/summary/).
 
 ## For More
 
