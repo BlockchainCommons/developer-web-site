@@ -43,7 +43,7 @@ Also see the [rough summary of the meeting](/meetings/2025-08-frost-cli/summary/
 * [**Demo Overview**](https://hackmd.io/@bc-community/H1MfEMdvel)
    * [**Step-By-Step Demo Instructions**](https://hackmd.io/@bc-community/BJ2VtYKUxl)
 * [**ZF FROST Tools**](https://github.com/ZcashFoundation/frost-tools)
-   * [**Our Secp256k1-tr PR**](https://github.com/ZcashFoundation/frost-tools/pull/53)
+   * [**Our Secp256k1-tr PR**](https://github.com/ZcashFoundation/frost-tools/pull/537)
    * [**Our Taproot tweak branch**](https://github.com/BlockchainCommons/zcash-frost-tools/pull/2)
 * [**BIP-341 Concerns**](https://github.com/ZcashFoundation/frost/pull/730#issuecomment-2362363340)
 * [**Chain Code Delegation**](https://delvingbitcoin.org/t/chain-code-delegation-private-access-control-for-bitcoin-keys/1837)
