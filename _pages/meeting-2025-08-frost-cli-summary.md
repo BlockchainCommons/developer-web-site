@@ -107,7 +107,7 @@ But more security reviews might be possible! There might be a grant for them alr
 
 * **What is right place to do tweak?**
 
-The demo raised some interested architectural questions, unresolved, about who/when tweaking is done.
+The demo raised some interested architectural questions, unresolved, about who/when tweaking is done. Some hardware wallets might not be robust enough to do the tweak, and different assets (e.g., Bitcoin vs Lightning) might have different understandings about how permanent/ephemeral the tweak is.
 
 One answer is to have the coordinator do it, which is essentially what our demo does, but there's enough complexity that more discussion is needed.
 
