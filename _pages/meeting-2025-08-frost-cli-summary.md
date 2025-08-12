@@ -47,6 +47,11 @@ The demo sends money to a FROST wallet, then sends it back.
 Done with `trusted-dealer` from ZF FROST tools with our `secp256k1-tr` patch.
 * Can then generate verifying key and descriptors from package
 
+The demo is done with the Trusted Dealer mode of ZF FROST
+- That means all shares are generated one one device, for distribution.
+- This isn't the ideal security methodology
+- But we had troubles getting Distributed Key Generation (DKG), where keys are never on the same device, to work.
+
 BDK-CLI can then be used to generate wallet from descriptors.
 - but it's watch-only!
 
@@ -102,7 +107,9 @@ But more security reviews might be possible! There might be a grant for them alr
 
 * **What is right place to do tweak?**
 
-- Probably have the coordinator do it!
+The demo raised some interested architectural questions, unresolved, about who/when tweaking is done.
+
+One answer is to have the coordinator do it, which is essentially what our demo does, but there's enough complexity that more discussion is needed.
 
 * **Are there privacy implications for servers when using tweaks?**
 
