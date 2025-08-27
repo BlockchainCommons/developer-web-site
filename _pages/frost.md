@@ -161,10 +161,18 @@ _The Blockchain Commons FROST events bring together principals in the space to a
 {% include video id="FbrB1SCXCNc" provider="youtube" %}
 
     </td>    
+</tr>
+<tr>
     <td width="640px">
-      <b>Signing CLI Demo:</b>
+      <b>TD Signing CLI Demo:</b>
 
 {% include video id="8csdApREJIs" provider="youtube" %}
+
+    </td>    
+    <td width="640px">
+      <b>DKG Signing CLI Demo:</b>
+
+{% include video id="13skzOvWklk" provider="youtube" %}
 
     </td>    
   </tr>
@@ -194,6 +202,14 @@ Blockchain Commons' 2024 & 2025 work on FROST has been sponsored by the [Human R
 
 * [ZF FROST](https://frost.zfnd.org/index.html) (ZF FROST Book)
 
+**Bitcoin Signing:**
+
+* [Trusted Dealer Signing Demo](https://www.youtube.com/watch?v=8csdApREJIs)
+   * [Trusted Dealer Walk-Through](https://hackmd.io/y6EYPYR0SluE0M0az7Y3uw)
+* [Distributed Key Generation Signing Demo](https://www.youtube.com/watch?v=13skzOvWklk)
+   * [DKG Walk-Through](https://hackmd.io/cI9OVAbzSDemrcvsf9t0ag)
+* [FROST Tools Branch](https://github.com/BlockchainCommons/zcash-frost-tools)
+* 
 <hr>
 
 <i>Snowflake icons courtesy of <a href="https://freedesignfile.com/?cat=20205&s=snowflake">free design file</a>.</I>
