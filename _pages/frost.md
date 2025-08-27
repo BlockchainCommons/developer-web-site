@@ -209,7 +209,7 @@ Blockchain Commons' 2024 & 2025 work on FROST has been sponsored by the [Human R
 * [Distributed Key Generation Signing Demo](https://www.youtube.com/watch?v=13skzOvWklk)
    * [DKG Walk-Through](https://hackmd.io/cI9OVAbzSDemrcvsf9t0ag)
 * [FROST Tools Branch](https://github.com/BlockchainCommons/zcash-frost-tools)
-* 
+ 
 <hr>
 
 <i>Snowflake icons courtesy of <a href="https://freedesignfile.com/?cat=20205&s=snowflake">free design file</a>.</I>
