@@ -81,6 +81,8 @@ stack-crypto:
       url: /frost/
     - title: "MuSig 2"
       url: /musig/
+    - title: "Provenance Marks"
+      url: /provemark/
     - title: "Seed"
       url: /envelope/seed/
     - title: "SSKR"
