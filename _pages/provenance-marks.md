@@ -30,8 +30,6 @@ In an age of rampant AI-powered manipulation and plagiarism, determining provena
 
 ## How Do Provenance Marks Work?
 
-<img src="https://developer.blockchaincommons.com/images/assets/pm-symbol.svg" width="90em" style="float: right">
-
 Each Provenance Mark is a collection of structured binary date that contains 5-6 data elements. A linked set of Provenance marks together form a chain of provenance, which proves that a set of objects are linked (and in what order).
 
 ![](https://developer.blockchaincommons.com/assets/images/pm-chain.png)
@@ -60,6 +58,8 @@ deli wave cats webs ruin
 legs quiz draw work onyx
 ```
 ## How to Get Started with Provenance Marks
+
+<img src="https://developer.blockchaincommons.com/images/assets/pm-symbol.svg" width="90em" style="float: right">
 
 1. Read [BCR-2025-001: Provenance Marks: An Innovative Approach for Authenticity Verification](https://github.com/BlockchainCommons/Research/blob/master/papers/bcr-2025-001-provenance-mark.md)
 2. Choose a chain (either a sequence of objects or an object that changes over time) to mark with a chain of provenance
