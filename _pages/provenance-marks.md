@@ -59,7 +59,7 @@ legs quiz draw work onyx
 ```
 ## How to Get Started with Provenance Marks
 
-<img src="https://developer.blockchaincommons.com/images/assets/pm-symbol.png" style="float: right">
+<img src="https://developer.blockchaincommons.com/assets/images/pm-symbol.png" style="float: right">
 
 1. Read [BCR-2025-001: Provenance Marks: An Innovative Approach for Authenticity Verification](https://github.com/BlockchainCommons/Research/blob/master/papers/bcr-2025-001-provenance-mark.md)
 2. Choose a chain (either a sequence of objects or an object that changes over time) to mark with a chain of provenance
