@@ -20,7 +20,7 @@ sidebar:
 
 ## Overview
 
-<a href="/crypto-stack/"><img src="https://developer.blockchaincommons.com/assets/images/bc-stack-crypto-pm.png" style="margin-left: 20px; float: right" width="25%"></a>
+<a href="/crypto-stack/"><img src="https://developer.blockchaincommons.com/assets/images/bc-stack-crypto.png" style="margin-left: 20px; float: right" width="25%"></a>
 
 Provenance Marks provide a cryptographically-secured system for establishing and verifying the authenticity of works. By combining cryptography, pseudorandom number generation, and linguistic representation, this system generates unique, sequential marks that commit to the content of preceding and subsequent works.
 
@@ -59,7 +59,7 @@ legs quiz draw work onyx
 ```
 ## How to Get Started with Provenance Marks
 
-<img src="https://developer.blockchaincommons.com/assets/images/pm-symbol.png" style="float: right">
+<img src="https://developer.blockchaincommons.com/assets/images/pm-symbol.png" style="float: right" width="50%">
 
 1. Read [BCR-2025-001: Provenance Marks: An Innovative Approach for Authenticity Verification](https://github.com/BlockchainCommons/Research/blob/master/papers/bcr-2025-001-provenance-mark.md)
 2. Choose a chain (either a sequence of objects or an object that changes over time) to mark with a chain of provenance
