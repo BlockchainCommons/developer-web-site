@@ -10,6 +10,9 @@ hide_description: true
 classes:
   - wide
 permalink: /provemark/
+redirect_from:
+  - /provenance-marks/
+  - /provenance-mark/
 sidebar:
   nav:
     - stack-crypto
