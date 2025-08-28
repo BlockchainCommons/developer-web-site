@@ -27,7 +27,7 @@ _The Crypto Stack features the cryptographic elements in Blockchain Commons' sta
 
 {% include stack-ckm.md %}
 
-## The <font color="#d62435">Provenance</a> Layer
+## The <font color="#d62435">Provenance</font> Layer
 
 {% include stack-pm.md %}
 
