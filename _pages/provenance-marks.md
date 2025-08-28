@@ -26,7 +26,7 @@ Provenance Marks provide a cryptographically-secured system for establishing and
 
 ## Why are Provenance Marks Important?
 
-In an age of rampant AI-powered manipulation and plagiarism, determining provenance is more important than ever.  These marks ensure public and easy verification of provenance, offering robust security and intuitive usability. Provenance Marks are particularly valuable for securing artistic, intellectual, and commercial works against fraud and deep fakes, protecting creators’ reputations and the integrity of their creations.
+In an age of rampant AI-powered manipulation and plagiarism, determining provenance is more important than ever.  Provenance Marks ensure public and easy verification of provenance, offering robust security and intuitive usability. Provenance Marks are particularly valuable for securing artistic, intellectual, and commercial works against fraud and deep fakes, protecting creators’ reputations and the integrity of their creations.
 
 ## How Do Provenance Marks Work?
 
@@ -37,7 +37,7 @@ Each Provenance Mark is a collection of structured binary date that contains 5-6
 The elements in a Provenance Mark are:
 
 * **key.** A random number, generated from a seed for the chain of provenance.
-* **hash.** A SHA-256 that commits to the next key in the chain.
+* **hash.** A SHA-256 hash that commits to the next key in the chain.
 * **id.** The unique identifier for a chain of provenance, which is the `key` of the genesis mark.
 * **seq.** The sequence number for the Provenance Mark in the chain, starting from `0` for the genesis mark and incrementing from there.
 * **date.** The date of the Provenance Mark's creation.
@@ -48,9 +48,9 @@ It's the hash that actually creates the chain because it commits to the content 
 hash=trunc(H(key||nextKey||id||seq||date||info),linkLen)
 ```
 
-Provenance Marks come on four sizes: `low`, `medium`, `quartile`, and `high`. They vary in size from 16 bytes (`low`) to 106 bytes (`high`), and the precise construction of the various fields depends on the size, as described in [BCR-2025-001](https://github.com/BlockchainCommons/Research/blob/master/papers/bcr-2025-001-provenance-mark.md).
+Provenance Marks come in four resolutions (sizes): `low`, `medium`, `quartile`, and `high`. They vary in size from 16 bytes (`low`) to 106 bytes (`high`), and the precise construction of the various fields depends on the size, as described in [BCR-2025-001](https://github.com/BlockchainCommons/Research/blob/master/papers/bcr-2025-001-provenance-mark.md).
 
-Provenance Marks are often represented as [byte words](https://developer.blockchaincommons.com/bytewords/), which allows their clear depiction using a number of simple words. A low-resolution mark, consisting of 16 bytes + 4 bytes of checksum, might be represented as follows:
+Provenance Marks are often represented as [Bytewords](https://developer.blockchaincommons.com/bytewords/), which allows their simple & clear depiction using a number of simple words. A low-resolution mark, consisting of 16 bytes + 4 bytes of checksum, might be represented as follows:
 ```
 taco kite buzz nail arch
 fact bias nail apex plus
