@@ -20,6 +20,7 @@ sidebar:
 {% include lib-dcbor.md %}
 {% include lib-envelope.md %}
 {% include lib-lifehash.md %}
+{% include lib-pm.md %}
 {% include lib-shamir.md %}
 {% include lib-sskr.md %}
 {% include lib-ur.md %}
