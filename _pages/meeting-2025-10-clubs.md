@@ -38,7 +38,7 @@ The demo is also avialable as a [log](https://github.com/BlockchainCommons/clubs
   </tr>
 </table>
 
-Also see the [transcript](/meetings/2025-10-frost-cli/transcript/).
+Also see the [transcript](/meetings/2025-10-clubs/transcript/).
 
 ## Key Points
 
