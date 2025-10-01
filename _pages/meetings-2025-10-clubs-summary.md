@@ -10,7 +10,7 @@ title: "Gordian Developer Meeting: October 2025 Community Discussion Summary"
 hide_description: true
 classes:
   - wide
-permalink: /meetings/2025-10-clubs/
+permalink: /meetings/2025-10-clubs/summary/
 sidebar:
   nav: meetings
 ---
