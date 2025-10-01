@@ -38,7 +38,7 @@ The demo is also avialable as a [log](https://github.com/BlockchainCommons/clubs
   </tr>
 </table>
 
-Also see the [transcript](/meetings/2025-10-clubs/transcript/).
+Also see the [transcript](/meetings/2025-10-clubs/transcript/) and a [machine summary of community discussions](/meetings/2025-10-clubs/summary).
 
 ## Key Points
 
