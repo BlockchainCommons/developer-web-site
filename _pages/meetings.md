@@ -54,6 +54,20 @@ If you're a developer, or just an interesting party, you're welcome to join us! 
   <tr>
     <td>
 
+      <a href="/meetings/2025-10-clubs/"><img src="https://img.youtube.com/vi/bqxW7iDk4QI/0.jpg" style="border: 1px solid blue"></a>
+
+    </td>
+    <td>
+       <h2><a href="/meetings/2025-10-clubs/">GDM: Gordian Clubs (October 2025)</a></h2>
+
+       <p>A discussion of Project Xanadu inspirations and the development of cryptographic clubs, with a demo of our new CLI.</p>
+       
+    </td>
+  </tr>
+
+  <tr>
+    <td>
+
       <a href="/meetings/2025-08-frost-cli/"><img src="https://img.youtube.com/vi/8csdApREJIs/0.jpg" style="border: 1px solid blue"></a>
 
     </td>
