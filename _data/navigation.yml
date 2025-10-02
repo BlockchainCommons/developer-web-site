@@ -269,6 +269,8 @@ meetings:
       url: /chains/zcash/zewif/#meetings 
     - title: "Meeting List"
       url: /meetings/#2025-meetings
+    - title: "Return to Main Page"
+      url: /
 musig:
   - title: MuSig 2
     children:
