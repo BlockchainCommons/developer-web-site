@@ -145,6 +145,8 @@ clubs:
       url: /clubs/history/
     - title: "Gordian Technology"
       url: /clubs/technology/
+    - title: "Delegation & ocaps"
+      url: /clubs/ocaps/
     - title: "Return to Core Stack"
       url: /core-stack/
 csr:
