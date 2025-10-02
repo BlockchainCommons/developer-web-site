@@ -74,7 +74,7 @@ The authenticity of an update is ensured by two things:
 
 Again, see [Gordian Technology](/clubs/technology/) for how all of this fits together.
 
-## Clubs Videos
+## Gordian Clubs Videos
 
 <table width="100%">
   <tr>
@@ -87,7 +87,7 @@ Again, see [Gordian Technology](/clubs/technology/) for how all of this fits tog
   </tr>
 </table>  
 
-## Libraries
+## Gordian Clubs Libraries
 
 {% include lib-clubs.md %}
 
