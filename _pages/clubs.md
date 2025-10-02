@@ -42,6 +42,38 @@ The focus on cryptography ensures that the data remains decentralized and self-s
 
 See ["The Power of Autonomy"](/clubs/autonomy/) for more advantages that derive from the usage of autonomous cryptographic objects.
 
+## How Do Gordian Clubs Work?
+
+### Gordian Club Structure
+
+A Gordian Club is a layered onion, with some information widely readable and some not:
+
+1. **Club Envelope:** dCBOR-encoded structure containing everything.
+2. **Public Metadata:** Visible information (club ID, version, etc.).
+3. **Encrypted Payload:** The actual club content and member data.
+4. **Access Layer:** Collection of permits for different entry methods.
+5. **Governance Layer:** Signatures and provenance mark.
+
+### Gordian Club Read Capability
+
+Gordian Clubs can be read if a user can unlock the symmetric key locked by a permit, which requires them to have the access method for any permit attached to a Gordian Club.
+
+1. **Public Key Lock.** Requires unlocking with the corresponding private key.
+2. **XID Lock.** Also requires a private key to unlock, but a XID is provided as a metadata "clue".
+3. **Password Lock.** Requires a password to unlock (which is stretched into a corresponding symmetric key).
+4. **SSKR Lock.** Can be unlocked if a threshold of shares of the SSKR sharding are brought together.
+5 **Adaptor Signature.** Allows delegation of read capability from one user to another for a specific Edition.
+   
+### Gordian Club Write Capability
+
+Gordian Clubs publish "Editions", which are encrypted data packets. New "Editions" can be published over time through "updates".
+The authenticity of an update is ensured by two things:
+
+1. **Provenance Mark.** A provenance mark verifies that two Editions belong to the same group and that there are no missing Editions between them.
+2. **Signature.** A publisher signs each Edition. This could be a singular publisher, but more powerfully it's the threshold of a FROST group.
+
+Again, see [Gordian Technology](/clubs/technology/) for how all of this fits together.
+
 ## Clubs Videos
 
 <table width="100%">
