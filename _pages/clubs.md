@@ -32,13 +32,13 @@ You may want to read more on the specific [technologies](/clubs/technology/) use
   
 ## Why Are Gordian Clubs Important?
 
-Gordian Clubs allows for the distribution and storage of information when network infrastructure can't be trusted. Use cases include:
+Gordian Clubs embody a radical proposition: that communities can self-organize, self-govern, and exchange their own information through cryptography alone, without asking permission, without trusting third parties, without requiring infrastructure that can be attacked, corrupted, or shut down. They trade the convenience of centralized control for the dignity of true autonomy, the requirement of asking permission for the possibility of self-determination.
+
+Use cases include:
 
 * Dissidents organizing without surveillance
 * Long-term archival that outlives companies
 * Emergency coordination during outages
-
-The focus on cryptography ensures that the data remains decentralized and self-sovereign. This is in contrast to access that was [historically](/clubs/history/) controlled by centralized administration, introducing the possibility of corruption or censorship. Gordian Clubs avoid\ these issues. 
 
 See ["The Power of Autonomy"](/clubs/autonomy/) for more advantages that derive from the usage of autonomous cryptographic objects.
 
