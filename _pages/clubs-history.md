@@ -14,13 +14,13 @@ sidebar:
   nav: clubs
 ---
 
-Gordian Clubss were inspired by [Project Xanadu](https://www.xanadu.net/) and their Clubs system.
+Gordian Clubs were inspired by [Project Xanadu](https://www.xanadu.net/) and their Clubs system.
 
-> In Xanadu did Kubla Khan
-> A stately pleasure-dome decree:
-> Where Alph, the sacred river, ran
-> Through caverns measureless to man
->   Down to a sunless sea.
+> In <font color="orange">Xanadu</font< did Kubla Khan<br>
+> A stately pleasure-dome decree:<br>
+> Where Alph, the sacred river, ran<br>
+> Through caverns measureless to man<br>
+>   Down to a sunless sea.<br>
 > &mdash;Samuel Taylor Coleridge
 
 ## The Original Vision: Xanadu's Club System
