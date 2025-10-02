@@ -64,7 +64,7 @@ Gordian Clubs can be read if a user can unlock the symmetric key locked by a per
 4. **SSKR Lock.** Can be unlocked if a threshold of shares of the SSKR sharding are brought together.
 5. **Adaptor Signature.** Allows delegation of read capability from one user to another for a specific Edition.
 
-See ["Gordian Clubs & Cryptographic ocaps"](/clubs/ocaps/) for more on the research into delegation and ocaps, which is currently a powerful but less proven methodology.
+See ["Gordian Clubs Delegation & Cryptographic ocaps"](/clubs/ocaps/) for more on the research into delegation and ocaps, which is currently a powerful but less proven methodology.
 
 ### Gordian Club Write Capability
 
