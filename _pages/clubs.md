@@ -37,6 +37,7 @@ Gordian Clubs embody a radical proposition: that communities can self-organize, 
 Use cases include:
 
 * Dissidents organizing without surveillance
+* Journalists privately talking with sources
 * Long-term archival that outlives companies
 * Emergency coordination during outages
 * Cooperative governance for non-profits
