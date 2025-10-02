@@ -139,9 +139,11 @@ cliques:
 clubs:
   - title: Clubs
     children:
-    - title: "History"
+    - title: "The Power of Autonomy"
+      url: /clubs/autonomy/
+    - title: "Clubs History"
       url: /clubs/history/
-    - title: "Technology"
+    - title: "Gordian Technology"
       url: /clubs/technology/
     - title: "Return to Core Stack"
       url: /core-stack/
