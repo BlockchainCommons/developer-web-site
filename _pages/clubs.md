@@ -39,8 +39,7 @@ Use cases include:
 * Dissidents organizing without surveillance
 * Long-term archival that outlives companies
 * Emergency coordination during outages
-
-See ["The Power of Autonomy"](/clubs/autonomy/) for more advantages that derive from the usage of autonomous cryptographic objects.
+* Cooperative governance for non-profits
 
 ## How Do Gordian Clubs Work?
 
