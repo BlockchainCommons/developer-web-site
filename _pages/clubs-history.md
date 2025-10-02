@@ -37,7 +37,7 @@ This was profound thinking for its time. It modeled how human organizations actu
 
 ## The Missing Pieces Fall Into Place
 
-In 1993, Blockchain Commons Executive Director Christopher Allen suggested the idea of cryptographic clubs, where access rights were instead controlled by cryptographic objects such as private keys. Xanadu passed on the vision because of the lack of crucial technologies at the time, including:
+In 1993, Blockchain Commons Principal Architect Christopher Allen suggested the idea of cryptographic clubs, where access rights were instead controlled by cryptographic objects such as private keys. Xanadu passed on the vision because of the lack of crucial technologies at the time, including:
 
 * **Fast Public Key Operations**: RSA was too computationally expensive for widespread use. We needed efficient public key schemes.
 * **Signature Aggregation**: Multiple signatures meant growing data structures. We needed compact proofs of group authorization.
