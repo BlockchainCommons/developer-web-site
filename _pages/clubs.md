@@ -40,6 +40,8 @@ Gordian Clubs allows for the distribution and storage of information when networ
 
 The focus on cryptography ensures that the data remains decentralized and self-sovereign. This is in contrast to access that was [historically](/clubs/history/) controlled by centralized administration, introducing the possibility of corruption or censorship. Gordian Clubs avoid\ these issues. 
 
+See ["The Power of Autonomy"](/clubs/autonomy/) for more advantages that derive from the usage of autonomous cryptographic objects.
+
 ## Clubs Videos
 
 <table width="100%">
@@ -61,7 +63,8 @@ The focus on cryptography ensures that the data remains decentralized and self-s
 
 **Gordian Clubs:**
 
-* [History](/clubs/history/)
+* [The Power of Autonomy](/clubs/autonomy/)
+* [Clubs History](/clubs/history/)
 * [Gordian Technology](/clubs/technology/)
 
 **Demos:**
