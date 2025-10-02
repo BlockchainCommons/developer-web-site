@@ -40,6 +40,23 @@ Gordian Clubs allows for the distribution and storage of information when networ
 
 The focus on cryptography ensures that the data remains decentralized and self-sovereign. This is in contrast to access that was [historically](/clubs/history/) controlled by centralized administration, introducing the possibility of corruption or censorship. Gordian Clubs avoid\ these issues. 
 
+## Clubs Videos
+
+<table width="100%">
+  <tr>
+    <td width="640px">
+      <b>Clubs Overview & Demo:</b>
+
+{% include video id="bqxW7iDk4QI" provider="youtube" %}
+
+    </td>    
+  </tr>
+</table>  
+
+## Libraries
+
+{% include lib-clubs.md %}
+
 ## Links
 
 **Gordian Clubs:**
