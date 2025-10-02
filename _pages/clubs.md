@@ -62,7 +62,7 @@ Gordian Clubs can be read if a user can unlock the symmetric key locked by a per
 2. **XID Lock.** Also requires a private key to unlock, but a XID is provided as a metadata "clue".
 3. **Password Lock.** Requires a password to unlock (which is stretched into a corresponding symmetric key).
 4. **SSKR Lock.** Can be unlocked if a threshold of shares of the SSKR sharding are brought together.
-5 **Adaptor Signature.** Allows delegation of read capability from one user to another for a specific Edition.
+5. **Adaptor Signature.** Allows delegation of read capability from one user to another for a specific Edition.
    
 ### Gordian Club Write Capability
 
