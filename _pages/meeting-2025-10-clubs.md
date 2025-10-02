@@ -78,5 +78,5 @@ Also see the [transcript](/meetings/2025-10-clubs/transcript/) and a [machine su
 ## For More
 
 * [**clubs-cli-rust**](https://github.com/BlockchainCommons/clubs-cli-rust)
-   * [**Demo Logo**](https://github.com/BlockchainCommons/clubs-cli-rust/blob/master/demo-log.md)
+   * [**Demo Log**](https://github.com/BlockchainCommons/clubs-cli-rust/blob/master/demo-log.md)
 * [**clubs-rust library**](https://github.com/BlockchainCommons/clubs-rust)
