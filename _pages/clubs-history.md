@@ -16,7 +16,7 @@ sidebar:
 
 Gordian Clubs were inspired by [Project Xanadu](https://www.xanadu.net/) and their Clubs system.
 
-> In <font color="orange">Xanadu</font< did Kubla Khan<br>
+> In <font color="orange">Xanadu</font> did Kubla Khan<br>
 > A stately pleasure-dome decree:<br>
 > Where Alph, the sacred river, ran<br>
 > Through caverns measureless to man<br>
