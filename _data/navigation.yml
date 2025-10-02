@@ -64,6 +64,8 @@ stack-core:
     children:
     - title: "Cliques"
       url: /cliques/
+    - title: "Clubs"
+      url: /clubs/
     - title: "Extensible Identifier (XID)"
       url: /xid/
     - title: "Collaborative Seed Recovery (CSR)"
@@ -132,6 +134,15 @@ cliques:
       url: https://www.blockchaincommons.com/musings/musings-cliques-1/
     - title: "Open & Fuzzy Cliques"
       url: https://www.blockchaincommons.com/musings/musings-cliques-2/
+    - title: "Return to Core Stack"
+      url: /core-stack/
+clubs:
+  - title: Clubs
+    children:
+    - title: "History"
+      url: /clubs/history/
+    - title: "Technology"
+      url: /clubs/technology/
     - title: "Return to Core Stack"
       url: /core-stack/
 csr:
