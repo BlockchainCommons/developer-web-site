@@ -17,6 +17,7 @@ sidebar:
 {% include lib-bech32.md %}
 {% include lib-bip39.md %}
 {% include lib-bytewords.md %}
+{% include lib-clubs.md %}
 {% include lib-dcbor.md %}
 {% include lib-envelope.md %}
 {% include lib-lifehash.md %}
