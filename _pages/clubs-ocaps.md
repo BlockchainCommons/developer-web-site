@@ -16,52 +16,63 @@ sidebar:
 
 ## Traditional & Cryptographic ocaps
 
-Object capabilities (ocaps) are a traditional computer security model. Gordian Clubs use cryptographic ocaps as a new ocaps methodology:
+Object capabilities (ocaps) are a traditional computer security model. Gordian Clubs expand them with the use of cryptographic ocaps:
 
 * **Traditional Ocaps**: Software enforces capability delegation.
 * **Cryptographic Ocaps**: Mathematics enforces capability delegation.
 
-It's the same principle, but with cryptographic enforcement instead of code. Capabilities now become mathemtical objects, which avoids the confused deputy problem, because math doesn't lie.
+It's the same principle, but with cryptographic enforcement instead of code. Capabilities now become mathematical objects, which avoids the confused deputy problem, because math doesn't lie.
 
 Among the capabilities enforced mathematically in Gordian Clubs are:
 
-* Read Capabilities: enforced by permits, including well-understood symmetric key and private key usage as well as SSKR shares.
+* Read Capabilities: enforced by permits, including symmetric keys, private keys, and SSKR shares.
 * Update Capabilities: alternatively enforced by FROST threshold, which allow group decisions.
-* Delegation Capabilities: a more bleeding-edge methodology supported by adaptor signatures.
+* Delegation Capabilities: a newer methodology supported by Schnorr's adaptor signatures.
 
 ## Delegation
 
-Gordian Clubs use Schnorr signatures as a core technology, with their foundational use being as a threshold signing system that can be used to update Editions. However, Schnorr technologies are like LEGO blocks: different Schnorr options can be stacked together to create towering edifices. One of these additional technologies is the "adaptor signature", which can be combined with other Schnorr technologies to allow delegation, where access can be provided to Gordian Clubs without revealing extant private keys.
+Gordian Clubs use Schnorr signatures as a core technology, with their foundational use being as a threshold signing system that can be used to update Editions. However, Schnorr technologies are like LEGO blocks: different Schnorr options can be stacked together to create towering edifices. One of these additional technologies is the "adaptor signature", which can be combined with other Schnorr technologies to allow delegation, where access can be provided to Gordian Clubs Editions without revealing extant private keys.
 
-> :warning: These delegation protocols are "naive" in the cryptographic sense. Like naive Schnorr aggregation (which could leak keys, leading to MuSig2/MuSig-DN), these examples demonstrate the core pattern but need cryptographic proofs. Schnorr adaptor signatures are a mature cryptographic primitive already deployed in production systems, but their use for capability-based access control with single-holder keys is a novel (but reasonable) application.
+> :warning: Schnorr adaptor signatures are a mature cryptographic primitive already deployed in production systems, but their use for capability-based access control with single-holder keys is a novel (but reasonable) application. As a result, these delegation protocols are "naive" in the cryptographic sense: like naive Schnorr aggregation (which could leak keys, leading to MuSig2/MuSig-DN), these examples demonstrate the core pattern but need cryptographic proofs. 
 
 ### Naive Read Delegation via Adaptor Signature
 
-**Goal:** Alice (with read access) delegates to Bob without sharing keys OR updating current edition
-  1. **Alice creates an incomplete signature**
-     - Generates random secret `t` and commits to it: `T = t·G`
-     - Encrypts symmetric key: `k_enc = k ⊕ hash(t, B, edition_id)`
-     - Creates adaptor signature hiding `t` that only Bob can complete
-  2. **Only Bob can complete it**
+Alice (with read access) delegates to Bob without sharing keys OR updating current Edition.
+
+  1. **The Setup**
+     - Alice has read access to a Gordian Club (knows symmetric key `k` for current edition)
+     - Bob has an existing keypair: private key `b`, public key `B = b·G`
+     - Alice wants to delegate read access to Bob for this edition only
+  2. **Alice creates an incomplete signature**
+     - Alice generates random secret `t` and commits to it: `T = t·G`
+     - Alice encrypts symmetric key
+        - Computes: `k_enc = k ⊕ hash(t, B, edition_id)`
+     - Alice creates adaptor signature hiding `t` that only Bob can complete
+  3. **Only Bob can complete it**
      - Bob uses his private key `b` to complete the signature
+        - Computes: `k = k_enc ⊕ hash(t, B, edition_id)`
      - Completion reveals the secret `t` to Bob (and only Bob)
-  3. **Result: Delegated read authority**
-     - Bob can decrypt this edition using revealed `t`
-     - Computes: `k = k_enc ⊕ hash(t, B, edition_id)`
+     - Bob can decrypt this Edition using revealed `t`
+  4. **Result: Delegated read authority**
      - No key sharing required
      - Alice retains her original access
 
 ### Naive Write Delegation via Adaptor Signatures
 
-* **Goal:** Alice (with write access) delegates to Bob without sharing keys OR updating current edition
-  1. **Alice creates an incomplete signature**
+Alice (with write access) delegates to Bob without sharing keys OR updating current Edition
+
+  1. **The Setup**
+     - Alice has write access to a Gordian Club 
+     - Bob has an existing keypair: private key `b`, public key `B = b·G`
+     - Alice wants to write access to Bob to create a new Edition
+  2. **Alice creates an incomplete signature**
      - Standard Schnorr: `s = r + H(m)·a`
      - Adaptor version: `s' = r + tweak + H(m)·a`
      - The "tweak" is locked to Bob's public key
-  2. **Only Bob can complete it**
+  3. **Only Bob can complete it**
      - Bob uses his private key `b` to derive the tweak to produces a valid signature from Alice
      - Proves both: Alice's authorization + Bob's identity
-  3. **Result: Delegated write authority**
+  4. **Result: Delegated write authority**
      - Bob can create a new edition
      - Each shows Alice's valid signature
      - No key sharing required
