@@ -77,6 +77,16 @@ Also see the [transcript](/meetings/2025-10-clubs/transcript/) and a [machine su
 
 ## For More
 
+**Developer Pages:**
+
+* [**Gordian Clubs**](/clubs/)
+  * [**The Power of Autonomy**](/clubs/autonomy/)
+  * [**Gordian Technology Stack**](/clubs/technology/)
+  * [**Delegation & ocaps](/clubs/ocaps/)
+  * [**Project Xanadu & Clubs History](/clubs/history/)
+      
+**Software:**
+
 * [**clubs-cli-rust**](https://github.com/BlockchainCommons/clubs-cli-rust)
    * [**Demo Log**](https://github.com/BlockchainCommons/clubs-cli-rust/blob/master/demo-log.md)
 * [**clubs-rust library**](https://github.com/BlockchainCommons/clubs-rust)
