@@ -1,2 +1,2 @@
-_**Latest News:** Added page on [provenance marks](/provemark/) (8/28/25). Two [CLI Signing Demos](https://developer.blockchaincommons.com/frost/#videos) added to our FROST page (8/27/25). [ZexCavator v0.0.1](https://forum.zcashcommunity.com/t/grant-proposal-zcash-extensible-wallet-interchange-format-zewif/49730/45) released by Zingo Labs (5/24/25)._
+_**Latest News:** Added several pages on [Gordian Clubs](/clubs/), building on demo from [October's Gordian Developers meeting](https://developer.blockchaincommons.com/meetings/2025-10-clubs/) (10/2/25). Added page on [provenance marks](/provemark/) (8/28/25). Two [CLI Signing Demos](https://developer.blockchaincommons.com/frost/#videos) added to our FROST page (8/27/25)._
 {: .notice--info}
