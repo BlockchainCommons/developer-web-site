@@ -60,3 +60,7 @@ Gordian Clubs are built atop the [Gordian stack](/). Following is a listing of t
   * Privacy-preserving: Can't tell which specific members participated
   * Enables group decision-making without revealing individual votes
   * Support release of updated Editions
+* **🖋️ Adapter Signatures**
+  * Conditions embedded in signatures
+  * Allows for delegation of read and write access
+  * See ["Clubs Delegation and Cryptographic ocaps"](https://developer.blockchaincommons.com/clubs/ocaps/) for more.
