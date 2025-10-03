@@ -137,16 +137,16 @@ cliques:
     - title: "Return to Core Stack"
       url: /core-stack/
 clubs:
-  - title: Clubs
+  - title: Gordian Clubs
     children:
     - title: "The Power of Autonomy"
       url: /clubs/autonomy/
-    - title: "Clubs History"
-      url: /clubs/history/
     - title: "Gordian Technology"
       url: /clubs/technology/
     - title: "Delegation & ocaps"
       url: /clubs/ocaps/
+    - title: "Xanadu History"
+      url: /clubs/history/
     - title: "Return to Core Stack"
       url: /core-stack/
 csr:
