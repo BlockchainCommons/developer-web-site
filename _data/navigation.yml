@@ -64,7 +64,7 @@ stack-core:
     children:
     - title: "Cliques"
       url: /cliques/
-    - title: "Clubs"
+    - title: "Gordian Clubs"
       url: /clubs/
     - title: "Extensible Identifier (XID)"
       url: /xid/
