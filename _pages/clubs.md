@@ -98,8 +98,9 @@ Again, see [Gordian Technology](/clubs/technology/) for how all of this fits tog
 **Gordian Clubs:**
 
 * [The Power of Autonomy](/clubs/autonomy/)
-* [Clubs History](/clubs/history/)
 * [Gordian Technology](/clubs/technology/)
+* [ocaps and Delegation](/clubs/ocaps/)
+* [Project Xanadu History](/clubs/history/)
 
 **Demos:**
 
