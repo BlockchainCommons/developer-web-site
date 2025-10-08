@@ -64,3 +64,23 @@ Gordian Clubs are built atop the [Gordian stack](/). Following is a listing of t
   * Conditions embedded in signatures
   * Allows for delegation of read and write access
   * See ["Clubs Delegation and Cryptographic ocaps"](https://developer.blockchaincommons.com/clubs/ocaps/) for more.
+ 
+## Cryptographic Maturity Levels
+
+The cryptography within Gordian Clubs is at variable levels of maturity. Audits are needed for some systems, while others are in a research phase that might enable future capabilities.
+
+**Production Ready**
+* [SSKR](/sskr/) for permits (formal security proofs, audited implementations)
+* [FROST](/frost/) and [MuSig2](/musig/) for threshold signatures (formal security proofs, audited implementations)
+* ChaCha20-Poly1305 as Gordian Envelope's core cryptography (proven implementations)
+
+**Requires Formal Security Audit**
+* Gordian Envelope's unique elision and permit primitives
+* Schnorr adaptor signatures for single-key capabilities (proven primitive, novel application to access control)
+* Integration of adaptor signatures with Gordian Clubs for read/write delegation
+* Combinations of adaptor signatures with FROST/MuSig2
+
+**Research Phase**
+* Threshold-based capability delegation (plausible but unproven extensions)
+* Key agreement protocols leveraging FROST/MuSig2 shared material
+* Scriptless scripts for complex authorization logic
