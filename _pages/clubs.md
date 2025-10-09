@@ -32,6 +32,8 @@ You may want to read more on the specific [technologies](/clubs/technology/) use
   
 ## Why Are Gordian Clubs Important?
 
+_Preserving Agency When Infrastructure Fails._
+
 Gordian Clubs embody a radical proposition: that communities can self-organize, self-govern, and exchange their own information through cryptography alone, without asking permission, without trusting third parties, without requiring infrastructure that can be attacked, corrupted, or shut down. They trade the convenience of centralized control for the dignity of true autonomy, the requirement of asking permission for the possibility of self-determination.
 
 Use cases include:
@@ -97,6 +99,7 @@ Again, see [Gordian Technology](/clubs/technology/) for how all of this fits tog
 
 **Gordian Clubs:**
 
+* [Overview: Preserving Agency When Infrastructure Fails](https://www.blockchaincommons.com/musings/musings-clubs/)
 * [The Power of Autonomy](/clubs/autonomy/)
 * [Gordian Technology](/clubs/technology/)
 * [ocaps and Delegation](/clubs/ocaps/)
