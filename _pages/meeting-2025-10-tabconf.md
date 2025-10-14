@@ -15,7 +15,7 @@ sidebar:
   nav: meetings
 ---
 
-TABConf 7, held **October 13-16, 2025**, is a technical Bitcoin conference, meant to ensure thatthe Technical Accessible Bitcoin
+TABConf 7, held **October 13-16, 2025**, is a technical Bitcoin conference, meant to ensure that the Technical Accessible Bitcoin
 Community is Open source, Novel, and Fun (TABCONF!). Their mission is:
 
 > To create a forum for protocol and application developers to collaborate, debate, and innovate on Bitcoin.
