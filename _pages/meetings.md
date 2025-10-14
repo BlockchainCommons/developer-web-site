@@ -55,6 +55,20 @@ If you're a developer, or just an interesting party, you're welcome to join us! 
   <tr>
     <td>
 
+      <a href="/meetings/2025-10-tabconf/"><img src="/assets/pdfs/2025-10-tabconf-bb.jpg" style="border: 1px solid blue"></a>
+
+    </td>
+    <td>
+       <h2><a href="/meetings/2025-10-tabconf/">TABConf 7 (October 2025)</a></h2>
+
+       <p>Two invited presentations on "Beyond Bitcoin: Engineering Exodus Protocols" and "The Sad State of Decentralized Identity, and What To Do About It.</p>
+       
+    </td>
+  </tr>
+
+  <tr>
+    <td>
+
       <a href="/meetings/2025-10-swiss-eid/"><img src="https://img.youtube.com/vi/Tgu5kQuClOU/0.jpg" style="border: 1px solid blue"></a>
 
     </td>
