@@ -40,16 +40,31 @@ If you're a developer, or just an interesting party, you're welcome to join us! 
 ### Other Topics of Interest
 
 
-[BIP-85](https://developer.blockchaincommons.com/meetings/2024-08-seeds/) •
-[Foremembrance](https://developer.blockchaincommons.com/meetings/2024-03-foremembrance/) • 
-[Identifiers](https://developer.blockchaincommons.com/meetings/2024-11-identifiers/) • 
-[PayJoin](https://developer.blockchaincommons.com/meetings/2024-05-payjoin-rr/) • 
-[Post-Quantum Cryptography](https://developer.blockchaincommons.com/meetings/2025-03-pqc/) • 
-[Seeds](https://developer.blockchaincommons.com/meetings/2024-08-seeds/)
+[BIP-85](/meetings/2024-08-seeds/) •
+[Foremembrance](/meetings/2024-03-foremembrance/) • 
+[Identifiers](/meetings/2024-11-identifiers/) • 
+[PayJoin](/meetings/2024-05-payjoin-rr/) • 
+[Post-Quantum Cryptography](/meetings/2025-03-pqc/) • 
+[Seeds](/meetings/2024-08-seeds/) •
+[Swiss e-ID](/meetings/2024-10-swiss-eid/)
 
 ## 2025 Meetings
 
 <table>
+
+  <tr>
+    <td>
+
+      <a href="/meetings/2025-10-swiss-eid/"><img src="https://img.youtube.com/vi/Tgu5kQuClOU/0.jpg" style="border: 1px solid blue"></a>
+
+    </td>
+    <td>
+       <h2><a href="/meetings/2025-10-clubs/">Swiss e-ID: Participation Meeting (October 2025)</a></h2>
+
+       <p>An invited presentation at the Swiss e-ID Participation Meeting on Five Anchors for Digital Autonomy & Democratic Sovereignty.</p>
+       
+    </td>
+  </tr>
 
   <tr>
     <td>
