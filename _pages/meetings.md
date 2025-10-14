@@ -59,7 +59,7 @@ If you're a developer, or just an interesting party, you're welcome to join us! 
 
     </td>
     <td>
-       <h2><a href="/meetings/2025-10-clubs/">Swiss e-ID: Participation Meeting (October 2025)</a></h2>
+       <h2><a href="/meetings/2025-10-swiss-eid/">Swiss e-ID: Participation Meeting (October 2025)</a></h2>
 
        <p>An invited presentation at the Swiss e-ID Participation Meeting on Five Anchors for Digital Autonomy & Democratic Sovereignty.</p>
        
