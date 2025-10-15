@@ -34,7 +34,7 @@ A meeting on October 2 allowed discussion of the recently passed referendum. Chr
     <td width="640px">
       <b>Slides:</b>
 
-<a href="/assets/pdfs/2025-10-swisseid.pdf"><img src="/assets/pdfs/2025-10-swisseid.jpg" style="border:2px solid white"></a>
+<a href="/assets/pdfs/2025-10-swisseid-noannotations.pdf"><img src="/assets/pdfs/2025-10-swisseid.jpg" style="border:2px solid white"></a>
 
     </td>
     <td width="640px">
