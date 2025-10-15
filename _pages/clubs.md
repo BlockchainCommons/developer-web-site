@@ -111,6 +111,10 @@ Again, see [Gordian Technology](/clubs/technology/) for how all of this fits tog
 * [Demo Script](https://github.com/BlockchainCommons/clubs-cli-rust?tab=readme-ov-file#demonstration-script)
 * [Demo Log](https://github.com/BlockchainCommons/clubs-cli-rust/blob/master/demo-log.md)
 
+**Other Presentations:**
+
+* ["Beyond Bitcoin"](https://developer.blockchaincommons.com/assets/pdfs/2025-10-tabconf-bb.pdf) (PDF)
+  
 **Software:**
 
 * [clubs-rust library](https://github.com/BlockchainCommons/clubs-rust)
