@@ -61,5 +61,5 @@ A meeting on October 2 allowed discussion of the recently passed referendum. Chr
 
 ## For More
 
-* [**Musings on the Five Anchors**]() (Forthcoming)
+* [**Musings on the Five Anchors**](https://www.blockchaincommons.com/musings/musings-swiss-eid/) 
 * [**Switzerland on the e-ID**](https://www.eid.admin.ch/en/e-id-e)
