@@ -4,5 +4,6 @@ _Digital identifiers are required to say who's who on the internet, but there's 
    * See our [Cliques page](/cliques/)
 * **Gordian Clubs.** Autonomous cryptographic objects that allow for the access-controlled and decentralized release of data.
    * See our [Gordian Clubs page](/clubs/)
+   * Also see [Hubert](/hubert/) as a method for distributing Gordian Clubs.
 * **XIDs.** Extensible Identifiers. A napkin sketch of how you can use Gordian Envelope and dCBOR to create create DID-like controller docs.
    * See our [XID page](/xid/)
