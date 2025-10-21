@@ -10,6 +10,8 @@ hide_description: true
 classes:
   - wide
 permalink: /clubs/ocaps/
+redirect_from:
+  - /club/ocaps/
 sidebar:
   nav: clubs
 ---
