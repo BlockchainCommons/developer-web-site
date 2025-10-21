@@ -144,6 +144,14 @@ _See the [Gordian Envelope playlist](https://www.youtube.com/playlist?list=PLCkr
 * [**Feature List**](/envelope/features/)
 * [**IETF Problem Statement: Deterministic Hashed Data Elision**](https://datatracker.ietf.org/doc/draft-appelcline-hashed-elision/) (IETF)
 
+**Extension Intros:**
+
+* [**ESC**](/envelope/esc/)
+* [**GSTP**](/envelope/gstp/)
+* [**Permits**](/envelope/permits/)
+* [**Request/Response**](/envelope/request/)
+* [**Seeds**](/envelope/seeds/)
+  
 **Industry Intros:**
 
 * [**The Dangers of Digital Credentials in Education**](https://www.blockchaincommons.com/articles/Dangerous-Educational-Credentials/) (blog article)
