@@ -20,7 +20,7 @@ Hubert is a server that enables asynchronous coordination among autonomous crypt
 
 ## Why is Hubert Important?
 
-A new generation of decentralized services is appearing that dramatically lowers the threat of censorship and surveillance by dividing up work (and information!) among multiple devices. This includes [Secure Multi-party Computation (MPC) models](https://en.wikipedia.org/wiki/Secure_multi-party_computation) and supports multiparty protocols such as [FROST threshold signatures](/frost/) and [distributed key generation](/dkg/). These decentralized services can work without servers, persistent connections, or trusted intermediaries. Coordination and collaboration occur through mathematics, not infrastructure.
+A new generation of decentralized services is appearing that dramatically lowers the threat of censorship and surveillance by dividing up work (and information!) among multiple devices. This includes [Secure Multi-party Computation (MPC) models](https://en.wikipedia.org/wiki/Secure_multi-party_computation) and supports multiparty protocols such as [FROST threshold signatures](/frost/) and distributed key generation. These decentralized services can work without servers, persistent connections, or trusted intermediaries. Coordination and collaboration occur through mathematics, not infrastructure.
 
 The problem is getting these mult-party computers to communicate and work together, especially in the most extreme cases where communication end points are constantly changing or where infrastructure appears on an entirely _ad hoc_ basis. That's where Hubert comes in: it's designed to allow communication among multiple parties for MPC-style protocols without impinging on their privacy or anonymity.
 
