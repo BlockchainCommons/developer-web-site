@@ -16,6 +16,8 @@ sidebar:
   nav: envelope
 ---
 
+## Overview
+
 Permits are cryptographic access control mechanisms that seal [Gordian Envelopes](/envelope/). They come in a variety of flavors, including symmetric keys, stretched passwords, public keys, SSKR shares, FROST multisig, and emerging quantum-resistant algorithms. Multiple permits can coexist in one Envelope, allowing different parties to access the same content in different ways. 
 
 ## Why Are Permits Important?
