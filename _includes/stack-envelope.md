@@ -4,6 +4,9 @@ _Digital-asset storage uses Gordian Envelope, Blockchain Commons' smart document
 * **Envelope.** Gordian Envelope is a binary storage format built in CBOR that can be encoded with URs, Blockchain Commons' foundational plain-text encoding system, as `ur:envelope`. They're built around recursive storage and support for hashed elision, which allows for provable redaction of data to allow [data minimization](https://www.blockchaincommons.com/musings/musings-data-minimization/). Extensions support even more functionality.
    * See our [Envelope page](/envelope/)
 
+* **Permits.** Envelope content can be encrypted. Permits can allow that content to be decrypt in a variety of ways, including symmetric keys, private keys, streched passwords, and SSKR shares.
+   * See our [Permits page](/envelope/permits/)
+ 
 * **Seeds & SSKR.** Seeds and SSKR shares can be stored in envelopes. This goes beyond simpler storage techniques such as `ur:seed` and `ur:sskr` because it can include metadata to help identify a seed and also allows the use of Gordian Envelope functionality such as elision and encryption.
    * See our [Seeds in envelopes page](/envelope/seed/)
     
