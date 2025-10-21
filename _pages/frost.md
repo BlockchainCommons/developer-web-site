@@ -202,6 +202,10 @@ Blockchain Commons' 2024 & 2025 work on FROST has been sponsored by the [Human R
 
 * [ZF FROST](https://frost.zfnd.org/index.html) (ZF FROST Book)
 
+**Secure MPC Tools:**
+
+* [Hubert Dead-Drop Hub](/hubert/)
+
 **Bitcoin Signing:**
 
 * [Trusted Dealer Signing Demo](https://www.youtube.com/watch?v=8csdApREJIs)
