@@ -18,15 +18,17 @@ sidebar:
 
 <a href="/core-stack/"><img src="https://developer.blockchaincommons.com/assets/images/bc-stack-core-id.png" style="float: right; margin-left: 20px;" width="25%"></a>
 
-The eXtensible IDentifier (XID) is an idea for how to use [Gordian Envelope](/envelope/) to create a DID-like method and perhaps more importantly how to use dCBOR and Envelope to create a DID controller document. It is not necessarily conforming to the [DID spec](https://www.w3.org/TR/did-core/), but it is inspired by the same needs and desires.
+An eXtensible IDentifier (XID) is a stable decentralized identifier generated from the hash of an inception key. XIDs resolve to an [envelope](/envelope/)-based controller document for managing keys, credentials, and other assertions, and leverage provenance chains for key rotation and revocation without changing the identifier. It does not necessarily to the [DID spec](https://www.w3.org/TR/did-core/), but it is inspired by the same needs and desires.
 
 ## Why is XID Important?
 
-The main advantage of XIDs is that they allow for the **redaction** of content in a DID-like controller document. 
+The main advantage of XIDs is that they allow for the **redaction** of content in a DID-like controller document while also maintaining cryptographic verification.. 
 
 Currently, controller documents tend to include public keys and service end-points. This is a great way to associate a variety of content into a singular identity. But you may not want to publicly reveal all of that information. Public keys can create vulnerabilities when exposed and you may wish to divide different parts of your identity, to only be revealed to specific groups!
 
 With Envelope-enabled controller documents you can still gather and validate all of your information as part of a singular identifier. But, you can elide most of it most of the time, only revealing private elements through inclusion proofs to specific groups. Your data remains organized and you don't have to manage a whole bunch of different identities, but at the same time, vulnerable material remains secure and private.
+
+This supports compartmentalized disclosure for [progressive trust architectures](/progressive-trust/) where the holder, not the issuer, controls which aspects are revealed to different parties.
 
 ## How Does XID Work?
 
