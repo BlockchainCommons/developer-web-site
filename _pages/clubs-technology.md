@@ -10,6 +10,8 @@ hide_description: true
 classes:
   - wide
 permalink: /clubs/technology/
+redirect_from:
+  - /club/technology/
 sidebar:
   nav: clubs
 ---
