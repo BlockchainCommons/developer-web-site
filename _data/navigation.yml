@@ -147,6 +147,8 @@ clubs:
       url: /clubs/ocaps/
     - title: "Xanadu History"
       url: /clubs/history/
+    - title: "Hubert"
+      url: /hubert/      
     - title: "Return to Core Stack"
       url: /core-stack/
 csr:
