@@ -139,6 +139,8 @@ cliques:
 clubs:
   - title: Gordian Clubs
     children:
+    - title: "Intro to Clubs"
+      url: /clubs/
     - title: "The Power of Autonomy"
       url: /clubs/autonomy/
     - title: "Gordian Technology"
