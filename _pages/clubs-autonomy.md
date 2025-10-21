@@ -10,6 +10,8 @@ hide_description: true
 classes:
   - wide
 permalink: /clubs/autonomy/
+redirect_from:
+  - /club/autonomy/
 sidebar:
   nav: clubs
 ---
