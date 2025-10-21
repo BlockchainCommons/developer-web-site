@@ -1,7 +1,8 @@
 _The CKM layer is an area for future development. It will shift from the CSR model of creating a key and then splitting it to the CKM model of keeping a key split at all times._
 
 * **Collaborative Key Management (CKM).** A next-generation key-management solution, CKM uses Secure Multi Party Computation (SMPC) to keep a key separated, rather than having it all in one place.  Currently, ZF FROST is the only production-ready implemention of CKM, so it's likely CKM and FROST will go hand in hand.
-   * See our [CKM page](/ckm/) 
+   * See our [CKM page](/ckm/)
+   * Also see [Hubert](/hubert/) as a support for SMPC.
 
 * **Distributed Key Generation (DKG).** A cryptographic process where portions of a key are kept separate in separate locations, never combining them until necessary.
  
