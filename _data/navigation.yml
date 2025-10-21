@@ -194,6 +194,8 @@ envelope:
       url: /envelope/gstp/
     - title: "GSTP Tech Overview"
       url: /envelope/gstp/tech/
+    - title: "Permits"
+      url: /envelope/permits/  
     - title: "Request & Response"
       url: /envelope/request/
     - title: "Seeds in Envelope"
