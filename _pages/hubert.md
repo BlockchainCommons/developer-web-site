@@ -5,7 +5,7 @@ header:
   overlay_filter: "0.25"
   overlay_image: /assets/images/dev-data-background.jpg
   og_image: /assets/images/bc-card.jpg
-title: Hubert
+title: "Hubert: Dead-Drop Hub"
 hide_description: true
 classes:
   - wide
@@ -62,5 +62,12 @@ Hubert enables request-response flows without direct connections through dead-dr
 
 ## Hubert Links
 
+**Main Links:**
+
 * [**Hubert Overview**](https://hackmd.io/3OghoiSQTviz1KP_noN3mQ) (HackMD draft)
 * [**hubert-cli**](https://github.com/BlockchainCommons/hubert-rust?tab=readme-ov-file)
+
+**Associated Projects:**
+
+* [**Gordian Clubs**](/clubs/)
+* [**FROST**](/frost/)
