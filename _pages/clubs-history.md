@@ -10,6 +10,8 @@ hide_description: true
 classes:
   - wide
 permalink: /clubs/history/
+redirect_from:
+  - /club/history/
 sidebar:
   nav: clubs
 ---
