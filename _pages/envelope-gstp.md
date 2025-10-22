@@ -16,17 +16,19 @@ sidebar:
 
 ## Overview
 
-Gordian Sealed Transaction Protocol (GSTP) is a secure, distributed, transport-agnostic communication method for two or more parties built on the Gordian Envelope specification. 
+Gordian Sealed Transaction Protocol (GSTP) is a secure, distributed, transport-agnostic communication method for two or more parties built on the [Gordian Envelope](/envelope/) specification. 
 
 This means:
 
 * **Secure.** Messages are protected by both signatures and encryption.
 * **Distributed.** State is securely preserved as part of the messages.
-* **Transport-Agnostic.** Less secure or less reliable transportation methods such as Bluetooth, NFCs, or QRs can be used.
+* **Transport-Agnostic.** Less secure or less reliable transportation methods such as Bluetooth, NFCs, or QRs can be used. Even sneaker net!
 
 GSTP allows for the transmission of data where the sender needs to be verified and/or the data needs to be protected.
 
 <img src="/assets/images/gstp-overview.jpeg" style="border: 2px solid white !important">
+
+GSTP support encryption, signatures, and [Encrypted State Continuations (ESC)](/envelope/esc/) for stateless scalability, GSTP works in client-server or peer-to-peer architectures, transforming any insecure channel into cryptographically secured pipes without requiring trusted infrastructure or intermediaries.
 
 ## Why is GSTP Important?
 
@@ -109,4 +111,9 @@ _See the [Gordian Envelope playlist](https://www.youtube.com/playlist?list=PLCkr
 
 **MuSig Use Cases:**
 
+* [**Intro to MuSig**](/musig/)
 * [**MuSig & GSTP](https://www.youtube.com/watch?v=FaNypFsGczg)
+
+**Hubert Use Case:**
+
+* [**Hubert**](/hubert/)
