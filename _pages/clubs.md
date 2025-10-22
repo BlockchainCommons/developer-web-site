@@ -30,7 +30,7 @@ Here's a bit more on the major elements:
 * **Edition.** A Gordian Club publishes Editions, which are linked by [provenance marks](/provemark/) and signed by publishers.
 * **Publishing Group.** Though an edition can be signed by an individual, it can also be signed by a [FROST threshold](/frost/).
 
-You may want to read more on the specific [technologies](/clubs/technology/) used to create Gordian Clubs, as well as their [history](/clubs/history/).
+Gordian Clubs leverage cryptographic permits (SSKR shares, FROST thresholds, XID keys), tamper-evident provenance chains, and offline operation without servers. You may want to read more on the specific [technologies](/clubs/technology/) used to create Gordian Clubs, as well as their [history](/clubs/history/).
   
 ## Why Are Gordian Clubs Important?
 
@@ -43,8 +43,10 @@ Use cases include:
 * Dissidents organizing without surveillance
 * Journalists privately talking with sources
 * Long-term archival that outlives companies
+* Credentials that must survive institutional collapse
 * Emergency coordination during outages
 * Cooperative governance for non-profits
+* Identity without the need for state permission
 
 ## How Do Gordian Clubs Work?
 
