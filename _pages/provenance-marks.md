@@ -22,7 +22,7 @@ sidebar:
 
 <a href="/crypto-stack/"><img src="https://developer.blockchaincommons.com/assets/images/bc-stack-crypto.png" style="margin-left: 20px; float: right" width="25%"></a>
 
-Provenance Marks provide a cryptographically-secured system for establishing and verifying the authenticity of works. By combining cryptography, pseudorandom number generation, and linguistic representation, this system generates unique, sequential marks that commit to the content of preceding and subsequent works.
+A Provenance Mark is a forward-commitment hash chain to establish cryptographic sequential ordering for linked digital objects. Each mark in the chain commits to preceding and subsequent content, preventing retroactive insertion or modification without requiring timestamps or trusted witnesses. This enables tracking of editions, state changes, and histories for controller documents, credentials, and evolving structures.
 
 ## Why are Provenance Marks Important?
 
