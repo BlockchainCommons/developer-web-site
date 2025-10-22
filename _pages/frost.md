@@ -28,6 +28,8 @@ FROST (Flexible Round-Optimized Schnorr Threshold Signatures) is a threshold sig
 where a set of signatures look exactly the same as a single signature. Beyond that, FROST improves on the fundamentals
 of Schnorr through improved network efficiency and protection against forgery attacks.
 
+The aggregation used by Schnorr eliminates multisig bloat and Shamir reconstruction risks and enables threshold authorization of [Gordian Envelope](/envelope/), [XID-based credentials](/xid/), and [Gordian Clubs](/clubs/).
+
 ## Upcoming Events
 
 _We are already considering agendas for 2025 FROST meetings. Sign up to our [Gordian Developers mailing list or Signal channel](https://www.blockchaincommons.com/subscribe/) to receive notification._
@@ -213,7 +215,13 @@ Blockchain Commons' 2024 & 2025 work on FROST has been sponsored by the [Human R
 * [Distributed Key Generation Signing Demo](https://www.youtube.com/watch?v=13skzOvWklk)
    * [DKG Walk-Through](https://hackmd.io/cI9OVAbzSDemrcvsf9t0ag)
 * [FROST Tools Branch](https://github.com/BlockchainCommons/zcash-frost-tools)
- 
+
+**Other Technology Use Cases:**
+
+* [Gordian Clubs](/clubs/)
+* [Gordian Envelope](/envelope/)
+* [XIDs](/xid/)
+
 <hr>
 
 <i>Snowflake icons courtesy of <a href="https://freedesignfile.com/?cat=20205&s=snowflake">free design file</a>.</I>
