@@ -66,6 +66,7 @@ Hubert enables request-response flows without direct connections through dead-dr
 
 * [**Hubert Overview**](https://hackmd.io/3OghoiSQTviz1KP_noN3mQ) (HackMD draft)
 * [**hubert-cli**](https://github.com/BlockchainCommons/hubert-rust?tab=readme-ov-file)
+* [**Hubert Demo**](https://www.youtube.com/watch?v=QSk67Y0P8Gs&t=925s)
 
 **Associated Projects:**
 
