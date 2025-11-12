@@ -335,6 +335,8 @@ ur:
       url: /ur/sskr/
     - title: "UR Implementations"
       url: /ur/implementations/
+    - title: "UR Playground"
+      url: /ur/playground/
     - title: "Return to UX Stack"
       url: /ux-stack/
 xid:
