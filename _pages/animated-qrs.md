@@ -162,12 +162,17 @@ that shows how Animated QRs built on URs can be sent and received.
 * [**UR Overview**](/ur/)
 * [**Multipart UR (MUR) Implementation Guide**](https://github.com/BlockchainCommons/Research/blob/master/papers/bcr-2024-001-multipart-ur.md)
 
-**Developer Resources:**
+**Research Papers:**
 
 * [**BCR-2020-005: UR Specification**](https://github.com/BlockchainCommons/Research/blob/master/papers/bcr-2020-005-ur.md) (Blockchain Commons Research)
 * [**BCR-2020-006: Registry of UR Types**](
 https://github.com/BlockchainCommons/Research/blob/master/papers/bcr-2020-006-urtypes.md) (Blockchain Commons Research)
 * [**Other UR Research Papers**](https://github.com/BlockchainCommons/Research/tree/master) (Blockchain Commons Research)
+
+**Playground:**
+
+* [**BC-UR Playground**](https://irfan798.github.io/bcur.me/)
+* [**Multi-UR & Animated QR Generator**](https://irfan798.github.io/bcur.me/#multi-ur)
 
 **Developer Reference Apps:**
 
