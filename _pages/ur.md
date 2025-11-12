@@ -241,13 +241,14 @@ URs are a simple, low-level data encoding method. Their use is trivial once you'
 * [List of UR Implementations](/ur/implementations/)
 * [**Multipart UR (MUR) Implementation Guide**](https://github.com/BlockchainCommons/Research/blob/master/papers/bcr-2024-001-multipart-ur.md)
 
-**Developer Resources:**
+**Research Papers:**
 
-* [**The Gordian Envelope Structure Data Format**](https://datatracker.ietf.org/doc/draft-mcnally-envelope/) (IETF RFC)
 * [**BCR-2020-005: UR Specification**](https://github.com/BlockchainCommons/Research/blob/master/papers/bcr-2020-005-ur.md) (Blockchain Commons Research)
 * [**BCR-2020-006: Registry of UR Types**](
 https://github.com/BlockchainCommons/Research/blob/master/papers/bcr-2020-006-urtypes.md) (Blockchain Commons Research)
 * [**Other UR Research Papers**](https://github.com/BlockchainCommons/Research/tree/master) (Blockchain Commons Research)
+
+**Other Developer Resources:**
 
 * [**UR FAQ**](ur-faq.md)
 * [**A Guide to Using URs for Envelopes**](/ur/envelope/)
@@ -256,6 +257,10 @@ https://github.com/BlockchainCommons/Research/blob/master/papers/bcr-2020-006-ur
 * [**A Guide to Using URs for PSBTs**](/ur/psbts/) [our biggest success story]
 * [**UR SSKRs & Envelope SSKRs**](/sskr/)
 
+**Playground:**
+
+* [**BC-UR Playground**](https://irfan798.github.io/bcur.me/)
+* [**Multi-UR & Animated QR Generator**](https://irfan798.github.io/bcur.me/#multi-ur)
 
 **Developer Reference Apps:**
 
