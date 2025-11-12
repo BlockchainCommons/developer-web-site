@@ -32,7 +32,7 @@ The aggregation used by Schnorr eliminates multisig bloat and Shamir reconstruct
 
 ## Upcoming Events
 
-_We are already considering agendas for 2025 FROST meetings. Sign up to our [Gordian Developers mailing list or Signal channel](https://www.blockchaincommons.com/subscribe/) to receive notification._
+_Our last FROST meeting for the year will be December 3, 2025. Sign up to our [Gordian Developers mailing list or Signal channel](https://www.blockchaincommons.com/subscribe/) to receive notification._
 
 ## Why is FROST Important?
 
@@ -59,7 +59,7 @@ one place!
 
 ## How Does FROST Work?
 
-FROST is fully described in [a paper](https://eprint.iacr.org/2020/852.pdf) by Chelsea Komlo and Ian Goldberg. Some of the fundamental elements
+FROST is fully described in [a paper](https://eprint.iacr.org/2020/852.pdf) by Chelsea Komlo and Ian Goldberg. We also have a [hands-on tutorial](https://github.com/BlockchainCommons/Learning-FROST-from-the-Command-Line/blob/main/README.md). Some of the fundamental elements
 of FROST are:
 
 **Schnorr Signatures.** A signature scheme based on finite fields rather than prime numbers. Besides being very elegant, Schnorr signatures have numerous other advantages, as discussed in ["Musings of a Trust
@@ -192,13 +192,16 @@ Blockchain Commons' 2024 & 2025 work on FROST has been sponsored by the [Human R
 
 * [Understanding FROST](https://frost.zfnd.org/frost.html) (ZF FROST Book)
 * [A Layperson's Intro to Schnorr](https://www.blockchaincommons.com/musings/Schnorr-Intro/) (Blockchain Commons Blog)
+* [Learning FROST from the Command Line](https://github.com/BlockchainCommons/Learning-FROST-from-the-Command-Line?tab=readme-ov-file#learning-frost-from-the-command-line-01)
 * [Paper by Chelsea Komlo and Ian Goldberg](https://eprint.iacr.org/2020/852.pdf) (Cryptology ePrint Archive)
 
-**Developer Resources:**
+**Meetings & Presentations:**
 
 * [FROST Implementer's Round Table 1](/frost/meeting1/)
-* [FROST Developer's Meeting](/frost/developers1/)
+* [FROST Developer's Meeting 1](/frost/developers1/)
 * [FROST Implementer's Round Table 2](/frost/meeting2/)
+* [FROST Developer's Meeting 2](/frost/developers2/)
+* [FROST Bitcoin Signing Demo](/meetings/2025-08-frost-cli/)
 
 **Developer Reference Libraries:**
 
@@ -211,9 +214,8 @@ Blockchain Commons' 2024 & 2025 work on FROST has been sponsored by the [Human R
 **Bitcoin Signing:**
 
 * [Trusted Dealer Signing Demo](https://www.youtube.com/watch?v=8csdApREJIs)
-   * [Trusted Dealer Walk-Through](https://hackmd.io/y6EYPYR0SluE0M0az7Y3uw)
 * [Distributed Key Generation Signing Demo](https://www.youtube.com/watch?v=13skzOvWklk)
-   * [DKG Walk-Through](https://hackmd.io/cI9OVAbzSDemrcvsf9t0ag)
+* [Learning FROST Bitcoin Signing Tutorial](https://github.com/BlockchainCommons/Learning-FROST-from-the-Command-Line/blob/main/04_0_FROST_and_Bitcoin.md)
 * [FROST Tools Branch](https://github.com/BlockchainCommons/zcash-frost-tools)
 
 **Other Technology Use Cases:**
