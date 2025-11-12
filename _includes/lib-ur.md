@@ -9,4 +9,4 @@
 | Rust | [bc-ur-rust](https://github.com/BlockchainCommons/bc-ur-rust) | Blockchain Commons | 
 | Rust | [ur-rust](https://github.com/dspicher/ur-rs) | Dominik Spicher |
 | Swift | [URKit](https://github.com/BlockchainCommons/URKit) + [URUI](https://github.com/BlockchainCommons/URUI) | Blockchain Commons |
-| TypeScript | [bc-ur for TS](https://github.com/ngraveio/bc-ur) | xardass |
+| TypeScript | [bc-ur for TS](https://github.com/ngraveio/bc-ur) | xardass, İrfan Bilaloğlu |
