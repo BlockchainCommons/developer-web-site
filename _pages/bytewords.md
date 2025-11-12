@@ -94,3 +94,7 @@ lists the complete set of emojis and provides examples.
 Bytewords**](https://github.com/BlockchainCommons/Research/blob/master/papers/bcr-2020-012-bytewords.md) (Blockchain Commons Research)
 * [**BCR-2024-008:
 Bytemoji**](https://github.com/BlockchainCommons/Research/blob/master/papers/bcr-2024-008-bytemoji.md) (Blockchain Commons Research)
+
+**Playground:**
+
+* [**BC-UR Playground**](https://irfan798.github.io/bcur.me/)
