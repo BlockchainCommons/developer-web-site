@@ -30,7 +30,7 @@ Major features include:
 
 **MUR Generator:**
 
-<a href="https://irfan798.github.io/bcur.me/"><img src="/assets/images/ur-playground-mur.jpg">
+<a href="https://irfan798.github.io/bcur.me/#multi-ur"><img src="/assets/images/ur-playground-mur.jpg">
 
 ## Links
 
