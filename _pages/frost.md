@@ -192,7 +192,7 @@ Blockchain Commons' 2024 & 2025 work on FROST has been sponsored by the [Human R
 
 * [Understanding FROST](https://frost.zfnd.org/frost.html) (ZF FROST Book)
 * [A Layperson's Intro to Schnorr](https://www.blockchaincommons.com/musings/Schnorr-Intro/) (Blockchain Commons Blog)
-* [Learning FROST from the Command Line](https://github.com/BlockchainCommons/Learning-FROST-from-the-Command-Line?tab=readme-ov-file#learning-frost-from-the-command-line-01)
+* [Learning FROST from the Command Line](https://github.com/BlockchainCommons/Learning-FROST-from-the-Command-Line/blob/main/README.md)
 * [Paper by Chelsea Komlo and Ian Goldberg](https://eprint.iacr.org/2020/852.pdf) (Cryptology ePrint Archive)
 
 **Meetings & Presentations:**
