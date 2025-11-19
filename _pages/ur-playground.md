@@ -32,6 +32,10 @@ Major features include:
 
 <a href="https://irfan798.github.io/bcur.me/#multi-ur"><img src="/assets/images/ur-playground-mur.jpg">
 
+## Video Overview
+
+{% include video id="CYCd3Yc_XoQ" provider="youtube" %}
+
 ## Links
 
 **Playground:**
