@@ -59,7 +59,7 @@ one place!
 
 ## How Does FROST Work?
 
-FROST is fully described in [a paper](https://eprint.iacr.org/2020/852.pdf) by Chelsea Komlo and Ian Goldberg. We also have a [hands-on tutorial](https://github.com/BlockchainCommons/Learning-FROST-from-the-Command-Line/blob/main/README.md). Some of the fundamental elements
+FROST is fully described in [a paper](https://eprint.iacr.org/2020/852.pdf) by Chelsea Komlo and Ian Goldberg. We also have a [hands-on tutorial](https://learningfrost.blockchaincommons.com/). Some of the fundamental elements
 of FROST are:
 
 **Schnorr Signatures.** A signature scheme based on finite fields rather than prime numbers. Besides being very elegant, Schnorr signatures have numerous other advantages, as discussed in ["Musings of a Trust
@@ -192,7 +192,7 @@ Blockchain Commons' 2024 & 2025 work on FROST has been sponsored by the [Human R
 
 * [Understanding FROST](https://frost.zfnd.org/frost.html) (ZF FROST Book)
 * [A Layperson's Intro to Schnorr](https://www.blockchaincommons.com/musings/Schnorr-Intro/) (Blockchain Commons Blog)
-* [Learning FROST from the Command Line](https://github.com/BlockchainCommons/Learning-FROST-from-the-Command-Line/blob/main/README.md)
+* [Learning FROST from the Command Line](https://learningfrost.blockchaincommons.com/)
 * [Paper by Chelsea Komlo and Ian Goldberg](https://eprint.iacr.org/2020/852.pdf) (Cryptology ePrint Archive)
 
 **Meetings & Presentations:**
