@@ -40,14 +40,14 @@ Our final Gordian Developers Meeting of the year occurred on **December 3, 2025*
 
      <b>Learning FROST:</b><br>
 
-<a href="/assets/pdfs/2025-12-learning-frost.jpg"><img src="/assets/pdfs/2025-12-learning-frost.pdf" style="border:2px solid white"></a>
+<a href="/assets/pdfs/2025-12-learning-frost.pdf"><img src="/assets/pdfs/2025-12-learning-frost.jpg" style="border:2px solid white"></a>
 
     </td>
     <td width="640px">
 
      <b>Hubert & FROST:</b><br>
 
-<a href="/assets/pdfs/2025-12-hubert-frost.jpg"><img src="/assets/pdfs/2025-12-hubert-frost.pdf" style="border:2px solid white"></a>
+<a href="/assets/pdfs/2025-12-hubert-frost.pdf"><img src="/assets/pdfs/2025-12-hubert-frost.jpg" style="border:2px solid white"></a>
 
     </td>
   </tr>
