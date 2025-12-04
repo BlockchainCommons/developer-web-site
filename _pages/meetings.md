@@ -55,11 +55,25 @@ If you're a developer, or just an interesting party, you're welcome to join us! 
   <tr>
     <td>
 
+      <a href="/meetings/2025-12-frost/"><img src="https://img.youtube.com/vi/coWXzO15GWg/0.jpg" style="border: 1px solid blue"></a>
+
+    </td>
+    <td>
+       <h2><a href="/meetings/2025-12-frost/">GDM: Learning FROST & FROST with Hubert (December 2025)</a></h2>
+
+       <p>A double feature: the Learning FROST course and using Hubert for decentralized FROST ceremonies.</p>
+       
+    </td>
+  </tr>
+
+  <tr>
+    <td>
+
       <a href="/meetings/2025-11-exodus/"><img src="https://img.youtube.com/vi/QSk67Y0P8Gs/0.jpg" style="border: 1px solid blue"></a>
 
     </td>
     <td>
-       <h2><a href="/meetings/2025-10-clubs/">GDM: Exodus Protocols & Hubert Dead-Drop Hub (November 2025)</a></h2>
+       <h2><a href="/meetings/2025-11-exodus/">GDM: Exodus Protocols & Hubert Dead-Drop Hub (November 2025)</a></h2>
 
        <p>How to create infrastructure that can't be taken away & how to communicate without infrastructure.</p>
        
