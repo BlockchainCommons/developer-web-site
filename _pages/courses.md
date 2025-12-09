@@ -18,7 +18,7 @@ Blockchain Commons creates courses for developers and for users, intended to bri
 
 ## Learning Bitcoin from the Command Line
 
-<a href="https://github.com/BlockchainCommons/Learning-Bitcoin-from-the-Command-Line/blob/master/README.md"><img src="https://www.blockchaincommons.com/images/projects/lbtc-screen.png" style="float: left; border: 1px solid white; width: 400px"></a>
+<a href="https://github.com/BlockchainCommons/Learning-Bitcoin-from-the-Command-Line/blob/master/README.md"><img src="https://www.blockchaincommons.com/images/projects/lbtc-screen.png" style="float: left; border: 1px solid white !important; width: 400px"></a>
 
 ## Learning FROST from the Command Line
 
