@@ -10,7 +10,7 @@ tagline: "Learning FROST & the Hubert Demo"
 hide_description: true
 classes:
   - wide
-permalink: /meetings/2025-12-frost/
+permalink: /meetings/2025-12-frost/transcript/
 sidebar:
   nav:
     - meetings
