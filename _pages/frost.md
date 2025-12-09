@@ -230,7 +230,8 @@ Blockchain Commons' 2024 & 2025 work on FROST has been sponsored by the [Human R
 * [FROST Developer's Meeting 1](/frost/developers1/)
 * [FROST Implementer's Round Table 2](/frost/meeting2/)
 * [FROST Developer's Meeting 2](/frost/developers2/)
-* [FROST Bitcoin Signing Demo](/meetings/2025-08-frost-cli/)
+* [FROST Bitcoin Signing Demo (TDG)](/meetings/2025-08-frost-cli/)
+* [Learning FROST & FROST with Hubert](https://developer.blockchaincommons.com/meetings/2025-12-frost/)
 
 **Developer Reference Libraries:**
 
