@@ -37,16 +37,41 @@ Our original "Learning ... from the Command Line" course offers an entire curric
 
 ## Learning FROST from the Command Line
 
+<table width="100%" border="0">
+  <tr>
+    <td width=350px valign="middle" style="border: 0px solid black">
+
 <a href="https://learningfrost.blockchaincommons.com/"><img src="https://raw.githubusercontent.com/BlockchainCommons/Learning-FROST-from-the-Command-Line/refs/heads/main/images/learningfrost-screen.jpg" style="float: left; border: 1px solid white !important; width: 350px; margin-right: 12px;"></a>
+
+    </td>
+    <td valign="middle">
+
 Our "Learning FROST" explains what FROST is and why you'd want to use it for signing over traditional signing systems such as multisig. It then provides a hands-on tutorial for signing with the ZF FROST tools, and also for integrating FROST signing with Bitcoin transactions.
+
+    </td>
+  </tr>
+</table>
+
 
 * **Online Course:** [learningfrost.blockchaincommons.com](ttps://learningfrost.blockchaincommons.com/)
 * **Last Updated:** 2025
 
 ## Smart Custody
 
+<table width="100%" border="0">
+  <tr>
+    <td width=350px valign="middle" style="border: 0px solid black">
+
 <a href="https://www.smartcustody.com/"><img src="https://www.smartcustody.com/assets/images/smartcustody.jpg" style="float: left; border: 1px solid white !important; width: 350px; margin-right: 12px;"></a>
+
+    </td>
+    <td valign="middle">
+
 SmartCustody describes “The use of advanced cryptographic tools to improve the care, maintenance, control, and protection of digital assets.” The original book is user-oriented but a number of articles added since its publication support developers in creating smart-custody systems.
+
+    </td>
+  </tr>
+</table>
 
 * **Web Site:** [smartcustody.com](https://www.smartcustody.com/)
 * **PDF Book:** [194-page book](https://bit.ly/SmartCustodyBookV101)
