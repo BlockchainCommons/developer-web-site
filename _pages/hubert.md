@@ -60,13 +60,41 @@ Hubert enables request-response flows without direct connections through dead-dr
 5. Create encrypted response.
 6. Publish response at ARID #2.
 
+## Hubert Videos
+
+<table width="100%">
+  <tr>
+    <td width="640px">
+      <b>Exodus Protocol & Hubert (Nov. 2025 Meeting):</b>
+
+{% include video id="QSk67Y0P8Gs" provider="youtube" %}
+
+    </td>
+    <td width="640px">
+      <b>FROST with Hubert (Dec. 2025 Excerpt):</b>
+
+{% include video id="Y9uT5cfQXlk" provider="youtube" %}
+
+    </td>
+  </tr>
+</table>
+
 ## Hubert Links
 
 **Main Links:**
 
 * [**Hubert Overview**](https://hackmd.io/3OghoiSQTviz1KP_noN3mQ) (HackMD draft)
-* [**hubert-cli**](https://github.com/BlockchainCommons/hubert-rust?tab=readme-ov-file)
 * [**Hubert Demo**](https://www.youtube.com/watch?v=QSk67Y0P8Gs&t=925s)
+
+**Software:**
+
+* [**hubert-cli**](https://github.com/BlockchainCommons/hubert-rust?tab=readme-ov-file)
+* [**frost-hubert-cli**](https://github.com/BlockchainCommons/frost-hubert-rust)
+
+**Meetings:**
+
+* [**Learning FROST & FROST with Hubert (Dec. 2025)**](/meetings/2025-12-frost/)
+* [**Exodus Protocols & Hubert (Nov. 2025)**](/meetings/2025-11-exodus/)
 
 **Associated Projects:**
 
