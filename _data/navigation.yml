@@ -18,6 +18,8 @@ mainside:
       url: /
     - title: "Architecture"
       url: /architecture/
+    - title: "Courses"
+      url: /courses/
     - title: "Meetings"
       url: /meetings/
 mainstacks:
@@ -153,6 +155,15 @@ clubs:
       url: /hubert/      
     - title: "Return to Core Stack"
       url: /core-stack/
+courses:
+  - title: Educational Courses
+    children:
+    - title: "Learning Bitcoin"
+      url: https://github.com/BlockchainCommons/Learning-Bitcoin-from-the-Command-Line
+    - title: "Learning FROST"
+      url: https://learningfrost.blockchaincommons.com/
+    - title: "Smart Custody"
+      url: https://www.smartcustody.com/
 csr:
   - title: CSR
     children:
