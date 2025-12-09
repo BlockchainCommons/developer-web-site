@@ -183,7 +183,7 @@ _The Blockchain Commons FROST events bring together principals in the space to a
     <td width="640px">
       <b>DKG Signing CLI Demo:</b>
 
-{% include video id="coWXzO15GWg" provider="youtube" %}
+{% include video id="13skzOvWklk" provider="youtube" %}
 
     </td>    
   </tr>
@@ -197,7 +197,7 @@ _The Blockchain Commons FROST events bring together principals in the space to a
     <td width="640px">
       <b>Learning FROST from the CL (excerpted)</b>
 
-{% include video id="FbrB1SCXCNc" provider="youtube" %}
+{% include video id="DZpJ2mxB3SU" provider="youtube" %}
 
     </td>    
     <td width="640px">
