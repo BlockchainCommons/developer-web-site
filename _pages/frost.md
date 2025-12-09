@@ -126,13 +126,12 @@ _The Blockchain Commons FROST events bring together principals in the space to a
       </a>
       <i>A <a href="/meetings/2025-08-frost-cli/">demo of signing a Bitcoin PSBT with a FROST quorum</a>, using BDK, ZF FROST, and our own tools.</i>
     </td>
-  </tr>
     <td width="640px">
       <b>Learning FROST & Hubert CLI Demo (2025):</b>
       <a href="/meetings/2025-12-frost/">
         <img src="/assets/images/frost-finale-2025.png">
       </a>
-      <i>the Learning FROST course and a demo of using Hubert Dead-Drop Hub with FROST.</i>
+      <i>the <a href="/meetings/2025-12-frost/">Learning FROST course and a demo</a> of using Hubert Dead-Drop Hub with FROST.</i>
     </td>
   </tr>
 </table>
@@ -184,7 +183,27 @@ _The Blockchain Commons FROST events bring together principals in the space to a
     <td width="640px">
       <b>DKG Signing CLI Demo:</b>
 
-{% include video id="13skzOvWklk" provider="youtube" %}
+{% include video id="coWXzO15GWg" provider="youtube" %}
+
+    </td>    
+  </tr>
+  <tr>
+    <td width="640px">
+      <b>Learning FROST & Hubert Demo Meeting</b>
+
+{% include video id="VxLTJ_OxGT4" provider="youtube" %}
+
+    </td>    
+    <td width="640px">
+      <b>Learning FROST from the CL (excerpted)</b>
+
+{% include video id="FbrB1SCXCNc" provider="youtube" %}
+
+    </td>    
+    <td width="640px">
+      <b>FROST/Hubert Demo (excerpted):</b>
+
+{% include video id="Y9uT5cfQXlk" provider="youtube" %}
 
     </td>    
   </tr>
