@@ -65,7 +65,7 @@ Our final Gordian Developers Meeting of the year occurred on **December 3, 2025*
   </tr>
 </table>
 
-For more, also see the [transcript](/meetings/2025-12-frost/transcript).
+For more, also see the [transcript](/meetings/2025-12-frost/transcript/). Or alternatively, the [transcript of just the Hubert demo](/meetings/2025-12-frost/transcript/hubert/).
 
 ## Key Quotes
 
