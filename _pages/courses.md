@@ -18,9 +18,9 @@ Blockchain Commons creates courses for developers and for users, intended to bri
 
 ## Learning Bitcoin from the Command Line
 
-<table width="100%" border=0>
+<table width="100%">
   <tr>
-    <td width=350px valign="middle">
+    <td width=350px valign="middle" style="border: 0px solid black">
 <a href="https://github.com/BlockchainCommons/Learning-Bitcoin-from-the-Command-Line/blob/master/README.md"><img src="https://www.blockchaincommons.com/images/projects/lbtc-screen.png" style="border: 1px solid white !important; width: 350px; margin-right: 12px;"></a>
     </td>
     <td valign="middle">
