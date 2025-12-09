@@ -75,7 +75,7 @@ Hubert enables request-response flows without direct connections through dead-dr
 
 {% include video id="Y9uT5cfQXlk" provider="youtube" %}
 
-[ <a href="/meetings/2025-12-hubert/transcript/hubert/">transcript</a> ]
+[ <a href="/meetings/2025-12-frost/transcript/hubert/">transcript</a> ]
 
     </td>
   </tr>
