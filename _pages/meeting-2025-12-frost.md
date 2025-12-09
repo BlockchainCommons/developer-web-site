@@ -69,7 +69,13 @@ Quotes are drawn from [transcript](/meetings/2025-12-frost/transcript) and may n
 
 ## Key URLs
 
+**Expanding on This Meeting:**
+
 * [Learning FROST course](https://learningfrost.blockchaincommons.com/)
+* [FROST-Hubert CLI](https://github.com/BlockchainCommons/frost-hubert-rust)
+
+**General Info:**
+
 * [FROST pages](https://developer.blockchaincommons.com/frost/)
 * [Other FROST Meetings](https://developer.blockchaincommons.com/frost/#events)
 * [Hubert pages](https://developer.blockchaincommons.com/frost/)
