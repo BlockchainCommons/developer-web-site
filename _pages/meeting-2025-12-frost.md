@@ -29,6 +29,18 @@ Our final Gordian Developers Meeting of the year occurred on **December 3, 2025*
 {% include video id="coWXzO15GWg" provider="youtube" %}
 
     </td>
+    <td width="640px">
+      <b>Learning FROST from the CL (excerpted)</b>
+
+{% include video id="DZpJ2mxB3SU" provider="youtube" %}
+
+    </td>    
+    <td width="640px">
+      <b>FROST/Hubert Demo (excerpted):</b>
+
+{% include video id="Y9uT5cfQXlk" provider="youtube" %}
+
+    </td>    
   </tr>
 </table>
 
