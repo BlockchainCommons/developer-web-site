@@ -117,12 +117,22 @@ _The Blockchain Commons FROST events bring together principals in the space to a
       </a>
       <i>An introduction, UX challenges, the UNiFFI SDK, and a FROST Federation were at our <a href="developers2">second meeting for wallet developers</a>.</i>
     </td>
+  </tr>
+  <tr>
     <td width="640px">
       <b>Signing CLI Demo (2025):</b>
       <a href="/meetings/2025-08-frost-cli/">
         <img src="/assets/images/frost-cli-2025.png">
       </a>
       <i>A <a href="/meetings/2025-08-frost-cli/">demo of signing a Bitcoin PSBT with a FROST quorum</a>, using BDK, ZF FROST, and our own tools.</i>
+    </td>
+  </tr>
+    <td width="640px">
+      <b>Learning FROST & Hubert CLI Demo (2025):</b>
+      <a href="/meetings/2025-12-frost/">
+        <img src="/assets/images/frost-finale-2025.png">
+      </a>
+      <i>the Learning FROST course and a demo of using Hubert Dead-Drop Hub with FROST.</i>
     </td>
   </tr>
 </table>
@@ -210,6 +220,7 @@ Blockchain Commons' 2024 & 2025 work on FROST has been sponsored by the [Human R
 **Secure MPC Tools:**
 
 * [Hubert Dead-Drop Hub](/hubert/)
+* [FROST-Hubert CLI](https://github.com/BlockchainCommons/frost-hubert-rust)
 
 **Bitcoin Signing:**
 
