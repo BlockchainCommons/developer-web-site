@@ -39,6 +39,8 @@ Our "Learning FROST" explains what FROST is and why you'd want to use it for sig
 
 ## Smart Custody
 
+<a href="https://www.smartcustody.com/"><img src="https://www.smartcustody.com/assets/images/smartcustody.jpg" style="float: left; border: 1px solid white !important; width: 350px; margin-right: 12px;"></a>
+
 SmartCustody describes “The use of advanced cryptographic tools to improve the care, maintenance, control, and protection of digital assets.” The original book is user-oriented but a number of articles added since its publication support developers in creating smart-custody systems.
 
 * **Web Site:** [smartcustody.com](https://www.smartcustody.com/)
