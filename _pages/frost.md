@@ -191,7 +191,7 @@ _The Blockchain Commons FROST events bring together principals in the space to a
     <td width="640px">
       <b>Learning FROST & Hubert Demo Meeting</b>
 
-{% include video id="VxLTJ_OxGT4" provider="youtube" %}
+{% include video id="coWXzO15GWg" provider="youtube" %}
 
     </td>    
     <td width="640px">
