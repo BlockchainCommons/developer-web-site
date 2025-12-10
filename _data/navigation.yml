@@ -159,7 +159,7 @@ courses:
   - title: Educational Courses
     children:
     - title: "Learning Bitcoin"
-      url: https://github.com/BlockchainCommons/Learning-Bitcoin-from-the-Command-Line
+      url: https://github.com/BlockchainCommons/Learning-Bitcoin-from-the-Command-Line/blob/master/README.md
     - title: "Learning FROST"
       url: https://learningfrost.blockchaincommons.com/
     - title: "Smart Custody"
