@@ -24,8 +24,10 @@ sidebar:
 {% include lib-knownvalues.md %}
 {% include lib-lifehash.md %}
 {% include lib-pm.md %}
+{% include lib-rand.md %}
 {% include lib-shamir.md %}
 {% include lib-sskr.md %}
+{% include lib-tags.md %}
 {% include lib-ur.md %}
 {% include lib-xid.md %}
 
