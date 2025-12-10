@@ -88,6 +88,10 @@ This specifics on all of this, XID resolution methods, permissions, delegation, 
 
 Also see the transcript on our [XID Presentation page](/xid/presentation/)
 
+## Libraries
+
+{% include lib-xid.md %}
+
 ## Links
 
 * [**BCR-2024-010: XID: Extensible Identifiers**](https://github.com/BlockchainCommons/Research/blob/master/papers/bcr-2024-010-xid.md) (Blockchain Commons Research Document)
