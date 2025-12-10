@@ -84,6 +84,8 @@ follow the specifications laid out in this Draft.
 
 {% include lib-dcbor.md %}
 
+{% include lib-tags.md %}
+
 ## Links
 
 **Intro:**
