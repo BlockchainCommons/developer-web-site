@@ -20,6 +20,8 @@ mainside:
       url: /architecture/
     - title: "Courses"
       url: /courses/
+    - title: "Libraries"
+      url: /libraries/
     - title: "Meetings"
       url: /meetings/
 mainstacks:
