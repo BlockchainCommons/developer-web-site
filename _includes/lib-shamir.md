@@ -6,4 +6,4 @@
 | Java | [bc-libs-java](https://github.com/BlockchainCommons/bc-libs-java) | Bitmark | 
 | Rust | [bc-shamir-rust](https://github.com/BlockchainCommons/bc-shamir-rust) | Blockchain Commons |
 | Swift | [BCLibsSwift](https://github.com/BlockchainCommons/BCLibsSwift) | Blockchain Commons |
-
+| TypeScript | [shamir](https://github.com/leonardocustodio/bcts/tree/main/packages/shamir) | Leonardo Custodio |
