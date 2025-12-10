@@ -21,6 +21,7 @@ sidebar:
 {% include lib-clubs.md %}
 {% include lib-dcbor.md %}
 {% include lib-envelope.md %}
+{% include lib-knownvalues.md %}
 {% include lib-lifehash.md %}
 {% include lib-pm.md %}
 {% include lib-shamir.md %}
