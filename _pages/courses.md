@@ -53,7 +53,7 @@ Our "Learning FROST" explains what FROST is and why you'd want to use it for sig
 </table>
 
 
-* **Online Course:** [learningfrost.blockchaincommons.com](ttps://learningfrost.blockchaincommons.com/)
+* **Online Course:** [learningfrost.blockchaincommons.com](https://learningfrost.blockchaincommons.com/)
 * **Last Updated:** 2025
 
 ## Smart Custody
