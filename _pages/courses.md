@@ -24,7 +24,7 @@ Blockchain Commons creates courses for developers and for users, intended to bri
 <a href="https://github.com/BlockchainCommons/Learning-Bitcoin-from-the-Command-Line/blob/master/README.md"><img src="https://www.blockchaincommons.com/images/projects/lbtc-screen.png" style="border: 1px solid white !important; width: 350px; margin-right: 12px;"></a>
     </td>
     <td valign="middle">
-Our original "Learning ... from the Command Line" course offers an entire curriculum on Bitcoin, using the bitcoin-cli interface found in Bitcoin Core. It includes details on classic Bitcoin transactions and scripts, then also details programming with RPC command using Lightning in relation with Bitcoin. 
+Our original "Learning ... from the Command Line" course offers an entire curriculum on Bitcoin, using the bitcoin-cli interface found in Bitcoin Core. It includes details on classic Bitcoin transactions and scripts, then also describes programming with RPC command using Lightning in relation with Bitcoin. 
     </td>
   </tr>
 </table>
@@ -76,3 +76,9 @@ SmartCustody describes “The use of advanced cryptographic tools to improve the
 * **Web Site:** [smartcustody.com](https://www.smartcustody.com/)
 * **PDF Book:** [194-page book](https://bit.ly/SmartCustodyBookV101)
 * **Last Updated:** 2019 (book), 2024 (articles)
+
+--
+
+**Q: Why "From the Command Line?"**
+
+A: Learning "from the command line" supports hands-on experience, or [experiential learning](https://en.wikipedia.org/wiki/Experiential_learning). It's a proven pedagogical approach that helps to solidify concepts and commit them to memory. In courses like "Learning Bitcoin" and "Learning FROST", it also allows for the examination of files and other outputs, so that you can dig as deep as you want on a topic. That's why our courses are written "from the command line," and why we suggest that follow along on your own CLI.
