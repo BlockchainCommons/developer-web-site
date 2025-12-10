@@ -1,4 +1,4 @@
-### Components Libraries
+### Known Value Libraries
 
 | Language | Repo | Contributor | Status |
 |----------|------|-------------|--------|
