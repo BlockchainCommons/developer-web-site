@@ -13,8 +13,15 @@ permalink: /libraries/
 sidebar:
   nav: mainside
 ---
+
+## Core Libraries
+
 {% include lib-components.md %}
 {% include lib-crypto.md %}
+{% include lib-rand.md %}
+
+## Specification Libraries
+
 {% include lib-bech32.md %}
 {% include lib-bip39.md %}
 {% include lib-bytewords.md %}
@@ -24,7 +31,6 @@ sidebar:
 {% include lib-knownvalues.md %}
 {% include lib-lifehash.md %}
 {% include lib-pm.md %}
-{% include lib-rand.md %}
 {% include lib-shamir.md %}
 {% include lib-sskr.md %}
 {% include lib-tags.md %}
