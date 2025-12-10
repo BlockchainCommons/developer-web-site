@@ -13,6 +13,7 @@ permalink: /libraries/
 sidebar:
   nav: mainside
 ---
+{% include lib-components.md %}
 {% include lib-crypto.md %}
 {% include lib-bech32.md %}
 {% include lib-bip39.md %}
@@ -25,4 +26,5 @@ sidebar:
 {% include lib-shamir.md %}
 {% include lib-sskr.md %}
 {% include lib-ur.md %}
+{% include lib-xid.md %}
 
