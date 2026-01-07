@@ -38,6 +38,9 @@ The [Gordian Developer Meeting](https://www.blockchaincommons.com/subscribe/#gor
   </tr>
 </table>
 
+Also see the [transcript](/meetings/2026-01-gordian/transcript) for
+the full content of the meeting.
+
 ## For More
 
 **BCTS IDE:**
