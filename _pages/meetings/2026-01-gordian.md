@@ -10,7 +10,7 @@ title: "Gordian Developer Meeting: January 2026"
 hide_description: true
 classes:
   - wide
-permalink: /meetings/2025-12-gordian/
+permalink: /meetings/2026-01-gordian/
 sidebar:
   nav: meetings
 ---
