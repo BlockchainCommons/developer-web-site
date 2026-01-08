@@ -41,14 +41,25 @@ The [Gordian Developer Meeting](https://www.blockchaincommons.com/subscribe/#gor
 Also see the [transcript](/meetings/2026-01-gordian/transcript) for
 the full content of the meeting.
 
-## For More
-
-**BCTS IDE:**
+## More on the BCTS IDE
 
 * [BCTS IDE](https://bcts.dev/)
 * [TypeScript Libraries](https://github.com/leonardocustodio/bcts)
 
-**Known Values:**
+
+
+## More on the Known Value Updates
+
+The Known Value registry is now divided into three parts:
+
+- **0-999**: Blockchain Commons core assignments (88 entries currently)
+- **1,000-99,999**: Standard ontologies (RDF, RDFS, OWL, Dublin Core, etc.)
+- **100,000+**: Community first-come-first-serve assignments
+
+For more see:
 
 * [BCR-2023-002: Known Values](https://github.com/BlockchainCommons/Research/blob/master/papers/bcr-2023-002-known-value.md)
+
+To submit community assignments of Known Values:
+
 * [Community Known Values Submission](https://github.com/BlockchainCommons/Research/tree/master/community-known-values)
