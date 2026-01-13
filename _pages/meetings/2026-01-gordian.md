@@ -53,8 +53,12 @@ the full content of the meeting.
 The Known Value registry is now divided into three parts:
 
 - **0-999**: Blockchain Commons core assignments (88 entries currently)
-- **1,000-99,999**: Standard ontologies (RDF, RDFS, OWL, Dublin Core, etc.)
+- **1,000-1,999**: Community (specification required)
+- **2,000-2,999**: Standard ontologies (RDF, RDFS, OWL, Dublin Core, etc.)
+- **10,000-10,999**: Standard ontologies (Schema.org)
 - **100,000+**: Community first-come-first-serve assignments
+
+_This is an update from what is discussed at the meeting, based primarily on community feedback. It adds the specification-required Community range. It also further clarifies the standard ontologies by dividing out the large range of Schema.org assignments. See the [assigned code ranges](https://github.com/BlockchainCommons/Research/blob/master/papers/bcr-2023-002-known-value.md#assigned-code-point-ranges) for more specifics._
 
 For more see:
 
