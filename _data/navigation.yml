@@ -78,6 +78,10 @@ stack-core:
       url: /dcbor/
     - title: "Envelope"
       url: /envelope/
+    - title: "Hubert"
+      url: /hubert/
+    - title: "Garner"
+      url: /garner/
 stack-crypto:
   - title: The Crypto Stack
     children:
