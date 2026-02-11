@@ -18,15 +18,15 @@ sidebar:
 
 A Tor onion service that serves static files over HTTP.
 
-## Why is Hubert Important?
+## Why is Garner Important?
 
 [TBD: This page is currently a stub.]
 
-## How Does Hubert Work?
+## How Does Garner Work?
 
 [TBD: This page is currently a stub.]
 
-## Hubert Links
+## Garner Links
 
 **Software:**
 
