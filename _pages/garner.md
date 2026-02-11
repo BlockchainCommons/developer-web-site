@@ -11,7 +11,7 @@ classes:
   - wide
 permalink: /garner/
 sidebar:
-  nav: clubs
+  nav: stack-core
 ---
 
 ## Overview
