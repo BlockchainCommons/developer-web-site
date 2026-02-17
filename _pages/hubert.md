@@ -93,6 +93,10 @@ Hubert enables request-response flows without direct connections through dead-dr
 * [**hubert-cli**](https://github.com/BlockchainCommons/hubert-rust?tab=readme-ov-file)
 * [**frost-hubert-cli**](https://github.com/BlockchainCommons/frost-hubert-rust)
 
+**Architecture:**
+
+* [**The Exodus Protocol**](https://www.blockchaincommons.com/musings/musings-exodus-protocol/) (Musings)
+
 **Meetings:**
 
 * [**Learning FROST & FROST with Hubert (Dec. 2025)**](/meetings/2025-12-frost/)
@@ -102,3 +106,4 @@ Hubert enables request-response flows without direct connections through dead-dr
 
 * [**Gordian Clubs**](/clubs/)
 * [**FROST**](/frost/)
+* [**Garner**](/garner/)
