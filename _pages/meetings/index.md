@@ -48,7 +48,9 @@ If you're a developer, or just an interesting party, you're welcome to join us! 
 [Seeds](/meetings/2024-08-seeds/) •
 [Swiss e-ID](/meetings/2024-10-swiss-eid/)
 
-## 2025 Meetings
+## 2026 Meetings
+
+
 
 <table>
 
@@ -66,7 +68,11 @@ If you're a developer, or just an interesting party, you're welcome to join us! 
        
     </td>
   </tr>
-  
+</table>
+
+## 2025 Meetings
+
+</table>
   <tr>
     <td>
 
