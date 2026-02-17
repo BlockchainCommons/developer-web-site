@@ -72,7 +72,7 @@ If you're a developer, or just an interesting party, you're welcome to join us! 
 
 ## 2025 Meetings
 
-</table>
+<table>
   <tr>
     <td>
 
