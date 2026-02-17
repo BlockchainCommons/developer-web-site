@@ -106,7 +106,7 @@ Also see the transcript on our [XID Presentation page](/xid/presentation/)
 
 ### Tutorials
 
-* [XID-Quickstart](https://github.com/BlockchainCommons/XID-Quickstart) (GitHub/in process)
+* [**XID-Quickstart**](https://github.com/BlockchainCommons/XID-Quickstart) (GitHub/in process)
 
 ### Related Blockchains Commons Technologies
 
