@@ -25,6 +25,33 @@ redirect_from:
 
 {% include news-index.md %}
 
+## Technology Overviews
+
+<table width="100%">
+  <tr>
+    <td width="640px">
+      <b>2026 Overview:</b>
+
+      {% include video id="f7MFW8RfcOE" provider="youtube" %}
+      
+    </td>
+    <td width="640px">
+      <b>Lengthier 2021 Overview:</b>
+
+      {% include video id="RYgOFSdUqWY" provider="youtube" %}
+      
+    </td>    
+    <td width="640px">
+      <b>Envelope Overview:</b>
+
+      {% include video id="vcLCFKQvik" provider="youtube" %}
+      
+    </td>    
+  </tr>
+</table>
+
+## Introduction
+
 The Gordian Stack is a layered set of specifications founded on the CBOR data format and built up from that, step by step, to support digital-asset management in a way that fulfills [the Gordian Principles](/principles/). These developer pages contain developer resources that
 explain the elements in the Stack, and their importance, and make it easy
 for you to adopt them. For more support, you can also attend our [Gordian Meetings](https://developer.blockchaincommons.com/meetings/), usually on the first Wednesday of the month.
