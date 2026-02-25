@@ -16,8 +16,7 @@ sidebar:
     - mainstacks
 ---
 
-      {% include video id="f7MFW8RfcOE" provider="youtube" %}
-
+<a href="https://youtu.be/f7MFW8RfcOE" style="float: right"><img src="https://img.youtube.com/vi/f7MFW8RfcOE/0.jpg" width=300px style="border: 1px solid blue"></a>
 **Wolf McNally:**
 
 Hi, I'm Wolf McNally, lead researcher for Blockchain Commons.
