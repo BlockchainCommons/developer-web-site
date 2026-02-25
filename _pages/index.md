@@ -34,7 +34,9 @@ redirect_from:
 
       {% include video id="f7MFW8RfcOE" provider="youtube" %}
 
+<div align="center">
       [ <a href="/videos/transcripts/overview-2026/">Transcript</a> ]
+</div>
     </td>
     <td width="640px">
       <b>Lengthier 2021 Overview:</b>
