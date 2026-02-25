@@ -33,7 +33,8 @@ redirect_from:
       <b>2026 Overview:</b>
 
       {% include video id="f7MFW8RfcOE" provider="youtube" %}
-      
+
+      [ <a href="/videos/transcripts/overview-2026/">Transcript</a> ]
     </td>
     <td width="640px">
       <b>Lengthier 2021 Overview:</b>
