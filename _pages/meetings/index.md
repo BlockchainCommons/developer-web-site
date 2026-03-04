@@ -54,6 +54,19 @@ If you're a developer, or just an interesting party, you're welcome to join us! 
 
 <table>
 
+  <tr>
+    <td>
+
+      <a href="/meetings/2026-03-ssi/"><img src="https://img.youtube.com/vi/OVWp5A2jZRo/0.jpg" style="border: 1px solid blue"></a>
+
+    </td>
+    <td>
+       <h2><a href="/meetings/2026-03-ssi/">GDM: XIDs & Garner (Marcher 2026)</a></h2>
+
+       <p>How XIDs return to first principles of SSI, and how Garner supports it with self-sovereign networking.</p>
+       
+    </td>
+  </tr>
 
   <tr>
     <td>
@@ -62,7 +75,7 @@ If you're a developer, or just an interesting party, you're welcome to join us! 
 
     </td>
     <td>
-       <h2><a href="/meetings/2026-01-gordian/">GDM: The BCTS IDE (December 2025)</a></h2>
+       <h2><a href="/meetings/2026-01-gordian/">GDM: The BCTS IDE (January 2026)</a></h2>
 
        <p>A demo of the BCTS IDE as well as discussions of what Blockchain Commons did in 2025 and how we're expanding Known Values.</p>
        
