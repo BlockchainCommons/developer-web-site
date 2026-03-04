@@ -10,7 +10,7 @@ title: "March 2026 Gordian Developer Meeting Transcript"
 hide_description: true
 classes:
   - wide
-permalink: /meetings/2026-03-gordian/transcript/
+permalink: /meetings/2026-03-ssi/transcript/
 sidebar:
   nav:
     - meetings
