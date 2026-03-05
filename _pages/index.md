@@ -143,6 +143,7 @@ _Blockchain Commons' specifications aren't built for any specific blockchain. (I
 
    * See our [Zcash page](/chains/zcash/)
    * See our [Learning Bitcoin from the Command Line repo](https://github.com/BlockchainCommons/Learning-Bitcoin-from-the-Command-Line/blob/master/README.md)
+   * See our [Learning FROST from the Command Line](https://learningfrost.blockchaincommons.com/)
 
 ## Other <font color="#888888">Future</font> Development
 
