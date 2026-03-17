@@ -42,15 +42,10 @@ definitions of roles that apps can taken within this architecture._
 
 _Gordian Reference Apps can be fully networked if services are correctly partitioned:_
 
-**[Gordian Server](https://github.com/BlockchainCommons/GordianServer-macOS).**<br>
+**[Fully Noded Server](https://fullynoded.app/)
 **Roles:** Cosigner, Network Server, Seed Generator, Seed Vault (partial)
 
-A full-node server, created by Blockchain Commons' Bitcoin Standup
-scripts, running on a Mac or Linux machine. It connects to Gordian
-Wallet via a _torgap_. In conjunction with Gordian Wallets, its
-transactions are signed with a 2-of-3 multi-sig, with one key secured
-by Gordian Wallet, one key used by Gordian Server, and one key saved
-offline.
+Fonta1n3's Fully Noded Server demonstrates how to separate the functionality of a server from its connected Fully Noded Wallet. It's available as a Bitcoin server for MacOS machines. (This grew out of Fonta1n3's work on the Gordian Server, which we've deprecated because his work on Fully Noded is more up-to-date.)
 
 ## Airgapped Apps
 
