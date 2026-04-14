@@ -99,7 +99,7 @@ Also see the transcript on our [XID Presentation page](/xid/presentation/)
 * [**BCR-2024-010: XID: Extensible Identifiers**](https://github.com/BlockchainCommons/Research/blob/master/papers/bcr-2024-010-xid.md) (Blockchain Commons Research Document)
 * [**How XIDs Demonstrate a True Self-Sovereign Identity**](https://www.blockchaincommons.com/musings/XIDs-True-SSI/) (Musings)
 * [**Learning XIDs from the Command Line**](http://learningxids.blockchaincommons.com/) (MkDocs)
-* 
+
 ### Videos
 
 * [**"Gordian Envelope, Elision, and Controller Docs" Presentation**](/assets/pdfs/xid-intro.pdf) (PDF)
