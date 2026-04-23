@@ -82,7 +82,7 @@ For example here, `derefenceVia`, `key`, `allow`, `All`, `nickname`, `provenance
 **Research Papers:**
 
 * [**BCR-2023-002: Known Values**](https://github.com/BlockchainCommons/Research/blob/master/papers/bcr-2023-002-known-value.md)
-* [**BCR-2023-003: Gordian Envelope Extension: Known Values**][(https://github.com/BlockchainCommons/Research/blob/master/papers/bcr-2023-003-envelope-known-value.md)
+* [**BCR-2023-003: Gordian Envelope Extension: Known Values**](https://github.com/BlockchainCommons/Research/blob/master/papers/bcr-2023-003-envelope-known-value.md)
 * [**BCR-2026-001: Unit, the Known Value for Deliberate Emptiness**](https://github.com/BlockchainCommons/Research/blob/master/papers/bcr-2026-001-unit.md)
 
 **Registration:**
