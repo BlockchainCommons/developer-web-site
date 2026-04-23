@@ -42,9 +42,9 @@ The [Multipart UR (MUR) Implementation Guide](https://github.com/BlockchainCommo
 
 ## Links
 
-* [UR Developers Page](/ur/)
+* [**UR Developers Page**](/ur/)
 * [**BCR-2020-005: UR Specification**](https://github.com/BlockchainCommons/Research/blob/master/papers/bcr-2020-005-ur.md) (Blockchain Commons Research)
-* [**Multipart UR (MUR) Implementation Guide**](https://github.com/BlockchainCommons/Research/blob/master/papers/bcr-2024-001-multipart-ur.md)
+* [**Multipart UR (MUR) Implementation Guide**](https://github.com/BlockchainCommons/Research/blob/master/papers/bcr-2024-001-multipart-ur.md) (Blockchain Commons Research)
 
 
 
