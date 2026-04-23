@@ -236,17 +236,17 @@ URs are a simple, low-level data encoding method. Their use is trivial once you'
 
 ## Links
 
-**Intro:**
-
-* [List of UR Implementations](/ur/implementations/)
-* [**Multipart UR (MUR) Implementation Guide**](https://github.com/BlockchainCommons/Research/blob/master/papers/bcr-2024-001-multipart-ur.md)
-
 **Research Papers:**
 
 * [**BCR-2020-005: UR Specification**](https://github.com/BlockchainCommons/Research/blob/master/papers/bcr-2020-005-ur.md) (Blockchain Commons Research)
 * [**BCR-2020-006: Registry of UR Types**](
 https://github.com/BlockchainCommons/Research/blob/master/papers/bcr-2020-006-urtypes.md) (Blockchain Commons Research)
 * [**Other UR Research Papers**](https://github.com/BlockchainCommons/Research/tree/master) (Blockchain Commons Research)
+
+**Multipart URs (MURs):**
+
+* [**MURs Developer Page**](/ur/mur/)
+* [**Multipart UR (MUR) Implementation Guide**](https://github.com/BlockchainCommons/Research/blob/master/papers/bcr-2024-001-multipart-ur.md)
 
 **Other Developer Resources:**
 
@@ -256,6 +256,7 @@ https://github.com/BlockchainCommons/Research/blob/master/papers/bcr-2020-006-ur
    * [**ur:seed Test Vectors**](/ur/vectors/seeds/)
 * [**A Guide to Using URs for PSBTs**](/ur/psbts/) [our biggest success story]
 * [**UR SSKRs & Envelope SSKRs**](/sskr/)
+* [List of UR Implementations](/ur/implementations/)
 
 **Playground:**
 
