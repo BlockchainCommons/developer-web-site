@@ -4,6 +4,9 @@ _Digital-asset storage uses Gordian Envelope, Blockchain Commons' smart document
 * **Envelope.** Gordian Envelope is a binary storage format built in CBOR that can be encoded with URs, Blockchain Commons' foundational plain-text encoding system, as `ur:envelope`. They're built around recursive storage and support for hashed elision, which allows for provable redaction of data to allow [data minimization](https://www.blockchaincommons.com/musings/musings-data-minimization/). Extensions support even more functionality.
    * See our [Envelope page](/envelope/)
 
+* **Known Values.** Standardized numbers used to represent ontological concepts help to keep envelopes lean and clean and also improve interoperability by encouraging different organization to represent the same concepts in the same ways.
+   * See our [Known Values page](/known-values/)
+  
 * **Permits.** Envelope content can be encrypted. Permits can allow that content to be decrypt in a variety of ways, including symmetric keys, private keys, streched passwords, and SSKR shares.
    * See our [Permits page](/envelope/permits/)
  
