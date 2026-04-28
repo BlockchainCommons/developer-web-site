@@ -215,6 +215,8 @@ envelope:
       url: /envelope/gstp/
     - title: "GSTP Tech Overview"
       url: /envelope/gstp/tech/
+    - title: "Known Values"
+      url: /known-values/
     - title: "Permits"
       url: /envelope/permits/  
     - title: "Request & Response"
