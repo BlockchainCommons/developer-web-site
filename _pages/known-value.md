@@ -11,7 +11,7 @@ classes:
   - wide
 permalink: /known-values/
 sidebar:
-  nav: dcbor
+  nav: envelope
 redirect_from:
   - /known-value/
 ---
