@@ -148,10 +148,11 @@ _See the [Gordian Envelope playlist](https://www.youtube.com/playlist?list=PLCkr
 
 * [**ESC**](/envelope/esc/)
 * [**GSTP**](/envelope/gstp/)
+* [**Known Values**](/known-values/)
 * [**Permits**](/envelope/permits/)
 * [**Request/Response**](/envelope/request/)
 * [**Seeds**](/envelope/seeds/)
-  
+
 **Industry Intros:**
 
 * [**The Dangers of Digital Credentials in Education**](https://www.blockchaincommons.com/articles/Dangerous-Educational-Credentials/) (blog article)
