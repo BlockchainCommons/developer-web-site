@@ -257,7 +257,6 @@ https://github.com/BlockchainCommons/Research/blob/master/papers/bcr-2020-006-ur
 * [**A Guide to Using URs for PSBTs**](/ur/psbts/) [our biggest success story]
 * [**UR SSKRs & Envelope SSKRs**](/sskr/)
 * [**List of UR Implementations**](/ur/implementations/)
-* [**Known Values**](/known-values/)
 
 **Playground:**
 
