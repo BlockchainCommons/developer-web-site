@@ -28,14 +28,13 @@ The [Gordian Developer Meeting](https://www.blockchaincommons.com/subscribe/#gor
     <td width="640px">
       <b>Video:</b>
 
-**Video Pending**
+[Video Pending]
 
     </td>
     <td width="640px">
       <b>Slides:</b>
 
 <a href="/assets/pdfs/2026-05-rssi-ccg.pdf"><img src="/assets/pdfs/2026-05-rssi-ccg.jpg" style="border:2px solid white"></a>
-<center>
 
     </td>
   </tr>
