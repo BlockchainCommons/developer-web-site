@@ -6,7 +6,7 @@ header:
   overlay_image: /assets/images/dev-arch-background.jpg
   og_image: /assets/images/bc-card.jpg
 tagline: "Revisiting SSI"
-title: "W3C CCG: 10-Year SSI Revision Project
+title: "W3C CCG, 10-Year SSI Revision Project
 hide_description: true
 classes:
   - wide
