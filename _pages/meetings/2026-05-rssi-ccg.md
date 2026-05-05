@@ -10,6 +10,7 @@ title: "W3C CCG: 10-Year SSI Revision Project
 hide_description: true
 classes:
   - wide
+permalink: /meetings/2026-05-rssi-ccg/
 sidebar:
   nav: meetings
 ---
