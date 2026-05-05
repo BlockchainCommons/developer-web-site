@@ -42,4 +42,5 @@ This is part of the [Revisiting SSI project](https://revisitingssi.com/) sponsor
 * ["The Path to SSI"](https://www.lifewithalacrity.com/article/the-path-to-self-soverereign-identity/) (Life with Alacrity: April 26, 2016)
 * ["Ten Years of SSI"](https://www.lifewithalacrity.com/article/dispatches-ssi-2026-revision/) (Life with Alacrity: April 26, 2026)
 * [Revisiting SSI Project](https://revisitingssi.com/) (RSSI Web Site)
+* [Principles of SSI: 2026 Community Draft](https://docs.google.com/document/d/1P13Wy1plHWXIonErNXSG8R-n9L4fWTtUzglAcObNSXs/edit?tab=t.0#heading=h.r9vug64meeol) (Google Doc)
 * [W3C Credentials Community Group](https://www.w3.org/community/credentials/) (W3C Web Site)
