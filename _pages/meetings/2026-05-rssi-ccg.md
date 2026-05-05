@@ -28,7 +28,7 @@ The [Gordian Developer Meeting](https://www.blockchaincommons.com/subscribe/#gor
     <td width="640px">
       <b>Video:</b>
 
-[Video Pending]
+**Video Pending**
 
     </td>
     <td width="640px">
@@ -38,6 +38,7 @@ The [Gordian Developer Meeting](https://www.blockchaincommons.com/subscribe/#gor
 <center>
 
     </td>
+  </tr>
 </table>
 
 ## More on RSSI
