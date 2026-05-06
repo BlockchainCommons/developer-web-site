@@ -35,7 +35,7 @@ On **May 5, 2026**, Christopher Allen presented on the 10-year SSI Revision Proj
   </tr>
 </table>
 
-A <a href="2026-05-rssi-ccg-transcript">transcript<a/> of this meeting is also available.
+A <a href="/meetings/2026-05-rssi-ccg-transcript/">transcript<a/> of this meeting is also available.
 
 ## More on RSSI
 
