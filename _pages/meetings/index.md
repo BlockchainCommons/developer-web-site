@@ -57,11 +57,11 @@ If you're a developer, or just an interesting party, you're welcome to join us! 
   <tr>
     <td>
 
-      <a href="/meetings/2026-05-rssi-ccg/"><img src="/assets/pdfs/2026-05-rssi-ccg.jpg" style="border: 1px solid blue"></a>
+      <a href="/meetings/2026-05-rssi-ccg/"><img src="/assets/pdfs/2026-05-rssi-ccg-thumbnail.jpg" style="border: 1px solid blue"></a>
 
     </td>
     <td>
-       <h2><a href="/meetings/2026-03-ssi/">CCG: 10-Year SSI Revision Project (May 2026)</a></h2>
+       <h2><a href="/meetings/2026-05-rssi-ccg/">CCG: 10-Year SSI Revision Project (May 2026)</a></h2>
 
        <p>Christopher Allen presents on the Revisiting SSI project, which returns to its principles.</p>
        
