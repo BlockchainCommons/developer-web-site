@@ -35,6 +35,8 @@ On **May 5, 2026**, Christopher Allen presented on the 10-year SSI Revision Proj
   </tr>
 </table>
 
+A <a href="2026-05-rssi-ccg-transcript">transcript<a/> of this meeting is also available.
+
 ## More on RSSI
 
 This is part of the [Revisiting SSI project](https://revisitingssi.com/) sponsored by Blockchain Commons (and by [Stream 44 Systems](https://stream44.studio/)). The goal is to reconsider the SSI principles written for the original "Path to SSI" paper ten years on.
