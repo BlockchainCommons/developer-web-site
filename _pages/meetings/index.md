@@ -57,11 +57,25 @@ If you're a developer, or just an interesting party, you're welcome to join us! 
   <tr>
     <td>
 
+      <a href="/meetings/2026-05-rssi-ccg/"><img src="/assets/pdfs/2026-05-rssi-ccg.jpg" style="border: 1px solid blue"></a>
+
+    </td>
+    <td>
+       <h2><a href="/meetings/2026-03-ssi/">CCG: 10-Year SSI Revision Project (May 2026)</a></h2>
+
+       <p>Christopher Allen presents on the Revisiting SSI project, which returns to its principles.</p>
+       
+    </td>
+  </tr>
+
+  <tr>
+    <td>
+
       <a href="/meetings/2026-03-ssi/"><img src="https://img.youtube.com/vi/OVWp5A2jZRo/0.jpg" style="border: 1px solid blue"></a>
 
     </td>
     <td>
-       <h2><a href="/meetings/2026-03-ssi/">GDM: XIDs & Garner (Marcher 2026)</a></h2>
+       <h2><a href="/meetings/2026-03-ssi/">GDM: XIDs & Garner (March 2026)</a></h2>
 
        <p>How XIDs return to first principles of SSI, and how Garner supports it with self-sovereign networking.</p>
        
