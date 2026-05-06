@@ -23,7 +23,7 @@ On **May 5, 2026**, Christopher Allen presented on the 10-year SSI Revision Proj
     <td width="640px">
       <b>Video:</b>
 
-[Video Pending]
+<a href="https://meet.w3c-ccg.org/archives/w3c-ccg-atlantic-2026-05-05.mp4"><img src="/assets/pdfs/2026-05-rssi-ccg-thumbnail.jpg"></a>
 
     </td>
     <td width="640px">
