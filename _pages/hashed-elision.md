@@ -49,4 +49,4 @@ In [Gordian Envelope](/envelope/), data is arranged into leaves that exist as pa
 ## Links
 
 * [**Gordian Envelope**](/envelope/)
-* [**Data Minimization & Selective Disclosure](https://www.blockchaincommons.com/musings/musings-data-minimization/) (Musings)\
+* [**Data Minimization & Selective Disclosure**](https://www.blockchaincommons.com/musings/musings-data-minimization/) (Musings)
