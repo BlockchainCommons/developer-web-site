@@ -201,6 +201,8 @@ envelope:
       url: /envelope/tech/
     - title: "Feature List"
       url: /envelope/features/
+    - title: "Hashed Elision"
+      url: /hashed-elision/
     - title: "Use Cases Overview"
       url: /envelope/use-cases/
     - title: "Use Cases Listing"
