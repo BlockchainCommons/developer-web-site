@@ -28,7 +28,7 @@ deterministic storage and transmission of data such as seeds, keys,
 decentralized identifiers, and verifiable credentials in a way that
 enables privacy while preserving structure. The format is very simple
 and compact, with minimal overhead, but thanks to its recursive design, documents can ultimately be as
-complex as needed. Gordian Envelope's privacy features are built on a
+complex as needed. Gordian Envelope's [hashed elision](/hashed-elision/) privacy features are built on a
 Merkle-like Tree that supports cryptography and privacy-related
 methodologies such as [progressive
 trust](https://www.blockchaincommons.com/musings/musings-progressive-trust/)
@@ -142,6 +142,7 @@ _See the [Gordian Envelope playlist](https://www.youtube.com/playlist?list=PLCkr
 * [**Executive Summary**](/envelope/summary/)
 * [**Technical Overview**](/envelope/tech/)
 * [**Feature List**](/envelope/features/)
+* [**Hashed Elision Overview**](/hashed-elision/)
 * [**IETF Problem Statement: Deterministic Hashed Data Elision**](https://datatracker.ietf.org/doc/draft-appelcline-hashed-elision/) (IETF)
 
 **Extension Intros:**
