@@ -21,15 +21,15 @@ redirect_from:
 
 ## Overview
 
-Hashed elision structures credentials so that any field can be replaced by a one-way hash of itself. Issuers sign across those hashes rather than the raw data. The holder can then elide any field at the moment of presentation, and the issuer's signature still verifies. What remains is provably authentic; and what was removed is provably untampered. The verifier learns only what it asked for.
+Hashed elision structures information so that any field can be replaced by a one-way hash of itself. Issuers sign across those hashes rather than the raw data. The holder of the data packet can then elide any field at the moment of presentation, and the issuer's signature still verifies. What remains is provably authentic; and what was removed is provably untampered. The verifier learns only what it asked for.
 
 ## Why is Hashed Elision Important?
 
-Digital credential data is largely revealed on an all-or-nothing basis. To prove a single fact such as being over 21 typically requires that you hand over the whole document. As a result, the verifier often keeps far more than it needed: every verifier becomes a data honeypot it never set out to be.
+Digital credential data is largely revealed on an all-or-nothing basis. To prove a single fact such as being over 21 typically requires that you hand over the whole document. As a result, the verifier often keeps far more information than it needed: every verifier becomes a data honeypot it never set out to be.
 
 Hashed elision offers an alternative through its support of [selective disclosure](https://www.blockchaincommons.com/musings/musings-data-minimization/), which is the ability for a holder of credentials to only reveal the parts of the credential that are important to a particular transaction. 
 
-Though selective disclosure is theoretically available in credential formats such as SD-JWT and mdoc, it's commonly implemented in ways that reduce holder agency. That's because they typically require the issuer to decide in advance which fields may be selectively disclosed. BBS, applied to credentials, similarly allows an issuer to mark specific parts of a credential as mandatory. That is issuer-controlled minimization, and it's not enough. Best practice instead requires that the holder can elide at presentation time, on their own authority, without the issuer pre-approving each field (and without contacting the issuer at all).
+Though selective disclosure is theoretically available in credential formats such as SD-JWT and mdoc, it's commonly implemented in ways that reduce holder agency. That's because those formats typically require the issuer to decide in advance which fields may be selectively disclosed. BBS, applied to credentials, similarly allows an issuer to mark specific parts of a credential as mandatory. That is issuer-controlled minimization, and it's not enough. Best practice instead requires that the holder can elide at presentation time, on their own authority, without the issuer pre-approving each field (and without contacting the issuer at all).
 
 ## How Does Hashed Elision Work?
 
@@ -50,3 +50,4 @@ In [Gordian Envelope](/envelope/), data is arranged into leaves that exist as pa
 
 * [**Gordian Envelope**](/envelope/)
 * [**Data Minimization & Selective Disclosure**](https://www.blockchaincommons.com/musings/musings-data-minimization/) (Musings)
+* [**Deterministic Hashed Data Elision: Problem Statement and Areas of Work**](https://datatracker.ietf.org/doc/html/draft-appelcline-hashed-elision-00) (IETF Draft)
