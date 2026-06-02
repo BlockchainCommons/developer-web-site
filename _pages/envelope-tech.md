@@ -295,7 +295,7 @@ As for the advantages of a Merkle-like tree? The dynamically generated hashes en
 ## Eliding Envelopes
 
 One of the biggest advances of Gordian Envelope is that it includes
-elision as a fundamental principle. Any element of an envelope may be
+[hashed elision](/hashed-elision/) as a fundamental principle. Any element of an envelope may be
 elided; the elision may be done by the Holder (not just an Issuer, as
 is the case with most extant credential data structures); and elision
 does not change the hashes of the envelope.
