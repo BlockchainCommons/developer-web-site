@@ -78,6 +78,15 @@ Our "Learning FROST" explains what FROST is and why you'd want to use it for sig
 * **Online Tutorial Playground:** [bcts Data Playground](https://bcts.dev/xid)
 * **Last Updated:** 2026
 
+---
+
+
+**Q:** _Why "From the Command Line?"_<br><br>**A:** Learning "from the command line" supports hands-on experience, or [experiential learning](https://en.wikipedia.org/wiki/Experiential_learning). It's a proven pedagogical approach that helps to solidify concepts and commit them to memory. In courses like "Learning Bitcoin" and "Learning FROST", it also allows for the examination of files and other outputs, so that you can dig as deep as you want on a topic. That's why our courses are written "from the command line," and why we suggest that you follow along on your own CLI.
+{: .notice--info}
+
+---
+
+
 ## Smart Custody
 
 <table width="100%" border="0">
@@ -99,5 +108,4 @@ SmartCustody describes “The use of advanced cryptographic tools to improve the
 * **PDF Book:** [194-page book](https://bit.ly/SmartCustodyBookV101)
 * **Last Updated:** 2019 (book), 2024 (articles)
 
-**Q:** _Why "From the Command Line?"_ **A:** Learning "from the command line" supports hands-on experience, or [experiential learning](https://en.wikipedia.org/wiki/Experiential_learning). It's a proven pedagogical approach that helps to solidify concepts and commit them to memory. In courses like "Learning Bitcoin" and "Learning FROST", it also allows for the examination of files and other outputs, so that you can dig as deep as you want on a topic. That's why our courses are written "from the command line," and why we suggest that you follow along on your own CLI.
-{: .notice--info}
+
