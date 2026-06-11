@@ -29,11 +29,11 @@ Our original "Learning ... from the Command Line" course offers an entire curric
   </tr>
 </table>
 
-(This course is currently outdated; the foundation is solid but current techs are not covered; contact [us](mailto:team@blockchaincommons.com) if you'd like to support its update.)
+(This course is in the middle of a 2026 update courtesy of a grant from [HRF](https://hrf.org/).)
 
-* **GitHub Course:** [Learning-Bitcoin-from-the-Command-Line](https://github.com/BlockchainCommons/Learning-Bitcoin-from-the-Command-Line/blob/master/README.md)
+* **Online Course:** [learningbitcoin.blockchaincoms.com](https://learningbitcoin.blockchaincommons.com/)
 * **Translations:** [Portuguese](https://github.com/BlockchainCommons/Learning-Bitcoin-from-the-Command-Line/tree/master/pt#readme), [Spanish](https://github.com/BlockchainCommons/Learning-Bitcoin-from-the-Command-Line/blob/master/es/README.md)
-* **Last Updated:** 2022
+* **Last Updated:** In Process
 
 ## Learning FROST from the Command Line
 
@@ -55,6 +55,28 @@ Our "Learning FROST" explains what FROST is and why you'd want to use it for sig
 
 * **Online Course:** [learningfrost.blockchaincommons.com](https://learningfrost.blockchaincommons.com/)
 * **Last Updated:** 2025
+
+## Learning XIDs from the Command Line
+
+<table width="100%" border="0">
+  <tr>
+    <td width=350px valign="middle" style="border: 0px solid black">
+
+<a href="https://learningxids.blockchaincommons.com/"><img src="https://raw.githubusercontent.com/BlockchainCommons/XID-Quickstart/refs/heads/main/images/lxid-screen.jpg" style="float: left; border: 1px solid white !important; width: 350px; margin-right: 12px;"></a>
+
+    </td>
+    <td valign="middle">
+
+"Learning XIDs" talks about Blockchain Commons' decentralized identifier, demonstrating how to create it, use it, and expand it over time, and how to create new views (with elided information) and new editions (with added or removed information).
+
+    </td>
+  </tr>
+</table>
+
+
+* **Online Course:** [learningxids.blockchaincommons.com](http://learningxids.blockchaincommons.com/)
+* **Online Tutorial Playground:** [bcts Data Playground](https://bcts.dev/xid)
+* **Last Updated:** 2026
 
 ## Smart Custody
 
