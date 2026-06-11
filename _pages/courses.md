@@ -21,7 +21,7 @@ Blockchain Commons creates courses for developers and for users, intended to bri
 <table width="100%" border="0">
   <tr>
     <td width=350px valign="middle" style="border: 0px solid black">
-<a href="https://github.com/BlockchainCommons/Learning-Bitcoin-from-the-Command-Line/blob/master/README.md"><img src="https://www.blockchaincommons.com/images/projects/lbtc-screen.png" style="border: 1px solid white !important; width: 350px; margin-right: 12px;"></a>
+<a href="https://learningbitcoin.blockchaincommons.com/"><img src="https://www.blockchaincommons.com/images/projects/lbtc-screen.png" style="border: 1px solid white !important; width: 350px; margin-right: 12px;"></a>
     </td>
     <td valign="middle">
 Our original "Learning ... from the Command Line" course offers an entire curriculum on Bitcoin, using the bitcoin-cli interface found in Bitcoin Core. It includes details on classic Bitcoin transactions and scripts, then also describes programming with RPC command using Lightning in relation with Bitcoin. 
