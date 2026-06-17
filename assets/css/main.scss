@@ -26,8 +26,8 @@ $max-width:90%;
 
 .hexgrid {
     display: grid;
-    grid-template-columns: repeat(5,75px);
-    grid-template-rows: repeat(4,69px);
+    grid-template-columns: repeat(4,150px);
+    grid-template-rows: repeat(2,138px);
     grid-gap: 0px;
     
 }
