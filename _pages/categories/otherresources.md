@@ -18,7 +18,7 @@ Alongside its [architectural support](/architecture/) and its [technologies](/te
 
 ## Courses
 
-Blockchain Commons offers courses to support the use of digital assets, the development of Bitcoin, and the use of our specifications. Most of these are hands-on CLI courses in our "from the Command Line" series:
+Blockchain Commons offers courses to support the use of digital assets, the development of Bitcoin, and the use of our specifications. Most of these are hands-on CLI courses in our "from the Command Line" series. We've also produced a [_Smart Custody_ book](https://www.smartcustody.com/#the-book).
 
 <table>
   <tr width="100%">
@@ -39,8 +39,6 @@ Blockchain Commons offers courses to support the use of digital assets, the deve
     </td>
   </tr>
 </table>
-
-We've also produced a [_Smart Custody_ book](https://www.smartcustody.com/#the-book).
 
 For more see:
 
