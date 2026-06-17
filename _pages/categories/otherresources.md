@@ -55,7 +55,9 @@ For more see:
 
 ## BCRs
 
-Our specs and other technical research can be found in our the Blockchain Commons [research repo](https://github.com/BlockchainCommons/research/). This is where to go to see exactly how things should be implemented (though relevant BCRs are also linked from each technology page). For more see:
+Our specs and other technical research can be found in our the Blockchain Commons [research repo](https://github.com/BlockchainCommons/research/). This is where to go to see exactly how things should be implemented (though relevant BCRs are also linked from each technology page). 
+
+For more see:
 
 * [**Blockchain Commons Research (BCR) Contents**](https://github.com/BlockchainCommons/research/#contents)
 
