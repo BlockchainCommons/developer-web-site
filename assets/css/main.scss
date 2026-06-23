@@ -24,15 +24,25 @@ hr {
 
 $max-width:90%;
 
-.hexgrid {
+.hexbox {
     background-color: black;
-    border: 2px solid white;
-    float: right;
+    padding: 5px;
+    border: 1px solid white;
+    float: right;    
+}
+
+.hexgrid3 {
+    display: grid;
+    grid-template-columns: repeat(7,58px);
+    grid-template-rows: repeat(6,61px);
+    grid-gap: 0px;
+}
+
+.hexgrid4 {
     display: grid;
     grid-template-columns: repeat(7,58px);
     grid-template-rows: repeat(8,61px);
     grid-gap: 0px;
-    
 }
 
 .hexgrid img {
