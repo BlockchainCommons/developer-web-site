@@ -24,14 +24,13 @@ hr {
 
 $max-width:90%;
 
-.hexbox {
+.hexgrid3 {
     background-color: black;
-    padding: 5px;
+    padding: 10px;
+    margin-left: 5px;
+    margin-bottom: 5px;
     border: 1px solid white;
     float: right;    
-}
-
-.hexgrid3 {
     display: grid;
     grid-template-columns: repeat(7,58px);
     grid-template-rows: repeat(6,61px);
