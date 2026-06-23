@@ -33,6 +33,19 @@ mainstacks:
       url: /crypto-stack/
     - title: "UX Stack"
       url: /ux-stack/
+resources:
+  - title: Other Resources
+    children:
+    - title: "Courses"
+      url: /courses/
+    - title "Libraries"
+      url: /libraries/
+    - title: "Meetings"
+      url: /meetings/
+    - title: "Specifications"
+      url: https://github.com/BlockchainCommons/research/
+    - title: Return to Home
+      url: /
 architecture:
   - title: Gordian Architecture
     children:
