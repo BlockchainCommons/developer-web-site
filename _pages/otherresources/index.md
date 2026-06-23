@@ -14,7 +14,7 @@ sidebar:
   nav: resources
 ---
 
-<div class="hexbox hexgrid4">
+<div class="hexgrid3">
   <div class="hex11">
     <img src="/assets/badges/learning-bitcoin-600.png">
   </div>
