@@ -38,7 +38,7 @@ resources:
     children:
     - title: "Courses"
       url: /courses/
-    - title "Libraries"
+    - title: "Libraries"
       url: /libraries/
     - title: "Meetings"
       url: /meetings/
