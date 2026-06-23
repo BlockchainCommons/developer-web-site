@@ -16,6 +16,18 @@ sidebar:
 
 _Alongside its [architectural support](/architecture/) and its [technologies](/technology/), Blockchain Commons also offers a number of other resources to support developers looking to offer decentralized, self-sovereign digital resources that offer [independence, privacy, resilience, and openness](/principles/)._
 
+<div class="hexgrid">
+  <div style="grid-column: 0; grid-row: 0">
+    <a href="/assets/badges/learning-bitcoin.png">
+  </div>
+  <div style="grid-column: 0; grid-row: 1">
+    <a href="/assets/badges/learning-bitcoin.png">
+  </div>
+  <div style="grid-column: 1; grid-row: 0/span 2">
+    <a href="/assets/badges/learning-bitcoin.png">
+  </div>
+</div>
+
 ## Courses
 
 Blockchain Commons offers courses to support the use of digital assets, the development of Bitcoin, and the use of our specifications. Most of these are hands-on CLI courses in our "from the Command Line" series. We've also produced a [_Smart Custody_ book](https://www.smartcustody.com/#the-book).
