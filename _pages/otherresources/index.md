@@ -16,19 +16,34 @@ sidebar:
 
 <div class="hexbox hexgrid3">
   <div class="hex11">
-    <img src="/assets/badges/learning-bitcoin-600.png">
+    <a href="https://learningbitcoin.blockchaincommons.com/">
+      <img src="/assets/badges/learning-bitcoin-600.png">
+    </a>
   </div>
   <div class="hex21">
-    <img src="/assets/badges/learning-frost-600.png">
+    <a href="https://learningfrost.blockchaincommons.com/">
+      <img src="/assets/badges/learning-frost-600.png">
+    </a>
   </div>
+  <div class="hex22">
+    <a href="https://developer.blockchaincommons.com/libraries/">
+      <img src="/assets/badges/learning-libraries-600.png">
+    </a>
+  </div>  
   <div class="hex31">
-    <img src="/assets/badges/learning-xids-600.png">
+    <a href="https://learningxids.blockchaincommons.com/">
+      <img src="/assets/badges/learning-xids-600.png">
+    </a>
   </div>
   <div class="hex32">
-    <img src="/assets/badges/dev-meeting-600.png">
+    <a href="https://developer.blockchaincommons.com/meetings/">
+      <img src="/assets/badges/dev-meeting-600.png">
+    </a>
   </div>
   <div class="hex33">
-    <img src="/assets/badges/research-600.png">
+    <a href="https://github.com/BlockchainCommons/research/#contents">
+      <img src="/assets/badges/research-600.png">
+    </a>
   </div>
 </div>
 
