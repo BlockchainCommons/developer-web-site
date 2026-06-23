@@ -18,17 +18,17 @@ sidebar:
   <div class="hex11">
     <img src="/assets/badges/learning-bitcoin.png">
   </div>
-  <div style="grid-column: 1 / span 3; grid-row: 3 / span 2">
-    <img src="/assets/badges/learning-bitcoin.png">
+  <div class="hex21">
+    <img src="/assets/badges/learning-frost.png">
   </div>
-  <div style="grid-column: 3 / span 3; grid-row: 2 / span 2">
-    <img src="/assets/badges/learning-bitcoin.png">
+  <div class="hex31">
+    <img src="/assets/badges/learning-xids.png">
   </div>
-  <div style="grid-column: 3 / span 3; grid-row:  4 / span 2">
-    <img src="/assets/badges/learning-bitcoin.png">
+  <div class="hex32">
+    <img src="/assets/badges/dev-meeting.png">
   </div>
-  <div style="grid-column: 1 / span 3; grid-row:  5 / span 2">
-    <img src="/assets/badges/learning-bitcoin.png">
+  <div class="hex33">
+    <img src="/assets/badges/research.png">
   </div>
 </div>
 
