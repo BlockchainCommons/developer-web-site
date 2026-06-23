@@ -17,7 +17,7 @@ sidebar:
 _Alongside its [architectural support](/architecture/) and its [technologies](/technology/), Blockchain Commons also offers a number of other resources to support developers looking to offer decentralized, self-sovereign digital resources that offer [independence, privacy, resilience, and openness](/principles/)._
 
 <div class="hexgrid">
-  <div style="grid-column: 1 / span 3; grid-row:  1 / span 2">
+  <div class="hex-1-1">
     <img src="/assets/badges/learning-bitcoin.png">
   </div>
   <div style="grid-column: 1 / span 3; grid-row: 3 / span 2">
