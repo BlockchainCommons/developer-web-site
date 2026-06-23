@@ -28,8 +28,8 @@ $max-width:90%;
     background-color: black;
     box-shadow: 5px 5px 5px black;
     padding: 12px;
-    margin-left: 5px;
-    margin-bottom: 5px;
+    margin-left: 10px;
+    margin-bottom: 10px;
     border: 1px solid #51555d;
     border-radius: 15px;
     float: right;    
@@ -39,14 +39,14 @@ $max-width:90%;
 .hexgrid3 {
     display: grid;
     grid-template-columns: repeat(7,48px);
-    grid-template-rows: repeat(6,52px);
+    grid-template-rows: repeat(6,51px);
     grid-gap: 0px;
 }
 
 .hexgrid4 {
     display: grid;
     grid-template-columns: repeat(7,48px);
-    grid-template-rows: repeat(8,52px);
+    grid-template-rows: repeat(8,51px);
     grid-gap: 0px;
 }
 
