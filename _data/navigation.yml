@@ -36,6 +36,8 @@ mainstacks:
 resources:
   - title: Other Resources
     children:
+    - title: "Resources Home"
+      url: /resources/
     - title: "Courses"
       url: /courses/
     - title: "Libraries"
@@ -43,7 +45,7 @@ resources:
     - title: "Meetings"
       url: /meetings/
     - title: "Specifications"
-      url: https://github.com/BlockchainCommons/research/
+      url: https://github.com/BlockchainCommons/research/#contents
     - title: Return to Home
       url: /
 architecture:
