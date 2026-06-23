@@ -27,9 +27,13 @@ $max-width:90%;
 .hexgrid {
     float: right;
     display: grid;
-    grid-template-columns: repeat(7,50px);
-    grid-template-rows: repeat(8,58px);
+    grid-template-columns: repeat(7,51px);
+    grid-template-rows: repeat(8,59px);
     grid-gap: 0px;
-    border: 1px solid green;
     
+}
+
+.hex11 {
+  grid-column: 1 / span 3; 
+  grid-row:  1 / span 2;
 }
