@@ -16,19 +16,19 @@ sidebar:
 
 <div class="hexgrid">
   <div class="hex11">
-    <img src="/assets/badges/learning-bitcoin.png">
+    <img src="/assets/badges/learning-bitcoin-600.png">
   </div>
   <div class="hex21">
-    <img src="/assets/badges/learning-frost.png">
+    <img src="/assets/badges/learning-frost-600.png">
   </div>
   <div class="hex31">
-    <img src="/assets/badges/learning-xids.png">
+    <img src="/assets/badges/learning-xids-600.png">
   </div>
   <div class="hex32">
-    <img src="/assets/badges/dev-meeting.png">
+    <img src="/assets/badges/dev-meeting-600.png">
   </div>
   <div class="hex33">
-    <img src="/assets/badges/research.png">
+    <img src="/assets/badges/research-600.png">
   </div>
 </div>
 
