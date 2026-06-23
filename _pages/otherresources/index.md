@@ -24,9 +24,6 @@ sidebar:
   <div style="grid-column: 3 / span 3; grid-row: 2 / span 2">
     <img src="/assets/badges/learning-bitcoin.png">
   </div>
-  <div style="grid-column: 5 / span 3; grid-row:  1 / span 2">
-    <img src="/assets/badges/learning-bitcoin.png">
-  </div>
   <div style="grid-column: 3 / span 3; grid-row:  4 / span 2">
     <img src="/assets/badges/learning-bitcoin.png">
   </div>
