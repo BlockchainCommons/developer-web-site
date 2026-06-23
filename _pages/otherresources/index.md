@@ -27,7 +27,7 @@ sidebar:
   </div>
   <div class="hex22">
     <a href="https://developer.blockchaincommons.com/libraries/">
-      <img src="/assets/badges/learning-libraries-600.png">
+      <img src="/assets/badges/libraries-600.png">
     </a>
   </div>  
   <div class="hex31">
