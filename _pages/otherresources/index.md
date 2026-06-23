@@ -14,7 +14,7 @@ sidebar:
   nav: resources
 ---
 
-Alongside its [architectural support](/architecture/) and its [technologies](/technology/), Blockchain Commons also offers a number of other resources to support developers looking to offer decentralized, self-sovereign digital resources that offer [independence, privacy, resilience, and openness](/principles/).
+_Alongside its [architectural support](/architecture/) and its [technologies](/technology/), Blockchain Commons also offers a number of other resources to support developers looking to offer decentralized, self-sovereign digital resources that offer [independence, privacy, resilience, and openness](/principles/)._
 
 ## Courses
 
