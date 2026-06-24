@@ -12,7 +12,9 @@ classes:
   - wide
 permalink: /libraries/
 sidebar:
-  nav: resources
+  nav:
+    - resources
+    - libraries
 ---
 
 
