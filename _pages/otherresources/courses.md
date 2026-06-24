@@ -15,6 +15,30 @@ sidebar:
   nav: resourcescourses
 ---
 
+
+<div class="hexbox hexgrid2">
+  <div class="hex11">
+    <a href=".">
+      <img src="/assets/badges/cat-resources-600.png">
+    </a>
+  </div>
+  <div class="hex12">
+    <a href="https://learningbitcoin.blockchaincommons.com/">
+      <img src="/assets/badges/learning-bitcoin-600.png">
+    </a>
+  </div>
+  <div class="hex21">
+    <a href="https://learningfrost.blockchaincommons.com/">
+      <img src="/assets/badges/learning-frost-600.png">
+    </a>
+  </div>
+   <div class="hex31">
+    <a href="https://learningxids.blockchaincommons.com/">
+      <img src="/assets/badges/learning-xids-600.png">
+    </a>
+  </div>
+</div>
+
 Blockchain Commons creates courses for developers and for users, intended to bring new programmers into the industry and to support the use of best practices.
 
 ## Learning Bitcoin from the Command Line
