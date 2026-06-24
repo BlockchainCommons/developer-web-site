@@ -18,7 +18,7 @@ sidebar:
 
 <div class="hexbox hexgrid3">
   <div class="hex11">
-    <a href=".">
+    <a href="/resources/">
       <img src="/assets/badges/cat-resources.png">
     </a>
   </div>
