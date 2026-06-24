@@ -50,6 +50,10 @@ $max-width:90%;
     width: 150px;
 }
 
+img.opaqued {
+  opacity: 40%;
+}
+
 .hex11 {
   grid-column: 1 / span 3; 
   grid-row:  1 / span 2;
