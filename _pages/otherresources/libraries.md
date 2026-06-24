@@ -62,6 +62,65 @@ sidebar:
 
 ## Specification Libraries
 
+
+<div class="hexline hexgrid72">
+  <div class="hex11">
+    <a href="/bytewords/">
+      <img src="/assets/badges/bytewords.png">
+    </a>
+  </div>
+  <div class="hex12">
+    <a href="/cbor/">
+      <img src="/assets/badges/cbor.png">
+    </a>
+  </div>
+  <div class="hex21">
+    <a href="/clubs/">
+      <img src="/assets/badges/clubs.png">
+    </a>
+  </div>
+  <div class="hex31">
+    <a href="/dcbor/">
+      <img src="/assets/badges/dcbor.png">
+    </a>
+  </div>
+  <div class="hex32">
+    <a href="/envelope/">
+      <img src="/assets/badges/envelope.png">
+    </a>
+  </div>
+  <div class="hex41">
+    <a href="/known-values/">
+      <img src="/assets/badges/known-values.png">
+    </a>
+  </div>
+  <div class="hex51">
+    <a href="/lifehash/">
+      <img src="/assets/badges/lifehash.png">
+    </a>
+  </div>
+  <div class="hex52">
+    <a href="/provemark/">
+      <img src="/assets/badges/provenance-marks.png">
+    </a>
+  </div>
+  <div class="hex61">
+    <a href="/sskr/">
+      <img src="/assets/badges/sskr.png">
+    </a>
+  </div>
+  <div class="hex71">
+    <a href="/ur/">
+      <img src="/assets/badges/ur.png">
+    </a>
+  </div>
+  <div class="hex72">
+    <a href="/xid/">
+      <img src="/assets/badges/xid.png">
+    </a>
+  </div>
+</div>
+
 {% include lib-bech32.md %}
 {% include lib-bip39.md %}
 {% include lib-bytewords.md %}
