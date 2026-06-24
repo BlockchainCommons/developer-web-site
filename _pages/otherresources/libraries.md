@@ -127,6 +127,7 @@ sidebar:
 {% include lib-bip39.md %}
 {% include lib-bytewords.md %}
 {% include lib-clubs.md %}
+{% include lib-tags.md %}
 {% include lib-dcbor.md %}
 {% include lib-envelope.md %}
 {% include lib-knownvalues.md %}
@@ -134,7 +135,6 @@ sidebar:
 {% include lib-pm.md %}
 {% include lib-shamir.md %}
 {% include lib-sskr.md %}
-{% include lib-tags.md %}
 {% include lib-ur.md %}
 {% include lib-xid.md %}
 
