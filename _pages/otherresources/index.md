@@ -15,7 +15,7 @@ sidebar:
   nav: resources
 ---
 
-<div class="hexline hexgrid72">
+<div class="hexline hexgrid71">
   <div class="hex11">
     <a href="https://learningbitcoin.blockchaincommons.com/">
       <img src="/assets/badges/learning-bitcoin.png">
