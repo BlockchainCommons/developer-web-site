@@ -15,30 +15,15 @@ sidebar:
   nav: resources
 ---
 
-<div class="hexbox hexgrid3">
-  <div class="hex11 opaqued">
-    <a href=".">
-      <img src="/assets/badges/cat-resources.png">
-    </a>
-  </div>
-  <div class="hex12">
+<div class="hexline hexgrid72">
+  <div class="hex11">
     <a href="https://learningbitcoin.blockchaincommons.com/">
       <img src="/assets/badges/learning-bitcoin.png">
     </a>
   </div>
-  <div class="hex13">
-    <a href="https://developer.blockchaincommons.com/libraries/">
-      <img src="/assets/badges/libraries.png">
-    </a>
-  </div>  
   <div class="hex21">
     <a href="https://learningfrost.blockchaincommons.com/">
       <img src="/assets/badges/learning-frost.png">
-    </a>
-  </div>
-  <div class="hex22">
-    <a href="https://developer.blockchaincommons.com/meetings/">
-      <img src="/assets/badges/dev-meeting.png">
     </a>
   </div>
   <div class="hex31">
@@ -46,14 +31,29 @@ sidebar:
       <img src="/assets/badges/learning-xids.png">
     </a>
   </div>
-    <div class="hex32">
+  <div class="hex41">
+    <a href="https://developer.blockchaincommons.com/libraries/">
+      <img src="/assets/badges/libraries.png">
+    </a>
+  </div>  
+  <div class="hex51">
+    <a href="https://developer.blockchaincommons.com/meetings/">
+      <img src="/assets/badges/dev-meeting.png">
+    </a>
+  </div>
+  <div class="hex61">
+    <a href="https://github.com/BlockchainCommons/research/#contents">
+      <img src="/assets/badges/research.png">
+    </a>
+  </div>
+ <div class="hex72">
     <a href="https://www.smartcustody.com/">
       <img src="/assets/badges/smart-custody.png">
     </a>
   </div>
-  <div class="hex33">
-    <a href="https://github.com/BlockchainCommons/research/#contents">
-      <img src="/assets/badges/research.png">
+  <div class="hex71 opaqued">
+    <a href="/resources/">
+      <img src="/assets/badges/cat-resources.png">
     </a>
   </div>
 </div>
