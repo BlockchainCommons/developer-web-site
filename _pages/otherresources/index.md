@@ -15,8 +15,6 @@ sidebar:
   nav: resources
 ---
 
----
-
 <div class="hexline hexgrid71">
   <div class="hex11">
     <a href="https://learningbitcoin.blockchaincommons.com/">
@@ -54,8 +52,6 @@ sidebar:
     </a>
   </div>
 </div>
-
----
 
 
 _Alongside its [architectural support](/architecture/) and its [technologies](/technology/), Blockchain Commons also offers a number of other resources to support developers looking to build decentralized, self-sovereign digital resources that provide [independence, privacy, resilience, and openness](/principles/)._
