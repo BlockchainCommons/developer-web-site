@@ -49,7 +49,7 @@ h2 {
     grid-gap: 0px;
 }
 
-.narrowhexgrid3 {
+.nhexgrid3 {
     display: grid;
     grid-template-columns: repeat(5,58px);
     grid-template-rows: repeat(6,62px);
@@ -70,6 +70,10 @@ h2 {
 
 .opaqued {
   opacity: 40%;
+}
+
+.hexcat {
+  filter: drop-shadow(0 0 4px rgb(255, 255, 255));
 }
 
 .hex11 {
@@ -116,5 +120,29 @@ h2 {
   grid-column: 5 / span 3; 
   grid-row:  7 / span 2;
 }
+
+.nhex11 {
+  grid-column: 1 / span 3; 
+  grid-row:  2 / span 2;
+}
+  
+.nhex12 {
+  grid-column: 1 / span 3; 
+  grid-row:  4 / span 2;
+}
+
+.nhex21 {
+  grid-column: 3 / span 3; 
+  grid-row:  1 / span 2;
+}
+.nhex22 {
+  grid-column: 3 / span 3; 
+  grid-row:  3 / span 2;
+}
+.nhex23 {
+  grid-column: 3 / span 3; 
+  grid-row:  5 / span 2;
+}
+
 
 
