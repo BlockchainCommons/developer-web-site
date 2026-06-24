@@ -2,8 +2,8 @@
 cover: false
 header:
   overlay_color: "#000"
-  overlay_filter: "0.25"
-  overlay_image: /assets/images/dev-arch-background.jpg
+  overlay_filter: "0.35"
+  overlay_image: /assets/headers/otherresources.jpg
   og_image: /assets/images/bc-card.jpg
 tagline: "PayJoin & Request/Response"
 title: "Gordian Developer Meeting: May 2024"
@@ -12,7 +12,9 @@ classes:
   - wide
 permalink: /meetings/2024-05-payjoin-rr/
 sidebar:
-  nav: meetings
+  nav:
+   - resources
+   - meetings
 ---
 
 The [Gordian Developer Meeting](https://www.blockchaincommons.com/subscribe/#gordian-developers) on **May 1, 2024** included a focus on [Envelope's Request/Response system](/envelope/request/) as well as a special presentation on [PayJoin](https://payjoin.org/) from the wider community.

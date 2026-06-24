@@ -2,8 +2,8 @@
 cover: false
 header:
   overlay_color: "#000"
-  overlay_filter: "0.25"
-  overlay_image: /assets/images/dev-arch-background.jpg
+  overlay_filter: "0.35"
+  overlay_image: /assets/headers/otherresources.jpg
   og_image: /assets/images/bc-card.jpg
 tagline: "Five Anchors for Autonomy & Sovereignty"
 title: "Swiss e-ID Participation Meeting: October 2025"
@@ -12,7 +12,9 @@ classes:
   - wide
 permalink: /meetings/2025-10-swiss-eid/
 sidebar:
-  nav: meetings
+  nav:
+    - resources
+    - meetings
 ---
 
 On September 28, 2025, Switzerland adopted the use of "electronic proof of identity," or e-IDs, to be issued and administered by the Swiss government. This was a public referendum on the Swiss e-ID Federal Act of December 20 2024. The Swiss government [explains it as follows](https://www.admin.ch/gov/en/start/documentation/votes/20250928/e-id-act.html):

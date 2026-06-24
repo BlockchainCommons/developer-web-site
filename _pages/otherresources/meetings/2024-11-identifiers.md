@@ -2,8 +2,8 @@
 cover: false
 header:
   overlay_color: "#000"
-  overlay_filter: "0.25"
-  overlay_image: /assets/images/dev-arch-background.jpg
+  overlay_filter: "0.35"
+  overlay_image: /assets/headers/otherresources.jpg
   og_image: /assets/images/bc-card.jpg
 tagline: Decentralized Identifiers
 title: "Gordian Developer Meeting: November 2024"
@@ -12,7 +12,9 @@ classes:
   - wide
 permalink: /meetings/2024-11-identifiers/
 sidebar:
-  nav: meetings
+  nav:
+    - resources
+    - meetings
 ---
 
 The [Gordian Developer Meeting](https://www.blockchaincommons.com/subscribe/#gordian-developers) on **November 6, 2024** focused on a variety of identifiers, including [Cliques](https://www.blockchaincommons.com/musings/musings-cliques-1/) and [XIDs](https://developer.blockchaincommons.com/xid/), as well as using MuSig with [Gordian Envelope](/envelope/).

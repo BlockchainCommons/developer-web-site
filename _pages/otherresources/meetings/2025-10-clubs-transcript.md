@@ -2,8 +2,8 @@
 cover: false
 header:
   overlay_color: "#000"
-  overlay_filter: "0.25"
-  overlay_image: /assets/images/dev-arch-background.jpg
+  overlay_filter: "0.35"
+  overlay_image: /assets/headers/otherresources.jpg
   og_image: /assets/images/bc-card.jpg
 tagline: "Gordian Clubs"
 title: "Gordian Developer Meeting: October 2025 Transcript"
@@ -12,7 +12,9 @@ classes:
   - wide
 permalink: /meetings/2025-10-clubs/transcript/
 sidebar:
-  nav: meetings
+  nav:
+    - resources
+    - meetings
 ---
 
 * **Participants:** Christopher Allen, Wolf McNally, Mark S. Miller, Alan Karp, Ryan Grant, Gordon Mohr, etc.

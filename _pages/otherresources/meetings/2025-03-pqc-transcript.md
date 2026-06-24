@@ -2,8 +2,8 @@
 cover: false
 header:
   overlay_color: "#000"
-  overlay_filter: "0.25"
-  overlay_image: /assets/images/dev-arch-background.jpg
+  overlay_filter: "0.35"
+  overlay_image: /assets/headers/otherresources.jpg
   og_image: /assets/images/bc-card.jpg
 title: "Meeting: Post Quantum Cryptography (2025) Transcript"
 hide_description: true
@@ -13,7 +13,9 @@ permalink: /meetings/2025-03-pqc/transcript/
 redirect_from:
   - /meeting/2025-pqc/transcript/
 sidebar:
-  nav: meetings
+  nav:
+    - resources
+    - meetings
 ---
 
 _The following raw transcript was automatically generated._

@@ -2,8 +2,8 @@
 cover: false
 header:
   overlay_color: "#000"
-  overlay_filter: "0.25"
-  overlay_image: /assets/images/dev-arch-background.jpg
+  overlay_filter: "0.35"
+  overlay_image: /assets/headers/otherresources.jpg
   og_image: /assets/images/bc-card.jpg
 tagline: "Provenance Marks"
 title: "Gordian Developer Meeting: June 2025"
@@ -12,7 +12,9 @@ classes:
   - wide
 permalink: /meetings/2025-06-provenance-marks/
 sidebar:
-  nav: meetings
+  nav:
+    - resources
+    - meetings
 ---
 
 The [Gordian Developer Meeting](https://www.blockchaincommons.com/subscribe/#gordian-developers) on **June 4, 2025** focused on provenance marks, a new method of authenticity verification for a chain of content.

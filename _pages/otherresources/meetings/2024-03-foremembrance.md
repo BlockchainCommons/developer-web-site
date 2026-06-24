@@ -2,8 +2,8 @@
 cover: false
 header:
   overlay_color: "#000"
-  overlay_filter: "0.25"
-  overlay_image: /assets/images/dev-arch-background.jpg
+  overlay_filter: "0.35"
+  overlay_image: /assets/headers/otherresources.jpg
   og_image: /assets/images/bc-card.jpg
 tagline: "In Memoriam"
 title: "Foremembrance: March 2024"
@@ -12,7 +12,9 @@ classes:
   - wide
 permalink: /meetings/2024-03-foremembrance/
 sidebar:
-  nav: meetings
+  nav:
+    - resources
+    - meetings
 ---
 
 Christopher Allen makes a special presentation on **March 27, 2024** in memory of World War II's identity tragedy.

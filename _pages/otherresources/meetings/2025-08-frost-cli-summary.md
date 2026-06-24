@@ -2,8 +2,8 @@
 cover: false
 header:
   overlay_color: "#000"
-  overlay_filter: "0.25"
-  overlay_image: /assets/images/dev-arch-background.jpg
+  overlay_filter: "0.35"
+  overlay_image: /assets/headers/otherresources.jpg
   og_image: /assets/images/bc-card.jpg
 title: "Gordian FROST-CLI Meeting (08/25): Summary"
 permalink: /meetings/2025-08-frost-cli/summary/
@@ -11,7 +11,10 @@ hide_description: true
 classes:
   - wide
 sidebar:
-  nav: meetings
+  nav:
+    - resources
+    - meetings
+    - frost
 ---
 
 _The following is a **rough summary** of the FROST-CLI demo meeting on August 6, 2025._

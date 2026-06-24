@@ -3,7 +3,7 @@ cover: false
 header:
   overlay_color: "#000"
   overlay_filter: "0.25"
-  overlay_image: /assets/images/dev-arch-background.jpg
+  overlay_image: /assets/headers/otherresources.jpg
   og_image: /assets/images/bc-card.jpg
 tagline: "Interop — What's It Good For?"
 title: "Gordian Developer Meeting: May 2025"
@@ -12,7 +12,9 @@ classes:
   - wide
 permalink: /meetings/2025-05-interop/
 sidebar:
-  nav: meetings
+  nav:
+    - resources
+    - meetings
 ---
 
 The [Gordian Developer Meeting](https://www.blockchaincommons.com/subscribe/#gordian-developers) on **May 7, 2025** focused on Interoperability, with discussion of its importance and a focus on work Blockchain Commons has done to date with the Bitcoin and Zcash communities. There were also some discussions of the need to create data modeling FAQs and best practices as a next step beyond interoperability.

@@ -2,8 +2,8 @@
 cover: false
 header:
   overlay_color: "#000"
-  overlay_filter: "0.25"
-  overlay_image: /assets/images/dev-arch-background.jpg
+  overlay_filter: "0.35"
+  overlay_image: /assets/headers/otherresources.jpg
   og_image: /assets/images/bc-card.jpg
 tagline: "FROST Signing with CLI"
 title: "Gordian Developer Meeting: August 2025"
@@ -12,7 +12,10 @@ classes:
   - wide
 permalink: /meetings/2025-08-frost-cli/
 sidebar:
-  nav: meetings
+  nav:
+    - resources
+    - meetings
+    - frost
 ---
 
 The [Gordian Developer Meeting](https://www.blockchaincommons.com/subscribe/#gordian-developers) on **August 6, 2025** was another in our series of [FROST meetings](https://developer.blockchaincommons.com/frost/#events). It featured a demo of Blockchain Commons' new tools for uniting [BDK](https://bitcoindevkit.org/) and [zcash-frost-tools](https://github.com/BlockchainCommons/zcash-frost-tools) to allow for the signing of a Bitcoin PSBT using a FROST quorum. 

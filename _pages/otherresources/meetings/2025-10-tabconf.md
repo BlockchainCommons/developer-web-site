@@ -2,8 +2,8 @@
 cover: false
 header:
   overlay_color: "#000"
-  overlay_filter: "0.25"
-  overlay_image: /assets/images/dev-arch-background.jpg
+  overlay_filter: "0.35"
+  overlay_image:/assets/headers/otherresources.jpg
   og_image: /assets/images/bc-card.jpg
 tagline: "Beyond Bitcoin & The Sad State of Decentralized Identity"
 title: "TABConf 7: October 2025"
@@ -12,7 +12,9 @@ classes:
   - wide
 permalink: /meetings/2025-10-tabconf/
 sidebar:
-  nav: meetings
+  nav:
+    - resources
+    - meetings
 ---
 
 TABConf 7, held **October 13-16, 2025**, is a technical Bitcoin conference, meant to ensure that the Technical Accessible Bitcoin
