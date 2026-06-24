@@ -44,7 +44,9 @@ sidebar:
   </div>
 </div>
 
-Blockchain Commons creates courses to aid in the understanding and usage of digital identities and assets. Our "From the Command Line" courses are intended to help developers understand a variety of technologies, while our "Smart Custody" course is user-focused, with the goal of ensuring that your digital asset management is [resilient](/principles/).
+_Blockchain Commons creates courses and books to aid in the understanding and usage of digital identities and assets._
+
+_Our "From the Command Line" courses are intended to help developers understand a variety of technologies, including Bitcoin, FROST, and XIDs, while our "Smart Custody" book is user-focused, with the goal of helping you to ensure that your digital asset management is [resilient](/principles/)._
 
 **Q:** _Why "From the Command Line?"_<br><br>**A:** Learning "from the command line" supports hands-on experience, or [experiential learning](https://en.wikipedia.org/wiki/Experiential_learning). It's a proven pedagogical approach that helps to solidify concepts and commit them to memory. In courses like "Learning Bitcoin" and "Learning FROST", it also allows for the examination of files and other outputs, so that you can dig as deep as you want on a topic. That's why our courses are written "from the command line," and why we suggest that you follow along on your own CLI.
 {: .notice--info}
