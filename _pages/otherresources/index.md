@@ -22,7 +22,7 @@ sidebar:
       <img src="/assets/badges/learning-bitcoin.png">
     </a>
   </div>
-  <div class="hex12half highlighted">
+  <div class="hex12top highlighted">
     <a href="/resources/">
       <img src="/assets/badges/cat-resources-half.png">
     </a>
