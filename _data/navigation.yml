@@ -48,6 +48,28 @@ resources:
       url: https://github.com/BlockchainCommons/research/#contents
     - title: Return to Home
       url: /
+resourcescourses:
+  - title: Other Resources
+    children:
+    - title: "Resources Home"
+      url: /resources/
+    - title: "Courses"
+      url: /courses/
+      children:
+      - title: "Learning Bitcoin"
+        url: https://learningbitcoin.blockchaincommons.com/
+      - title: "Learning FROST"
+        url: https://learningfrost.blockchaincommons.com/
+      - title: "Learning XIDs"
+        url: https://learningxids.blockchaincommons.com/
+    - title: "Libraries"
+      url: /libraries/
+    - title: "Meetings"
+      url: /meetings/
+    - title: "Specifications"
+      url: https://github.com/BlockchainCommons/research/#contents
+    - title: Return to Home
+      url: /
 architecture:
   - title: Gordian Architecture
     children:
