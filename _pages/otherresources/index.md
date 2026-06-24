@@ -48,7 +48,7 @@ sidebar:
     </a>
   </div>  
   <div class="hex71 opaqued">
-    <a href="https://github.com/BlockchainCommons/research/#contents">
+    <a href="https://github.com/BlockchainCommons/research/">
       <img src="/assets/badges/research.png">
     </a>
   </div>
