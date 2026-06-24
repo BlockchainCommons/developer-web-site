@@ -15,9 +15,6 @@ sidebar:
   nav: resources
 ---
 
-
-_Alongside its [architectural support](/architecture/) and its [technologies](/technology/), Blockchain Commons also offers a number of other resources to support developers looking to build decentralized, self-sovereign digital resources that provide [independence, privacy, resilience, and openness](/principles/)._
-
 <div class="hexline hexgrid72">
   <div class="hex11">
     <a href="https://learningbitcoin.blockchaincommons.com/">
@@ -54,13 +51,10 @@ _Alongside its [architectural support](/architecture/) and its [technologies](/t
       <img src="/assets/badges/smart-custody.png">
     </a>
   </div>
-  <div class="hex12 opaqued">
-    <a href="/resources/">
-      <img src="/assets/badges/cat-resources.png">
-    </a>
-  </div>
 </div>
 
+
+_Alongside its [architectural support](/architecture/) and its [technologies](/technology/), Blockchain Commons also offers a number of other resources to support developers looking to build decentralized, self-sovereign digital resources that provide [independence, privacy, resilience, and openness](/principles/)._
 
 ## Courses
 
