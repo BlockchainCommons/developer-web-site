@@ -19,27 +19,27 @@ sidebar:
 
 
 <div class="hexbox hexgrid3">
-  <div class="hex11">
+  <div class="hex31">
     <a href="/resources/">
       <img src="/assets/badges/cat-resources.png">
     </a>
   </div>
-  <div class="hex12">
+  <div class="hex21">
     <a href="https://learningbitcoin.blockchaincommons.com/">
       <img src="/assets/badges/learning-bitcoin.png">
     </a>
   </div>
-  <div class="hex21">
+  <div class="hex32">
     <a href="https://learningfrost.blockchaincommons.com/">
       <img src="/assets/badges/learning-frost.png">
     </a>
   </div>
-  <div class="hex31">
+  <div class="hex22">
     <a href="https://learningxids.blockchaincommons.com/">
       <img src="/assets/badges/learning-xids.png">
     </a>
   </div>
-    <div class="hex32">
+    <div class="hex33">
     <a href="https://www.smartcustody.com/">
       <img src="/assets/badges/smart-custody.png">
     </a>
