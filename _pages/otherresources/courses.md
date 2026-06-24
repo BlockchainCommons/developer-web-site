@@ -2,16 +2,17 @@
 cover: false
 header:
   overlay_color: "#000"
-  overlay_filter: "0.25"
-  overlay_image: /assets/images/dev-arch-background.jpg
+  overlay_filter: "0.35"
+  overlay_image: /assets/headers/otherresources.jpg
   og_image: /assets/images/bc-card.jpg
 title: Developer Courses
+tagline: Command-Line Courses & Smart Custody
 hide_description: true
 classes:
   - wide
 permalink: /courses/
 sidebar:
-  nav: courses
+  nav: resourcescourses
 ---
 
 Blockchain Commons creates courses for developers and for users, intended to bring new programmers into the industry and to support the use of best practices.
