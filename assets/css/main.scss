@@ -24,6 +24,11 @@ hr {
 
 $max-width:90%;
 
+.nounderline {
+    border-bottom: 0px;
+    text-decoration: underline;
+}
+
 .hexbox {
     padding: 12px;
     margin-left: 10px;
