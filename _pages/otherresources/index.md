@@ -16,6 +16,11 @@ sidebar:
 ---
 
 <div class="hexbox hexgrid3">
+  <div class="hex11 opaqued">
+    <a href=".">
+      <img src="/assets/badges/cat-resources-600.png">
+    </a>
+  </div>
   <div class="hex12">
     <a href="https://learningbitcoin.blockchaincommons.com/">
       <img src="/assets/badges/learning-bitcoin-600.png">
