@@ -19,7 +19,7 @@ sidebar:
 
 
 <div class="hexbox hexgrid3">
-  <div class="hex31">
+  <div class="hex31 hexcat">
     <a href="/resources/">
       <img src="/assets/badges/cat-resources.png">
     </a>
