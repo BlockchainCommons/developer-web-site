@@ -49,6 +49,13 @@ h2 {
     grid-gap: 0px;
 }
 
+.narrowhexgrid3 {
+    display: grid;
+    grid-template-columns: repeat(5,58px);
+    grid-template-rows: repeat(6,62px);
+    grid-gap: 0px;
+}
+
 .hexgrid4 {
     display: grid;
     grid-template-columns: repeat(7,58px);
