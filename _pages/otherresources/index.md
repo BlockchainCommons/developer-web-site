@@ -15,6 +15,8 @@ sidebar:
   nav: resources
 ---
 
+---
+
 <div class="hexline hexgrid71">
   <div class="hex11">
     <a href="https://learningbitcoin.blockchaincommons.com/">
@@ -31,27 +33,29 @@ sidebar:
       <img src="/assets/badges/learning-xids.png">
     </a>
   </div>
-  <div class="hex41">
-    <a href="https://developer.blockchaincommons.com/libraries/">
-      <img src="/assets/badges/libraries.png">
+ <div class="hex41">
+    <a href="https://www.smartcustody.com/">
+      <img src="/assets/badges/smart-custody.png">
     </a>
-  </div>  
+  </div>
   <div class="hex51">
     <a href="https://developer.blockchaincommons.com/meetings/">
       <img src="/assets/badges/dev-meeting.png">
     </a>
   </div>
   <div class="hex61">
+    <a href="https://developer.blockchaincommons.com/libraries/">
+      <img src="/assets/badges/libraries.png">
+    </a>
+  </div>  
+  <div class="hex71">
     <a href="https://github.com/BlockchainCommons/research/#contents">
       <img src="/assets/badges/research.png">
     </a>
   </div>
- <div class="hex71">
-    <a href="https://www.smartcustody.com/">
-      <img src="/assets/badges/smart-custody.png">
-    </a>
-  </div>
 </div>
+
+---
 
 
 _Alongside its [architectural support](/architecture/) and its [technologies](/technology/), Blockchain Commons also offers a number of other resources to support developers looking to build decentralized, self-sovereign digital resources that provide [independence, privacy, resilience, and openness](/principles/)._
