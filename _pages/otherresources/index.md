@@ -37,17 +37,17 @@ sidebar:
       <img src="/assets/badges/smart-custody.png">
     </a>
   </div>
-  <div class="hex51 opaqued">
+  <div class="hex51">
     <a href="https://developer.blockchaincommons.com/meetings/">
       <img src="/assets/badges/dev-meeting.png">
     </a>
   </div>
-  <div class="hex61 opaqued">
+  <div class="hex61">
     <a href="https://developer.blockchaincommons.com/libraries/">
       <img src="/assets/badges/libraries.png">
     </a>
   </div>  
-  <div class="hex71 opaqued">
+  <div class="hex71">
     <a href="https://github.com/BlockchainCommons/research/">
       <img src="/assets/badges/research.png">
     </a>
