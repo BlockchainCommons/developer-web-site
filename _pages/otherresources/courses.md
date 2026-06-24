@@ -32,7 +32,6 @@ sidebar:
       <img src="/assets/badges/learning-frost.png">
     </a>
   </div>
-  </div>
   <div class="hex31">
     <a href="https://learningxids.blockchaincommons.com/">
       <img src="/assets/badges/learning-xids.png">
