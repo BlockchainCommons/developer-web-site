@@ -22,6 +22,11 @@ sidebar:
       <img src="/assets/badges/learning-bitcoin.png">
     </a>
   </div>
+  <div class="hex12half highlighted">
+    <a href="/resources/">
+      <img src="/assets/badges/cat-resources-half.png">
+    </a>
+  </div>
   <div class="hex21">
     <a href="https://learningfrost.blockchaincommons.com/">
       <img src="/assets/badges/learning-frost.png">
