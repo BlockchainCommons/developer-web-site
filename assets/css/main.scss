@@ -99,10 +99,17 @@ $max-width:90%;
   grid-column: 1 / span 3; 
   grid-row:  1 / span 2;
 }
+
 .hex12top {
   grid-column: 1 / span 3; 
   grid-row:  3;
 }
+
+.hex12top img {
+    height: 60px !important;
+}
+
+
 .hex12 {
   grid-column: 1 / span 3; 
   grid-row:  3 / span 2;
