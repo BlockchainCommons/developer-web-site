@@ -50,7 +50,6 @@ resourcescourses:
     - title: "Resources Home"
       url: /resources/
     - title: "Courses"
-      url: /courses/
       children:
       - title: "Learning Bitcoin"
         url: https://learningbitcoin.blockchaincommons.com/
@@ -58,6 +57,8 @@ resourcescourses:
         url: https://learningfrost.blockchaincommons.com/
       - title: "Learning XIDs"
         url: https://learningxids.blockchaincommons.com/
+      - title "#SmartCustody"
+        url: https://www.smartcustody.com/
     - title: "Libraries"
       url: /libraries/
     - title: "Meetings"
@@ -194,15 +195,6 @@ clubs:
       url: /hubert/      
     - title: "Return to Core Stack"
       url: /core-stack/
-courses:
-  - title: Educational Courses
-    children:
-    - title: "Learning Bitcoin"
-      url: https://github.com/BlockchainCommons/Learning-Bitcoin-from-the-Command-Line/blob/master/README.md
-    - title: "Learning FROST"
-      url: https://learningfrost.blockchaincommons.com/
-    - title: "Smart Custody"
-      url: https://www.smartcustody.com/
 csr:
   - title: CSR
     children:
