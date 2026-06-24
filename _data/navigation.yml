@@ -18,12 +18,8 @@ mainside:
       url: /
     - title: "Architecture"
       url: /architecture/
-    - title: "Courses"
-      url: /courses/
-    - title: "Libraries"
-      url: /libraries/
-    - title: "Meetings"
-      url: /meetings/
+    - title: "Other Resources"
+      url: /resources/
 mainstacks:
   - title: The Stacks
     children:
@@ -46,7 +42,7 @@ resources:
       url: /meetings/
     - title: "Specifications"
       url: https://github.com/BlockchainCommons/research/#contents
-    - title: Return to Home
+    - title: Return to Main
       url: /
 resourcescourses:
   - title: Other Resources
@@ -68,7 +64,7 @@ resourcescourses:
       url: /meetings/
     - title: "Specifications"
       url: https://github.com/BlockchainCommons/research/#contents
-    - title: Return to Home
+    - title: Return to Main
       url: /
 architecture:
   - title: Gordian Architecture
