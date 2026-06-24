@@ -3,7 +3,7 @@ cover: false
 header:
   overlay_color: "#000"
   overlay_filter: "0.25"
-  overlay_image: /assets/images/otherresources.jpg
+  overlay_image: /assets/headers/otherresources.jpg
   og_image: /assets/images/bc-card.jpg
 title: Other Resources
 tagline: Courses, Meetings, BCRs, Libraries
