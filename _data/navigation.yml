@@ -44,30 +44,17 @@ resources:
       url: https://github.com/BlockchainCommons/research/#contents
     - title: Return to Main
       url: /
-resourcescourses:
-  - title: Other Resources
+courses:
+  - title: Courses
     children:
-    - title: "Resources Home"
-      url: /resources/
-    - title: "Courses"
-      url: /courses/
-      courses:
-      - title: "Learning Bitcoin"
-        url: https://learningbitcoin.blockchaincommons.com/
-      - title: "Learning FROST"
-        url: https://learningfrost.blockchaincommons.com/
-      - title: "Learning XIDs"
-        url: https://learningxids.blockchaincommons.com/
-      - title: "#SmartCustody"
-        url: https://www.smartcustody.com/
-    - title: "Libraries"
-      url: /libraries/
-    - title: "Meetings"
-      url: /meetings/
-    - title: "Specifications"
-      url: https://github.com/BlockchainCommons/research/#contents
-    - title: Return to Main
-      url: /
+    - title: "Learning Bitcoin"
+      url: https://learningbitcoin.blockchaincommons.com/
+    - title: "Learning FROST"
+      url: https://learningfrost.blockchaincommons.com/
+    - title: "Learning XIDs"
+      url: https://learningxids.blockchaincommons.com/
+    - title: "#SmartCustody"
+      url: https://www.smartcustody.com/
 architecture:
   - title: Gordian Architecture
     children:
