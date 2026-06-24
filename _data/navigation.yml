@@ -58,7 +58,7 @@ resourcescourses:
         url: https://learningfrost.blockchaincommons.com/
       - title: "Learning XIDs"
         url: https://learningxids.blockchaincommons.com/
-      - title "#SmartCustody"
+      - title: "#SmartCustody"
         url: https://www.smartcustody.com/
     - title: "Libraries"
       url: /libraries/
