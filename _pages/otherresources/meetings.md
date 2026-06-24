@@ -5,7 +5,8 @@ header:
   overlay_filter: "0.35"
   overlay_image: /assets/headers/otherresources.jpg
   og_image: /assets/images/bc-card.jpg
-title: Blockchain Commons Meetings Archive
+title: Meetings Archive
+tagline: Gordian Dev Meetings & More
 hide_description: true
 classes:
   - wide
