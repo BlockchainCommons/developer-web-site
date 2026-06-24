@@ -18,22 +18,22 @@ sidebar:
 ---
 
 <div class="hexline hexgrid71">
-  <div class="hex11">
+  <div class="hex11 highlighted">
     <a href="https://learningbitcoin.blockchaincommons.com/">
       <img src="/assets/badges/learning-bitcoin.png">
     </a>
   </div>
-  <div class="hex21">
+  <div class="hex21 highlighted">
     <a href="https://learningfrost.blockchaincommons.com/">
       <img src="/assets/badges/learning-frost.png">
     </a>
   </div>
-  <div class="hex31">
+  <div class="hex31 highlighted">
     <a href="https://learningxids.blockchaincommons.com/">
       <img src="/assets/badges/learning-xids.png">
     </a>
   </div>
- <div class="hex41">
+ <div class="hex41 highlighted">
     <a href="https://www.smartcustody.com/">
       <img src="/assets/badges/smart-custody.png">
     </a>
