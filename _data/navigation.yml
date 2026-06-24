@@ -55,6 +55,31 @@ courses:
       url: https://learningxids.blockchaincommons.com/
     - title: "#SmartCustody"
       url: https://www.smartcustody.com/
+libraries:
+  - title: Library Links
+    children:
+    - title: "Bytewords"
+      url: /bytewords/
+    - title: "CBOR"
+      url: /cbor/
+    - title: "dCBOR"
+      url: /dcbor/
+    - title: "Envelope"
+      url: /envelope/
+    - title: "Gordian Clubs"
+      url: /clubs/
+    - title: "Known Values"
+      url: /known-values/
+    - title: "Lifehash"
+      url: /lifehash/
+    - title: "Provenance Marks"
+      url: /provemark/
+    - title: "SSKR"
+      url: /sskr/
+    - title: "URs"
+      url: /ur/
+    - title: "XIDs"
+      url: /xid/
 architecture:
   - title: Gordian Architecture
     children:
