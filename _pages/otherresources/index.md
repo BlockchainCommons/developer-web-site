@@ -27,28 +27,28 @@ sidebar:
     </a>
   </div>
   <div class="hex13">
-    <a href="https://www.smartcustody.com/">
-      <img src="/assets/badges/smart-custody.png">
+    <a href="https://developer.blockchaincommons.com/libraries/">
+      <img src="/assets/badges/libraries.png">
     </a>
-  </div>
+  </div>  
   <div class="hex21">
     <a href="https://learningfrost.blockchaincommons.com/">
       <img src="/assets/badges/learning-frost.png">
     </a>
   </div>
   <div class="hex22">
-    <a href="https://developer.blockchaincommons.com/libraries/">
-      <img src="/assets/badges/libraries.png">
+    <a href="https://developer.blockchaincommons.com/meetings/">
+      <img src="/assets/badges/dev-meeting.png">
     </a>
-  </div>  
+  </div>
   <div class="hex31">
     <a href="https://learningxids.blockchaincommons.com/">
       <img src="/assets/badges/learning-xids.png">
     </a>
   </div>
-  <div class="hex32">
-    <a href="https://developer.blockchaincommons.com/meetings/">
-      <img src="/assets/badges/dev-meeting.png">
+    <div class="hex32">
+    <a href="https://www.smartcustody.com/">
+      <img src="/assets/badges/smart-custody.png">
     </a>
   </div>
   <div class="hex33">
