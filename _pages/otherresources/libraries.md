@@ -42,7 +42,7 @@ sidebar:
       <img src="/assets/badges/dev-meeting.png">
     </a>
   </div>
-  <div class="hex61">
+  <div class="hex61 highlighted">
     <a href="https://developer.blockchaincommons.com/libraries/">
       <img src="/assets/badges/libraries.png">
     </a>
