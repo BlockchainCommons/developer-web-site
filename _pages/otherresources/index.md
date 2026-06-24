@@ -55,7 +55,7 @@ sidebar:
 
 _Alongside its [architectural support](/architecture/) and its [technologies](/technology/), Blockchain Commons also offers a number of other resources to support developers looking to build decentralized, self-sovereign digital resources that provide [independence, privacy, resilience, and openness](/principles/)._
 
-### Courses
+## Courses
 
 Blockchain Commons publishes courses to support the use of digital assets, the development of Bitcoin, and the use of our specifications. Most of these are hands-on CLI courses in our "from the Command Line" series. We've also produced a [_Smart Custody_ book](https://www.smartcustody.com/#the-book).
 
@@ -83,7 +83,7 @@ For more see:
 
 * [**Courses Page**](/courses/)
 
-### Meetings
+## Meetings
 
 Blockchain Commons regularly holds meetings with the community to discuss needs, preview technologies, and mold specification to better fit the requirements of the community. Everyone is welcome. Our [subscribe page](https://www.blockchaincommons.com/subscribe/) has our current list of meetings and allow you to sign up for an email announcement list or a Signal channel to get the Zoom info to attend the meetings. Our [meetings](/meetings/) page includes recordings, transcripts, slides, summaries, and other details from past meetings.
 
@@ -92,7 +92,7 @@ For more see:
 * [**Meetings Page**](/meetings/)
 * [**Subscription Page**](https://www.blockchaincommons.com/subscribe/) (Main Site)
 
-### BCRs
+## BCRs
 
 Our specs and other technical research can be found in our the Blockchain Commons [research repo](https://github.com/BlockchainCommons/research/). This is where to go to see exactly how things should be implemented (though relevant BCRs are also linked from each technology page). 
 
@@ -100,7 +100,7 @@ For more see:
 
 * [**Blockchain Commons Research (BCR) Contents**](https://github.com/BlockchainCommons/research/#contents) (GitHub)
 
-### Libraries
+## Libraries
 
 All of our specs are coded in reference libraries. Our most up-to-date libraries are in Rust. Third parties have also coded libraries for many of our specifications.
 
