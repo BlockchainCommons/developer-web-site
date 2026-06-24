@@ -18,28 +18,28 @@ sidebar:
 ---
 
 
-<div class="hexbox nhexgrid3">
-  <div class="nhex21 hexcat">
-    <a href="/resources/">
-      <img src="/assets/badges/cat-resources.png">
-    </a>
-  </div>
-  <div class="nhex11">
+<div class="hexbox hexgrid23">
+  <div class="offhex11">
     <a href="https://learningbitcoin.blockchaincommons.com/">
       <img src="/assets/badges/learning-bitcoin.png">
     </a>
   </div>
-  <div class="nhex22">
-    <a href="https://learningfrost.blockchaincommons.com/">
-      <img src="/assets/badges/learning-frost.png">
-    </a>
-  </div>
-  <div class="nhex12">
+  <div class="offhex12">
     <a href="https://learningxids.blockchaincommons.com/">
       <img src="/assets/badges/learning-xids.png">
     </a>
   </div>
-    <div class="nhex23">
+  <div class="offhex21 hexcat">
+    <a href="/resources/">
+      <img src="/assets/badges/cat-resources.png">
+    </a>
+  </div>
+  <div class="offhex22">
+    <a href="https://learningfrost.blockchaincommons.com/">
+      <img src="/assets/badges/learning-frost.png">
+    </a>
+  </div>
+  <div class="offhex23">
     <a href="https://www.smartcustody.com/">
       <img src="/assets/badges/smart-custody.png">
     </a>
