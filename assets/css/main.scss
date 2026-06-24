@@ -72,6 +72,13 @@ h2 {
     grid-gap: 0px;
 }
 
+.hexgrid71 {
+    display: grid;
+    grid-template-columns: repeat(15,58px);
+    grid-template-rows: repeat(3,62px);
+    grid-gap: 0px;
+}
+
 .hexgrid72 {
     display: grid;
     grid-template-columns: repeat(15,58px);
