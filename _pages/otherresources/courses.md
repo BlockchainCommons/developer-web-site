@@ -17,31 +17,40 @@ sidebar:
     - courses
 ---
 
-
-<div class="hexbox hexgrid23">
-  <div class="offhex11">
+<div class="hexline hexgrid71">
+  <div class="hex11">
     <a href="https://learningbitcoin.blockchaincommons.com/">
       <img src="/assets/badges/learning-bitcoin.png">
     </a>
   </div>
-  <div class="offhex12">
-    <a href="https://learningxids.blockchaincommons.com/">
-      <img src="/assets/badges/learning-xids.png">
-    </a>
-  </div>
-  <div class="offhex21 hexcat">
-    <a href="/resources/">
-      <img src="/assets/badges/cat-resources.png">
-    </a>
-  </div>
-  <div class="offhex22">
+  <div class="hex21">
     <a href="https://learningfrost.blockchaincommons.com/">
       <img src="/assets/badges/learning-frost.png">
     </a>
   </div>
-  <div class="offhex23">
+  <div class="hex31">
+    <a href="https://learningxids.blockchaincommons.com/">
+      <img src="/assets/badges/learning-xids.png">
+    </a>
+  </div>
+ <div class="hex41">
     <a href="https://www.smartcustody.com/">
       <img src="/assets/badges/smart-custody.png">
+    </a>
+  </div>
+  <div class="hex51 opaqued">
+    <a href="https://developer.blockchaincommons.com/meetings/">
+      <img src="/assets/badges/dev-meeting.png">
+    </a>
+  </div>
+  <div class="hex61 opaqued">
+    <a href="https://developer.blockchaincommons.com/libraries/">
+      <img src="/assets/badges/libraries.png">
+    </a>
+  </div>  
+  <div class="hex71 opaqued">
+    <a href="https://github.com/BlockchainCommons/research/">
+      <img src="/assets/badges/research.png">
     </a>
   </div>
 </div>
