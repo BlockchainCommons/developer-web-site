@@ -17,27 +17,27 @@ sidebar:
 
 
 <div class="hexline hexgrid71">
-  <div class="hex11">
+  <div class="hex11 opaqued">
     <a href="https://learningbitcoin.blockchaincommons.com/">
       <img src="/assets/badges/learning-bitcoin.png">
     </a>
   </div>
-  <div class="hex21">
+  <div class="hex21 opaqued">
     <a href="https://learningfrost.blockchaincommons.com/">
       <img src="/assets/badges/learning-frost.png">
     </a>
   </div>
-  <div class="hex31">
+  <div class="hex31 opaqued">
     <a href="https://learningxids.blockchaincommons.com/">
       <img src="/assets/badges/learning-xids.png">
     </a>
   </div>
- <div class="hex41">
+ <div class="hex41 opaqued">
     <a href="https://www.smartcustody.com/">
       <img src="/assets/badges/smart-custody.png">
     </a>
   </div>
-  <div class="hex51">
+  <div class="hex51 opaqued">
     <a href="https://developer.blockchaincommons.com/meetings/">
       <img src="/assets/badges/dev-meeting.png">
     </a>
@@ -47,7 +47,7 @@ sidebar:
       <img src="/assets/badges/libraries.png">
     </a>
   </div>  
-  <div class="hex71">
+  <div class="hex71 opaqued">
     <a href="https://github.com/BlockchainCommons/research/">
       <img src="/assets/badges/research.png">
     </a>
