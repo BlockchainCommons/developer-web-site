@@ -50,7 +50,8 @@ resourcescourses:
     - title: "Resources Home"
       url: /resources/
     - title: "Courses"
-      children:
+      url: /courses/
+      courses:
       - title: "Learning Bitcoin"
         url: https://learningbitcoin.blockchaincommons.com/
       - title: "Learning FROST"
