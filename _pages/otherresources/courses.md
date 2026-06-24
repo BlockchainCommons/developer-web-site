@@ -44,7 +44,10 @@ sidebar:
   </div>
 </div>
 
-Blockchain Commons creates courses for developers and for users, intended to bring new programmers into the industry and to support the use of best practices.
+Blockchain Commons creates courses to aid in the understanding and usage of digital identities and assets. Our "From the Command Line" courses are intended to help developers understand a variety of technologies, while our "Smart Custody" course is user-focused, with the goal of ensuring that your digital asset management is [resilient](/principles/).
+
+**Q:** _Why "From the Command Line?"_<br><br>**A:** Learning "from the command line" supports hands-on experience, or [experiential learning](https://en.wikipedia.org/wiki/Experiential_learning). It's a proven pedagogical approach that helps to solidify concepts and commit them to memory. In courses like "Learning Bitcoin" and "Learning FROST", it also allows for the examination of files and other outputs, so that you can dig as deep as you want on a topic. That's why our courses are written "from the command line," and why we suggest that you follow along on your own CLI.
+{: .notice--info}
 
 ## Learning Bitcoin from the Command Line
 
@@ -107,14 +110,6 @@ Our "Learning FROST" explains what FROST is and why you'd want to use it for sig
 * **Online Course:** [learningxids.blockchaincommons.com](http://learningxids.blockchaincommons.com/)
 * **Online Tutorial Playground:** [bcts Data Playground](https://bcts.dev/xid)
 * **Last Updated:** 2026
-
----
-
-
-**Q:** _Why "From the Command Line?"_<br><br>**A:** Learning "from the command line" supports hands-on experience, or [experiential learning](https://en.wikipedia.org/wiki/Experiential_learning). It's a proven pedagogical approach that helps to solidify concepts and commit them to memory. In courses like "Learning Bitcoin" and "Learning FROST", it also allows for the examination of files and other outputs, so that you can dig as deep as you want on a topic. That's why our courses are written "from the command line," and why we suggest that you follow along on your own CLI.
-{: .notice--info}
-
----
 
 
 ## Smart Custody
