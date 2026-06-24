@@ -2,8 +2,8 @@
 cover: false
 header:
   overlay_color: "#000"
-  overlay_filter: "0.25"
-  overlay_image: /assets/images/dev-arch-background.jpg
+  overlay_filter: "0.35"
+  overlay_image: /assets/headers/otherresources.jpg
   og_image: /assets/images/bc-card.jpg
 title: Blockchain Commons Meetings Archive
 hide_description: true
@@ -11,46 +11,62 @@ classes:
   - wide
 permalink: /meetings/
 sidebar:
-  nav: meetings
+  nav:
+    - resources
+    - meetings
 ---
 
-Blockchain Commons creates collaborative specifications that support independence, openness, and interoperability. This is supported through regular meetings with members of the developers community. 
 
-If you're a developer, or just an interesting party, you're welcome to join us! Just [subscribe](https://www.blockchaincommons.com/subscribe/) to our announcements-only list for the meetings of interest to you. We currently have announcement lists for FROST, Gordian Developers (wallets), and the Silicon Salon (hardware).
+<div class="hexline hexgrid71">
+  <div class="hex11 opaqued">
+    <a href="https://learningbitcoin.blockchaincommons.com/">
+      <img src="/assets/badges/learning-bitcoin.png">
+    </a>
+  </div>
+  <div class="hex12top">
+    <a href="/resources/">
+      <img src="/assets/badges/cat-resources-half.png">
+    </a>
+  </div>
+  <div class="hex21 opaqued">
+    <a href="https://learningfrost.blockchaincommons.com/">
+      <img src="/assets/badges/learning-frost.png">
+    </a>
+  </div>
+  <div class="hex31 opaqued">
+    <a href="https://learningxids.blockchaincommons.com/">
+      <img src="/assets/badges/learning-xids.png">
+    </a>
+  </div>
+ <div class="hex41 opaqued">
+    <a href="https://www.smartcustody.com/">
+      <img src="/assets/badges/smart-custody.png">
+    </a>
+  </div>
+  <div class="hex51 highlighted">
+    <a href="https://developer.blockchaincommons.com/meetings/">
+      <img src="/assets/badges/dev-meeting.png">
+    </a>
+  </div>
+  <div class="hex61 opaqued">
+    <a href="https://developer.blockchaincommons.com/libraries/">
+      <img src="/assets/badges/libraries.png">
+    </a>
+  </div>  
+  <div class="hex71 opaqued">
+    <a href="https://github.com/BlockchainCommons/research/">
+      <img src="/assets/badges/research.png">
+    </a>
+  </div>
+</div>
 
-## Major Topics
+_Blockchain Commons creates collaborative specifications that support independence, openness, and interoperability. This is supported through regular meetings with members of the developers community._
 
-<table>
-  <tr>
-    <td>
-      <b>FROST:</b>
-      <a href="https://developer.blockchaincommons.com/frost/#events"><img width=500 src="/assets/images/frost.png"></a>
-    </td>
-    <td>
-      <b>Silicon Salon:</b>
-      <a href="https://www.siliconsalon.info/salons/"><img width=500 src="/assets/images/silicon.png"></a>
-    </td>
-    <td>
-      <b>Zcash ZeWIF:</b>
-      <a href="https://developer.blockchaincommons.com/chains/zcash/zewif/#meetings"><img width=500 src="/assets/images/zcash.png"></a>
-    </td>
-  </tr>
-</table>
+_If you're a developer, or just an interesting party, you're welcome to join us! Just [subscribe](https://www.blockchaincommons.com/subscribe/) to our announcements-only list for the meetings of interest to you. We currently have announcement lists for FROST, Gordian Developers (wallets), and the Silicon Salon (hardware)._
 
-### Other Topics of Interest
-
-
-[BIP-85](/meetings/2024-08-seeds/) •
-[Foremembrance](/meetings/2024-03-foremembrance/) • 
-[Identifiers](/meetings/2024-11-identifiers/) • 
-[PayJoin](/meetings/2024-05-payjoin-rr/) • 
-[Post-Quantum Cryptography](/meetings/2025-03-pqc/) • 
-[Seeds](/meetings/2024-08-seeds/) •
-[Swiss e-ID](/meetings/2024-10-swiss-eid/)
+Also See: [ <a href="https://developer.blockchaincommons.com/frost/#events">FROST Meetings</a> | <a href="https://www.siliconsalon.info/salons/">Silicon Salons</a> | <a href="https://developer.blockchaincommons.com/chains/zcash/zewif/#meetings">ZeWIF Meetings</a> ]
 
 ## 2026 Meetings
-
-
 
 <table>
 
