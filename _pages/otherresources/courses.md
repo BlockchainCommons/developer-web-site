@@ -12,7 +12,7 @@ classes:
   - wide
 permalink: /courses/
 sidebar:
-  nav: resourcescourses
+  nav: resources courses
 ---
 
 
