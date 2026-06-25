@@ -90,7 +90,7 @@ For more see:
 
 * [**Courses Page**](/courses/)
 
-<h2><img src="/assets/badges/dev-meeting.png" style="height: 16px;">Meetings</h2>
+<h2><img src="/assets/badges/dev-meeting.png" style="height: 24px; margin-right: 10px">Meetings</h2>
 
 Blockchain Commons regularly holds meetings with the community to discuss needs, preview technologies, and mold specification to better fit the requirements of the community. Everyone is welcome. Our [subscribe page](https://www.blockchaincommons.com/subscribe/) has our current list of meetings and allow you to sign up for an email announcement list or a Signal channel to get the Zoom info to attend the meetings. Our [meetings](/meetings/) page includes recordings, transcripts, slides, summaries, and other details from past meetings.
 
