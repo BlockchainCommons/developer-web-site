@@ -10,7 +10,11 @@ tagline: CBOR to Envelope
 hide_description: true
 classes:
   - wide
-permalink: /data-formats/
+permalink: /data-format/
+redirect_from:
+    - /dataformat/
+    - /dataformats/
+    - /data-formats/
 sidebar:
   nav:
     - technology
