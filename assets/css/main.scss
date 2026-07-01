@@ -24,6 +24,17 @@ hr {
 
 $max-width:90%;
 
+/* Hexes in Headers */
+
+h2 img {
+  height: 35px;
+  margin-right: 10px;
+  position: relative;
+  top: -2px;
+}
+
+/* Hex Grids */
+
 .hexbox {
     padding: 12px;
     margin-left: 10px;
