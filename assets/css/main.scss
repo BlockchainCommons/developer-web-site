@@ -86,6 +86,10 @@ h2 img {
       width: 75px;
   }
 
+  .hex12top img {
+      height: 30px !important;
+  }
+
   .hexgrid71 {
       display: grid;
       grid-template-columns: repeat(15,29px);
@@ -109,6 +113,10 @@ h2 img {
       width: 150px;
   }
 
+  .hex12top img {
+      height: 60px !important;
+  }
+  
   .hexgrid71 {
       display: grid;
       grid-template-columns: repeat(15,58px);
@@ -141,10 +149,6 @@ h2 img {
 .hex12top {
   grid-column: 1 / span 3; 
   grid-row:  3;
-}
-
-.hex12top img {
-    height: 60px !important;
 }
 
 
