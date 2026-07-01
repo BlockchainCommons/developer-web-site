@@ -79,20 +79,6 @@ h2 img {
     grid-gap: 0px;
 }
 
-.hexgrid71 {
-    display: grid;
-    grid-template-columns: repeat(15,58px);
-    grid-template-rows: repeat(3,62px);
-    grid-gap: 0px;
-}
-
-.hexgrid72 {
-    display: grid;
-    grid-template-columns: repeat(15,58px);
-    grid-template-rows: repeat(4,62px);
-    grid-gap: 0px;
-}
-
 @media (max-width:600px) {
 
   .hexbox img, .hexline img {
@@ -100,13 +86,41 @@ h2 img {
       width: 75px;
   }
 
+  .hexgrid71 {
+      display: grid;
+      grid-template-columns: repeat(15,29px);
+      grid-template-rows: repeat(3,31px);
+      grid-gap: 0px;
+  }
+
+  .hexgrid72 {
+      display: grid;
+      grid-template-columns: repeat(15,29px);
+      grid-template-rows: repeat(4,31px);
+      grid-gap: 0px;
+  }
+
 }
 
 @media (min-width:600px) {
 
-    .hexbox img, .hexline img {
+  .hexbox img, .hexline img {
       height: 120px;
       width: 150px;
+  }
+
+  .hexgrid71 {
+      display: grid;
+      grid-template-columns: repeat(15,58px);
+      grid-template-rows: repeat(3,62px);
+      grid-gap: 0px;
+  }
+
+  .hexgrid72 {
+     display: grid;
+      grid-template-columns: repeat(15,58px);
+      grid-template-rows: repeat(4,62px);
+      grid-gap: 0px;
   }
 
 }
