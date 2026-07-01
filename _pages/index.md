@@ -19,7 +19,6 @@ sidebar:
     - stack-ux
     - chains
 redirect_from:
-    - /dataformat/
     - /seedrecovery/
 ---
 
