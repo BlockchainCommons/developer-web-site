@@ -99,7 +99,7 @@ For more see:
 * [**Meetings Page**](/meetings/)
 * [**Subscription Page**](https://www.blockchaincommons.com/subscribe/) (Main Site)
 
-## BCRs
+## ![](/assets/badges/research.png) BCRs
 
 Our specs and other technical research can be found in our the Blockchain Commons [research repo](https://github.com/BlockchainCommons/research/). This is where to go to see exactly how things should be implemented (though relevant BCRs are also linked from each technology page). 
 
