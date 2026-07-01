@@ -6,7 +6,7 @@ header:
   overlay_image: /assets/headers/tech-dataformat.jpg
   og_image: /assets/images/bc-card.jpg
 title: Data Format Technologies
-tagline: CBOR to Envelope
+tagline: From CBOR to Envelope
 hide_description: true
 classes:
   - wide
