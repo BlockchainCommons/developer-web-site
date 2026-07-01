@@ -62,7 +62,7 @@ sidebar:
 
 _Alongside its [architectural support](/architecture/) and its [technologies](/technology/), Blockchain Commons also offers a number of other resources to support developers looking to build decentralized, self-sovereign digital resources that provide [independence, privacy, resilience, and openness](/principles/)._
 
-## Courses
+## ![](/assets/badges/learning-generic.png) Courses
 
 Blockchain Commons publishes courses to support the use of digital assets, the development of Bitcoin, and the use of our specifications. Most of these are hands-on CLI courses in our "from the Command Line" series. We've also produced a [_Smart Custody_ book](https://www.smartcustody.com/#the-book).
 
@@ -107,7 +107,7 @@ For more see:
 
 * [**Blockchain Commons Research (BCR) Contents**](https://github.com/BlockchainCommons/research/#contents) (GitHub)
 
-## ![](/assets/badges/libraries.ong) Libraries
+## ![](/assets/badges/libraries.png) Libraries
 
 All of our specs are coded in reference libraries. Our most up-to-date libraries are in Rust. Third parties have also coded libraries for many of our specifications.
 
