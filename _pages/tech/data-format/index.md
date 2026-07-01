@@ -64,3 +64,18 @@ sidebar:
     </a>
   </div>
 </div>
+
+_The Blockchain Commons technology stack includes a stack of data formats. CBOR (and variant dCBOR) are fundamental binary data serialization formats. Bytewords encodes binary objects as four-letter English words. URs and MURs turn Bytewords into self-describing data objects. Known values encode ontological concepts as unsigned integers. Finally, Gordian Envelope builds on all of that to offer a self-describing, recursive, smart-document storage format._
+
+***Why?*** _Data formats are more than just wants to encode data. They also encode specific principles. Blockchain Commons' data formats embody the [Gordian principles](/principles/) in large part by ensuring that _open_ (and interoperable) as well as _resilient_ (and harder to confuse). They also strive to be deterministic on a variety of formats (which supports openness and interoperability) and efficient._
+
+## ![](/assets/badges/cbor.png) CBOR
+
+CBOR is an IETF data format ([RFC 8949](https://www.rfc-editor.org/info/rfc8949/)) that we have adopted as the fundamental data representation for higher-level Blockchain Commons data formats such as Gordian Envelope and URs.
+
+
+For more see:
+
+* [**CBOR**](/cbor/)
+
+
