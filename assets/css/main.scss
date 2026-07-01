@@ -93,9 +93,22 @@ h2 img {
     grid-gap: 0px;
 }
 
-.hexbox img, .hexline img {
-    height: 120px;
-    width: 150px;
+@media (max-width:600px) {
+
+  .hexbox img, .hexline img {
+      height: 60px;
+      width: 75px;
+  }
+
+}
+
+@media (min-width:600px) {
+
+    .hexbox img, .hexline img {
+      height: 120px;
+      width: 150px;
+  }
+
 }
 
 .opaqued {
