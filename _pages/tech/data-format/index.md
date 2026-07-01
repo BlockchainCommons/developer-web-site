@@ -25,7 +25,7 @@ sidebar:
 <div class="hexline hexgrid71">
   <div class="hex11">
     <a href="/bytewords/">
-      <img src="/assets/badges/learning-bitcoin.png">
+      <img src="/assets/badges/bytewords.png">
     </a>
   </div>
   <div class="hex12top highlighted">
@@ -35,32 +35,32 @@ sidebar:
   </div>
   <div class="hex21">
     <a href="/cbor/">
-      <img src="/assets/badges/learning-frost.png">
+      <img src="/assets/badges/cbor.png">
     </a>
   </div>
   <div class="hex31">
     <a href="/dcbor/">
-      <img src="/assets/badges/learning-xids.png">
+      <img src="/assets/badges/dcbor.png">
     </a>
   </div>
  <div class="hex41">
     <a href="/envelope/">
-      <img src="/assets/badges/smart-custody.png">
+      <img src="/assets/badges/envelope.png">
     </a>
   </div>
   <div class="hex51">
     <a href="/known-values/">
-      <img src="/assets/badges/dev-meeting.png">
+      <img src="/assets/badges/known-values.png">
     </a>
   </div>
   <div class="hex61">
     <a href="/ur/">
-      <img src="/assets/badges/libraries.png">
+      <img src="/assets/badges/ur.png">
     </a>
   </div>  
   <div class="hex71">
     <a href="/mur/">
-      <img src="/assets/badges/research.png">
+      <img src="/assets/badges/mur.png">
     </a>
   </div>
 </div>
