@@ -111,4 +111,4 @@ Also see [a comparison to Protocol Buffers](https://github.com/BlockchainCommons
 **Intro:**
 
 * [**dCBOR**](/dcbor/)
-* [**RFC 8949**](https://datatracker.ietf.org/doc/html/rfc8949
+* [**RFC 8949**](https://datatracker.ietf.org/doc/html/rfc8949)
