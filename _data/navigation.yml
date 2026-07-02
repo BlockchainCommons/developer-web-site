@@ -101,7 +101,7 @@ technology:
     - title: Return to Main
       url: /
 dataformat:
-  - title: Courses
+  - title: Data Formats
     children:
     - title: "Bytewords"
       url: /bytewords/
