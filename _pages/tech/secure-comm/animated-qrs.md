@@ -17,13 +17,52 @@ sidebar:
     - technology
 ---
 
-## Overview
+<div class="hexline hexgrid71">
+  <div class="hex11 opaqued">
+    <a href="/airgap/">
+      <img src="/assets/badges/airgap.png">
+    </a>
+  </div>
+  <div class="hex12top highlighted">
+    <a href="/secure-comm/">
+      <img src="/assets/badges/cat-comm-half.png">
+    </a>
+  </div>
+  <div class="hex21 opaqued">
+    <a href="/torgap/">
+      <img src="/assets/badges/torgap.png">
+    </a>
+  </div>
+  <div class="hex31 opaqued">
+    <a href="/lifehash/">
+      <img src="/assets/badges/lifehash.png">
+    </a>
+  </div>
+  <div class="hex41 opaqued">
+    <a href="/oib/">
+      <img src="/assets/badges/oib.png">
+    </a>
+  </div>  
+  <div class="hex51 highlighted">
+    <a href="/animated-qrs/">
+      <img src="/assets/badges/animated-qr.png">
+    </a>
+  </div>
+  <div class="hex61">
+    <a href="/garner/">
+      <img src="/assets/badges/garner.png">
+    </a>
+  </div>
+ <div class="hex71">
+    <a href="/hubert/">
+      <img src="/assets/badges/hubert.png">
+    </a>
+  </div>
+</div>
 
-<a href="/ux-stack"><img src="/assets/images/bc-stack-ux-animated-qrs.png" width="25%" style="float: right; margin-left: 20px;"></a>
-
-**Animated QRs** are an interoperable specification for transmitting
+_Animated QRs are an interoperable specification for transmitting
 data that allows for the transmission of relatively large amounts of
-data (compared to standard QRs).
+data (compared to standard QRs)._
 
 ## Why are Animated QRs Important?
 

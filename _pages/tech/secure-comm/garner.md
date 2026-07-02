@@ -17,9 +17,52 @@ sidebar:
     - technology
 ---
 
-## Overview
+<div class="hexline hexgrid71">
+  <div class="hex11 opaqued">
+    <a href="/airgap/">
+      <img src="/assets/badges/airgap.png">
+    </a>
+  </div>
+  <div class="hex12top highlighted">
+    <a href="/secure-comm/">
+      <img src="/assets/badges/cat-comm-half.png">
+    </a>
+  </div>
+  <div class="hex21 opaqued">
+    <a href="/torgap/">
+      <img src="/assets/badges/torgap.png">
+    </a>
+  </div>
+  <div class="hex31 opaqued">
+    <a href="/lifehash/">
+      <img src="/assets/badges/lifehash.png">
+    </a>
+  </div>
+  <div class="hex41 opaqued">
+    <a href="/oib/">
+      <img src="/assets/badges/oib.png">
+    </a>
+  </div>  
+  <div class="hex51">
+    <a href="/animated-qrs/">
+      <img src="/assets/badges/animated-qr.png">
+    </a>
+  </div>
+  <div class="hex61 highlighted">
+    <a href="/garner/">
+      <img src="/assets/badges/garner.png">
+    </a>
+  </div>
+ <div class="hex71">
+    <a href="/hubert/">
+      <img src="/assets/badges/hubert.png">
+    </a>
+  </div>
+</div>
 
-A developer tool that provides a Tor endpoint for self-sovereign identity. It serves static files over HTTP to allow the retrieval of authenticated identity documents.
+_Garner is a developer tool that provides a Tor endpoint for
+self-sovereign identity. It serves static files over HTTP to allow the
+retrieval of authenticated identity documents._
 
 ## Why is Garner Important?
 

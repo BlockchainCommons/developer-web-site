@@ -19,14 +19,54 @@ sidebar:
     - technology
 ---
 
-## Overview
+<div class="hexline hexgrid71">
+  <div class="hex11 highlighted">
+    <a href="/airgap/">
+      <img src="/assets/badges/airgap.png">
+    </a>
+  </div>
+  <div class="hex12top">
+    <a href="/secure-comm/">
+      <img src="/assets/badges/cat-comm-half.png">
+    </a>
+  </div>
+  <div class="hex21 highlighted">
+    <a href="/torgap/">
+      <img src="/assets/badges/torgap.png">
+    </a>
+  </div>
+  <div class="hex31 opaqued">
+    <a href="/lifehash/">
+      <img src="/assets/badges/lifehash.png">
+    </a>
+  </div>
+  <div class="hex41 opaqued">
+    <a href="/oib/">
+      <img src="/assets/badges/oib.png">
+    </a>
+  </div>  
+  <div class="hex51 opaqued">
+    <a href="/animated-qrs/">
+      <img src="/assets/badges/animated-qr.png">
+    </a>
+  </div>
+  <div class="hex61 opaqued">
+    <a href="/garner/">
+      <img src="/assets/badges/garner.png">
+    </a>
+  </div>
+ <div class="hex71 opaqued">
+    <a href="/hubert/">
+      <img src="/assets/badges/hubert.png">
+    </a>
+  </div>
+</div>
 
-<img src="/assets/images/airgap.png" align="right">
 
-An **Airgap** is a traditional method of high security that introduces
+_An Airgap is a traditional method of high security that introduces
 a literal "gap of air" between devices. Transmitting information
 between the devices requires a non-interactive methodlogy such as
-writing and reading QRs, NFCs, or MicroSDs.
+writing and reading QRs, NFCs, or MicroSDs._
 
 ## Why is Airgap Important?
 
@@ -63,3 +103,7 @@ be transmitted in this way.
 
 Similarly one device could write to an NFC or a MicroSD card, and then
 another could read it.
+
+## Airgap Links
+
+* [**Torgap**](/torgap/).

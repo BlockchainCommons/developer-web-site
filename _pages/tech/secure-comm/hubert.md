@@ -17,9 +17,56 @@ sidebar:
     - technology
 ---
 
-## Overview
+<div class="hexline hexgrid71">
+  <div class="hex11 opaqued">
+    <a href="/airgap/">
+      <img src="/assets/badges/airgap.png">
+    </a>
+  </div>
+  <div class="hex12top highlighted">
+    <a href="/secure-comm/">
+      <img src="/assets/badges/cat-comm-half.png">
+    </a>
+  </div>
+  <div class="hex21 opaqued">
+    <a href="/torgap/">
+      <img src="/assets/badges/torgap.png">
+    </a>
+  </div>
+  <div class="hex31 opaqued">
+    <a href="/lifehash/">
+      <img src="/assets/badges/lifehash.png">
+    </a>
+  </div>
+  <div class="hex41 opaqued">
+    <a href="/oib/">
+      <img src="/assets/badges/oib.png">
+    </a>
+  </div>  
+  <div class="hex51">
+    <a href="/animated-qrs/">
+      <img src="/assets/badges/animated-qr.png">
+    </a>
+  </div>
+  <div class="hex61">
+    <a href="/garner/">
+      <img src="/assets/badges/garner.png">
+    </a>
+  </div>
+ <div class="hex71 highlighted">
+    <a href="/hubert/">
+      <img src="/assets/badges/hubert.png">
+    </a>
+  </div>
+</div>
 
-Hubert is a server that enables asynchronous coordination among autonomous cryptographic objects such as [Gordian Clubs](/clubs/) through dead-drops on distributed storage (BitTorrent, IPFS). Participants deposit [GSTP-encrypted](/envelope/gstp/) messages at secret locations where only holders can retrieve them. Write-once semantics ensure immutability. 
+
+_Hubert is a server that enables asynchronous coordination among
+autonomous cryptographic objects such as [Gordian Clubs](/clubs/)
+through dead-drops on distributed storage (BitTorrent,
+IPFS). Participants deposit [GSTP-encrypted](/envelope/gstp/) messages
+at secret locations where only holders can retrieve them. Write-once
+semantics ensure immutability._
 
 ## Why is Hubert Important?
 

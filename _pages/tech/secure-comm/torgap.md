@@ -19,16 +19,54 @@ sidebar:
     - technology
 ---
 
-![](/assets/images/torgap-screen.jpg)
+<div class="hexline hexgrid71">
+  <div class="hex11">
+    <a href="/airgap/">
+      <img src="/assets/badges/airgap.png">
+    </a>
+  </div>
+  <div class="hex12top highlighted">
+    <a href="/secure-comm/">
+      <img src="/assets/badges/cat-comm-half.png">
+    </a>
+  </div>
+  <div class="hex21 highlighted">
+    <a href="/torgap/">
+      <img src="/assets/badges/torgap.png">
+    </a>
+  </div>
+  <div class="hex31 opaqued">
+    <a href="/lifehash/">
+      <img src="/assets/badges/lifehash.png">
+    </a>
+  </div>
+  <div class="hex41 opaqued">
+    <a href="/oib/">
+      <img src="/assets/badges/oib.png">
+    </a>
+  </div>  
+  <div class="hex51 opaqued">
+    <a href="/animated-qrs/">
+      <img src="/assets/badges/animated-qr.png">
+    </a>
+  </div>
+  <div class="hex61 opaqued">
+    <a href="/garner/">
+      <img src="/assets/badges/garner.png">
+    </a>
+  </div>
+ <div class="hex71 opaqued">
+    <a href="/hubert/">
+      <img src="/assets/badges/hubert.png">
+    </a>
+  </div>
+</div>
 
-## Overview
 
-<img src="/assets/images/torgap.png" align="right">
-
-**Torgap** is a security and privacy architecture model for creating
+_A Torgap is a security and privacy architecture model for creating
 gaps between connected apps and microservices using Tor.  It's
 supported by [QuickConnect](/quickconnect/) and Blockchain Commons'
-[Gordian Architecture](/architecture/).
+[Gordian Architecture](/architecture/)._
 
 ## Why is Torgap Important?
 
@@ -68,3 +106,7 @@ the first example of a [Gordian microservice](/architecture/), which
 can provide additional functionality to data-asset applications.
 
 
+## Torgap Links
+
+* [**Airgap**](/airgap/)
+* [**Spotbit**](https://github.com/BlockchainCommons/spotbit) (GitHub Repo)
