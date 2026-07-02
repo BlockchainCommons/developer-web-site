@@ -2,10 +2,11 @@
 cover: false
 header:
   overlay_color: "#000"
-  overlay_filter: "0.25"
-  overlay_image: /assets/images/dev-ux-background.jpg
+  overlay_filter: "0.35"
+  overlay_image: /assets/headers/tech-securecomm.jpg
   og_image: /assets/images/bc-card.jpg
 title: "Object Identity Block (OIB)"
+tagline: "Making Digital Objects Recognizable"
 hide_description: true
 classes:
   - wide
@@ -13,17 +14,59 @@ permalink: /oib/
 sidebar:
   nav:
     - oib
+    - securecomm
+    - technology
 redirect_from:
   - /oib/overview/
 ---
 
-## Overview
+<div class="hexline hexgrid71">
+  <div class="hex11 opaqued">
+    <a href="/airgap/">
+      <img src="/assets/badges/airgap.png">
+    </a>
+  </div>
+  <div class="hex12top highlighted">
+    <a href="/secure-comm/">
+      <img src="/assets/badges/cat-comm-half.png">
+    </a>
+  </div>
+  <div class="hex21 opaqued">
+    <a href="/torgap/">
+      <img src="/assets/badges/torgap.png">
+    </a>
+  </div>
+  <div class="hex31">
+    <a href="/lifehash/">
+      <img src="/assets/badges/lifehash.png">
+    </a>
+  </div>
+  <div class="hex41 highlighted">
+    <a href="/oib/">
+      <img src="/assets/badges/oib.png">
+    </a>
+  </div>  
+  <div class="hex51 opaqued">
+    <a href="/animated-qrs/">
+      <img src="/assets/badges/animated-qr.png">
+    </a>
+  </div>
+  <div class="hex61 opaqued">
+    <a href="/garner/">
+      <img src="/assets/badges/garner.png">
+    </a>
+  </div>
+ <div class="hex71 opaqued">
+    <a href="/hubert/">
+      <img src="/assets/badges/hubert.png">
+    </a>
+  </div>
+</div>
 
-<a href="/ux-stack"><img src="/assets/images/bc-stack-ux-oib.png" width="25%" style="float: right; margin-left: 20px;"></a>
-
-The Object Identity Block (OIB) is a methodology for making a digital object
-immediately recognizable to users (or at least as recognizable as
-possible given the challenges of representing large digital numbers).
+_The Object Identity Block (OIB) is a methodology for making a digital
+object immediately recognizable to users (or at least as recognizable
+as possible given the challenges of representing large digital
+numbers)._
 
 ## Why is OIB Important?
 
@@ -94,7 +137,7 @@ anything else.
   </tr>
 </table>
 
-## Links
+## OIB Links
 
 **Intro:**
 

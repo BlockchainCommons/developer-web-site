@@ -2,17 +2,19 @@
 cover: false
 header:
   overlay_color: "#000"
-  overlay_filter: "0.25"
-  overlay_image: /assets/images/dev-ux-background.jpg
+  overlay_filter: "0.35"
+  overlay_image: /assets/headers/tech-securecomm.jpg
   og_image: /assets/images/bc-card.jpg
 title: "OIB Test Vectors"
 hide_description: true
 classes:
   - wide
-permalink: /oib/vectors//
+permalink: /oib/vectors/
 sidebar:
   nav:
     - oib
+    - securecomm
+    - technology
 ---
 
 The following OIBs drawn from [Gordian
