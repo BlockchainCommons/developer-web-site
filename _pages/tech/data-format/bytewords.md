@@ -13,8 +13,8 @@ classes:
 permalink: /bytewords/
 sidebar:
   nav:
-    - technology
     - dataformat
+    - technology
 ---
 
 ## Overview
