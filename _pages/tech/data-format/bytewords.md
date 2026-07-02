@@ -49,12 +49,12 @@ sidebar:
       <img src="/assets/badges/known-values.png">
     </a>
   </div>
-  <div class="hex61 opaqued">
+  <div class="hex61">
     <a href="/ur/">
       <img src="/assets/badges/ur.png">
     </a>
   </div>  
-  <div class="hex71 opaqued">
+  <div class="hex71">
     <a href="/mur/">
       <img src="/assets/badges/mur.png">
     </a>
