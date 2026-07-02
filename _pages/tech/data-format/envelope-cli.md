@@ -12,14 +12,15 @@ classes:
 permalink: /envelope/cli/
 sidebar:
   nav:
+    - envelopecli
     - envelope
     - dataformat
     - technology
 ---
 
-This is a hands-on command-line introduction to Gordian Envelope in the style of Blockchain Commons' [from the Command Line courses](/courses/). It makes use of the Rust-based [envelope-cli](https://github.com/BlockchainCommons/bc-envelope-cli-rust).
+_This is a hands-on command-line introduction to Gordian Envelope in the style of Blockchain Commons' [from the Command Line courses](/courses/). It makes use of the Rust-based [envelope-cli](https://github.com/BlockchainCommons/bc-envelope-cli-rust)._
 
-Also see ["Learning Envelope Seeds from the Command Line"](/envelope/seed/).
+_Also see ["Learning Envelope Seeds from the Command Line"](/envelope/seed/)._
 
 ## What is a Gordian Envelope?
 
