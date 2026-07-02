@@ -13,8 +13,8 @@ classes:
 permalink: /libraries/
 sidebar:
   nav:
-    - resources
     - libraries
+    - resources
 ---
 
 
