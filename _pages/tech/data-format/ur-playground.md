@@ -42,12 +42,9 @@ Major features include:
 
 **Playground:**
 
-* [**The Playground**](https://irfan798.github.io/bcur.me/)
+* [**BC-UR Playground**](https://irfan798.github.io/bcur.me/)
 * [**Docs**](https://irfan798.github.io/bcur.me/#docs)
 
-**Technologies:**
+** Also See:**
 
-* [**Uniform Resources (URs)**](https://developer.blockchaincommons.com/ur/)
-* [**Multipart URs (MURs)**](https://github.com/BlockchainCommons/Research/blob/master/papers/bcr-2024-001-multipart-ur.md)
-* [**Animated QRs**](https://developer.blockchaincommons.com/animated-qrs/)
-* [**Bytewords**](https://developer.blockchaincommons.com/bytewords/)
+* [BCTS Data Playground**](https://bcts.dev/)
