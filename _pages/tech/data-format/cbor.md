@@ -35,7 +35,7 @@ redirect_from:
       <img src="/assets/badges/cbor.png">
     </a>
   </div>
-  <div class="hex31 opaqued">
+  <div class="hex31">
     <a href="/dcbor/">
       <img src="/assets/badges/dcbor.png">
     </a>
