@@ -173,13 +173,13 @@ envelopeuse:
     - title: "Educational Use Cases"
       url: https://github.com/BlockchainCommons/developer-web-site/blob/master/_pages/envelope-usecases-educational.md
     - title: "Wellness Use Cases"
-      url: https://github.com/BlockchainCommons/developer-web-site/blob/master/_pages/envelope-usecases-wellness.md
+      url: https://github.com/BlockchainCommons/developer-web-site/blob/master/_pages/tech/data-format/envelope-usecases-wellness.md
     - title: "Data Use Cases"
-      url: https://github.com/BlockchainCommons/developer-web-site/blob/master/_pages/envelope-usecases-data.md
+      url: https://github.com/BlockchainCommons/developer-web-site/blob/master/_pages/tech/data-format/envelope-usecases-data.md
     - title: "Digital Assets Use Cases"
-      url: https://github.com/BlockchainCommons/developer-web-site/blob/master/_pages/envelope-usecases-assets.md
+      url: https://github.com/BlockchainCommons/developer-web-site/blob/master/_pages/tech/data-format/envelope-usecases-assets.md
     - title: "Software Release Use Cases"
-      url: https://github.com/BlockchainCommons/developer-web-site/blob/master/_pages/envelope-usecases-software.md
+      url: https://github.com/BlockchainCommons/developer-web-site/blob/master/_pages/tech/data-format/envelope-usecases-software.md
 architecture:
   - title: Gordian Architecture
     children:
