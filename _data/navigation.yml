@@ -117,6 +117,69 @@ dataformat:
       url: /ur/
     - title: "MUR"
       url: /ur/mur/
+envelope:
+  - title: Gordian Envelope
+    children:
+    - title: "Intro to Envelope"
+      url: /envelope/
+    - title: "Executive Overview"
+      url: /envelope/summary/
+    - title: "Feature Overview"
+      url: /envelope/features/
+    - title: "Technical Overview"
+      url: /envelope/tech/
+    - title: "CLI: Seeds"
+      url: /envelope/seed/      
+    - title: "Use Cases Overview"
+      url: /envelope/use-cases/
+    - title: "Use Cases Listing"
+      url: /envelope/use-cases/summary/
+  - title: Envelope Exensions
+    children:
+    - title: "Encrypted State Continuation"
+      url: /envelope/esc/
+    - title: "Gordian Sealed Transactions"
+      url: /envelope/gstp/
+    - title: "Hashed Elision"
+      url: /hashed-elision/
+    - title: "Known Values"
+      url: /known-values/
+    - title: "Permits"
+      url: /envelope/permits/  
+    - title: "Request & Response"
+      url: /envelope/request/
+envelopegstp:
+  - title: "GSTP"
+    children:
+    children:
+    - title: "Intro to GSTP"
+      url: /envelope/gstp/
+    - title: "GSTP Tech Overview"
+      url: /envelope/gstp/tech/
+envelopereq:
+  - title: "Request & Response"
+    children:
+    - title: "Intro to Request & Response"
+      url: /envelope/request/
+    - title: "Test Vectors"
+      url: /envelope/request/vectors/
+envelopeuse:
+  - title: "Use Cases"
+    children:
+    - title: "Use Cases Overview"
+      url: /envelope/use-cases/
+    - title: "Use Cases Listing"
+      url: /envelope/use-cases/summary/
+    - title: "Educational Use Cases"
+      url: https://github.com/BlockchainCommons/developer-web-site/blob/master/_pages/envelope-usecases-educational.md
+    - title: "Wellness Use Cases"
+      url: https://github.com/BlockchainCommons/developer-web-site/blob/master/_pages/envelope-usecases-wellness.md
+    - title: "Data Use Cases"
+      url: https://github.com/BlockchainCommons/developer-web-site/blob/master/_pages/envelope-usecases-data.md
+    - title: "Digital Assets Use Cases"
+      url: https://github.com/BlockchainCommons/developer-web-site/blob/master/_pages/envelope-usecases-assets.md
+    - title: "Software Release Use Cases"
+      url: https://github.com/BlockchainCommons/developer-web-site/blob/master/_pages/envelope-usecases-software.md
 architecture:
   - title: Gordian Architecture
     children:
@@ -201,13 +264,6 @@ animated-qrs:
       url: /animated-qrs/
     - title: "Return to UX Stack"
       url: /ux-stack/
-bytewords:
-  - title: Bytewords
-    children:
-    - title: "Intro to Bytewords"
-      url: /bytewords/
-    - title: "Return to UX Stack"
-      url: /ux-stack/
 ckm:
   - title: CKM
     children:
@@ -265,67 +321,6 @@ dcbor:
       url: /dcbor/
     - title: "Return to Core Stack"
       url: /core-stack/
-envelope:
-  - title: Gordian Envelope
-    children:
-    - title: "Intro to Envelope"
-      url: /envelope/
-    - title: "Executive Summary"
-      url: /envelope/summary/
-    - title: "Technical Overview"
-      url: /envelope/tech/
-    - title: "Feature List"
-      url: /envelope/features/
-    - title: "Hashed Elision"
-      url: /hashed-elision/
-    - title: "Use Cases Overview"
-      url: /envelope/use-cases/
-    - title: "Use Cases Listing"
-      url: /envelope/use-cases/summary/
-  - title: Envelope Exensions
-    children:
-    - title: "Encrypted State Continuation"
-      url: /envelope/esc/
-    - title: "Gordian Sealed Transactions"
-      url: /envelope/gstp/
-    - title: "GSTP Tech Overview"
-      url: /envelope/gstp/tech/
-    - title: "Known Values"
-      url: /known-values/
-    - title: "Permits"
-      url: /envelope/permits/  
-    - title: "Request & Response"
-      url: /envelope/request/
-    - title: "Seeds in Envelope"
-      url: /envelope/seed/      
-envelopereq:
-  - title: "Request & Response"
-    children:
-    - title: "Intro to Request & Response"
-      url: /envelope/request/
-    - title: "Test Vectors"
-      url: /envelope/request/vectors/
-    - title: "Return to Envelope"
-      url: /envelope/
-envelopeuse:
-  - title: "Use Cases"
-    children:
-    - title: "Use Cases Overview"
-      url: /envelope/use-cases/
-    - title: "Use Cases Listing"
-      url: /envelope/use-cases/summary/
-    - title: "Educational Use Cases"
-      url: https://github.com/BlockchainCommons/developer-web-site/blob/master/_pages/envelope-usecases-educational.md
-    - title: "Wellness Use Cases"
-      url: https://github.com/BlockchainCommons/developer-web-site/blob/master/_pages/envelope-usecases-wellness.md
-    - title: "Data Use Cases"
-      url: https://github.com/BlockchainCommons/developer-web-site/blob/master/_pages/envelope-usecases-data.md
-    - title: "Digital Assets Use Cases"
-      url: https://github.com/BlockchainCommons/developer-web-site/blob/master/_pages/envelope-usecases-assets.md
-    - title: "Software Release Use Cases"
-      url: https://github.com/BlockchainCommons/developer-web-site/blob/master/_pages/envelope-usecases-software.md
-    - title: "Return to Envelope"
-      url: /envelope/
 frost:
   - title: FROST
     children:
