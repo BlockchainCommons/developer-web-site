@@ -108,12 +108,6 @@ follow the specifications laid out in this Draft.
 <table width="100%">
   <tr>
     <td width="640px">
-      <b>Why CBOR?</b>
-
-{% include video id="uoD5_Vr6qzw" provider="youtube" %}
-
-    </td>
-    <td width="640px">
       <b>dCBOR Library from Blockchain Commons</b>
 
 {% include video id="NlJE8oF1B5M" provider="youtube" %}
