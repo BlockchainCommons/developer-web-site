@@ -6,7 +6,7 @@ header:
   overlay_image: /assets/headers/tech-securecomm.jpg
   og_image: /assets/images/bc-card.jpg
 title: Secure Communication Technologies
-tagline: From Gaps to Garner
+tagline: From Gaps to Dead Drops
 hide_description: true
 classes:
   - wide
@@ -80,7 +80,7 @@ communication technologies seek to avoid these problems._
 
 ## ![](/assets/badges/airgap.png) Airgap
 
-**Architectural.** Airgaps allow users to keep assets on physically separate devices.
+**Architecture.** Airgaps allow users to keep assets on physically separate devices.
 
 For more see:
 
@@ -88,7 +88,7 @@ For more see:
 
 ## ![](/assets/badges/torgap.png) Torgap
 
-**Architectural.** Torgaps ensure that connections between apps and
+**Architecture.** Torgaps ensure that connections between apps and
   services are protected with Tor.
 
 For more see:
@@ -114,11 +114,10 @@ Block (OIB), which provides additional hints to help identify a digital asset.
 For more see:
 
 * [**OIB**](/oib/)
-* [**draft-mcnally-envelope Internet-Draft**](https://datatracker.ietf.org/doc/draft-mcnally-envelope/) (Data Tracker)
 
 ## ![](/assets/badges/animated-qr.png) Animated QRs
 
-Animated QRs are a method to transfer information against Airgaps,
+**Comm Method.** Animated QRs are a method to transfer information against Airgaps,
 using fragemented Uniform Resources encoded into QR frames.
 
 For more see:
@@ -128,7 +127,7 @@ For more see:
 
 ## ![](/assets/badges/garner.png) Garner: Tor Onion Service
 
-Garner uses Tor as a communication method for transmitting self-sovereign identity documents.
+** Comm Method.** Garner uses Tor as a communication method for transmitting self-sovereign identity documents.
 
 For more see:
 
@@ -136,8 +135,8 @@ For more see:
 
 ## ![](/assets/badges/hubert.png) Hubert: Dead-Drop Hub
 
-Hubert uses decentralized storage to allow for dead-drop-like
-communication of protocols such as FROST.
+**Comm Method.** Hubert uses decentralized storage to allow for
+dead-drop-like communication of protocols such as FROST.
 
 * [**Hubert**](/hubert/)
 * [**BCR-2025-006**](https://github.com/BlockchainCommons/Research/blob/master/papers/bcr-2025-006-hubert.md) (Research Repo)
