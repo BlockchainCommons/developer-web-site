@@ -2,10 +2,10 @@
 cover: false
 header:
   overlay_color: "#000"
-  overlay_filter: "0.25"
-  overlay_image: /assets/images/dev-ux-background.jpg
+  overlay_filter: "0.35"
+  overlay_image: /assets/headers/tech-securecomm.jpg
   og_image: /assets/images/bc-card.jpg
-title: "LifeHash Versions"
+title: "LifeHash Version Overview"
 hide_description: true
 classes:
   - wide
@@ -13,6 +13,8 @@ permalink: /lifehash/versions/
 sidebar:
   nav:
     - lifehash
+    - securecomm
+    - technology
 ---
 
 LifeHashes can be displayed in one of five ways (one of which is deprecated):

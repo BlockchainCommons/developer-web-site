@@ -2,10 +2,11 @@
 cover: false
 header:
   overlay_color: "#000"
-  overlay_filter: "0.25"
-  overlay_image: /assets/images/dev-ux-background.jpg
+  overlay_filter: "0.35"
+  overlay_image: /assets/headers/tech-securecomm.jpg
   og_image: /assets/images/bc-card.jpg
 title: "LifeHash"
+tagline: Using Visual Hashes
 hide_description: true
 classes:
   - wide
@@ -13,11 +14,53 @@ permalink: /lifehash/
 sidebar:
   nav:
     - lifehash
+    - securecomm
+    - technology
 ---
 
-## Overview
+<div class="hexline hexgrid71">
+  <div class="hex11 opaqued">
+    <a href="/airgap/">
+      <img src="/assets/badges/airgap.png">
+    </a>
+  </div>
+  <div class="hex12top highlighted">
+    <a href="/secure-comm/">
+      <img src="/assets/badges/cat-comm-half.png">
+    </a>
+  </div>
+  <div class="hex21 opaqued">
+    <a href="/torgap/">
+      <img src="/assets/badges/torgap.png">
+    </a>
+  </div>
+  <div class="hex31 highlighted">
+    <a href="/lifehash/">
+      <img src="/assets/badges/lifehash.png">
+    </a>
+  </div>
+  <div class="hex41">
+    <a href="/oib/">
+      <img src="/assets/badges/oib.png">
+    </a>
+  </div>  
+  <div class="hex51 opaqued">
+    <a href="/animated-qrs/">
+      <img src="/assets/badges/animated-qr.png">
+    </a>
+  </div>
+  <div class="hex61 opaqued">
+    <a href="/garner/">
+      <img src="/assets/badges/garner.png">
+    </a>
+  </div>
+ <div class="hex71 opaqued">
+    <a href="/hubert/">
+      <img src="/assets/badges/hubert.png">
+    </a>
+  </div>
+</div>
 
-<a href="/ux-stack"><img src="/assets/images/bc-stack-ux-lifehash.png" width="25%" style="float: right; margin-left: 20px;"></a>
 
 _LifeHash is a method of hash visualization based on Conway's Game of
 Life that creates beautiful icons that are deterministic, yet distinct
@@ -86,7 +129,7 @@ for more information._
 
 {% include lib-lifehash.md %}
 
-## Links
+## LifeHash Links
 
 **Intro:**
 

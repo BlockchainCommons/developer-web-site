@@ -2,8 +2,8 @@
 cover: false
 header:
   overlay_color: "#000"
-  overlay_filter: "0.25"
-  overlay_image: /assets/images/dev-ux-background.jpg
+  overlay_filter: "0.35"
+  overlay_image: /assets/headers/tech-securecomm.jpg
   og_image: /assets/images/bc-card.jpg
 title: "LifeHash Use Cases"
 hide_description: true
@@ -13,6 +13,8 @@ permalink: /lifehash/use-cases/
 sidebar:
   nav:
     - lifehash
+    - securecomm
+    - technology
 ---
 
 LifeHash provides a beautiful visual representation of any digital
