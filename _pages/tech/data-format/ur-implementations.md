@@ -2,8 +2,8 @@
 cover: false
 header:
   overlay_color: "#000"
-  overlay_filter: "0.25"
-  overlay_image: /assets/images/dev-data-background.jpg
+  overlay_filter: "0.35"
+  overlay_image: /assets/headers/tech-dataformat.jpg
   og_image: /assets/images/bc-card.jpg
 title: UR Implementations
 hide_description: true
@@ -13,6 +13,8 @@ permalink: /ur/implementations/
 sidebar:
   nav:
     - ur
+    - dataformat
+    - technology
 ---
 
 Uniform Resources (URs) have been Blockchain Commons' most successful

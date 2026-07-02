@@ -2,8 +2,8 @@
 cover: false
 header:
   overlay_color: "#000"
-  overlay_filter: "0.25"
-  overlay_image: /assets/images/dev-data-background.jpg
+  overlay_filter: "0.45"
+  overlay_image: /assets/headers/tech-dataformat.jpg
   og_image: /assets/images/bc-card.jpg
 title: UR Playground
 hide_description: true
@@ -11,6 +11,8 @@ permalink: /ur/playground/
 sidebar:
   nav:
     - ur
+    - dataformat
+    - technology
 ---
 
 [irfan bilaloğlu](https://github.com/irfan798) has created a [BC-UR Playground](https://irfan798.github.io/bcur.me/) that allows developers to experiment with URs, MURs, ByteWords, CBOR, and Animated QRs. It's a great tool for really seeing how all these specifications work.

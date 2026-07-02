@@ -2,8 +2,8 @@
 cover: false
 header:
   overlay_color: "#000"
-  overlay_filter: "0.25"
-  overlay_image: /assets/images/dev-data-background.jpg
+  overlay_filter: "0.35"
+  overlay_image: /assets/headers/tech-dataformat.jpg
   og_image: /assets/images/bc-card.jpg
 title: A Guide to Using URs for Envelopes
 hide_description: true
@@ -13,6 +13,8 @@ permalink: /ur/envelope/
 sidebar:
   nav:
     - ur
+    - dataformat
+    - technology
 ---
 
 Bare Uniform Resources (URs) allow for the encoding of a variety of

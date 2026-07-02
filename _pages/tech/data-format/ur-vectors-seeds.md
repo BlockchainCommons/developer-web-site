@@ -2,8 +2,8 @@
 cover: false
 header:
   overlay_color: "#000"
-  overlay_filter: "0.25"
-  overlay_image: /assets/images/dev-data-background.jpg
+  overlay_filter: "0.35"
+  overlay_image: /assets/headers/tech-dataformat.jpg
   og_image: /assets/images/bc-card.jpg
 title: UR crypto-seed Test Vectors
 hide_description: true
@@ -13,6 +13,8 @@ permalink: /ur/vectors/seeds/
 sidebar:
   nav:
     - ur
+    - dataformat
+    - technology
 ---
 
 * [128 Bit Examples (Yinmn Blue)](#128-bit-examples-yinmn-blue)
