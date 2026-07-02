@@ -12,8 +12,8 @@ classes:
 permalink: /dcbor/
 sidebar:
   nav:
-    - technology
     - dataformat
+    - technology
 redirect_from:
   - /cbor/overview/
 ---
