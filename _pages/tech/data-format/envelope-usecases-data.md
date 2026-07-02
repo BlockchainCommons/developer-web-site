@@ -2,8 +2,8 @@
 cover: false
 header:
   overlay_color: "#000"
-  overlay_filter: "0.25"
-  overlay_image: /assets/images/dev-data-background.jpg
+  overlay_filter: "0.35"
+  overlay_image: /assets/headers/tech-dataformat.jpg
   og_image: /assets/images/bc-card.jpg
 title: Envelope Use Cases - Data
 hide_description: true
@@ -11,7 +11,11 @@ classes:
   - wide
 permalink: /envelope/use-cases/data/
 sidebar:
-  nav: envelopeuse
+  nav:
+    - envelopeuse
+    - envelope
+    - dataformat
+    - technology
 ---
 
 Gordian Envelope can be used to support [a wide variety of data-distribution use cases](README.md#other-data-distribution-use-cases), covering everything from agriculture and supply chain to healthcare and telecommunication. They are the most useful when there is data that should be used in different ways by different people who have different permissions, different needs, and/or different regulations. 

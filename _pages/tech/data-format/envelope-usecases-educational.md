@@ -2,8 +2,8 @@
 cover: false
 header:
   overlay_color: "#000"
-  overlay_filter: "0.25"
-  overlay_image: /assets/images/dev-data-background.jpg
+  overlay_filter: "0.35"
+  overlay_image: /assets/headers/tech-dataformat.jpg
   og_image: /assets/images/bc-card.jpg
 title: Envelope Use Cases - Educational
 hide_description: true
@@ -11,7 +11,11 @@ classes:
   - wide
 permalink: /envelope/use-cases/educational/
 sidebar:
-  nav: envelopeuse
+  nav:
+    - envelopeuse
+    - envelope
+    - dataformat
+    - technology
 ---
 
 Gordian Envelope can be used in educational credential-issuing industries to encode and transmit sensitive student  information. This allows authorized parties, such as potential employers or other educational institutions, to access only the information they are authorized to view while still preserving the privacy and security of the rest of the data.

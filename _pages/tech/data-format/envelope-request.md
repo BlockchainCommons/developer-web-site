@@ -2,8 +2,8 @@
 cover: false
 header:
   overlay_color: "#000"
-  overlay_filter: "0.25"
-  overlay_image: /assets/images/dev-data-background.jpg
+  overlay_filter: "0.35"
+  overlay_image: /assets/headers/tech-dataformat.jpg
   og_image: /assets/images/bc-card.jpg
 title: "Envelope Request & Response"
 hide_description: true
@@ -11,7 +11,11 @@ classes:
   - wide
 permalink: /envelope/request/
 sidebar:
-  nav: envelopereq
+  nav:
+    - envelopereq
+    - envelope
+    - dataformat
+    - technology
 ---
 
 [Gordian Envelope](/envelope/) includes request and response functionality: one user can issue an envelope requesting certain information or certain actions and then another user can respond to that request with the data. These functions are important for enabling interoperability and automating complex or error-prone usage of digital assets.

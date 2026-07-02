@@ -2,25 +2,71 @@
 cover: false
 header:
   overlay_color: "#000"
-  overlay_filter: "0.25"
-  overlay_image: /assets/images/dev-data-background.jpg
+  overlay_filter: "0.35"
+  overlay_image: /assets/headers/tech-dataformat.jpg
   og_image: /assets/images/bc-card.jpg
 title: Gordian Envelope
+tagline: Smart Document Storage
 hide_description: true
 classes:
   - wide
 permalink: /envelope/
 sidebar:
-  nav: envelope
+  nav:
+    - envelope
+    - dataformat
+    - technology
 redirect_from:
   - /envelope/overview/
 ---
 
 ## Overview
 
-{% include news-envelope.md %}
+<div class="hexline hexgrid71">
+  <div class="hex11 opaqued">
+    <a href="/bytewords/">
+      <img src="/assets/badges/bytewords.png">
+    </a>
+  </div>
+  <div class="hex12top">
+    <a href="/data-formats/">
+      <img src="/assets/badges/cat-dataformat-half.png">
+    </a>
+  </div>
+  <div class="hex21 opaqued">
+    <a href="/cbor/">
+      <img src="/assets/badges/cbor.png">
+    </a>
+  </div>
+  <div class="hex31 opaqued">
+    <a href="/dcbor/">
+      <img src="/assets/badges/dcbor.png">
+    </a>
+  </div>
+ <div class="hex41 highlighted">
+    <a href="/envelope/">
+      <img src="/assets/badges/envelope.png">
+    </a>
+  </div>
+  <div class="hex51 highlighted">
+    <a href="/known-values/">
+      <img src="/assets/badges/known-values.png">
+    </a>
+  </div>
+  <div class="hex61 opaqued">
+    <a href="/ur/">
+      <img src="/assets/badges/ur.png">
+    </a>
+  </div>  
+  <div class="hex71 opaqued">
+    <a href="/mur/">
+      <img src="/assets/badges/mur.png">
+    </a>
+  </div>
+</div>
 
-<a href="/core-stack/"><img src="https://developer.blockchaincommons.com/assets/images/bc-stack-core-envelope.png" style="float: right; margin-left: 20px;" width="25%"></a>
+
+{% include news-envelope.md %}
 
 Gordian Envelope is a specification for the achitecture of a “smart
 document". It builds on the binary format of the [IETF CBOR standard](https://cbor.io/) to support the secure, reliable, and

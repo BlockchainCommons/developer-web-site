@@ -2,8 +2,8 @@
 cover: false
 header:
   overlay_color: "#000"
-  overlay_filter: "0.25"
-  overlay_image: /assets/images/dev-data-background.jpg
+  overlay_filter: "0.35"
+  overlay_image: /assets/headers/tech-dataformat.jpg
   og_image: /assets/images/bc-card.jpg
 title: "Envelope Permits"
 hide_description: true
@@ -13,7 +13,10 @@ permalink: /envelope/permits/
 redirect_from:
   - /envelope/permit/
 sidebar:
-  nav: envelope
+  nav:
+    - envelope
+    - dataformat
+    - technology
 ---
 
 ## Overview
