@@ -77,7 +77,7 @@ Bytewords translates binary objects into a series of four-letter English words. 
 For more see:
 
 * [**Bytewords**](/bytewords/)
-* [**BCR-2020-012**](https://github.com/BlockchainCommons/Research/blob/master/papers/bcr-2020-012-bytewords.md) (Research repo)
+* [**BCR-2020-012**](https://github.com/BlockchainCommons/Research/blob/master/papers/bcr-2020-012-bytewords.md) (Research Repo)
 
 ## ![](/assets/badges/cbor.png) CBOR
 
@@ -86,7 +86,7 @@ CBOR is an IETF data format (RFC 8949) that we have adopted as the fundamental d
 For more see:
 
 * [**CBOR**](/cbor/)
-* [**RFC8949**](https://www.rfc-editor.org/info/rfc8949/)
+* [**RFC8949**](https://www.rfc-editor.org/info/rfc8949/) (RFC Editor)
 
 ## ![](/assets/badges/dcbor.png) dCBOR
 
@@ -95,7 +95,7 @@ dCBOR stands for Deterministic CBOR. It's our own variant of CBOR that always en
 For more see:
 
 * [**dCBOR**](/dcbor/)
-* [**draft-mcnally-deterministic-cbor Internet-Draft**](https://datatracker.ietf.org/doc/draft-mcnally-deterministic-cbor/)
+* [**draft-mcnally-deterministic-cbor Internet-Draft**](https://datatracker.ietf.org/doc/draft-mcnally-deterministic-cbor/) (Data Tracker)
 
 ## ![](/assets/badges/envelope.png) Gordian Envelope
 
@@ -104,7 +104,7 @@ Envelope is the culmination of many of Blockchain Commons' other data formats. I
 For more see:
 
 * [**Envelope**](/envelope/)
-* [**draft-mcnally-envelope Internet-Draft**](https://datatracker.ietf.org/doc/draft-mcnally-envelope/)
+* [**draft-mcnally-envelope Internet-Draft**](https://datatracker.ietf.org/doc/draft-mcnally-envelope/) (Data Tracker)
 
 ## ![](/assets/badges/known-values.png) Known Values
 
@@ -113,7 +113,7 @@ Known Values correlate ontological concepts to integer values, allowing for effi
 For more see:
 
 * [**Known Values**](/known-value/)
-* [**BCR-2023-002**](https://github.com/BlockchainCommons/Research/blob/master/papers/bcr-2023-002-known-value.md)
+* [**BCR-2023-002**](https://github.com/BlockchainCommons/Research/blob/master/papers/bcr-2023-002-known-value.md) (Research Repo)
 
 ## ![](/assets/badges/ur.png) UR: Uniform Resources
 
@@ -122,12 +122,12 @@ URs utilize a minimalistic form of Bytewords to efficiently record binary data a
 For more see:
 
 * [**URs**](/ur/)
-* [**BCR-2020-005**](https://github.com/BlockchainCommons/Research/blob/master/papers/bcr-2020-005-ur.md)
+* [**BCR-2020-005**](https://github.com/BlockchainCommons/Research/blob/master/papers/bcr-2020-005-ur.md) (Research Repo)
 
 ## ![](/assets/badges/mur.png) MUR: Multipart UR
 
 Multipart URs break URs into multiple pieces to allow for the transmission of smaller data sets, which is important when URs are used for communications as QR codes.
 
 * [**MURs**](/ur/mur/)
-* [**BCR-2024-001**](https://github.com/BlockchainCommons/Research/blob/master/papers/bcr-2024-001-multipart-ur.md)
+* [**BCR-2024-001**](https://github.com/BlockchainCommons/Research/blob/master/papers/bcr-2024-001-multipart-ur.md) (Research Repo)
 
