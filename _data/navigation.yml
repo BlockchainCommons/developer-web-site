@@ -95,7 +95,9 @@ technology:
     - title: "Technology Home"
       url: /technology/
     - title: "Data Formats"
-      url: /dataformat/
+      url: /data-format/
+    - title: "Secure Comm"
+      url: /secure-comm/
     - title: "Specifications"
       url: https://github.com/BlockchainCommons/research/#contents
     - title: Return to Main
