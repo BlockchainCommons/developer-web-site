@@ -2,10 +2,11 @@
 cover: false
 header:
   overlay_color: "#000"
-  overlay_filter: "0.25"
-  overlay_image: /assets/images/dev-data-background.jpg
+  overlay_filter: "0.35"
+  overlay_image: /assets/headers/tech-dataformat.jpg
   og_image: /assets/images/bc-card.jpg
 title: Multipart UR (MUR)
+tagline: Fragmented URs
 hide_description: true
 classes:
   - wide
@@ -13,15 +14,56 @@ permalink: /ur/mur/
 sidebar:
   nav:
     - ur
+    - dataformat
+    - technology
 redirect_from:
   - /mur/
 ---
 
-## Overview
+<div class="hexline hexgrid71">
+  <div class="hex11 opaqued">
+    <a href="/bytewords/">
+      <img src="/assets/badges/bytewords.png">
+    </a>
+  </div>
+  <div class="hex12top">
+    <a href="/data-formats/">
+      <img src="/assets/badges/cat-dataformat-half.png">
+    </a>
+  </div>
+  <div class="hex21 opaqued">
+    <a href="/cbor/">
+      <img src="/assets/badges/cbor.png">
+    </a>
+  </div>
+  <div class="hex31 opaqued">
+    <a href="/dcbor/">
+      <img src="/assets/badges/dcbor.png">
+    </a>
+  </div>
+ <div class="hex41 opaqued">
+    <a href="/envelope/">
+      <img src="/assets/badges/envelope.png">
+    </a>
+  </div>
+  <div class="hex51 opaqued">
+    <a href="/known-values/">
+      <img src="/assets/badges/known-values.png">
+    </a>
+  </div>
+  <div class="hex61">
+    <a href="/ur/">
+      <img src="/assets/badges/ur.png">
+    </a>
+  </div>  
+  <div class="hex71 highlighted">
+    <a href="/mur/">
+      <img src="/assets/badges/mur.png">
+    </a>
+  </div>
+</div>
 
-<a href="/ux-stack"><img src="/assets/images/bc-stack-ux-urs.png" width="25%" style="float: right; margin-left: 20px;"></a>
-
-The [UR specification](https://github.com/BlockchainCommons/Research/blob/master/papers/bcr-2020-005-ur.md) is typically used for singular messages. However, it also supports the fragmentation of longer messages that can then be sequenced into a series of URs: this is a multipart UR (MUR). It allows for the creation of [Animated QRs](/animated-qrs/).
+_The [UR specification](https://github.com/BlockchainCommons/Research/blob/master/papers/bcr-2020-005-ur.md) is typically used for singular messages. However, it also supports the fragmentation of longer messages that can then be sequenced into a series of URs: this is a multipart UR (MUR). It allows for the creation of [Animated QRs](/animated-qrs/)._
 
 ## Why are MURs Important?
 
