@@ -97,16 +97,18 @@ broken down into its constituent parts.
 
 The [bytewords CLI](https://github.com/BlockchainCommons/bytewords-cli) can be used to convert the Bytewords minimal encoding used in URs to CBOR:
 ```
-$ bytewords -i minimal -o hex OYADGDHKWZDTFTHPTOKIGTVWNNJSQZCXKNSKTDHPYLJEDA
-a1015059f2293a5bce7d4de59e71b4207ac5d2
+bytewords -i minimal -o hex OYADGDHKWZDTFTHPTOKIGTVWNNJSQZCXKNSKTDHPYLJEDA
+
+| a1015059f2293a5bce7d4de59e71b4207ac5d2
 ```
 The [CBOR
 CLI](https://www.npmjs.com/package/cbor-cli?activeTab=readme) can then
 be used to decode the result, revealing a map with just one item,
 which is the seed itself:
 ```
-$ cbor2diag -x a1015059f2293a5bce7d4de59e71b4207ac5d2
-{1: h'59f2293a5bce7d4de59e71b4207ac5d2'}
+cbor2diag -x a1015059f2293a5bce7d4de59e71b4207ac5d2
+
+| {1: h'59f2293a5bce7d4de59e71b4207ac5d2'}
 ```
 UR was built to support clean and efficient conversion into QR
 codes. That same seed can be encoded into a QR code as following:
@@ -149,18 +151,20 @@ A4                                     # map(4)
 ```
 The `cbor2diag` CLI can similarly be used to decode this information:
 ```
-$ cbor2diag -x a4015059f2293a5bce7d4de59e71b4207ac5d202D8641A6092DC07036541636F726E046C436F66666565206D6F6E6579
-{
-    1: h'59f2293a5bce7d4de59e71b4207ac5d2',
-    2: 100(1620237319),
-    3: "Acorn",
-    4: "Coffee money"
-}
+cbor2diag -x a4015059f2293a5bce7d4de59e71b4207ac5d202D8641A6092DC07036541636F726E046C436F66666565206D6F6E6579
+
+| {
+|     1: h'59f2293a5bce7d4de59e71b4207ac5d2',
+|     2: 100(1620237319),
+|     3: "Acorn",
+|     4: "Coffee money"
+| }
 ```
 Using the `Bytewords-cli` you can convert the CBOR to minimal Bytewords:
 ```
-$ bytewords -i hex -o minimal a4015059f2293a5bce7d4de59e71b4207ac5d202D8641A6092DC07036541636F726E046C436F66666565206D6F6E6579
-oxadgdhkwzdtfthptokigtvwnnjsqzcxknsktdaotpiecyhnmouoataxihfpiajljpjtaajzfxjliyiyihihcxjnjljtihkkpseernwl
+bytewords -i hex -o minimal a4015059f2293a5bce7d4de59e71b4207ac5d202D8641A6092DC07036541636F726E046C436F66666565206D6F6E6579
+
+| oxadgdhkwzdtfthptokigtvwnnjsqzcxknsktdaotpiecyhnmouoataxihfpiajljpjtaajzfxjliyiyihihcxjnjljtihkkpseernwl
 ```
 And you have a `ur:seed`:
 ```
@@ -252,14 +256,15 @@ Besides the seed, a name, and a long note, this Envelope also contains an output
 You can directly compare that CBOR dump to the dump of the `ur:seed` above, but if you want even a clearer description of your `ur:envelope`, all you need to do is examine it in [bc-envelope-cli-rust](https://github.com/BlockchainCommons/bc-envelope-cli-rust):
 
 ```
-$ envelope format ur:envelope/lntpsogdhkwzdtfthptokigtvwnnjsqzcxknsktdoyadcsspoybdtpsokseceheyetdpidinjycxguihihiecxgdkpidjziniacxghihjkjycxhfihiajyjljpcxdehkinjtjnjtcxfwjzkpihdtcxendyeeideseoiyeyoyaatpsokkadwdghisinjkcxinjkcxjyisihcxeheyetdpidinjycxdeeyeecxktjljpiedtcxjkihihiecxkpjkihiecxhsjkcxhscxjokpidjziniacxjpihiojpihjkjkinjljtcxjyihjkjycxkoihiajyjljpcxiyjljpcxgogmjkdwcxfljljpieinhsjtcxguihihiecxghjljljzdwcxhsjtiecxjkihihiejyjljljzdpiajzindmbkbkghisinjkcxjkihihiecxhsjtiecxhsjzjzcxjeihkkjkcxioihjtihjphsjyihiecxiyjpjljncxinjycxjkisjlkpjziecxidihcxiajljtjkinieihjpihiecxkpjtjkihiakpjpihcxhsjkcxjyisinjkcxjeihkkcxjnhsjyihjpinhsjzcxinjkcxidihinjtiocxjkishsjpihiecxjokpidjziniajzkkcxhsjkcxhscxjyihjkjycxkoihiajyjljpdmbkbkfpjzjkjlcxjejtjlktjtcxhsjkcxfygdfpgscxdpcxvolansfyhsjpjecxgdkpjpjojzihcxfpjskphscxgsjlkoihvolantcxhsjkcxhsjtcxjljziecxkoihjpjkinjljtcxjliycxgsiniyihfdhsjkiscxishsiecxjyishsjycxiajljzjljpdmbkbkfwinjyiajlinjtcxgthsjkjyihjpcxgrihkkcxfginjtioihjpjojpinjtjyftcxendyeeideseoiyeybkfejyisihjpihkpjncxfpiaiajlkpjtjycxcndycxfpieiejpihjkjkcxhpjndleeeedidlendyvolanldldyvolanldldydldyhlftcxdyksececemeceyeciedyeeeoeneceniheseoetecfyetfefgfpfpesfxieeehseohsihfpiefedyehehenetbkoycfadzttpsotantjyoeadjsktjkisdeiajljkiniojtihjpdefzdydtdtaolytantjlonaxhdclaohldlmdrtlacxhnfpptplfyltwelafsnezslyndhllnvdimmwlpylkbwzjltbdmenaahdcxlejtimcnrlbtdemdoereyaqzprkpndbdgwfzflqdbzkohgzobycxcnvabaosbglfamtantjooeadlocsdyykaeykaeykaoykaocyhngrmuwzattantjooyadlslraewkadwklawkaycynewncnlboybetpsosezofptpbtlnlyjzkefmjejldeny
-Bytes(16) [
-    'isA': 'Seed'
-    '508': 40308({1: "wsh(cosigner(@0))", 2: [40303({3: h'025d2f95c080206041a9ae4487ed803d9ffa819b5d86e76a9485f77ef26fd62e36', 4: h'8a6e6a23b70d2895a2b5f8b4b2759b0b4f4047b3157657fb112023e60ea71282', 6: 40304({1: [48, true, 0, true, 0, true, 2, true], 2: 1615565810}), 7: 40304({1: [[0, false, 1, false], [], false]}), 8: 2683380607})]})
-    'date': 2021-02-24T09:19:01Z
-    'name': "128-bit Seed Public Test Vector (Yinmn Blue) 604b93f2"
-    'note': "This is the 128-bit (24 word) seed used as a public regression test vector for URs, Gordian Seed Tool, and seedtool-cli.\n\nThis seed and all keys generated from it should be considered unsecure as this key material is being shared publicly as a test vector.\n\nAlso known as DPAL - “Dark Purple Aqua Love” as an old version of LifeHash had that color.\n\nBitcoin Master Key Fingerprint: 604b93f2\nEthereum Account #0 Address [m/44'/60’/0’/0/0]: 0x557525d043656e9385D8EFAA9Cd4a3aeAdE01168\n"
-]
+envelope format ur:envelope/lntpsogdhkwzdtfthptokigtvwnnjsqzcxknsktdoyadcsspoybdtpsokseceheyetdpidinjycxguihihiecxgdkpidjziniacxghihjkjycxhfihiajyjljpcxdehkinjtjnjtcxfwjzkpihdtcxendyeeideseoiyeyoyaatpsokkadwdghisinjkcxinjkcxjyisihcxeheyetdpidinjycxdeeyeecxktjljpiedtcxjkihihiecxkpjkihiecxhsjkcxhscxjokpidjziniacxjpihiojpihjkjkinjljtcxjyihjkjycxkoihiajyjljpcxiyjljpcxgogmjkdwcxfljljpieinhsjtcxguihihiecxghjljljzdwcxhsjtiecxjkihihiejyjljljzdpiajzindmbkbkghisinjkcxjkihihiecxhsjtiecxhsjzjzcxjeihkkjkcxioihjtihjphsjyihiecxiyjpjljncxinjycxjkisjlkpjziecxidihcxiajljtjkinieihjpihiecxkpjtjkihiakpjpihcxhsjkcxjyisinjkcxjeihkkcxjnhsjyihjpinhsjzcxinjkcxidihinjtiocxjkishsjpihiecxjokpidjziniajzkkcxhsjkcxhscxjyihjkjycxkoihiajyjljpdmbkbkfpjzjkjlcxjejtjlktjtcxhsjkcxfygdfpgscxdpcxvolansfyhsjpjecxgdkpjpjojzihcxfpjskphscxgsjlkoihvolantcxhsjkcxhsjtcxjljziecxkoihjpjkinjljtcxjliycxgsiniyihfdhsjkiscxishsiecxjyishsjycxiajljzjljpdmbkbkfwinjyiajlinjtcxgthsjkjyihjpcxgrihkkcxfginjtioihjpjojpinjtjyftcxendyeeideseoiyeybkfejyisihjpihkpjncxfpiaiajlkpjtjycxcndycxfpieiejpihjkjkcxhpjndleeeedidlendyvolanldldyvolanldldydldyhlftcxdyksececemeceyeciedyeeeoeneceniheseoetecfyetfefgfpfpesfxieeehseohsihfpiefedyehehenetbkoycfadzttpsotantjyoeadjsktjkisdeiajljkiniojtihjpdefzdydtdtaolytantjlonaxhdclaohldlmdrtlacxhnfpptplfyltwelafsnezslyndhllnvdimmwlpylkbwzjltbdmenaahdcxlejtimcnrlbtdemdoereyaqzprkpndbdgwfzflqdbzkohgzobycxcnvabaosbglfamtantjooeadlocsdyykaeykaeykaoykaocyhngrmuwzattantjooyadlslraewkadwklawkaycynewncnlboybetpsosezofptpbtlnlyjzkefmjejldeny
+
+| Bytes(16) [
+|     'isA': 'Seed'
+|     '508': 40308({1: "wsh(cosigner(@0))", 2: [40303({3: h'025d2f95c080206041a9ae4487ed803d9ffa819b5d86e76a9485f77ef26fd62e36', 4: h'8a6e6a23b70d2895a2b5f8b4b2759b0b4f4047b3157657fb112023e60ea71282', 6: 40304({1: [48, true, 0, true, 0, true, 2, true], 2: 1615565810}), 7: 40304({1: [[0, false, 1, false], [], false]}), 8: 2683380607})]})
+|     'date': 2021-02-24T09:19:01Z
+|     'name': "128-bit Seed Public Test Vector (Yinmn Blue) 604b93f2"
+|     'note': "This is the 128-bit (24 word) seed used as a public regression test vector for URs, Gordian Seed Tool, and seedtool-cli.\n\nThis seed and all keys generated from it should be considered unsecure as this key material is being shared publicly as a test vector.\n\nAlso known as DPAL - “Dark Purple Aqua Love” as an old version of LifeHash had that color.\n\nBitcoin Master Key Fingerprint: 604b93f2\nEthereum Account #0 Address [m/44'/60’/0’/0/0]: 0x557525d043656e9385D8EFAA9Cd4a3aeAdE01168\n"
+| ]
 ```
 
 ## Mnemonic Seed Words: Deprecated
@@ -306,19 +311,20 @@ A401F502F50358210046F8A7A92FC3CA4FD4CBF3CB5BACDE4356CE790E2CD6BC206EA2574EF89913
 ```
 This decodes as follows:
 ```
-$ cbor2diag -x A401F502F50358210046F8A7A92FC3CA4FD4CBF3CB5BACDE4356CE790E2CD6BC206EA2574EF8991318045820B40359EB975B5E662298DB589F75ED694B17755ABBD0A230C24FFB8AC2BE66FD
-{
-    1: true,
-    2: true,
-    3: h'0046f8a7a92fc3ca4fd4cbf3cb5bacde4356ce790e2cd6bc206ea2574ef8991318',
-    4: h'b40359eb975b5e662298db589f75ed694b17755abbd0a230c24ffb8ac2be66fd'
+cbor2diag -x A401F502F50358210046F8A7A92FC3CA4FD4CBF3CB5BACDE4356CE790E2CD6BC206EA2574EF8991318045820B40359EB975B5E662298DB589F75ED694B17755ABBD0A230C24FFB8AC2BE66FD
 
-}
+| {
+|     1: true,
+|     2: true,
+|     3: h'0046f8a7a92fc3ca4fd4cbf3cb5bacde4356ce790e2cd6bc206ea2574ef8991318',
+|     4: h'b40359eb975b5e662298db589f75ed694b17755abbd0a230c24ffb8ac2be66fd'
+| }
 ```
 As usual, converting to Bytewords then allows for the creation of the UR:
 ```
-$ bytewords -i hex -o minimal A401F502F50358210046F8A7A92FC3CA4FD4CBF3CB5BACDE4356CE790E2CD6BC206EA2574EF8991318045820B40359EB975B5E662298DB589F75ED694B17755ABBD0A230C24FFB8AC2BE66FD
-oxadykaoykaxhdclaefgyaosptdlsrsggwtysbwfsbhppsuefxhftokkbadwtbrfcxjtoehgglyanlbwcsaahdcxqzaxhkwmmshphyiycpmkuyhdnekpweingrchkphtrktioedysagwzolesarniyzcrhdntkbb
+bytewords -i hex -o minimal A401F502F50358210046F8A7A92FC3CA4FD4CBF3CB5BACDE4356CE790E2CD6BC206EA2574EF8991318045820B40359EB975B5E662298DB589F75ED694B17755ABBD0A230C24FFB8AC2BE66FD
+
+| oxadykaoykaxhdclaefgyaosptdlsrsggwtysbwfsbhppsuefxhftokkbadwtbrfcxjtoehgglyanlbwcsaahdcxqzaxhkwmmshphyiycpmkuyhdnekpweingrchkphtrktioedysagwzolesarniyzcrhdntkbb
 ```
 The result is:
 ```
@@ -344,13 +350,14 @@ A5035821026FE2355745BB2DB3630BBC80EF5D58951C963C841F54170BA6E5C12BE7FC12A6045820
 Breaks down as follows:
 ```
 cbor2diag -x A5035821026FE2355745BB2DB3630BBC80EF5D58951C963C841F54170BA6E5C12BE7FC12A6045820CED155C72456255881793514EDC5BD9447E7F74ABB88C6D6B6480FD016EE8C8505D90131A1020106D90130A1018A182CF501F501F500F401F4081AE9181CF3
-{
-    3: h'026fe2355745bb2db3630bbc80ef5d58951c963c841f54170ba6e5c12be7fc12a6',
-    4: h'ced155c72456255881793514edc5bd9447e7f74abb88c6d6b6480fd016ee8c85',
-    5: 305({2: 1}),
-    6: 304({1: [44, true, 1, true, 1, true, 0, false, 1, false]}),
-    8: 3910671603
-}
+
+| {
+|     3: h'026fe2355745bb2db3630bbc80ef5d58951c963c841f54170ba6e5c12be7fc12a6',
+|     4: h'ced155c72456255881793514edc5bd9447e7f74abb88c6d6b6480fd016ee8c85',
+|     5: 305({2: 1}),
+|     6: 304({1: [44, true, 1, true, 1, true, 0, false, 1, false]}),
+|     8: 3910671603
+| }
 ```
 The `coininfo` element (#5) demonstrates use of the [coininfo CDDL](https://github.com/BlockchainCommons/Research/blob/master/papers/bcr-2020-007-hdkey.md#cddl-for-coin-info). Here, the network is set to testnet.
 
