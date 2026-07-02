@@ -135,7 +135,6 @@ The Developer Pages also contain the following, short tutorials that
 offer hands-on training for Blockchain Commons technologies:
 
 * [**Learning Envelope**](/envelope/cli/). A brief introduction to Gordian Envelope and a longer look at storing seeds.
-* [**Learning URs**](/ur/cli/). Details on how a variety of data types are stored as URs.
 
 ## ![](/assets/badges/smart-custody.png) Smart Custody
 
