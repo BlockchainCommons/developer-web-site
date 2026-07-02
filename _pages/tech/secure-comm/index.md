@@ -34,100 +34,112 @@ sidebar:
     </a>
   </div>
   <div class="hex21">
-    <a href="/animated-qrs/">
-      <img src="/assets/badges/animated-qr.png">
-    </a>
-  </div>
-  <div class="hex31">
-    <a href="/garner/">
-      <img src="/assets/badges/garner.png">
-    </a>
-  </div>
- <div class="hex41">
-    <a href="/hubert/">
-      <img src="/assets/badges/hubert.png">
-    </a>
-  </div>
-  <div class="hex51">
-    <a href="/lifehash/">
-      <img src="/assets/badges/lifehash.png">
-    </a>
-  </div>
-  <div class="hex61">
-    <a href="/oib/">
-      <img src="/assets/badges/oib.png">
-    </a>
-  </div>  
-  <div class="hex71">
     <a href="/torgap/">
       <img src="/assets/badges/torgap.png">
     </a>
   </div>
+  <div class="hex31">
+    <a href="/lifehash/">
+      <img src="/assets/badges/lifehash.png">
+    </a>
+  </div>
+  <div class="hex41">
+    <a href="/oib/">
+      <img src="/assets/badges/oib.png">
+    </a>
+  </div>  
+  <div class="hex51">
+    <a href="/animated-qrs/">
+      <img src="/assets/badges/animated-qr.png">
+    </a>
+  </div>
+  <div class="hex61">
+    <a href="/garner/">
+      <img src="/assets/badges/garner.png">
+    </a>
+  </div>
+ <div class="hex71">
+    <a href="/hubert/">
+      <img src="/assets/badges/hubert.png">
+    </a>
+  </div>
 </div>
 
-_The Blockchain Commons technology stack includes a stack of data formats. CBOR (and variant dCBOR) are fundamental binary data serialization formats. Bytewords encodes binary objects as four-letter English words. URs and MURs turn Bytewords into self-describing data objects. Known values encode ontological concepts as unsigned integers. Finally, Gordian Envelope builds on all of that to offer a self-describing, recursive, smart-document storage format._
+_Blockchain Commons offers technologies to support secure
+communication at a variety of levels. This includes architectural
+design (airgap, torgap), means for identifying assets as part of a
+communication method (lifehash, oib), and specific methods of
+communication (animated QRs, Garner, Hubert)._
 
-***Why?*** _Data formats are more than just wants to encode data. They also encode specific principles. Blockchain Commons' data formats embody the [Gordian principles](/principles/) in large part by ensuring that open (and interoperable) as well as resilient (and harder to confuse). They also strive to be deterministic on a variety of formats (which supports openness and interoperability) and efficient._
+***Why?*** _Communication is the backbone for securing assets. The use
+of standardized protocols is what ensures openness, while the design
+of secure methods is what ensures resilience. Man-in-the-middle,
+fradulent PSBTs, and use of misidentified assets are all ways that
+digital assets could be lost. The Blockchain Commons secure
+communication technologies seek to avoid these problems._
 
+## ![](/assets/badges/airgap.png) Airgap
 
-## ![](/assets/badges/bytewords.png) Bytewords
-
-Bytewords translates binary objects into a series of four-letter English words. They can be used to reliably record digital secrets, but they're also a building block that transforms CBOR into URs and MURs.
-
-For more see:
-
-* [**Bytewords**](/bytewords/)
-* [**BCR-2020-012**](https://github.com/BlockchainCommons/Research/blob/master/papers/bcr-2020-012-bytewords.md) (Research Repo)
-
-## ![](/assets/badges/cbor.png) CBOR
-
-CBOR is an IETF data format (RFC 8949) that we have adopted as the fundamental data representation for higher-level Blockchain Commons data formats such as Gordian Envelope and URs.
-
-For more see:
-
-* [**CBOR**](/cbor/)
-* [**RFC8949**](https://www.rfc-editor.org/info/rfc8949/) (RFC Editor)
-
-## ![](/assets/badges/dcbor.png) dCBOR
-
-dCBOR stands for Deterministic CBOR. It's our own variant of CBOR that always encodes the same on any platform. It's a necessary building block for using CBOR as the foundation of a deterministic storage system like Gordian Envelope.
+**Architectural.** Airgaps allow users to keep assets on physically separate devices.
 
 For more see:
 
-* [**dCBOR**](/dcbor/)
-* [**draft-mcnally-deterministic-cbor Internet-Draft**](https://datatracker.ietf.org/doc/draft-mcnally-deterministic-cbor/) (Data Tracker)
+* [**Airgap**](/airgap/)
 
-## ![](/assets/badges/envelope.png) Gordian Envelope
+## ![](/assets/badges/torgap.png) Torgap
 
-Envelope is the culmination of many of Blockchain Commons' other data formats. It's build on dCBOR and can be encoded as a UR. It's goal is to provide "smart document" storage. Arbitrary, recursive data storage is permitted, and anything can be encrypted or elided without damaging signatures.
+**Architectural.** Torgaps ensure that connections between apps and
+  services are protected with Tor.
 
 For more see:
 
-* [**Envelope**](/envelope/)
+* [**Torgap**](/torgap/)
+
+## ![](/assets/badges/lifehash.png) Lifehash
+
+**Identification.** One of the biggest dangers in dealing with digital
+assets is that they're identified by huge numbers that aren't
+meaningful to the average user. Lifehash uses a visual hash to provide
+more meaningful identification when communicating about assets.
+
+For more see:
+
+* [**Lifehash**](/lifehash/)
+
+## ![](/assets/badges/oib.png) Object Identity Block
+
+**Identification.** A Lifehash is a part of the larger Object Identity
+Block (OIB), which provides additional hints to help identify a digital asset.
+
+For more see:
+
+* [**OIB**](/oib/)
 * [**draft-mcnally-envelope Internet-Draft**](https://datatracker.ietf.org/doc/draft-mcnally-envelope/) (Data Tracker)
 
-## ![](/assets/badges/known-values.png) Known Values
+## ![](/assets/badges/animated-qr.png) Animated QRs
 
-Known Values correlate ontological concepts to integer values, allowing for efficient and standardized recording of common, repeated concepts.
-
-For more see:
-
-* [**Known Values**](/known-value/)
-* [**BCR-2023-002**](https://github.com/BlockchainCommons/Research/blob/master/papers/bcr-2023-002-known-value.md) (Research Repo)
-
-## ![](/assets/badges/ur.png) UR: Uniform Resources
-
-URs utilize a minimalistic form of Bytewords to efficiently record binary data as text in a way that's interoperable and self-describing.
+Animated QRs are a method to transfer information against Airgaps,
+using fragemented Uniform Resources encoded into QR frames.
 
 For more see:
 
-* [**URs**](/ur/)
-* [**BCR-2020-005**](https://github.com/BlockchainCommons/Research/blob/master/papers/bcr-2020-005-ur.md) (Research Repo)
-
-## ![](/assets/badges/mur.png) MUR: Multipart UR
-
-Multipart URs break URs into multiple pieces to allow for the transmission of smaller data sets, which is important when URs are used for communications as QR codes.
-
-* [**MURs**](/ur/mur/)
+* [**Animated QRs**](/animated-qrs/)
 * [**BCR-2024-001**](https://github.com/BlockchainCommons/Research/blob/master/papers/bcr-2024-001-multipart-ur.md) (Research Repo)
+
+## ![](/assets/badges/garner.png) Garner: Tor Onion Service
+
+Garner uses Tor as a communication method for transmitting self-sovereign identity documents.
+
+For more see:
+
+* [**Garner**](/garner/)
+
+## ![](/assets/badges/hubert.png) Hubert: Dead-Drop Hub
+
+Hubert uses decentralized storage to allow for dead-drop-like
+communication of protocols such as FROST.
+
+* [**Hubert**](/hubert/)
+* [**BCR-2025-006**](https://github.com/BlockchainCommons/Research/blob/master/papers/bcr-2025-006-hubert.md) (Research Repo)
+
 
