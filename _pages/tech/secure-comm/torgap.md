@@ -3,15 +3,20 @@ cover: false
 header:
   overlay_color: "#000"
   overlay_filter: "0.25"
-  overlay_image: /assets/images/dev-arch-background.jpg
+  overlay_image: /assets/headers/tech-securecomm.jpg
   og_image: /assets/images/bc-card.jpg
 title: Torgaps
+tagline: Security through Privacy
 hide_description: true
 classes:
   - wide
 permalink: /torgap/
+redirect_from:
+    - /torgaps/
 sidebar:
-  nav: architecture
+  nav:
+    - securecomm
+    - technology
 ---
 
 ![](/assets/images/torgap-screen.jpg)
