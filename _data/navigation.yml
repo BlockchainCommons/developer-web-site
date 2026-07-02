@@ -186,6 +186,27 @@ envelopeuse:
       url: https://github.com/BlockchainCommons/developer-web-site/blob/master/_pages/tech/data-format/envelope-usecases-assets.md
     - title: "Software Release Use Cases"
       url: https://github.com/BlockchainCommons/developer-web-site/blob/master/_pages/tech/data-format/envelope-usecases-software.md
+ur:
+  - title: Uniform Resources
+    children:
+    - title: "Intro to URs"
+      url: /ur/
+    - title: "UR FAQs"
+      url: /ur/faq/
+    - title: "Envelope URs"
+      url: /ur/envelope/
+    - title: "Key & Seed URs"
+      url: /ur/keys/
+    - title: "PSBT URs"
+      url: /ur/psbts/
+    - title: "SSKR URs"
+      url: /ur/sskr/
+    - title: "Seed Test Vectors"
+      url: /ur/vectors/seeds
+    - title: "UR Implementations"
+      url: /ur/implementations/
+    - title: "UR Playground"
+      url: /ur/playground/
 architecture:
   - title: Gordian Architecture
     children:
@@ -398,29 +419,6 @@ sskr:
       url: /sskr/use-cases/cold/
     - title: "Return to Crypto Stack"
       url: /crypto-stack/
-ur:
-  - title: Uniform Resources
-    children:
-    - title: "Intro to URs"
-      url: /ur/
-    - title: "UR FAQs"
-      url: /ur/faq/
-    - title: "URs for Envelopes"
-      url: /ur/envelope/
-    - title: "URs for Keys"
-      url: /ur/keys/
-    - title: "crypto-seed Vectors"
-      url: /ur/vectors/seeds
-    - title: "URs for PSBTs"
-      url: /ur/psbts/
-    - title: "URs for SSKR"
-      url: /ur/sskr/
-    - title: "UR Implementations"
-      url: /ur/implementations/
-    - title: "UR Playground"
-      url: /ur/playground/
-    - title: "Return to UX Stack"
-      url: /ux-stack/
 xid:
   - title: Extensible Identifiers
     children:
