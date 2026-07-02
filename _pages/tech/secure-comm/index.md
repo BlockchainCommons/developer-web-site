@@ -127,7 +127,7 @@ For more see:
 
 ## ![](/assets/badges/garner.png) Garner: Tor Onion Service
 
-** Comm Method.** Garner uses Tor as a communication method for transmitting self-sovereign identity documents.
+**Comm Method.** Garner uses Tor as a communication method for transmitting self-sovereign identity documents.
 
 For more see:
 
