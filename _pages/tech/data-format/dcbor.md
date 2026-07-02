@@ -92,8 +92,8 @@ follow the specifications laid out in this Draft.
 
 **Intro:**
 
-* [Why CBOR?](https://www.blockchaincommons.com/introduction/Why-CBOR/) (blog article)
 * [dCBOR Goes to IETF](https://www.blockchaincommons.com/specifications/dCBOR-IETF/) (blog article)
+* [CBOR](/cbor/)
 
 **Developer Resources:**
 
