@@ -6,6 +6,7 @@ header:
   overlay_image: /assets/headers/tech-dataformat.jpg
   og_image: /assets/images/bc-card.jpg
 title: Deterministic CBOR (dCBOR)
+tagline: Canonical CBOR Encoding
 hide_description: true
 classes:
   - wide
