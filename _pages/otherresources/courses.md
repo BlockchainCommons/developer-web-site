@@ -13,8 +13,8 @@ classes:
 permalink: /courses/
 sidebar:
   nav:
-    - resources
     - courses
+    - resources
 ---
 
 <div class="hexline hexgrid71">
