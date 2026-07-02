@@ -13,8 +13,8 @@ classes:
 permalink: /meetings/
 sidebar:
   nav:
-    - resources
     - meetings
+    - resources
 ---
 
 
