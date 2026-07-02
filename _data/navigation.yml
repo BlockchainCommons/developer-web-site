@@ -226,6 +226,32 @@ securecomm:
       url: /oib/
     - title: "Torgaps"
       url: /torgap/
+lifehash:
+  - title: LifeHash
+    children:
+    - title: "Intro to LifeHash"
+      url: /lifehash/
+    - title: "LifeHash FAQs"
+      url: /lifehash/faq/
+    - title: "Version Overview"
+      url: /lifehash/versions/
+    - title: "Creating Digests"
+      url: /lifehash/creation/
+    - title: "Best Practices"
+      url: /lifehash/best-practices/
+    - title: "Test Vectors"
+      url: /lifehash/vectors/
+    - title: "Use Cases"
+      url: /lifehash/use-cases/
+oib:
+  - title: OIB
+    children:
+    - title: "Intro to OIB"
+      url: /oib/
+    - title: "Best Practices"
+      url: /oib/best-practices/
+    - title: "Test Vectors"
+      url: /oib/vectors/
 architecture:
   - title: Gordian Architecture
     children:
@@ -377,25 +403,6 @@ frost:
       url: /musig/
     - title: "Return to Crypto Stack"
       url: /crypto-stack/
-lifehash:
-  - title: LifeHash
-    children:
-    - title: "Intro to LifeHash"
-      url: /lifehash/
-    - title: "LifeHash FAQ"
-      url: /lifehash/faq/
-    - title: "Creating Digests"
-      url: /lifehash/creation/
-    - title: "Best Practices"
-      url: /lifehash/best-practices/
-    - title: "Versions"
-      url: /lifehash/versions/
-    - title: "Test Vectors"
-      url: /lifehash/vectors/
-    - title: "Use Cases"
-      url: /lifehash/use-cases/
-    - title: "Return to UX Stack"
-      url: /ux-stack/
 musig:
   - title: MuSig 2
     children:
@@ -405,17 +412,6 @@ musig:
       url: /frost/
     - title: "Return to Crypto Stack"
       url: /crypto-stack/
-oib:
-  - title: OIB
-    children:
-    - title: "Intro to OIB"
-      url: /oib/
-    - title: "Best Practices"
-      url: /oib/best-practices/
-    - title: "Test Vectors"
-      url: /oib/vectors/
-    - title: "Return to UX Stack"
-      url: /ux-stack/
 sskr:
   - title: SSKR
     children:
