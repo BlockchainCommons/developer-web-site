@@ -207,6 +207,23 @@ ur:
       url: /ur/implementations/
     - title: "UR Playground"
       url: /ur/playground/
+securecomm:
+  - title: Secure Comm
+    children:
+    - title: "Airgaps"
+      url: /airgap/
+    - title: "Animated QRs"
+      url: /animated-qrs/
+    - title: "Garner"
+      url: /garner/
+    - title: "Hubert"
+      url: /hubert/
+    - title: "Lifehash"
+      url: /lifehash/
+    - title: "Object Identity Block"
+      url: /oib/
+    - title: "Torgaps"
+      url: /torgap/
 architecture:
   - title: Gordian Architecture
     children:
