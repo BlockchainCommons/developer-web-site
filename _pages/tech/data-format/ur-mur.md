@@ -21,7 +21,7 @@ redirect_from:
 ---
 
 <div class="hexline hexgrid71">
-  <div class="hex11 opaqued">
+  <div class="hex11">
     <a href="/bytewords/">
       <img src="/assets/badges/bytewords.png">
     </a>
