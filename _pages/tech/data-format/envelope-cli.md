@@ -38,7 +38,7 @@ parts selectively revealed while keeping other parts private.
 
 Gordian Envelopes use a structure similar to sentences in natural language:
 
-```
+```sh
 <SUBJECT> [
    <PREDICATE>: <OBJECT>
    <PREDICATE>: <OBJECT>
@@ -47,7 +47,7 @@ Gordian Envelopes use a structure similar to sentences in natural language:
 ```
 
 For example:
-```
+```sh
 "BRadvoc8" [
    "name": "BRadvoc8"
    "domain": "Distributed Systems & Security"
@@ -68,27 +68,31 @@ human-readable and machine-processable.
 You can make various types of assertions within an Envelope:
 
 1. **String assertions**: Simple text values
-   ```
-   "name": "BRadvoc8"
-   ```
+
+```sh
+"name": "BRadvoc8"
+```
 
 2. **Structured data assertions**: Complex data types
-   ```
-   "location": {
-      "latitude": 47.6062
-      "longitude": -122.3321
-   }
-   ```
+
+```sh
+"location": {
+   "latitude": 47.6062
+   "longitude": -122.3321
+}
+```
 
 3. **Nested envelope assertions**: Envelopes within envelopes
-   ```
-   "project": ProjectEnvelope [...]
-   ```
+
+```sh
+"project": ProjectEnvelope [...]
+```
 
 4. **Cryptographic assertions**: Digests, signatures, etc.
-   ```
-   "documentHash": SHA256(a7f3ec...)
-   ```
+
+```sh
+"documentHash": SHA256(a7f3ec...)
+```
 
 Anything can be held in an Envelope, from small declarations to large
 sets of data.
@@ -135,7 +139,7 @@ subject.
 
 As a result, the following is usually not what's intended:
 
-```
+```sh
 "BRadvoc8" [
    "name": "BRadvoc8"
    "domain": "Distributed Systems & Security"
@@ -162,18 +166,20 @@ ENVELOPE=$(envelope assertion add pred-obj string "experienceLevel" string "8 ye
 ```
 
 Then, wrap the envelope before signing
-```
+
+```sh
 WRAPPED_ENVELOPE=$(envelope subject type wrapped "$ENVELOPE")
 ```
 
 Finally, sign the wrapped envelope
-```
+
+```sh
 SIGNED_ENVELOPE=$(envelope sign -s "$PRIVATE_KEYS" "$WRAPPED_ENVELOPE")
 ```
 
 This creates a structure where the signature applies to the entire original Envelope:
 
-```
+```sh
 envelope format $SIGNED_ENVELOPE
 
 | WRAPPED {
@@ -198,7 +204,7 @@ hidden through elision.
 
 For example, if you have a properly wrapped and signed envelope:
 
-```
+```sh
 WRAPPED {
    "BRadvoc8" [
       "name": "BRadvoc8"
@@ -212,7 +218,7 @@ WRAPPED {
 
 You can elide (remove) the `experienceLevel` assertion while maintaining the signature's validity:
 
-```
+```sh
 WRAPPED {
    "BRadvoc8" [
       "name": "BRadvoc8"
