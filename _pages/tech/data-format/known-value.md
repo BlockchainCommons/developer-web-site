@@ -2,23 +2,71 @@
 cover: false
 header:
   overlay_color: "#000"
-  overlay_filter: "0.25"
-  overlay_image: /assets/images/dev-data-background.jpg
+  overlay_filter: "0.35"
+  overlay_image: /assets/headers/tech-dataformat.jpg
   og_image: /assets/images/bc-card.jpg
 title: Known Values
+tagline: Integers for Ontological Concepts
 hide_description: true
 classes:
   - wide
 permalink: /known-values/
 sidebar:
-  nav: envelope
+  nav:
+    - envelope
+    - dataformat
+    - technology
 redirect_from:
   - /known-value/
+  - /knownvalue/
+  - /knownvalues/
 ---
 
-## Overview
 
-Known Values are numbers drawn from a standardized namespace of 64-bit unsigned integers that represent ontological concepts, potentially across many vocabularies. Though they are used in [Gordian Envelope](/envelope/), they are available for use in any code that needs to represent concepts of this type.
+<div class="hexline hexgrid71">
+  <div class="hex11 opaqued">
+    <a href="/bytewords/">
+      <img src="/assets/badges/bytewords.png">
+    </a>
+  </div>
+  <div class="hex12top">
+    <a href="/data-formats/">
+      <img src="/assets/badges/cat-dataformat-half.png">
+    </a>
+  </div>
+  <div class="hex21 opaqued">
+    <a href="/cbor/">
+      <img src="/assets/badges/cbor.png">
+    </a>
+  </div>
+  <div class="hex31 opaqued">
+    <a href="/dcbor/">
+      <img src="/assets/badges/dcbor.png">
+    </a>
+  </div>
+ <div class="hex41 opaqued">
+    <a href="/envelope/">
+      <img src="/assets/badges/envelope.png">
+    </a>
+  </div>
+  <div class="hex51 highlighted">
+    <a href="/known-values/">
+      <img src="/assets/badges/known-values.png">
+    </a>
+  </div>
+  <div class="hex61 opaqued">
+    <a href="/ur/">
+      <img src="/assets/badges/ur.png">
+    </a>
+  </div>  
+  <div class="hex71 opaqued">
+    <a href="/mur/">
+      <img src="/assets/badges/mur.png">
+    </a>
+  </div>
+</div>
+
+_Known Values are numbers drawn from a standardized namespace of 64-bit unsigned integers that represent ontological concepts, potentially across many vocabularies. Though they are used in [Gordian Envelope](/envelope/), they are available for use in any code that needs to represent concepts of this type._
 
 ## Why Are Known Values Important?
 
