@@ -17,8 +17,8 @@ redirect_from:
     - /data-formats/
 sidebar:
   nav:
-    - technology
     - dataformat
+    - technology
 ---
 
 
