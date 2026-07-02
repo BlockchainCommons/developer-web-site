@@ -188,22 +188,26 @@ _See the [Gordian Envelope playlist](https://www.youtube.com/playlist?list=PLCkr
 * [**Executive Summary**](/envelope/summary/)
 * [**Technical Overview**](/envelope/tech/)
 * [**Feature List**](/envelope/features/)
-* [**Hashed Elision Overview**](/hashed-elision/)
 * [**IETF Problem Statement: Deterministic Hashed Data Elision**](https://datatracker.ietf.org/doc/draft-appelcline-hashed-elision/) (IETF)
 
 **Extension Intros:**
 
 * [**ESC**](/envelope/esc/)
 * [**GSTP**](/envelope/gstp/)
+* [**Hashed Elision**](/hashed-elision/)
 * [**Known Values**](/known-values/)
 * [**Permits**](/envelope/permits/)
 * [**Request/Response**](/envelope/request/)
-* [**Seeds**](/envelope/seeds/)
 
 **Industry Intros:**
 
 * [**The Dangers of Digital Credentials in Education**](https://www.blockchaincommons.com/articles/Dangerous-Educational-Credentials/) (blog article)
 * [**Protecting Your Wellness Data with Hashed Elision**](https://www.blockchaincommons.com/articles/Dangerous-Wellness-Data/) (blog article)
+
+**Learning Envelope from the Command Line:**
+
+* [**Learning Envelope**](/envelope/cli/)
+* [**Learning Seeds**](/envelope/cli/seeds/)
 
 **Developer Resources:**
 
