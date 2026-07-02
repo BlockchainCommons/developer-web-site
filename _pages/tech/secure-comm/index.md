@@ -29,7 +29,7 @@ sidebar:
     </a>
   </div>
   <div class="hex12top highlighted">
-    <a href="/data-formats/">
+    <a href="/secure-comm/">
       <img src="/assets/badges/cat-comm-half.png">
     </a>
   </div>
