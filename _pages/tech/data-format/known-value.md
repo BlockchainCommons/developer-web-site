@@ -44,7 +44,7 @@ redirect_from:
       <img src="/assets/badges/dcbor.png">
     </a>
   </div>
- <div class="hex41 opaqued">
+ <div class="hex41">
     <a href="/envelope/">
       <img src="/assets/badges/envelope.png">
     </a>
