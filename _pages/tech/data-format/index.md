@@ -114,3 +114,20 @@ For more see:
 
 * [**Known Values**](/known-value/)
 * [**BCR-2023-002**](https://github.com/BlockchainCommons/Research/blob/master/papers/bcr-2023-002-known-value.md)
+
+## ![](/assets/badges/ur.png) UR: Uniform Resources
+
+URs utilize a minimalistic form of Bytewords to efficiently record binary data as text in a way that's interoperable and self-describing.
+
+For more see:
+
+* [**URs**](/ur/)
+* [**BCR-2020-005**](https://github.com/BlockchainCommons/Research/blob/master/papers/bcr-2020-005-ur.md)
+
+## ![](/assets/badges/mur.png) MUR: Multipart UR
+
+Multipart URs break URs into multiple pieces to allow for the transmission of smaller data sets, which is important when URs are used for communications as QR codes.
+
+* [**MURs**](/ur/mur/)
+* [**BCR-2024-001**](https://github.com/BlockchainCommons/Research/blob/master/papers/bcr-2024-001-multipart-ur.md)
+
