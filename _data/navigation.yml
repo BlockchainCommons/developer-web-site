@@ -89,6 +89,34 @@ meetings:
       url: https://www.siliconsalon.info/salons/
     - title: "ZeWIF Meetings"
       url: /chains/zcash/zewif/#meetings 
+technology:
+  - title: BC Technologies
+    children:
+    - title: "Technology Home"
+      url: /technology/
+    - title: "Data Formats"
+      url: /dataformat/
+    - title: "Specifications"
+      url: https://github.com/BlockchainCommons/research/#contents
+    - title: Return to Main
+      url: /
+dataformat:
+  - title: Courses
+    children:
+    - title: "Bytewords"
+      url: /bytewords/
+    - title: "CBOR"
+      url: /cbor/
+    - title: "dCBOR"
+      url: /dcbor/
+    - title: "Gordian Envelope"
+      url: /envelope/
+    - title: "Known Values"
+      url: /known-values/
+    - title: "UR"
+      url: /ur/
+    - title: "MUR"
+      url: /ur/mur/
 architecture:
   - title: Gordian Architecture
     children:
