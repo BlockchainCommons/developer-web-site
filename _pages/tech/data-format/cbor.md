@@ -19,7 +19,7 @@ redirect_from:
 ---
 
 <div class="hexline hexgrid71">
-  <div class="hex11 highlighted">
+  <div class="hex11 opaqued">
     <a href="/bytewords/">
       <img src="/assets/badges/bytewords.png">
     </a>
@@ -29,7 +29,7 @@ redirect_from:
       <img src="/assets/badges/cat-dataformat-half.png">
     </a>
   </div>
-  <div class="hex21 opaqued">
+  <div class="hex21 highlighted">
     <a href="/cbor/">
       <img src="/assets/badges/cbor.png">
     </a>
