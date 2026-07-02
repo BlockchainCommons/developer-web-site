@@ -30,7 +30,7 @@ redirect_from:
       <img src="/assets/badges/cat-dataformat-half.png">
     </a>
   </div>
-  <div class="hex21 opaqued">
+  <div class="hex21">
     <a href="/cbor/">
       <img src="/assets/badges/cbor.png">
     </a>
