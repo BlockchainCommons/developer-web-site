@@ -19,14 +19,53 @@ redirect_from:
   - /cbor/overview/
 ---
 
-## Overview
+<div class="hexline hexgrid71">
+  <div class="hex11 opaqued">
+    <a href="/bytewords/">
+      <img src="/assets/badges/bytewords.png">
+    </a>
+  </div>
+  <div class="hex12top">
+    <a href="/data-formats/">
+      <img src="/assets/badges/cat-dataformat-half.png">
+    </a>
+  </div>
+  <div class="hex21 opaqued">
+    <a href="/cbor/">
+      <img src="/assets/badges/cbor.png">
+    </a>
+  </div>
+  <div class="hex31 highlighted">
+    <a href="/dcbor/">
+      <img src="/assets/badges/dcbor.png">
+    </a>
+  </div>
+ <div class="hex41 opaqued">
+    <a href="/envelope/">
+      <img src="/assets/badges/envelope.png">
+    </a>
+  </div>
+  <div class="hex51 opaqued">
+    <a href="/known-values/">
+      <img src="/assets/badges/known-values.png">
+    </a>
+  </div>
+  <div class="hex61 opaqued">
+    <a href="/ur/">
+      <img src="/assets/badges/ur.png">
+    </a>
+  </div>  
+  <div class="hex71 opaqued">
+    <a href="/mur/">
+      <img src="/assets/badges/mur.png">
+    </a>
+  </div>
+</div>
 
-<a href="/core-stack/"><img src="https://developer.blockchaincommons.com/assets/images/bc-stack-core-dcbor.png" style="float: right; margin-left: 20px;" width="25%"></a>
-
-dCBOR is deterministic CBOR, an application profile for CBOR as specified in [RFC
+_dCBOR is deterministic CBOR, an application profile for CBOR as specified in [RFC
 8949](https://www.rfc-editor.org/rfc/rfc8949.html#name-deterministically-encoded-c). dCBOR
 itself is specified in [an IETF
-Internet-Draft](https://datatracker.ietf.org/doc/draft-mcnally-deterministic-cbor/).
+Internet-Draft](https://datatracker.ietf.org/doc/draft-mcnally-deterministic-cbor/)._
 
 ## Why is dCBOR Important?
 
