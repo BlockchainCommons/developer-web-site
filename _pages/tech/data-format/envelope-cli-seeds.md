@@ -5,18 +5,28 @@ header:
   overlay_filter: "0.35"
   overlay_image: /assets/headers/tech-dataformat.jpg
   og_image: /assets/images/bc-card.jpg
-title: "Seeds in Envelope"
-tagline: "Learning Envelope from the CLI"
+title: "Learning Envelope Seeds from the Command Line"
 hide_description: true
 classes:
   - wide
-permalink: /envelope/seed/
+permalink: /envelope/cli/seed/
+redirect_from:
+    - /envelope/seed/
+    - /envelope/seeds/
+    - /envelope/cli/seeds/
 sidebar:
   nav:
+    - envelopecli
     - envelope
     - dataformat
     - technology
 ---
+
+_This is a hands-on command-line introduction to Gordian Envelope in the style of Blockchain Commons' [from the Command Line courses](/courses/). It makes use of the Rust-based [envelope-cli](https://github.com/BlockchainCommons/bc-envelope-cli-rust)._
+
+_The focus of this course is on seeds: it demonstrates how envelope can be used to securely and resiliently backup your cryptographic secrets._
+
+_Also see ["Learning Envelope from the Command Line"](/envelope/cli/) for basics such as assertions and signing._
 
 ## Overview
 
