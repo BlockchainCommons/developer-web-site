@@ -128,6 +128,8 @@ For more see:
 
 Multipart URs break URs into multiple pieces to allow for the transmission of smaller data sets, which is important when URs are used for communications as QR codes.
 
+For more see:
+
 * [**MURs**](/ur/mur/)
 * [**BCR-2024-001**](https://github.com/BlockchainCommons/Research/blob/master/papers/bcr-2024-001-multipart-ur.md) (Research Repo)
 
