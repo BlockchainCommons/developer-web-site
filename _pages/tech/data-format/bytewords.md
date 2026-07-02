@@ -17,12 +17,52 @@ sidebar:
     - technology
 ---
 
-## Overview
 
-<a href="/ux-stack"><img src="/assets/images/bc-stack-ux-bytewords.png" width="25%" style="float: right; margin-left: 20px;"></a>
+<div class="hexline hexgrid71">
+  <div class="hex11 highlighted">
+    <a href="/bytewords/">
+      <img src="/assets/badges/bytewords.png">
+    </a>
+  </div>
+  <div class="hex12top">
+    <a href="/data-formats/">
+      <img src="/assets/badges/cat-dataformat-half.png">
+    </a>
+  </div>
+  <div class="hex21 opaqued">
+    <a href="/cbor/">
+      <img src="/assets/badges/cbor.png">
+    </a>
+  </div>
+  <div class="hex31 opaqued">
+    <a href="/dcbor/">
+      <img src="/assets/badges/dcbor.png">
+    </a>
+  </div>
+ <div class="hex41 opaqued">
+    <a href="/envelope/">
+      <img src="/assets/badges/envelope.png">
+    </a>
+  </div>
+  <div class="hex51 opaqued">
+    <a href="/known-values/">
+      <img src="/assets/badges/known-values.png">
+    </a>
+  </div>
+  <div class="hex61 opaqued">
+    <a href="/ur/">
+      <img src="/assets/badges/ur.png">
+    </a>
+  </div>  
+  <div class="hex71 opaqued">
+    <a href="/mur/">
+      <img src="/assets/badges/mur.png">
+    </a>
+  </div>
+</div>
 
-Bytewords is a method for encoding binary objects as a sequence of
-four-letter English words.
+_Bytewords is a method for encoding binary objects as a sequence of
+four-letter English words._
 
 ## Why is Bytewords Important?
 
