@@ -282,8 +282,6 @@ envelope:
       url: /envelope/use-cases/
     - title: "Use Cases Listing"
       url: /envelope/use-cases/summary/
-    - title: "Return to Core Stack"
-      url: /core-stack/
   - title: Envelope Exensions
     children:
     - title: "Encrypted State Continuation"
