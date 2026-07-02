@@ -266,4 +266,10 @@ The [Learning XIDs from the Command Line course](https://learningxids.blockchain
 
 ## Next Steps
 
-You may also want to read ["Learning Envelope Seeds from the Command Line"](/envelope/seed/) for an in-depth example of using Envelope to store a specific sort of cryptographic object.
+You may also want to read ["Learning Envelope Seeds from the Command
+Line"](/envelope/seed/) for an in-depth example of using Envelope to
+store a specific sort of cryptographic object.
+
+## Download the Software
+
+* **Envelope CLI:** `cargo install bc-envelope-cli`

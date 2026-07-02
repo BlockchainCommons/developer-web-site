@@ -312,10 +312,10 @@ envelope format $SEED_E_W_ENCPUB
 
 ## What's Next
 
-* [**Gordian Envelope Developer's Page**](https://developer.blockchaincommons.com/envelope/)
-* [**Envelope-CLI Docs**](https://github.com/BlockchainCommons/bc-envelope-cli-rust/tree/master/docs#readme)
-* [**128-bit sample seed**](https://developer.blockchaincommons.com/seed-128/)
-* [**256-bit sample seed**](https://developer.blockchaincommons.com/seed-256/)
+* Back to [**Gordian Envelope Developer's Page**](https://developer.blockchaincommons.com/envelope/)
+* On to [**Envelope-CLI Docs**](https://github.com/BlockchainCommons/bc-envelope-cli-rust/tree/master/docs#readme)
+* Capture [**128-bit sample seed**](https://developer.blockchaincommons.com/seed-128/)
+* Capture [**256-bit sample seed**](https://developer.blockchaincommons.com/seed-256/)
 
 ## Download the Software
 
