@@ -67,7 +67,7 @@ _Our "From the Command Line" courses are intended to help developers understand 
 **Q:** _Why "From the Command Line?"_<br><br>**A:** Learning "from the command line" supports hands-on experience, or [experiential learning](https://en.wikipedia.org/wiki/Experiential_learning). It's a proven pedagogical approach that helps to solidify concepts and commit them to memory. In courses like "Learning Bitcoin" and "Learning FROST", it also allows for the examination of files and other outputs, so that you can dig as deep as you want on a topic. That's why our courses are written "from the command line," and why we suggest that you follow along on your own CLI.
 {: .notice--info}
 
-## Learning Bitcoin from the Command Line
+## ![](/assets/badges/learning-bitcoin.png) Learning Bitcoin from the Command Line
 
 <table width="100%" border="0">
   <tr>
@@ -86,7 +86,7 @@ Our original "Learning ... from the Command Line" course offers an entire curric
 * **Translations:** [Portuguese](https://github.com/BlockchainCommons/Learning-Bitcoin-from-the-Command-Line/tree/master/pt#readme), [Spanish](https://github.com/BlockchainCommons/Learning-Bitcoin-from-the-Command-Line/blob/master/es/README.md)
 * **Last Updated:** In Process
 
-## Learning FROST from the Command Line
+## ![](/assets/badges/learning-frost.png) Learning FROST from the Command Line
 
 <table width="100%" border="0">
   <tr>
@@ -107,7 +107,7 @@ Our "Learning FROST" explains what FROST is and why you'd want to use it for sig
 * **Online Course:** [learningfrost.blockchaincommons.com](https://learningfrost.blockchaincommons.com/)
 * **Last Updated:** 2025
 
-## Learning XIDs from the Command Line
+## ![](/assets/badges/learning-xids.png) Learning XIDs from the Command Line
 
 <table width="100%" border="0">
   <tr>
@@ -129,8 +129,15 @@ Our "Learning FROST" explains what FROST is and why you'd want to use it for sig
 * **Online Tutorial Playground:** [bcts Data Playground](https://bcts.dev/xid)
 * **Last Updated:** 2026
 
+## ![](/assets/badges/learning-generic.png) Minor CLI Tutorials
 
-## Smart Custody
+The Developer Pages also contain the following, short tutorials that
+offer hands-on training for Blockchain Commons technologies:
+
+* [**Learning Envelope**](/envelope/cli/). A brief introduction to Gordian Envelope and a longer look at storing seeds.
+* [**Learning URs**](/ur/cli/). Details on how a variety of data types are stored as URs.
+
+## ![](/assets/badges/smart-custody.png) Smart Custody
 
 <table width="100%" border="0">
   <tr>
