@@ -127,9 +127,9 @@ envelope:
     - title: "Feature Overview"
       url: /envelope/features/
     - title: "Technical Overview"
-      url: /envelope/tech/
-    - title: "CLI: Seeds"
-      url: /envelope/seed/      
+      url: /envelope/tech/      
+    - title: "Learning Envelope (CLI)"
+      url: /envelope/cli/      
     - title: "Use Cases Overview"
       url: /envelope/use-cases/
     - title: "Use Cases Listing"
@@ -148,9 +148,15 @@ envelope:
       url: /envelope/permits/  
     - title: "Request & Response"
       url: /envelope/request/
+envelopecli:
+  - title: "Envelope CLI"
+    children:
+    - title: "Learning Envelope"
+      url: /envelope/cli/
+    - title: "Learning Seeds"
+      url: /envelope/cli/seed/
 envelopegstp:
   - title: "GSTP"
-    children:
     children:
     - title: "Intro to GSTP"
       url: /envelope/gstp/
