@@ -2,8 +2,8 @@
 cover: false
 header:
   overlay_color: "#000"
-  overlay_filter: "0.25"
-  overlay_image: /assets/images/dev-data-background.jpg
+  overlay_filter: "0.35"
+  overlay_image: /assets/headers/tech-dataformat.jpg
   og_image: /assets/images/bc-card.jpg
 title: Deterministic CBOR (dCBOR)
 hide_description: true
@@ -11,7 +11,9 @@ classes:
   - wide
 permalink: /dcbor/
 sidebar:
-  nav: dcbor
+  nav:
+    - technology
+    - dataformat
 redirect_from:
   - /cbor/overview/
 ---
