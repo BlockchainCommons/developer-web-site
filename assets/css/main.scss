@@ -27,10 +27,8 @@ $max-width:90%;
 /* Hexes in Headers */
 
 h1.page__title img {
-  height: 100px;
-  position: absolute;
-  right: 20px;
-  top: 70px;
+  height: 50px;
+  margin-right: 10px;
   filter: drop-shadow(0 0 8px rgba(255, 255, 255, 0.5));
 }
 
