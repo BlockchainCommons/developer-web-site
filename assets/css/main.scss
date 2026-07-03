@@ -93,7 +93,7 @@ h2 img {
       width: 75px;
   }
 
-  .hex12top img {
+  .hex12top, .hex32top img {
       height: 30px !important;
   }
 
@@ -128,7 +128,7 @@ h2 img {
       width: 150px;
   }
 
-  .hex12top img {
+  .hex12top, .hex32top img {
       height: 60px !important;
   }
   
@@ -199,6 +199,12 @@ h2 img {
   grid-column: 5 / span 3; 
   grid-row:  3 / span 2;
 }
+
+.hex13top {
+  grid-column: 3 / span 3; 
+  grid-row:  3;
+}
+
 .hex33 {
   grid-column: 5 / span 3; 
   grid-row:  5 / span 2;
