@@ -26,13 +26,6 @@ $max-width:90%;
 
 /* Hexes in Headers */
 
-h1.page__title img {
-  height: 60px;
-  margin-right: 10px;
-  top: -4px;
-  filter: drop-shadow(0 0 8px rgba(255, 255, 255, 0.5));
-}
-
 h2 img {
   height: 35px;
   margin-right: 10px;
@@ -88,6 +81,13 @@ h2 img {
 
 @media (max-width:600px) {
 
+  h1.page__title img {
+    height: 40px;
+    margin-right: 10px;
+    top: -3px;
+    filter: drop-shadow(0 0 8px rgba(255, 255, 255, 0.5));
+  }
+
   .hexbox img, .hexline img {
       height: 60px;
       width: 75px;
@@ -114,6 +114,14 @@ h2 img {
 }
 
 @media (min-width:600px) {
+
+  h1.page__title img {
+    height: 70px;
+    margin-right: 10px;
+    top: -6px;
+    filter: drop-shadow(0 0 8px rgba(255, 255, 255, 0.5));
+  }
+
 
   .hexbox img, .hexline img {
       height: 120px;
