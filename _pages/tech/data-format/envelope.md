@@ -5,7 +5,7 @@ header:
   overlay_filter: "0.35"
   overlay_image: /assets/headers/tech-dataformat.jpg
   og_image: /assets/images/bc-card.jpg
-title: Gordian Envelope
+title: "<img src='/assets/badges/envelope.png'> Gordian Envelope"
 tagline: Smart Document Storage
 hide_description: true
 classes:
@@ -19,8 +19,6 @@ sidebar:
 redirect_from:
   - /envelope/overview/
 ---
-
-## Overview
 
 <div class="hexline hexgrid71">
   <div class="hex11 opaqued">
