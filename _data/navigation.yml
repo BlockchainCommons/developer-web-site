@@ -252,6 +252,15 @@ oib:
       url: /oib/best-practices/
     - title: "Test Vectors"
       url: /oib/vectors/
+signatures:
+  - title: Signatures
+    children:
+    - title: "FROST"
+      url: /frost/
+    - title: "MuSig2"
+      url: /musig/
+    - title: "Provenance Marks"
+      url: /provemark/
 architecture:
   - title: Gordian Architecture
     children:
