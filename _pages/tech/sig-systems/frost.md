@@ -2,10 +2,11 @@
 cover: false
 header:
   overlay_color: "#000"
-  overlay_filter: "0.25"
-  overlay_image: /assets/images/dev-frost-background.jpg
+  overlay_filter: "0.35"
+  overlay_image: /assets/headers/tech-sigsystem.jpg
   og_image: /assets/images/bc-card.jpg
-title: "Future Development: Flexible Round-Optimized Schnorr Threshold Signatures (FROST)"
+title: "Flexible Round-Optimized Schnorr Threshold Signatures (FROST)"
+tagline: "Schnorr Threshold Signatures"
 hide_description: true
 classes:
   - wide
@@ -13,26 +14,44 @@ permalink: /frost/
 sidebar:
   nav:
     - frost
-    - meetings
+    - signatures
+    - technology
 ---
 
 ## Overview
 
+<div class="hexline hexgrid71 highlighted">
+  <div class="hex31">
+    <a href="/frost/">
+      <img src="/assets/badges/frost.png">
+    </a>
+  </div>
+  <div class="hex32top">
+    <a href="/signatures/">
+      <img src="/assets/badges/cat-sig-half.png">
+    </a>
+  </div>
+  <div class="hex41">
+    <a href="/musig/">
+      <img src="/assets/badges/musig.png">
+    </a>
+  </div>  
+  <div class="hex51 opaqued">
+    <a href="/provemark/">
+      <img src="/assets/badges/provenance-marks.png">
+    </a>
+  </div>
+</div>
+
 {% include news-frost.md %}
 
-<a href="/crypto-stack/"><img src="https://developer.blockchaincommons.com/assets/images/bc-stack-crypto-frost.png" style="margin-left: 20px; float: right" width="25%"></a>
-
-FROST (Flexible Round-Optimized Schnorr Threshold Signatures) is a threshold signature scheme built on Schnorr signatures that allows for
+_FROST (Flexible Round-Optimized Schnorr Threshold Signatures) is a threshold signature scheme built on Schnorr signatures that allows for
 "T of N" signers, each of whom hold a share of a private key, to produce a valid signature for that private key. Because of its
 [foundation in Schnorr](https://www.blockchaincommons.com/musings/Schnorr-Intro/), it has several interesting characteristics, such as signature aggregation,
 where a set of signatures look exactly the same as a single signature. Beyond that, FROST improves on the fundamentals
-of Schnorr through improved network efficiency and protection against forgery attacks.
+of Schnorr through improved network efficiency and protection against forgery attacks._
 
-The aggregation used by Schnorr eliminates multisig bloat and Shamir reconstruction risks and enables threshold authorization of [Gordian Envelope](/envelope/), [XID-based credentials](/xid/), and [Gordian Clubs](/clubs/).
-
-## Upcoming Events
-
-_Our last FROST meeting for the year will be December 3, 2025. Sign up to our [Gordian Developers mailing list or Signal channel](https://www.blockchaincommons.com/subscribe/) to receive notification._
+_The aggregation used by Schnorr eliminates multisig bloat and Shamir reconstruction risks and enables threshold authorization of [Gordian Envelope](/envelope/), [XID-based credentials](/xid/), and [Gordian Clubs](/clubs/)._
 
 ## Why is FROST Important?
 
