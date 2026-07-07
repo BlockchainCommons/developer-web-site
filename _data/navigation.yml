@@ -261,6 +261,28 @@ signatures:
       url: /musig/
     - title: "Provenance Marks"
       url: /provemark/
+frost:
+  - title: FROST
+    children:
+    - title: "Intro to FROST"
+      url: /frost/
+    - title: "Implementers Round Table 1 (2023)"
+      url: /frost/meeting1/
+    - title: "Implementers Round Table 2 (2024)"
+      url: /frost/meeting2/
+    - title: "Developers Meeting 1 (early 2024)"
+      url: /frost/developers1/
+    - title: "Developers Meeting 2 (late 2024)"
+      url: /frost/developers2/
+    - title: "Go to MuSig"
+      url: /musig/
+musig:
+  - title: MuSig 2
+    children:
+    - title: "Sequence Diagram"
+      url: /musig/sequence/
+    - title: "Go to FROST"
+      url: /frost/
 architecture:
   - title: Gordian Architecture
     children:
@@ -395,32 +417,6 @@ dcbor:
       url: /dcbor/
     - title: "Return to Core Stack"
       url: /core-stack/
-frost:
-  - title: FROST
-    children:
-    - title: "Intro to FROST"
-      url: /frost/
-    - title: "Implementers Round Table 1 (2023)"
-      url: /frost/meeting1/
-    - title: "Implementers Round Table 2 (2024)"
-      url: /frost/meeting2/
-    - title: "Developers Meeting 1 (early 2024)"
-      url: /frost/developers1/
-    - title: "Developers Meeting 2 (late 2024)"
-      url: /frost/developers2/
-    - title: "Go to MuSig"
-      url: /musig/
-    - title: "Return to Crypto Stack"
-      url: /crypto-stack/
-musig:
-  - title: MuSig 2
-    children:
-    - title: "Sequence Diagram"
-      url: /musig/sequence/
-    - title: "Go to FROST"
-      url: /frost/
-    - title: "Return to Crypto Stack"
-      url: /crypto-stack/
 sskr:
   - title: SSKR
     children:
