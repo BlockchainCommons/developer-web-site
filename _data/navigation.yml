@@ -105,6 +105,8 @@ technology:
 dataformat:
   - title: Data Formats
     children:
+    - title: "Data Formats Home"
+      url: /data-format/
     - title: "Bytewords"
       url: /bytewords/
     - title: "CBOR"
@@ -119,8 +121,6 @@ dataformat:
       url: /ur/
     - title: "MUR"
       url: /ur/mur/
-    - title: "Return to Data Formats"
-      url: /data-format/
 envelope:
   - title: Gordian Envelope
     children:
@@ -214,6 +214,8 @@ ur:
 securecomm:
   - title: Secure Comm
     children:
+    - title: "Secure Comm Home"
+      url: /secure-comm/
     - title: "Airgaps"
       url: /airgap/
     - title: "Animated QRs"
@@ -228,8 +230,6 @@ securecomm:
       url: /oib/
     - title: "Torgaps"
       url: /torgap/
-    - title: "Return to Secure Comm"
-      url: /secure-comm/
 lifehash:
   - title: LifeHash
     children:
@@ -259,14 +259,14 @@ oib:
 signatures:
   - title: Signatures
     children:
+    - title: "Signatures Home"
+      url: /signatures/
     - title: "FROST"
       url: /frost/
     - title: "MuSig2"
       url: /musig/
     - title: "Provenance Marks"
       url: /provemark/
-    - title: "Return to Signatures"
-      url: /signatures/
 frost:
   - title: FROST
     children:
