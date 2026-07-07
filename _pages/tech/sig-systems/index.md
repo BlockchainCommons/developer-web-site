@@ -46,19 +46,19 @@ and therefore prove that the holder of a key agreed to
 something. They've traditionally been used for identity authentication
 and contract signing. But new threshold-based signature schemes such
 as FROST (and sometimes MuSig) go further and allow for thresholds of
-groups to make decisions, while Provenance Marks using sigantures to
+groups to make decisions, while Provenance Marks use sigantures to
 prove ordering._
 
 ***Why?*** _Obviously, being able to prove control of keys and
 identity is important. MuSig and FROST also offer much stronger
 security because they can sign for keys that don't currently exist in
 a single form (making them less prone to compromise, while the use of
-thresholds also makes them less prone to loss).
+thresholds also makes them less prone to loss)._
 
 ## ![](/assets/badges/frost.png) FROST
 
 **Threshold Signature.** FROST is a threshold signature system whose
-keys can be created by Distributed Key Generation that supports
+keys can be created by Distributed Key Generation. It supports
 increased privacy due to its signature aggregation power.
 
 For more see:
@@ -68,8 +68,8 @@ For more see:
 
 ## ![](/assets/badges/musig.png) MuSig2
 
-**Multi-Signature.** Musig is a multisig system that can be used for
-threshold signing with certain additional tools. Like FROST its
+**Multi-Signature.** Musig is a multisig system that can be also used for
+threshold signing with certain additional tools. Like FROST, its
 signatures are aggregatable, but it offers stronger ability to prove
 who signed (at the cost of privacy).
 
