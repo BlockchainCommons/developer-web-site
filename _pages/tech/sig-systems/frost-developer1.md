@@ -2,8 +2,8 @@
 cover: false
 header:
   overlay_color: "#000"
-  overlay_filter: "0.25"
-  overlay_image: /assets/images/dev-frost-background.jpg
+  overlay_filter: "0.35"
+  overlay_image: /assets/headers/tech-sigsystem.jpg
   og_image: /assets/images/bc-card.jpg
 title: "FROST Developers Meeting I: April 2024"
 tagline: "Gordian Developers Meeting with Jesse Posner on FROST"
@@ -13,8 +13,10 @@ classes:
 permalink: /frost/developers1/
 sidebar:
   nav:
-    - frost
     - meetings
+    - frost
+    - signatures
+    - technology
 ---
 The first meeting for FROST Developers included a key note by FROST implementer Jesse Posner. Jesse's presentation begins at 17m13s.
 

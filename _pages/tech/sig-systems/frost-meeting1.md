@@ -2,8 +2,8 @@
 cover: false
 header:
   overlay_color: "#000"
-  overlay_filter: "0.25"
-  overlay_image: /assets/images/dev-frost-background.jpg
+  overlay_filter: "0.35"
+  overlay_image: /assets/headers/tech-sigsystem.jpg
   og_image: /assets/images/bc-card.jpg
 title: "FROST Round Table I: November 2023"
 tagline: "Introducing the FROST Implementers"
@@ -13,8 +13,10 @@ classes:
 permalink: /frost/meeting1/
 sidebar:
   nav:
-    - frost
     - meetings
+    - frost
+    - signatures
+    - technology
 ---
 
 The first FROST Round Table occurred on **November 8, 2023**. Almost a dozen experts in the field, including the designers of the protocol, members of the [ZF Frost team](https://github.com/ZcashFoundation/frost), and members of the [secp-zkp FROST team](https://github.com/BlockstreamResearch/secp256k1-zkp/pull/138) came together to talk about their experience with FROST and answer questions about its usage.

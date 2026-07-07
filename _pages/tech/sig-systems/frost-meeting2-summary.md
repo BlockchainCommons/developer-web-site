@@ -2,8 +2,8 @@
 cover: false
 header:
   overlay_color: "#000"
-  overlay_filter: "0.25"
-  overlay_image: /assets/images/dev-frost-background.jpg
+  overlay_filter: "0.35"
+  overlay_image: /assets/headers/tech-sigsystem.jpg
   og_image: /assets/images/bc-card.jpg
 title: "FROST Round Table II (29924): Summary"
 hide_description: true
@@ -12,8 +12,10 @@ classes:
 permalink: /frost/meeting2/summary/
 sidebar:
   nav:
-    - frost
     - meetings
+    - frost
+    - signatures
+    - technology
 ---
 
 _This is a rough summary of the FROST Implementer's Round Table on September 18, 2024._

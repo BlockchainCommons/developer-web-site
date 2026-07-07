@@ -2,8 +2,8 @@
 cover: false
 header:
   overlay_color: "#000"
-  overlay_filter: "0.25"
-  overlay_image: /assets/images/dev-frost-background.jpg
+  overlay_filter: "0.35"
+  overlay_image: /assets/headers/tech-sigsystem.jpg
   og_image: /assets/images/bc-card.jpg
 title: "FROST Developers II (2024): Transcript"
 hide_description: true
@@ -12,8 +12,10 @@ classes:
 permalink: /frost/developers2/transcript/
 sidebar:
   nav:
-    - frost
     - meetings
+    - frost
+    - signatures
+    - technology
 ---
 
 _This is a raw, unedited transcript of the FROST Developer's Meeting on December 4, 2024._

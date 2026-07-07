@@ -2,8 +2,8 @@
 cover: false
 header:
   overlay_color: "#000"
-  overlay_filter: "0.25"
-  overlay_image: /assets/images/dev-frost-background.jpg
+  overlay_filter: "0.35"
+  overlay_image: /assets/headers/tech-sigsystem.jpg
   og_image: /assets/images/bc-card.jpg
 title: "FROST Developer II: December 2024"
 tagline: "Intro to FROST for Developers & Current Projects"
@@ -13,8 +13,10 @@ classes:
 permalink: /frost/developers2/
 sidebar:
   nav:
-    - frost
     - meetings
+    - frost
+    - signatures
+    - technology
 ---
 
 The second FROST Developer Meeting occurred on **December 4, 2024**. The goal was to introduce FROST to developers and to present them with the opportunity to integrate FROST in 2025 as well as discussing the challenges of integration and revealing use cases that demonstrate how FROST is widely useful for a variety of tasks.

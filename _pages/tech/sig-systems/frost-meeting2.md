@@ -2,8 +2,8 @@
 cover: false
 header:
   overlay_color: "#000"
-  overlay_filter: "0.25"
-  overlay_image: /assets/images/dev-frost-background.jpg
+  overlay_filter: "0.35"
+  overlay_image: /assets/headers/tech-sigsystem.jpg
   og_image: /assets/images/bc-card.jpg
 title: "FROST Round Table II: September 2024"
 tagline: "Presentations from Six Groups"
@@ -13,8 +13,10 @@ classes:
 permalink: /frost/meeting2/
 sidebar:
   nav:
-    - frost
     - meetings
+    - frost
+    - signatures
+    - technology
 ---
 
 The second FROST Round Table occurred on **September 18, 2024**. Almost twenty experts in the field, including  members of the [ZF Frost team](https://github.com/ZcashFoundation/frost) and the [secp-zkp FROST team](https://github.com/BlockstreamResearch/secp256k1-zkp/pull/138) as well as a variety of designers working on libraries, federations, and deployments came together to talk about their experience with FROST.

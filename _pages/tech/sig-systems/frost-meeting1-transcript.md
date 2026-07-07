@@ -2,8 +2,8 @@
 cover: false
 header:
   overlay_color: "#000"
-  overlay_filter: "0.25"
-  overlay_image: /assets/images/dev-frost-background.jpg
+  overlay_filter: "0.35"
+  overlay_image: /assets/headers/technology-sigsystem.jpg
   og_image: /assets/images/bc-card.jpg
 title: "FROST Round Table I (2023): Transcript"
 hide_description: true
@@ -12,8 +12,10 @@ classes:
 permalink: /frost/meeting1/transcript/
 sidebar:
   nav:
-    - frost
     - meetings
+    - frost
+    - signatures
+    - technology
 ---
 
 _This is a raw, unedited transcript of the FROST Implementer's Round Table on November 8, 2023._
