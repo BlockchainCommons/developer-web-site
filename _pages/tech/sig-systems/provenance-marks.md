@@ -2,10 +2,11 @@
 cover: false
 header:
   overlay_color: "#000"
-  overlay_filter: "0.25"
-  overlay_image: /assets/images/dev-seed-background.jpg
+  overlay_filter: "0.35"
+  overlay_image: /assets/headers/tech-sigsystem.jpg
   og_image: /assets/images/bc-card.jpg
 title: "Provenance Marks"
+tagline: "Hash Chains to Establish Sequence"
 hide_description: true
 classes:
   - wide
@@ -15,14 +16,35 @@ redirect_from:
   - /provenance-mark/
 sidebar:
   nav:
-    - stack-crypto
+    - signatures
+    - technology
 ---
 
-## Overview
+<div class="hexline hexgrid71 opsqued">
+  <div class="hex31">
+    <a href="/frost/">
+      <img src="/assets/badges/frost.png">
+    </a>
+  </div>
+  <div class="hex32top">
+    <a href="/siagnatures/">
+      <img src="/assets/badges/cat-sig-half.png">
+    </a>
+  </div>
+  <div class="hex41 opaqued">
+    <a href="/musig/">
+      <img src="/assets/badges/musig.png">
+    </a>
+  </div>  
+  <div class="hex51 highlighted">
+    <a href="/provemark/">
+      <img src="/assets/badges/provenance-marks.png">
+    </a>
+  </div>
+</div>
 
-<a href="/crypto-stack/"><img src="https://developer.blockchaincommons.com/assets/images/bc-stack-crypto.png" style="margin-left: 20px; float: right" width="25%"></a>
 
-A Provenance Mark is a forward-commitment hash chain to establish cryptographic sequential ordering for linked digital objects. Each mark in the chain commits to preceding and subsequent content, preventing retroactive insertion or modification without requiring timestamps or trusted witnesses. This enables tracking of editions, state changes, and histories for controller documents, credentials, and evolving structures.
+_A Provenance Mark is a forward-commitment hash chain to establish cryptographic sequential ordering for linked digital objects. Each mark in the chain commits to preceding and subsequent content, preventing retroactive insertion or modification without requiring timestamps or trusted witnesses. This enables tracking of editions, state changes, and histories for controller documents, credentials, and evolving structures._
 
 ## Why are Provenance Marks Important?
 
