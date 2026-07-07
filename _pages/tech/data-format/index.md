@@ -72,7 +72,7 @@ _The Blockchain Commons technology stack includes a stack of data formats. CBOR 
 
 ## ![](/assets/badges/bytewords.png) Bytewords
 
-Bytewords translates binary objects into a series of four-letter English words. They can be used to reliably record digital secrets, but they're also a building block that transforms CBOR into URs and MURs.
+**Text Format.** Bytewords translates binary objects into a series of four-letter English words. They can be used to reliably record digital secrets, but they're also a building block that transforms CBOR into URs and MURs.
 
 For more see:
 
@@ -81,7 +81,7 @@ For more see:
 
 ## ![](/assets/badges/cbor.png) CBOR
 
-CBOR is an IETF data format (RFC 8949) that we have adopted as the fundamental data representation for higher-level Blockchain Commons data formats such as Gordian Envelope and URs.
+**Binary Format.** CBOR is an IETF data format (RFC 8949) that we have adopted as the fundamental data representation for higher-level Blockchain Commons data formats such as Gordian Envelope and URs.
 
 For more see:
 
@@ -90,7 +90,7 @@ For more see:
 
 ## ![](/assets/badges/dcbor.png) dCBOR
 
-dCBOR stands for Deterministic CBOR. It's our own variant of CBOR that always encodes the same on any platform. It's a necessary building block for using CBOR as the foundation of a deterministic storage system like Gordian Envelope.
+**Binary Format.** dCBOR stands for Deterministic CBOR. It's our own variant of CBOR that always encodes the same on any platform. It's a necessary building block for using CBOR as the foundation of a deterministic storage system like Gordian Envelope.
 
 For more see:
 
@@ -99,7 +99,7 @@ For more see:
 
 ## ![](/assets/badges/envelope.png) Gordian Envelope
 
-Envelope is the culmination of many of Blockchain Commons' other data formats. It's build on dCBOR and can be encoded as a UR. It's goal is to provide "smart document" storage. Arbitrary, recursive data storage is permitted, and anything can be encrypted or elided without damaging signatures.
+**Data Format.** Envelope is the culmination of many of Blockchain Commons' other data formats. It's build on dCBOR and can be encoded as a UR. It's goal is to provide "smart document" storage. Arbitrary, recursive data storage is permitted, and anything can be encrypted or elided without damaging signatures.
 
 For more see:
 
@@ -108,7 +108,7 @@ For more see:
 
 ## ![](/assets/badges/known-values.png) Known Values
 
-Known Values correlate ontological concepts to integer values, allowing for efficient and standardized recording of common, repeated concepts.
+**Concept Encoding.** Known Values correlate ontological concepts to integer values, allowing for efficient and standardized recording of common, repeated concepts.
 
 For more see:
 
@@ -117,7 +117,7 @@ For more see:
 
 ## ![](/assets/badges/ur.png) UR: Uniform Resources
 
-URs utilize a minimalistic form of Bytewords to efficiently record binary data as text in a way that's interoperable and self-describing.
+**URI Format.** URs utilize a minimalistic form of Bytewords to efficiently record binary data as text in a way that's interoperable and self-describing.
 
 For more see:
 
@@ -126,7 +126,7 @@ For more see:
 
 ## ![](/assets/badges/mur.png) MUR: Multipart UR
 
-Multipart URs break URs into multiple pieces to allow for the transmission of smaller data sets, which is important when URs are used for communications as QR codes.
+**URI Format.** Multipart URs break URs into multiple pieces to allow for the transmission of smaller data sets, which is important when URs are used for communications as QR codes.
 
 For more see:
 
