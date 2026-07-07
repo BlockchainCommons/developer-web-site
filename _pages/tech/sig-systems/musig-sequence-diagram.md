@@ -2,8 +2,8 @@
 cover: false
 header:
   overlay_color: "#000"
-  overlay_filter: "0.25"
-  overlay_image: /assets/images/dev-frost-background.jpg
+  overlay_filter: "0.35"
+  overlay_image: /assets/headers/tech-sigsystem.jpg
   og_image: /assets/images/bc-card.jpg
 title: "MuSig2 Sequence Diagrams"
 hide_description: true
@@ -11,7 +11,10 @@ classes:
   - wide
 permalink: /musig/sequence/
 sidebar:
-  nav: musig
+  nav:
+    - musig
+    - signatures
+    - technology
 ---
 
 > * **ABSTRACT:** This document provides sequence diagrams for the MuSig2 multisignature protocol, covering 2-of-2 multisig with direct peer-to-peer interaction and 3-of-3 multisig with a Coordinator. It integrates GSTP and ESC to ensure secure, trustless communication, offering a practical guide for implementing efficient, private, and secure multisig solutions.
