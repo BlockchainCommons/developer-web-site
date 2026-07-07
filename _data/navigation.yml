@@ -119,6 +119,8 @@ dataformat:
       url: /ur/
     - title: "MUR"
       url: /ur/mur/
+    - title: "Return to Data Formats"
+      url: /data-format/
 envelope:
   - title: Gordian Envelope
     children:
@@ -226,6 +228,8 @@ securecomm:
       url: /oib/
     - title: "Torgaps"
       url: /torgap/
+    - title: "Return to Secure Comm"
+      url: /secure-comm/
 lifehash:
   - title: LifeHash
     children:
@@ -261,6 +265,8 @@ signatures:
       url: /musig/
     - title: "Provenance Marks"
       url: /provemark/
+    - title: "Return to Signatures"
+      url: /signatures/
 frost:
   - title: FROST
     children:
