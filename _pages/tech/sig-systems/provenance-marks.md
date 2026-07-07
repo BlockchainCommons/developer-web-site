@@ -27,7 +27,7 @@ sidebar:
     </a>
   </div>
   <div class="hex32top">
-    <a href="/siagnatures/">
+    <a href="/signatures/">
       <img src="/assets/badges/cat-sig-half.png">
     </a>
   </div>
