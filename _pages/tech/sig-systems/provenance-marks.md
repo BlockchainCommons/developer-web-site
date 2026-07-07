@@ -20,8 +20,8 @@ sidebar:
     - technology
 ---
 
-<div class="hexline hexgrid71 opaqued">
-  <div class="hex31">
+<div class="hexline hexgrid71">
+  <div class="hex31 opaqued">
     <a href="/frost/">
       <img src="/assets/badges/frost.png">
     </a>
