@@ -79,19 +79,19 @@ attestation contains the following elements:
 6. **Publication**:
 
 This complete self-attestation looks as follows:
-```
-{
-    "Financial API Security Overhaul" [
-        "limitations": "Backend components only, limited frontend involvement"
-        "methodology": "Security testing with automated scanning and manual code review"
-        "metricsHash": Digest(b3cb8720)
-        "role": "Lead Security Developer"
-        "timeframe": "2022-03 through 2022-09"
-    ]
-} [
-    'signed': Signature
-]
 
+   ```sh
+   {
+       "Financial API Security Overhaul" [
+           "limitations": "Backend components only, limited frontend involvement"
+           "methodology": "Security testing with automated scanning and manual code review"
+           "metricsHash": Digest(b3cb8720)
+           "role": "Lead Security Developer"
+          "timeframe": "2022-03 through 2022-09"
+       ]
+   } [
+       'signed': Signature
+   ]
 ```
 
 The subject could choose to store, privately share, or publish the
@@ -108,7 +108,7 @@ verifiable details to the previous `$PROJECT`.
 
 1. **Git Commit References**:
 
-This demonstrates how Github records can make a project verifiable.
+   This demonstrates how Github records can make a project verifiable.
 
    ```sh
    # Generate a hash of the hashes in the commit history
@@ -128,7 +128,7 @@ This demonstrates how Github records can make a project verifiable.
  
 2. **Published Work**:
 
-This demonstrates how a published work can make a project verifiable.
+   This demonstrates how a published work can make a project verifiable.
 
    ```sh
    PROJECT_DOI=$(envelope subject type string "10.1234/journal.article")
@@ -138,7 +138,8 @@ This demonstrates how a published work can make a project verifiable.
 
 3. **Public Demonstrations**:
 
-  This demonstrates how a 
+   This demonstrates how a demo can make a project verifiable.
+   
    ```sh
    PROJECT_DEMO=$(envelope subject type uri "https://example.com/demo-with-timestamp")
    PROJECT_DEMO=$(envelope assertion add pred-obj known date string "2023-07-09" "$PROJECT_DEMO")
@@ -156,33 +157,33 @@ This demonstrates how a published work can make a project verifiable.
 
 5. **Identifier Link**:
 
-The signed credential has now improved the original attestation
-through additional data that is verifiable in various ways.
+   The signed credential has now improved the original attestation
+   through additional data that is verifiable in various ways.
 
-```
-{
-    "Financial API Security Overhaul" [
-        "demoVideo": URI(https://example.com/demo-with-timestamp) [
-            'date': "2023-07-09"
-        ]
-        "gitRepo": "https://github.com/organization/project" [
-            "gitCommitHistory": Digest(cff55bed)
-            "gitCommitHistoryDate": "2026-07-08T11:18-10:00"
-            "gitVerificationNote": "Commits signed with GPG key fingerprint 3AA5 C34D..."
-        ]
-        "limitations": "Backend components only, limited frontend involvement"
-        "methodology": "Security testing with automated scanning and manual code review"
-        "metricsHash": Digest(b3cb8720)
-        "publicationDOI": "10.1234/journal.article" [
-            'date': "2023-05-12"
-        ]
-        "role": "Lead Security Developer"
-        "timeframe": "2022-03 through 2022-09"
-    ]
-} [
-    'signed': Signature
-]
-```
+```sh
+   {
+       "Financial API Security Overhaul" [
+           "demoVideo": URI(https://example.com/demo-with-timestamp) [
+               'date': "2023-07-09"
+           ]
+           "gitRepo": "https://github.com/organization/project" [
+               "gitCommitHistory": Digest(cff55bed)
+               "gitCommitHistoryDate": "2026-07-08T11:18-10:00"
+               "gitVerificationNote": "Commits signed with GPG key fingerprint 3AA5 C34D..."
+           ]
+           "limitations": "Backend components only, limited frontend involvement"
+           "methodology": "Security testing with automated scanning and manual code review"
+           "metricsHash": Digest(b3cb8720)
+           "publicationDOI": "10.1234/journal.article" [
+               'date': "2023-05-12"
+           ]
+           "role": "Lead Security Developer"
+           "timeframe": "2022-03 through 2022-09"
+       ]
+   } [
+       'signed': Signature
+   ]
+   ```
 
 ## Making Peer Endorsements
 
@@ -191,7 +192,8 @@ You can also create endorsements about other people. Following the
 
 1. **Endorser Information**:
 
-  The endorseer is identified, and then additional data is used to describe who they are and what their biases are.
+   The endorseer is identified, and then additional data is used to
+   describe who they are and what their biases are.
   
    ```sh
    SOURCE=$(envelope subject type ur $MY_XID_ID)
@@ -232,7 +234,9 @@ You can also create endorsements about other people. Following the
 
 7. **Specific Observations**:
 
-   Observations are then applied to the `$TARGET` as a standardized methodology described in [Learning XIDs](https://learningxids.blockchaincommons.com/03_1_Creating_Edges/#step-3-understand-the-edge).
+   Observations are then applied to the `$TARGET` as a standardized
+   methodology described in [Learning
+   XIDs](https://learningxids.blockchaincommons.com/03_1_Creating_Edges/#step-3-understand-the-edge).
    
    ```sh
    TARGET=$(envelope assertion add pred-obj string "project" string "Financial API Project" "$TARGET")
@@ -241,11 +245,11 @@ You can also create endorsements about other people. Following the
 
 8. **Standard Format**:
 
-This example follows the [edge
-formatting](https://learningxids.blockchaincommons.com/03_1_Creating_Edges/#step-3-understand-the-edge)
-of endorsements, which calls for a unique subject, a descriptive `isA`
-and a `source` and `target`, potentially with additional info about
-each. (Any alternative format could be used.)
+   This example follows the [edge
+   formatting](https://learningxids.blockchaincommons.com/03_1_Creating_Edges/#step-3-understand-the-edge)
+   of endorsements, which calls for a unique subject, a descriptive
+   `isA` and a `source` and `target`, potentially with additional info
+   about each. (Any alternative format could be used.)
 
    ```sh
    EDGE=$(envelope subject type string "endorsement-from-charlene")
@@ -260,27 +264,27 @@ each. (Any alternative format could be used.)
    WRAPPED_EDGE=$(envelope subject type wrapped $EDGE)
    SIGNED_EDGE=$(envelope sign -s "$MY_KEYS" "$WRAPPED_EDGE")
    ```
-The result is as follows:
-```
-{
-    "endorsement-from-charlene" [
-        'isA': 'attestation'
-        'source': XID(51754269) [
-            "basis": "Direct observation throughout the project plus review of metrics"
-            "endorser": "TechPM - Project Manager with 12 years experience"
-            "endorserLimitation": "Limited technical background in cryptography"
-            "potentialBias": "Had management responsibility for project success"
-            "relationship": "Direct project oversight as Project Manager"
-        ]
-        'target': XID(e37356a3) [
-            "observation": "BRadvoc8 designed innovative authentication system that exceeded security requirements"
-            "project": "Financial API Project"
-        ]
-    ]
-} [
-    'signed': Signature
-]
-```
+   The result is as follows:
+   ```sh
+   {
+       "endorsement-from-charlene" [
+           'isA': 'attestation'
+           'source': XID(51754269) [
+               "basis": "Direct observation throughout the project plus review of metrics"
+               "endorser": "TechPM - Project Manager with 12 years experience"
+               "endorserLimitation": "Limited technical background in cryptography"
+               "potentialBias": "Had management responsibility for project success"
+               "relationship": "Direct project oversight as Project Manager"
+           ]
+           'target': XID(e37356a3) [
+               "observation": "BRadvoc8 designed innovative authentication system that exceeded security requirements"
+               "project": "Financial API Project"
+           ]
+       ]
+   } [
+       'signed': Signature
+   ]
+   ```
 
 ## Accepting an Endorsement
 
@@ -325,7 +329,10 @@ For maximum credibility, endorsements should follow an acceptance model:
 
 4. **Recipient Publishes Public Version of XID**
 
-   The user can then produce a public version of their XID, which involves advancing a provenance mark and eliding unneeded private date, as explained in [Learning XIDs](https://learningxids.blockchaincommons.com/).
+   The user can then produce a public version of their XID, which
+   involves advancing a provenance mark and eliding unneeded private
+   date, as explained in [Learning
+   XIDs](https://learningxids.blockchaincommons.com/).
    
    ```sh
    XID_WITH_EDGE=$(envelope xid provenance next \
@@ -341,45 +348,46 @@ For maximum credibility, endorsements should follow an acceptance model:
      "$XID_WITH_EDGE")
    ```
 
-Part of this publication is `--sign inception`, which is where the
-user signs the XID with the edge to show that they've agreed for it to
-be part of their identity information.
+   Part of this publication is `--sign inception`, which is where the
+   user signs the XID with the edge to show that they've agreed for it
+   to be part of their identity information.
 
-The result will look like:
-```
-{
-    XID(e37356a3) [
-        'edge': {
-            "endorsement-from-charlene" [
-                'isA': 'attestation'
-                'source': XID(51754269) [
-                    "basis": "Direct observation throughout the project plus review of metrics"
-                    "endorser": "TechPM - Project Manager with 12 years experience"
-                    "endorserLimitation": "Limited technical background in cryptography"
-                    "potentialBias": "Had management responsibility for project success"
-                    "relationship": "Direct project oversight as Project Manager"
-                ]
-                'target': XID(e37356a3) [
-                    "observation": "BRadvoc8 designed innovative authentication system that exceeded security requirements"
-                    "project": "Financial API Project"
-                ]
-            ]
-        } [
-            'signed': Signature
-        ]
-        'key': PublicKeys(77f5072e, SigningPublicKey(e37356a3, Ed25519PublicKey(234563e3)), EncapsulationPublicKey(20016c72, X25519PublicKey(20016c72))) [
-            'allow': 'All'
-            'nickname': "BRadvoc8"
-            ELIDED
-        ]
-        'provenance': ProvenanceMark(c2c580a8) [
-            ELIDED
-        ]
-    ]
-} [
-    'signed': Signature(Ed25519)
-]
-```
+   The result will look like:
+
+   ```sh
+   {
+       XID(e37356a3) [
+           'edge': {
+               "endorsement-from-charlene" [
+                   'isA': 'attestation'
+                   'source': XID(51754269) [
+                       "basis": "Direct observation throughout the project plus review of metrics"
+                       "endorser": "TechPM - Project Manager with 12 years experience"
+                       "endorserLimitation": "Limited technical background in cryptography"
+                       "potentialBias": "Had management responsibility for project success"
+                       "relationship": "Direct project oversight as Project Manager"
+                   ]
+                   'target': XID(e37356a3) [
+                       "observation": "BRadvoc8 designed innovative authentication system that exceeded security requirements"
+                       "project": "Financial API Project"
+                   ]
+               ]
+           } [
+               'signed': Signature
+           ]
+           'key': PublicKeys(77f5072e, SigningPublicKey(e37356a3, Ed25519PublicKey(234563e3)), EncapsulationPublicKey(20016c72, X25519PublicKey(20016c72))) [
+               'allow': 'All'
+               'nickname': "BRadvoc8"
+               ELIDED
+           ]
+           'provenance': ProvenanceMark(c2c580a8) [
+               ELIDED
+           ]
+       ]
+   } [
+       'signed': Signature(Ed25519)
+   ]
+   ```
 
 ## Check Your Understanding
 
