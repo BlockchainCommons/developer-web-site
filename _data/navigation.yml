@@ -317,6 +317,8 @@ frost:
 musig:
   - title: MuSig 2
     children:
+    - title: "Intro to MuSig"
+      url: /musig/
     - title: "Sequence Diagram"
       url: /musig/sequence/
     - title: "Go to FROST"
