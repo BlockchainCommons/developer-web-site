@@ -188,8 +188,14 @@ A trust network can then be verified by the following steps:
 **Learning Attestations from the Command Line:**
 
 * [**Learning Attestations**](/identity/attestations/cli/)
-* [**Learning XIDs: Making Claims**](https://learningxids.blockchaincommons.com/02_0_Claims/)
-* [**Learning XIDs: Attesting with Edges**](https://learningxids.blockchaincommons.com/03_0_Edges/)
+* [**Learning XIDs: Making Claims**](https://learningxids.blockchaincommons.com/02_0_Claims/) (course)
+* [**Learning XIDs: Attesting with Edges**](https://learningxids.blockchaincommons.com/03_0_Edges/) (course)
+
+**Related Technologies**
+
+* [**Self-Sovereign Identity**](/ssi/)
+* [**XIDs**](/xid/)
+* [**Fair Witness Methodology**](/identity/fair-witness)
 
 **Standards**
 
