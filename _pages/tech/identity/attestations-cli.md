@@ -78,7 +78,7 @@ attestation contains the following elements:
 
 6. **Publication**:
 
-This complete self-attestation looks as follows:
+   This complete self-attestation looks as follows:
 
    ```sh
    {
