@@ -6,7 +6,7 @@ header:
   overlay_image: /assets/headers/tech-dataformat.jpg
   og_image: /assets/images/bc-card.jpg
 title: Data Format Technologies
-tagline: From CBOR to Envelope
+tagline: Ensuring Resilient and Interoperable Data
 hide_description: true
 classes:
   - wide

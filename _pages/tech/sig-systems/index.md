@@ -6,7 +6,7 @@ header:
   overlay_image: /assets/headers/tech-sigsystem.jpg
   og_image: /assets/images/bc-card.jpg
 title: Signatures System Technologies
-tagline: "FROST, MuSig, and Provenance Marks"
+tagline: Validating Identities & Sequences
 hide_description: true
 classes:
   - wide

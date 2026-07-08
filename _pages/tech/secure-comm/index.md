@@ -6,7 +6,7 @@ header:
   overlay_image: /assets/headers/tech-securecomm.jpg
   og_image: /assets/images/bc-card.jpg
 title: Secure Communication Technologies
-tagline: From Gaps to Dead Drops
+tagline: Ensuring Private & Interoperable Transmissions
 hide_description: true
 classes:
   - wide
