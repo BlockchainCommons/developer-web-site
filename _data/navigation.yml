@@ -272,6 +272,8 @@ xid:
       url: /xid/
     - title: "Video Presentation"
       url: /xid/presentation/
+    - title: "Learning XIDs (CLI)"
+      url: https://learningxids.blockchaincommons.com/
     - title: "Go to Envelope"
       url: /envelope/
 securecomm:
