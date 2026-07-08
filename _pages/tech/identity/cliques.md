@@ -65,7 +65,7 @@ sidebar:
     </a>
   </div>  
   <div class="hex71 opaqued">
-    <a href="/ppp/">
+    <a href="/identity/ppp/">
       <img src="/assets/badges/ppp.png">
     </a>
   </div>
