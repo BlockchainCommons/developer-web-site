@@ -141,7 +141,7 @@ For more see:
 
 ## ![](/assets/badges/cliques.png) Cryptographic Cliques
 
-**SSI Architure.** Cliques are a new model for SSI architecture that
+**SSI Architecture.** Cliques are a new model for SSI architecture that
 uses FROST signatures to define identity as relationships between
 entities.
 
