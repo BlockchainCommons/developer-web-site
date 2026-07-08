@@ -142,6 +142,8 @@ envelope:
       url: /envelope/use-cases/
     - title: "Use Cases Listing"
       url: /envelope/use-cases/summary/
+    - title: "Go to XIDs"
+      url: /xid/
   - title: Envelope Exensions
     children:
     - title: "Encrypted State Continuation"
