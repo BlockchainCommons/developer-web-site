@@ -47,7 +47,7 @@ sidebar:
     </a>
   </div>
   <div class="hex41">
-    <a href="/fair-witness/">
+    <a href="/identity/fair-witness/">
       <img src="/assets/badges/fair-witness.png">
     </a>
   </div>
