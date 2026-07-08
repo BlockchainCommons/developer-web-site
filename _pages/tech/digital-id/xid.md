@@ -2,33 +2,108 @@
 cover: false
 header:
   overlay_color: "#000"
-  overlay_filter: "0.25"
-  overlay_image: /assets/images/dev-data-background.jpg
+  overlay_filter: "0.35"
+  overlay_image: /assets/headers/tech-identity.jpg
   og_image: /assets/images/bc-card.jpg
 title: Extensible Identifiers (XIDs)
+tagline: Truly Self-Sovereign SSI
 hide_description: true
 classes:
   - wide
 permalink: /xid/
 sidebar:
-  nav: xid
+  nav:
+    - xid
+    - identity
+    - technology
 ---
 
-## Overview
+<div class="hexline hexgrid71">
+  <div class="hex11">
+    <a href="/ssi/">
+      <img src="/assets/badges/ssi.png">
+    </a>
+  </div>
+  <div class="hex12top">
+    <a href="/identity/">
+      <img src="/assets/badges/cat-identity-half.png">
+    </a>
+  </div>
+  <div class="hex21 highlighted">
+    <a href="/xid/">
+      <img src="/assets/badges/xid.png">
+    </a>
+  </div>
+  <div class="hex31 opaqued">
+    <a href="/attestation/">
+      <img src="/assets/badges/attestations.png">
+    </a>
+  </div>
+ <div class="hex41 opaqued">
+    <a href="/fair-witness/">
+      <img src="/assets/badges/fair-witness.png">
+    </a>
+  </div>
+  <div class="hex51 opaqued">
+    <a href="/cliques/">
+      <img src="/assets/badges/cliques.png">
+    </a>
+  </div>
+  <div class="hex61 opaqued">
+    <a href="/clubs/">
+      <img src="/assets/badges/clubs.png">
+    </a>
+  </div>  
+  <div class="hex71 opaquied">
+    <a href="/ppp/">
+      <img src="/assets/badges/ppp.png">
+    </a>
+  </div>
+</div>
 
-<a href="/core-stack/"><img src="https://developer.blockchaincommons.com/assets/images/bc-stack-core-id.png" style="float: right; margin-left: 20px;" width="25%"></a>
-
-An eXtensible IDentifier (XID) is a stable decentralized identifier generated from the hash of an inception key. XIDs resolve to an [envelope](/envelope/)-based controller document for managing keys, credentials, and other assertions, and leverage provenance chains for key rotation and revocation without changing the identifier. It does not necessarily to the [DID spec](https://www.w3.org/TR/did-core/), but it is inspired by the same needs and desires.
+_An eXtensible IDentifier (XID) is a stable decentralized identifier
+generated from the hash of an inception key. XIDs resolve to an
+[envelope](/envelope/)-based controller document for managing keys,
+credentials, and other assertions, and leverage provenance marks for
+key rotation and revocation without changing the identifier. It does
+not necessarily conform to the [DID
+spec](https://www.w3.org/TR/did-core/), but it is inspired by the same
+needs and desires._
 
 ## Why is XID Important?
 
-The main advantage of XIDs is that they allow for the **redaction** of content in a DID-like controller document while also maintaining cryptographic verification.. 
+The main advantage of XIDs is that they allow for the **redaction** of
+content in a DID-like controller document while also maintaining
+cryptographic verification..
 
-Currently, controller documents tend to include public keys and service end-points. This is a great way to associate a variety of content into a singular identity. But you may not want to publicly reveal all of that information. Public keys can create vulnerabilities when exposed and you may wish to divide different parts of your identity, to only be revealed to specific groups!
+Currently, controller documents tend to include public keys and
+service end-points. This is a great way to associate a variety of
+content into a singular identity. But you may not want to publicly
+reveal all of that information. Public keys can create vulnerabilities
+when exposed and you may wish to divide different parts of your
+identity, to only be revealed to specific groups!
 
-With Envelope-enabled controller documents you can still gather and validate all of your information as part of a singular identifier. But, you can elide most of it most of the time, only revealing private elements through inclusion proofs to specific groups. Your data remains organized and you don't have to manage a whole bunch of different identities, but at the same time, vulnerable material remains secure and private.
+With Envelope-enabled controller documents you can still gather and
+validate all of your information as part of a singular
+identifier. But, you can elide most of it most of the time, only
+revealing private elements through inclusion proofs to specific
+groups. Your data remains organized and you don't have to manage a
+whole bunch of different identities, but at the same time, vulnerable
+material remains secure and private.
 
-This supports compartmentalized disclosure for [progressive trust architectures](/progressive-trust/) where the holder, not the issuer, controls which aspects are revealed to different parties.
+This supports compartmentalized disclosure for [progressive trust
+architectures](/progressive-trust/) where the holder, not the issuer,
+controls which aspects are revealed to different parties.
+
+XIDs also conform to the [original principles of self-sovereign
+identity](https://www.lifewithalacrity.com/article/the-path-to-self-soverereign-identity/)
+in ways that were lost during the DID ratification process. For
+example, DIDs give considerable power to a centralized issuer, both
+for issuance and ongoing usage of the DID. XIDs instead ensure that
+the user is in control at every step of the process. ["How XIDs
+Demonstrate a True Self-Sovereign
+Identity"](https://www.blockchaincommons.com/musings/XIDs-True-SSI/)
+discusses this topic in more depth.
 
 ## How Does XID Work?
 
@@ -51,9 +126,14 @@ XIDs can also be encoded as [URs](/ur/):
 ur:xid/hdcxjsdigtwneocmnybadpdlzobysbstmekteypspeotcfldynlpsfolsbintyjkrhfnvsbyrdfw
 ```
 
-A XID is generated from the SHA-256 hash of the CBOR representation of a specific `PublicSigningKey` structure called the inception key. It can be resolved into a XID Document that declares public keys and their associated attributes.
+A XID is generated from the SHA-256 hash of the CBOR representation of
+a specific `PublicSigningKey` structure called the inception key. It
+can be resolved into a XID Document that declares public keys and
+their associated attributes.
 
-This specifics on all of this, XID resolution methods, permissions, delegation, rotation, and much more can be found in ["BCR-2024-10: XIDs"](https://github.com/BlockchainCommons/Research/blob/master/papers/bcr-2024-010-xid.md).
+This specifics on all of this, XID resolution methods, permissions,
+delegation, rotation, and much more can be found in ["BCR-2024-10:
+XIDs"](https://github.com/BlockchainCommons/Research/blob/master/papers/bcr-2024-010-xid.md).
 
 ## XID Videos & Presentations
 
@@ -97,8 +177,8 @@ Also see the transcript on our [XID Presentation page](/xid/presentation/)
 ### Introductions
 
 * [**BCR-2024-010: XID: Extensible Identifiers**](https://github.com/BlockchainCommons/Research/blob/master/papers/bcr-2024-010-xid.md) (Blockchain Commons Research Document)
+* [**Self-Sovereign Identity**](/ssi/)
 * [**How XIDs Demonstrate a True Self-Sovereign Identity**](https://www.blockchaincommons.com/musings/XIDs-True-SSI/) (Musings)
-* [**Learning XIDs from the Command Line**](http://learningxids.blockchaincommons.com/) (MkDocs)
 
 ### Videos
 
@@ -107,7 +187,7 @@ Also see the transcript on our [XID Presentation page](/xid/presentation/)
 
 ### Tutorials
 
-* [**XID-Quickstart**](https://github.com/BlockchainCommons/XID-Quickstart) (GitHub/in process)
+* [**Learning XIDs from the Command Line**](http://learningxids.blockchaincommons.com/) (MkDocs)
 
 ### Related Blockchains Commons Technologies
 

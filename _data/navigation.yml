@@ -215,6 +215,34 @@ ur:
       url: /ur/implementations/
     - title: "UR Playground"
       url: /ur/playground/
+identity:
+  - title: Secure Comm
+    children:
+    - title: "Identity Home"
+      url: /digital-identity/
+    - title: "SSI"
+      url: /ssi/
+    - title: "XIDs"
+      url: /xid/
+    - title: "Attestations"
+      url: /attestations/
+    - title: "Fair Witness"
+      url: /fair-witness/
+    - title: "Cliques"
+      url: /cliques/
+    - title: "Clubs"
+      url: /clubs/
+    - title: "Pseudonymity"
+      url: /ppp/
+xid:
+  - title: Extensible Identifiers
+    children:
+    - title: "Intro to XIDs"
+      url: /xid/
+    - title: "Video Presentation"
+      url: /xid/presentation/
+    - title: "Go to Envelope"
+      url: /envelope/
 securecomm:
   - title: Secure Comm
     children:
@@ -442,17 +470,6 @@ sskr:
       url: /sskr/use-cases/cold/
     - title: "Return to Crypto Stack"
       url: /crypto-stack/
-xid:
-  - title: Extensible Identifiers
-    children:
-    - title: "Intro to XIDs"
-      url: /xid/
-    - title: "XID Presentation"
-      url: /xid/presentation/
-    - title: "Go to Envelope"
-      url: /envelope/
-    - title: "Return to Core Stack"
-      url: /core-stack/
 zcash:
   - title: Zcash
     children:
