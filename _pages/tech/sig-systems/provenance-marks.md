@@ -21,6 +21,11 @@ sidebar:
 ---
 
 <div class="hexline hexgrid71">
+  <div class="hex21 opaqued">
+    <a href="https://learningfrost.blockchaincommons.com/">
+      <img src="/assets/badges/learning-frost.png">
+    </a>
+  </div>  
   <div class="hex31 opaqued">
     <a href="/frost/">
       <img src="/assets/badges/frost.png">
