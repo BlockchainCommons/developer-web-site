@@ -234,6 +234,28 @@ identity:
       url: /clubs/
     - title: "Pseudonymity"
       url: /ppp/
+cliques:
+  - title: Cliques
+    children:
+    - title: "Intro to Cliques"
+      url: /cliques/
+    - title: "Edge Identifiers & Cliques"
+      url: https://www.blockchaincommons.com/musings/musings-cliques-1/
+    - title: "Open & Fuzzy Cliques"
+      url: https://www.blockchaincommons.com/musings/musings-cliques-2/
+clubs:
+  - title: Gordian Clubs
+    children:
+    - title: "Intro to Clubs"
+      url: /clubs/
+    - title: "The Power of Autonomy"
+      url: /clubs/autonomy/
+    - title: "Gordian Technology"
+      url: /clubs/technology/
+    - title: "Delegation & OCAPS"
+      url: /clubs/ocaps/
+    - title: "Xanadu History"
+      url: /clubs/history/
 xid:
   - title: Extensible Identifiers
     children:
@@ -411,32 +433,6 @@ ckm:
       url: /ckm/use-cases
     - title: "Return to Crypto Stack"
       url: /crypto-stack/
-cliques:
-  - title: Cliques
-    children:
-    - title: "Edge Identifiers & Cliques"
-      url: https://www.blockchaincommons.com/musings/musings-cliques-1/
-    - title: "Open & Fuzzy Cliques"
-      url: https://www.blockchaincommons.com/musings/musings-cliques-2/
-    - title: "Return to Core Stack"
-      url: /core-stack/
-clubs:
-  - title: Gordian Clubs
-    children:
-    - title: "Intro to Clubs"
-      url: /clubs/
-    - title: "The Power of Autonomy"
-      url: /clubs/autonomy/
-    - title: "Gordian Technology"
-      url: /clubs/technology/
-    - title: "Delegation & ocaps"
-      url: /clubs/ocaps/
-    - title: "Xanadu History"
-      url: /clubs/history/
-    - title: "Hubert"
-      url: /hubert/      
-    - title: "Return to Core Stack"
-      url: /core-stack/
 csr:
   - title: CSR
     children:
