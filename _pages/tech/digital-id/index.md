@@ -5,14 +5,14 @@ header:
   overlay_filter: "0.35"
   overlay_image: /assets/headers/tech-digitalid.jpg
   og_image: /assets/images/bc-card.jpg
-title: Digital Identities Technologies
+title: Digital Identity Technologies
 tagline: Giving Users Digital Agency
 hide_description: true
 classes:
   - wide
-permalink: /identity/
+permalink: /digital-identity/
 redirect_from:
-    - /digital-identity/
+    - /identity/
     - /digitalidentity/
 sidebar:
   nav:
@@ -64,71 +64,102 @@ sidebar:
   </div>
 </div>
 
-_The Blockchain Commons technology stack includes a stack of data formats. CBOR (and variant dCBOR) are fundamental binary data serialization formats. Bytewords encodes binary objects as four-letter English words. URs and MURs turn Bytewords into self-describing data objects. Known values encode ontological concepts as unsigned integers. Finally, Gordian Envelope builds on all of that to offer a self-describing, recursive, smart-document storage format._
+_Digital identity is how we express ourselves online. Blockchain
+Commons focuses on self-sovereign identity: the aspiration that each
+user truly controls their own identity rather than it being owned by
+corporate entities. Some technologies, such as attestations, fair
+witness methodology, and public participation profiles help to define
+digital identities, while others such as cliques and clubs expand
+them._
 
-***Why?*** _Data formats are more than just wants to encode data. They also encode specific principles. Blockchain Commons' data formats embody the [Gordian principles](/principles/) in large part by ensuring that open (and interoperable) as well as resilient (and harder to confuse). They also strive to be deterministic on a variety of formats (which supports openness and interoperability) and efficient._
+***Why?*** _The internet has become the public square of the 21st
+century. If we control our identities, we can participate as equals,
+but if corporations control our identities, we become digital
+serfs. That's the core argument for self-sovereign identity. Other
+technologies address other issues such as digital relationships
+(cliques) and communication agency (clubs)._
 
 
-## ![](/assets/badges/bytewords.png) Bytewords
+## ![](/assets/badges/ssi.png) Self-Sovereign Identity
 
-**Text Format.** Bytewords translates binary objects into a series of four-letter English words. They can be used to reliably record digital secrets, but they're also a building block that transforms CBOR into URs and MURs.
-
-For more see:
-
-* [**Bytewords**](/bytewords/)
-* [**BCR-2020-012**](https://github.com/BlockchainCommons/Research/blob/master/papers/bcr-2020-012-bytewords.md) (Research Repo)
-
-## ![](/assets/badges/cbor.png) CBOR
-
-**Binary Format.** CBOR is an IETF data format (RFC 8949) that we have adopted as the fundamental data representation for higher-level Blockchain Commons data formats such as Gordian Envelope and URs.
-
-For more see:
-
-* [**CBOR**](/cbor/)
-* [**RFC8949**](https://www.rfc-editor.org/info/rfc8949/) (RFC Editor)
-
-## ![](/assets/badges/dcbor.png) dCBOR
-
-**Binary Format.** dCBOR stands for Deterministic CBOR. It's our own variant of CBOR that always encodes the same on any platform. It's a necessary building block for using CBOR as the foundation of a deterministic storage system like Gordian Envelope.
+**Identity Architecture.** Self-sovereign identity is built on the
+principle that we should control our digital identities and be able to
+move them from place to place, rather than corporations being able to
+define who we are online.
 
 For more see:
 
-* [**dCBOR**](/dcbor/)
-* [**draft-mcnally-deterministic-cbor Internet-Draft**](https://datatracker.ietf.org/doc/draft-mcnally-deterministic-cbor/) (Data Tracker)
+* [**SSI**](/ssi/)
+* [**The Path to Self-Sovereign Identity**](https://www.lifewithalacrity.com/article/the-path-to-self-soverereign-identity/) (Blog)
+* [**Revisiting SSI**](https://revisitingssi.com/) (Website)
 
-## ![](/assets/badges/envelope.png) Gordian Envelope
+## ![](/assets/badges/xid.png) XIDs
 
-**Data Format.** Envelope is the culmination of many of Blockchain Commons' other data formats. It's build on dCBOR and can be encoded as a UR. It's goal is to provide "smart document" storage. Arbitrary, recursive data storage is permitted, and anything can be encrypted or elided without damaging signatures.
-
-For more see:
-
-* [**Envelope**](/envelope/)
-* [**draft-mcnally-envelope Internet-Draft**](https://datatracker.ietf.org/doc/draft-mcnally-envelope/) (Data Tracker)
-
-## ![](/assets/badges/known-values.png) Known Values
-
-**Concept Encoding.** Known Values correlate ontological concepts to integer values, allowing for efficient and standardized recording of common, repeated concepts.
+**SSI Proof of Concept.** DIDs were meant to be a specification for
+self-sovereign identities. However, the published spec hands off power
+to issuers. XIDs are a proof-of-concept for a truly self-sovereign
+SSI.
 
 For more see:
 
-* [**Known Values**](/known-value/)
-* [**BCR-2023-002**](https://github.com/BlockchainCommons/Research/blob/master/papers/bcr-2023-002-known-value.md) (Research Repo)
+* [**XIDs**](/xid/)
+* [**BCR-2024-010**](https://github.com/BlockchainCommons/Research/blob/master/papers/bcr-2024-010-xid.md) (Research Repo)
 
-## ![](/assets/badges/ur.png) UR: Uniform Resources
+## ![](/assets/badges/attestations.png) Attestations & Endorsements Model
 
-**URI Format.** URs utilize a minimalistic form of Bytewords to efficiently record binary data as text in a way that's interoperable and self-describing.
-
-For more see:
-
-* [**URs**](/ur/)
-* [**BCR-2020-005**](https://github.com/BlockchainCommons/Research/blob/master/papers/bcr-2020-005-ur.md) (Research Repo)
-
-## ![](/assets/badges/mur.png) MUR: Multipart UR
-
-**URI Format.** Multipart URs break URs into multiple pieces to allow for the transmission of smaller data sets, which is important when URs are used for communications as QR codes.
+**Identity Add-On.** How do you know who someone is online? And what
+they could do? We used digitally signed attestations and
+endorsements. They're particularly important for pseudonymous
+identities and public participation profiles.
 
 For more see:
 
-* [**MURs**](/ur/mur/)
-* [**BCR-2024-001**](https://github.com/BlockchainCommons/Research/blob/master/papers/bcr-2024-001-multipart-ur.md) (Research Repo)
+* [**Attestation & Endorsement Model**](/attestations/)
+* [**Verifiable Claims Data Model**](https://www.w3.org/TR/vc-data-model-2.0/) (W3C)
+* [**Signatures Technologies**](/signatures/)
+
+## ![](/assets/badges/fair-witness.png) Fair Witness Methodology
+
+**Attestation Methodology.** Can attestations be trusted? That
+question goes to the heart of digital identity. The fair witness
+methodology offers a way to ensure attestation biases are both
+recognized and minimized.
+
+For more see:
+
+* [**Fair Witness Methodology**](/fair-witness/)
+
+## ![](/assets/badges/cliques.png) Cryptographic Cliques
+
+**SSI Architure.** Cliques are a new model for SSI architecture that
+uses FROST signatures to define identity as relationships between
+entities.
+
+For more see:
+
+* [**Cliques**](/cliques/)
+
+## ![](/assets/badges/clubs.png) Gordian Clubs
+
+**SSI Communication.** Once we establish self-sovereign identity, the
+next step is self-sovereign communication: being able to talk
+privately with validation and without a controlling party being able
+to cut us off. Clubs are a proof-of-concept for doing so.
+
+For more see:
+
+* [**Clubs**](/clubs/)
+
+## ![](/assets/badges/ppp.png) Public Participation Profiles
+
+**Pseudonymous Identity.** One of the promises of self-sovereign is
+the ability to create pseudonymous identities that are not tied to
+your real-world persona, but that nonetheless are able to accrue
+attestations and endorsements and participate in public projects.
+
+For more see:
+
+* [**Public Participation Profiles**](/ppp/)
+* [**Amira Engagement Model**](https://w3c-ccg.github.io/amira/) (W3C)
+
 
