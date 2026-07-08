@@ -96,7 +96,11 @@ technology:
       url: /technology/
     - title: "Data Formats"
       url: /data-format/
-    - title: "Secure Comm"
+    - title: "Digital Identity"
+      url: /digital-identity/
+    - title: "Digital Signatures"
+      url: /signatures/
+    - title: "Secure Commo"
       url: /secure-comm/
     - title: "Specifications"
       url: https://github.com/BlockchainCommons/research/#contents
