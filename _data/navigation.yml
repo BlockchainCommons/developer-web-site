@@ -236,6 +236,11 @@ identity:
       url: /clubs/
     - title: "Public Participation"
       url: /ppp/
+attestations:
+  - title: Attestations
+    children:
+    - title: "Intro to Attestations"
+      url: /identity/attestations/
 cliques:
   - title: Cliques
     children:
