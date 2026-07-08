@@ -21,7 +21,7 @@ sidebar:
 ---
 
 
-<div class="hexline hexgrid71">
+<div class="hexline hexgrid72">
   <div class="hex11">
     <a href="/ssi/">
       <img src="/assets/badges/ssi.png">
@@ -42,7 +42,12 @@ sidebar:
       <img src="/assets/badges/attestations.png">
     </a>
   </div>
- <div class="hex41">
+  <div class="hex32 opaqued">
+    <a href="https://learningxids.blockchaincommons.com/">
+      <img src="/assets/badges/learning-xids.png">
+    </a>
+  </div>
+  <div class="hex41">
     <a href="/fair-witness/">
       <img src="/assets/badges/fair-witness.png">
     </a>
@@ -50,6 +55,11 @@ sidebar:
   <div class="hex51">
     <a href="/cliques/">
       <img src="/assets/badges/cliques.png">
+    </a>
+  </div>
+  <div class="hex52 opaqued">
+    <a href="/garner/">
+      <img src="/assets/badges/garner.png">
     </a>
   </div>
   <div class="hex61">
@@ -161,5 +171,9 @@ For more see:
 
 * [**Public Participation Profiles**](/ppp/)
 * [**Amira Engagement Model**](https://w3c-ccg.github.io/amira/) (W3C)
+
+--
+
+_Also linked from the page, the [Learning XIDs from the Command Line](https://learningxids.blockchaincommons.com/) tutorial from [courses](https://developer.blockchaincommons.com/courses/) and the [Garner](/garner/) self-sovereign identity document service from [secure commo](/secure-comm/)._
 
 
