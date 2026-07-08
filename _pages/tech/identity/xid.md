@@ -182,7 +182,7 @@ Also see the transcript on our [XID Presentation page](/xid/presentation/)
 
 {% include lib-xid.md %}
 
-## Links
+## XID Links
 
 ### Introductions
 

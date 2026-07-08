@@ -160,7 +160,7 @@ _The Blockchain Commons FROST events bring together principals in the space to a
   </tr>
 </table>
 
-## Videos
+## FROST Videos
 
 <table width="100%">
   <tr>
@@ -239,7 +239,7 @@ Blockchain Commons' 2024 & 2025 work on FROST has been sponsored by the [Human R
 
 <center><a href="https://hrf.org/"><img src="https://www.blockchaincommons.com/images/sponsors/hrf-white.png"></a></center>
 
-## Links
+## FROST Links
 
 **Intro:**
 

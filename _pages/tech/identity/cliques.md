@@ -135,7 +135,7 @@ individuals.
  
 The _Musings_ articles, ["Edge Identifiers & Cliques"](https://www.blockchaincommons.com/musings/musings-cliques-1/) and ["Open & Fuzzy Cliques"](https://www.blockchaincommons.com/musings/musings-cliques-2/) give far more details on these foundational descriptions of cryptographic cliques.
 
-## Videos
+## Cliques Videos & Presentations
 
 <center>
 <table width="100%">
@@ -154,7 +154,7 @@ The _Musings_ articles, ["Edge Identifiers & Cliques"](https://www.blockchaincom
 </table>
 </center>
   
-## Links
+## Cliques Links
 
 **Cliques:**
 

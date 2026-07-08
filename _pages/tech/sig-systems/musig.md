@@ -85,7 +85,7 @@ This two-round structure reduces interaction overhead compared to MuSig1, making
 
 MuSig2 focuses on simplicity and compactness but does not support native threshold signatures (e.g., m-of-n). Threshold signing can still be implemented using Taproot trees on Bitcoin (or similar structures elsewhere). While MuSig2 ensures accountability by making each participant’s contribution verifiable, FROST prioritizes privacy by concealing individual contributions within an quorum m-of-n signature.
 
-## Links
+## MuSig Links
 
 * [MuSig Sequence Diagrams](/musig/sequence/)
 * [MuSig2: Simple Two-Round Schnorr Multisignatures](https://medium.com/blockstream/musig2-simple-two-round-schnorr-multisignatures-bf9582e99295) (Medium article)

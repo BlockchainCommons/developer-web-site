@@ -93,7 +93,7 @@ legs quiz draw work onyx
 3. Test Provenance Marks with the [Provenance Mark CLI](https://github.com/BlockchainCommons/provenance-mark-cli-rust).
 4. Use the [rust](https://github.com/BlockchainCommons/provenance-mark-rust/tree/master/src) or [swift](https://github.com/BlockchainCommons/Provenance) library to implement Provenance Marks.
 
-## Videos
+## Provenance Mark Videos
 
 <table width="100%">
   <tr>
@@ -110,7 +110,7 @@ legs quiz draw work onyx
 
 {% include lib-pm.md %}
 
-## Links
+## Provenance Mark Links
 
 **Intro:**
 
