@@ -18,7 +18,7 @@ sidebar:
     - technology
 ---
 
-<div class="hexline hexgrid71">
+<div class="hexline hexgrid72">
   <div class="hex11">
     <a href="/ssi/">
       <img src="/assets/badges/ssi.png">
@@ -39,7 +39,12 @@ sidebar:
       <img src="/assets/badges/attestations.png">
     </a>
   </div>
- <div class="hex41 opaqued">
+  <div class="hex32">
+    <a href="https://learningxids.blockchaincommons.com/">
+      <img src="/assets/badges/learning-xids.png">
+    </a>
+  </div>
+  <div class="hex41 opaqued">
     <a href="/fair-witness/">
       <img src="/assets/badges/fair-witness.png">
     </a>
@@ -49,12 +54,17 @@ sidebar:
       <img src="/assets/badges/cliques.png">
     </a>
   </div>
+  <div class="hex52 opaqued">
+    <a href="/garner/">
+      <img src="/assets/badges/garner.png">
+    </a>
+  </div>
   <div class="hex61 opaqued">
     <a href="/clubs/">
       <img src="/assets/badges/clubs.png">
     </a>
   </div>  
-  <div class="hex71 opaquied">
+  <div class="hex71 opaqued">
     <a href="/ppp/">
       <img src="/assets/badges/ppp.png">
     </a>
