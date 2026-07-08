@@ -250,14 +250,14 @@ clubs:
     children:
     - title: "Intro to Clubs"
       url: /clubs/
+    - title: "History Overview"
+      url: /clubs/history/
     - title: "Tech Overview: Gordian"
       url: /clubs/technology/
     - title: "Tech Overview: OCAPS"
       url: /clubs/ocaps/
     - title: "The Power of Autonomy"
       url: /clubs/autonomy/
-    - title: "Xanadu History"
-      url: /clubs/history/
 xid:
   - title: Extensible Identifiers
     children:

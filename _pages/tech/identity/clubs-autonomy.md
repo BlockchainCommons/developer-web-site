@@ -2,10 +2,10 @@
 cover: false
 header:
   overlay_color: "#000"
-  overlay_filter: "0.25"
-  overlay_image: /assets/images/dev-data-background.jpg
+  overlay_filter: "0.35"
+  overlay_image: /assets/headers/tech-identity.jpg
   og_image: /assets/images/bc-card.jpg
-title: The Power of Autonomy in Gordian Clubs
+title: The Power of Autonomy
 hide_description: true
 classes:
   - wide
@@ -13,7 +13,10 @@ permalink: /clubs/autonomy/
 redirect_from:
   - /club/autonomy/
 sidebar:
-  nav: clubs
+  nav:
+    - clubs
+    - identity
+    - technology
 ---
 
 Autonomy is a fundamental design choice in Gordian Clubs: they are **autonomous cryptographic objects** that operate without any external infrastructure. Unlike traditional access control systems that require servers, databases, and network connectivity, Gordian Clubs are self-contained. They can be emailed, stored on USB drives, or even printed as QR codes. They work with air-gapped connections, during internet outages, or in censorship-heavy or adversarial environments. This isn't just a technical decision, it's a philosophical stance that shapes everything about how they work.

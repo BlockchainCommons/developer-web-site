@@ -5,7 +5,7 @@ header:
   overlay_filter: "0.35"
   overlay_image: /assets/headers/tech-identity.jpg
   og_image: /assets/images/bc-card.jpg
-title: "Tech Overview: OCAPS"
+title: "Gordian Clubs Tech Overview: OCAPS"
 hide_description: true
 classes:
   - wide

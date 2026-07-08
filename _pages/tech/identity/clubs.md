@@ -6,6 +6,7 @@ header:
   overlay_image: /assets/headers/tech-identity.jpg
   og_image: /assets/images/bc-card.jpg
 title: Gordian Clubs
+tagline: "Autonomous, Cryptographic Data Transmission"
 hide_description: true
 classes:
   - wide
@@ -165,10 +166,10 @@ this fits together.
 **Gordian Clubs:**
 
 * [Overview: Preserving Agency When Infrastructure Fails](https://www.blockchaincommons.com/musings/musings-clubs/)
-* [The Power of Autonomy](/clubs/autonomy/)
+* [History Overview: Xanadu](/clubs/history/)
 * [Tech Overview: Gordian Stack](/clubs/tech/)
 * [Tech Overview: OCAPS](/clubs/ocaps/)
-* [Project Xanadu History](/clubs/history/)
+* [The Power of Autonomy](/clubs/autonomy/)
 
 **Demos:**
 
