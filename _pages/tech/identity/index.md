@@ -16,7 +16,7 @@ redirect_from:
     - /digitalidentity/
 sidebar:
   nav:
-    - digitalid
+    - identity
     - technology
 ---
 
