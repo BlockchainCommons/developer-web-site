@@ -92,12 +92,12 @@ This complete self-attestation looks as follows:
    } [
        'signed': Signature
    ]
-```
+   ```
 
-The subject could choose to store, privately share, or publish the
-  attestation, to share or publish only a hash of the attestation, or
-  to attach it to their identity (such as linking it as an edge to a
-  XID).
+   The subject could choose to store, privately share, or publish the
+   attestation, to share or publish only a hash of the attestation, or
+   to attach it to their identity (such as linking it as an edge to a
+   XID).
 
 ## Adding Verifiable Self-Attestations
 
@@ -160,7 +160,7 @@ verifiable details to the previous `$PROJECT`.
    The signed credential has now improved the original attestation
    through additional data that is verifiable in various ways.
 
-```sh
+   ```sh
    {
        "Financial API Security Overhaul" [
            "demoVideo": URI(https://example.com/demo-with-timestamp) [
