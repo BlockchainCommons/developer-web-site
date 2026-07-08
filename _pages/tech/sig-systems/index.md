@@ -29,7 +29,7 @@ sidebar:
       <img src="/assets/badges/frost.png">
     </a>
   </div>
-  <div class="hex32top highlighted">
+  <div class="hex52top highlighted">
     <a href="/signatures/">
       <img src="/assets/badges/cat-sig-half.png">
     </a>

@@ -31,7 +31,7 @@ sidebar:
       <img src="/assets/badges/frost.png">
     </a>
   </div>
-  <div class="hex32top">
+  <div class="hex52top">
     <a href="/signatures/">
       <img src="/assets/badges/cat-sig-half.png">
     </a>

@@ -93,7 +93,7 @@ h2 img {
       width: 75px;
   }
 
-  .hex12top img, .hex32top img {
+  .hex12top img, .hex32top img, .hex52top img {
       height: 30px !important;
   }
 
@@ -128,7 +128,7 @@ h2 img {
       width: 150px;
   }
 
-  .hex12top img, .hex32top img {
+  .hex12top img, .hex32top img, .hex52top img {
       height: 60px !important;
   }
   
@@ -224,6 +224,12 @@ h2 img {
   grid-column: 9 / span 3; 
   grid-row:  3 / span 2;
 }
+
+.hex52top {
+  grid-column: 9 / span 3; 
+  grid-row:  3;
+}
+
 .hex61 {
   grid-column: 11 / span 3; 
   grid-row:  2 / span 2;
