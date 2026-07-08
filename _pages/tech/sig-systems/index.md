@@ -19,6 +19,11 @@ sidebar:
 
 
 <div class="hexline hexgrid71">
+  <div class="hex21 opaqued">
+    <a href="https://learningfrost.blockchaincommons.com/">
+      <img src="/assets/badges/learning-frost.png">
+    </a>
+  </div>  
   <div class="hex31">
     <a href="/frost/">
       <img src="/assets/badges/frost.png">
@@ -87,4 +92,7 @@ another and (if desired) that there are no gaps.
 For more see:
 
 * [**Provenance Mark**](/provemark/)
+
+_Also linked from the page, the [Learning FROST from the Command Line](https://learningfrost.blockchaincommons.com/) tutorial from [courses](https://developer.blockchaincommons.com/courses/)._
+{: .notice--info}
 
