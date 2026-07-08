@@ -234,8 +234,15 @@ identity:
       url: /cliques/
     - title: "Clubs"
       url: /clubs/
-    - title: "Pseudonymity"
+    - title: "Public Participation"
       url: /ppp/
+attestations:
+  - title: "Attestations & Endorsements"
+    children:
+    - title "Intro to Attestations"
+      url: /identity/attestations/
+    -title: "Learning Attestations (CLI)"
+      url: /identity/attestations/cli/
 cliques:
   - title: Cliques
     children:
