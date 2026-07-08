@@ -241,6 +241,8 @@ attestations:
     children:
     - title: "Intro to Attestations"
       url: /identity/attestations/
+    - title: "Learning Attestations (CLI)"
+      url: /identity/attestations/cli/     
 cliques:
   - title: Cliques
     children:
