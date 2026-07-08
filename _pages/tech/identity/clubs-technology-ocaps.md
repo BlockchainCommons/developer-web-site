@@ -2,19 +2,30 @@
 cover: false
 header:
   overlay_color: "#000"
-  overlay_filter: "0.25"
-  overlay_image: /assets/images/dev-data-background.jpg
+  overlay_filter: "0.35"
+  overlay_image: /assets/headers/tech-identity.jpg
   og_image: /assets/images/bc-card.jpg
-title: Clubs Delegation & Cryptographic ocaps
+title: "Tech Overview: OCAPS"
 hide_description: true
 classes:
   - wide
-permalink: /clubs/ocaps/
+permalink: /clulbs/tech/ocaps/
 redirect_from:
+  - /clubs/ocaps/
   - /club/ocaps/
+  - /club/technology/ocaps
+  - /clubs/technology/ocaps/
+  - /club/tech/ocaps/
 sidebar:
-  nav: clubs
+  nav:
+    - clubs
+    - identity
+    - technology
 ---
+
+_The following details how Gordian Clubs work with OCAPS. Also see the
+[Tech Overview](/clubs/tech/) for how it works with the rest of the
+Gordian Stack._
 
 ## Traditional & Cryptographic ocaps
 

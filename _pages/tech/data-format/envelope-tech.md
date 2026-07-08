@@ -5,7 +5,7 @@ header:
   overlay_filter: "0.35"
   overlay_image: /assets/headers/tech-dataformat.jpg
   og_image: /assets/images/bc-card.jpg
-title: Envelope Technical Overview
+title: "Tech Overview: Envelope"
 hide_description: true
 classes:
   - wide

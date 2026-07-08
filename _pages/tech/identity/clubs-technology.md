@@ -2,21 +2,27 @@
 cover: false
 header:
   overlay_color: "#000"
-  overlay_filter: "0.25"
-  overlay_image: /assets/images/dev-data-background.jpg
+  overlay_filter: "0.35"
+  overlay_image: /assets/headers/tech-identity.jpg
   og_image: /assets/images/bc-card.jpg
-title: Gordian Clubs Technology
+title: "Tech Overview: Gordian"
 hide_description: true
 classes:
   - wide
-permalink: /clubs/technology/
+permalink: /clubs/tech/
 redirect_from:
   - /club/technology/
+  - /clubs/technology/
 sidebar:
-  nav: clubs
+  nav:
+    - clubs
+    - identity
+    - technology
 ---
 
-Gordian Clubs are built atop the [Gordian stack](/). Following is a listing of the major building blocks.
+Gordian Clubs are built atop the [Gordian technology
+stack](/technology/). Following is a listing of the major building
+blocks.
 
 ## Data Encoding & Storage
 
@@ -65,7 +71,7 @@ Gordian Clubs are built atop the [Gordian stack](/). Following is a listing of t
 * **🖋️ Adapter Signatures**
   * Conditions embedded in signatures
   * Allows for delegation of read and write access
-  * See ["Clubs Delegation and Cryptographic ocaps"](https://developer.blockchaincommons.com/clubs/ocaps/) for more.
+  * See ["Clubs Delegation and Cryptographic ocaps"](/clubs/tech/ocaps/) for more.
  
 ## Cryptographic Maturity Levels
 

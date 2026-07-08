@@ -134,7 +134,7 @@ envelope:
       url: /envelope/summary/
     - title: "Feature Overview"
       url: /envelope/features/
-    - title: "Technical Overview"
+    - title: "Tech Overview"
       url: /envelope/tech/      
     - title: "Learning Envelope (CLI)"
       url: /envelope/cli/      
@@ -250,12 +250,12 @@ clubs:
     children:
     - title: "Intro to Clubs"
       url: /clubs/
+    - title: "Tech Overview: Gordian"
+      url: /clubs/technology/
+    - title: "Tech Overview: OCAPS""
+      url: /clubs/ocaps/
     - title: "The Power of Autonomy"
       url: /clubs/autonomy/
-    - title: "Gordian Technology"
-      url: /clubs/technology/
-    - title: "Delegation & OCAPS"
-      url: /clubs/ocaps/
     - title: "Xanadu History"
       url: /clubs/history/
 xid:

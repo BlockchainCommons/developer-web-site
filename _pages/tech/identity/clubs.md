@@ -2,8 +2,8 @@
 cover: false
 header:
   overlay_color: "#000"
-  overlay_filter: "0.25"
-  overlay_image: /assets/images/dev-data-background.jpg
+  overlay_filter: "0.35"
+  overlay_image: /assets/headers/tech-identity.jpg
   og_image: /assets/images/bc-card.jpg
 title: Gordian Clubs
 hide_description: true
@@ -13,14 +13,68 @@ permalink: /clubs/
 redirect_from:
   - /club/
 sidebar:
-  nav: clubs
+  nav:
+    - clubs
+    - identity
+    - technology
 ---
 
-## Overview
+<div class="hexline hexgrid72">
+  <div class="hex11">
+    <a href="/ssi/">
+      <img src="/assets/badges/ssi.png">
+    </a>
+  </div>
+  <div class="hex12top">
+    <a href="/identity/">
+      <img src="/assets/badges/cat-identity-half.png">
+    </a>
+  </div>
+  <div class="hex21 opaqued">
+    <a href="/xid/">
+      <img src="/assets/badges/xid.png">
+    </a>
+  </div>
+  <div class="hex31 opaqued">
+    <a href="/attestation/">
+      <img src="/assets/badges/attestations.png">
+    </a>
+  </div>
+  <div class="hex32 opaqued">
+    <a href="https://learningxids.blockchaincommons.com/">
+      <img src="/assets/badges/learning-xids.png">
+    </a>
+  </div>
+  <div class="hex41 opaqued">
+    <a href="/fair-witness/">
+      <img src="/assets/badges/fair-witness.png">
+    </a>
+  </div>
+  <div class="hex51 opaqued">
+    <a href="/cliques/">
+      <img src="/assets/badges/cliques.png">
+    </a>
+  </div>
+  <div class="hex52">
+    <a href="/garner/">
+      <img src="/assets/badges/garner.png">
+    </a>
+  </div>
+  <div class="hex61 highlighted">
+    <a href="/clubs/">
+      <img src="/assets/badges/clubs.png">
+    </a>
+  </div>  
+  <div class="hex71 opaqued">
+    <a href="/ppp/">
+      <img src="/assets/badges/ppp.png">
+    </a>
+  </div>
+</div>
 
-Gordian Clubs are **autonomous cryptographic objects** that provide read and write access to data using [permits](/envelope/features/#encryption-support).  Gordian Clubs publish individual Editions, which are updated data files verified by the publisher (or some publishing group).
+_Gordian Clubs are **autonomous cryptographic objects** that provide read and write access to data using [permits](/envelope/features/#encryption-support).  Gordian Clubs publish individual Editions, which are updated data files verified by the publisher (or some publishing group)._
 
-Here's a bit more on the major elements:
+_Here's a bit more on the major elements:_
 
 * **Autonomous.** Gordian Clubs are wholly self-contained. There's no phoning home and no verification with an external source.
 * **Cryptographic.** Access to Gordian Clubs is determined by mathematical means such as private keys and [SSKR](/sskr/) shares.
@@ -30,7 +84,11 @@ Here's a bit more on the major elements:
 * **Edition.** A Gordian Club publishes Editions, which are linked by [provenance marks](/provemark/) and signed by publishers.
 * **Publishing Group.** Though an edition can be signed by an individual, it can also be signed by a [FROST threshold](/frost/).
 
-Gordian Clubs leverage cryptographic permits (SSKR shares, FROST thresholds, XID keys), tamper-evident provenance chains, and offline operation without servers. You may want to read more on the specific [technologies](/clubs/technology/) used to create Gordian Clubs, as well as their [history](/clubs/history/).
+_Gordian Clubs leverage cryptographic permits (SSKR shares, FROST
+thresholds, XID keys), tamper-evident provenance chains, and offline
+operation without servers. You may want to read more on the specific
+[technologies](/clubs/technology/) used to create Gordian Clubs, as
+well as their [history](/clubs/history/)._
   
 ## Why Are Gordian Clubs Important?
 
@@ -39,7 +97,7 @@ _Preserving Agency When Infrastructure Fails._
 Gordian Clubs embody a radical proposition: that communities can self-organize, self-govern, and exchange their own information through cryptography alone, without asking permission, without trusting third parties, without requiring infrastructure that can be attacked, corrupted, or shut down. They trade the convenience of centralized control for the dignity of true autonomy, the requirement of asking permission for the possibility of self-determination.
 
 Use cases include:
-
+    
 * Dissidents organizing without surveillance
 * Journalists privately talking with sources
 * Long-term archival that outlives companies
@@ -47,6 +105,8 @@ Use cases include:
 * Emergency coordination during outages
 * Cooperative governance for non-profits
 * Identity without the need for state permission
+
+See ["The Power of Autonomy"](/clubs/autonomy/) for more.
 
 ## How Do Gordian Clubs Work?
 
@@ -80,7 +140,8 @@ The authenticity of an update is ensured by two things:
 1. **Provenance Mark.** A provenance mark verifies that two Editions belong to the same group and that there are no missing Editions between them.
 2. **Signature.** A publisher signs each Edition. This could be a singular publisher, but more powerfully it's the threshold of a FROST group.
 
-Again, see [Gordian Technology](/clubs/technology/) for how all of this fits together.
+Again, see [Gordian Technology](/clubs/technology/) for how all of
+this fits together.
 
 ## Clubs Videos
 
@@ -105,10 +166,9 @@ Again, see [Gordian Technology](/clubs/technology/) for how all of this fits tog
 
 * [Overview: Preserving Agency When Infrastructure Fails](https://www.blockchaincommons.com/musings/musings-clubs/)
 * [The Power of Autonomy](/clubs/autonomy/)
-* [Gordian Technology](/clubs/technology/)
-* [ocaps and Delegation](/clubs/ocaps/)
+* [Tech Overview: Gordian Stack](/clubs/tech/)
+* [Tech Overview: OCAPS](/clubs/ocaps/)
 * [Project Xanadu History](/clubs/history/)
-* [Hubert Dead-Drop Hub](/hubert/)
 
 **Demos:**
 
@@ -124,3 +184,8 @@ Again, see [Gordian Technology](/clubs/technology/) for how all of this fits tog
 
 * [clubs-rust library](https://github.com/BlockchainCommons/clubs-rust)
 * [clubs-cli-rust](https://github.com/BlockchainCommons/clubs-cli-rust)
+
+**Secure Comm PoCs:**
+
+* [Garner Tor Onion Service](/garner/)
+* [Hubert Dead-Drop Hub](/hubert/)
