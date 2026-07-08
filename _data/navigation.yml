@@ -90,7 +90,7 @@ meetings:
     - title: "ZeWIF Meetings"
       url: /chains/zcash/zewif/#meetings 
 technology:
-  - title: BC Technologies
+  - title: Technologies
     children:
     - title: "Technology Home"
       url: /technology/
@@ -216,7 +216,7 @@ ur:
     - title: "UR Playground"
       url: /ur/playground/
 identity:
-  - title: Secure Comm
+  - title: Identity
     children:
     - title: "Identity Home"
       url: /digital-identity/
