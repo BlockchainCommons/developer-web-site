@@ -221,15 +221,15 @@ identity:
   - title: Identity
     children:
     - title: "Identity Home"
-      url: /digital-identity/
+      url: /identity/
     - title: "SSI"
       url: /ssi/
     - title: "XIDs"
       url: /xid/
     - title: "Attestations"
-      url: /attestations/
+      url: /identity/attestations/
     - title: "Fair Witness"
-      url: /fair-witness/
+      url: /identity/fair-witness/
     - title: "Cliques"
       url: /cliques/
     - title: "Clubs"

@@ -10,9 +10,9 @@ tagline: Giving Users Digital Agency
 hide_description: true
 classes:
   - wide
-permalink: /digital-identity/
+permalink: /identity/
 redirect_from:
-    - /identity/
+    - /digital-identity/
     - /digitalidentity/
 sidebar:
   nav:
@@ -38,7 +38,7 @@ sidebar:
     </a>
   </div>
   <div class="hex31">
-    <a href="/attestation/">
+    <a href="/identity/attestation/">
       <img src="/assets/badges/attestations.png">
     </a>
   </div>
@@ -48,7 +48,7 @@ sidebar:
     </a>
   </div>
   <div class="hex41">
-    <a href="/fair-witness/">
+    <a href="/identity/fair-witness/">
       <img src="/assets/badges/fair-witness.png">
     </a>
   </div>
@@ -124,7 +124,7 @@ identities and public participation profiles.
 
 For more see:
 
-* [**Attestation & Endorsement Model**](/attestations/)
+* [**Attestation & Endorsement Model**](/identity/attestations/)
 * [**Verifiable Claims Data Model**](https://www.w3.org/TR/vc-data-model-2.0/) (W3C)
 * [**Signatures Technologies**](/signatures/)
 
@@ -137,7 +137,7 @@ recognized and minimized.
 
 For more see:
 
-* [**Fair Witness Methodology**](/fair-witness/)
+* [**Fair Witness Methodology**](/identity/fair-witness/)
 
 ## ![](/assets/badges/cliques.png) Cryptographic Cliques
 

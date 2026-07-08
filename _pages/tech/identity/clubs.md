@@ -37,7 +37,7 @@ sidebar:
     </a>
   </div>
   <div class="hex31 opaqued">
-    <a href="/attestation/">
+    <a href="/identity/attestation/">
       <img src="/assets/badges/attestations.png">
     </a>
   </div>
@@ -47,7 +47,7 @@ sidebar:
     </a>
   </div>
   <div class="hex41 opaqued">
-    <a href="/fair-witness/">
+    <a href="/identity/fair-witness/">
       <img src="/assets/badges/fair-witness.png">
     </a>
   </div>
