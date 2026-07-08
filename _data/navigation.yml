@@ -237,7 +237,7 @@ identity:
     - title: "Public Participation"
       url: /ppp/
 attestations:
-  - title: "Attestations & Endorsements"
+  - title: "Attestations"
     children:
     - title: "Intro to Attestations"
       url: /identity/attestations/
