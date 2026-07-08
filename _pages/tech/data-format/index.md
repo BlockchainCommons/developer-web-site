@@ -6,7 +6,7 @@ header:
   overlay_image: /assets/headers/tech-dataformat.jpg
   og_image: /assets/images/bc-card.jpg
 title: Data Format Technologies
-tagline: Ensuring Resilient and Interoperable Data
+tagline: Ensuring Resilient & Interoperable Data
 hide_description: true
 classes:
   - wide
