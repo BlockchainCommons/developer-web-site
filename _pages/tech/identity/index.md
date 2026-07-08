@@ -38,7 +38,7 @@ sidebar:
     </a>
   </div>
   <div class="hex31">
-    <a href="/identity/attestation/">
+    <a href="/identity/attestations/">
       <img src="/assets/badges/attestations.png">
     </a>
   </div>

@@ -11,6 +11,8 @@ hide_description: true
 classes:
   - wide
 permalink: /identity/attestations/
+redirect_from:
+  - /identity/attestation/
 sidebar:
   nav:
     - attestations
@@ -35,7 +37,7 @@ sidebar:
     </a>
   </div>
   <div class="hex31 highlighted">
-    <a href="/attestation/">
+    <a href="/identity/attestations/">
       <img src="/assets/badges/attestations.png">
     </a>
   </div>
@@ -185,7 +187,7 @@ A trust network can then be verified by the following steps:
 
 **Learning Attestations from the Command Line:**
 
-* [**Learning Attestations**](/attestations/cli/)
+* [**Learning Attestations**](/identity/attestations/cli/)
 * [**Learning XIDs: Making Claims**](https://learningxids.blockchaincommons.com/02_0_Claims/)
 * [**Learning XIDs: Attesting with Edges**](https://learningxids.blockchaincommons.com/03_0_Edges/)
 
