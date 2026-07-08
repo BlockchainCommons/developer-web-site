@@ -6,7 +6,7 @@ header:
   overlay_image: /assets/headers/tech-identity.jpg
   og_image: /assets/images/bc-card.jpg
 title: Attestations & Data Model
-tagline: 
+tagline: Strengthening Identity with Claims
 hide_description: true
 classes:
   - wide
