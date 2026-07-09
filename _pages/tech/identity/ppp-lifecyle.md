@@ -5,8 +5,7 @@ header:
   overlay_filter: "0.35"
   overlay_image: /assets/headers/tech-identity.jpg
   og_image: /assets/images/bc-card.jpg
-title: Public Participation Profile
-tagline: Building Pseudonymous Identity
+title: The Public Participation Profile Lifecycle
 hide_description: true
 classes:
   - wide
