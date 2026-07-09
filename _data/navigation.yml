@@ -265,6 +265,17 @@ clubs:
       url: /clubs/ocaps/
     - title: "The Power of Autonomy"
       url: /clubs/autonomy/
+ppp:
+  - title: Public Part. Profiles
+    children:
+    - title: "Intro to PPPs"
+      url: /identity/ppp/
+    - title: "Risk/Reward"
+      url: /identity/ppp/riskreward/
+    - title: "Life Cycle"
+      url: /identity/ppp/lifecycle/
+    - title: "Learning PPPs (CLI)"
+      url: /identity/ppp/cli/
 xid:
   - title: Extensible Identifiers
     children:
