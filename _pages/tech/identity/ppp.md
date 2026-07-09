@@ -44,7 +44,7 @@ sidebar:
       <img src="/assets/badges/learning-xids.png">
     </a>
   </div>
-  <div class="hex4f opaqued1">
+  <div class="hex41 opaqued">
     <a href="/identity/fair-witness/">
       <img src="/assets/badges/fair-witness.png">
     </a>
