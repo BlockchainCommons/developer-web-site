@@ -160,7 +160,7 @@ up-to-date.
 
 * [**SSKR**](/sskr/) - A way to back up your identity's keys.
 * [**CSR**](/csr/) - A way to collaboratively back up your identity's keys.
-* [**SKM**](/ckm/) - A way to collaborative create an identity's keys.
+* [**CKM**](/ckm/) - A way to collaborative create an identity's keys.
 
 **Identity Technologies:**
 
