@@ -21,8 +21,8 @@ _This short course demonstrates how to create and evolve a public
 participation profile using [XIDs](/xid/) and the Rust-based [Envelope
 CLI
 tool](https://github.com/BlockchainCommons/bc-envelope-cli-rust). A
-much more extensive example founds the basis of the [Learning XIDs
-from the Command Line](https://learningxids.blockchaincommons.com/)
+much more extensive example forms the basis of the [Learning XIDs from
+the Command Line](https://learningxids.blockchaincommons.com/)
 course._
 
 ## Creating a Public Participation Profile
@@ -84,7 +84,7 @@ VALUE_TARGET=$(envelope assertion add pred-obj string "values" string "Privacy a
 Record them as an
 [edge](https://learningxids.blockchaincommons.com/03_1_Creating_Edges/#step-3-understand-the-edge)
 in the XID, with subject (unique identifier), `isA` (description of
-the claim), `source` (who made the attestation) and `target` (who the
+the claim), `source` (who made the attestation), and `target` (who the
 attestation is about). For a self-attestation, the `source` and
 `target` are the same.
 
@@ -151,7 +151,7 @@ envelope format $XID_WITH_EDGE1
 
 ### 3. Self-Attestations of Technical Capability
 
-Add technical capability self-attestations
+Add technical capability self-attestations.
 
 ```sh
 TECH_TARGET=$(envelope subject type ur $XID_ID)
@@ -171,7 +171,7 @@ WRAPPED_TECH=$(envelope subject type wrapped $TECH_EDGE)
 SIGNED_TECH=$(envelope sign -s "$PRIVATE_KEY" "$WRAPPED_TECH")
 ```
 
-Attach it to your XID:
+Attach it to your XID.
 
 ```sh
 XID_WITH_EDGE2=$(envelope xid edge add \
@@ -360,13 +360,13 @@ CHARLENE_XID=$(echo $CHARLENE_PRVKEYS | \
 CHARLENE_XID_ID=$(envelope xid id "$CHARLENE_XID")
 ```
 
-Make a targeted claim as usual:
+Make a targeted claim as usual.
 ```
 ENDORSEMENT_TARGET=$(envelope subject type ur $XID_ID)
 ENDORSEMENT_TARGET=$(envelope assertion add pred-obj string "endorsement" string "BRadvoc8 is athoughtful and committed contributor to privacy work that protects vulnerable communities" $ENDORSEMENT_TARGET)
 ```
 
-Wrap it up as a signed edge:
+Wrap it up as a signed edge.
 ```sh
 ENDORSEMENT_EDGE=$(envelope subject type string "charlene-endorsement-07-2026")
 ENDORSEMENT_EDGE=$(envelope assertion add pred-obj known 'isA' known 'attestation' "$ENDORSEMENT_EDGE")
@@ -385,7 +385,7 @@ XID_WITH_EDGE4=$(envelope xid edge add \
   $SIGNED_ENDORSEMENT $XID_WITH_EDGE3)
 ```
 
-This version of BRadvoc8's public participation profile is complete:
+This version of BRadvoc8's public participation profile is complete.
 
 ```
 envelope format $XID_WITH_EDGE4
@@ -544,14 +544,6 @@ envelope format $PUBLIC_XID
 | ]
 ```
 
-## Next Steps
-
-- See practical implementation examples in [Public Participation Profile Examples](public-participation-profile-examples.md) [currently out of date]
-- Apply these concepts in [Tutorial 1: Your First XID](../tutorials/01-your-first-xid.md)
-- Explore [Progressive Trust Life Cycle](progressive-trust-lifecycle.md) for a structured approach to disclosure
-- Learn about [Fair Witness Approach](fair-witness-approach.md) for making credible attestations
-- Try creating different profile views with [Tutorial 3: Self-Attestation with XIDs](../tutorials/03-self-attestation-with-xids.md)
-
 ## Managing the Participation Profile Lifecycle
 
 A public participation profile can continue to change over
@@ -688,7 +680,7 @@ A XID's public key can be used to verify contributions without
 revealing identity.
 
 The following example verifies that the technical self-attestation
-remaining in the public view was signed by the XID holder.
+(the one remaining in the public view) was signed by the XID holder.
 
 
 ```sh
@@ -706,7 +698,7 @@ endorsements. This "Reputation Development" occurs after early rounds
 of the Participation Profile Lifecycle and allows for the addition of
 more endorsements over time.
 
-This comes from a new peer:
+This comes from a new peer.
 
 ```sh
 REVIEWER_PRVKEYS=$(envelope generate prvkeys --signing ed25519)
@@ -722,21 +714,21 @@ REVIEWER_XID=$(echo $REVIEWER_PRVKEYS | \
 REVIEWER_XID_ID=$(envelope xid id "$REVIEWER_XID")
 ```
 
-They write a new endorsement:
+They write a new endorsement.
 ```sh
 REVIEWER_TARGET=$(envelope subject type ur $XID_ID)
 REVIEWER_TARGET=$(envelope assertion add pred-obj string "peerEndorsement" string "Writes secure, well-tested code with clear attention to privacy-preserving patterns" $REVIEWER_TARGET)
 ```
 
-They include a bit of detail on themself:
+They include a bit of detail on themself.
 ```sh
 REVIEWER_SOURCE=$(envelope subject type ur $REVIEWER_XID_ID)
 REVIEWER_SOURCE=$(envelope assertion add pred-obj string "schema:worksFor" string "SisterSpaces" $REVIEWER_SOURCE)
 REVIEWER_SOURCE=$(envelope assertion add pred-obj string "schema:employeeRole" string "Head Security Programmer" $REVIEWER_SOURCE)
 ```
 
-They create an edge:
-```
+They create an edge.
+```sh
 REVIEWER_ARID=$(envelope generate arid -x | cut -c 1-16)
 REVIEWER_SUBJECT="peer-endorsement-from-devreviewer-$REVIEWER_ARID"
 REVIEWER_EDGE=$(envelope subject type string $REVIEWER_SUBJECT)
@@ -745,22 +737,22 @@ REVIEWER_EDGE=$(envelope assertion add pred-obj known source envelope "$REVIEWER
 REVIEWER_EDGE=$(envelope assertion add pred-obj known target envelope "$REVIEWER_TARGET" "$REVIEWER_EDGE")
 ```
 
-They sign and wrap:
+They sign and wrap it.
 ```sh
 REVIEWER_WRAPPED_EDGE=$(envelope subject type wrapped $REVIEWER_EDGE)
 REVIEWER_SIGNED_EDGE=$(envelope sign --signer "$REVIEWER_PRVKEYS" "$REVIEWER_WRAPPED_EDGE")
 ```
 
-Decide whether to add the endorsement to your XID:
+You decide whether to add the endorsement to your XID.
 
 ```sh
 XID_WITH_EDGE5=$(envelope xid edge add \
   $REVIEWER_SIGNED_EDGE $XID_WITH_EDGE4)
 ```
 
-If so, advance the provenance marker and republish
+If so, advance the provenance marker and republish.
 
-```
+```sh
 PRIVATE_XID=$(envelope xid provenance next \
     --sign inception \
     --private encrypt \
@@ -854,7 +846,7 @@ Also note that DevReviewer's edge doesn't quite look the same as
 Charlene's edge. They choose to identify their edges using different
 methodologies (one with a date, one with an ARID), they choose to
 define their edge as a "peerEndorsement" instead of a 'attestation',
-and they choose to further identify herself while Charlene did
+and they choose to further identify themself while Charlene did
 not. This is all to be expected. The iSa/source/target format provides
 some standardization, but beyond that edges can be fairly freeform
 (while attestations not directly linked to XIDs can be even more
@@ -996,9 +988,8 @@ envelope format $SIGNED_TRUST
 | ]
 ```
 
-This could have meaning either attached to a XID or published on its
-own, with the signature.
-
+This attestation could have meaning either attached to a XID or
+published on its own, with the signature.
 
 ## Check Your Understanding
 
