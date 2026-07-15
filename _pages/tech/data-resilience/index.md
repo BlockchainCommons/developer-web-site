@@ -53,71 +53,64 @@ sidebar:
   </div>  
 </div>
 
-_The Blockchain Commons technology stack includes a stack of data formats. CBOR (and variant dCBOR) are fundamental binary data serialization formats. Bytewords encodes binary objects as four-letter English words. URs and MURs turn Bytewords into self-describing data objects. Known values encode ontological concepts as unsigned integers. Finally, Gordian Envelope builds on all of that to offer a self-describing, recursive, smart-document storage format._
+_Smart Custody has been a core of Blockchain Commons from the
+beginning. Resilience is one of the [Gordian
+Principles](/principles/): users need to have secure control of their
+digital assets, including cryptocurrencies, identities, and registered
+assets._
 
-***Why?*** _Data formats are more than just wants to encode data. They also encode specific principles. Blockchain Commons' data formats embody the [Gordian principles](/principles/) in large part by ensuring that open (and interoperable) as well as resilient (and harder to confuse). They also strive to be deterministic on a variety of formats (which supports openness and interoperability) and efficient._
+_This generally falls under the rubric of [key
+management](/key-management/) and our course [Smart
+Custody](https://www.smartcustody.com/). Our stack meant to help
+protect keys is built on [SSKR](/sskr/), [CSR](/csr/), and
+[CKM](/ckm/)._
 
+## ![](/assets/badges/key-management.png) Key Management
 
-## ![](/assets/badges/bytewords.png) Bytewords
-
-**Text Format.** Bytewords translates binary objects into a series of four-letter English words. They can be used to reliably record digital secrets, but they're also a building block that transforms CBOR into URs and MURs.
-
-For more see:
-
-* [**Bytewords**](/bytewords/)
-* [**BCR-2020-012**](https://github.com/BlockchainCommons/Research/blob/master/papers/bcr-2020-012-bytewords.md) (Research Repo)
-
-## ![](/assets/badges/cbor.png) CBOR
-
-**Binary Format.** CBOR is an IETF data format (RFC 8949) that we have adopted as the fundamental data representation for higher-level Blockchain Commons data formats such as Gordian Envelope and URs.
-
-For more see:
-
-* [**CBOR**](/cbor/)
-* [**RFC8949**](https://www.rfc-editor.org/info/rfc8949/) (RFC Editor)
-
-## ![](/assets/badges/dcbor.png) dCBOR
-
-**Binary Format.** dCBOR stands for Deterministic CBOR. It's our own variant of CBOR that always encodes the same on any platform. It's a necessary building block for using CBOR as the foundation of a deterministic storage system like Gordian Envelope.
+**Best Practices.** How do you keep your keys safe? These best
+practices discuss the topic, with examples using XID keys.
 
 For more see:
 
-* [**dCBOR**](/dcbor/)
-* [**draft-mcnally-deterministic-cbor Internet-Draft**](https://datatracker.ietf.org/doc/draft-mcnally-deterministic-cbor/) (Data Tracker)
+* [**Key Management**](/key-management/)
 
-## ![](/assets/badges/envelope.png) Gordian Envelope
+## ![](/assets/badges/smart-custody.png) Smart Custody
 
-**Data Format.** Envelope is the culmination of many of Blockchain Commons' other data formats. It's build on dCBOR and can be encoded as a UR. It's goal is to provide "smart document" storage. Arbitrary, recursive data storage is permitted, and anything can be encrypted or elided without damaging signatures.
-
-For more see:
-
-* [**Envelope**](/envelope/)
-* [**draft-mcnally-envelope Internet-Draft**](https://datatracker.ietf.org/doc/draft-mcnally-envelope/) (Data Tracker)
-
-## ![](/assets/badges/known-values.png) Known Values
-
-**Concept Encoding.** Known Values correlate ontological concepts to integer values, allowing for efficient and standardized recording of common, repeated concepts.
+**Course.** The Smart Custody course include the Smart Custody book,
+which takes you step-by-step through the planning and mechanics of
+securing cryptocurrency, and additional smart custody papers focusing
+on SSKR, multisig, and other data resilience technologies.
 
 For more see:
 
-* [**Known Values**](/known-value/)
-* [**BCR-2023-002**](https://github.com/BlockchainCommons/Research/blob/master/papers/bcr-2023-002-known-value.md) (Research Repo)
+* [**Smart Custody Overview**](https://www.smartcustody.com/)
+* [**Smart Custody Book**](https://www.smartcustody.com/#the-book)
 
-## ![](/assets/badges/ur.png) UR: Uniform Resources
+## ![](/assets/badges/ckm.png) Collaborative Key Management (CKM)
 
-**URI Format.** URs utilize a minimalistic form of Bytewords to efficiently record binary data as text in a way that's interoperable and self-describing.
-
-For more see:
-
-* [**URs**](/ur/)
-* [**BCR-2020-005**](https://github.com/BlockchainCommons/Research/blob/master/papers/bcr-2020-005-ur.md) (Research Repo)
-
-## ![](/assets/badges/mur.png) MUR: Multipart UR
-
-**URI Format.** Multipart URs break URs into multiple pieces to allow for the transmission of smaller data sets, which is important when URs are used for communications as QR codes.
+**Resilient Key Storage.** CKM is a technology that will allow you to
+create and maintain a sharded key. It is available for exemplar usage
+with [FROST](/frost/) signatures.
 
 For more see:
 
-* [**MURs**](/ur/mur/)
-* [**BCR-2024-001**](https://github.com/BlockchainCommons/Research/blob/master/papers/bcr-2024-001-multipart-ur.md) (Research Repo)
+* [**CKM**](/ckm/)
 
+## ![](/assets/badges/csr.png) Collaborative Seed Recovery
+
+**Resilience Seed Storage.** CSR is a methodology for storing and
+recovering key shards from public shard servers.
+
+For more see:
+
+* [**CSR**](/csr/)
+
+## ![](/assets/badges/sskr.png) SSKR
+
+**Key Sharding.** SSKR is an expansion of Shamir's Secret Sharing,
+which allows you to shard a secret and recover it from a subset of the
+shares. (Our expansion also supports groups.)
+
+For more see:
+
+* [**SSKR**](/sskr/)
