@@ -17,21 +17,79 @@ sidebar:
     - technology
 ---
 
-## Overview
+<div class="hexline hexgrid72">
+  <div class="hex11 opaqued">
+    <a href="/bytewords/">
+      <img src="/assets/badges/bytewords.png">
+    </a>
+  </div>
+  <div class="hex12top">
+    <a href="/data-formats/">
+      <img src="/assets/badges/cat-dataformat-half.png">
+    </a>
+  </div>
+  <div class="hex21 opaqued">
+    <a href="/cbor/">
+      <img src="/assets/badges/cbor.png">
+    </a>
+  </div>
+  <div class="hex31 opaqued">
+    <a href="/dcbor/">
+      <img src="/assets/badges/dcbor.png">
+    </a>
+  </div>
+ <div class="hex41">
+    <a href="/envelope/">
+      <img src="/assets/badges/envelope.png">
+    </a>
+  </div>
+  <div class="hex51">
+    <a href="/known-values/">
+      <img src="/assets/badges/known-values.png">
+    </a>
+  </div>
+  <div class="hex61 opaqued">
+    <a href="/ur/">
+      <img src="/assets/badges/ur.png">
+    </a>
+  </div>  
+  <div class="hex71 opaqued">
+    <a href="/mur/">
+      <img src="/assets/badges/mur.png">
+    </a>
+  </div>
+  <div class="hex32">
+    <a href="/envelope/esc/">
+      <img src="/assets/badges/esc.png">
+    </a>
+  </div>
+  <div class="hex52 highlighted">
+    <a href="/envelope/gstp/">
+      <img src="/assets/badges/gstp.png">
+    </a>
+  </div>
+</div>
 
-Gordian Sealed Transaction Protocol (GSTP) is a secure, distributed, transport-agnostic communication method for two or more parties built on the [Gordian Envelope](/envelope/) specification. 
+_Gordian Sealed Transaction Protocol (GSTP) is a secure, distributed,
+transport-agnostic communication method for two or more parties built
+on the [Gordian Envelope](/envelope/) specification._
 
-This means:
+_This means:_
 
 * **Secure.** Messages are protected by both signatures and encryption.
 * **Distributed.** State is securely preserved as part of the messages.
 * **Transport-Agnostic.** Less secure or less reliable transportation methods such as Bluetooth, NFCs, or QRs can be used. Even sneaker net!
 
-GSTP allows for the transmission of data where the sender needs to be verified and/or the data needs to be protected.
+_GSTP allows for the transmission of data where the sender needs to be
+verified and/or the data needs to be protected._
 
 <img src="/assets/images/gstp-overview.jpeg" style="border: 2px solid white !important">
 
-GSTP support encryption, signatures, and [Encrypted State Continuations (ESC)](/envelope/esc/) for stateless scalability, GSTP works in client-server or peer-to-peer architectures, transforming any insecure channel into cryptographically secured pipes without requiring trusted infrastructure or intermediaries.
+_GSTP support encryption, signatures, and [Encrypted State
+Continuations (ESC)](/envelope/esc/) for stateless scalability, GSTP
+works in client-server or peer-to-peer architectures, transforming any
+insecure channel into cryptographically secured pipes without
+requiring trusted infrastructure or intermediaries._
 
 ## Why is GSTP Important?
 

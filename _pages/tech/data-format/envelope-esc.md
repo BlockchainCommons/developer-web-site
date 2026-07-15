@@ -17,9 +17,64 @@ sidebar:
     - technology
 ---
 
-## Overview
+<div class="hexline hexgrid72">
+  <div class="hex11 opaqued">
+    <a href="/bytewords/">
+      <img src="/assets/badges/bytewords.png">
+    </a>
+  </div>
+  <div class="hex12top">
+    <a href="/data-formats/">
+      <img src="/assets/badges/cat-dataformat-half.png">
+    </a>
+  </div>
+  <div class="hex21 opaqued">
+    <a href="/cbor/">
+      <img src="/assets/badges/cbor.png">
+    </a>
+  </div>
+  <div class="hex31 opaqued">
+    <a href="/dcbor/">
+      <img src="/assets/badges/dcbor.png">
+    </a>
+  </div>
+ <div class="hex41">
+    <a href="/envelope/">
+      <img src="/assets/badges/envelope.png">
+    </a>
+  </div>
+  <div class="hex51">
+    <a href="/known-values/">
+      <img src="/assets/badges/known-values.png">
+    </a>
+  </div>
+  <div class="hex61 opaqued">
+    <a href="/ur/">
+      <img src="/assets/badges/ur.png">
+    </a>
+  </div>  
+  <div class="hex71 opaqued">
+    <a href="/mur/">
+      <img src="/assets/badges/mur.png">
+    </a>
+  </div>
+  <div class="hex32 highlighted">
+    <a href="/envelope/esc/">
+      <img src="/assets/badges/esc.png">
+    </a>
+  </div>
+  <div class="hex52">
+    <a href="/envelope/gstp/">
+      <img src="/assets/badges/gstp.png">
+    </a>
+  </div>
+</div>
 
-Encrypted State Continuation (ESC) is a feature of [Gordian Sealed Transaction Protocol (GSTP)](/envelope/gstp) that allows for the distributed storage of state during the communication process. This means that the state of a process doesn't have to be stored locally but instead is incorporated into the communication itself.
+_Encrypted State Continuation (ESC) is a feature of [Gordian Sealed
+Transaction Protocol (GSTP)](/envelope/gstp) that allows for the
+distributed storage of state during the communication process. This
+means that the state of a process doesn't have to be stored locally
+but instead is incorporated into the communication itself._
 
 ## Why is ESC Important?
 

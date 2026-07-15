@@ -20,7 +20,7 @@ redirect_from:
   - /envelope/overview/
 ---
 
-<div class="hexline hexgrid71">
+<div class="hexline hexgrid72">
   <div class="hex11 opaqued">
     <a href="/bytewords/">
       <img src="/assets/badges/bytewords.png">
@@ -46,7 +46,7 @@ redirect_from:
       <img src="/assets/badges/envelope.png">
     </a>
   </div>
-  <div class="hex51 highlighted">
+  <div class="hex51">
     <a href="/known-values/">
       <img src="/assets/badges/known-values.png">
     </a>
@@ -59,6 +59,16 @@ redirect_from:
   <div class="hex71 opaqued">
     <a href="/mur/">
       <img src="/assets/badges/mur.png">
+    </a>
+  </div>
+  <div class="hex32">
+    <a href="/envelope/esc/">
+      <img src="/assets/badges/esc.png">
+    </a>
+  </div>
+  <div class="hex52">
+    <a href="/envelope/gstp/">
+      <img src="/assets/badges/gstp.png">
     </a>
   </div>
 </div>
