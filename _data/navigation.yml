@@ -220,13 +220,13 @@ ur:
     - title: "UR Playground"
       url: /ur/playground/
 dataresilience:
-  - title: Data Resilience
+  - title: "Data Resilience"
     children:
     - title: "Resilience Home"
       url: /data-resilience/
     - title: "Collaborative Key Management"
       url: /ckm/
-    - title: "Collaborative Seed Recovery""
+    - title: "Collaborative Seed Recovery"
       url: /csr/
     - title: "SSKR (Shamir)"
       url: /sskr/
