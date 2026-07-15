@@ -2,61 +2,115 @@
 cover: false
 header:
   overlay_color: "#000"
-  overlay_filter: "0.25"
-  overlay_image: /assets/images/dev-seed-background.jpg
+  overlay_filter: "0.35"
+  overlay_image: /assets/headers/tech-dataresilience.jpg
   og_image: /assets/images/bc-card.jpg
-title: "CSR: Collaborative Seed Recovery"
+title: "Collaborative Seed Recovery (CSR)"
+tagline: "Keeping Seeds Safe with SSKR"
 hide_description: true
 classes:
   - wide
 permalink: /csr/
 sidebar:
-  nav: csr
+  nav:
+    - csr
+    - dataresilience
+    - technology
 redirect_from:
   - /csr/overview/
 ---
 
-## Overview
+<div class="hexline hexgrid71">
+  <div class="hex21 opaqued">
+    <a href="/ckm/">
+      <img src="/assets/badges/ckm.png">
+    </a>
+  </div>
+  <div class="hex31 highlighted">
+    <a href="/csr/">
+      <img src="/assets/badges/csr.png">
+    </a>
+  </div>
+  <div class="hex32top">
+    <a href="/data-formats/">
+      <img src="/assets/badges/cat-dataresilience-half.png">
+    </a>
+  </div>
+  <div class="hex41">
+    <a href="/sskr/">
+      <img src="/assets/badges/sskr.png">
+    </a>
+  </div>
+  <div class="hex51 opaqued">
+    <a href="/keys/">
+      <img src="/assets/badges/key-management.png">
+    </a>
+  </div>
+  <div class="hex61 opaqued">
+    <a href="https://www.smartcustody.com/">
+      <img src="/assets/badges/smart-custody.png">
+    </a>
+  </div>  
+</div>
 
-<a href="/core-stack/"><img src="https://developer.blockchaincommons.com/assets/images/bc-stack-core-csr.png" style="float: right; margin-left: 20px;" width="25%"></a>
 
-CSR allows for the recovery of seeds and other secrets by dividing
+_CSR allows for the recovery of seeds and other secrets by dividing
 responsibility for recovery up between multiple devices, some (but not
 all) of which will be necessary for recovery. Its baseline recovery
 mechanism uses self-sovereign recovery (controlled entirely by the
 user), while more advanced scenarios allow for social key recovery
 (supported by friends or family). Backup is meant to be largely
 automated, especially in the baseline scenario, while recovery may
-require some user intervention.
+require some user intervention._
 
-One of the advantages of CSR over traditional social key recovery is
+_One of the advantages of CSR over traditional social key recovery is
 that you don't have to choose friends or family that you trust. Though
 you can do so in advanced scenarios, you can also entrust fragments of
 keys to companies running share servers. You don't have to worry about
-them stealing keys, because you're only giving them individual
-shares, but you can trust that they'll likely still be around when
-you need to reconstruct your key.
+them stealing keys, because you're only giving them individual shares,
+but you can trust that they'll likely still be around when you need to
+reconstruct your key._
 
-CSR can be operated in different ways by different servers, provided that they all agree on a format for communication, which is Blockchain Commons [Gordian Sealed Transaction Protocol (GSTP)](/envelope/gstp/).
+_CSR can be operated in different ways by different servers, provided
+that they all agree on a format for communication, which is Blockchain
+Commons [Gordian Sealed Transaction Protocol
+(GSTP)](/envelope/gstp/)._
 
 ## Why is CSR Important?
 
-The most dangerous [adversary](https://www.smartcustody.com/) facing self-sovereign digital-asset holders is not theft but loss. Losing a seed typically means the lost of all the funds locked with its keys, and history has already proven that this is a very real threat.
+The most dangerous [adversary](https://www.smartcustody.com/) facing
+self-sovereign digital-asset holders is not theft but loss. Losing a
+seed typically means the lost of all the funds locked with its keys,
+and history has already proven that this is a very real threat.
 
-CSR is built to address this threat by increasing the [Resilience](/principles/) of seeds. It does so by using Shamir's Secret Sharing, which shards a seed, and then only requires some of those shares to reconstruct the seed. That means that one of more shares can usually be lost (depending on [how they're constructed](https://github.com/BlockchainCommons/SmartCustody/blob/master/Docs/SSKR-Sharing.md), and the seed is not, which is a huge improvement over the all-or-nothing approach when you're just holding a seed.
+CSR is built to address this threat by increasing the
+[Resilience](/principles/) of seeds. It does so by using Shamir's
+Secret Sharing, which shards a seed, and then only requires some of
+those shares to reconstruct the seed. That means that one of more
+shares can usually be lost (depending on [how the threshold is
+constructed](https://github.com/BlockchainCommons/SmartCustody/blob/master/Docs/SSKR-Sharing.md),
+and the seed is not, which is a huge improvement over the
+all-or-nothing approach when you're just holding a seed.
 
-Other similar approaches have appeared, most notably Ledger Recover, but they undercut the very self-sovereign nature of self-sovereign holding of digital assets by taking choices away from users. CSR instead ensures that **You Decide.** You choose who holds your shares, whether they be corporations with strict KYC requirements (as with Ledger Recover), companies with more privacy-preserving principles, other users who you swap shares with, or your own self-sovereign storage of shares on paper, steel, or something else.
+Other similar approaches have appeared, most notably Ledger Recover,
+but they undercut the personal agency that should be present in the
+self-sovereign holding of digital assets by taking choices away from
+users. CSR instead ensures that **You Decide.** You choose who holds
+your shares, whether they be corporations with strict KYC requirements
+(as with Ledger Recover), companies with more privacy-preserving
+principles, other users who you swap shares with, or your own
+self-sovereign storage of shares on paper, steel, or something else.
 
 ## How Does CSR Work?
 
-CSR is a two-part process. Sharding of a seed allows storage, then reconstruction of a seed allows recovery.
+CSR is a two-part process. Sharding of a seed allows storage, then
+reconstruction of a seed allows recovery.
 
-Storage occurs in a wallet of seed storage app. When a user
-chooses to backup a seed, it will automatically shard the seed and
-send those shares off to selected Share Servers. When a user wishes to assert
+Storage occurs in a wallet of seed storage app. When a user chooses to
+backup a seed, it will automatically shard the seed and send those
+shares off to selected Share Servers. When a user wishes to assert
 more agency, they can choose where those shares are stored, or even
 take them offline.
-
 
 Recovery requires the user to authenticate using
 different, predetermined methods with each Share Server. They can
@@ -64,7 +118,8 @@ include everything from passwords and email responses to personal
 identification. Each authentication retrieves a share, and when
 sufficient shares have been retrieved, the seed is reconstructed.
 
-CSR is an apex applications that uses a variety of Blockchain Commons specifications.
+CSR is a capstone applications that uses a variety of Blockchain
+Commons specifications.
 
 * [**SSKR.**](/sskr/) Seeds are sharded with SSKR, which is a seed-sharding library that currently supports an expanded version of Shamir's Secret Sharing that allows for grouping of shares.
 * [**Envelope.**](/envelope/) SSKR shares of seeds are stored in Envelopes, which is a Smart Document format that allows for the storage of both the seed and related metadata and later allows the elision of some of that data if preferred by the holder.
@@ -132,32 +187,32 @@ Envelope._
 
 **Intro:**
 
-* [Architectural Overview](/csr/architecture/)
+* [**Architectural Overview**](/csr/architecture/)
 
 **Components Intro:**
 
-* [Envelope](/envelope/)
-   * [Attachments](https://github.com/BlockchainCommons/Research/blob/master/papers/bcr-2023-006-envelope-attachment.md)
-* [SSKR](/sskr/)
-* [Gordian Sealed Transaction Protocol (GSTP)](/envelope/gstp/)
-   * [Encrypted State Continuation (ESC)](/envelope/esc/)
-* [Schnorr](https://www.blockchaincommons.com/musings/Schnorr-Intro/) (blog post)
-* [ZF FROST](https://frost.zfnd.org/frost.html) (ZF FROST Docs)
+* [**Envelope**](/envelope/)
+   * [**Attachments**](https://github.com/BlockchainCommons/Research/blob/master/papers/bcr-2023-006-envelope-attachment.md)
+* [**SSKR**](/sskr/)
+* [**Gordian Sealed Transaction Protocol (GSTP)**](/envelope/gstp/)
+   * [**Encrypted State Continuation (ESC)**](/envelope/esc/)
+* [**Schnorr**](https://www.blockchaincommons.com/musings/Schnorr-Intro/) (blog post)
+* [**FROST**](/frost/)
 
 **Next Step Intro:**
 
-* [CKM](/ckm/)
+* [**CKM**](/ckm/)
 
 **Developer Resources:**
 
-* [Sequence Diagram](https://github.com/BlockchainCommons/developer-web-site/blob/master/_pages/csr-sequence-diagram.md) (GitHub repo)
+* [**Sequence Diagram**](https://github.com/BlockchainCommons/developer-web-site/blob/master/_pages/csr-sequence-diagram.md) (GitHub repo)
 
 **Developer Reference Apps:**
 
-* [Gordian Depository](https://github.com/BlockchainCommons/bc-depo-rust)
-   * [Gordian Depository API](https://github.com/BlockchainCommons/bc-depo-api-rust)
-* [Gordian SeedTool](https://github.com/BlockchainCommons/GordianSeedTool-iOS) (app implementation)
+* [**Gordian Depository**](https://github.com/BlockchainCommons/bc-depo-rust)
+   * [**Gordian Depository API**](https://github.com/BlockchainCommons/bc-depo-api-rust)
+* [**Gordian SeedTool**](https://github.com/BlockchainCommons/GordianSeedTool-iOS) (app implementation)
 
 **Use Cases:**
 
-* [Progressive Use Cases](/csr/use-cases/)
+* [**Progressive Use Cases**](/csr/use-cases/)

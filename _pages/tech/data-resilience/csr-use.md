@@ -2,14 +2,17 @@
 cover: false
 header:
   overlay_color: "#000"
-  overlay_filter: "0.25"
-  overlay_image: /assets/images/dev-seed-background.jpg
+  overlay_filter: "0.35"
+  overlay_image: /assets/headers/tech-dataresilience.jpg
   og_image: /assets/images/bc-card.jpg
 title: "CSR Progressive Use Cases"
 hide_description: true
 permalink: /csr/use-cases/
 sidebar:
-  nav: csr
+  nav:
+    - csr
+    - dataresilience
+    - technology
 toc: true
 toc_title: Use Cases
 ---

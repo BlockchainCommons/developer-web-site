@@ -2,8 +2,8 @@
 cover: false
 header:
   overlay_color: "#000"
-  overlay_filter: "0.25"
-  overlay_image: /assets/images/dev-seed-background.jpg
+  overlay_filter: "0.35"
+  overlay_image: /assets/headers/tech-dataresilience.jpg
   og_image: /assets/images/bc-card.jpg
 title: "CSR Sequence Diagram"
 hide_description: true
@@ -11,7 +11,10 @@ classes:
   - wide
 permalink: /csr/sequence-diagram/
 sidebar:
-  nav: csr
+  nav:
+    - csr
+    - dataresilience
+    -technology
 ---
 
 This set of exemplar sequence diagrams for a CSR Share Servers assumes the sample API from [ExampleStore](https://github.com/BlockchainCommons/BCSwiftFoundation/blob/d355f0847d8bea9bac5fba8ddfdb8c29c281f9f7/Tests/BCFoundationTests/ExampleStore/ExampleStore.swift). It is not necessarily the only way to construct the flow of similar functions.

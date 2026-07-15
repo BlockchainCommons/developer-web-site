@@ -224,11 +224,11 @@ dataresilience:
     children:
     - title: "Resilience Home"
       url: /data-resilience/
-    - title: "CKM"
+    - title: "Collaborative Key Management"
       url: /ckm/
-    - title: "CSR"
+    - title: "Collaborative Seed Recovery""
       url: /csr/
-    - title: "SSKR"
+    - title: "SSKR (Shamir)"
       url: /sskr/
     - title: "Key Management"
       url: /key-management/
