@@ -10,6 +10,9 @@ hide_description: true
 classes:
   - wide
 permalink: /keys/best-practices/
+redirect_from:
+  - /key-management/best-practices/
+  - /keymanagement/bestpractices/
 sidebar:
   nav:
     - keymanagement

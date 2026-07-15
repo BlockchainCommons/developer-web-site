@@ -11,6 +11,8 @@ hide_description: true
 classes:
   - wide
 permalink: /keys/cli/
+redirect_from:
+  - /key-management/cli/
 sidebar:
   nav:
     - keymanagement

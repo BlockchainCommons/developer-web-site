@@ -11,6 +11,9 @@ hide_description: true
 classes:
   - wide
 permalink: /keys/
+redirect_from:
+  - /key-management/
+  - /keymanagement/
 sidebar:
   nav:
     - keymanagement
