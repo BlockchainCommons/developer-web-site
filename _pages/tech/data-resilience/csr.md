@@ -205,7 +205,7 @@ Envelope._
 
 **Developer Resources:**
 
-* [**Sequence Diagram**](https://github.com/BlockchainCommons/developer-web-site/blob/master/_pages/csr-sequence-diagram.md) (GitHub repo)
+* [**Sequence Diagram**](https://github.com/BlockchainCommons/developer-web-site/blob/master/_pages/tech/data-resilience/csr-sequence-diagram.md) (GitHub repo)
 
 **Developer Reference Apps:**
 
