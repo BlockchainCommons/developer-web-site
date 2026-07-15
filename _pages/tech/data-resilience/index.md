@@ -53,17 +53,24 @@ sidebar:
   </div>  
 </div>
 
-_Smart Custody has been a core of Blockchain Commons from the
+_Data resilience has been a core of Blockchain Commons from the
 beginning. Resilience is one of the [Gordian
 Principles](/principles/): users need to have secure control of their
 digital assets, including cryptocurrencies, identities, and registered
-assets._
-
-_This generally falls under the rubric of [key
+assets.  Data resilience generally falls under the rubric of [key
 management](/key-management/) and our course [Smart
 Custody](https://www.smartcustody.com/). Our stack meant to help
-protect keys is built on [SSKR](/sskr/), [CSR](/csr/), and
-[CKM](/ckm/)._
+protect keys, seeds, and other secrets is built on [SSKR](/sskr/),
+[CSR](/csr/), and [CKM](/ckm/)._
+
+***Why?*** _Self-sovereign technologies depend on cryptography and
+other trustless technologies to avoid centralization and to ensure
+that you stay in control of your identity and assets. However, that
+also means that there's no customer-service fallback: no one will help
+you recover your identity or assets if you lose the seeds or keys that
+control them. These data resilience technologies are about creating
+technological fallbacks (and offering best practices and other advice
+as well)._
 
 ## ![](/assets/badges/key-management.png) Key Management
 
@@ -89,8 +96,8 @@ For more see:
 ## ![](/assets/badges/ckm.png) Collaborative Key Management (CKM)
 
 **Resilient Key Storage.** CKM is a technology that will allow you to
-create and maintain a sharded key. It is available for exemplar usage
-with [FROST](/frost/) signatures.
+create, maintain, and use a sharded key. It is available for exemplar
+usage with [FROST](/frost/) signatures.
 
 For more see:
 
@@ -108,7 +115,7 @@ For more see:
 ## ![](/assets/badges/sskr.png) SSKR
 
 **Key Sharding.** SSKR is an expansion of Shamir's Secret Sharing,
-which allows you to shard a secret and recover it from a subset of the
+that allows you to shard a secret and recover it from a subset of the
 shares. (Our expansion also supports groups.)
 
 For more see:
