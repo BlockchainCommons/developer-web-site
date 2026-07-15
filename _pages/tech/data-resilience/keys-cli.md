@@ -387,9 +387,6 @@ envelope format $SIGNED_NOTIFICATION
 Here's what the new XID looks like:
 
 ```sh
-
-Result:
-```
 envelope format $ROTATED_XID
 
 | XID(20870a4f) [
