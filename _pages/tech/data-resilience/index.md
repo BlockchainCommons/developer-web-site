@@ -22,13 +22,13 @@ sidebar:
 
 <div class="hexline hexgrid71">
   <div class="hex21">
-    <a href="/csr/">
-      <img src="/assets/badges/csr.png">
+    <a href="/ckm/">
+      <img src="/assets/badges/ckm.png">
     </a>
   </div>
   <div class="hex31">
-    <a href="/ckm/">
-      <img src="/assets/badges/ckm.png">
+    <a href="/csr/">
+      <img src="/assets/badges/csr.png">
     </a>
   </div>
   <div class="hex32top highlighted">
