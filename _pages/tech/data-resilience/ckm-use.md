@@ -2,16 +2,19 @@
 cover: false
 header:
   overlay_color: "#000"
-  overlay_filter: "0.25"
-  overlay_image: /assets/images/dev-seed-background.jpg
+  overlay_filter: "0.35"
+  overlay_image: /assets/images/tech-dataresilience.jpg
   og_image: /assets/images/bc-card.jpg
 title: "CKM Comparative Use Cases"
 hide_description: true
 permalink: /ckm/use-cases/
 sidebar:
-  nav: csr
-toc: true
-toc_title: Use Cases
+  nav:
+    - ckm
+    - dataresilience
+    - technology
+classes:
+  - wide
 ---
 
 The following examples build from usages of the legacy CSR system to a more comprehensive example that demonstrates the differences possible with CKM.

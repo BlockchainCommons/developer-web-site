@@ -127,21 +127,6 @@ dataformat:
       url: /ur/
     - title: "MUR"
       url: /ur/mur/
-dataresilience:
-  - title: Data Resilience
-    children:
-    - title: "Data Res. Home"
-      url: /data-resilience/
-    - title: "CKM"
-      url: /ckm/
-    - title: "CSR"
-      url: /csr/
-    - title: "SSKR"
-      url: /sskr/
-    - title: "Key Management"
-      url: /key-management/
-    - title: "Smart Custody"
-      url: https://www.smartcustody.com/
 envelope:
   - title: Gordian Envelope
     children:
@@ -234,6 +219,54 @@ ur:
       url: /ur/implementations/
     - title: "UR Playground"
       url: /ur/playground/
+dataresilience:
+  - title: Data Resilience
+    children:
+    - title: "Resilience Home"
+      url: /data-resilience/
+    - title: "CKM"
+      url: /ckm/
+    - title: "CSR"
+      url: /csr/
+    - title: "SSKR"
+      url: /sskr/
+    - title: "Key Management"
+      url: /key-management/
+    - title: "Smart Custody"
+      url: https://www.smartcustody.com/
+ckm:
+  - title: CKM
+    children:
+    - title: "Intro to CKM"
+      url: /ckm/
+    - title: "Architectural Overview"
+      url: /ckm/architecture/
+    - title: "CKM Use Cases"
+      url: /ckm/use-cases
+csr:
+  - title: CSR
+    children:
+    - title: "Intro to CSR"
+      url: /csr/
+    - title: "CSR FAQ"
+      url: /csr/faq/
+    - title: "Architectural Overview"
+      url: /csr/architecture/
+    - title: "CSR Use Cases"
+      url: /csr/use-cases
+sskr:
+  - title: SSKR
+    children:
+    - title: "Intro to SSKR"
+      url: /sskr/
+    - title: "SSKR FAQ"
+      url: /sskr/faq/
+    - title: "SSKR Lexicon"
+      url: /sskr/lexicon/
+    - title: "SSKR Test Vectors"
+      url: /sskr/vectors/
+    - title: "SSKR Use Cases"
+      url: /sskr/use-cases/cold/
 identity:
   - title: Identity
     children:
@@ -461,52 +494,6 @@ stack-ux:
       url: /oib/
     - title: "Uniform Resources (URs)"
       url: /ur/
-ckm:
-  - title: CKM
-    children:
-    - title: "Intro to CKM"
-      url: /ckm/
-    - title: "Architectural Overview"
-      url: /ckm/architecture/
-    - title: "Use Cases"
-      url: /ckm/use-cases
-    - title: "Return to Crypto Stack"
-      url: /crypto-stack/
-csr:
-  - title: CSR
-    children:
-    - title: "Intro to CSR"
-      url: /csr/
-    - title: "CSR FAQ"
-      url: /csr/faq/
-    - title: "Architectural Overview"
-      url: /csr/architecture/
-    - title: "Use Cases"
-      url: /csr/use-cases
-    - title: "Return to Core Stack"
-      url: /core-stack/
-dcbor:
-  - title: dCBOR
-    children:
-    - title: "Intro to dCBOR"
-      url: /dcbor/
-    - title: "Return to Core Stack"
-      url: /core-stack/
-sskr:
-  - title: SSKR
-    children:
-    - title: "Intro to SSKR"
-      url: /sskr/
-    - title: "SSKR FAQ"
-      url: /sskr/faq/
-    - title: "SSKR Lexicon"
-      url: /sskr/lexicon/
-    - title: "Test Vectors"
-      url: /sskr/vectors/
-    - title: "Use Case"
-      url: /sskr/use-cases/cold/
-    - title: "Return to Crypto Stack"
-      url: /crypto-stack/
 zcash:
   - title: Zcash
     children:
