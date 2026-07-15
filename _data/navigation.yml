@@ -254,6 +254,14 @@ csr:
       url: /csr/architecture/
     - title: "CSR Use Cases"
       url: /csr/use-cases
+keymanagement:
+  - title: Key Management
+    children:
+    - title: "Intro to Keys"
+      url: /keys/
+    - title: "Key Best Practices"
+      url: /keys/cli/
+    - title: "Learning Key Hierarchies (CLI)"
 sskr:
   - title: SSKR
     children:
