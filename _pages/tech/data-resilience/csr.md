@@ -51,6 +51,11 @@ redirect_from:
       <img src="/assets/badges/smart-custody.png">
     </a>
   </div>  
+  <div class="hex71">
+    <a href="/envelope/">
+      <img src="/assets/badges/envelope.png">
+    </a>
+  </div>
 </div>
 
 

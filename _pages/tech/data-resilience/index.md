@@ -51,6 +51,11 @@ sidebar:
       <img src="/assets/badges/smart-custody.png">
     </a>
   </div>  
+  <div class="hex71 opaqued">
+    <a href="/envelope/">
+      <img src="/assets/badges/envelope.png">
+    </a>
+  </div>
 </div>
 
 _Data resilience has been a core of Blockchain Commons from the

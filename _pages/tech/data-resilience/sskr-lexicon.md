@@ -2,8 +2,8 @@
 cover: false
 header:
   overlay_color: "#000"
-  overlay_filter: "0.25"
-  overlay_image: /assets/images/dev-seed-background.jpg
+  overlay_filter: "0.35"
+  overlay_image: /assets/headers/tech-dataresilience.jpg
   og_image: /assets/images/bc-card.jpg
 title: "SSKR Lexicon"
 hide_description: true
@@ -13,7 +13,9 @@ permalink: /sskr/lexicon/
 sidebar:
   nav:
     - sskr
-    - seedlayer
+    - dataresilience
+    - technology
+    
 ---
 
 An [incomplete

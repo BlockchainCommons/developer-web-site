@@ -51,6 +51,11 @@ redirect_from:
       <img src="/assets/badges/smart-custody.png">
     </a>
   </div>  
+  <div class="hex71 opaqued">
+    <a href="/envelope/">
+      <img src="/assets/badges/envelope.png">
+    </a>
+  </div>
 </div>
 
 _Collaborative Key Management (CKM) is a Blockchain Commons
