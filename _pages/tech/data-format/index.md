@@ -22,7 +22,7 @@ sidebar:
 ---
 
 
-<div class="hexline hexgrid71">
+<div class="hexline hexgrid72">
   <div class="hex11">
     <a href="/bytewords/">
       <img src="/assets/badges/bytewords.png">
@@ -61,6 +61,16 @@ sidebar:
   <div class="hex71">
     <a href="/mur/">
       <img src="/assets/badges/mur.png">
+    </a>
+  </div>
+  <div class="hex32 opaqued">
+    <a href="/envelope/esc/">
+      <img src="/assets/badges/esc.png">
+    </a>
+  </div>
+  <div class="hex52 opaqued">
+    <a href="/envelope/gstp/">
+      <img src="/assets/badges/gstp.png">
     </a>
   </div>
 </div>
