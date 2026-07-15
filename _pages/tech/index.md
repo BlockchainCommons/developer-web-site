@@ -66,6 +66,8 @@ channel. Our secure-comm techs are wide-ranging, including visual-comm
 aids such as OIBs and LifeHash, architectural measures such as airgaps
 and torgaps, and reference comm apps such as Garner and Hubert.
 
+* **See more about [Secure Communication](/secure-comm/)**
+
 ## Technology Listing
 
 <div class="hexline hexgrid75">
