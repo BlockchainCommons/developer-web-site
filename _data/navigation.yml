@@ -260,8 +260,9 @@ keymanagement:
     - title: "Intro to Keys"
       url: /keys/
     - title: "Key Best Practices"
-      url: /keys/cli/
+      url: /keys/best-practices/
     - title: "Learning Key Hierarchies (CLI)"
+      url: /keys/cli/
 sskr:
   - title: SSKR
     children:
