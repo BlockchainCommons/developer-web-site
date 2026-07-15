@@ -96,6 +96,8 @@ technology:
       url: /technology/
     - title: "Data Formats"
       url: /data-format/
+    - title: "Data Resilience"
+      url: /data-resilience/
     - title: "Digital Identity"
       url: /digital-identity/
     - title: "Digital Signatures"
@@ -125,6 +127,21 @@ dataformat:
       url: /ur/
     - title: "MUR"
       url: /ur/mur/
+dataresilience:
+  - title: Data Resilience
+    children:
+    - title: "Data Res. Home"
+      url: /data-resilience/
+    - title: "CKM"
+      url: /ckm/
+    - title: "CSR"
+      url: /csr/
+    - title: "SSKR"
+      url: /sskr/
+    - title: "Key Management"
+      url: /key-management/
+    - title: "Smart Custody"
+      url: https://www.smartcustody.com/
 envelope:
   - title: Gordian Envelope
     children:
