@@ -32,7 +32,7 @@ sidebar:
     </a>
   </div>
   <div class="hex32top highlighted">
-    <a href="/data-formats/">
+    <a href="/data-resilience/">
       <img src="/assets/badges/cat-dataresilience-half.png">
     </a>
   </div>
