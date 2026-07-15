@@ -10,9 +10,10 @@ tagline: Blockchain Commons Technologies
 hide_description: true
 classes:
   - wide
-permalink: /technologies/
+permalink: /technology/
 redirect_from:
     - /tech/
+    - /technologies/
 sidebar:
   nav:
     - technology
