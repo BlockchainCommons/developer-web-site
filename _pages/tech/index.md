@@ -5,8 +5,8 @@ header:
   overlay_filter: "0.35"
   overlay_image: /assets/headers/tech.jpg
   og_image: /assets/images/bc-card.jpg
-title: Data Format Technologies
-tagline: Blockchain Commons Technologies
+title: Blockchain Commons Technologies
+tagline: Independence, Privacy, Resilience, Openness
 hide_description: true
 classes:
   - wide
