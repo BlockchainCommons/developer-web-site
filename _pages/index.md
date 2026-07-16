@@ -74,3 +74,7 @@ records of meetings, our BCR specifications, our reference libraries,
 and our reference apps.
 
 * **Read about [our other resources](/resources/)**
+
+---
+
+_Header image by <a href="https://pixabay.com/users/elasticcomputefarm-1865639/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1474454">ElasticComputeFarm</a> from <a href="https://pixabay.com//?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1474454">Pixabay</a>._
