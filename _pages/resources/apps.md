@@ -5,8 +5,8 @@ header:
   overlay_filter: "0.35"
   overlay_image: /assets/headers/otherresources.jpg
   og_image: /assets/images/bc-card.jpg
-title: Developer Courses
-tagline: Command-Line Courses & Smart Custody
+title: Reference Apps
+tagline: iOS, CLIs, and Playgrounds
 hide_description: true
 classes:
   - wide
