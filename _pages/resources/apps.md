@@ -18,9 +18,9 @@ sidebar:
 ---
 
 <div class="hexline hexgrid71">
-  <div class="hex11 highlighted">
-    <a href="https://learningbitcoin.blockchaincommons.com/">
-      <img src="/assets/badges/learning-bitcoin.png">
+  <div class="hex11">
+    <a href="https://apps.apple.com/us/app/gordian-seed-tool/id1545088229">
+      <img src="/assets/badges/seed-tool.png">
     </a>
   </div>
   <div class="hex12top">
@@ -28,36 +28,31 @@ sidebar:
       <img src="/assets/badges/cat-resources-half.png">
     </a>
   </div>
-  <div class="hex21 highlighted">
-    <a href="https://learningfrost.blockchaincommons.com/">
-      <img src="/assets/badges/learning-frost.png">
+  <div class="hex21">
+    <a href="https://github.com/BlockchainCommons/clubs-cli-rust">
+      <img src="/assets/badges/clubs-cli.png">
     </a>
   </div>
-  <div class="hex31 highlighted">
-    <a href="https://learningxids.blockchaincommons.com/">
-      <img src="/assets/badges/learning-xids.png">
+  <div class="hex31">
+    <a href="https://github.com/BlockchainCommons/bc-envelope-cli-rust">
+      <img src="/assets/badges/envelope-cli.png">
     </a>
   </div>
- <div class="hex41 highlighted">
-    <a href="https://www.smartcustody.com/">
-      <img src="/assets/badges/smart-custody.png">
+ <div class="hex41">
+    <a href="https://github.com/BlockchainCommons/provenance-mark-cli-rust">
+      <img src="/assets/badges/provenance-marks-cli.png">
     </a>
   </div>
-  <div class="hex51 opaqued">
-    <a href="https://developer.blockchaincommons.com/meetings/">
-      <img src="/assets/badges/dev-meeting.png">
+  <div class="hex51">
+    <a href="https://github.com/BlockchainCommons/seedtool-cli-rust">
+      <img src="/assets/badges/seed-tool-cli.png">
     </a>
   </div>
-  <div class="hex61 opaqued">
-    <a href="https://developer.blockchaincommons.com/libraries/">
-      <img src="/assets/badges/libraries.png">
+  <div class="hex61">
+    <a href="https://developer.blockchaincommons.com/apps/#playgrounds">
+      <img src="/assets/badges/playgrounds.png">
     </a>
   </div>  
-  <div class="hex71 opaqued">
-    <a href="https://github.com/BlockchainCommons/research/">
-      <img src="/assets/badges/research.png">
-    </a>
-  </div>
 </div>
 
 _Blockchain Commons has built reference applications for many of its
@@ -66,7 +61,7 @@ playgrounds. The following apps & playgrounds are the most
 up-to-date. This listing does not include older, Swift-based tools
 that are no longer as well supported._
 
-## ![]() iOS Seed Tool
+## ![](/assets/badges/seed-tool.png) iOS Seed Tool
 
 **iOS App.** Our premier reference app offers a full demo for how to
 store seeds safely in an airgapped personal device. It also demos the
@@ -77,14 +72,14 @@ technologies.
 * [**iOS Seed Tool in the Apple Store**](https://apps.apple.com/us/app/gordian-seed-tool/id1545088229)
 * [**iOS Seed Tool on GitHub**](https://github.com/BlockchainCommons/GordianSeedTool-iOS)
 
-## ![]() Clubs CLI
+## ![](/assets/badges/clubs-cli.png) Clubs CLI
 
 **Rust CLI App.** A CLI for experimenting with Gordian Clubs.
 
 * **`cargo install clubs-cli` to install**
 * [**CLI Clubs on GitHub**](https://github.com/BlockchainCommons/clubs-cli-rust)
 
-## ![]() Envelope CLI
+## ![](/assets/badges/envelope-cli.png) Envelope CLI
 
 **Rust CLI App.** A comprehensive application for creating and reading
 [envelopes](/envelope/), including [XIDs](/xid/), and displaying them in a variety of formats.
@@ -93,14 +88,14 @@ technologies.
 * **`cargo install bc-envelope-cli` to install**
 * [**CLI Envelope on GitHub**](https://github.com/BlockchainCommons/bc-envelope-cli-rust)
 
-## ![]() Provenance Marks CLI
+## ![](/assets/badges/provenance-marks-cli.png) Provenance Marks CLI
 
 **Rust CLI App.** Create and read [provenance marks](/provemark/).
 
 * **`cargo install provenance-mark-cli` to install**
 * [**CLI Provenance Marks on GitHub**](https://github.com/BlockchainCommons/provenance-mark-cli-rust)
 
-## ![]() Seedtool CLI
+## ![](/assets/badges/seed-tool-cli.png) Seedtool CLI
 
 **Rust CLI App.** Input, generate, and output seeds in a variety of
 forms, including [Bytewords](/bytewords/), [SSKR](/sskr/), and
@@ -109,7 +104,7 @@ forms, including [Bytewords](/bytewords/), [SSKR](/sskr/), and
 * **`cargo install seedtool-cli` to install**
 * [**CLI Seed Tool on GitHub**](https://github.com/BlockchainCommons/seedtool-cli-rust)
 
-## Playgrounds
+## ![](/assets/badges/playgrounds.png) Playgrounds
 
 **Online Sites.**A number of online sites also make it easy to experiment with our tech.
 
