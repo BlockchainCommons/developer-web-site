@@ -1,2 +1,3 @@
-_**Latest News:** Published [Learning XIDs from the Command Line](http://learningxids.blockchaincommons.com/), chapters 1-4 (4/8/26). New [Technology Overview video](https://www.youtube.com/watch?v=f7MFW8RfcOE) published for 2026. (2/24/26). Published [Garner page](https://developer.blockchaincommons.com/garner/) on new tool for distributing identity information in a private, censorship-resistant way by using Tor (2/17/26). Published [Learning FROST from the Command Line](https://github.com/BlockchainCommons/Learning-FROST-from-the-Command-Line/blob/main/README.md), a major new course (12/2/25)._
+_**Latest News:** Released new technology dev pages (7/15/26).
+Published [fifth chapter](https://learningxids.blockchaincommons.com/05_0_Keys/) of [Learning XIDs from the Command Line](http://learningxids.blockchaincommons.com/), on keys (5/12/26). New [Technology Overview video](https://www.youtube.com/watch?v=f7MFW8RfcOE) published for 2026 (2/24/26). 
 {: .notice--info}

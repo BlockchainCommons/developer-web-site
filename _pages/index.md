@@ -2,7 +2,7 @@
 cover: true
 header:
   overlay_color: "#000"
-  overlay_filter: "0.25"
+  overlay_filter: "0.35"
   overlay_image: /assets/headers/blueprint.jpg
   og_image: /assets/images/bc-card.jpg
 title: Blockchain Commons Developer Pages
@@ -20,135 +20,57 @@ sidebar:
 
 {% include news-index.md %}
 
-## Technology Overviews
+## Why Blockchain Commons?
 
-<table width="100%">
-  <tr>
-    <td width="640px">
-      <b>2026 Overview:</b>
+Blockchain Commons is
+[dedicated](https://www.blockchaincommons.com/vision/) to "the
+creation of open, interoperable, secure & compassionate digital
+infrastructure to enable people to control their own digital destiny
+and to maintain their human dignity online."
 
-      {% include video id="f7MFW8RfcOE" provider="youtube" %}
+Our designs focus on four specific principles:
 
-<div align="center">
-      [ <a href="/videos/transcripts/overview-2026/">Transcript</a> ]
-</div>
-    </td>
-    <td width="640px">
-      <b>Lengthier 2021 Overview:</b>
+{% capture principles %}
+* **Independence.** Improve user freedom from involuntary oversight and external control.
+* **Privacy.** Protect against coercion with non-correlation, privacy, and pseudonymity.
+* **Resilience.** Decrease the likelihood of users losing their funds via any means.
+* **Openness.** Support open infrastructure to allow developers to create their own applications.
+<div class="notice--info">{{ principles | markdownify }}</div>
 
-      {% include video id="RYgOFSdUqWY" provider="youtube" %}
-      
-    </td>    
-    <td width="640px">
-      <b>Envelope Overview:</b>
+You should choose Blockchain Commons' free, open-source technologies
+(and other resources) if you care about creating decentralized apps
+where the users have agency and where identities and other assets are
+protected by resilient methodologies.
 
-      {% include video id="-vcLCFKQvik" provider="youtube" %}
-      
-    </td>    
-  </tr>
-</table>
+This site contains three large collections of information.
 
-## Introduction
+## Architecture
 
-The Gordian Stack is a layered set of specifications founded on the CBOR data format and built up from that, step by step, to support digital-asset management in a way that fulfills [the Gordian Principles](/principles/). These developer pages contain developer resources that
-explain the elements in the Stack, and their importance, and make it easy
-for you to adopt them. For more support, you can also attend our [Gordian Meetings](https://developer.blockchaincommons.com/meetings/), usually on the first Wednesday of the month.
+This section details the underlying philosophies behind our
+designs. It covers not just the design principles behind our
+applications, but also design principles for networked applications
+generally.
 
-![bc-stack](https://developer.blockchaincommons.com/assets/images/bc-stack.png)
+_The rest of the Developer Pages have recently been revamped, and the
+architecture section has not been yet._
 
-The heart of the Gordian Stack is the [<font color="#ffac1c">Gordian Envelope</font>](/envelope/), a simple data-storage mechanism that organizes content into semantic triples. You don't need to know about the underlying elements to use Envelopes, so as a developer you can jump straight in and be confident that everything under Envelope is correctly abstracted to maintain layer divisions.
+* **Read about [our architectural design](/architecture/)**
 
-The [<font color="#17c3ff">Animated QR specification</font>](/animated-qrs), built on Multipart Uniform Resources (MURs), is the other major entry point to the Gordian Stack, since it allows for the transmission of large data sets, such as Bitcoin's PSBTs, across Airgaps.
+## Technologies
 
-Following is a description of the major layers of the Gordian Stack, in descending order.
+Blockchain Commons has over 20 specified technologies, covering data
+formats, data resilience, digital identity, digital signature, and
+secure communication. Choose the category that's most important to you
+and your users and take a look!
 
-If you have any questions or want more resources for any specific
-element in the Stack, please [let us know via
-email](mailto:team@blockchaincommons.com) or [file an
-Issue](https://github.com/BlockchainCommons/developer-web-site/issues)
-at the repo for this website.
+* **Read about [our technologies](/technology/)**
 
-## The Core Stack
+## Other Resources
 
-<a href="/core-stack/"><img src="https://developer.blockchaincommons.com/assets/images/bc-stack-core.png" style="float: right; margin-left: 20px;" width="25%"></a>
+This site contains a variety of other resources including courses on
+several technologies (including [Bitcoin
+itself](https://developer.blockchaincommons.com/courses/#-learning-bitcoin-from-the-command-line)),
+records of meetings, our BCR specifications, our reference libraries,
+and our reference apps.
 
-_Blockchain Commons' Core Stack includes its two major user-facing innovations, Collaborative Seed Recovery (CSR) and Envelope, plus the binary encoding scheme that enables them both (dCBOR)._
-
-### Core: <font color="#ffff76">Identifier</font> Layer
-
-{% include stack-identifier.md %}
-
-### Core: <font color="#221dff">CSR</font> Layer
-
-{% include stack-csr.md %}
-
-### Core: <font color="#ffac1c">Envelope</font> Layer
-
-{% include stack-envelope.md %}
-
-### Core: <font color="#8f1402">CBOR</font> Layer
-
-{% include stack-cbor.md %}
-
-## The UX Stack
-
-<a href="/ux-stack/"><img src="https://developer.blockchaincommons.com/assets/images/bc-stack-ux.png" style="margin-left: 20px; float: right" width="25%"></a><i>The UX Stack includes graphical and text encodings that further empower the Core Stack.</i>
-
-### UX: <font color="#2df775">OIB</font> Layer
-
-{% include stack-oib.md %}
-
-### UX: <font color="#c96055">UR</font> Layer
-
-{% include stack-ur.md %}
-
-## The Crypto Stack
-
-<a href="/crypto-stack/"><img src="https://developer.blockchaincommons.com/assets/images/bc-stack-crypto.png" style="float: right; margin-left: 20px" width="25%"></a>
-
-_The Crypto Stack features the cryptographic elements in Blockchain Commons' stack, including seeds, sharding, and DKG systems._
-
-### Crypto: <font color="#888888">CKM</font> Layer
-
-{% include stack-ckm.md %}
-
-### Crypto: <font color="#038e3e">Sharding</font> Layer
-
-{% include stack-sharding.md %}
-
-### Crypto: <font color="#d62435">Provenance</font> Layer
-
-{% include stack-pm.md %}
-
-### Crypto: <font color="#038e3e">Seed</font> Layer
-
-{% include stack-seed.md %}
-
-## Architectural Overview
-
-_The Gordian Stack is built atop a carefully considered architecture that works to uphold human dignity and choice on the internet._
-
-* **Architecture.** The Gordian architecture is built on specific [principles](/principles/), using specific [design patterns](/architecture/patterns/auth/), and with a general philosophy of functional partition.
-   * See [our architecture page](/architecture/)
-   * See [Musings of a Trust Architect](https://www.blockchaincommons.com/musings/)
-
-## Chain-Specific Work
-
-_Blockchain Commons' specifications aren't built for any specific blockchain. (In fact, most don't require a blockchain at all!) However, we've also done work with certain blockchains to help bring their digital-asset management into harmony with the [Gordian principles](/principles/), while a lot of the long-term members of the Gordian Developers community are Bitcoin-focused._
-
-   * See our [Zcash page](/chains/zcash/)
-   * See our [Learning Bitcoin from the Command Line repo](https://github.com/BlockchainCommons/Learning-Bitcoin-from-the-Command-Line/blob/master/README.md)
-
-## Other <font color="#888888">Future</font> Development
-
-_A few other technologies are currently in early stages of development or integration._
-
-* **The Discovery Layer.** A discovery layer is planned that will allow end-users to find and identify Gordian Depositories or other online services.
-  
-## For More Info
-
-Our Gordian Developer community is actively working with this resources! Join us in Discussions or at our monthly meetings!
-
-* [Gordian Developer Community](https://github.com/BlockchainCommons/Gordian-Developer-Community/discussions)
-   * [Meetings Records](https://github.com/BlockchainCommons/Gordian-Developer-Community/blob/master/meetings/README.md)
-   * [Join Us!](https://www.blockchaincommons.com/subscribe/)
+* **Read about [our other resources](/resources/)**
