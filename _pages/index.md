@@ -3,7 +3,7 @@ cover: true
 header:
   overlay_color: "#000"
   overlay_filter: "0.25"
-  overlay_image: /assets/images/qr-background.jpg
+  overlay_image: /assets/headers/blueprint.jpg
   og_image: /assets/images/bc-card.jpg
 title: Blockchain Commons Developer Pages
 hide_description: false
@@ -13,13 +13,9 @@ permalink: /
 sidebar:
   nav:
     - mainside
-    - mainstacks
-    - stack-core
-    - stack-crypto
-    - stack-ux
-    - chains
-redirect_from:
-    - /seedrecovery/
+    - architecture
+    - technology
+    - resources
 ---
 
 {% include news-index.md %}

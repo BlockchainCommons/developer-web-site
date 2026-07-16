@@ -18,17 +18,10 @@ mainside:
       url: /
     - title: "Architecture"
       url: /architecture/
+    - title: "Technologies"
+      url: /technology//
     - title: "Other Resources"
       url: /resources/
-mainstacks:
-  - title: The Stacks
-    children:
-    - title: "Core Stack"
-      url: /core-stack/
-    - title: "Crypto Stack"
-      url: /crypto-stack/
-    - title: "UX Stack"
-      url: /ux-stack/
 resources:
   - title: Other Resources
     children:
@@ -456,53 +449,6 @@ chains:
     children:
     - title: Zcash
       url: /chains/zcash/
-stack-core:
-  - title: The Core Stack
-    children:
-    - title: "Cliques"
-      url: /cliques/
-    - title: "Gordian Clubs"
-      url: /clubs/
-    - title: "Extensible Identifier (XID)"
-      url: /xid/
-    - title: "Collaborative Seed Recovery (CSR)"
-      url: /csr/
-    - title: "dCBOR"
-      url: /dcbor/
-    - title: "Envelope"
-      url: /envelope/
-    - title: "Hubert"
-      url: /hubert/
-    - title: "Garner"
-      url: /garner/
-stack-crypto:
-  - title: The Crypto Stack
-    children:
-    - title: "Collaborative Key Management (CKM)"
-      url: /ckm/
-    - title: "FROST"
-      url: /frost/
-    - title: "MuSig 2"
-      url: /musig/
-    - title: "Provenance Marks"
-      url: /provemark/
-    - title: "Seed"
-      url: /envelope/seed/
-    - title: "SSKR"
-      url: /sskr/
-stack-ux:
-  - title: The UX Stack
-    children:
-    - title: "Animated QRs"
-      url: /animated-qrs/
-    - title: "Bytewords"
-      url: /bytewords/
-    - title: "LifeHash"
-      url: /lifehash/
-    - title: "Object Identity Block (OIB)"
-      url: /oib/
-    - title: "Uniform Resources (URs)"
-      url: /ur/
 zcash:
   - title: Zcash
     children:

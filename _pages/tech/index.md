@@ -14,6 +14,10 @@ permalink: /technology/
 redirect_from:
     - /tech/
     - /technologies/
+    - /seedrecovery/
+    - /core-stack/
+    - /crypto-stack/
+    - /ux-stack/
 sidebar:
   nav:
     - technology
