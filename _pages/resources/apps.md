@@ -114,6 +114,6 @@ forms, including [Bytewords](/bytewords/), [SSKR](/sskr/), and
 **Online Sites.**A number of online sites also make it easy to experiment with our tech.
 
 * [**BCTS IDE**](https://bcts.dev/) - Data Playground, Registry Browser, Envelope Builder, XID Tutorial.
-* [**BC-UR Playground**](https://irfan798.github.io/bcur.me/) - UR Converter, Multi-UR & QR Generator, QR Scanner, Registry Brwoser.
+* [**BC-UR Playground**](https://irfan798.github.io/bcur.me/) - UR Converter, Multi-UR & QR Generator, QR Scanner, Registry Browser.
 * [**Seedtool.info**](https://seedtool.info/) - Seed creator and converter.
 * [**lifehash.info**](https://lifehash.info/) - Lifehash creator.
