@@ -420,7 +420,7 @@ musig:
     - title: "Go to FROST"
       url: /frost/
 architecture:
-  - title: Gordian Architecture
+  - title: Architecture
     children:
     - title: "Gordian Principles"
       url: /principles/
@@ -442,7 +442,7 @@ architecture:
       url: /architecture/patterns/auth/
     - title: "Progressive Trust"
       url: /progressive-trust/   
-    - title: "Return to Main Page"
+    - title: "Return to Main"
       url: /
 chains: 
   - title: Blockchains

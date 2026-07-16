@@ -13,7 +13,6 @@ permalink: /
 sidebar:
   nav:
     - mainside
-    - architecture
     - technology
     - resources
 ---
