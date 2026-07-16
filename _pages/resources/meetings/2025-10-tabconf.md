@@ -3,7 +3,7 @@ cover: false
 header:
   overlay_color: "#000"
   overlay_filter: "0.35"
-  overlay_image:/assets/headers/otherresources.jpg
+  overlay_image: /assets/headers/otherresources.jpg
   og_image: /assets/images/bc-card.jpg
 tagline: "Beyond Bitcoin & The Sad State of Decentralized Identity"
 title: "TABConf 7: October 2025"
