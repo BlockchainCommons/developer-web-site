@@ -35,6 +35,7 @@ Our designs focus on four specific principles:
 * **Privacy.** Protect against coercion with non-correlation, privacy, and pseudonymity.
 * **Resilience.** Decrease the likelihood of users losing their funds via any means.
 * **Openness.** Support open infrastructure to allow developers to create their own applications.
+{% endcapture %}
 <div class="notice--info">{{ principles | markdownify }}</div>
 
 You should choose Blockchain Commons' free, open-source technologies
