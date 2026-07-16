@@ -10,7 +10,7 @@ tagline: Command-Line Courses & Smart Custody
 hide_description: true
 classes:
   - wide
-permalink: /courses/
+permalink: /apps/
 sidebar:
   nav:
     - courses
