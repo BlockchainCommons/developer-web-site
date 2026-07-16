@@ -13,7 +13,6 @@ classes:
 permalink: /apps/
 sidebar:
   nav:
-    - courses
     - resources
 ---
 
