@@ -52,6 +52,11 @@ sidebar:
       <img src="/assets/badges/playgrounds.png">
     </a>
   </div>  
+  <div class="hex71 highlighted">
+    <a href="https://developer.blockchaincommons.com/apps/">
+      <img src="/assets/badges/apps.png">
+    </a>
+  </div>  
 </div>
 
 _Blockchain Commons has built reference applications for many of its

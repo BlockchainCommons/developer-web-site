@@ -49,15 +49,20 @@ sidebar:
     </a>
   </div>
   <div class="hex61 opaqued">
-    <a href="https://developer.blockchaincommons.com/libraries/">
-      <img src="/assets/badges/libraries.png">
-    </a>
-  </div>  
-  <div class="hex71 opaqued">
     <a href="https://github.com/BlockchainCommons/research/">
       <img src="/assets/badges/research.png">
     </a>
   </div>
+  <div class="hex71 opaqued">
+    <a href="https://developer.blockchaincommons.com/apps/">
+      <img src="/assets/badges/apps.png">
+    </a>
+  </div>  
+  <div class="hex72 opaqued">
+    <a href="https://developer.blockchaincommons.com/libraries/">
+      <img src="/assets/badges/libraries.png">
+    </a>
+  </div>  
 </div>
 
 _Blockchain Commons creates courses and books to aid in the understanding and usage of digital identities and assets._

@@ -49,16 +49,21 @@ sidebar:
       <img src="/assets/badges/dev-meeting.png">
     </a>
   </div>
-  <div class="hex61 highlighted">
-    <a href="https://developer.blockchaincommons.com/libraries/">
-      <img src="/assets/badges/libraries.png">
-    </a>
-  </div>  
-  <div class="hex71 opaqued">
+  <div class="hex61 opaqued">
     <a href="https://github.com/BlockchainCommons/research/">
       <img src="/assets/badges/research.png">
     </a>
   </div>
+  <div class="hex71 opaqued">
+    <a href="https://developer.blockchaincommons.com/apps/">
+      <img src="/assets/badges/apps.png">
+    </a>
+  </div>  
+  <div class="hex72 highlighted">
+    <a href="https://developer.blockchaincommons.com/libraries/">
+      <img src="/assets/badges/libraries.png">
+    </a>
+  </div>  
 </div>
 
 ## Core Libraries

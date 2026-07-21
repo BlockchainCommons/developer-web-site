@@ -112,7 +112,16 @@ For more see:
 
 * [**Blockchain Commons Research (BCR) Contents**](https://github.com/BlockchainCommons/research/#contents) (GitHub)
 
-## ![](/assets/badges/libraries.png) Libraries
+## ![](/assets/badges/apps.png) Reference Apps
+
+Many of our specifications are available for testing in a variety of
+apps (focused on iOS and Rust) as well as online playgrounds.
+
+For more see:
+
+* [**Reference Apps**](/apps/)
+
+## ![](/assets/badges/libraries.png) Reference Libraries
 
 All of our specs are coded in reference libraries. Our most up-to-date libraries are in Rust. Third parties have also coded libraries for many of our specifications.
 
