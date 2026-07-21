@@ -289,7 +289,7 @@ identity:
     - title: "Clubs"
       url: /clubs/
     - title: "Public Participation"
-      url: /ppp/
+      url: /identity/ppp/
 attestations:
   - title: Attestations
     children:
