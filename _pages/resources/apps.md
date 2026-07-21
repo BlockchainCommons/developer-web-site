@@ -48,7 +48,7 @@ sidebar:
     </a>
   </div>
   <div class="hex61">
-    <a href="https://developer.blockchaincommons.com/apps/#playgrounds">
+    <a href="https://developer.blockchaincommons.com/apps/#-playgrounds">
       <img src="/assets/badges/playgrounds.png">
     </a>
   </div>  

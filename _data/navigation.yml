@@ -29,10 +29,12 @@ resources:
       url: /resources/
     - title: "Courses"
       url: /courses/
-    - title: "Libraries"
-      url: /libraries/
     - title: "Meetings"
       url: /meetings/
+    - title: "Reference Apps"
+      url: /apps/
+    - title: "Reference Libraries"
+      url: /libraries/
     - title: "Specifications"
       url: https://github.com/BlockchainCommons/research/#contents
     - title: Return to Main
