@@ -226,6 +226,27 @@ https://developer.blockchaincommons.com/assets/badges/smart-custody.png
 
 https://developer.blockchaincommons.com/assets/badges/sskr.png
 
+## [![](/assets/badges/torgap.png)](/assets/badges/torgap.png) Torgaps
+
+https://developer.blockchaincommons.com/assets/badges/torgap.png
+
+## [![](/assets/badges/ur.png)](/assets/badges/ur.png) Uniform Resources (URs)
+
+https://developer.blockchaincommons.com/assets/badges/ur.png
+
+## [![](/assets/badges/vss.png)](/assets/badges/vss.png) Verifiable Secret Sharing (VSS)
+
+https://developer.blockchaincommons.com/assets/badges/vss.png
+
+## [![](/assets/badges/xid.png)](/assets/badges/xid.png) Extensible Identifiers (XIDs)
+
+https://developer.blockchaincommons.com/assets/badges/xid.png
+
+## [![](/assets/badges/youtube.png)](/assets/badges/youttube.png) YouTube
+
+https://developer.blockchaincommons.com/assets/badges/youtube.png
+
+
 
 
 
