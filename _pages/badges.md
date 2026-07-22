@@ -210,6 +210,24 @@ https://developer.blockchaincommons.com/assets/badges/seed-tool-cli.png
 
 https://developer.blockchaincommons.com/assets/badges/seeds.png
 
+## [![](/assets/badges/ssi.png)](/assets/badges/ssi.png) Self-Sovereign Identity (SSI)
+
+https://developer.blockchaincommons.com/assets/badges/ssi.png
+
+## [![](/assets/badges/seeds.png)](/assets/badges/silicon-salon.png) Silicon Salon
+
+https://developer.blockchaincommons.com/assets/badges/seeds.png
+
+## [![](/assets/badges/smart-custody.png)](/assets/badges/smart-custody.png) Smart CustodyS
+
+https://developer.blockchaincommons.com/assets/badges/smart-custody.png
+
+## [![](/assets/badges/sskr.png)](/assets/badges/sskr.png) SSKR
+
+https://developer.blockchaincommons.com/assets/badges/sskr.png
+
+
+
 
 
 
