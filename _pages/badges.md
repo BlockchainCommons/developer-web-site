@@ -146,7 +146,7 @@ https://developer.blockchaincommons.com/assets/badges/learning-frost.png
 
 https://developer.blockchaincommons.com/assets/badges/learning-xids.png
 
-## [![](/assets/badges/ilifehash.png)](/assets/badges/lifehash.png) Lifehash
+## [![](/assets/badges/lifehash.png)](/assets/badges/lifehash.png) Lifehash
 
 https://developer.blockchaincommons.com/assets/badges/lifehash.png
 
@@ -162,31 +162,25 @@ https://developer.blockchaincommons.com/assets/badges/musig.png
 
 https://developer.blockchaincommons.com/assets/badges/musings.png
 
+## [![](/assets/badges/oib.png)](/assets/badges/oib.png) Object Information Block (OIB)
 
+https://developer.blockchaincommons.com/assets/badges/oib.png
 
+## [![](/assets/badges/playgrounds.png)](/assets/badges/playgrounds.png) Playgrounds
 
+https://developer.blockchaincommons.com/assets/badges/playgrounds.png
 
+## [![](/assets/badges/ppp.png)](/assets/badges/ppp.png) Public Participation Profile
 
+https://developer.blockchaincommons.com/assets/badges/ppp.png
 
+## [![](/assets/badges/provenance-marks.png)](/assets/badges/provenance-marks.png) Provenance Marks
 
+https://developer.blockchaincommons.com/assets/badges/provenance-marks.png
 
+## [![](/assets/badges/provenance-marks-cli.png)](/assets/badges/provenance-marks-cli.png) Provenance Marks-CLI
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+https://developer.blockchaincommons.com/assets/badges/provenance-marks-cli.png
 
 ## [![](/assets/badges/apps.png)](/assets/badges/apps.png) Reference Apps
 
@@ -195,5 +189,27 @@ https://developer.blockchaincommons.com/assets/badges/apps.png
 ## [![](/assets/badges/libraries.png)](/assets/badges/libraries.png) Reference Libraries
 
 https://developer.blockchaincommons.com/assets/badges/libraries.png
+
+## [![](/assets/badges/research.png)](/assets/badges/research.png) Research Repo
+
+https://developer.blockchaincommons.com/assets/badges/research.png
+
+## [![](/assets/badges/rwot.png)](/assets/badges/rwot.png) Rebooting the Web of Trust (RWOT)
+
+https://developer.blockchaincommons.com/assets/badges/rwot.png
+
+## [![](/assets/badges/seed-tool.png)](/assets/badges/seed-tool.png) Seed Tool for iOS
+
+https://developer.blockchaincommons.com/assets/badges/seed-tool.png
+
+## [![](/assets/badges/seed-tool-cli.png)](/assets/badges/seed-tool-cli.png) Seed Tool-CLI
+
+https://developer.blockchaincommons.com/assets/badges/seed-tool-cli.png
+
+## [![](/assets/badges/seeds.png)](/assets/badges/seeds.png) Seeds
+
+https://developer.blockchaincommons.com/assets/badges/seeds.png
+
+
 
 
