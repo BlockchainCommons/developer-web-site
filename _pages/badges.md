@@ -42,10 +42,6 @@ https://developer.blockchaincommons.com/assets/badges/bytewords.png
 
 https://developer.blockchaincommons.com/assets/badges/cbor.png
 
-## [![](/assets/badges/ckm.png)](/assets/badges/ckm.png) CKM
-
-https://developer.blockchaincommons.com/assets/badges/ckm.png
-
 ## [![](/assets/badges/cliques.png)](/assets/badges/cliques.png) Cliques
 
 https://developer.blockchaincommons.com/assets/badges/cliques.png
@@ -58,9 +54,126 @@ https://developer.blockchaincommons.com/assets/badges/clubs.png
 
 https://developer.blockchaincommons.com/assets/badges/clubs-cli.png
 
-## [![](/assets/badges/csr.png)](/assets/badges/csr.png) CSR
+## [![](/assets/badges/ckm.png)](/assets/badges/ckm.png) Collaborative Key Management (CKM)
+
+https://developer.blockchaincommons.com/assets/badges/ckm.png
+
+## [![](/assets/badges/csr.png)](/assets/badges/csr.png) Collaborative Seed Recovery (CSR)
 
 https://developer.blockchaincommons.com/assets/badges/csr.png
+
+## [![](/assets/badges/dcbor.png)](/assets/badges/dcbor.png) DCBOR
+
+https://developer.blockchaincommons.com/assets/badges/dcbor.png
+
+## [![](/assets/badges/dcbor-cli.png)](/assets/badges/dcbor-cli.png) DCBOR-CLI
+
+https://developer.blockchaincommons.com/assets/badges/dcbor-cli.png
+
+## [![](/assets/badges/depo.png)](/assets/badges/depo.png) Depo
+
+https://developer.blockchaincommons.com/assets/badges/depo.png
+
+## [![](/assets/badges/dev-pages.png)](/assets/badges/dev-pages.png) Dev Pages
+
+https://developer.blockchaincommons.com/assets/badges/dev-pages.png
+
+## [![](/assets/badges/dkg.png)](/assets/badges/dkg.png) Distributed Key Generation (DKG)
+
+https://developer.blockchaincommons.com/assets/badges/dkg.png
+
+## [![](/assets/badges/entropy.png)](/assets/badges/entropy.png) Entropy
+
+https://developer.blockchaincommons.com/assets/badges/entropy.png
+
+## [![](/assets/badges/esc.png)](/assets/badges/esc.png) Encrypted State Continuations (ESC)
+
+https://developer.blockchaincommons.com/assets/badges/esc.png
+
+## [![](/assets/badges/envelope.png)](/assets/badges/envelope.png) Envelope
+
+https://developer.blockchaincommons.com/assets/badges/envelope.png
+
+## [![](/assets/badges/envelope-cli.png)](/assets/badges/envelope-cli.png) Envelope-CLI
+
+https://developer.blockchaincommons.com/assets/badges/envelope-cli.png
+
+## [![](/assets/badges/fair-witness.png)](/assets/badges/fair-witness.png) Fair Witness Methodology
+
+https://developer.blockchaincommons.com/assets/badges/fair-witness.png
+
+## [![](/assets/badges/frost.png)](/assets/badges/frost.png) FROST
+
+https://developer.blockchaincommons.com/assets/badges/frost.png
+
+## [![](/assets/badges/garner.png)](/assets/badges/garner.png) Garner
+
+https://developer.blockchaincommons.com/assets/badges/garner.png
+
+## [![](/assets/badges/dev-meeting.png)](/assets/badges/dev-meeting.png) Gordian Dev Meetings
+
+https://developer.blockchaincommons.com/assets/badges/dev-meeting.png
+
+## [![](/assets/badges/gstp.png)](/assets/badges/gstp.png) Gordian Sealed Transaction Protocol (GSTP)
+
+https://developer.blockchaincommons.com/assets/badges/gstp.png
+
+## [![](/assets/badges/hubert.png)](/assets/badges/hubert.png) Hubert
+
+https://developer.blockchaincommons.com/assets/badges/hubert.png
+
+## [![](/assets/badges/identity.png)](/assets/badges/identity.png) Identity
+
+https://developer.blockchaincommons.com/assets/badges/identity.png
+
+## [![](/assets/badges/key-management.png)](/assets/badges/key-management.png) Key Management
+
+https://developer.blockchaincommons.com/assets/badges/key-management.png
+
+## [![](/assets/badges/known-values.png)](/assets/badges/known-values.png) Known Values
+
+https://developer.blockchaincommons.com/assets/badges/known-values.png
+
+## [![](/assets/badges/learning-bitcoin.png)](/assets/badges/learning-bitcon.png) Learning Bitcoin from the Command Line
+
+https://developer.blockchaincommons.com/assets/badges/learning-bitcoin.png
+
+## [![](/assets/badges/learning-frost.png)](/assets/badges/learning-frost.png) Learning FROST from the Command Line
+
+https://developer.blockchaincommons.com/assets/badges/learning-frost.png
+
+## [![](/assets/badges/learning-xids.png)](/assets/badges/learning-xids.png) Learning XIDs from the Command Line
+
+https://developer.blockchaincommons.com/assets/badges/learning-xids.png
+
+## [![](/assets/badges/ilifehash.png)](/assets/badges/lifehash.png) Lifehash
+
+https://developer.blockchaincommons.com/assets/badges/lifehash.png
+
+## [![](/assets/badges/mur.png)](/assets/badges/mur.png) Multipart URs
+
+https://developer.blockchaincommons.com/assets/badges/mur.png
+
+## [![](/assets/badges/musig.png)](/assets/badges/musig.png) Musig 2
+
+https://developer.blockchaincommons.com/assets/badges/musig.png
+
+## [![](/assets/badges/musings.png)](/assets/badges/musings.png) Musings of a Design Architect
+
+https://developer.blockchaincommons.com/assets/badges/musings.png
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -78,5 +191,9 @@ https://developer.blockchaincommons.com/assets/badges/csr.png
 ## [![](/assets/badges/apps.png)](/assets/badges/apps.png) Reference Apps
 
 https://developer.blockchaincommons.com/assets/badges/apps.png
+
+## [![](/assets/badges/libraries.png)](/assets/badges/libraries.png) Reference Libraries
+
+https://developer.blockchaincommons.com/assets/badges/libraries.png
 
 
