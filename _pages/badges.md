@@ -1,6 +1,6 @@
 ---
 cover: true
-title: Blockchain Commons Bades
+title: Blockchain Commons Badges
 hide_description: false
 classes:
   - wide
@@ -218,7 +218,7 @@ https://developer.blockchaincommons.com/assets/badges/ssi.png
 
 https://developer.blockchaincommons.com/assets/badges/seeds.png
 
-## [![](/assets/badges/smart-custody.png)](/assets/badges/smart-custody.png) Smart CustodyS
+## [![](/assets/badges/smart-custody.png)](/assets/badges/smart-custody.png) Smart Custody
 
 https://developer.blockchaincommons.com/assets/badges/smart-custody.png
 
