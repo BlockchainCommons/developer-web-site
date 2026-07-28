@@ -38,6 +38,10 @@ https://developer.blockchaincommons.com/assets/badges/bytemojis.png
 
 https://developer.blockchaincommons.com/assets/badges/bytewords.png
 
+## [![](/assets/badges/bitcoin-cli.png)](/assets/badges/bitcoin-cli.png) Bitcoin-CLI (Bitcoin Core)
+
+https://developer.blockchaincommons.com/assets/badges/bitcoin-cli.png
+
 ## [![](/assets/badges/cbor.png)](/assets/badges/cbor.png) CBOR
 
 https://developer.blockchaincommons.com/assets/badges/cbor.png
