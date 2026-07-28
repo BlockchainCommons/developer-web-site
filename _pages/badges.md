@@ -130,6 +130,10 @@ https://developer.blockchaincommons.com/assets/badges/identity.png
 
 https://developer.blockchaincommons.com/assets/badges/key-management.png
 
+## [![](/assets/badges/keytool-cli.png)](/assets/badges/keytool-cli.png) Keytool-CLI
+
+https://developer.blockchaincommons.com/assets/badges/keytool-cli.png
+
 ## [![](/assets/badges/known-values.png)](/assets/badges/known-values.png) Known Values
 
 https://developer.blockchaincommons.com/assets/badges/known-values.png
