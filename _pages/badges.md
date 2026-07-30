@@ -78,6 +78,10 @@ https://developer.blockchaincommons.com/assets/badges/dcbor-cli.png
 
 https://developer.blockchaincommons.com/assets/badges/depo.png
 
+## [![](/assets/badges/descriptors.png)](/assets/badges/descriptors.png) Descriptors (BIP-380)
+
+https://developer.blockchaincommons.com/assets/badges/descriptors.png
+
 ## [![](/assets/badges/dev-pages.png)](/assets/badges/dev-pages.png) Dev Pages
 
 https://developer.blockchaincommons.com/assets/badges/dev-pages.png
