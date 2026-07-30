@@ -158,6 +158,10 @@ https://developer.blockchaincommons.com/assets/badges/learning-xids.png
 
 https://developer.blockchaincommons.com/assets/badges/lifehash.png
 
+## [![](/assets/badges/mnemonics.png)](/assets/badges/mnemonics.png) Mnemonics (BIP-39)
+
+https://developer.blockchaincommons.com/assets/badges/mnemonics.png
+
 ## [![](/assets/badges/mur.png)](/assets/badges/mur.png) Multipart URs
 
 https://developer.blockchaincommons.com/assets/badges/mur.png
