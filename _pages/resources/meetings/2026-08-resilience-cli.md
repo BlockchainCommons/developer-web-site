@@ -102,7 +102,7 @@ MP_KEY=$(echo ${DESC_ARRAY[0]} | awk -F"[()]" '{print $2}' | awk -F"/" '{print $
 echo $MP_KEY
 ```
 
-### 4A. Store Master Key
+### 4a. Store Master Key
 
 ```
 KEY_ENVELOPE=$(envelope subject type string "$MP_KEY")
@@ -117,7 +117,7 @@ KEY_ENVELOPE=$(envelope assertion add pred-obj known 'DerivationPath' string "m/
 envelope format $KEY_ENVELOPE
 ```
 
-### 4B. Store Descriptors
+### 4b. Store Descriptors
 
 ```
 DESC_ENVELOPE_1=$(envelope subject type string "descriptors-for-bitcoin")
