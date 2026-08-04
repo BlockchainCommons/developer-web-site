@@ -67,13 +67,13 @@ export CC="clang" && export CXX="clang++" && ./build.sh
 sudo make install
 ```
 
-# Exporting
+## Exporting a Secret from Bitcoin
 
-## I. Understand the Descriptor
+### 1. Understand the Descriptor
 
 bitcoin-cli listdescriptors true | jq -r '.descriptors[].desc'
 
-## II. Extract Descriptors
+### 2. Extract Descriptors
 
 DESCS=$(bitcoin-cli listdescriptors true | jq -r '.descriptors[].desc')
 DESC_ARRAY=($DESCS)
@@ -81,12 +81,12 @@ for ((i = 0; i < 8; i++)); do
    echo "$i: ${DESC_ARRAY[$i]}"; 
 done
 
-## III. Extract Private Key
+### 3. Extract Private Key
 
 MP_KEY=$(echo ${DESC_ARRAY[0]} | awk -F"[()]" '{print $2}' | awk -F"/" '{print $1}')
 echo $MP_KEY
 
-## IVA. Store Master Key
+### 4A. Store Master Key
 
 KEY_ENVELOPE=$(envelope subject type string "$MP_KEY")
 KEY_ENVELOPE=$(envelope assertion add pred-obj known 'isA' known 'MasterKey' "$KEY_ENVELOPE")
@@ -99,7 +99,7 @@ KEY_ENVELOPE=$(envelope assertion add pred-obj known 'DerivationPath' string "m/
 
 envelope format $KEY_ENVELOPE
 
-## IVB. Store Descriptors
+### 4B. Store Descriptors
 
 DESC_ENVELOPE_1=$(envelope subject type string "descriptors-for-bitcoin")
 DESC_ENVELOPE_1=$(envelope assertion add pred-obj known 'isA' string "collectionOfDescriptors" "$DESC_ENVELOPE_1")
@@ -116,23 +116,23 @@ DESC_ENVELOPE_1=$(envelope assertion add pred-obj known 'OutputDescriptor' strin
 
 envelope format $DESC_ENVELOPE_1
 
-## V. Shard Envelope
+### 5. Shard Envelope
 
 KEY_SHARES=$(envelope sskr split --group "2-of-3" $KEY_ENVELOPE)
 KEY_ARRAY=($KEY_SHARES)
 
-## VIa. Check Your Work
+### 6a. Check Your Work
 
 echo ${KEY_ARRAY[0]}
 echo ${KEY_ARRAY[1]}
 echo ${KEY_ARRAY[2]}
 
-## VIb. Check Your Work
+### 6b. Check Your Work
 
 RESTORED_KEY=$(envelope sskr join "${KEY_ARRAY[0]}" "${KEY_ARRAY[1]}")
 envelope format $RESTORED_KEY
 
-# Importing
+## Importing a Secret into Bitcoin Core
 
 Entropy secret [BIP-32 calls entropy] [look up BIP-32]
 Entropy secret, calls it a seed, one-way transformation to create BIP-32 seed
