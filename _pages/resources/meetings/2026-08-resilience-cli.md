@@ -21,7 +21,9 @@ _The following commands can be used to follow along with the Bitcoin Core demo f
 
 ## Installations
 
-This CLI tutorial requires the installation of four tools: `bitcoin-cli`, `envelope-cli`, `keytool-cli`, and `seedtool-cli`. We suggest spinning up a cloud Debian server for clean setup. The following instructions assume that setup.
+This CLI tutorial requires the installation of five tools: `bitcoin-cli`, `envelope-cli`, `keytool-cli`, `seedtool-cli`, and `jq`. We suggest spinning up a cloud Debian server for clean setup. The following instructions assume that setup.
+
+For a more exhaustive and better described look at these processes, see [Learning Bitcoin from the Command Line Chapter 10](https://learningbitcoin.blockchaincommons.com/10_0_Working_with_Secrets/).
 
 ### Installing Bitcoin
 
@@ -67,27 +69,42 @@ export CC="clang" && export CXX="clang++" && ./build.sh
 sudo make install
 ```
 
+### Installing JQ
+
+JQ is a parsing tool available from [jqlang.org](https://jqlang.org/). On A Debian system, you can install it with:
+
+```
+sudo apt-get install jq
+```
+
 ## Exporting a Secret from Bitcoin
 
 ### 1. Understand the Descriptor
 
+```
 bitcoin-cli listdescriptors true | jq -r '.descriptors[].desc'
+```
 
 ### 2. Extract Descriptors
 
+```
 DESCS=$(bitcoin-cli listdescriptors true | jq -r '.descriptors[].desc')
 DESC_ARRAY=($DESCS)
 for ((i = 0; i < 8; i++)); do
    echo "$i: ${DESC_ARRAY[$i]}"; 
 done
+```
 
 ### 3. Extract Private Key
 
+```
 MP_KEY=$(echo ${DESC_ARRAY[0]} | awk -F"[()]" '{print $2}' | awk -F"/" '{print $1}')
 echo $MP_KEY
+```
 
 ### 4A. Store Master Key
 
+```
 KEY_ENVELOPE=$(envelope subject type string "$MP_KEY")
 KEY_ENVELOPE=$(envelope assertion add pred-obj known 'isA' known 'MasterKey' "$KEY_ENVELOPE")
 KEY_ENVELOPE=$(envelope assertion add pred-obj string "createdBy" string "`bitcoin-cli --version | head -1`" "$KEY_ENVELOPE")
@@ -98,9 +115,11 @@ KEY_ENVELOPE=$(envelope assertion add pred-obj known 'DerivationPath' string "m/
 KEY_ENVELOPE=$(envelope assertion add pred-obj known 'DerivationPath' string "m/86h/0h/0h" "$KEY_ENVELOPE")
 
 envelope format $KEY_ENVELOPE
+```
 
 ### 4B. Store Descriptors
 
+```
 DESC_ENVELOPE_1=$(envelope subject type string "descriptors-for-bitcoin")
 DESC_ENVELOPE_1=$(envelope assertion add pred-obj known 'isA' string "collectionOfDescriptors" "$DESC_ENVELOPE_1")
 DESC_ENVELOPE_1=$(envelope assertion add pred-obj string "createdBy" string "`bitcoin-cli --version | head -1`" "$DESC_ENVELOPE_1")
@@ -115,100 +134,108 @@ DESC_ENVELOPE_1=$(envelope assertion add pred-obj known 'OutputDescriptor' strin
 DESC_ENVELOPE_1=$(envelope assertion add pred-obj known 'OutputDescriptor' string "${DESC_ARRAY[7]}" "$DESC_ENVELOPE_1")
 
 envelope format $DESC_ENVELOPE_1
+```
 
 ### 5. Shard Envelope
 
+```
 KEY_SHARES=$(envelope sskr split --group "2-of-3" $KEY_ENVELOPE)
 KEY_ARRAY=($KEY_SHARES)
+```
 
 ### 6a. Check Your Work
 
+```
 echo ${KEY_ARRAY[0]}
 echo ${KEY_ARRAY[1]}
 echo ${KEY_ARRAY[2]}
+```
 
 ### 6b. Check Your Work
 
+```
 RESTORED_KEY=$(envelope sskr join "${KEY_ARRAY[0]}" "${KEY_ARRAY[1]}")
 envelope format $RESTORED_KEY
+```
 
 ## Importing a Secret into Bitcoin Core
 
-Entropy secret [BIP-32 calls entropy] [look up BIP-32]
-Entropy secret, calls it a seed, one-way transformation to create BIP-32 seed
-Entropy secret is round-trippable with seed words
+### 1. Create a Seed
 
-Install:
-* seedtool
-* keytool
-* envelope-cli
-* jq
-
-## I.
-
-seedtool
+```
 SEED=$(seedtool)
 echo $SEED
+```
 
-## II.
+### 2. Create a Fingerprint
 
-seedtool -i hex $SEED -o bip39
-seedtool -i hex $SEED -o sskr --groups 2-of-3 --sskr-format ur
-
-## III.
-
-seedtool -i sskr
-ur:sskr/gosgtyaeadaegylnahsomsfxstamonssdwotasynuofxoybdnshd
-ur:sskr/gosgtyaeadaocavdihwplnpkfwiodnpfkgzodtmkidkssbndhgwl
-
-echo "ur:sskr/gojsetaeadaedwiyfrtksgnldspyjskgrdfnchihghdpssptdejs" | qrencode -o /tmp/qr1.jpg
-
-## IV.
-
-keytool --seed $SEED master-key-fingerprint
+```
 FINGERPRINT=$(keytool --seed $SEED master-key-fingerprint)
 echo $FINGERPRINT
+```
 
-## V.
+### 3. Create Account Key
 
-keytool --seed $SEED --account-derivation-path "m/84h/0h/0h" account-key-base58
+```
 AKEY=$(keytool --seed $SEED --account-derivation-path "m/84h/0h/0h" account-key-base58)
 echo $AKEY
+```
 
-## VI.
+### 4. Create Descriptor
 
+```
 DESC="wpkh([$FINGERPRINT/84h/0h/0h]$AKEY/0/*)"
 DESC_CS=$(bitcoin-cli getdescriptorinfo $DESC | jq -r '.checksum')
 DESC_WITH_CS=$DESC#$DESC_CS
 echo $DESC_WITH_CS
+```
 
+### 5. Import Descriptor
 
-## VII.
-
+```
 bitcoin-cli -named createwallet wallet_name="seedtool" blank=true
 bitcoin-cli -rpcwallet=seedtool importdescriptors '''[{ "desc": "'$DESC_WITH_CS'", "timestamp":1780329126, "active": true, "range": [0,100] }]'''
+```
 
-## VIII.
+### 6. Check Your Work
 
+```
 bitcoin-cli listdescriptors
+```
 
-# Storing a Seed
+### 7a. Backup with Seedtool 
 
-## I.
+```
+seedtool -i hex $SEED -o bip39
+seedtool -i hex $SEED -o sskr --groups 2-of-3 --sskr-format ur
+```
+### 7b. Test Your Backup
 
+```
+echo "ur:sskr/gosgtyaeadaegylnahsomsfxstamonssdwotasynuofxoybdnshd ur:sskr/gosgtyaeadaocavdihwplnpkfwiodnpfkgzodtmkidkssbndhgwl" | seedtool -i sskr
+```
+
+## 8a. Backup with Envelope
+
+```
 SEED_ENVELOPE=$(envelope subject type string "$SEED")
 SEED_ENVELOPE=$(envelope assertion add pred-obj known 'isA' known 'Seed' "$SEED_ENVELOPE")
 envelope format $SEED_ENVELOPE
+```
 
-## II.
+## 8b. Add Metadata to Seed
 
+```
 SEED_ENVELOPE=$(envelope assertion add pred-obj string "createdBy" string "`seedtool -V`" "$SEED_ENVELOPE")
 SEED_ENVELOPE=$(envelope assertion add pred-obj string "usedBy" string "`bitcoin-cli --version | head -1`" "$SEED_ENVELOPE")
 SEED_ENVELOPE=$(envelope assertion add pred-obj known 'DerivationPath' string "m/84h/0h/0h" "$SEED_ENVELOPE")
 envelope format $SEED_ENVELOPE
+```
 
-## III. 
+## 8c. Shard Seed
 
+```
 SEED_SHARES=$(envelope sskr split --group "2-of-3" $SEED_ENVELOPE)
 SEED_ARRAY=($SEED_SHARES)
 echo ${SEED_ARRAY[0]}
+```
