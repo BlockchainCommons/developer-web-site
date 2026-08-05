@@ -63,3 +63,32 @@ Also see the [transcript](/meetings/2026-08-resilience/transcript/) for
 the full content of the meeting.
 
 ## Links
+
+### General Meeting
+
+* [Q2 Quarterly Report](https://www.blockchaincommons.com/quarterlies/Q2-2026-Report/)
+* [Revisiting SSI](https://revisitingssi.com/)
+* [Dev Pages](https://developer.blockchaincommons.com/)
+   * [Technology category](https://developer.blockchaincommons.com/technology/)
+   * [Resources category](https://developer.blockchaincommons.com/resources/)
+   * [Identity pages](https://developer.blockchaincommons.com/identity/)
+* [Learning XIDs](https://learningxids.blockchaincommons.com/)
+   * [Learning XIDs, Chapter 5: Keys](https://learningxids.blockchaincommons.com/05_0_Keys/)
+* [Learning Bitcoin](https://learningbitcoin.blockchaincommons.com/)
+* [Musings of a Trust Architect](https://www.blockchaincommons.com/musings/)
+* [Dispatches of a Trust Architect](https://www.blockchaincommons.com/dispatches/)
+* [Smart Custody](https://www.smartcustody.com/)
+* [Learning FROST](https://learningfrost.blockchaincommons.com/)
+
+### Sharding Secrets
+
+* [Learning Bitcoin, Chapter 10: Secrets](https://learningbitcoin.blockchaincommons.com/10_0_Working_with_Secrets/)
+* [Envelope CLI](https://github.com/BlockchainCommons/bc-envelope-cli-rust)
+* [Keytool](https://github.com/BlockchainCommons/keytool-cli)
+* [Seedtool](https://github.com/BlockchainCommons/seedtool-cli-rust)
+* [JQ](jqlang.org)
+* [Gordian Seedtool for iOS](https://apps.apple.com/us/app/gordian-seed-tool/id1545088229)
+
+### Keylay
+
+* [Keylay](https://keylay.org/)
