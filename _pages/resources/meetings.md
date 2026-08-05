@@ -83,7 +83,7 @@ Also See: [ <a href="https://developer.blockchaincommons.com/frost/#events">FROS
 
     </td>
     <td>
-       <h2><a href="/meetings/2026-08-resillience/">GDM: Bitcoin Interoperability & Resilience (August 2026)</a></h2>
+       <h2><a href="/meetings/2026-08-resilience/">GDM: Bitcoin Interoperability & Resilience (August 2026)</a></h2>
 
        <p>Two presentations: one on sharding secrets to help protect your Bitcoin Core funds; and another on using Keylay to securely transmit QRs and Animated QRs on the internet.</p>
        
