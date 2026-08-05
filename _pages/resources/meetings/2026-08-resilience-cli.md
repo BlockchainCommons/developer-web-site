@@ -84,6 +84,7 @@ sudo apt-get install jq
 ```
 bitcoin-cli listdescriptors true | jq -r '.descriptors[].desc'
 ```
+A descriptor is the standard interoperable methodology for Bitcoin Core.
 
 ### 2. Extract Descriptors
 
@@ -101,6 +102,7 @@ done
 MP_KEY=$(echo ${DESC_ARRAY[0]} | awk -F"[()]" '{print $2}' | awk -F"/" '{print $1}')
 echo $MP_KEY
 ```
+We're exporting both descriptors and the private key to show two _different_ ways to backup Bitcoin Core.
 
 ### 4a. Store Master Key
 
@@ -116,6 +118,8 @@ KEY_ENVELOPE=$(envelope assertion add pred-obj known 'DerivationPath' string "m/
 
 envelope format $KEY_ENVELOPE
 ```
+
+This is a fairly minimal set of metadata. Best practice would also typically add a 'date' and a 'note'. The object is to have sufficient information to make use of the seed when it's recovered in the future.
 
 ### 4b. Store Descriptors
 
@@ -136,12 +140,15 @@ DESC_ENVELOPE_1=$(envelope assertion add pred-obj known 'OutputDescriptor' strin
 envelope format $DESC_ENVELOPE_1
 ```
 
+These descriptors are stored as raw text. Blockchain Commons also has a [BCR](https://github.com/BlockchainCommons/Research/blob/master/papers/bcr-2023-010-output-descriptor.md) laying out how to store a descrpitor in a more standardized UR format.
+
 ### 5. Shard Envelope
 
 ```
 KEY_SHARES=$(envelope sskr split --group "2-of-3" $KEY_ENVELOPE)
 KEY_ARRAY=($KEY_SHARES)
 ```
+An SSKR Envelope creates a new secret, encrypts the envelope with it, and just shards just that secret.
 
 ### 6a. Check Your Work
 
@@ -157,6 +164,7 @@ echo ${KEY_ARRAY[2]}
 RESTORED_KEY=$(envelope sskr join "${KEY_ARRAY[0]}" "${KEY_ARRAY[1]}")
 envelope format $RESTORED_KEY
 ```
+Best practice would be to verify each pair of shares reconstructs the envelope.
 
 ## Importing a Secret into Bitcoin Core
 
@@ -173,6 +181,7 @@ echo $SEED
 FINGERPRINT=$(keytool --seed $SEED master-key-fingerprint)
 echo $FINGERPRINT
 ```
+The fingerprint isn't technically necessary to create a descriptor, but it's metadata that reminds you where a descriptor came from.
 
 ### 3. Create Account Key
 
@@ -180,6 +189,7 @@ echo $FINGERPRINT
 AKEY=$(keytool --seed $SEED --account-derivation-path "m/84h/0h/0h" account-key-base58)
 echo $AKEY
 ```
+We choose to create an account key rather than a master key to full the [least & necessary design philosophy](https://developer.blockchaincommons.com/architecture/design/#least--necessary).
 
 ### 4. Create Descriptor
 
@@ -189,6 +199,9 @@ DESC_CS=$(bitcoin-cli getdescriptorinfo $DESC | jq -r '.checksum')
 DESC_WITH_CS=$DESC#$DESC_CS
 echo $DESC_WITH_CS
 ```
+Obviously, you need to know what a descriptor should look like. `listdescriptors` is a great guide but [BIP-380](https://github.com/bitcoin/bips/blob/master/bip-0380.mediawiki) is the ultimate source.
+
+A checksum is required by Bitcoin Core to work with descriptors.
 
 ### 5. Import Descriptor
 
@@ -209,6 +222,8 @@ bitcoin-cli listdescriptors
 seedtool -i hex $SEED -o bip39
 seedtool -i hex $SEED -o sskr --groups 2-of-3 --sskr-format ur
 ```
+Seedtool can do Shamir's Secret Sharing on its own, as shown here, but it's better to put the seed into an envelope and add metadata before sharding.
+
 ### 7b. Test Your Backup
 
 ```
@@ -231,6 +246,8 @@ SEED_ENVELOPE=$(envelope assertion add pred-obj string "usedBy" string "`bitcoin
 SEED_ENVELOPE=$(envelope assertion add pred-obj known 'DerivationPath' string "m/84h/0h/0h" "$SEED_ENVELOPE")
 envelope format $SEED_ENVELOPE
 ```
+
+This is a fairly minimal set of metadata. Best practice would also typically add a 'date' and a 'note'. The object is to have sufficient information to make use of the seed when it's recovered in the future.
 
 ## 8c. Shard Seed
 
