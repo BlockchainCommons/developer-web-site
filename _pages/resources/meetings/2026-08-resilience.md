@@ -68,6 +68,26 @@ The [Gordian Developer Meeting](https://www.blockchaincommons.com/subscribe/#gor
 Also see the [transcript](/meetings/2026-08-resilience/transcript/) for
 the full content of the meeting.
 
+## Key Quotes
+
+“In the first year we failed over half of maybe 30 or 40 reviews of server software because of randomness.” 
+—Christopher Allen, on SSL Reviews
+
+“So clearly we failed if we can’t even get Bitcoin Core engineers to do the right thing.”
+—Christopher Allen, on ensuring best practices for key management
+
+“Loss is what you have to really keep the focus on.”
+—Shannon Appelcline, on the dangers of self-sovereign custody
+
+“It ensures that this key isn’t just a couple of digits on a piece of paper that no one might have any idea what they are.” 
+—Shannon Appelcline, on the importance of metadata
+
+“The coordination of the setup is the leaky step.” 
+—Stan Reeves, on the dangers of multisig
+
+“KeyLay is a coordination layer. It’s not a wallet.”
+—Stan Reeves, on Keylay's design
+
 ## Links
 
 ### General Meeting
