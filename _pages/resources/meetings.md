@@ -79,6 +79,20 @@ Also See: [ <a href="https://developer.blockchaincommons.com/frost/#events">FROS
   <tr>
     <td>
 
+      <a href="/meetings/2026-08-resilience/"><img src="https://img.youtube.com/vi/vFvG_IclVnE/0.jpg" style="border: 1px solid blue"></a>
+
+    </td>
+    <td>
+       <h2><a href="/meetings/2026-08-resillience/">GDM: Bitcoin Interoperability & Resilience (August 2026)</a></h2>
+
+       <p>Two presentations: one on sharding secrets to help protect your Bitcoin Core funds; and another on using Keylay to securely transmit QRs and Animated QRs on the internet.</p>
+       
+    </td>
+  </tr>
+
+  <tr>
+    <td>
+
       <a href="/meetings/2026-05-rssi-ccg/"><img src="/assets/pdfs/2026-05-rssi-ccg-thumbnail.jpg" style="border: 1px solid blue"></a>
 
     </td>
