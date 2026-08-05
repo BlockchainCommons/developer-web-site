@@ -56,10 +56,10 @@ Elision Cryptography is a design that links to the philosophy of Data Minimizati
 
 In real life, you slowly reveal things to people over time. That's very different from the digital world, where revelation is often all-or-nothing thanks to a lack of Data Minimization. Progressive Trust says **you should be able to increase what you've revealed to someone as you get to know them better.** It's an ongoing process.
 
-** For more see the [**Progressive Trust Page**](/architecture/design/progressive-trust/)
+* For more see the [**Progressive Trust Page**](/architecture/design/progressive-trust/)
 
 ### Pseudonymous Trust Building
 
 Digital identities need not link to a real-world identity. Pseudonymous Trust Building says that you should be able to create an unlinked pseudonym and **build credentials and trust for that pseudonym over time** through proven work and/or connections to a web of trust.
 
-** For more see the [**Pseudonymous Trust Building Page**](/architecture/design/pseudonym/)
+* For more see the [**Pseudonymous Trust Building Page**](/architecture/design/pseudonym/)
