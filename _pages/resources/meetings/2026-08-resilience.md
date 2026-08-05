@@ -56,6 +56,12 @@ The [Gordian Developer Meeting](https://www.blockchaincommons.com/subscribe/#gor
 <a href="/assets/pdfs/2026-08-resilience-bitcoin.pdf"><img src="/assets/pdfs/2026-08-resilience-bitcoin.jpg" style="border:2px solid white"></a><br><center>[ <a href="meetings/2026-08-resilience/cli/">CLI Commands</a> ]
 
     </td>
+    <td width="640px">
+      <b>Keylay Slides:</b>
+
+<a href="/assets/pdfs/2026-08-resilience-keylay.pdf"><img src="/assets/pdfs/2026-08-resilience-keylay.jpg" style="border:2px solid white"></a>
+
+    </td>
   </tr>
 </table>
 
