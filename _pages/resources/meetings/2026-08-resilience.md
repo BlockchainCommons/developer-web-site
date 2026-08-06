@@ -53,7 +53,7 @@ The [Gordian Developer Meeting](https://www.blockchaincommons.com/subscribe/#gor
     <td width="640px">
       <b>Sharding Secrets Slides:</b>
 
-<a href="/assets/pdfs/2026-08-resilience-bitcoin.pdf"><img src="/assets/pdfs/2026-08-resilience-bitcoin.jpg" style="border:2px solid white"></a><br><center>[ <a href="meetings/2026-08-resilience/cli/">CLI Commands</a> ]</center>
+<a href="/assets/pdfs/2026-08-resilience-bitcoin.pdf"><img src="/assets/pdfs/2026-08-resilience-bitcoin.jpg" style="border:2px solid white"></a><br><center>[ <a href="/meetings/2026-08-resilience/cli/">CLI Commands</a> ]</center>
 
     </td>
     <td width="640px">
@@ -114,6 +114,7 @@ the full content of the meeting.
 * [Seedtool](https://github.com/BlockchainCommons/seedtool-cli-rust)
 * [JQ](jqlang.org)
 * [Gordian Seedtool for iOS](https://apps.apple.com/us/app/gordian-seed-tool/id1545088229)
+* [CLI Commands](/meetings/2026-08-resilience/cli/)
 
 ### Keylay
 
