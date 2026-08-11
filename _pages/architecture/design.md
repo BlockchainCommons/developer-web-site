@@ -22,7 +22,7 @@ _Any architecture is built upon design principles. These are foundational ideas 
 
 ### Heterogeneity: Separation
 
-Heterogeneity is a design philosophy that says: **Security is improved when things are different from each other.** It might also be called partitioning. It includes separation (when things **vary because they’re apart**). It’s helpful because it removes honeypots and single points of compromise: if your multisig keys are on separate, offline devices that are kept in discrete places, it becomes pretty hard to compromise your signature.
+Heterogeneity is a design philosophy that says: **Security is improved when things are different from each other.** It might also be called partitioning. It includes separation (when things **vary because they’re apart**). This is helpful because it removes honeypots and single points of compromise: if your multisig keys are on separate, offline devices that are kept in discrete places, it becomes pretty hard to compromise your signature.
 
 * For examples, see [**Authentication Design Patterns**](/architecture/patterns/auth/)
 
@@ -48,7 +48,7 @@ Data Minimization is closely linked to the general principle of "Least & Necessa
 
 ### Elision Cryptography
 
-Elision Cryptography is a design that links to the philosophy of Data Minimization. It says **Data Minimization can be accomplished by removing everything that's not needed in a way that maintains cryptographic signatures.** [Gordian Envelope](/envelope/) was built to accomplish this goal. As an example, you could have an mDL, and if it supported Elision Cryptography, you could display it with everything elided but the age and the state's signature. (In this particular example, it'd still be better to just prove you're of an appropriate age without having to reveal it.)
+Elision Cryptography is a design that links to the philosophy of Data Minimization. It says **Data Minimization can be accomplished by removing everything that's not needed in a way that maintains cryptographic signatures.** [Gordian Envelope](/envelope/) was built to fulfill this philosophical view. As an example, you could have an mDL, and if it supported Elision Cryptography, you could display it with everything elided but the age and the state's signature. (In this particular example, it'd still be better to just prove you're of an appropriate age without having to reveal it, but the point of using elision cryptography is that it's very simple.)
 
 * For more see the [**Elision Cryptography Page**](/architecture/design/elision-cryptography/)
 
