@@ -159,7 +159,7 @@ standardized formats?
 
 This is why some of Blockchain Commons' earliest specification work
 was on developing standard ways to exchange information, including
-[URs](/ur/), [animated QRs](/animated-qrs/), [dCBOR](/dCBOR/), and
+[URs](/ur/), [animated QRs](/animated-qrs/), [dCBOR](/dcbor/), and
 ultimately [Gordian Envelope](/envelope/). These are ways to store and
 transmit data in standardized, self-identifying ways that make
 intetoperability a snap.
