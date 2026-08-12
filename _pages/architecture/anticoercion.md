@@ -117,10 +117,11 @@ marks](/provemark/).
 Generally, pseudonymous digital assets combined with provenance chains
 of control, offer two major sorts of coercion resistance:
 
-* **Coercion-Resistance Assets.** With the exception of the 'ole
+**Coercion-Resistance Assets.** With the exception of the 'ole
 "wrench attack" (which is why privacy is an important
 coercion-resistance tool), your assets can't be taken from you.
-* **Coercion-Resistance Commerce.** In addition, unless the whole
+
+**Coercion-Resistance Commerce.** In addition, unless the whole
 community decided to block the usage of specific bitcoins, your
 ability to purchase can't be blocked.
 
