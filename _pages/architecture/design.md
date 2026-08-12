@@ -67,4 +67,4 @@ Digital identities need not link to a real-world identity. Pseudonymous Trust Bu
 ## Also See
 
 * [**Design Patterns**](/architecture/patterns/) - A tactical look at applying philosophies as individual gears in a machinery.
-* [**Authentication Design Patterns**](/architecture/patthers/design/) - A design pattern example, using authentication/authorization.
+* [**Authentication Design Patterns**](/architecture/patterns/auth/) - A design pattern example, using authentication/authorization.
