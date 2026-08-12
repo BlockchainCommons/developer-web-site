@@ -76,7 +76,7 @@ Our [XIDs](/xid/) offer a new solution that is truly
 self-sovereign—but by self-sovereign, we really mean "designed to be
 proof against coercion."
 
-* For more, see [XIDs](/xid/)
+* For more, see [**XIDs**](/xid/)
 
 ### Coercion Resistant Identity Publication
 
@@ -96,7 +96,7 @@ that they will continue to be available in the future.
 Blockchain Commons' answer is Garner, which publishes identity files
 over Tor using a public key as its address.
 
-* For more see [Garner](/garner/)
+* For more see [**Garner**](/garner/)
 
 ### Coercion Resistant Assets
 
@@ -124,8 +124,8 @@ coercion-resistance tool), your assets can't be taken from you.
 community decided to block the usage of specific bitcoins, your
 ability to purchase can't be blocked.
 
-* For more, see [Learning Bitcoin](https://learningbitcoin.blockchaincommons.com/)
-* For more, see [Smart Custody](https://www.smartcustody.com/).
+* For more, see [**Learning Bitcoin**](https://learningbitcoin.blockchaincommons.com/)
+* For more, see [**Smart Custody**](https://www.smartcustody.com/).
 
 ### Coercion Resistant Communication
 
@@ -145,8 +145,8 @@ used for communication, though its particular focus is algorithmic
 communication (e.g., censorship resistant access to protocols like
 FROST).
 
-* For more, see [Gordian Clubs](/clubs/).
-* For more, see [Hubert](/hubert/).
+* For more, see [**Gordian Clubs**](/clubs/).
+* For more, see [**Hubert**](/hubert/).
 
 ### Coercion Resistant Data
 
@@ -163,10 +163,10 @@ ultimately [Gordian Envelope](/envelope/). These are ways to store and
 transmit data in standardized, self-identifying ways that make
 intetoperability a snap.
 
-* For more, see [dCBOR](/dcbor/).
-* For more, see [Uniform Resources](/ur/).
-* For more, see [Animated QRs](/animated-qrs/).
-* For more, see [Gordian Envelope](/envelope/).
+* For more, see [**dCBOR**](/dcbor/).
+* For more, see [**Uniform Resources**](/ur/).
+* For more, see [**Animated QRs**](/animated-qrs/).
+* For more, see [**Gordian Envelope**](/envelope/).
 
 ### Coercion Resistant Apps
 

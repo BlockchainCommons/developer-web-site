@@ -20,6 +20,20 @@ _Any architecture is built upon design principles. These are foundational ideas 
 
 ## General Architectural Principles
 
+### Coercion Resistance
+
+Coercion Resistance threads through most of Blockchain Commons
+designs. It says: **people should be able to make their own choices
+and take their own actions without control imposed by another
+entity.** The [Gordian
+principles](https://developer.blockchaincommons.com/principles/) of
+independence, privacy, and openness are all meant to support the
+philosophy of Coercion Resistance. Meanwhile, the last principle, of
+resilience, is needed to support self-sovereign control, which means
+that it's just an extra step removed from the ideal.
+
+* For examples, see [**Coercion Resistance Page**](/architecture/coercion-resistance/)
+
 ### Heterogeneity: Separation
 
 Heterogeneity is a design philosophy that says: **Security is improved when things are different from each other.** It might also be called partitioning. It includes separation (when things **vary because they’re apart**). This is helpful because it removes honeypots and single points of compromise: if your multisig keys are on separate, offline devices that are kept in discrete places, it becomes pretty hard to compromise your signature.

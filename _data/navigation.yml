@@ -49,7 +49,7 @@ archdesign:
     - title: "Design Patterns"
       url: /architecture/patterns/
     - title: "Coercion Resistance"
-      url: /architecture/anti-coercion/
+      url: /architecture/coercion-resistance/
     - title: "Data Minimization"
       url: /architecture/data-minimization/
     - title: "Pseudonymous Trust Building"
