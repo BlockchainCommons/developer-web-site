@@ -2,58 +2,82 @@
 cover: false
 header:
   overlay_color: "#000"
-  overlay_filter: "0.25"
-  overlay_image: /assets/images/dev-arch-background.jpg
+  overlay_filter: "0.35"
+  overlay_image: /assets/headers/architecture.jpg
   og_image: /assets/images/bc-card.jpg
-title: Authentication, A Heterogeneity Design Pattern
+title: Authentication Design Patterns
+tagline: Based on the Heterogeneuity Principle
 hide_description: true
 classes:
   - wide
 permalink: /architecture/patterns/auth/
 sidebar:
-  nav: architecture
+  nav:
+    - archdesign
+    - architecture
 ---
 
-Any architecture requires the building blocks of design patterns. A house isn't built from scratch as revealed by Christopher Alexander in his book, _A Pattern Language_ (1977). Instead it's made up of repeatable patterns such as "a place to wait", "a sitting circle", and "open stairs". Technical systems are similarly made up of design patterns: the [architectures](https://developer.blockchaincommons.com/architecture/) espoused by Blockchain Commons are full of them.
-
-_This document is intended to reveal a bit about how Blockchain Commons thinks about architectural design and thus how it constructs its scenarios and other studies. However, it's just a tiny corner of the overall security design space. To be specific, it's focused on the intersection of Authentication, Authorization, and hetergeneous design. Many other categories of patterns are relevant in the security space and could complement this work._
+_This document is intended to reveal a bit about how Blockchain
+Commons thinks about architectural design and thus how it constructs
+its scenarios and other studies. However, it's just a tiny corner of
+the overall security design space. To be specific, it's focused on the
+intersection of Authentication and Authorization with the
+[Heterogeneity design principles](/architecture/design/).  Many other
+types of [design patterns](/architecture/patterns/) are relevant in the security space and could
+complement this work._
 
 # An Overview of Hetergenity
 
-_Heterogeneity_ is a security design pattern that says: 
+_Heterogeneity_ is a architectural principle that says: 
 
 > _**Security is improved when things are different from each other**_. 
 
-It might also be called _partitioning_. It encompasses both _variety_ (when things vary because they're different) and _separation_ (when things vary because they're apart). This pattern has been used across a wide number of architectural designs from Blockchain Commons. It's helpful because it removes honeypots and single points of compromise, reduces the danger of zero-day attacks, and otherwise improves the security of whatever you're protecting.
+It might also be called _partitioning_. It encompasses both _variety_
+(when things vary because they're different) and _separation_ (when
+things vary because they're apart). This pattern has been used across
+a wide number of architectural designs from Blockchain Commons. It's
+helpful because it removes honeypots and single points of compromise,
+reduces the danger of zero-day attacks, and otherwise improves the
+security of whatever you're protecting.
 
-This document looks at the heterogeneity pattern through a single lens: Authentication. It not only examines specific Authentication patterns that support heterogeneity (especially [Multifactor Authentication](#multifactor-authentication), [Multichannel Authentication](#multichannel-authentication), and [Threshold Authentication](#threshold-authentication)) but it expands that into a complete look at the design patterns underlying Authentication and Authorization, to create a larger blueprint for how to make these systems secure.
+This document looks at the Heterogeneity principle through a single
+lens: Authentication. It not only examines specific Authentication
+patterns that support heterogeneity (especially [Multifactor
+Authentication](#multifactor-authentication), [Multichannel
+Authentication](#multichannel-authentication), and [Threshold
+Authentication](#threshold-authentication)) but it expands that into a
+complete look at the design patterns underlying Authentication and
+Authorization, to create a larger blueprint for how to make these
+systems secure.
 
 ## An Overview of Authentication & Authorization
 
-Authentication and Authorization are both included in this document in part because they're often confused with each other. It's not just that they're very similar words, but also that their concepts are tightly intertwined.
+Authentication and Authorization are both included in this document in
+part because they're often confused with each other. It's not just
+that they're very similar words, but also that their concepts are
+tightly intertwined.
 
 Our definitions of the terms are essentially as follows:
 
 * **Authentication.** Prove access to a specific identity, group, or service.
 * **Authorization.** Be granted specific capabilities or permissions.
 
-Typically, an Authentication grants a specific level of Authorization, which is a pattern called the [Authorization-Authentication Link](#authentication-link). However, there's a lot more complexity than is apparent either in these definitions or their interconnections.
+Typically, an Authentication grants a specific level of Authorization,
+which is a pattern called the [Authorization-Authentication
+Link](#authentication-link). However, there's a lot more complexity
+than is apparent either in these definitions or their
+interconnections.
 
-_What does Authentication really prove?_ Only that a user holds the proof of Authentication. That might be a pretty tight connection to a person when it's biometrics (maybe!), but less so when Authentication depends on a secret or token.
+_What does Authentication really prove?_ Only that a user holds the
+proof of Authentication. That might be a pretty tight connection to a
+person when it's biometrics (maybe!), but less so when Authentication
+depends on a secret or token.
 
 _Who has the right to Authorization?_ Is it the person originally granted it? Is it the holder of a specific secret or token? Is it anyone who can Authenticate?
 
 These are some of the questions that must be considered, even when picking and using design patterns from this document.
 
-# Picking Your Design Patterns
-
-Choosing design patterns is an art, not a science. Each design pattern lays out specific _problems_ that you might face and _solutions_ to resolve those problems, but you must ultimately decide which problems are important enough to require solutions (and whether the solutions are worth their trouble or not).
-
-Two things in particular must be considered:
-
-1. __Solutions Create New Problems.__ Any solution introduces new problems to a system, some of which are listed in the _Disadvantages_ section of each pattern. Even beyond those, any pattern may introduce more complexity to a system, reducing user ease of use. Using design patterns means finding the appropriate balance for your system.
-2. __No System is Perfect.__ No system will ever provide perfect security. In fact, it could be that no system will provide even very good security. When determining your balance, you thus shouldn't seek to balance against perfection.
-
+## Authentication Design Patterns ToC
 
 Patterns are organized into the following groups:
 
@@ -93,11 +117,11 @@ Specific patterns are:
 | Authorization | [Authorization](#authorization) | what you can do |
 | Authorization | [Authorization Levels](#authorization-levels) | progressively authorize
 
-# Core Authentication Patterns
+## Core Authentication Patterns
 
 _The Core Authentication patterns define the fundamental design of an Authentication system._
 
-## Authentication
+### Authentication
 
 > **Problems:**
 >
@@ -134,7 +158,7 @@ In Gordian Seed Tool, Authentication is required whenever a user accesses privat
 > * **Loss of Access Possible.** If Authentication fails, access fails, suggesting the needs for Threshold Authentication.
 > * **Privacy Threats.** There may be permanent records associated with identifiers.
 
-## Authentication Levels
+### Authentication Levels
 
 > **Problems:**
 >
@@ -167,7 +191,7 @@ Gordian Seed Tool provides two main Authentication Levels. The basic level of ac
 > **Disadvantages:**
 > * **Single Points of Failures Multiply.** Multiplying access requirements multiplies the ways that access could be lost.
 
-## Authentication Proof
+### Authentication Proof
 
 > **Problems:**
 > 
@@ -200,11 +224,11 @@ The Gordian Architure is built to allow for this sort of pattern. It suggests ea
 > **Disadvantages:**
 > * **Requires Some Trust.** Though the goal of an Authentication Proof system is trustlessness, it's likely that there's ultimately going to be some kernel of Trust involved, even if it's just a trust to protect against correlation.
 
-# Authentication Heterogeneity Patterns
+## Authentication Heterogeneity Patterns
 
 _The Authentication Heterogeneity patterns are where partitioning comes into an Authentication system, whether it be variety or variety **plus** separation._
 
-## Multifactor Authentication
+### Multifactor Authentication
 
 > **Problems:**
 > 
@@ -241,7 +265,7 @@ In the Gordian architecture, Multifactor Authentication is suggested as a best p
 > * **Loss without Thresholds.** Without a Threshold Authentication pattern, each new type of Authentication increases the opportunity for loss.
 > * **Correlation Threats.** If all the varied Authentication methods are combined on one server, that's obviously a major overidentification threat.
 
-## Multichannel Authentication
+### Multichannel Authentication
 
 > **Problems:**
 > 
@@ -277,7 +301,7 @@ This is the best practice for use of Gordian Depos to shard secrets: each deposi
 > * **Single Points of Failures Multiply.** As with any sort of Multifactor Authentication, more points of Authentication means more points of failure.
 > * **Correlation Threats.** Different types of authentication might be correlatable, even if they're separated on different servers through Multifactor Authentication.
 
-## Threshold Authentication
+### Threshold Authentication
 
 > **Problems:**
 > 
@@ -313,11 +337,11 @@ This is the fundamental methodology that Blockchain Commons suggests for [Smart 
 * **Complexity.** Threshold Authentication systems can have increased complexity. Our current [Multisig Self-Custody Scenario](https://github.com/BlockchainCommons/SmartCustody/blob/master/Docs/Scenario-Multisig.md) is complex enough that it puts off potential users.
 * **Potential for Third-Party Corruption.** If you hold all your own Authentication, it'll only be used in a way you want. But if you have a Threshold Authentication scenario where other people hold some of your Authentication, they could be corrupted. (The solution isto ensure that third-parties never hold enough Authentication to access your system.)
 
-# Authentication Method Patterns
+## Authentication Method Patterns
 
 _Authentication Methods are ways that Authentication can be validated._
 
-## Biometric Authentication
+### Biometric Authentication
 
 > **Problems:**
 > 
@@ -352,7 +376,7 @@ Gordian Seed Tool uses the Biometric Authentication built into Apple iOS to requ
 > * **Reliability Issues.** Biometric reliability has generally risen to somewhere in the 98-99.8% range, but the chance of unreliability still seems quite high for an Authentication mechanism, and there appear to still be worse problems for [some demographics](https://sitn.hms.harvard.edu/flash/2020/racial-discrimination-in-face-recognition-technology/). The masking requirements of COVID demonstrated another issue with biometric reliability.
 > * **Inheritance Issues.** Biometric information is not currently available to heirs, which can cause inheritance problems.
  
-## Control Authentication
+### Control Authentication
 
 > **Problems:**
 >
@@ -391,7 +415,7 @@ Signing a public key with a private key is another way to demonstrate control of
 > * **Privacy Threats.** Control Authentication is often public, as the authenticator creates a record that anyone can see.
 > * **Third-Party Trust.** Trust is required for whatever third party is doing the Authentication. This is less of an issue when it's self-sovereign, such as showing ownership of a domain or a website, and more of an issue when it's not, such as a federated login.
 
-## Secret Authentication
+### Secret Authentication
 
 > **Problems:**
 > 
@@ -426,7 +450,7 @@ The Gordian architecture's main use of Secret Authentication is through the stor
 > * **Forgettable.** Any password is forgettable, but the problem gets even bigger for large secrets such as private keys that are largely impossible to remember.
 > * **Inheritance Issues.** Unless specifically preserved, secrets aren't passed down to heirs.
 
-## Token Authentication
+### Token Authentication
 
 > **Problems:**
 > 
@@ -464,11 +488,11 @@ Gordian Seed Tool (GST) itself is effectively a Token Authentication method sinc
 > * **Susceptible to Bitrot.** A hardware token could decay over time or could become incompatible with newer systems.
 > * **Opaque.** Compared to most other types of Authentication, Token Authentication is pretty opaque: the user doesn't really know what the token is doing.
 
-# Authentication Protection Patterns
+## Authentication Protection Patterns
 
 _Protections allow Authentication to continue, but with various warnings or other safeguards._
 
-## Authentication Delay
+### Authentication Delay
 
 > **Problems:**
 >
@@ -504,7 +528,7 @@ The Apple devices that Gordian Seed Tool runs on have an Authentication Delay bu
 
 * **Lock Out.** A delay is essentially a lock-out, and that means a user can't access some of their functionality for a time. This can vary from annoying to life-threatening. Thus Authentication Delay systems sometimes have to build in exceptions: if you get locked out of an Apple device, you can still make an emergency call.
  
-## In-Channel Warning
+### In-Channel Warning
 
 > **Problems:**
 >
@@ -540,7 +564,7 @@ There are currently no factored warnings within the Gordian architecture or its 
 > * **No New Channels.** In some way, this is a poor man's warning, since it presumes that the Authentication channel wasn't previously compromised, that it's a brand-new problem.
 > * **Ignorable.** Obviously, a user can ignore a warning message, but the problem is deeper than that. The more common this design pattern becomes, the less useful it becomes, in a "Boy Who Cried Wolf" manner. If a user is constantly beset by warning messages from all of their online services, they'll lose the ability to pick out important ones. 
 
-## Out-of-Channel Warning
+### Out-of-Channel Warning
 
 > **Problems:**
 >
@@ -577,7 +601,7 @@ There are currently no factored warnings within the Gordian architecture or its 
 > * **Correlatable.** Emails and messages can create correlation and even an attack vector. If an attacker gains access to the place that receives the warning messages, then they now know an additional place where the user has an account.
 > * **Ignorable.** Obviously, a user can ignore a warning message, but the problem is deeper than that. The more common this design pattern becomes, the less useful it becomes, in a "Boy Who Cried Wolf" manner. If a user is constantly beset by warning messages from all of their online services, they'll lose the ability to pick out important ones. 
 
-## Usage Analysis
+### Usage Analysis
 
 > **Problems:**
 >
@@ -617,7 +641,7 @@ There is currently no system like this in the Gordian Architecture, in large par
 
 _Authentication Storage declares how the material that verifies authentication is stored._
 
-## Hashed Authentication Storage
+### Hashed Authentication Storage
 
 > **Problems:**
 >
@@ -649,7 +673,7 @@ Protection of **Biometric Authentication** will become even more important going
 > **Disadvantages:**
 > * **Compromised Authentication Still Possible.** Although hashed data can't be replayed, it can still be compromised if a known Authentication can be found that matches the hash.
 
-## Local Authentication Storage
+### Local Authentication Storage
 
 > **Problems:**
 >
@@ -682,11 +706,11 @@ Blockchain Commons feels that the use of a [Secure Enclave](https://support.appl
 > * **Network Trust Issues.** Local Authentication Storage also has the effect of kicking the can down the road. Unless you're working on a totally local system, you now need to find a way to establish trust with a networked system and to offer proof of Authentication.
 
 
-# Authentication Subject Patterns
+## Authentication Subject Patterns
 
 _Authentication Subjects declare who/what is being authenticated._
 
-## Anonymous Validation
+### Anonymous Validation
 
 > **Problems:**
 > 
@@ -720,7 +744,7 @@ Bitcoin is often seen as an anonymous currency, but it's not, as addresses (and 
 > * **No Correlation.** Though privacy systems often try to defeat correlation, it's not all bad. We often _want_ to create correlation in certain systems, such as when we correlate our assets and ourselves to get a bank loan. With anonymity, that's not possible.
 > * **No Responsibility.** With no identities, you can't track responsibility for actions within a system.
 
-## Identity Validation
+### Identity Validation
 
 > **Problems:**
 >
@@ -755,7 +779,7 @@ None of the Gordian architecture depends upon Identity Validation, as it's large
 > **Disadvantages:**
 > * **No Privacy.** Requiring a link to a long-lived identity, and especially to a real-world identity, is 100% privacy-busting. It should only be undertaken when truly necessary.
 
-## Pseudonymous Validation
+### Pseudonymous Validation
 
 > **Problems:**
 >
@@ -789,11 +813,11 @@ As noted, Bitcoin addresses are an example of Pseudonymous Validation, one that 
 > * **Correlation.** Any ongoing identifier can ultimately create opportunities for correlation.
 > * **High Privacy Expectations.** Bitcoin in particular has shown that people have very high levels of privacy expectations for pseudonymous accounts, often confusing pseudonymity with true anonymity.
  
-# Authorization Patterns
+## Authorization Patterns
 
 _Authorization is the flipside of Authentication. Authentication verifies your ability to access some system or asset while Authorization defines your permissions related to that system or asset. It's included here because the two are often confused or conflated._
 
-## Authorization
+### Authorization
 
 > **Problems:**
 >
@@ -830,7 +854,7 @@ Authorization and Authentication can collapse together if a single Authenticatio
 * **Complexity.** Obviously, any permissions or capabilities system creates complexity. 
 * **Logistics.** People might find themselves unable to do things that they should be able to do because Authorization isn't set up correctly.
 
-## Authorization-Authentication Link
+### Authorization-Authentication Link
 
 > **Problems:**
 > 
@@ -866,7 +890,7 @@ This is of course how Gordian Seed Tool works too: your Authenticate yourself, a
 * **Ignores Other Patterns.** Because the Authorization-Authentication Link pattern is so obvious, it's caused other methodologies to be ignored. What if we wanted to Authorization people based on certain skill levels? Based on certain needs? What if we wanted to Authorize people without involving correlatable identities? These other possibilities have largely fallen by the way side.
 * **Impersonation Possible.** Depending on the exact Authentication method used, impersonation might be possible. Some methods are more susceptible to impersonation (passwords), some are less (tokens), others fall in the middle. Unfortunately, impersonation can be very problematic, again because of the commonness of this pattern. Because authentication _is_ authorization for many systems, impersonation _provides_ unfettered access to a system, and can be very hard to unwind.
 
-## Authorization Levels
+### Authorization Levels
 
 > **Problems:**
 > 
