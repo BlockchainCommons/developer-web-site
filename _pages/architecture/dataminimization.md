@@ -12,6 +12,8 @@ classes:
   - wide
 permalink: /architecture/data-minization/
 redirect_from:
+  - /data-minimization/
+  - /dataminimization/
   - /architecture/dataminimization/
 sidebar:
   nav:
