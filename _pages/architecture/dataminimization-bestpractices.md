@@ -1,4 +1,4 @@
----
+--
 cover: false
 header:
   overlay_color: "#000"
@@ -10,9 +10,7 @@ tagline: 'Revealing Only What's Needed"
 hide_description: true
 classes:
   - wide
-permalink: /architecture/data-minimization/
-redirect_from:
-  - /architecture/dataminimization/
+permalink: /architecture/data-minimization/best-practices/
 sidebar:
   nav:
     - dataminimization

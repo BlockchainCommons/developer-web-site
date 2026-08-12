@@ -78,8 +78,8 @@ digital data can persist indefinitely and be copied without limit.
 
 ## Data Minimization Links
 
-* [**Data Minimization Best Practices**](/architecture/data-minimization/best-practices)
-* [**Data Minimization Use Cases**](/architecture/data-minimization/use-cases)
+* [**Data Minimization Best Practices**](/architecture/data-minimization/best-practices/)
+* [**Data Minimization Use Cases**](/architecture/data-minimization/use-cases/)
 
 * [**Gordian Envelope**](/envelope/)
 * [**Elision Cryptography**](/architecture/elision-cryptography/)
