@@ -5,8 +5,8 @@ header:
   overlay_filter: "0.35"
   overlay_image: /assets/headers/architecture.jpg
   og_image: /assets/images/bc-card.jpg
-title: Data Minization
-tagline: 'Revealing Only What's Needed"
+title: "Data Minimization Use Cases"
+tagline: "Revealing Only What's Needed"
 hide_description: true
 classes:
   - wide
