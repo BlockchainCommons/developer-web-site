@@ -54,6 +54,8 @@ archdesign:
       url: /architecture/patterns/
     - title: "Data Minimization"
       url: /architecture/data-minimization/
+    - title: "Pseudonymous Trust Building"
+      url: /architecture/pseudonym/
 dataminimization:
   - title: Data Minimization
     children:
@@ -63,6 +65,13 @@ dataminimization:
       url: /architecture/data-minimization/best-practices/
     - title: "Use Cases"
       url: /architecture/data-minimization/use-cases/
+pseudonym:
+  - title: Pseudonymous Trust Building
+    children:
+    - title: "Pseudonyms Home"
+      url: /architecture/pseudonym/
+    - title: "Learning Pseudonyms (CLI)"
+      url: /architecture/pseudonym/cli/
 resources:
   - title: Other Resources
     children:
