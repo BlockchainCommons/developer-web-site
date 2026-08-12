@@ -22,9 +22,9 @@ sidebar:
     - architecture
 ---
 
-Data minimization is the practice of limiting the data you share to
+_Data minimization is the practice of limiting the data you share to
 only what's necessary for a specific purpose. It follows the
-principle: **"Share what you must, protect what you can."**
+principle: **"Share what you must, protect what you can."**_
 
 ## Beyond Anonymity and Pseudonymity
 
