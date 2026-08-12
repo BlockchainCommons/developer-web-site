@@ -10,7 +10,7 @@ tagline: 'Revealing Only What's Needed"
 hide_description: true
 classes:
   - wide
-permalink: /architecture/data-minization/
+permalink: /architecture/data-minimization/
 redirect_from:
   - /data-minimization/
   - /dataminimization/

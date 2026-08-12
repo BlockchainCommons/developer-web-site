@@ -10,7 +10,7 @@ tagline: 'Revealing Only What's Needed"
 hide_description: true
 classes:
   - wide
-permalink: /architecture/data-minization/use-cases/
+permalink: /architecture/data-minimization/use-cases/
 sidebar:
   nav:
     - dataminimization
