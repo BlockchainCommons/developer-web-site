@@ -165,6 +165,8 @@ article.
 
 ## Pseudonymous Trust Building Links
 
+* [**Learning Pseudonyms from the Command Line**](/architecture/pseudonym/cli/)
+
 * [**Attestations & Endorsements**](/identity/attestations/)
 * [**Fair Witness Methodology**](/identity/fair-witness/)
 
