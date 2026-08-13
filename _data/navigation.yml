@@ -68,7 +68,7 @@ progressivetrust:
     children:
     - title: "Progressive Trust Home"
       url: /architecture/progressive-trust/
-    - title: "Trust Life Cycle""
+    - title: "Trust Life Cycle"
       url: /architecture/life-cycle/
     - title: "Learning Progressive Trust (CLI)"
       url: /architecture/progressive-trust/cli/
