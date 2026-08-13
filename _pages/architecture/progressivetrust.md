@@ -174,7 +174,7 @@ Line](/architecture/progressive-trust/cli/).
 ## Progressive Trust Links
 
 * [**Progressive Trust Life Cycle**](/architecture/progressive-trust/life-cycle/)
-* [**Learning Progressive Trust from the Command Line](/architecture/progressive-trust/cli/)
+* [**Learning Progressive Trust from the Command Line**](/architecture/progressive-trust/cli/)
 
 * [**Gordian Envelope**](/envelope/)
-* [**XIDs](/xid/)
+* [**XIDs**](/xid/)
