@@ -2,33 +2,28 @@
 cover: false
 header:
   overlay_color: "#000"
-  overlay_filter: "0.25"
-  overlay_image: /assets/images/dev-arch-background.jpg
+  overlay_filter: "0.35"
+  overlay_image: /assets/headers/architecture.jpg
   og_image: /assets/images/bc-card.jpg
-title: The Progressive Trust Life Cycle
+title: "Progressive Trust Life Cycle"
 hide_description: true
 classes:
   - wide
-permalink: /progressive-trust/
+permalink: /architecture/progressive-trust/life-cycle/
+redirect_from:
+  - /architecture/progressive-trust/lifecycle/
+  - /architecture/progressivetrust/lifecycle/
 sidebar:
-  nav: architecture
+  nav:
+    - progressivetrust
+    - archdesign
+    - architecture
 ---
 
-[Progressive Trust](https://www.blockchaincommons.com/musings/musings-progressive-trust/) is one of the keystones in Blockchain Commons' [architecture](https://developer.blockchaincommons.com/architecture/). It posits that digital trust needs to be modeled after how human trust works in the real world. Traditionally, people came together in a medium where their [personal data was innately minimized](https://www.blockchaincommons.com/musings/musings-data-minimization/) and gradually got to knew each other until they'd developed sufficient trust to engage in some interaction for mutual benefit, which could be anything from hiring someone as a contractor to marrying them. As social psychologist James W. Pennebaker said, "Conversations are like dances." It's a mature process that evolved over thousands of years.
-
-> "The basic idea behind progressive trust is to model how trust works in the real world"
-> —Christopher Allen, [Musings of a Trust Architect: Progressive Trust](https://www.blockchaincommons.com/musings/musings-progressive-trust/) (December 2022)
-
-Perhaps the internet was like that in its early days, when you met someone on a MUD or engaged in a `talk` and learned more about them over time. But when the internet became commercialized in the '90s, powerful institutions brought new models for interactivity. They gained economic benefit from _limiting_ what you could see. This allowed them to simplify usability and to create their own controlled communities, all of which increased their commercial viability, so limit they did. That's the internet that exists today. Centralized entities offer you restricted views of your fellows and provide binary choices on silver platters: trust or not. There are no shades of gray, there is no progression. Decisions are really made by them, not us. 
-
-Web browsers offer an example. They tell us who to trust on the internet, but they do so without nuance. They tell us sites that have been able to acquire certificates, legimately or illegimately. They don't tell us sites with a record of stability, they don't tell us sites with a reputation for truth, and they definitely don't tell us who to trust on those sites. This is just one of the places that progressive trust can benefit the internet, for trust isn't black and white: it exists in a world of gray.
-
-Fortunately, the wheel is turning again. The modern internet offers distributed and decentralized systems that put choice back into the hands of individuals, allowing them to make decisions without the coercion, censorship, and unbalanced power of centralized systems. This allows the creation of systems where a user isn't served up binary choices for trust based on limited information. Technologies such as [data minimization and selective disclosure](https://www.blockchaincommons.com/musings/musings-data-minimization/) improve the situation even more. They can further protect our human dignity and choice by letting us choose to slowly (progressively) reveal our own information over time. We just need to normalize these technologies and apply them to human interactions that have been warped by the 21st century corpocratic control of the internet. We need to apply them fully in order to fully _trust_.
-
-> "Adapt Locally ... Govern Locally"
-> —Christopher Allen, [10 Design Principles for Governing the Commons](https://www.lifewithalacrity.com/article/10-design-principles-for-governing-the-commons/)
-
-What follows is a life cycle that demonstrates the steps of progressive trust that are simultaneously automatic in the real world and ignored in the digital world. It includes use cases that demonstrate the important of progressive trust:
+What follows is a life cycle that demonstrates the steps of
+progressive trust that are simultaneously automatic in the real world
+and ignored in the digital world. It includes use cases that
+demonstrate the important of progressive trust:
 
 * **Personal Contracts.** Personal interactions are the ground level for progressive trust. The simple act of hiring a carpenter demonstrates its foundations. This is the default use case for this life cycle, and one that is purposefully written as existing in a physical (not digital) world.
 * **Journalistic Integrity.** Journalists and newspapers must trust each other before they are willing to stake their reputations on each other.
@@ -573,3 +568,4 @@ One of Asset Analysis' clients complains about their use of an open-source proje
 
 * **v1.0 (11/13/24):** Initial release on web site. (Previous versions existed in HackMD.)
 * **v1.1 (2/5/25):** Language updates. Removed VALIDATE from p2, changed core verb in p4 from AGGREGATE to AFFIRM, changed core verb in p5 from CHECK to AUDIT. 
+* **v1.2 (8/12/26):** Basic information moved to main progressive trust page

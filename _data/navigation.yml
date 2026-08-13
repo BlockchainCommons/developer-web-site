@@ -52,6 +52,8 @@ archdesign:
       url: /architecture/coercion-resistance/
     - title: "Data Minimization"
       url: /architecture/data-minimization/
+    - title: "Progressive Trust"
+      url: /architecture/progressive-trust/
     - title: "Pseudonymous Trust Building"
       url: /architecture/pseudonym/
 dataminimization:
@@ -63,6 +65,15 @@ dataminimization:
       url: /architecture/data-minimization/best-practices/
     - title: "Use Cases"
       url: /architecture/data-minimization/use-cases/
+progressivetrust:
+  - title: Progressive Trust
+    children:
+    - title: "Progressive Trust Home"
+      url: /architecture/progressive-trust/
+    - title: "Trust Life Cycle""
+      url: /architecture/life-cycle/
+    - title: "Learning Progressive Trust (CLI)"
+      url: /architecture/progressive-trust/cli/
 pseudonym:
   - title: Pseudonymous Trust Building
     children:
