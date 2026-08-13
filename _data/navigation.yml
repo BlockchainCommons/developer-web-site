@@ -37,8 +37,6 @@ architecture:
       url: /architecture/roles/
     - title: "Architecture Apps"
       url: /architecture/apps/
-    - title: "Progressive Trust"
-      url: /progressive-trust/   
     - title: "Return to Main"
       url: /
 archdesign:
