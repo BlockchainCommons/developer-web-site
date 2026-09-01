@@ -206,6 +206,7 @@ _See the [Gordian Envelope playlist](https://www.youtube.com/playlist?list=PLCkr
 * [**Known Values**](/known-values/)
 * [**Permits**](/envelope/permits/)
 * [**Request/Response**](/envelope/request/)
+* [**Salt**](/envelope/salt/)
 
 **Industry Intros:**
 

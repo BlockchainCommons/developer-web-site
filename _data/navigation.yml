@@ -212,6 +212,8 @@ envelope:
       url: /envelope/permits/  
     - title: "Request & Response"
       url: /envelope/request/
+    - title: "Salt"
+      url: /envelope/salt/
 envelopecli:
   - title: "Envelope CLI"
     children:
