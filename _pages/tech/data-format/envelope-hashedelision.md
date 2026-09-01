@@ -156,22 +156,6 @@ depending on the sensitivity of the various parts (is identity
 sensitive? is category of information sensitive? is value of
 information sensitive?) and some are more powerful than others
 
-## How Does Hashed Elision Work?
-
-In [Gordian Envelope](/envelope/), data is arranged into leaves that
-exist as part of a fully recursive tree structure. Every leaf of data
-can be represented by a hash, and every node connecting multiple
-leaves (or branches) can be represented by a combination of the hashes
-below it. When a signature occurs, it occurs across a hash of the
-appropriate node. When data is removed, higher levels of hashes are
-kept untouched, which means that signatures across those hashes remain
-valid.
-
-* Any holder can remove any data.
-* Any visible signature remains valid, even if part of the data that was signed is removed.
-* A holder can commit to the existence of data by revealing the hash, even after the data is elided.
-* Anyone can later prove the existence of data with an inclusion proof that reveals the data that made up the hash.
-
 ## What Are the Limitations of Hashed Elision?
 
 **Separate Correlation.** A general critique of hashed elision as a
