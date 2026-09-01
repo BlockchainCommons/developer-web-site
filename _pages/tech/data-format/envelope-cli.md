@@ -196,51 +196,122 @@ envelope format $SIGNED_ENVELOPE
 This ensures the signature verifies the integrity of all assertions in
 the original envelope, not just its subject.
 
-## Enabling Both Verification and Privacy
+## Elision
 
-One of the most powerful features of Gordian Envelopes is the ability
-to maintain cryptographic verification even when parts of the data are
-hidden through elision.
+Elision allows for the removal of data from a Gordian Envelope while
+retaining its signatures.
 
-For example, if you have a properly wrapped and signed envelope:
+### Single Field Elision
 
-```sh
-WRAPPED {
-   "BRadvoc8" [
-      "name": "BRadvoc8"
-      "domain": "Distributed Systems & Security"
-      "experienceLevel": "8 years professional practice"
-   ]
-} [
-   SIGNATURE
-]
-```
-
-You can elide (remove) the `experienceLevel` assertion while maintaining the signature's validity:
+The following signed envelope is used for the basis of elision.
 
 ```sh
-WRAPPED {
-   "BRadvoc8" [
-      "name": "BRadvoc8"
-      "domain": "Distributed Systems & Security"
-      ELIDED
-   ]
-} [
-   SIGNATURE
-]
+SIGNED_DOC=$(envelope subject type string "API Security Enhancement" | envelope assertion add pred-obj string methodology string "Static analysis with open source tools" | envelope assertion add pred-obj string limitations string "No penetration testing performed" | envelope assertion add pred-obj string dataSources string "Public API documentation" | envelope subject type wrapped | envelope sign -s $PRIVATE_KEYS)
+envelope format $SIGNED_DOC
+
+| {
+|     "API Security Enhancement" [
+|         "dataSources": "Public API documentation"
+|         "limitations": "No penetration testing performed"
+|         "methodology": "Static analysis with open source tools"
+|     ]
+| } [
+|     'signed': Signature
+| ]
 ```
 
-The signature remains valid because all of the elements in an Envelope
-are hashed, then the hash of the wrapped Envelope (which is the sum of
-the hashes below it) is what's actually signed. The hashes remain,
-even when the content that produced them is elided.
+A single field can be elided by digging down through wrapped
+envelopes, finding the hash of the content to be elided and then removing it with the `elide removing` command.
 
-This allows for:
 
-- Privacy-preserving information sharing
-- Minimizing data exposure while maintaining verification
-- Revealing different information to different audiences
-- Progressive disclosure as trust develops
+```sh
+LIMITATIONS_DIGEST=$(envelope extract wrapped $SIGNED_DOC | envelope assertion find predicate string "limitations")
+ELIDED_DOC=$(envelope elide removing $LIMITATIONS_DIGEST $SIGNED_DOC)
+envelope format $ELIDED_DOC
+
+| {
+|     "API Security Enhancement" [
+|         "dataSources": "Public API documentation"
+|         "methodology": "Static analysis with open source tools"
+|         ELIDED
+|     ]
+| } [
+|     'signed': Signature
+| ]
+```
+
+The signature verification still works because the hash maintains the cryptographic structure:
+
+```sh
+envelope verify -s -v $PUBLIC_KEYS $ELIDED_DOC
+# Result: ✅ No repsonse means success
+```
+
+### Multiple Field Elision
+
+Multiple fields can similarly be removed by creating an array of digests.
+
+```sh
+ELIDED_DIGEST=()
+ELIDED_DIGEST+=$(envelope extract wrapped $SIGNED_DOC | envelope assertion find predicate string "limitations")
+ELIDED_DIGEST+=" "
+ELIDED_DIGEST+=$(envelope extract wrapped $SIGNED_DOC | envelope assertion find predicate string "methodology")
+DOUBLE_ELIDED_DOC=$(envelope elide removing "$ELIDED_DIGEST" $SIGNED_DOC)
+envelope format $DOUBLE_ELIDED_DOC
+
+| {
+|     "API Security Enhancement" [
+|         "dataSources": "Public API documentation"
+|         ELIDED (2)
+|     ]
+| } [
+|     'signed': Signature
+| ]
+```
+
+Again, this demonstrate how elision preserves both the signature
+validity and structural integrity of documents while allowing
+appropriate content sharing for different contexts.
+
+## Salting
+
+The
+[envelope-cli](https://github.com/BlockchainCommons/bc-envelope-cli-rust)
+can explicitly add salt or not to any Envelope element. It does so by
+adding salt just like any other assertion.
+
+This following will protect the "alice" envelope when elided:
+
+```sh
+envelope subject type string alice | envelope assertion add pred-obj string knows string bob | envelope salt | envelope format
+
+| "alice" [
+|     "knows": "bob"
+|     'salt': Salt
+| ]
+```
+
+This will instead protect the "knows bob" assertion
+
+```sh
+KB=$(envelope assertion create string knows string bob | envelope salt)
+AKB_S=$(envelope subject type string alice | envelope assertion add envelope $KB)
+envelope format $AKB_S
+
+| "alice" [
+|     {
+|         "knows": "bob"
+|     } [
+|         'salt': Salt
+|     ]
+| ]
+```
+
+In each of these cases, the hash of the sub-envelope can no longer be
+guessed by a dictionary attack, because it now includes a random Salt
+element. However, the content of the sub-envelope can still be proven,
+even after hashing, by releasing both the content and the salt as an
+inclusion proof.
 
 ## Using Envelopes with XIDs
 
