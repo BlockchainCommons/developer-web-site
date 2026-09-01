@@ -56,15 +56,10 @@ Least Privilege is a security philosophy that says that **a person or program sh
 
 ### Data Minimization
 
-Data Minimization is closely linked to the general principle of "Least & Necessary." It says that you should always release the minimum data necessary to fulfill a need. The classic example is purchasing an age-restricted item such as alcohol. You should never have to show a full identity credential (such as a driver's license, which is what in-person stores usually check). You shouldn't even have to reveal your age. All you should need to do is release a credential that says that you meet the age requirement.
+Data Minimization is closely linked to the general principle of "Least & Necessary." It says that you should always release the minimum data necessary to fulfill a need. The classic example is purchasing an age-restricted item such as alcohol. You should never have to show a full identity credential (such as a driver's license, which is what in-person stores usually check). You shouldn't even have to reveal your age. All you should need to do is release a credential that says that you meet the age requirement. Blockchain Commons' favored technology for Data Minimization is [Hashed Elision](/hashed-elision/), primarily due to its ease of implementation and use.
 
 * For more see the [**Data Minimization Page**](/architecture/data-minimization/)
-
-### Elision Cryptography
-
-Elision Cryptography is a design that links to the philosophy of Data Minimization. It says **Data Minimization can be accomplished by removing everything that's not needed in a way that maintains cryptographic signatures.** [Gordian Envelope](/envelope/) was built to fulfill this philosophical view. As an example, you could have an mDL, and if it supported Elision Cryptography, you could display it with everything elided but the age and the state's signature. (In this particular example, it'd still be better to just prove you're of an appropriate age without having to reveal it, but the point of using elision cryptography is that it's very simple.)
-
-* For more see the [**Elision Cryptography Page**](/architecture/elision-cryptography/)
+* For more see the [**Hashed Elision Technology**](/hashed-elision/)
 
 ### Progressive Trust
 
