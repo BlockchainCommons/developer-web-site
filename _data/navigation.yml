@@ -50,6 +50,8 @@ archdesign:
       url: /architecture/coercion-resistance/
     - title: "Data Minimization"
       url: /architecture/data-minimization/
+    - title: "Least & Necessary"
+      url: /architecture/least-necessary/
     - title: "Progressive Trust"
       url: /architecture/progressive-trust/
     - title: "Pseudonymous Trust Building"

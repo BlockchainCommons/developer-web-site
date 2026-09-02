@@ -50,6 +50,7 @@ Variety is another way to look at Heterogeneity. Instead of varying things by se
 
 Least Privilege is a security philosophy that says that **a person or program should have the minimum amount of access** that's needed for it to accomplish its task. Least Authority looks at that from a larger, ecosystem point of view, while Least Access says that the ability to read data should be minimized to what's needed. The flip side of these, Necessary Privilege, Necessary Authority, and Necessary Access instead view this philosophy from the bottom-up: what's needed to do a task? If you only sign things on a day to day basis, then you don't need to regularly use a key that also includes permission to change your identity: the result of a theft is then much less.
 
+* For more, see the [**Least & Necessary Page**](/architecture/least-necessary/)
 * For more, see [**"Musings of a Trust Architect: Least & Necessary Design Patterns"**](https://www.blockchaincommons.com/musings/Least-Necessary/)
 
 ## Identity Design Principles
