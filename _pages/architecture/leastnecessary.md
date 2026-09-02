@@ -10,7 +10,7 @@ tagline: "Minimization to Improve Security"
 hide_description: true
 classes:
   - wide
-permalink: /architecture/least-necessary"
+permalink: /architecture/least-necessary/
 redirect_from:
   - /least-necessary/
   - /leastnecessary/
