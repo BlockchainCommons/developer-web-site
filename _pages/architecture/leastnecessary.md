@@ -82,4 +82,4 @@ usually be reversed.
 **Related Principles:**
 
 * [**Data Minimization**](/architecture/data-minimization/)
-* [**Homoegenity**](/architecture/homogeneity/)
+* [**Heterogeneity**](/architecture/heterogeneity/)
