@@ -38,12 +38,14 @@ that it's just an extra step removed from the ideal.
 
 Heterogeneity is a design philosophy that says: **Security is improved when things are different from each other.** It might also be called partitioning. It includes separation (when things **vary because they’re apart**). This is helpful because it removes honeypots and single points of compromise: if your multisig keys are on separate, offline devices that are kept in discrete places, it becomes pretty hard to compromise your signature.
 
+* For more, see [**Heterogeneity Page**](/architecture/heterogeneity)
 * For examples, see [**Authentication Design Patterns**](/architecture/patterns/auth/)
 
 ### Heterogeneity: Variety
 
 Variety is another way to look at Heterogeneity. Instead of varying things by separating them, it instead **varies things by ensuring they're different**. This can reduce the danger of zero-day attacks and other exploits: if you have a multisig account, and one of the keys was created by a hardware device that used insufficient entropy, having another key built by another device becomes a big advantage.
 
+* For more, see [**Heterogeneity Page**](/architecture/heterogeneity)
 * For examples, again see [**Authentication Design Patterns**](/architecture/patterns/auth/)
 
 ### Least & Necessary

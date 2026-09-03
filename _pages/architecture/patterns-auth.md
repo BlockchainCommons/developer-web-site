@@ -32,14 +32,6 @@ _Heterogeneity_ is a architectural principle that says:
 
 > _**Security is improved when things are different from each other**_. 
 
-It might also be called _partitioning_. It encompasses both _variety_
-(when things vary because they're different) and _separation_ (when
-things vary because they're apart). This pattern has been used across
-a wide number of architectural designs from Blockchain Commons. It's
-helpful because it removes honeypots and single points of compromise,
-reduces the danger of zero-day attacks, and otherwise improves the
-security of whatever you're protecting.
-
 This document looks at the Heterogeneity principle through a single
 lens: Authentication. It not only examines specific Authentication
 patterns that support heterogeneity (especially [Multifactor
