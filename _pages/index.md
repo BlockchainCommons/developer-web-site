@@ -49,10 +49,8 @@ This site contains three large collections of information.
 This section details the underlying philosophies behind our
 designs. It covers not just the design principles behind our
 applications, but also design principles for networked applications
-generally.
-
-_The rest of the Developer Pages have recently been revamped, and the
-architecture section has not been yet._
+generally and how these design principles can be applied to not just
+software, but networks as well.
 
 * **Read about [our architectural design](/architecture/)**
 

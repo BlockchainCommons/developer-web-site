@@ -19,7 +19,7 @@ mainside:
     - title: "Architecture"
       url: /architecture/
     - title: "Technologies"
-      url: /technology//
+      url: /technology/
     - title: "Other Resources"
       url: /resources/
 architecture:
@@ -27,16 +27,14 @@ architecture:
     children:
     - title: "Gordian Principles"
       url: /principles/
-    - title: "Open Development"
-      url: https://www.blockchaincommons.com/articles/Open-Development/
-    - title: "Architecture FAQ"
-      url: /architecture/faq/
+    - title: "Design Philosophies"
+      url: /architecture/design/    
+    - title: "Design Patterns"
+      url: /architecture/patterns/
+    - title: "Macro-architecture"
+      url: /architecture/macro/
     - title: "Architecture Lexicon"
       url: /architecture/lexicon/
-    - title: "Architecture Roles"
-      url: /architecture/roles/
-    - title: "Architecture Apps"
-      url: /architecture/apps/
     - title: "Return to Main"
       url: /
 archdesign:
@@ -54,10 +52,21 @@ archdesign:
       url: /architecture/heterogeneity/
     - title: "Least & Necessary"
       url: /architecture/least-necessary/
+    - title: "Open Development"
+      url: https://www.blockchaincommons.com/articles/Open-Development/
     - title: "Progressive Trust"
       url: /architecture/progressive-trust/
     - title: "Pseudonymous Trust Building"
       url: /architecture/pseudonym/
+archmacro:
+  - title: Bitcoin Macro-architecture
+    children:
+    - title: "Macro-architecture FAQ"
+      url: /architecture/macro/faq/
+    - title: "Macro-architecture Apps"
+      url: /architecture/macro/apps/
+    - title: "Macro-architecture Roles"
+      url: /architecture/macro/roles/
 dataminimization:
   - title: Data Minimization
     children:
