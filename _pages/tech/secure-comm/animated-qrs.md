@@ -66,6 +66,8 @@ data (compared to standard QRs)._
 
 ## Why are Animated QRs Important?
 
+{% include video id="HsFF5HPKQIk" provider="youtube" %}
+
 Animated QRs were created with the following goals:
 
 * To allow for the transmission of data across airgaps.
