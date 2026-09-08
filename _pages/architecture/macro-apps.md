@@ -2,50 +2,59 @@
 cover: false
 header:
   overlay_color: "#000"
-  overlay_filter: "0.25"
-  overlay_image: /assets/images/dev-arch-background.jpg
+  overlay_filter: "0.35"
+  overlay_image: /assets/headers/architecture.jpg
   og_image: /assets/images/bc-card.jpg
-title: Gordian Reference Apps
+title: Gordian Bitcoin Macro-architecture Apps
 hide_description: true
 classes:
   - wide
-permalink: /architecture/apps/
+permalink: /architecture/macro/apps/
+redirect_from:
+  - /architecture/apps/
 sidebar:
-  nav: architecture
+  nav:
+    - archmacro
+    - architecture
 ---
 
-The Gordian Reference Apps demonstrate the usage of Blockchain
-Commons' [Reference Libraries](/libraries/) to fulfill the [Gordian
-Principles](/principles/). They may also be combined into an ecosystem
-that demonstrates the Gordian Marco-Architecture and its theory of
-functional partition:
+Blockchain Commons has, over time, released a number of reference apps
+to demonstrate the usage of its design principles and
+specifications. They may also be combined into an ecosystem that
+demonstrates the Gordian Marco-Architecture and its theory of
+functional partition when applied to the Bitcoin ecosystem:
 
 ![](/assets/images/appmap-black.png)
 
-The Gordian Reference Apps are all linked by airgaps and torgaps, to
-demonstrate how privacy and security can be maximized while still
-maintaining a very usable ecosystem. However, transport specifics
-become less important when using the [Gordian
-Architecture](/architecture/) as a whole, and so in a real-life
-ecosystem, apps may be normally Networked.
+In this example, the Gordian Reference Apps are all linked by airgaps
+and torgaps, to demonstrate how privacy and security can be maximized
+while still maintaining a very usable ecosystem. However, transport
+specifics become less important when using the [Gordian
+Marco-architecture](/architecture/macro/) as a whole, and so in a
+real-life ecosystem, apps may be normally Networked.
 
 Note that some of these apps are deprecated: they still serve their
 purpose as references for specific architectural roles, but are not
-updated and supported. The most updated apps are listed on the [main
-architectural page](/architecture/), where this listing is more
-complete.
+updated and supported. The most updated apps are listed on the [Apps
+page](/apps/)
 
 _See [Gordian Architecture Roles](/architecture/roles/) for
 definitions of roles that apps can taken within this architecture._
 
 ## Networked Services
 
-_Gordian Reference Apps can be fully networked if services are correctly partitioned:_
+_Internet services can be fully networked if they are correctly partitioned:_
 
-**[Fully Noded Server](https://fullynoded.app/)
+**[Fully Noded Server](https://fullynoded.app/)<br>
 **Roles:** Cosigner, Network Server, Seed Generator, Seed Vault (partial)
 
-Fonta1n3's Fully Noded Server demonstrates how to separate the functionality of a server from its connected Fully Noded Wallet. It's available as a Bitcoin server for MacOS machines. (This grew out of Fonta1n3's work on the Gordian Server, which we've deprecated because his work on Fully Noded is more up-to-date.)
+Fonta1n3's Fully Noded Server demonstrates how to separate the
+functionality of a Bitcoin server (which transmits transactions to the
+Bitcoin network) from its connected Fully Noded Wallet (which holds
+secrets and generates transaction). It's available as a Bitcoin server
+for MacOS machines. (This grew out of Fonta1n3's work on the Gordian
+Server, which we've deprecated because his work on Fully Noded is more
+up-to-date.)
 
 ## Airgapped Apps
 
@@ -59,10 +68,10 @@ of secure seed generation:_
 
 A cryptographic seed manager for your iOS device. Allows the
 maintenance of seeds in a closely held device and the easy use of
-those seeds through [Envelope Requests](/envelope/request/) for either specific keys or for
-the signature of PSBTs. This is our most developed app, and the one
-that best displays a variety of ways to achieve the Gordian
-Principles.
+those seeds through [Envelope Requests](/envelope/request/) for either
+specific keys or for the signature of PSBTs. This is our most
+developed app, and the one that best displays a variety of ways to
+achieve the [Gordian Principles](/principles/).
 
 **[LetheKit](https://github.com/BlockchainCommons/bc-lethekit)**<br>
 **Roles:** Seed Generator
@@ -91,9 +100,7 @@ superceded by Seed Tool.
 A more general data storage tool that displays how the Gordian
 Principles can apply to the protection of a variety of digital data
 that has been encoded as QRs. It also shows the tightest partitioning,
-allowing secure seed storage and nothing else. This is also a fully
-released app.
-
+allowing secure seed (or other data) storage and nothing else.
 
 **[Gordian Wallet](https://github.com/BlockchainCommons/GordianWallet-iOS)** (DEPRECATED) <br>
 **Roles:** Cosigner, Policy Coordinator, Seed Vault (partial), Transaction Coordinator
@@ -121,27 +128,3 @@ A price-info microservice, used by Gordian Wallet (and potentially
 other paritioned services) through a _torgap_. Spotbit can be used to
 aggregate Bitcoin pricing information from a variety of exchanges and
 to store that data.
-
-## CLI Apps
-
-_Many of our CLI apps were built to exercise our [Gordian Reference
-Libraries](https://github.com/BlockchainCommons/crypto-commons) but
-they also serve as references for the Gordian Principles, the
-UNIX/command-line equivalent of some of our mobile apps and network
-services._
-
-* **[Bytewords](https://github.com/BlockchainCommons/bc-bytewords-cli) \(CLI\).** A tool for testing bytewords.
-* **[dCBOR](https://github.com/BlockchainCommons/dcbor-cli) \(CLI\).** A tool for parsing & validating deterministic CBOR.
-* **[Envelope](https://github.com/BlockchainCommons/envelope-cli-swift) \(CLI\).** A tool for creating and parsing [Gordian Envelopes](/envelope/).
-* **[Keytool](https://github.com/BlockchainCommons/bc-keytool-cli) \(CLI\).** A tool for deriving keys and addresses from seeds. 
-* **[LifeHashTool](https://github.com/BlockchainCommons/LifeHashTool) \(Swift CLI\).** A tool for generating Lifehash PNGs from the command line.
-* **[Seedtool](https://github.com/BlockchainCommons/bc-seedtool-cli) \(CLI\).** A tool for generating seeds from a variety of random inputs and for translating seeds among formats like BIP39, [SSKR](/sskr/), hex, and [Bytewords](/bytewords/).
-* **[URDemo](https://github.com/BlockchainCommons/URDemo) \(iOS Demo\).** A demonstration of the [URKit](https://github.com/BlockchainCommons/URKit) that can be compiled and run in Xcode using Swift. It demonstrates multi-part animated QRs.
-
-### Research Apps
-
-_Additional CLI Apps were written for research purposes and are not as complete or polished._
-
-* **[Mori](https://github.com/BlockchainCommons/mori-cli) \(CLI\).** A timelock tool to make sure your assets aren't lost.
-* **[Musign](https://github.com/BlockchainCommons/musign-cli) \(CLI\).** A research project for signing and verifying messages with ECDSA and Schnorr.
-* **[Sweeptool](https://github.com/BlockchainCommons/sweeptool-cli) \(Rust CLI\).**  A tool for moving funds out of a descriptor wallet.

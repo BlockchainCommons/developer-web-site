@@ -2,22 +2,31 @@
 cover: false
 header:
   overlay_color: "#000"
-  overlay_filter: "0.25"
-  overlay_image: /assets/images/dev-arch-background.jpg
+  overlay_filter: "0.35"
+  overlay_image: /assets/headers/architecture.jpg
   og_image: /assets/images/bc-card.jpg
-title: Gordian Architecture Roles
+title: Gordian Bitcoin Macro-architecture Roles
 hide_description: true
 classes:
   - wide
-permalink: /architecture/roles/
+permalink: /architecture/macro/roles/
+redirect_from:
+  - /achitecture/roles/
 sidebar:
-  nav: architecture
+  nav:
+    - archmacro
+    - architecture
 ---
 
-_A variety of roles can be funtionally partitioned within the Gordian
-Architecture. What follows is a bare listing of some of them. Also see
-[Gordian Architecture Lexicon](/architecture/lexicon/) and [Gordian
-Architecture Apps](/architure/apps).._
+_A variety of roles can be funtionally partitioned within the Bitcoin
+ecosystem.  What follows is a bare listing of some of them.  Also see
+[Gordian Bitcoin Macro-architecture Apps](/architure/macro/apps/) for
+how these roles are used in Gordian Reference apps and [Gordian
+Architecture Lexicon](/architecture/lexicon/) for more definitions._
+
+_These roles list a number of Gordian reference apps as examples, but
+most of them have been deprecated as we've begun to focus more on
+reference apps highlighting our specifications._
 
 ***Cosigner (aka Signing Device).*** Accepts partially signed or
 unsigned transactions (typically PSBTs on the Bitcoin network) and
@@ -47,7 +56,7 @@ Commons, this was originally [Gordian
 Wallet](https://github.com/BlockchainCommons/GordianWallet-iOS), but
 [Gordian
 Coordinator](https://github.com/BlockchainCommons/iOS-GordianCoordinator)
-is the second-generation server. In a self-sovereign scenario, a
+was the second-generation server. In a self-sovereign scenario, a
 Bitcoin Core or Electrum server could also fulfill the role.
 
 ***Policy Coordinator.*** Manages the creation of
@@ -98,5 +107,6 @@ as a released software wallet that can act as a transaction
 coordinator, interacting with a variety of Cosigners and Seed
 Vaults. (The difference between a "software wallet" and a pure
 "transaction coordinator", is that a "software wallet" can also hold
-keys, though [proper partitioning](/architecture/) moves keys to other devices.)
+keys, though [proper partitioning](/architecture/) moves keys to other
+devices.)
 
