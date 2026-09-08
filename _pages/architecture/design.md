@@ -80,3 +80,29 @@ Digital identities need not link to a real-world identity. Pseudonymous Trust Bu
 
 * [**Design Patterns**](/architecture/patterns/) - A tactical look at applying philosophies as individual gears in a machinery.
 * [**Authentication Design Patterns**](/architecture/patterns/auth/) - A design pattern example, using authentication/authorization.
+
+---
+
+incorporate?
+
+## Open Development
+
+Specifications and libraries that come into widespread, interoperable use ultimately require a system of [Open Development](https://www.blockchaincommons.com/articles/Open-Development/) that goes beyond Open Source to span a larger timeframe (ranging from Strategy to Support) and a larger community (ranging from the Developers themselves through Publishers and Users).
+
+See [Open Development](https://www.blockchaincommons.com/articles/Open-Development/) for more.
+
+
+**Progressive Trust:**
+
+* [**Progressive Trust**](https://www.blockchaincommons.com/musings/musings-progressive-trust/) (Blockchain Commons blog)
+* [**Progressive Trust Life Cycle**](/progressive-trust/)
+
+**Self-Sovereign Identity:**
+
+* [**The Path to Self-Sovereign Identity**](http://www.lifewithalacrity.com/2016/04/the-path-to-self-soverereign-identity.html) (Life with Alacrity blog)
+* [**Self-Sovereign Identity: 5 Years On**](https://www.blockchaincommons.com/musings/SSI-5-Years-On/) (Blockchain Commons blog)
+* [**The Origins of Self-Sovereign Identity**](https://www.blockchaincommons.com/musings/origins-SSI/) (Blockchain Commons blog)
+
+## Macro-Architecture
+
+_Any architecture is built upon design principles. These are foundational ideas baked into the design of systems to have specific effects. Corporate-controlled software is often built on "dark patterns," which are meant to trick users into doing things that aren't to their benefit. The design principles used at Blockchain Commons are instead meant to be positive, improving security, resilience, and other [principles](/principles/) that we focus upon. Following are some of the design philosophies built into our software._ 
