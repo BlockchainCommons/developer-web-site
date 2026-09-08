@@ -6,7 +6,7 @@ header:
   overlay_image: /assets/headers/architecture.jpg
   og_image: /assets/images/bc-card.jpg
 title: Authentication Design Patterns
-tagline: Based on the Heterogeneuity Principle
+tagline: Based on the Heterogeneity Principle
 hide_description: true
 classes:
   - wide
