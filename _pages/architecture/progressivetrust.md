@@ -173,8 +173,13 @@ Line](/architecture/progressive-trust/cli/).
 
 ## Progressive Trust Links
 
+**Progressive Trust:**
+
+* [**Progressive Trust Musings**](https://www.blockchaincommons.com/musings/musings-progressive-trust/) (Blockchain Commons blog)
 * [**Progressive Trust Life Cycle**](/architecture/progressive-trust/life-cycle/)
 * [**Learning Progressive Trust from the Command Line**](/architecture/progressive-trust/cli/)
+
+**Refererence Apps:**
 
 * [**Gordian Envelope**](/envelope/)
 * [**XIDs**](/xid/)

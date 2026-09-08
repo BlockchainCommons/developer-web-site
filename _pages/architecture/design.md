@@ -61,8 +61,8 @@ Least Privilege is a security philosophy that says that **a person or program sh
 
 Data Minimization is closely linked to the general principle of "Least & Necessary." It says that you should always release the minimum data necessary to fulfill a need. The classic example is purchasing an age-restricted item such as alcohol. You should never have to show a full identity credential (such as a driver's license, which is what in-person stores usually check). You shouldn't even have to reveal your age. All you should need to do is release a credential that says that you meet the age requirement. Blockchain Commons' favored technology for Data Minimization is [Hashed Elision](/hashed-elision/), primarily due to its ease of implementation and use.
 
-* For more see the [**Data Minimization Page**](/architecture/data-minimization/)
-* For more see the [**Hashed Elision Technology**](/hashed-elision/)
+* For more, see the [**Data Minimization Page**](/architecture/data-minimization/)
+* For more, see the [**Hashed Elision Technology**](/hashed-elision/)
 
 ### Progressive Trust
 
@@ -74,34 +74,25 @@ In real life, you slowly reveal things to people over time. That's very differen
 
 Digital identities need not link to a real-world identity. Pseudonymous Trust Building says that you should be able to create an unlinked pseudonym and **build credentials and trust for that pseudonym over time** through proven work and/or connections to a web of trust.
 
-* For more see the [**Pseudonymous Trust Building Page**](/architecture/pseudonym/)
+* For more, see the [**Pseudonymous Trust Building Page**](/architecture/pseudonym/)
+
+## Design & Development Principles
+
+### Open Development
+
+Specifications and libraries that come into widespread, interoperable
+use ultimately require a system of [Open
+Development](https://www.blockchaincommons.com/articles/Open-Development/)
+that goes beyond Open Source to span a larger timeframe (ranging from
+Strategy to Support) and a larger community (ranging from the
+Developers themselves through Publishers and Users).
+
+* For more, See [Open Development](https://www.blockchaincommons.com/articles/Open-Development/).
 
 ## Also See
 
 * [**Design Patterns**](/architecture/patterns/) - A tactical look at applying philosophies as individual gears in a machinery.
 * [**Authentication Design Patterns**](/architecture/patterns/auth/) - A design pattern example, using authentication/authorization.
-
----
-
-incorporate?
-
-## Open Development
-
-Specifications and libraries that come into widespread, interoperable use ultimately require a system of [Open Development](https://www.blockchaincommons.com/articles/Open-Development/) that goes beyond Open Source to span a larger timeframe (ranging from Strategy to Support) and a larger community (ranging from the Developers themselves through Publishers and Users).
-
-See [Open Development](https://www.blockchaincommons.com/articles/Open-Development/) for more.
-
-
-**Progressive Trust:**
-
-* [**Progressive Trust**](https://www.blockchaincommons.com/musings/musings-progressive-trust/) (Blockchain Commons blog)
-* [**Progressive Trust Life Cycle**](/progressive-trust/)
-
-**Self-Sovereign Identity:**
-
-* [**The Path to Self-Sovereign Identity**](http://www.lifewithalacrity.com/2016/04/the-path-to-self-soverereign-identity.html) (Life with Alacrity blog)
-* [**Self-Sovereign Identity: 5 Years On**](https://www.blockchaincommons.com/musings/SSI-5-Years-On/) (Blockchain Commons blog)
-* [**The Origins of Self-Sovereign Identity**](https://www.blockchaincommons.com/musings/origins-SSI/) (Blockchain Commons blog)
 
 ## Macro-Architecture
 
