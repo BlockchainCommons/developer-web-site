@@ -5,7 +5,7 @@ header:
   overlay_filter: "0.35"
   overlay_image: /assets/headers/architecture.jpg
   og_image: /assets/images/bc-card.jpg
-title: Gordian Architecture FAQ
+title: Gordian Bitcoin Macro-architecture FAQ
 hide_description: true
 classes:
   - wide
