@@ -38,6 +38,10 @@ https://developer.blockchaincommons.com/assets/badges/bytemojis.png
 
 https://developer.blockchaincommons.com/assets/badges/bytewords.png
 
+## [![](/assets/badges/bitcoin.png)](/assets/badges/bitcoin.png) Bitcoin
+
+https://developer.blockchaincommons.com/assets/badges/bitcoin.png
+
 ## [![](/assets/badges/bitcoin-cli.png)](/assets/badges/bitcoin-cli.png) Bitcoin-CLI (Bitcoin Core)
 
 https://developer.blockchaincommons.com/assets/badges/bitcoin-cli.png
@@ -105,6 +109,10 @@ https://developer.blockchaincommons.com/assets/badges/envelope.png
 ## [![](/assets/badges/envelope-cli.png)](/assets/badges/envelope-cli.png) Envelope-CLI
 
 https://developer.blockchaincommons.com/assets/badges/envelope-cli.png
+
+## [![](/assets/badges/ethereum.png)](/assets/badges/ethereum.png) Ethereum
+
+https://developer.blockchaincommons.com/assets/badges/ethereum.png
 
 ## [![](/assets/badges/fair-witness.png)](/assets/badges/fair-witness.png) Fair Witness Methodology
 
@@ -261,6 +269,10 @@ https://developer.blockchaincommons.com/assets/badges/xid.png
 ## [![](/assets/badges/youtube.png)](/assets/badges/youttube.png) YouTube
 
 https://developer.blockchaincommons.com/assets/badges/youtube.png
+
+## [![](/assets/badges/zcash.png)](/assets/badges/zcash.png) zcash
+
+https://developer.blockchaincommons.com/assets/badges/zcash.png
 
 
 
