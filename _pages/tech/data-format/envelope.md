@@ -71,6 +71,11 @@ redirect_from:
       <img src="/assets/badges/gstp.png">
     </a>
   </div>
+  <div class="hex72">
+    <a href="/envelope/inclusion-proof/">
+      <img src="/assets/badges/inclusionproof.png">
+    </a>
+  </div>
 </div>
 
 
