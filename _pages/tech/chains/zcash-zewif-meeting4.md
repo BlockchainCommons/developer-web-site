@@ -2,8 +2,8 @@
 cover: false
 header:
   overlay_color: "#000"
-  overlay_filter: "0.25"
-  overlay_image: /assets/images/dev-chain-background.jpg
+  overlay_filter: "0.35"
+  overlay_image: /assets/headers/tech-chains.jpg
   og_image: /assets/images/bc-card.jpg
 title: "ZeWIF Meeting #4 (4/16/25)"
 tagline: Envelope File Format Demo
@@ -16,6 +16,7 @@ sidebar:
     - zcash
     - meetings
     - chains
+    - technology
 redirect_from:
   - /zcash/zewif/meeting4/
 ---

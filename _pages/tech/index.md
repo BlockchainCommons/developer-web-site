@@ -72,6 +72,15 @@ and torgaps, and reference comm apps such as Garner and Hubert.
 
 * **See more about [Secure Communication](/secure-comm/)**
 
+## Blockchain Technologies
+
+Our technologies are widely usable for supporting digital assets and
+identities on the internet, including those embedded in
+blockchains. Blockchain Commons has also worked with specific
+blockchains, to help incorporate our specifications.
+
+* **See more about [Blockchain Technologies](/chains/)
+
 ## Technology Listing
 
 <div class="hexline hexgrid75">

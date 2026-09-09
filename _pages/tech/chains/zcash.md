@@ -2,8 +2,8 @@
 cover: false
 header:
   overlay_color: "#000"
-  overlay_filter: "0.25"
-  overlay_image: /assets/images/dev-chain-background.jpg
+  overlay_filter: "0.35"
+  overlay_image: /assets/headers/tech-chains.jpg
   og_image: /assets/images/bc-card.jpg
 title: Zcash
 hide_description: true
@@ -14,11 +14,27 @@ sidebar:
   nav:
     - zcash
     - chains
+    - technology
 redirect_from:
   - /zcash/
 ---
 
-## Overview
+<div class="hexline hexgrid71">
+  </div>
+  <div class="hex31 opaqued">
+    <a href="/chains/bitcoin/">
+      <img src="/assets/badges/bitcoin.png">
+    </a>
+  </div>
+ <div class="hex41 opaqued">
+      <img src="/assets/badges/ethereum.png">
+  </div>
+  <div class="hex51">
+    <a href="/chains/zcash/">
+      <img src="/assets/badges/zcash.png">
+    </a>
+  </div>
+</div>
 
 <img src="https://developer.blockchaincommons.com/assets/images/zcash.png" style="float: right" width=250px>
 Zcash is a privacy-focused blockchain that was branched from the Bitcoin codebase in 2016 to support zero-knowledge proofs that can be used to shield transactions so that they are not public, as is the case with Bitcoin. Though privacy is the biggest advantage of Zcash it also has other advances such as a shorter confirmation time and a memo field.

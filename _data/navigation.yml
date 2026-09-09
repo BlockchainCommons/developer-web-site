@@ -496,6 +496,8 @@ musig:
 chains: 
   - title: Blockchains
     children:
+    - title: Bitcoin
+      url: /chains/bitcoin/
     - title: Zcash
       url: /chains/zcash/
 zcash:
