@@ -356,6 +356,8 @@ identity:
       url: /identity/attestations/
     - title: "Fair Witness"
       url: /identity/fair-witness/
+    - title: "Web of Trust"
+      url: /identity/weboftrust/
     - title: "Cliques"
       url: /cliques/
     - title: "Clubs"

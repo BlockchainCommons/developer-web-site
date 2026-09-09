@@ -41,9 +41,9 @@ sidebar:
       <img src="/assets/badges/attestations.png">
     </a>
   </div>
-  <div class="hex32 opaqued">
-    <a href="https://learningxids.blockchaincommons.com/">
-      <img src="/assets/badges/learning-xids.png">
+  <div class="hex32">
+    <a href="/identity/weboftrust/">
+      <img src="/assets/badges/weboftrust.png">
     </a>
   </div>
   <div class="hex41">
@@ -69,6 +69,11 @@ sidebar:
   <div class="hex71 opaqued">
     <a href="/ppp/">
       <img src="/assets/badges/ppp.png">
+    </a>
+  </div>
+  <div class="hex72 opaqued">
+    <a href="https://learningxids.blockchaincommons.com/">
+      <img src="/assets/badges/learning-xids.png">
     </a>
   </div>
 </div>

@@ -42,9 +42,9 @@ sidebar:
       <img src="/assets/badges/attestations.png">
     </a>
   </div>
-  <div class="hex32 opaqued">
-    <a href="https://learningxids.blockchaincommons.com/">
-      <img src="/assets/badges/learning-xids.png">
+  <div class="hex32">
+    <a href="/identity/weboftrust/">
+      <img src="/assets/badges/weboftrust.png">
     </a>
   </div>
   <div class="hex41">
@@ -70,6 +70,11 @@ sidebar:
   <div class="hex71">
     <a href="/identity/ppp/">
       <img src="/assets/badges/ppp.png">
+    </a>
+  </div>
+  <div class="hex72 opaqued">
+    <a href="https://learningxids.blockchaincommons.com/">
+      <img src="/assets/badges/learning-xids.png">
     </a>
   </div>
 </div>
@@ -139,6 +144,17 @@ For more see:
 
 * [**Fair Witness Methodology**](/identity/fair-witness/)
 
+## ![](/assets/badges/weboftrust.png) Web of Trust
+
+**Attestation Network.** Can attestors be trusted? This is an
+orthognal look at the question of credibility. Its answer is
+to create webs of trust where you determine credibility based
+on interrelated connections.
+
+For more see:
+
+* [**Web of Trust**](/identity/weboftrust/)
+
 ## ![](/assets/badges/cliques.png) Cryptographic Cliques
 
 **SSI Architecture.** Cliques are a new model for SSI architecture that
@@ -175,3 +191,4 @@ For more see:
 _Also linked from the page, the [Learning XIDs from the Command Line](https://learningxids.blockchaincommons.com/) tutorial from [courses](https://developer.blockchaincommons.com/courses/) and the [Garner](/garner/) self-sovereign identity document service from [secure commo](/secure-comm/)._
 {: .notice--info}
 
+k
