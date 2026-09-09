@@ -142,6 +142,10 @@ https://developer.blockchaincommons.com/assets/badges/hubert.png
 
 https://developer.blockchaincommons.com/assets/badges/identity.png
 
+## [![](/assets/badges/inclusion-proof.png)](/assets/badges/inclusion-proof.png) Inclusion Proof
+
+https://developer.blockchaincommons.com/assets/badges/inclusion-proof.png
+
 ## [![](/assets/badges/key-management.png)](/assets/badges/key-management.png) Key Management
 
 https://developer.blockchaincommons.com/assets/badges/key-management.png
@@ -261,6 +265,10 @@ https://developer.blockchaincommons.com/assets/badges/ur.png
 ## [![](/assets/badges/vss.png)](/assets/badges/vss.png) Verifiable Secret Sharing (VSS)
 
 https://developer.blockchaincommons.com/assets/badges/vss.png
+
+## [![](/assets/badges/weboftrust.png)](/assets/badges/weboftrust.png) Web of Trust
+
+https://developer.blockchaincommons.com/assets/badges/weboftrust.png
 
 ## [![](/assets/badges/xid.png)](/assets/badges/xid.png) Extensible Identifiers (XIDs)
 
