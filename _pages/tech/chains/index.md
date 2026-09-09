@@ -25,8 +25,10 @@ sidebar:
       <img src="/assets/badges/bitcoin.png">
     </a>
   </div>
- <div class="hex41 opaqued">
+ <div class="hex41">
+    <a href="/chains/ethereum/">
       <img src="/assets/badges/ethereum.png">
+    </a>
   </div>
   <div class="hex51">
     <a href="/chains/zcash/">

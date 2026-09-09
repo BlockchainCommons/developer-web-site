@@ -5,7 +5,7 @@ header:
   overlay_filter: "0.35"
   overlay_image: /assets/headers/tech-chains.jpg
   og_image: /assets/images/bc-card.jpg
-title: Bitcoin
+title: Bitcoin Blockchain
 hide_description: true
 classes:
   - wide
@@ -25,13 +25,15 @@ redirect_from:
       <img src="/assets/badges/seed-tool.png">
     </a>
   </div>
-  <div class="hex31">
+  <div class="hex31 highlighted">
     <a href="/chains/bitcoin/">
       <img src="/assets/badges/bitcoin.png">
     </a>
   </div>
  <div class="hex41 opaqued">
+    <a href="/chains/ethereum/">
       <img src="/assets/badges/ethereum.png">
+    </a>
   </div>
   <div class="hex51 opaqued">
     <a href="/chains/zcash/">

@@ -498,6 +498,8 @@ chains:
     children:
     - title: Bitcoin
       url: /chains/bitcoin/
+    - title: Ethereum
+      url: /chains/ethereum/
     - title: Zcash
       url: /chains/zcash/
 zcash:

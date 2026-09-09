@@ -5,7 +5,7 @@ header:
   overlay_filter: "0.35"
   overlay_image: /assets/headers/tech-chains.jpg
   og_image: /assets/images/bc-card.jpg
-title: Zcash
+title: Zcash Blockchain
 hide_description: true
 classes:
   - wide
@@ -27,9 +27,11 @@ redirect_from:
     </a>
   </div>
  <div class="hex41 opaqued">
+    <a href="/chains/ethereum/">
       <img src="/assets/badges/ethereum.png">
+    </a>
   </div>
-  <div class="hex51">
+  <div class="hex51 highlighted">
     <a href="/chains/zcash/">
       <img src="/assets/badges/zcash.png">
     </a>
