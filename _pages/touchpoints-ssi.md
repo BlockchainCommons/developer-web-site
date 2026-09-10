@@ -28,23 +28,11 @@ interesting in adopting the methodologies and design principles built
 into XIDs (or even XIDs themselves), this is the touchpoint tree for
 you._
 
-```mermaid
-flowchart TD
-    A["dCBOR"] --> B["Gordian Envelope"]
-    B --> C["UR"]
-    B --> D["XID"]
-    D --> E["Attestations & Endorsement"]
-    E --> F["Fair Witness Methodology"]
-    E --> G["Web of Trust"]
-    D --> H["Data Minization"]
-    H --> I["Elision Cryptography"]
-    I --> J["Inclusion Proofs"]
-    J --> K["Progressive Trust"]
-    D --> L["Key Management"]
-    K --> M["Pseudonymous Trust"]
-    L --> M
-    M --> N["Public Participation"]
-```
+<center>
+  <a href="touchpoints-ssi.jpg">
+    <img src="touchpoints-ssi.jpg">
+  </a>
+</center>
 
 # I: The Road to XIDs
 

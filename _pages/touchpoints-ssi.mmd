@@ -1,0 +1,23 @@
+flowchart TD
+
+classDef tech stroke:#00f,stroke-width:4px;
+classDef claim stroke:#fc0,stroke-width:4px;
+classDef redact stroke:#f00,stroke-width:4px;
+classDef keys stroke:#0f0,stroke-width:4px;
+
+    A["dCBOR"]:::tech --> B["Gordian Envelope"]:::tech
+    B --> C["UR"]:::tech
+    B --> D["XID"]:::tech
+    D --> E["Attestations & Endorsement"]:::claim
+    E --> F["Fair Witness Methodology"]:::claim
+    E --> G["Web of Trust"]:::claim
+    D --> H["Data Minization"]:::redact
+    H --> I["Elision Cryptography"]:::redact
+    I --> J["Inclusion Proofs"]:::redact
+    J --> K["Progressive Trust"]:::claim
+    F --> K
+    G --> K
+    D --> L["Key Management"]:::keys
+    K --> M["Pseudonymous Trust"]:::claim
+    L --> M
+    M --> N["Public Participation"]:::claim
