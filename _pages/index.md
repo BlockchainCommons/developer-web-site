@@ -42,7 +42,16 @@ You should choose Blockchain Commons' free, open-source technologies
 where the users have agency and where identities and other assets are
 protected by resilient methodologies.
 
-This site contains three large collections of information.
+This site contains four large collections of information.
+
+## Touchpoints
+
+These are paths that will describe a series of linked technologies,
+how they relate, and why you might want to use them. Each one is
+intended for a specific sort of user.
+
+* **Read the [**Touchpoints for Self-Sovereign Identity Designers**](/touchpoints/ssi/)
+
 
 ## Architecture
 
