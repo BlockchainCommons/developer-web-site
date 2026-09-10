@@ -26,7 +26,7 @@ functionalities and philosophies that we believe make it true to the
 original concepts of self-sovereignty. If you're a developer
 interesting in adopting the methodologies and design principles built
 into XIDs (or even XIDs themselves), this is the touchpoint tree for
-you.__
+you._
 
 ```mermaid
 flowchart TD
