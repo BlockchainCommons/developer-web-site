@@ -79,7 +79,7 @@ identities on the internet, including those embedded in
 blockchains. Blockchain Commons has also worked with specific
 blockchains, to help incorporate our specifications.
 
-* **See more about [Blockchain Technologies](/chains/)
+* **See more about [Blockchain Technologies](/chains/)**
 
 ## Technology Listing
 
