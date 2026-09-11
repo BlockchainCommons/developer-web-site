@@ -19,7 +19,6 @@ sidebar:
 
 
 <div class="hexline hexgrid71">
-  </div>
   <div class="hex31">
     <a href="/chains/bitcoin/">
       <img src="/assets/badges/bitcoin.png">

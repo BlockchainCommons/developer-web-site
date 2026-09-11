@@ -169,8 +169,8 @@ technology:
       url: /signatures/
     - title: "Secure Commo"
       url: /secure-comm/
-    - title: "Specifications"
-      url: https://github.com/BlockchainCommons/research/#contents
+    - title: "Blockchains"
+      url: /chains/
     - title: Return to Main
       url: /
 dataformat:
