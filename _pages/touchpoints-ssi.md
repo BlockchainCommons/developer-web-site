@@ -29,8 +29,8 @@ into XIDs (or even XIDs themselves), this is the touchpoint tree for
 you._
 
 <center>
-  <a href="touchpoints-ssi.jpg">
-    <img src="touchpoints-ssi.jpg">
+  <a href="/assets/images/touchpoints-ssi.jpg">
+    <img src="/assets/images/touchpoints-ssi.jpg">
   </a>
 </center>
 
