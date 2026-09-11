@@ -40,7 +40,7 @@ _Blockchain Commons has worked with a variety of blockchains to
 advance the [Gordian Principles](/principles/) and incorporate our
 technologies_
 
-***Why?*** _Blockchains are where the rubber hits the road for digital
+***Why?*** Blockchains are where the rubber hits the road for digital
 assets and (in some cases) digital identities. They're practical,
 real-world examples of self-sovereign control of assets; the ultimate
 goal of Blockchain Commons' specifications is real-world integration,
