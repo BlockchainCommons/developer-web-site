@@ -19,7 +19,6 @@ redirect_from:
 ---
 
 <div class="hexline hexgrid71">
-  </div>
   <div class="hex21">
     <a href="https://github.com/BlockchainCommons/GordianSeedTool-iOS">
       <img src="/assets/badges/seed-tool.png">
