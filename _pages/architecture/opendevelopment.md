@@ -5,8 +5,8 @@ header:
   overlay_filter: "0.35"
   overlay_image: /assets/headers/architecture.jpg
   og_image: /assets/images/bc-card.jpg
-title: "Design Principles: Progressive Trust"
-tagline: "Releasing Data over Time"
+title: "Design Principles: Open Development"
+tagline: "Making the Development Process Open Too"
 hide_description: true
 classes:
   - wide
