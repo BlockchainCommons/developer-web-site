@@ -220,7 +220,7 @@ envelope:
     - title: "Hashed Elision"
       url: /hashed-elision/
     - title: "Inclusion Proof"
-      url: /inclusion-proof/
+      url: /envelope/inclusion-proof/
     - title: "Known Values"
       url: /known-values/
     - title: "Permits"
