@@ -91,6 +91,7 @@ blockchains, to help incorporate our specifications.
 {% include video id="f7MFW8RfcOE" provider="youtube" %}
 
     </td>
+  </tr>
   <tr>
     <td width="640px">
       <b>Transcript:</b>
