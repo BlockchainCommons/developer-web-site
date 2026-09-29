@@ -158,7 +158,7 @@ https://developer.blockchaincommons.com/assets/badges/keytool-cli.png
 
 https://developer.blockchaincommons.com/assets/badges/known-values.png
 
-## [![](/assets/badges/learning-bitcoin.png)](/assets/badges/learning-bitcon.png) Learning Bitcoin from the Command Line
+## [![](/assets/badges/learning-bitcoin.png)](/assets/badges/learning-bitcoin.png) Learning Bitcoin from the Command Line
 
 https://developer.blockchaincommons.com/assets/badges/learning-bitcoin.png
 
@@ -274,7 +274,7 @@ https://developer.blockchaincommons.com/assets/badges/weboftrust.png
 
 https://developer.blockchaincommons.com/assets/badges/xid.png
 
-## [![](/assets/badges/youtube.png)](/assets/badges/youttube.png) YouTube
+## [![](/assets/badges/youtube.png)](/assets/badges/youtube.png) YouTube
 
 https://developer.blockchaincommons.com/assets/badges/youtube.png
 

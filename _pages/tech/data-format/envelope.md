@@ -73,7 +73,7 @@ redirect_from:
   </div>
   <div class="hex72">
     <a href="/envelope/inclusion-proof/">
-      <img src="/assets/badges/inclusionproof.png">
+      <img src="/assets/badges/inclusion-proof.png">
     </a>
   </div>
 </div>
