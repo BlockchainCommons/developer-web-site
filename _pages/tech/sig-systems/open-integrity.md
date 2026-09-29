@@ -141,5 +141,5 @@ For more, see the [Open Integrity Design Docs](https://github.com/OpenIntegrityP
 
 * [**Open Integrity Repo**](https://github.com/openintegrityproject)
 * [**Open Integrity Docs**](https://github.com/OpenIntegrityProject/core/tree/main/docs)
-* [**Open Development**](/architecture/open-development/)
+* [**Open Development**](/architecture/open-development/) (architecture page)
 
