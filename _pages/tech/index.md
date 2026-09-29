@@ -91,13 +91,11 @@ blockchains, to help incorporate our specifications.
 {% include video id="f7MFW8RfcOE" provider="youtube" %}
 
     </td>
-  </tr>
-  <tr>
     <td width="640px">
       <b>Transcript:</b>
 
 <a href="/technology/overview/transcript">
-  <img src="/assets/images/2026ovreview-transcript.jpg">
+  <img src="/assets/images/2026overview-transcript.jpg">
 </a>
 
     </td>
