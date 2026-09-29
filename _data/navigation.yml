@@ -471,6 +471,8 @@ signatures:
       url: /frost/
     - title: "MuSig2"
       url: /musig/
+    - title: "Open Integrity"
+      url: /open-integrity/
     - title: "Provenance Marks"
       url: /provemark/
 frost:

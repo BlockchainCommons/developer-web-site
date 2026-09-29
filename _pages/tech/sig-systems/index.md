@@ -83,6 +83,16 @@ For more see:
 * [**MuSig 2**](/musig/)
 * [**White Paper**](https://eprint.iacr.org/2020/1261.pdf)
 
+## ![](/assets/badges/open-integrity.png) Open Integrity
+
+**Signature Commitment Chains.** Open Integrity turns Git repos into
+roots of trust with inception commits, then allows for the trusted
+addition of signing keys with transition commits.
+
+For more see:
+
+* [**Open Integrity**](/open-integrity/)
+
 ## ![](/assets/badges/provenance-marks.png) Provenance Mark
 
 **Hash Chain.** Provenance marks are a cryptographic system used to
