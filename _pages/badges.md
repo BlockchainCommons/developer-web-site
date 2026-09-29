@@ -194,6 +194,10 @@ https://developer.blockchaincommons.com/assets/badges/musings.png
 
 https://developer.blockchaincommons.com/assets/badges/oib.png
 
+## [![](/assets/badges/open-integrity.png)](/assets/badges/open-integrity.png) Open Integrity
+
+https://developer.blockchaincommons.com/assets/badges/open-integrity.png
+
 ## [![](/assets/badges/playgrounds.png)](/assets/badges/playgrounds.png) Playgrounds
 
 https://developer.blockchaincommons.com/assets/badges/playgrounds.png
