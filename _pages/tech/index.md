@@ -96,7 +96,9 @@ blockchains, to help incorporate our specifications.
     <td width="640px">
       <b>Transcript:</b>
 
-[![](/assets/images/2026overview-transcript.jpg)](/technology/overview/transcript/)
+<a href="/technology/overview/transcript">
+  <img src="/assets/images/2026ovreview-transcript.jpg">
+</a>
 
     </td>
   </tr>
