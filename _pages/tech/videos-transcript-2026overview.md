@@ -9,7 +9,9 @@ title: 2026 Tech Overview Video Transcript
 hide_description: false
 classes:
   - wide
-permalink: /videos/transcripts/overview-2026/
+permalink:
+redirect_from: /technology/overview/transcript/
+  - /videos/transcripts/overview-2026/
 sidebar:
   nav:
     - mainside
