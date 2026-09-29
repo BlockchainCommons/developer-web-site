@@ -10,7 +10,7 @@ tagline: "Git Repos as Roots of Trust"
 hide_description: true
 classes:
   - wide
-permalink: /open-interity/
+permalink: /open-integrity/
 redirect_from:
   - /openintegrity/
 sidebar:
@@ -41,6 +41,11 @@ sidebar:
     </a>
   </div>  
   <div class="hex51 highlighted">
+    <a href="/open-integrity/">
+      <img src="/assets/badges/open-integrity.png">
+    </a>
+  </div>
+  <div class="hex61 opaqued">
     <a href="/provemark/">
       <img src="/assets/badges/provenance-marks.png">
     </a>

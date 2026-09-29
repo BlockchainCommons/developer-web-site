@@ -42,6 +42,11 @@ sidebar:
     </a>
   </div>  
   <div class="hex51 opaqued">
+    <a href="/open-integrity/">
+      <img src="/assets/badges/open-integrity.png">
+    </a>
+  </div>
+  <div class="hex61 opaqued">
     <a href="/provemark/">
       <img src="/assets/badges/provenance-marks.png">
     </a>
