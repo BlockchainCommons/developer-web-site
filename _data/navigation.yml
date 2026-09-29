@@ -53,7 +53,7 @@ archdesign:
     - title: "Least & Necessary"
       url: /architecture/least-necessary/
     - title: "Open Development"
-      url: https://www.blockchaincommons.com/articles/Open-Development/
+      url: /architecture/open-development/
     - title: "Progressive Trust"
       url: /architecture/progressive-trust/
     - title: "Pseudonymous Trust Building"

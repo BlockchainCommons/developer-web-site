@@ -18,6 +18,22 @@ sidebar:
 
 _Any architecture is built upon design principles. These are foundational ideas baked into the design of systems to have specific effects. Corporate-controlled software is often built on "dark patterns," which are meant to trick users into doing things that aren't to their benefit. The design principles used at Blockchain Commons are instead meant to be positive, improving security, resilience, and other [principles](/principles/) that we focus upon. Following are some of the design philosophies built into our software._ 
 
+## Developmental Principles
+
+### Open Development
+
+Seen as a step beyond Open Source, Open Development is a design principle that encompasses a larger
+infrastructure that begins with open-source licenses but also
+lays out a complete methodology for these projects, from their
+initial conception through their long-term support. It is built on
+what we see as the intrinsic goal of the open-source model: for a
+community to create common resources that can be freely used for the
+good of all. However, open development looks at this goal as part of
+an ecosystem that goes well beyond the idea of just developing code
+and releasing it under an open license.
+
+* For more, see [**Open Development Page**](/architecture/open-development/)
+
 ## General Architectural Principles
 
 ### Coercion Resistance
@@ -32,7 +48,7 @@ philosophy of Coercion Resistance. Meanwhile, the last principle, of
 resilience, is needed to support self-sovereign control, which means
 that it's just an extra step removed from the ideal.
 
-* For examples, see [**Coercion Resistance Page**](/architecture/coercion-resistance/)
+* For more, see [**Coercion Resistance Page**](/architecture/coercion-resistance/)
 
 ### Heterogeneity: Separation
 
