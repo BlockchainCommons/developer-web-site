@@ -140,7 +140,7 @@ The Developer Pages also contain the following, short tutorials that
 offer hands-on training for Blockchain Commons technologies:
 
 * [**Learning Attestations**](/attestations/cli/). Creating fair witness attestations for XIDs.
-* [**Learning Envelope**](/envelope/cli/). A brief introduction to Gordian Envelope and a longer look at storing seeds.
+* [**Learning Envelope**](/envelope/cli/). Intro, seeds, and salt for Envelope.
 * [**Learning Key Hierarchies**](/keys/cli/). XID key management as a reference for hierarchical best practices.
 * [**Learning Pubblic Participation Profiles**](/ppp/cli/). Using XIDS to engage pseudonymously on projects.
 
