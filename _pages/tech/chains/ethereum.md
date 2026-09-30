@@ -29,6 +29,11 @@ redirect_from:
       <img src="/assets/badges/bitcoin.png">
     </a>
   </div>
+  <div class="hex32top highlighted">
+    <a href="/chains/">
+      <img src="/assets/badges/cat-blockchains-half.png">
+    </a>
+  </div>
  <div class="hex41 highlighted">
       <img src="/assets/badges/ethereum.png">
   </div>
