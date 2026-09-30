@@ -56,7 +56,7 @@ Inroducing Gordian Envelope.
   <img src="/assets/screenshots/envelope-cli-salt.png">
 </a>
 
-Defend against correlation.
+Defending against correlation.
 
     </td>
     <td width="33.3333%">
