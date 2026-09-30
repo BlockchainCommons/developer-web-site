@@ -45,13 +45,14 @@ security. In fact, it could be that no system will provide even very
 good security. When determining your balance, you thus shouldn't seek
 to balance against perfection.
 
-## Patterns vs Principles
+## Patterns vs Philosophies
 
 These architectural pages broadly define architectural goals in two ways:
 
-* [**Principles**](/architecture/design/) tend to be
+* [**Philosophies**](/architecture/design/) tend to be
 strategic. They're big-picture methodologies that accomplish general
-goals. They're broadly stated.  * **Patterns** tend to be
+goals. They're broadly stated.
+* **Patterns** tend to be
 tactical. They're very specific gears that one might place within the
 larger clockwork of of a design principle. For example, the
 [authentication](/patterns/auth/) patterns that we use as examples are
