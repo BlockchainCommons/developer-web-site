@@ -216,7 +216,7 @@ envelope format $SALTY_ALICE
 | }
 ```
 
-You can then use the exat same technique to elide the date:
+You can then use the same technique you used before to elide the date:
 
 ```sh
 BIRTHDATE_WITH_SALT=$(envelope extract wrapped $SALTY_ALICE | envelope assertion find predicate string "birthDate" | envelope extract object | envelope digest)
