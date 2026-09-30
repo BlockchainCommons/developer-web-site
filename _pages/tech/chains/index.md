@@ -3,7 +3,7 @@ cover: false
 header:
   overlay_color: "#000"
   overlay_filter: "0.25"
-  overlay_image: /assets/images/tech-chains.jpg
+  overlay_image: /assets/headers/tech-chains.jpg
   og_image: /assets/images/bc-card.jpg
 title: Blockchain Technologies
 tagline: Bringing Our Specifications to Blockchain
