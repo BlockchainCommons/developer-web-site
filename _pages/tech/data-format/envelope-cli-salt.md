@@ -141,10 +141,9 @@ write an [inclusion proof](/envelope/inclusion-proof/) that
 demonstrates that the birthdate of `1994-07-30` is in the credential.
 
 However, dates have a limited data space. If someone knows the format
-of the data (which is here just the `date` type), they could make a
-table listing all of the possible entries. That's 365 or 366 entries
-per year, times the number of years. Not a lot in the scope of
-computing power!
+of the data (which is here just the `date` type), they could calculate
+all of the possible entries. That's just 365 or 366 entries per year,
+times the number of years. Not a lot in the scope of computing power!
 
 | Hash | Date |
 |------| -----|
