@@ -190,5 +190,3 @@ For more see:
 
 _Also linked from the page, the [Learning XIDs from the Command Line](https://learningxids.blockchaincommons.com/) tutorial from [courses](https://developer.blockchaincommons.com/courses/) and the [Garner](/garner/) self-sovereign identity document service from [secure commo](/secure-comm/)._
 {: .notice--info}
-
-k
