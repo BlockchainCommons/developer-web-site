@@ -44,3 +44,7 @@ With salt:     hash("name": "John Smith" + random_salt) → different hash each 
 ```
 
 Salts should be cryptographically random and of sufficient length.
+
+## For More
+
+* Also see the [Envelope-CLI Salting Examples](/envelope/cli/salt/)
