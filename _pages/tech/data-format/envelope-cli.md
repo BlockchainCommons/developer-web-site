@@ -42,11 +42,11 @@ The following Envelope CLI courses are currently available:
     <td width="33.3333%">
 
 <a href="/envelope/cli/intro/">
-  <h2>🏫 Introducing Gordian Envelope</h2>
+  <h2>🏫 Introducing Envelope</h2>
   <img src="/assets/screenshots/envelope-cli-intro.png">
 </a>
 
-An introduction to Gordian Envelope.
+Inroducing Gordian Envelope.
 
     </td>
     <td width="33.3333%">
@@ -56,13 +56,13 @@ An introduction to Gordian Envelope.
   <img src="/assets/screenshots/envelope-cli-salt.png">
 </a>
 
-Salting to defending against correlation.
+Defend against correlation.
 
     </td>
     <td width="33.3333%">
 
 <a href="/envelope/cli/seed/">
-  <h2>🌱 Protecting Your Seeds"</h2>
+  <h2>🌱 Protecting Your Seeds</h2>
   <img src="/assets/screenshots/envelope-cli-seed.png">
 </a>
 
