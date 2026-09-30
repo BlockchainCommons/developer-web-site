@@ -24,9 +24,6 @@ _The focus of this course is on salting: it demonstrates how salting
 can protect the privacy of data stored in an envelope and then
 elided._
 
-_Also see ["Learning Envelope from the Command Line"](/envelope/cli/)
-for basics such as assertions and signing._
-
 ## Overview
 
 [Hash-based elision](/hashed-elision/) is one of the core features of

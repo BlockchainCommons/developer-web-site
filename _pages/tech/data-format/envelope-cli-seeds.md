@@ -27,8 +27,6 @@ _This is a hands-on command-line introduction to Gordian Envelope in the style o
 
 _The focus of this course is on seeds: it demonstrates how envelope can be used to securely and resiliently backup your cryptographic secrets._
 
-_Also see ["Learning Envelope from the Command Line"](/envelope/cli/) for basics such as assertions and signing._
-
 ## Overview
 
 Cryptographic seeds are the heart of crypto asset control. [#SmartCustody](https://www.smartcustody.com/), one of Blockchain Commons' earliest initiatives, was all about keeping them safe. That's continued forward, with resilience being a core [Gordian principles](https://developer.blockchaincommons.com/principles/). We believe that loss of a seed or private key is one of the most likely ways for the average user to lose a digital asset; Blockchain Commons is working to help developers and users to avoid that.

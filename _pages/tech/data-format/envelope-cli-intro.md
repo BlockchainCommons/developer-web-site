@@ -19,7 +19,13 @@ sidebar:
     - technology
 ---
 
-_This is a hands-on command-line introduction to Gordian Envelope in the style of Blockchain Commons' [from the Command Line courses](/courses/). It makes use of the Rust-based [envelope-cli](https://github.com/BlockchainCommons/bc-envelope-cli-rust)._
+_This is a hands-on command-line introduction to Gordian Envelope in
+the style of Blockchain Commons' [from the Command Line
+courses](/courses/). It makes use of the Rust-based
+[envelope-cli](https://github.com/BlockchainCommons/bc-envelope-cli-rust)._
+
+_The focus of this course is on introducing envelope and how its
+fundamental features work._
 
 ## What is a Gordian Envelope?
 
@@ -333,13 +339,3 @@ The [Learning XIDs from the Command Line course](https://learningxids.blockchain
 3. What happens when an Envelope is signed, and how is the signature verified?
 4. How can an Envelope be elided while maintaining signature validity?
 5. Why is the combination of verification and privacy so powerful?
-
-## Next Steps
-
-You may also want to read ["Learning Envelope Seeds from the Command
-Line"](/envelope/seed/) for an in-depth example of using Envelope to
-store a specific sort of cryptographic object.
-
-## Download the Software
-
-* **Envelope CLI:** `cargo install bc-envelope-cli`
