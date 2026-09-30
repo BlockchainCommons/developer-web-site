@@ -232,9 +232,9 @@ envelopecli:
     children:
     - title: "Introducing Envelope"
       url: /envelope/cli/intro/
-    - title: "Protecting Seeds"
+    - title: "Protecting Your Seeds"
       url: /envelope/cli/seed/
-    - title: "Using Salt"
+    - title: "Salting Your Data"
       url: /envelope/cli/salt/
 envelopegstp:
   - title: "GSTP"
