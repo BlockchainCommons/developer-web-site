@@ -230,10 +230,12 @@ envelope:
 envelopecli:
   - title: "Envelope CLI"
     children:
-    - title: "Learning Envelope"
-      url: /envelope/cli/
-    - title: "Learning Seeds"
+    - title: "Introducing Envelope"
+      url: /envelope/cli/intro/
+    - title: "Protecting Seeds"
       url: /envelope/cli/seed/
+    - title: "Using Salt"
+      url: /envelope/cli/salt/
 envelopegstp:
   - title: "GSTP"
     children:
