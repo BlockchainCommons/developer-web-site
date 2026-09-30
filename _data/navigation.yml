@@ -40,10 +40,8 @@ architecture:
 archdesign:
   - title: Architecture Designs
     children:
-    - title: "Design Home"
+    - title: "Design Philosophies Home"
       url: /architecture/design/
-    - title: "Design Patterns"
-      url: /architecture/patterns/
     - title: "Coercion Resistance"
       url: /architecture/coercion-resistance/
     - title: "Data Minimization"
