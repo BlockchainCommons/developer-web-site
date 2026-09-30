@@ -502,6 +502,8 @@ musig:
 chains: 
   - title: Blockchains
     children:
+    - title: "Chains Home"
+      url: /chains/
     - title: Bitcoin
       url: /chains/bitcoin/
     - title: Ethereum

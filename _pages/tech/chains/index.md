@@ -24,6 +24,11 @@ sidebar:
       <img src="/assets/badges/bitcoin.png">
     </a>
   </div>
+  <div class="hex32top highlighted">
+    <a href="/signatures/">
+      <img src="/assets/badges/cat-sig-blockchains.png">
+    </a>
+  </div>
  <div class="hex41">
     <a href="/chains/ethereum/">
       <img src="/assets/badges/ethereum.png">
