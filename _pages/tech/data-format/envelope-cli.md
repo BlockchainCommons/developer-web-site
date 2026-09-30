@@ -42,7 +42,7 @@ The following Envelope CLI courses are currently available:
     <td width="33.3333%">
 
 <a href="/envelope/cli/intro/">
-  <h2>🏫 Introducing Envelope</h2>
+  <h2>✉️ Introducing Envelope</h2>
   <img src="/assets/screenshots/envelope-cli-intro.png">
 </a>
 

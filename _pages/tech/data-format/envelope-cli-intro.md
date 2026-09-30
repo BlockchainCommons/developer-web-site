@@ -5,7 +5,7 @@ header:
   overlay_filter: "0.35"
   overlay_image: /assets/headers/tech-dataformat.jpg
   og_image: /assets/images/bc-card.jpg
-title: "🏫 Introducing Gordian Envelope"
+title: "✉️ Introducing Gordian Envelope"
 tagline: "Learning Envelope from the Command Line"
 hide_description: true
 classes:
