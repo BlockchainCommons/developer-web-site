@@ -13,6 +13,7 @@ classes:
 permalink: /architecture/open-development/
 redirect_from:
   - /opendevelopment/
+  - /open-development/
 sidebar:
   nav:
     - archdesign
@@ -33,7 +34,7 @@ Open Development is built on seven sub-principles:
 2. **Collaboration.** Members must have a voice in design.
 3. **Diversity.** A diversity of views must be recruited.
 4. **Strategy.** Plans must be made by the community as a whole.
-5. **Transparency. ** Membership, goals, governance, processes, and support must be open.
+5. **Transparency.** Membership, goals, governance, processes, and support must be open.
 6. **Sustainability.** Long-term commitment must be built in from the start.
 7. **Openness.** Openness must also mean interoperability.
 
