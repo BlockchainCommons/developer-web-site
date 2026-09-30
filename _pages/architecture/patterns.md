@@ -49,11 +49,13 @@ to balance against perfection.
 
 These architectural pages broadly define architectural goals in two ways:
 
-* [**Principles**](/principles/) tend to be strategic. They're
-big-picture methodologies that accomplish general goals. They're
-broadly stated.
-* **Patterns** tend to be tactical. They're very specific gears that
-one might place within the larger clockwork of of a design principle. For example, the [authentication](/patterns/auth/) patters that we use as examples are largely in support of the Heterogeneity principles.
+* [**Principles**](/architecture/design/) tend to be
+strategic. They're big-picture methodologies that accomplish general
+goals. They're broadly stated.  * **Patterns** tend to be
+tactical. They're very specific gears that one might place within the
+larger clockwork of of a design principle. For example, the
+[authentication](/patterns/auth/) patterns that we use as examples are
+largely in support of the Heterogeneity principles.
 
 ## Design Pattern Examples
 
