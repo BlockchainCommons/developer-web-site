@@ -109,7 +109,3 @@ Developers themselves through Publishers and Users).
 
 * [**Design Patterns**](/architecture/patterns/) - A tactical look at applying philosophies as individual gears in a machinery.
 * [**Authentication Design Patterns**](/architecture/patterns/auth/) - A design pattern example, using authentication/authorization.
-
-## Macro-Architecture
-
-_Any architecture is built upon design principles. These are foundational ideas baked into the design of systems to have specific effects. Corporate-controlled software is often built on "dark patterns," which are meant to trick users into doing things that aren't to their benefit. The design principles used at Blockchain Commons are instead meant to be positive, improving security, resilience, and other [principles](/principles/) that we focus upon. Following are some of the design philosophies built into our software._ 
