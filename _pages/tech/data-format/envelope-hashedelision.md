@@ -3,7 +3,7 @@ cover: false
 header:
   overlay_color: "#000"
   overlay_filter: "0.25"
-  overlay_image: /assets/images/dev-data-background.jpg
+  overlay_image: /assets/headers/tech-dataformat.jpg
   og_image: /assets/images/bc-card.jpg
 title: Hashed Elision
 hide_description: true
@@ -11,7 +11,10 @@ classes:
   - wide
 permalink: /hashed-elision/
 sidebar:
-  nav: envelope
+  nav:
+    - envelope
+    - dataformat
+    - technology
 redirect_from:
   - /envelope/hashed-elision/
   - /elision/
