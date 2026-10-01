@@ -63,16 +63,6 @@ sidebar:
       <img src="/assets/badges/mur.png">
     </a>
   </div>
-  <div class="hex32 opaqued">
-    <a href="/envelope/esc/">
-      <img src="/assets/badges/esc.png">
-    </a>
-  </div>
-  <div class="hex52 opaqued">
-    <a href="/envelope/gstp/">
-      <img src="/assets/badges/gstp.png">
-    </a>
-  </div>
 </div>
 
 _The Blockchain Commons technology stack includes a stack of data formats. CBOR (and variant dCBOR) are fundamental binary data serialization formats. Bytewords encodes binary objects as four-letter English words. URs and MURs turn Bytewords into self-describing data objects. Known values encode ontological concepts as unsigned integers. Finally, Gordian Envelope builds on all of that to offer a self-describing, recursive, smart-document storage format._
