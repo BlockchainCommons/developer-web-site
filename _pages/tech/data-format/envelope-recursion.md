@@ -145,7 +145,7 @@ envelope format $BOB
 
 We can then create the "Bobkins" envelope, which incorporates Bob:
 
-```
+```sh
 BOBKIN=$(envelope subject type string "The Bobbing Bobkins" | envelope assertion add pred-obj string "member" envelope $BOB |  envelope assertion add pred-obj string "member" string "Brad" |  envelope assertion add pred-obj string "member" string "Buckaroo")
 
 envelope format $BOBKIN
@@ -172,7 +172,7 @@ KNOWS=$(envelope subject type string "knows"  | envelope assertion add pred-obj 
 
 Finally, we can put Alice together with the "knows" and "Bob" envelopes:
 
-```
+```sh
 ALICE=$(envelope subject type string Alice | envelope assertion add pred-obj envelope $KNOWS envelope $BOBKIN)
 
 envelope format $ALICE
