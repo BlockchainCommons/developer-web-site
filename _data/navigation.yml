@@ -209,15 +209,19 @@ envelope:
       url: /envelope/use-cases/summary/
     - title: "Go to XIDs"
       url: /xid/
-  - title: Envelope Exensions
+  - title: Envelope Features
+    children:
+    - title: "Hashed Elision"
+      url: /hashed-elision/
+    - title: "Radical Recursion"
+      url: /envelope/recursion/
+  - title: Envelope Extensions
     children:
     - title: "Encrypted State Continuation"
       url: /envelope/esc/
     - title: "Gordian Sealed Transactions"
       url: /envelope/gstp/
-    - title: "Hashed Elision"
-      url: /hashed-elision/
-    - title: "Inclusion Proof"
+    - title: "Inclusion Proofs"
       url: /envelope/inclusion-proof/
     - title: "Known Values"
       url: /known-values/
