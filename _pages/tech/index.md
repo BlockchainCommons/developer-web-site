@@ -29,6 +29,27 @@ goals](/architecture/). Many are defined with specifications in our
 [research repo](https://github.com/BlockchainCommons/research/) and by
 [reference apps](/resources/apps/)._
 
+## Technology Overview Videos
+
+<table width="100%">
+  <tr>
+    <td width="640px">
+      <b>Overview:</b>
+
+{% include video id="f7MFW8RfcOE" provider="youtube" %}
+
+    </td>
+    <td width="640px">
+      <b>Transcript:</b>
+
+<a href="/technology/overview/transcript">
+  <img src="/assets/images/2026overview-transcript.jpg">
+</a>
+
+    </td>
+  </tr>
+</table>
+
 ## Data Format Technologies
 
 Data formats are encoding methods that we've chosen to embody specific
@@ -80,28 +101,6 @@ blockchains. Blockchain Commons has also worked with specific
 blockchains, to help incorporate our specifications.
 
 * **See more about [Blockchain Technologies](/chains/)**
-
-## Technology Overview Videos
-
-<table width="100%">
-  <tr>
-    <td width="640px">
-      <b>Overview:</b>
-
-{% include video id="f7MFW8RfcOE" provider="youtube" %}
-
-    </td>
-    <td width="640px">
-      <b>Transcript:</b>
-
-<a href="/technology/overview/transcript">
-  <img src="/assets/images/2026overview-transcript.jpg">
-</a>
-
-    </td>
-  </tr>
-</table>
-
 
 ## Technology Listing
 
