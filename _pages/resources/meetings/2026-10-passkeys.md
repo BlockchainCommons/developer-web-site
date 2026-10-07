@@ -19,7 +19,7 @@ sidebar:
 
 The [Gordian Developer Meeting](https://www.blockchaincommons.com/subscribe/#gordian-developers) on **October 7, 2026** focused on two topics:
 
-* **Cloudflare Passkeys.** - Improving auth diversity with Passkey-only identity
+* **Cloudflare Passkeys.** Improving auth diversity with Passkey-only identity
 * **Open Integrity & The AI.** Identity in GitHub repos & how to credit & use AI.
 
 <table width="100%">
@@ -27,6 +27,7 @@ The [Gordian Developer Meeting](https://www.blockchaincommons.com/subscribe/#gor
     <td width="640px">
       <b>Full Meeting:</b>
 
+<br><br>
 [not available]
 
     </td>
@@ -39,7 +40,7 @@ The [Gordian Developer Meeting](https://www.blockchaincommons.com/subscribe/#gor
   </tr>
 </table>
 
-Also see the [transcript](/meetings/2026-10-resilience/transcript/) for
+Also see the [transcript](/meetings/2026-10-passkeys/transcript/) for
 the full content of the meeting.
 
 ## Key Quotes
