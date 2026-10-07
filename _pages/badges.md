@@ -54,6 +54,10 @@ https://developer.blockchaincommons.com/assets/badges/cbor.png
 
 https://developer.blockchaincommons.com/assets/badges/cliques.png
 
+## [![](/assets/badges/cloudflare-passkey.png)](/assets/badges/cloudflare-passkey.png) Cloudflare Passkey
+
+https://developer.blockchaincommons.com/assets/badges/cloudflare-passkey.png
+
 ## [![](/assets/badges/clubs.png)](/assets/badges/clubs.png) Clubs
 
 https://developer.blockchaincommons.com/assets/badges/clubs.png
