@@ -79,6 +79,20 @@ Also See: [ <a href="https://developer.blockchaincommons.com/frost/#events">FROS
   <tr>
     <td>
 
+      <a href="/meetings/2026-10-passkeys/"><img src="/assets/pdfs/2026-10-passkeys.jpg" style="border: 1px solid blue"></a>
+
+    </td>
+    <td>
+       <h2><a href="/meetings/2026-10-passkeys/">GDM: Passkeys & Agentic Repos (October 2026)</a></h2>
+
+       <p>Two presentations: one on our new Passkey identity system; and one on the problems of crediting agentic AI work (and the solutions of Open Integrity).</P>
+       
+    </td>
+  </tr>
+
+  <tr>
+    <td>
+
       <a href="/meetings/2026-08-resilience/"><img src="https://img.youtube.com/vi/vFvG_IclVnE/0.jpg" style="border: 1px solid blue"></a>
 
     </td>
