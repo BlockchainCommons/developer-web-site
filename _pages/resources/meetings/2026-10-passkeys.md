@@ -45,23 +45,32 @@ the full content of the meeting.
 
 ## Key Quotes
 
-“In the first year we failed over half of maybe 30 or 40 reviews of server software because of randomness.” 
-—Christopher Allen, on SSL Reviews
+"There’s a lot of tooling that gets locked into a platform such as
+Google or Apple. And yet we want to be able to bootstrap a variety of
+other kinds of security. So passkeys can work outside of the Apple and
+Google ecosystem."<br>
+—Christopher Allen, on the Purpose of the Passkeys Project
 
-“So clearly we failed if we can’t even get Bitcoin Core engineers to do the right thing.”
-—Christopher Allen, on ensuring best practices for key management
+"The core functionality is that the passkey verifies identity. It isn’t
+the identity."<br>
+—Christopher Allen, on the Separation of Powers
 
-“Loss is what you have to really keep the focus on.”
-—Shannon Appelcline, on the dangers of self-sovereign custody
+"We used not really the passkey, but the hardware-backed secret, to be
+able to create a stable identity for the device."<br>
+—A Similar Technique in Use
 
-“It ensures that this key isn’t just a couple of digits on a piece of paper that no one might have any idea what they are.” 
-—Shannon Appelcline, on the importance of metadata
+"I think the clear truth is we must use AI to protect against AI."<br>
+—Christopher Allen, on the AI Ouroboros
 
-“The coordination of the setup is the leaky step.” 
-—Stan Reeves, on the dangers of multisig
+"How do we disclose and sign things so that we can have some integrity with our repositories? How do we credit AI work?"<br>
+—Christopher Allen, on Repo Questions in the Age of AI
 
-“KeyLay is a coordination layer. It’s not a wallet.”
-—Stan Reeves, on Keylay's design
+"You asked how AI reviewers should be identified. How would that
+actually be sourced and anchored?"
+—Another question on AI Provenance
+
+"My gut is that it’s going to be an ongoing battle."
+—Christopher Allen, on AI Text Identification
 
 ## Links
 
