@@ -198,13 +198,13 @@ https://developer.blockchaincommons.com/assets/badges/oib.png
 
 https://developer.blockchaincommons.com/assets/badges/open-integrity.png
 
+## [![](/assets/badges/permits.png)](/assets/badges/permits.png) Permits
+
+https://developer.blockchaincommons.com/assets/badges/permits.png
+
 ## [![](/assets/badges/playgrounds.png)](/assets/badges/playgrounds.png) Playgrounds
 
 https://developer.blockchaincommons.com/assets/badges/playgrounds.png
-
-## [![](/assets/badges/ppp.png)](/assets/badges/ppp.png) Public Participation Profile
-
-https://developer.blockchaincommons.com/assets/badges/ppp.png
 
 ## [![](/assets/badges/provenance-marks.png)](/assets/badges/provenance-marks.png) Provenance Marks
 
@@ -214,6 +214,19 @@ https://developer.blockchaincommons.com/assets/badges/provenance-marks.png
 
 https://developer.blockchaincommons.com/assets/badges/provenance-marks-cli.png
 
+## [![](/assets/badges/ppp.png)](/assets/badges/ppp.png) Public Participation Profile
+
+https://developer.blockchaincommons.com/assets/badges/ppp.png
+
+
+## [![](/assets/badges/recursion.png)](/assets/badges/recursion.png) Radical Recursion
+
+https://developer.blockchaincommons.com/assets/badges/recursion.png
+
+## [![](/assets/badges/rwot.png)](/assets/badges/rwot.png) Rebooting the Web of Trust (RWOT)
+
+https://developer.blockchaincommons.com/assets/badges/rwot.png
+
 ## [![](/assets/badges/apps.png)](/assets/badges/apps.png) Reference Apps
 
 https://developer.blockchaincommons.com/assets/badges/apps.png
@@ -222,13 +235,18 @@ https://developer.blockchaincommons.com/assets/badges/apps.png
 
 https://developer.blockchaincommons.com/assets/badges/libraries.png
 
+## [![](/assets/badges/request-response.png)](/assets/badges/request-response.png) Request-Response (Envelope GSTP)
+
+https://developer.blockchaincommons.com/assets/badges/research.png
+
+
 ## [![](/assets/badges/research.png)](/assets/badges/research.png) Research Repo
 
 https://developer.blockchaincommons.com/assets/badges/research.png
 
-## [![](/assets/badges/rwot.png)](/assets/badges/rwot.png) Rebooting the Web of Trust (RWOT)
+## [![](/assets/badges/salt.png)](/assets/badges/salt.png) Salt
 
-https://developer.blockchaincommons.com/assets/badges/rwot.png
+https://developer.blockchaincommons.com/assets/badges/salt.png
 
 ## [![](/assets/badges/seed-tool.png)](/assets/badges/seed-tool.png) Seed Tool for iOS
 
