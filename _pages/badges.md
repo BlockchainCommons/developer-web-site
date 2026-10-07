@@ -86,6 +86,10 @@ https://developer.blockchaincommons.com/assets/badges/depo.png
 
 https://developer.blockchaincommons.com/assets/badges/descriptors.png
 
+## [![](/assets/badges/determinism.png)](/assets/badges/determinism.png) Determinism
+
+https://developer.blockchaincommons.com/assets/badges/determinism.png
+
 ## [![](/assets/badges/dev-pages.png)](/assets/badges/dev-pages.png) Dev Pages
 
 https://developer.blockchaincommons.com/assets/badges/dev-pages.png
