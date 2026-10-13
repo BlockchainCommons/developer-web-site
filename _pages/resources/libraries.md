@@ -66,6 +66,11 @@ sidebar:
   </div>  
 </div>
 
+## Library Language Hubs
+
+* [Rust](https://github.com/BlockchainCommons/bc-rust/)
+* [Typescript](https://github.com/BlockchainCommons/bc-typescript)
+
 ## Core Libraries
 
 {% include lib-components.md %}
