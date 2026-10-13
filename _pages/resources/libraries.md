@@ -100,14 +100,14 @@ sidebar:
       <img src="/assets/badges/envelope.png">
     </a>
   </div>
+  <div class="hex41">
+    <a href="/known-values/">
+      <img src="/assets/badges/known-values.png">
+    </a>
+  </div>  
   <div class="hex42">
     <a href="/envelope/gstp/">
       <img src="/assets/badges/gstp.png">
-    </a>
-  </div>
-  <div class="hex32">
-    <a href="/envelope/">
-      <img src="/assets/badges/envelope.png">
     </a>
   </div>
   <div class="hex51">
