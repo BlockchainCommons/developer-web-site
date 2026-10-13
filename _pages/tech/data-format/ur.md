@@ -274,6 +274,8 @@ URs are a simple, low-level data encoding method. Their use is trivial once you'
 
 {% include lib-ur.md %}
 
+{% include lib-mur.md %}
+
 {% include lib-bytewords.md %}
 
 ## Links
