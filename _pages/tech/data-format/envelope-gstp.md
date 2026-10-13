@@ -153,6 +153,8 @@ _See the [Gordian Envelope playlist](https://www.youtube.com/playlist?list=PLCkr
 
 {% include lib-envelope.md %}
 
+{% include lib-gstp.md %}
+
 ## Envelope Links
 
 **Intro:**
