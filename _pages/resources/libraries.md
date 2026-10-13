@@ -74,8 +74,7 @@ sidebar:
 
 ## Specification Libraries
 
-
-<div class="hexline hexgrid72">
+<div class="hexline hexgrid73">
   <div class="hex11">
     <a href="/bytewords/">
       <img src="/assets/badges/bytewords.png">
@@ -101,9 +100,14 @@ sidebar:
       <img src="/assets/badges/envelope.png">
     </a>
   </div>
-  <div class="hex41">
-    <a href="/known-values/">
-      <img src="/assets/badges/known-values.png">
+  <div class="hex42">
+    <a href="/envelope/gstp/">
+      <img src="/assets/badges/gstp.png">
+    </a>
+  </div>
+  <div class="hex32">
+    <a href="/envelope/">
+      <img src="/assets/badges/envelope.png">
     </a>
   </div>
   <div class="hex51">
@@ -121,9 +125,14 @@ sidebar:
       <img src="/assets/badges/sskr.png">
     </a>
   </div>
-  <div class="hex71">
+  <div class="hex62">
     <a href="/ur/">
       <img src="/assets/badges/ur.png">
+    </a>
+  </div>
+  <div class="hex71">
+    <a href="/ur/mur/">
+      <img src="/assets/badges/mur.png">
     </a>
   </div>
   <div class="hex72">
