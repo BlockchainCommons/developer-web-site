@@ -182,6 +182,8 @@ _See the [Gordian Envelope playlist](https://www.youtube.com/playlist?list=PLCkr
 
 {% include lib-envelope.md %}
 
+{% include lib-gstp.md %}
+
 {% include lib-dcbor.md %}
 
 ## Envelope Links
