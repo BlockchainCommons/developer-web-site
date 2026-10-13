@@ -146,5 +146,6 @@ sidebar:
 {% include lib-shamir.md %}
 {% include lib-sskr.md %}
 {% include lib-ur.md %}
+{% include lib-mur.md %}
 {% include lib-xid.md %}
 
