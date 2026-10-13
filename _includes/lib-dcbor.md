@@ -9,10 +9,14 @@
 
 ### dCBOR Parse Libraries
 
+| Language | Repo | Contributor | Status |
+|----------|------|-------------|--------|
 | Rust | [bc-dcbor-parse-rust](https://github.com/BlockchainCommons/bc-dcbor-parse-rust) | Blockchain Commons | |
 | TypeScript | [bc-dcbor-parse-ts](https://github.com/BlockchainCommons/bc-dcbor-parse-ts) | Leonardo Custodio (Parity) | |
 
 ### dCBOR Pattern Libraries
 
+| Language | Repo | Contributor | Status |
+|----------|------|-------------|--------|
 | Rust | [bc-dcbor-pattern-rust](https://github.com/BlockchainCommons/bc-dcbor-pattern-rust) | Blockchain Commons | |
 | TypeScript | [bc-dcbor-pattern-ts](https://github.com/BlockchainCommons/bc-dcbor-pattern-ts) | Leonardo Custodio (Parity) | |
