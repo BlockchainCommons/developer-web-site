@@ -74,7 +74,7 @@ sidebar:
 
 ## Specification Libraries
 
-<div class="hexline hexgrid73">
+<div class="hexline hexgrid72">
   <div class="hex11">
     <a href="/bytewords/">
       <img src="/assets/badges/bytewords.png">
