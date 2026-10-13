@@ -7,4 +7,4 @@
 | JavaCard | [jc-sskr](https://github.com/proxyco/jc-sskr) | Proxy |
 | Rust | [bc-sskr-rust](https://github.com/BlockchainCommons/bc-sskr-rust) | Blockchain Commons |
 | Swift | [BCLibsSwift](https://github.com/BlockchainCommons/BCLibsSwift) | Blockchain Commons |
-| TypeScript | [sskr](https://github.com/leonardocustodio/bcts/tree/main/packages/sskr) | Leonardo Custodio |
+| TypeScript | [bc-sskr-ts](https://github.com/BlockchainCommons/bc-sskr-ts) | Leonardo Custodio (Parity) |
