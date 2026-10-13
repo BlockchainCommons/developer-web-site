@@ -3,4 +3,4 @@
 | Language | Repo | Contributor | Status |
 |----------|------|-------------|--------|
 | Rust | [bc-xid-rust](https://github.com/BlockchainCommons/bc-xid-rust) | Blockchain Commons | |
-| TypeScript | [xid](https://github.com/leonardocustodio/bcts/tree/main/packages/xid) | Leonardo Custodio |
+| TypeScript | [bc-xid-ts](https://github.com/BlockchainCommons/bc-xid-ts) | Leonardo Custodio (Parity) |
