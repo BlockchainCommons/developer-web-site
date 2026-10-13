@@ -15,7 +15,7 @@ sidebar:
     - chains
     - technology
 redirect_from:
-  - /zcash/
+  - /ethereum/
 ---
 
 <div class="hexline hexgrid71">
@@ -37,7 +37,7 @@ redirect_from:
  <div class="hex41 highlighted">
       <img src="/assets/badges/ethereum.png">
   </div>
-  <div class="hex51">
+  <div class="hex51 opaqued">
     <a href="/chains/zcash/">
       <img src="/assets/badges/zcash.png">
     </a>
