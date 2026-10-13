@@ -82,6 +82,12 @@ Though MURs are not exclusively for use with Animated QRs, the creation of Anima
 
 The [Multipart UR (MUR) Implementation Guide](https://github.com/BlockchainCommons/Research/blob/master/papers/bcr-2024-001-multipart-ur.md) offers more precise information on the entire MUR creation and reading methodology. This builds on the [UR specification](https://github.com/BlockchainCommons/Research/blob/master/papers/bcr-2020-005-ur.md).
 
+## Libraries
+
+{% include lib-ur.md %}
+
+{% include lib-mur.md %}
+
 ## Links
 
 * [**UR Developers Page**](/ur/)
