@@ -140,6 +140,7 @@ sidebar:
 {% include lib-tags.md %}
 {% include lib-dcbor.md %}
 {% include lib-envelope.md %}
+{% include lib-gstp.md %}
 {% include lib-knownvalues.md %}
 {% include lib-lifehash.md %}
 {% include lib-pm.md %}
