@@ -1,4 +1,4 @@
-_**Latest News:** Added [chains pages](/chains/, with new Ethereum
+_**Latest News:** Added [chains pages](/chains/), with new Ethereum
 content (9/9/26). Released new technology dev pages (7/15/26).
 Published [fifth
 chapter](https://learningxids.blockchaincommons.com/05_0_Keys/) of
