@@ -82,21 +82,27 @@ redirect_from:
 {% include news-envelope.md %}
 
 Gordian Envelope is a specification for the achitecture of a “smart
-document". It builds on the binary format of the [IETF CBOR standard](https://cbor.io/) to support the secure, reliable, and
+document". It builds on the binary format of the [IETF CBOR
+standard](https://cbor.io/) to support the secure, reliable, and
 deterministic storage and transmission of data such as seeds, keys,
 decentralized identifiers, and verifiable credentials in a way that
 enables privacy while preserving structure. The format is very simple
-and compact, with minimal overhead, but thanks to its recursive design, documents can ultimately be as
-complex as needed. Gordian Envelope's [hashed elision](/hashed-elision/) privacy features are built on a
-Merkle-like Tree that supports cryptography and privacy-related
-methodologies such as [progressive
+and compact, with minimal overhead, but thanks to its [radically
+recursive](/envelope/recursion/) design, documents can ultimately be
+as complex as needed. Gordian Envelope's [hashed
+elision](/hashed-elision/) privacy features are built on a Merkle-like
+Tree that supports cryptography and privacy-related methodologies such
+as [progressive
 trust](https://www.blockchaincommons.com/musings/musings-progressive-trust/)
 and Merkle-based selective disclosure.
 
 Blockchain Commons is currently working with multiple companies on the
 development and deployment of Gordian Envelope via regular monthly
-meetings; [subscribe](https://www.blockchaincommons.com/subscribe/) to our announcements-only mailing list or join our Signal channel if you'd like to get involved. You can also
-[contact us](mailto:team@blockchaincommons.com) if you'd prefer to get more information first.  
+meetings; [subscribe](https://www.blockchaincommons.com/subscribe/) to
+our announcements-only mailing list or join our Signal channel if
+you'd like to get involved. You can also [contact
+us](mailto:team@blockchaincommons.com) if you'd prefer to get more
+information first.
 
 Gordian Envelope is also on the experimental track as an
 [Informational Draft for the
@@ -104,7 +110,7 @@ IETF](https://blockchaincommons.github.io/WIPs-IETF-draft-envelope/draft-mcnally
 Further, ongoing discussions are occurring with the W3C Credentials
 Community Group.
 
-### The Envelope as Metaphor
+## The Envelope as Metaphor
 
 The name "envelope" was chosen for this smart-document architecture
 because that provides an excellent metaphor for its capabilities.
@@ -157,8 +163,54 @@ JSON-LD offer some of the best arguments for using the Smart Document
 structure.
 
 * For a more extensive overview of Gordian Envelope, see [Executive Summary](/envelope/summary).
-* For a list of Gordian Envelope features, see [Features List](/envelope/features).
+* For a list of Gordian Envelope features, see below and the [Features List](/envelope/features).
 * For a technical look at Gordian Envelope, see [Technical Overview](/envelope/tech).
+
+## ![](/assets/badges/hashed-elision.png) Hashed Elision
+
+**Envelope Feature.** Any element of a Gordian Envelope can be removed
+while signatures of the envelope remain valid.
+
+## ![](/assets/badges/recursion.png) Radical Recursion
+
+**Envelope Feature.** _It's envelopes all the way down._ Every node in
+Gordian Envelope can contain nodes or leaves below it.
+
+## ![](/assets/badges/esc.png) Encrypted State Continuation (ESC)
+
+**Envelope GSTP Extension.** GSTP communication with envelopes allows
+state to be stored in an encrypted form as part of the communication,
+rather than depending on local or network storage.
+
+## ![](/assets/badges/gstp.png) Gordian Sealed Transaction Protocol (GSTP)
+
+**Envelope Request/Response Extension.** GSTP is an envelope-based
+communication protocol that supports pubkey identification and ESC
+state storage to allow usage of unreliable and insecure transmission
+methods.
+
+## ![](/assets/badges/inclusion-proof.png) Inclusion Proofs
+
+**Envelope Hashed Elision Extension.** After data is removed with
+hashed elision, the original information can be revealed with a hash
+(and possibly a Merkle path) proving that the info was in the envelope
+prior to redaction.
+
+## ![](/assets/badges/permits.png) Permits
+
+**Envelope Security Extension.** Envelopes can be locked with
+symmetric keys, pub keys, [SSKR](/sskr/), or even multiple methods at
+the same time.
+
+## ![](/assets/badges/request-response.png) Request & Response
+
+**Envelope Communication Extension.** A simple request and response
+protocol allows serialized communication using envelopes.
+
+## ![](/assets/badges/salt.png) Salt
+
+**Envelope Privacy Extension.** Data can be salted to avoid
+correlation through guesses of common words.
 
 ## Envelope Videos
 
@@ -205,13 +257,16 @@ _See the [Gordian Envelope playlist](https://www.youtube.com/playlist?list=PLCkr
 * [**Feature List**](/envelope/features/)
 * [**IETF Problem Statement: Deterministic Hashed Data Elision**](https://datatracker.ietf.org/doc/draft-appelcline-hashed-elision/) (IETF)
 
-**Extension Intros:**
+**Extension Features:**
+
+* [**Hashed Elision**](/hashed-elision/)
+* [**Radical Recursion**](/envelope/recursion/)
+
+**Extension Extensions:**
 
 * [**ESC**](/envelope/esc/)
 * [**GSTP**](/envelope/gstp/)
-* [**Hashed Elision**](/hashed-elision/)
 * [**Inclusion Proof**](/inclusion-proof/)
-* [**Known Values**](/known-values/)
 * [**Permits**](/envelope/permits/)
 * [**Request/Response**](/envelope/request/)
 * [**Salt**](/envelope/salt/)
