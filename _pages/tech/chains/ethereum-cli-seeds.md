@@ -93,6 +93,31 @@ taking these steps. On a modern computer, Metamask will require your
 biometrics to unlock a passkey. Afterward, you can use a secure
 computer to back them up using Envelope and SSKR.
 
+<table width="100%">
+  <tr>
+    <td width="25%">
+      <a href="/assets/images/ethereum-export-1.jpg">
+        <img src="/assets/images/ethereum-export-1.jpg">
+      </a>
+    </td>
+    <td width="25%">
+      <a href="/assets/images/ethereum-export-2.jpg">
+        <img src="/assets/images/ethereum-export-2.jpg">
+      </a>
+    </td>
+    <td width="25%">
+      <a href="/assets/images/ethereum-export-3.jpg">
+        <img src="/assets/images/ethereum-export-3.jpg">
+      </a>
+    </td>
+    <td width="25%">
+      <a href="/assets/images/ethereum-export-4.jpg">
+        <img src="/assets/images/ethereum-export-4.jpg">
+      </a>
+    </td>
+  </tr>
+</table>
+
 ## Storing with Gordian Envelope
 
 [Gordian Envelope](/envelope/) is a Smart Envelope system that allows
@@ -323,3 +348,53 @@ right one to restore these secrets!
 Great privacy! But great resilience too!
 
 ## Securing Your Secrets with SSKR
+
+You don't want your secrets sitting around in plain text,
+unprotected. But encrypting them might just be kicking the can down
+the road: your Ethereum secrets might now be well protected, butt they
+could still be lost if you lose your symmetric encryption key.
+
+Shamir's secret sharing, available in an expanded form through
+Blockchain Commons'
+[SSKR](https://developer.blockchaincommons.com/sskr/) offers a
+solution. Rather than symmetrically encrypting your envelope, you
+shard it. This creates a number of shares of your envelope, but
+nothing can be determined about the envelope unless a threshold of
+them are brought back together. 2 of 3 is a common sharding
+technique. That means that you create three shares and can reconstruct
+your envelope from any two of them.
+
+SSKR is built into the `envelope-cli` tool, so you can shard an
+envelope with a single command:
+
+```sh
+envelope sskr split $RECPHRASE -g 2-of-3
+
+| ur:envelope/lftansfwlrhdjlbnfdrkahchaypfcyotbthhoxsfhhrfoxylnegwgtetmnftyltpptcpltgaroqzrewdotceksgdjzatpmyllfaoftroemrlmupyemutrlgrpfeslosahfhfyldtaavlmwkprfghldgubgpdkpqdosrolgdyjyiototefliowzyntkdmghjymdlnrnrectrpknsosnrkgmqdntcyhpemfhtsyteokoglgsfresntfxuedeknckkghhkivygdjocfwszsbdghfzbtahhstlcthepdfxoshddatansfphdcxgdonsnieztwmykzocmmuoynnwzsoatnefpyndtfglrcmtpuyistkmkpsseieimdpoyamtpsotantkphddasnksaeadaeecnnwphlbghgjkutjzrsztmysocltttbaaltenwfzehliygdynkioljkjoswsoflesmtckay ur:envelope/lftansfwlrhdjlbnfdrkahchaypfcyotbthhoxsfhhrfoxylnegwgtetmnftyltpptcpltgaroqzrewdotceksgdjzatpmyllfaoftroemrlmupyemutrlgrpfeslosahfhfyldtaavlmwkprfghldgubgpdkpqdosrolgdyjyiototefliowzyntkdmghjymdlnrnrectrpknsosnrkgmqdntcyhpemfhtsyteokoglgsfresntfxuedeknckkghhkivygdjocfwszsbdghfzbtahhstlcthepdfxoshddatansfphdcxgdonsnieztwmykzocmmuoynnwzsoatnefpyndtfglrcmtpuyistkmkpsseieimdpoyamtpsotantkphddasnksaeadadsnpfbyztsrdpeobkatceztahiansrdtetllkaeiennlygmbemnwttbwtaolossfrhednfnol ur:envelope/lftansfwlrhdjlbnfdrkahchaypfcyotbthhoxsfhhrfoxylnegwgtetmnftyltpptcpltgaroqzrewdotceksgdjzatpmyllfaoftroemrlmupyemutrlgrpfeslosahfhfyldtaavlmwkprfghldgubgpdkpqdosrolgdyjyiototefliowzyntkdmghjymdlnrnrectrpknsosnrkgmqdntcyhpemfhtsyteokoglgsfresntfxuedeknckkghhkivygdjocfwszsbdghfzbtahhstlcthepdfxoshddatansfphdcxgdonsnieztwmykzocmmuoynnwzsoatnefpyndtfglrcmtpuyistkmkpsseieimdpoyamtpsotantkphddasnksaeadaouesabtaapyotwfisrdvoztlalnfzatuorymehtswfmzebatiamkefgjtmwhtterskkbghfzt
+```
+
+You would then send those individual envelopes out to distinct and
+secure locations. You might keep one on your laptop and one in cloud
+storage (that your laptop is not logged into), for example. Then you
+could convert the third to a QR and print that out and put it in your
+safe.
+
+When you later bring your shares back together, you can then reconstruct your envelope from any two:
+
+```sh
+RESTORED=$(envelope sskr join ur:envelope/lftansfwlrhdjlbnfdrkahchaypfcyotbthhoxsfhhrfoxylnegwgtetmnftyltpptcpltgaroqzrewdotceksgdjzatpmyllfaoftroemrlmupyemutrlgrpfeslosahfhfyldtaavlmwkprfghldgubgpdkpqdosrolgdyjyiototefliowzyntkdmghjymdlnrnrectrpknsosnrkgmqdntcyhpemfhtsyteokoglgsfresntfxuedeknckkghhkivygdjocfwszsbdghfzbtahhstlcthepdfxoshddatansfphdcxgdonsnieztwmykzocmmuoynnwzsoatnefpyndtfglrcmtpuyistkmkpsseieimdpoyamtpsotantkphddasnksaeadadsnpfbyztsrdpeobkatceztahiansrdtetllkaeiennlygmbemnwttbwtaolossfrhednfnol ur:envelope/lftansfwlrhdjlbnfdrkahchaypfcyotbthhoxsfhhrfoxylnegwgtetmnftyltpptcpltgaroqzrewdotceksgdjzatpmyllfaoftroemrlmupyemutrlgrpfeslosahfhfyldtaavlmwkprfghldgubgpdkpqdosrolgdyjyiototefliowzyntkdmghjymdlnrnrectrpknsosnrkgmqdntcyhpemfhtsyteokoglgsfresntfxuedeknckkghhkivygdjocfwszsbdghfzbtahhstlcthepdfxoshddatansfphdcxgdonsnieztwmykzocmmuoynnwzsoatnefpyndtfglrcmtpuyistkmkpsseieimdpoyamtpsotantkphddasnksaeadaouesabtaapyotwfisrdvoztlalnfzatuorymehtswfmzebatiamkefgjtmwhtterskkbghfzt)
+
+envelope format $RESTORED
+
+| "already oak actual turtle mirror decorate rose permit toy host relief escape" [
+|     'isA': "recoveryPhrase"
+|     'asset': 'Ethereum'
+| ]
+```
+
+This is the ultimate in resilience _and_ privacy. Your secrets are
+protected from a Single Point of Failure (SPOF) because you have
+redundant copies: any two will restore. But your privacy is also
+protected, securing you against a Single Point of Compromise (SPOC)
+because an adversary recovering a single one of your shares learns
+nothing.
