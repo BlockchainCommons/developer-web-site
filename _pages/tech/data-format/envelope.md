@@ -36,9 +36,9 @@ redirect_from:
       <img src="/assets/badges/hashed-elision.png">
     </a>
   </div>
- <div class="hex31">
-    <a href="/envelope/permits/">
-      <img src="/assets/badges/permits.png">
+  <div class="hex31">
+    <a href="/known-values/">
+      <img src="/assets/badges/known-values.png">
     </a>
   </div>
   <div class="hex32">
@@ -52,13 +52,18 @@ redirect_from:
     </a>
   </div>
   <div class="hex51">
-    <a href="/known-values/">
-      <img src="/assets/badges/known-values.png">
+    <a href="/envelope/permits/">
+      <img src="/assets/badges/permits.png">
+    </a>
+  </div>
+  <div class="hex52">
+    <a href="/envelope/salt/">
+      <img src="/assets/badges/salt.png">
     </a>
   </div>
   <div class="hex61">
-    <a href="/envelope/esc/">
-      <img src="/assets/badges/esc.png">
+    <a href="/envelope/request/">
+      <img src="/assets/badges/request-response.png">
     </a>
   </div>
   <div class="hex71">
@@ -66,7 +71,11 @@ redirect_from:
       <img src="/assets/badges/gstp.png">
     </a>
   </div>
-</div>
+  <div class="hex72">
+    <a href="/envelope/esc/">
+      <img src="/assets/badges/esc.png">
+    </a>
+  </div></div>
 
 
 {% include news-envelope.md %}
