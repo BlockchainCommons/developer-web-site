@@ -33,7 +33,14 @@ sidebar:
     </a>
   </div>
  <div class="hex41 highlighted">
+   <a href="/chains/ethereum/">
       <img src="/assets/badges/ethereum.png">
+   </a>
+  </div>
+  <div class="hex51 opaqued">
+    <a href="/chains/zcash/">
+      <img src="/assets/badges/zcash.png">
+    </a>
   </div>
   <div class="hex61">
     <a href="/envelope/">
