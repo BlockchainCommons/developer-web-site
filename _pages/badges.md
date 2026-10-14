@@ -206,6 +206,10 @@ https://developer.blockchaincommons.com/assets/badges/oib.png
 
 https://developer.blockchaincommons.com/assets/badges/open-integrity.png
 
+## [![](/assets/badges/open-integrity-forge.png)](/assets/badges/open-integrity-forge.png) Open Integrity Forge
+
+https://developer.blockchaincommons.com/assets/badges/open-integrity-forge.png
+
 ## [![](/assets/badges/permits.png)](/assets/badges/permits.png) Permits
 
 https://developer.blockchaincommons.com/assets/badges/permits.png
