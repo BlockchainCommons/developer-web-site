@@ -1,2 +1,2 @@
-_**Latest News:** [Garner](https://developer.blockchaincommons.com/garner/) released, a new way to publish envelopes used for identity content (2/11/26). Released [envelope-cli 0.34](https://github.com/BlockchainCommons/bc-envelope-cli-rust) (2/5/26). Initial [Hubert](https://developer.blockchaincommons.com/hubert/) release: a dead-drop hub for exchanging envelopes without reliable network infrastructure (10/18/25)._
+_**Latest News:** Updated [envelope home page](/envelope/) with all features & extensions (10/14/26). Wrote new pages to highlight [radical recursion](/envelope/recursion/) and [salt](/envelope/salt) (9/30/26)._
 {: .notice--info}
