@@ -292,17 +292,18 @@ ETHEREUM_ELIDED=$(envelope elide removing $KEY_DIGEST $ETHEREUM)
 Here's the result:
 ```
 envelope format $ETHEREUM_ELIDED
-"Ethereum Secrets" [
-    "secret": ENCRYPTED [
-        'isA': "recoveryPhrase"
-        'asset': 'Ethereum'
-    ]
-    "secret": ENCRYPTED [
-        'isA': 'PrivateKey'
-        'asset': 'Ethereum'
-    ]
-    "symmetricKey": ELIDED
-]
+
+| "Ethereum Secrets" [
+|     "secret": ENCRYPTED [
+|         'isA': "recoveryPhrase"
+|         'asset': 'Ethereum'
+|     ]
+|     "secret": ENCRYPTED [
+|         'isA': 'PrivateKey'
+|         'asset': 'Ethereum'
+|     ]
+|     "symmetricKey": ELIDED
+| ]
 ```
 
 So why is this useful? Because eliding content from an envelope leaves
@@ -312,3 +313,5 @@ matches the hash in your Ethereum envelope. You then know it's the
 right one to restore these secrets!
 
 Great privacy! But great resilience too!
+
+## Securing Your Secrets with SSKR
