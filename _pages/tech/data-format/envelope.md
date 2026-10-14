@@ -75,7 +75,8 @@ redirect_from:
     <a href="/envelope/esc/">
       <img src="/assets/badges/esc.png">
     </a>
-  </div></div>
+  </div>
+</div>
 
 
 {% include news-envelope.md %}

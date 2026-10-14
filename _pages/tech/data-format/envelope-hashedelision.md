@@ -23,15 +23,71 @@ redirect_from:
   - /hashed-ellission/
 ---
 
-## Overview
+<div class="hexline hexgrid72">
+  <div class="hex12top">
+    <a href="/data-formats/">
+      <img src="/assets/badges/cat-dataformat-half.png">
+    </a>
+  </div>
+ <div class="hex11 opaqued">
+    <a href="/envelope/recursion/">
+      <img src="/assets/badges/recursion.png">
+    </a>
+  </div>
+ <div class="hex21 highlighted">
+    <a href="/hashed-elision/">
+      <img src="/assets/badges/hashed-elision.png">
+    </a>
+  </div>
+  <div class="hex31 opaqued">
+    <a href="/known-values/">
+      <img src="/assets/badges/known-values.png">
+    </a>
+  </div>
+  <div class="hex32">
+    <a href="/envelope/inclusion-proof/">
+      <img src="/assets/badges/inclusion-proof.png">
+    </a>
+  </div>
+  <div class="hex41">
+    <a href="/envelope/">
+      <img src="/assets/badges/envelope.png">
+    </a>
+  </div>
+  <div class="hex51 opaqued">
+    <a href="/envelope/permits/">
+      <img src="/assets/badges/permits.png">
+    </a>
+  </div>
+  <div class="hex52 opaqued">
+    <a href="/envelope/salt/">
+      <img src="/assets/badges/salt.png">
+    </a>
+  </div>
+  <div class="hex61 opaqued">
+    <a href="/envelope/request/">
+      <img src="/assets/badges/request-response.png">
+    </a>
+  </div>
+  <div class="hex71 opaqued">
+    <a href="/envelope/gstp/">
+      <img src="/assets/badges/gstp.png">
+    </a>
+  </div>
+  <div class="hex72 opaqued">
+    <a href="/envelope/esc/">
+      <img src="/assets/badges/esc.png">
+    </a>
+  </div>
+</div>
 
-Hashed elision structures information so that any field can be
+_Hashed elision structures information so that any field can be
 replaced by a one-way hash of itself. Issuers sign across those hashes
 rather than the raw data. The holder of the data packet can then elide
 any field at the moment of presentation, and the issuer's signature
 still verifies. What remains is provably authentic; and what was
 removed is provably untampered. The verifier learns only what it asked
-for.
+for._
 
 ## Why is Hashed Elision Important?
 

@@ -18,12 +18,68 @@ redirect_from:
   - /envelope/salting/
 ---
 
-## Overview
+<div class="hexline hexgrid72">
+  <div class="hex12top">
+    <a href="/data-formats/">
+      <img src="/assets/badges/cat-dataformat-half.png">
+    </a>
+  </div>
+ <div class="hex11 opaqued">
+    <a href="/envelope/recursion/">
+      <img src="/assets/badges/recursion.png">
+    </a>
+  </div>
+ <div class="hex21 opaqued">
+    <a href="/hashed-elision/">
+      <img src="/assets/badges/hashed-elision.png">
+    </a>
+  </div>
+  <div class="hex31 opaqued">
+    <a href="/known-values/">
+      <img src="/assets/badges/known-values.png">
+    </a>
+  </div>
+  <div class="hex32 opaqued">
+    <a href="/envelope/inclusion-proof/">
+      <img src="/assets/badges/inclusion-proof.png">
+    </a>
+  </div>
+  <div class="hex41">
+    <a href="/envelope/">
+      <img src="/assets/badges/envelope.png">
+    </a>
+  </div>
+  <div class="hex51 opaqued">
+    <a href="/envelope/permits/">
+      <img src="/assets/badges/permits.png">
+    </a>
+  </div>
+  <div class="hex52 highlighted">
+    <a href="/envelope/salt/">
+      <img src="/assets/badges/salt.png">
+    </a>
+  </div>
+  <div class="hex61 opaqued">
+    <a href="/envelope/request/">
+      <img src="/assets/badges/request-response.png">
+    </a>
+  </div>
+  <div class="hex71 opaqued">
+    <a href="/envelope/gstp/">
+      <img src="/assets/badges/gstp.png">
+    </a>
+  </div>
+  <div class="hex72 opaqued">
+    <a href="/envelope/esc/">
+      <img src="/assets/badges/esc.png">
+    </a>
+  </div>
+</div>
 
-Salting is a critical privacy enhancement for that keeps elided data
+_Salting is a critical privacy enhancement for that keeps elided data
 private. It ensures that even when the same information is elided from
 multiple documents, the resulting hashes are different, preventing
-correlation attacks.
+correlation attacks._
 
 ## Why is Salting Important?
 

@@ -18,54 +18,59 @@ sidebar:
 ---
 
 <div class="hexline hexgrid72">
-  <div class="hex11 opaqued">
-    <a href="/bytewords/">
-      <img src="/assets/badges/bytewords.png">
-    </a>
-  </div>
   <div class="hex12top">
     <a href="/data-formats/">
       <img src="/assets/badges/cat-dataformat-half.png">
     </a>
   </div>
-  <div class="hex21 opaqued">
-    <a href="/cbor/">
-      <img src="/assets/badges/cbor.png">
+ <div class="hex11 opaqued">
+    <a href="/envelope/recursion/">
+      <img src="/assets/badges/recursion.png">
+    </a>
+  </div>
+ <div class="hex21 opaqued">
+    <a href="/hashed-elision/">
+      <img src="/assets/badges/hashed-elision.png">
     </a>
   </div>
   <div class="hex31 opaqued">
-    <a href="/dcbor/">
-      <img src="/assets/badges/dcbor.png">
-    </a>
-  </div>
- <div class="hex41">
-    <a href="/envelope/">
-      <img src="/assets/badges/envelope.png">
-    </a>
-  </div>
-  <div class="hex51">
     <a href="/known-values/">
       <img src="/assets/badges/known-values.png">
     </a>
   </div>
-  <div class="hex61 opaqued">
-    <a href="/ur/">
-      <img src="/assets/badges/ur.png">
-    </a>
-  </div>  
-  <div class="hex71 opaqued">
-    <a href="/mur/">
-      <img src="/assets/badges/mur.png">
+  <div class="hex32 opaqued">
+    <a href="/envelope/inclusion-proof/">
+      <img src="/assets/badges/inclusion-proof.png">
     </a>
   </div>
-  <div class="hex32 highlighted">
-    <a href="/envelope/esc/">
-      <img src="/assets/badges/esc.png">
+  <div class="hex41">
+    <a href="/envelope/">
+      <img src="/assets/badges/envelope.png">
     </a>
   </div>
-  <div class="hex52">
+  <div class="hex51 opaqued">
+    <a href="/envelope/permits/">
+      <img src="/assets/badges/permits.png">
+    </a>
+  </div>
+  <div class="hex52 opaqued">
+    <a href="/envelope/salt/">
+      <img src="/assets/badges/salt.png">
+    </a>
+  </div>
+  <div class="hex61">
+    <a href="/envelope/request/">
+      <img src="/assets/badges/request-response.png">
+    </a>
+  </div>
+  <div class="hex71">
     <a href="/envelope/gstp/">
       <img src="/assets/badges/gstp.png">
+    </a>
+  </div>
+  <div class="hex72 highlighted">
+    <a href="/envelope/esc/">
+      <img src="/assets/badges/esc.png">
     </a>
   </div>
 </div>

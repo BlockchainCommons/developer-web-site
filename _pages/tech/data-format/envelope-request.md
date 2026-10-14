@@ -18,7 +18,66 @@ sidebar:
     - technology
 ---
 
-[Gordian Envelope](/envelope/) includes request and response functionality: one user can issue an envelope requesting certain information or certain actions and then another user can respond to that request with the data. These functions are important for enabling interoperability and automating complex or error-prone usage of digital assets.
+<div class="hexline hexgrid72">
+  <div class="hex12top">
+    <a href="/data-formats/">
+      <img src="/assets/badges/cat-dataformat-half.png">
+    </a>
+  </div>
+ <div class="hex11 opaqued">
+    <a href="/envelope/recursion/">
+      <img src="/assets/badges/recursion.png">
+    </a>
+  </div>
+ <div class="hex21 opaqued">
+    <a href="/hashed-elision/">
+      <img src="/assets/badges/hashed-elision.png">
+    </a>
+  </div>
+  <div class="hex31 opaqued">
+    <a href="/known-values/">
+      <img src="/assets/badges/known-values.png">
+    </a>
+  </div>
+  <div class="hex32 opaqued">
+    <a href="/envelope/inclusion-proof/">
+      <img src="/assets/badges/inclusion-proof.png">
+    </a>
+  </div>
+  <div class="hex41">
+    <a href="/envelope/">
+      <img src="/assets/badges/envelope.png">
+    </a>
+  </div>
+  <div class="hex51 opaqued">
+    <a href="/envelope/permits/">
+      <img src="/assets/badges/permits.png">
+    </a>
+  </div>
+  <div class="hex52 opaqued">
+    <a href="/envelope/salt/">
+      <img src="/assets/badges/salt.png">
+    </a>
+  </div>
+  <div class="hex61 highlighted">
+    <a href="/envelope/request/">
+      <img src="/assets/badges/request-response.png">
+    </a>
+  </div>
+  <div class="hex71">
+    <a href="/envelope/gstp/">
+      <img src="/assets/badges/gstp.png">
+    </a>
+  </div>
+  <div class="hex72">
+    <a href="/envelope/esc/">
+      <img src="/assets/badges/esc.png">
+    </a>
+  </div>
+</div>
+
+
+_[Gordian Envelope](/envelope/) includes request and response functionality: one user can issue an envelope requesting certain information or certain actions and then another user can respond to that request with the data. These functions are important for enabling interoperability and automating complex or error-prone usage of digital assets._
 
 ## Implementation Guide for Requests & Responses
 
