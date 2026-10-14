@@ -190,7 +190,7 @@ Obviously, you don't want to leave your secrets sitting around in
 plain text. You can generate a new symmetric key and use that to
 encrypt your envelopes:
 
-```
+```sh
 SKEY=$(envelope generate key)
 
 RECPHRASE_ENC=$(envelope encrypt --key $SKEY $RECPHRASE)
@@ -200,7 +200,7 @@ RECKEY_ENC=$(envelope encrypt --key $SKEY $RECKEY)
 There's a catch here! Encryption only encrypts the subject, not the
 assertions:
 
-```
+```sh
 envelope format $RECPHRASE_ENC
 
 | ENCRYPTED [
@@ -240,3 +240,75 @@ This is what makes Envelope very important as a privacy tool. You get
 to decide exactly the level of privacy that every element of your data
 deserves.
 
+### Building Up an Envelope
+
+You can build an envelope up from several parts. For example, the
+following would allow you to put all your Ethereum secrets together, along with the symmetric key you need for decryption:
+
+```sh
+ETHEREUM=$(envelope subject type string "Ethereum Secrets")
+ETHEREUM=$(envelope assertion add pred-obj string "secret" envelope $RECPHRASE_ENC $ETHEREUM)
+ETHEREUM=$(envelope assertion add pred-obj string "secret" envelope $RECKEY_ENC $ETHEREUM)
+ETHEREUM=$(envelope assertion add pred-obj string "symmetricKey" ur $SKEY $ETHEREUM)
+```
+
+Here's what that looks like:
+
+```sh
+envelope format $ETHEREUM
+
+| Ethereum Secrets" [
+|    "secret": ENCRYPTED [
+|        'isA': "recoveryPhrase"
+|        'asset': 'Ethereum'
+|    ]
+|    "secret": ENCRYPTED [
+|        'isA': 'PrivateKey'
+|        'asset': 'Ethereum'
+|    ]
+|    "symmetricKey": 40023(h'76f7695d0bde9fc209ae4577509fbcabfb3162595689df8c1fbe9ef26e8953fd')
+```
+
+But again, you don't necessarily want to leave _that_ secret hanging
+around.
+
+### Eliding a Secret
+
+That's where Envelope's last privacy feature comes in: elision. Data
+can be removed after you've made the envelope.
+
+This is done by finding the hash of the object to remove, in case the actual symmetric key:
+
+```sh
+KEY_DIGEST=$(envelope assertion find predicate string "symmetricKey" $ETHEREUM| envelope extract object | envelope digest)
+```
+
+You then `elide` it:
+
+```sh
+ETHEREUM_ELIDED=$(envelope elide removing $KEY_DIGEST $ETHEREUM)
+```
+
+Here's the result:
+```
+envelope format $ETHEREUM_ELIDED
+"Ethereum Secrets" [
+    "secret": ENCRYPTED [
+        'isA': "recoveryPhrase"
+        'asset': 'Ethereum'
+    ]
+    "secret": ENCRYPTED [
+        'isA': 'PrivateKey'
+        'asset': 'Ethereum'
+    ]
+    "symmetricKey": ELIDED
+]
+```
+
+So why is this useful? Because eliding content from an envelope leaves
+the _hash_ of that content. That means you can later go through all
+your symmetric keys (stored securely elsewhere) and find the one that
+matches the hash in your Ethereum envelope. You then know it's the
+right one to restore these secrets!
+
+Great privacy! But great resilience too!
