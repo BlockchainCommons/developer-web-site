@@ -68,9 +68,13 @@ For more see:
 ## ![](/assets/badges/ethereum.png) Ethereum
 
 **Smart Contract Cryptocurrency Blockchain.** The smart contracts of
-Ethereum may be some of the smarest custody out there. We've long
-considered ways to highlight this blockchain and hope to do so in the
-near future.
+Ethereum may be some of the smarest custody out there. Ethereum
+technologies such as Envelope and SSKR can already be used to protect
+Ethereum secrets.
+
+For more see:
+
+* [**Ethereum Blockchain**](/chains/ethereum/)
 
 ## ![](/assets/badges/zcash.png) Zcash
 

@@ -142,7 +142,8 @@ offer hands-on training for Blockchain Commons technologies:
 * [**Learning Attestations**](/attestations/cli/). Creating fair witness attestations for XIDs.
 * [**Learning Envelope**](/envelope/cli/). Intro, seeds, and salt for Envelope.
 * [**Learning Key Hierarchies**](/keys/cli/). XID key management as a reference for hierarchical best practices.
-* [**Learning Pubblic Participation Profiles**](/ppp/cli/). Using XIDS to engage pseudonymously on projects.
+* [**Learning Public Participation Profiles**](/ppp/cli/). Using XIDS to engage pseudonymously on projects.
+* [**Protecting Ethereum Secrets**](/chains/ethereum/cli/seeds/). Using SSKR and Envelope to protect Ethereum assets.
 
 ## ![](/assets/badges/smart-custody.png) Smart Custody
 

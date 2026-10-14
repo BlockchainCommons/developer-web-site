@@ -519,7 +519,7 @@ ethereum:
     children:
     - title: "Intro to Ethereum"
       url: "/chains/ethereum/"
-    - title: "Protecting Ethereum Secrets (CLI)"
+    - title: "Protecting Secrets (CLI)"
       url: "/chains/ethereum/cli/seeds/"
 zcash:
   - title: Zcash
