@@ -6,4 +6,5 @@ chapter](https://learningxids.blockchaincommons.com/05_0_Keys/) of
 Line](http://learningxids.blockchaincommons.com/), on keys
 (5/12/26). New [Technology Overview
 video](https://www.youtube.com/watch?v=f7MFW8RfcOE) published for 2026
-(2/24/26)._ {: .notice--info}
+(2/24/26)._
+{: .notice--info}
