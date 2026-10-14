@@ -61,7 +61,7 @@ you if you lose your secrets._
 
 _The following demonstrates how to interoperate with
 [MetaMask](https://metamask.io/) to improve the resilience of your
-Ethereum funds, while maintaing your privacy, using two Blockchain
+Ethereum funds while maintaing your privacy, using two Blockchain
 Commons technologies: [Envelope](/envelope/) and [SSKR](/sskr/)._
 
 ## Extracting Secrets from Metamask
@@ -70,26 +70,26 @@ When you work with Metamask, you will create wallets and within them
 accounts, each of which can generate individual addresses.
 
 * A **Seed Recovery Phrase** can be used to restore a wallet.
-* A **Private Key** is derived from a seed and can be used to restore an account.
+* A **Private Key** is derived from a seed and can be used to access an account address.
 
 It is beneficial to privacy to use multiple accounts, each one for a
 different purpose on the Ethereum network (e.g., one for a DAO, one
 for game-related spending, one for a trip out of country, etc). But
 you might be unwilling to because of the fear of losing an
 account. That's where resilience comes in: by backing up your secrets,
-you can lower the fear of loss, and so encourage better privacy
+you can lower the fear of loss and so encourage better privacy
 practices.
 
 Accessing secrets on Metamask is simple:
 
 1. Click the down arrow next to your current account.
 2. Click the "..." next to the account you want to access.
-3. Choose account details.
+3. Choose "Account Details".
 4. To access the private keys for an account, choose "Private Keys".
 5. To access the seed recovery phrase for a wallet, choose "Secret Recovery Phrase".
 
-Be sure you're in a private place that can't be surveiled before
-taking these steps. On a modern computer, Metamask will require your
+When working with your secrets, be sure you're in a private place that
+can't be surveiled. On a modern computer, Metamask will require your
 biometrics to unlock a passkey. Afterward, you can use a secure
 computer to back them up using Envelope and SSKR.
 
@@ -139,8 +139,8 @@ own tools:
 * [https://developer.blockchaincommons.com/envelope/#libraries](https://developer.blockchaincommons.com/envelope/#libraries)
 
 Once you have installed Gordian Envelope, you'll be able to store
-information in it. This is done by adding subjects and then assertions
-about that that subject, made up of predicate and an object. 
+information in it. This is done by adding subjects and then
+assertions, made up of predicate and an object, about those subjects.
 
 ### Storing a Recovery Phrase
 
@@ -166,7 +166,7 @@ variables for easier reuse.
 RECPHRASE=$(envelope subject type string "already oak actual turtle mirror decorate rose permit toy host relief escape")
 ```
 
-You can then add assertions that describe what you're storing, so you
+You can then add assertions that subject, describe what you're storing so you
 know what it is in the future.
 
 ```sh
@@ -182,7 +182,8 @@ could use strings for everything, but using known values when they
 exist improves the inteoperability of your data, and so the likelihood
 of recovering it in the future.
 
-After you've filled out your envelope, you can use `envelope format` to see its complete contents:
+After you've filled out your envelope, you can use `envelope format`
+to see its complete contents:
 
 ```sh
 envelope format $RECPHRASE
@@ -195,7 +196,7 @@ envelope format $RECPHRASE
 
 You've successfully backed up your recovery phrase along with a
 description of what it is! You could add more details, for example
-what accounts you created, with the exist format de[ending on what you
+what accounts you created, with the exact format depending on what you
 will need in the future to get from this raw data (the secret) to your
 actual assets.
 
@@ -206,7 +207,8 @@ using.
 
 ```sh
 RECKEY=$(envelope subject type string "2cebbeb69d8f390f709bde1d571a44ee09446d18d7f07f21fb8dc72de786c00f")
-RECKEY=$(envelope assertion add pred-obj known 'isA' known 'PrivateKey' $RECKEY)RECKEY=$(envelope assertion add pred-obj known 'asset' known 'Ethereum' $RECKEY)
+RECKEY=$(envelope assertion add pred-obj known 'isA' known 'PrivateKey' $RECKEY)
+RECKEY=$(envelope assertion add pred-obj known 'asset' known 'Ethereum' $RECKEY)
 
 envelope format $RECKEY
 
@@ -254,6 +256,21 @@ it is not. This means that you can include metadata that might help
 you recover your secret (for example, by telling you where the
 symmetric encryption key is!).
 
+### Decrypting Your Data
+
+As long as you have that symmetric key, you'll be able to decrypt your data:
+
+```sh
+envelope decrypt -k $SKEY $RECPHRASE_ENC | envelope format
+
+| "already oak actual turtle mirror decorate rose permit toy host relief escape" [
+|     'isA': "recoveryPhrase"
+|     'asset': 'Ethereum'
+| ]
+```
+
+The trick, of course, is holding on to the key.
+
 ### Encrypting the Whole Envelope
 
 If you prefer, you can encrypt the whole envelope. This is done by
@@ -268,7 +285,7 @@ envelope format $RECPHRASE_FULLENC
 | ENCRYPTED
 ```
 
-This is what makes Envelope very important as a privacy tool. You get
+This is what makes envelope very powerful as a privacy tool. You get
 to decide exactly the level of privacy that every element of your data
 deserves.
 
@@ -301,15 +318,16 @@ envelope format $ETHEREUM
 |    "symmetricKey": 40023(h'76f7695d0bde9fc209ae4577509fbcabfb3162595689df8c1fbe9ef26e8953fd')
 ```
 
-But again, you don't necessarily want to leave _that_ secret hanging
+But again, you don't necessarily want to leave that symmetric key hanging
 around.
 
 ### Eliding a Secret
 
 That's where Envelope's last privacy feature comes in: elision. Data
-can be removed after you've made the envelope.
+can be removed after you've made an envelope.
 
-This is done by finding the hash of the object to remove, in case the actual symmetric key:
+This is done by finding the hash of the object to remove, in case the
+actual symmetric key:
 
 ```sh
 KEY_DIGEST=$(envelope assertion find predicate string "symmetricKey" $ETHEREUM| envelope extract object | envelope digest)
@@ -351,7 +369,7 @@ Great privacy! But great resilience too!
 
 You don't want your secrets sitting around in plain text,
 unprotected. But encrypting them might just be kicking the can down
-the road: your Ethereum secrets might now be well protected, butt they
+the road: your Ethereum secrets might now be well protected, but they
 could still be lost if you lose your symmetric encryption key.
 
 Shamir's secret sharing, available in an expanded form through
@@ -359,10 +377,10 @@ Blockchain Commons'
 [SSKR](https://developer.blockchaincommons.com/sskr/) offers a
 solution. Rather than symmetrically encrypting your envelope, you
 shard it. This creates a number of shares of your envelope, but
-nothing can be determined about the envelope unless a threshold of
-them are brought back together. 2 of 3 is a common sharding
-technique. That means that you create three shares and can reconstruct
-your envelope from any two of them.
+nothing can be determined about the content of the envelope unless a
+threshold of them are brought back together. 2 of 3 is a common
+sharding technique. That means that you create three shares and can
+reconstruct your envelope from any two of them.
 
 SSKR is built into the `envelope-cli` tool, so you can shard an
 envelope with a single command:
@@ -374,12 +392,13 @@ envelope sskr split $RECPHRASE -g 2-of-3
 ```
 
 You would then send those individual envelopes out to distinct and
-secure locations. You might keep one on your laptop and one in cloud
-storage (that your laptop is not logged into), for example. Then you
-could convert the third to a QR and print that out and put it in your
-safe.
+secure locations. For example, you might keep one on your laptop and
+one in cloud storage (that your laptop is not logged into).  Then you
+could convert the third to a QR code and print that out and put it in
+your safe.
 
-When you later bring your shares back together, you can then reconstruct your envelope from any two:
+When you later bring your shares back together, you can reconstruct
+your envelope from any two:
 
 ```sh
 RESTORED=$(envelope sskr join ur:envelope/lftansfwlrhdjlbnfdrkahchaypfcyotbthhoxsfhhrfoxylnegwgtetmnftyltpptcpltgaroqzrewdotceksgdjzatpmyllfaoftroemrlmupyemutrlgrpfeslosahfhfyldtaavlmwkprfghldgubgpdkpqdosrolgdyjyiototefliowzyntkdmghjymdlnrnrectrpknsosnrkgmqdntcyhpemfhtsyteokoglgsfresntfxuedeknckkghhkivygdjocfwszsbdghfzbtahhstlcthepdfxoshddatansfphdcxgdonsnieztwmykzocmmuoynnwzsoatnefpyndtfglrcmtpuyistkmkpsseieimdpoyamtpsotantkphddasnksaeadadsnpfbyztsrdpeobkatceztahiansrdtetllkaeiennlygmbemnwttbwtaolossfrhednfnol ur:envelope/lftansfwlrhdjlbnfdrkahchaypfcyotbthhoxsfhhrfoxylnegwgtetmnftyltpptcpltgaroqzrewdotceksgdjzatpmyllfaoftroemrlmupyemutrlgrpfeslosahfhfyldtaavlmwkprfghldgubgpdkpqdosrolgdyjyiototefliowzyntkdmghjymdlnrnrectrpknsosnrkgmqdntcyhpemfhtsyteokoglgsfresntfxuedeknckkghhkivygdjocfwszsbdghfzbtahhstlcthepdfxoshddatansfphdcxgdonsnieztwmykzocmmuoynnwzsoatnefpyndtfglrcmtpuyistkmkpsseieimdpoyamtpsotantkphddasnksaeadaouesabtaapyotwfisrdvoztlalnfzatuorymehtswfmzebatiamkefgjtmwhtterskkbghfzt)
