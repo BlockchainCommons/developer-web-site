@@ -23,7 +23,7 @@ sidebar:
 
 
 <div class="hexline hexgrid72">
-  <div class="hex11">
+  <div class="hex51">
     <a href="/bytewords/">
       <img src="/assets/badges/bytewords.png">
     </a>
@@ -33,12 +33,12 @@ sidebar:
       <img src="/assets/badges/cat-dataformat-half.png">
     </a>
   </div>
-  <div class="hex21">
+  <div class="hex11">
     <a href="/cbor/">
       <img src="/assets/badges/cbor.png">
     </a>
   </div>
-  <div class="hex31">
+  <div class="hex21">
     <a href="/dcbor/">
       <img src="/assets/badges/dcbor.png">
     </a>
@@ -48,7 +48,7 @@ sidebar:
       <img src="/assets/badges/envelope.png">
     </a>
   </div>
-  <div class="hex51">
+  <div class="hex31">
     <a href="/known-values/">
       <img src="/assets/badges/known-values.png">
     </a>
