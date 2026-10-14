@@ -257,12 +257,12 @@ _See the [Gordian Envelope playlist](https://www.youtube.com/playlist?list=PLCkr
 * [**Feature List**](/envelope/features/)
 * [**IETF Problem Statement: Deterministic Hashed Data Elision**](https://datatracker.ietf.org/doc/draft-appelcline-hashed-elision/) (IETF)
 
-**Extension Features:**
+**Envelope Features:**
 
 * [**Hashed Elision**](/hashed-elision/)
 * [**Radical Recursion**](/envelope/recursion/)
 
-**Extension Extensions:**
+**Envelope Extensions:**
 
 * [**ESC**](/envelope/esc/)
 * [**GSTP**](/envelope/gstp/)
