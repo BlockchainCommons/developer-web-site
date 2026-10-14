@@ -12,6 +12,7 @@ classes:
 permalink: /chains/ethereum/
 sidebar:
   nav:
+    - ethereum
     - chains
     - technology
 redirect_from:
@@ -76,3 +77,12 @@ addresses and public keys.
     </td>
   </tr>
 </table>
+
+## Protecting Secrets from the CLI
+
+Alternatively, you might start in the Ethereum ecosystem, generating
+wallets and accounts in Metamask. The following brief tutorial shows
+how to use Gordian Envelope and SSKR to protect those secrets.
+
+* [Protecting Ethereum Secrets from the CLI](/chains/ethereum/cli/seeds/)
+

@@ -12,6 +12,7 @@ classes:
 permalink: /chains/ethereum/cli/seeds/
 sidebar:
   nav:
+    - ethereum
     - chains
     - technology
 ---

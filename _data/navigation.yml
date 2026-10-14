@@ -514,6 +514,13 @@ chains:
       url: /chains/ethereum/
     - title: Zcash
       url: /chains/zcash/
+ethereum:
+  - title: Ethereum
+    children:
+    - title: "Intro to Ethereum"
+      url: "/chains/ethereum/"
+    - title: "Protecting Ethereum Secrets (CLI)"
+      url: "/chains/ethereum/cli/seeds/"
 zcash:
   - title: Zcash
     children:
