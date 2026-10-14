@@ -21,26 +21,31 @@ sidebar:
 ## Overview
 
 <div class="hexline hexgrid71 highlighted">
-  <div class="hex21">
+  <div class="hex11">
     <a href="https://learningfrost.blockchaincommons.com/">
       <img src="/assets/badges/learning-frost.png">
     </a>
   </div>  
-  <div class="hex31 highlighted">
+  <div class="hex21 highlighted">
     <a href="/frost/">
       <img src="/assets/badges/frost.png">
     </a>
   </div>
-  <div class="hex32top">
+  <div class="hex12top">
     <a href="/signatures/">
       <img src="/assets/badges/cat-sig-half.png">
     </a>
   </div>
-  <div class="hex41">
+  <div class="hex31">
     <a href="/musig/">
       <img src="/assets/badges/musig.png">
     </a>
   </div>  
+  <div class="hex41 opaqued">
+    <a href="/cloudflare-passkey/">
+      <img src="/assets/badges/cloudflare-passkey.png">
+    </a>
+  </div>
   <div class="hex51 opaqued">
     <a href="/open-integrity/">
       <img src="/assets/badges/open-integrity.png">
