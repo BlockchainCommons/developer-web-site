@@ -297,7 +297,8 @@ ETHEREUM_ELIDED=$(envelope elide removing $KEY_DIGEST $ETHEREUM)
 ```
 
 Here's the result:
-```
+
+```sh
 envelope format $ETHEREUM_ELIDED
 
 | "Ethereum Secrets" [
