@@ -15,7 +15,7 @@ redirect_from:
   - /openintegrity/
 sidebar:
   nav:
-    - open integrity
+    - openintegrity
     - signatures
     - technology
 ---
