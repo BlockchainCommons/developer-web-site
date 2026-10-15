@@ -108,6 +108,16 @@ For more see:
 
 * [**Open Integrity**](/open-integrity/)
 
+## ![](/assets/badges/open-integrity-forge.png) Open Integrity Forge
+
+**Rules for AIs.** An expansion of Open Integrity that supports
+agentic AI work by ensuring that the agents must follow rules for
+commits and that only human can authorize merges into main.
+
+For more see:
+
+* [**Open Integrity Forge**](/open-integrity/forge/)
+
 ## ![](/assets/badges/provenance-marks.png) Provenance Mark
 
 **Hash Chain.** Provenance marks are a cryptographic system used to

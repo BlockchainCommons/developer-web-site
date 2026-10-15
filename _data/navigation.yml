@@ -503,6 +503,13 @@ musig:
       url: /musig/sequence/
     - title: "Go to FROST"
       url: /frost/
+openintegrity:
+  - title: Open Integrity
+    children:
+    - title: "Intro to Open Integrity"
+      url: /open-integrity/
+    - title: "OI Forge"
+      url: /open-integrity/forge/
 chains: 
   - title: Blockchains
     children:

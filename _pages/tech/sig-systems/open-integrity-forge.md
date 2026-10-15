@@ -15,6 +15,7 @@ redirect_from:
   - /openintegrity/forge/
 sidebar:
   nav:
+    - openintegrity
     - signatures
     - technology
 ---
