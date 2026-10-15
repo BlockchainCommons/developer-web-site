@@ -190,3 +190,15 @@ For more see:
 
 _Also linked from the page, the [Learning XIDs from the Command Line](https://learningxids.blockchaincommons.com/) tutorial from [courses](https://developer.blockchaincommons.com/courses/) and the [Garner](/garner/) self-sovereign identity document service from [secure commo](/secure-comm/)._
 {: .notice--info}
+
+_Also See:_
+
+## ![](/assets/badges/cloudflare-passkey.png) Cloudflare Passkey
+
+**Passkey Identity.** A passkey-only identity system, meant
+to improve the diversity of authentication, for use with web apps, built on Cloudflare Workers and Durable Objects.
+
+For more see:
+
+* [**Cloudflare Passkey**](/cloudflare-passkey/)
+
