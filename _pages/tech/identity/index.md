@@ -188,9 +188,6 @@ For more see:
 * [**Public Participation Profiles**](/identity/ppp/)
 * [**Amira Engagement Model**](https://w3c-ccg.github.io/amira/) (W3C)
 
-_Also linked from the page, the [Learning XIDs from the Command Line](https://learningxids.blockchaincommons.com/) tutorial from [courses](https://developer.blockchaincommons.com/courses/) and the [Garner](/garner/) self-sovereign identity document service from [secure commo](/secure-comm/)._
-{: .notice--info}
-
 _Also See:_
 {: .notice--info}
 
@@ -202,4 +199,8 @@ to improve the diversity of authentication, for use with web apps, built on Clou
 For more see:
 
 * [**Cloudflare Passkey**](/cloudflare-passkey/)
+
+
+_Also linked from the page, the [Learning XIDs from the Command Line](https://learningxids.blockchaincommons.com/) tutorial from [courses](https://developer.blockchaincommons.com/courses/) and the [Garner](/garner/) self-sovereign identity document service from [secure commo](/secure-comm/)._
+{: .notice--info}
 
