@@ -123,7 +123,7 @@ separate.
       <a href="https://passkeydemo.gordianstack.com/"><img src="/assets/screenshots/passkey.png"></a>
     </td>
     <td>
-      <p>A simple demo of `passkey-cloudflare` allows you to create a passkey at `gordianstack.com` and log in with it. For a more extensive example of a passkey in use, see the [Open Integrity Forge Demo](https://forgedemo.gordianstack.com/).</p>
+      <p>A simple demo of `passkey-cloudflare` allows you to create a passkey at `gordianstack.com` and log in with it. For a more extensive example of a passkey in use, see the <a href="https://forgedemo.gordianstack.com/">Open Integrity Forge demo</a>.</p>
     </td>
   </tr>
 </table>  
