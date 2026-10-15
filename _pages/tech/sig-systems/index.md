@@ -75,6 +75,15 @@ security because they can sign for keys that don't currently exist in
 a single form (making them less prone to compromise, while the use of
 thresholds also makes them less prone to loss)._
 
+## ![](/assets/badges/cloudflare-passkey.png) Cloudflare Passkey
+
+**Passkey Identity.** A passkey-only identity system, meant
+to improve the diversity of authentication, for use with web apps, built on Cloudflare Workers and Durable Objects.
+
+For more see:
+
+* [**Cloudflare Passkey**](/cloudflare-passkey/)
+
 ## ![](/assets/badges/frost.png) FROST
 
 **Threshold Signature.** FROST is a threshold signature system whose
