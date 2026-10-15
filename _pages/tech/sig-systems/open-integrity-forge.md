@@ -143,7 +143,7 @@ their account: https://github.com/BlockchainCommons/passkey-cloudflare
 
     </td>
     <td>
-      <p>This video of Open Integrity Forge is broadly split into three parts: a discussion of the problem and solution (2 minutes), a demo of the project (3 minutes), and a look at the principles and libraries used in this project (1 minute).
+      <p>This video of Open Integrity Forge is broadly split into three parts: a discussion of the problem and solution (2 minutes), a demo of the project (3 minutes), and a look at the principles and libraries used in this project (1 minute).</p>
     </td>
   </tr>
 </table>  
