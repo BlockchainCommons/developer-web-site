@@ -140,7 +140,7 @@ separate.
     </td>
     <td>
     
-      <p>These slides were taken from the October 2026 [Gordian Developers meeting](https://www.blockchaincommons.com/subscribe/#gordian-developers). Slides 7-12 provide the basic facts of the system: how it works and what its intent was.</p>
+      <p>These slides were taken from the October 2026 Gordian Developers meeting. Slides 7-12 provide the basic facts of the system: how it works and what its intent was.</p>
       
     </td>
   </tr>
