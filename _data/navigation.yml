@@ -471,6 +471,8 @@ signatures:
     children:
     - title: "Signatures Home"
       url: /signatures/
+    - title: "Cloudflare Passkey"
+      url: /cloudflare-passkey/
     - title: "FROST"
       url: /frost/
     - title: "MuSig2"
