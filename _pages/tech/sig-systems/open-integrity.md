@@ -152,5 +152,6 @@ For more, see the [Open Integrity Design Docs](https://github.com/OpenIntegrityP
 
 * [**Open Integrity Repo**](https://github.com/openintegrityproject)
 * [**Open Integrity Docs**](https://github.com/OpenIntegrityProject/core/tree/main/docs)
+* [**Open Integrity Forge**](/open-integrity/forge/) (a proof-of-concept Git platform for agents, with a [live demo](https://forgedemo.gordianstack.com/))
 * [**Open Development**](/architecture/open-development/) (architecture page)
 

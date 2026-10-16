@@ -63,10 +63,11 @@ sidebar:
   </div>
 </div>
 
-_Open Integrity Forge is an extension of [Open
-Integrity](/open-integrity/) that controls the output of AI agents,
-ensuring that a human always oversees any agentic commit. It does so
-through integration with [cloudflare passkeys](/cloudflare-passkey/)._
+_Open Integrity Forge is a proof-of-concept Git platform, built on the
+ideas of [Open Integrity](/open-integrity/), that controls the output
+of AI agents, ensuring that a human always oversees any agentic
+commit. It does so with passkeys, through Blockchain Commons'
+[passkey-cloudflare](/cloudflare-passkey/) library._
 
 ## Why is Open Integrity Forge Important?
 
@@ -90,18 +91,24 @@ second commit then lays out a set of rules for the repository:
 | Rule | Statement |
 | --- | --- |
 | R0 | The first commit of main is the root of trust. Its approval verifies against the promoter key in its own policy. Its hash is the repository id. |
-| R1 | Each later commit of main carries an approval from a promoter in the policy of its first parent. |
-| R2 | Only a commit of main with such an approval changes `.repo/`. A key that a commit adds has no say over that commit. |
-| R3 | Each other commit that main reaches carries a valid SSH signature from a key in the policy in force when it came in. |
-| R4 | An approval names this repository, the ref, the parents and the tree of its own commit. |
-| R5 | An author key signs only inside its validity window. |
-| R6 | A key a promoter revoked signs nothing after its revocation; its earlier work still verifies. |
-| R7 | Where the policy says `mergesOnly`, a commit of main with one parent changes only `.repo/`, so no squash drops the authors' signatures. |
-| R8 | A release tag of a main commit carries approvals of that tag from as many distinct promoters as `releaseApprovals` asks. |
+| R1 | Each later commit of main requires an approval from a promoter in the policy of its first parent. |
+| R2 | Only a commit of main with such an approval can change `.repo/`. A key that a commit adds has no say over that commit. |
+| R3 | Each other commit that main reaches must carry a valid SSH signature from a key in the policy in force when it came in. |
+| R4 | An approval must name this repository, the ref, the parents, and the tree of its own commit. |
+| R5 | An author key may sign only inside its validity window. |
+| R6 | A key a promoter revoked may sign nothing after its revocation; its earlier work still verifies. |
+| R7 | Where the policy says `mergesOnly`, a commit of main with one parent changes only `.repo/`, so that no squash will drop the authors' signatures. |
+| R8 | A release tag of a main commit carries approvals of that tag from as many distinct promoters as `releaseApprovals` requires. |
 
 All AI agents are given their own forks and one-hour signing
 keys. Changes they make go to their forks. Only the human with the
 passkey can merge these changes into `main`.
+
+Forge keeps these rules in one file,
+`.repo/config/verification/policy.json`, rather than the signer files
+that the [Open Integrity core tools](https://github.com/OpenIntegrityProject/core)
+use, so Open Integrity's own verifier does not yet pass a Forge
+repository. How the two converge is not yet decided.
 
 ### Cloudflare Integration
 
@@ -110,7 +117,7 @@ that lives in the repositories.
 
 - Artifacts holds every repository. A project is an Artifacts repository; each agent works in an Artifacts fork of it, with a short-lived write token scoped to that fork alone. Anyone can clone a repository straight from Artifacts with a read-only token that lasts an hour and verify it, with no forge in the loop.
 - Workers: the forge is one Worker on a custom domain. It serves the page, prepares each commit for a passkey to sign, speaks Git to Artifacts with isomorphic-git, and serves the one-file verifier that each repository pins by digest.
-- Queues: Artifacts push events reach a Queue, and the Worker checks every push against the repository's own rules. A push from outside the forge, by an agent or from a laptop, is judged the same way.
+- Queues: Artifacts push events reach a Queue, and the Worker checks every push against the repository's own rules. A push from outside the forge, by an agent or from a laptop, is judged the same way. The live demo leaves laptop pushes off, since the forge needs a Cloudflare API token to hear them.
 - Durable Objects (SQLite) keep each project, each agent run, and each person.
 
 [passkey-cloudflare](/cloudflare-passkey/), Blockchain Commons'
@@ -143,7 +150,7 @@ their account: https://github.com/BlockchainCommons/passkey-cloudflare
 
     </td>
     <td>
-      <p>This video of Open Integrity Forge is broadly split into three parts: a discussion of the problem and solution (2 minutes), a demo of the project (3 minutes), and a look at the principles and libraries used in this project (1 minute).</p>
+      <p>This seven-minute video of Open Integrity Forge is broadly split into three parts: a discussion of the problem and solution, a demo of the project, and a look at the principles and libraries used in this project.</p>
     </td>
   </tr>
 </table>  
