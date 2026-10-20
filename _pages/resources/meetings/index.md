@@ -79,6 +79,20 @@ Also See: [ <a href="https://developer.blockchaincommons.com/frost/#events">FROS
   <tr>
     <td>
 
+      <a href="/meetings/2026-10-octant/"><img src="https://img.youtube.com/vi/E155hO-1H3k/0.jpg" style="border: 1px solid blue"></a>
+
+    </td>
+    <td>
+       <h2><a href="/meetings/2026-10-octant/">Octant: Epoch 13 Introductions (October 2026)</a></h2>
+
+       <p>An introduction to Blockchain Commons and the Gordian Stack, as part of the Octant Epoch 13 Privacy Round of funding.
+       
+    </td>
+  </tr>
+  
+  <tr>
+    <td>
+
       <a href="/meetings/2026-10-passkeys/"><img src="/assets/pdfs/2026-10-passkeys.jpg" style="border: 1px solid blue"></a>
 
     </td>

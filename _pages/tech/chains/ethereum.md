@@ -84,5 +84,8 @@ Alternatively, you might start in the Ethereum ecosystem, generating
 wallets and accounts in Metamask. The following brief tutorial shows
 how to use Gordian Envelope and SSKR to protect those secrets.
 
-* [Protecting Ethereum Secrets from the CLI](/chains/ethereum/cli/seeds/)
+* [**Protecting Ethereum Secrets from the CLI**](/chains/ethereum/cli/seeds/)
 
+## Other Links
+
+* [**Octant: Epoch 13 Privacy Round Introductions**](/meetings/2026-10-octant/)
