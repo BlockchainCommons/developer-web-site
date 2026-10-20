@@ -85,7 +85,7 @@ Also See: [ <a href="https://developer.blockchaincommons.com/frost/#events">FROS
     <td>
        <h2><a href="/meetings/2026-10-octant/">Octant: Epoch 13 Introductions (October 2026)</a></h2>
 
-       <p>An introduction to Blockchain Commons and the Gordian Stack, as part of the Octant Epoch 13 Privacy Round of funding.
+       <p>An introduction to Blockchain Commons and the Gordian Stack, as part of the Octant Epoch 13 Privacy Round of funding.</p>
        
     </td>
   </tr>
