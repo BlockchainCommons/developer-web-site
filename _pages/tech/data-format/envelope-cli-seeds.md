@@ -309,15 +309,17 @@ envelope format $SEED_E_W_ENCPUB
 | ]
 ```
 
-## What's Next
-
-* Back to [**Gordian Envelope Developer's Page**](https://developer.blockchaincommons.com/envelope/)
-* On to [**Envelope-CLI Docs**](https://github.com/BlockchainCommons/bc-envelope-cli-rust/tree/master/docs#readme)
-* Capture [**128-bit sample seed**](https://developer.blockchaincommons.com/seed-128/)
-* Capture [**256-bit sample seed**](https://developer.blockchaincommons.com/seed-256/)
-
 ## Download the Software
 
 * **Envelope CLI:** `cargo install bc-envelope-cli`
 * **Bytewords CLI:** compile from [bytewords-cli](https://github.com/BlockchainCommons/bytewords-cli?tab=readme-ov-file#recommended-installation-instructions)
 * **Cbor2Diag:** compile from [cbor-cli](https://github.com/hildjj/node-cbor/tree/main/packages/cbor-cli#cbor2diag)
+
+## Related Links
+
+* [**Envelope-CLI Docs**](https://github.com/BlockchainCommons/bc-envelope-cli-rust/tree/master/docs#readme) (repo)
+* [**128-bit sample seed**](https://developer.blockchaincommons.com/seed-128/)
+* [**256-bit sample seed**](https://developer.blockchaincommons.com/seed-256/)
+
+* [**Protecting Your Ethereum Secrets**](https://developer.blockchaincommons.com/chains/ethereum/cli/seeds/)
+* [**Working with Bitcoin Secrets**](https://learningbitcoin.blockchaincommons.com/10_0_Working_with_Secrets/)

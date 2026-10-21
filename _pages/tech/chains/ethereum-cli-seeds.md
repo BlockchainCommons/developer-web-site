@@ -418,3 +418,8 @@ redundant copies: any two will restore. But your privacy is also
 protected, securing you against a Single Point of Compromise (SPOC)
 because an adversary recovering a single one of your shares learns
 nothing.
+
+## Related Links
+
+* [**Protecting Your Seeds**](https://developer.blockchaincommons.com/envelope/cli/seed/)
+* [**Working with Bitcoin Secrets**](https://learningbitcoin.blockchaincommons.com/10_0_Working_with_Secrets/)
