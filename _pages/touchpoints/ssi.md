@@ -12,7 +12,7 @@ classes:
 permalink: /touchpoints/ssi/
 sidebar:
   nav:
-    - mainside
+    - touchpoints
     - technology
     - resources
 ---
