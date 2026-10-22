@@ -169,7 +169,7 @@ SSKR envelopes.
 * For more, see [**CLI Envelope on GitHub**](https://github.com/BlockchainCommons/bc-envelope-cli-rust) (repo)
 
 
-## ![](/assets/badges/envelope-cli.png) Keytool-CLI
+## ![](/assets/badges/keytool-cli.png) Keytool-CLI
 
 **Python CLI App.** `keytool-cli` is a transformer, allowing seeds to
 be converted into a number of other formats, most notably including
