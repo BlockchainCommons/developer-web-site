@@ -69,6 +69,15 @@ of AI agents, ensuring that a human always oversees any agentic
 commit. It does so with passkeys, through Blockchain Commons'
 [passkey-cloudflare](/cloudflare-passkey/) library._
 
+**Status:** Open Integrity Forge is a concept, on hold while it waits
+for feedback. The live demo stays up, works, and gets security fixes
+and library updates, but no new features are planned. It is a proof
+of concept: it does not update Open Integrity's specifications and is
+not a reference implementation. Blockchain Commons continues to work
+in this area, including on [passkey-cloudflare](/cloudflare-passkey/).
+To give feedback, [open an issue](https://github.com/OpenIntegrityProject/open-integrity-forge/issues/new)
+on the forge's repository.
+
 ## Why is Open Integrity Forge Important?
 
 The core [Open Integrity](/open-integrity/) architectures ensures the
@@ -117,7 +126,7 @@ that lives in the repositories.
 
 - Artifacts holds every repository. A project is an Artifacts repository; each agent works in an Artifacts fork of it, with a short-lived write token scoped to that fork alone. Anyone can clone a repository straight from Artifacts with a read-only token that lasts an hour and verify it, with no forge in the loop.
 - Workers: the forge is one Worker on a custom domain. It serves the page, prepares each commit for a passkey to sign, speaks Git to Artifacts with isomorphic-git, and serves the one-file verifier that each repository pins by digest.
-- Queues: Artifacts push events reach a Queue, and the Worker checks every push against the repository's own rules. A push from outside the forge, by an agent or from a laptop, is judged the same way. The live demo leaves laptop pushes off, since the forge needs a Cloudflare API token to hear them.
+- Queues: Artifacts push events reach a Queue, and the Worker checks a push it did not make, such as one from a laptop, against the repository's own rules. The live demo leaves laptop pushes off, since the forge needs a Cloudflare API token to hear them. The agents propose to the forge directly, so their work is checked either way.
 - Durable Objects (SQLite) keep each project, each agent run, and each person.
 
 [passkey-cloudflare](/cloudflare-passkey/), Blockchain Commons'
@@ -135,7 +144,7 @@ their account: https://github.com/BlockchainCommons/passkey-cloudflare
       <a href="https://forgedemo.gordianstack.com/"><img src="/assets/screenshots/forge.png"></a>
     </td>
     <td>
-      <p>A full demo of Open Integrity Forge is available at <a href="https://forgedemo.gordianstack.com/">https://forgedemo.gordianstack.com/</a>. After you create & login with a passkey, you will be able to make a first commit, admit two agents, watch them work, promote one change, and bounce another when the AI goes rogue.</p>
+      <p>A full demo of Open Integrity Forge is available at <a href="https://forgedemo.gordianstack.com/">https://forgedemo.gordianstack.com/</a>. After you create & login with a passkey, you will be able to make a first commit, admit two agents, watch them work, promote one change, and bounce another when the AI goes rogue. Projects there are for trying it out and may be deleted without notice.</p>
     </td>
   </tr>
 </table>  
