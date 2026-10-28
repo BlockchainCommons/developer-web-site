@@ -28,7 +28,7 @@ as needed; or the seed can be stored in **Seed Tool** and it can be
 used to sign PSBTs as required. These methods are both described in
 the [Gordian Seed Tool
 Manual](/apps/gst-ios/manual/). The
-latter is more secure.
+latter is more secure._
 
 ## Using Sparrow as a Transaction Coordinator
 
