@@ -689,7 +689,7 @@ When you choose to "Derive Key" from a Seed after you "Authenticate", you will s
 
 ## Using Seed Tool for Transactions
 
-**Seed Tool** can be used to store seeds for live transactions by taking advantage of its Request and PSBT capabilities. See [Integrating Seed Tool with Other Apps](Integration.md) for real-life examples of **Seed Tool** use.
+**Seed Tool** can be used to store seeds for live transactions by taking advantage of its Request and PSBT capabilities. See [Integrating Seed Tool with Other Apps](/apps/gst-ios/manual/sparrow/) for real-life examples of **Seed Tool** use.
 
 ## Outputting Data
 

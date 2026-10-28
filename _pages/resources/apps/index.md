@@ -76,6 +76,7 @@ technologies.
 * [**iOS Seed Tool in the Apple Store**](https://apps.apple.com/us/app/gordian-seed-tool/id1545088229)
 * [**iOS Seed Tool on GitHub**](https://github.com/BlockchainCommons/GordianSeedTool-iOS)
 * [**Gordian Seed Tool Manual**](/apps/gst-ios/manual/)
+* [**Integrating GST with Sparrow**](/apps/gst-ios/manual/sparrow/)
 
 ## ![](/assets/badges/clubs-cli.png) Clubs CLI
 

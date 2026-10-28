@@ -193,6 +193,7 @@ shares, and as SSKR envelopes.
 * For more, see [**iOS Seed Tool in the Apple Store**](https://apps.apple.com/us/app/gordian-seed-tool/id1545088229) (app store)
 * For more, see [**iOS Seed Tool on GitHub**](https://github.com/BlockchainCommons/GordianSeedTool-iOS) (repo)
 * For more, see [**Gordian Seed Tool Manual**](/apps/gst-ios/manual/)
+* For more, see [**Integrating GST with Sparrow**](/apps/gst-ios/manual/sparrow/)
 
 ## ![](/assets/badges/envelope-cli.png) Envelope-CLI
 
