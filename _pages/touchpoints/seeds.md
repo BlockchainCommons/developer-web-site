@@ -198,6 +198,27 @@ _Blockchain Commons uses the following sample seeds in its examples and docs._
 
 {% include seed-128.md %}   
 
+_These PDFs, which were exported from iOS SeedTool, demonstrate our
+best practices of documenting seeds and SSKR shares, including [object
+identity blocks](/oib/), [Lifehash](/lifehash/),
+[Bytewords](/bytewords/) to help identification, and metadata in the
+form of notes to provide more content (and in some cases help recovery)._
+
+<table width="100%">
+  <tr width="100%">
+    <td width="100%">
+      <a href="/assets/pdfs/seedtool-seed.pdf">
+        <img src="/assets/pdfs/seedtool-seed.jpg">
+      </a>
+    </td>
+    <td width="100%">
+      <a href="/assets/pdfs/seedtool-sskr.pdf">
+        <img src="/assets/pdfs/seedtool-sskr.jpg">
+      </a>
+    </td>
+  </tr>
+</table>
+
 ## ![](/assets/badges/seeds.png) 256-Bit seed
 
 {% include seed-256.md %}   
