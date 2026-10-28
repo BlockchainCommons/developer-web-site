@@ -78,6 +78,8 @@ addresses and public keys.
   </tr>
 </table>
 
+* [**Integrating Gordian Seed Tool with Ethereum**](/apps/gst-ios/manual/#integrating-with-ethereum)
+
 ## Protecting Secrets from the CLI
 
 Alternatively, you might start in the Ethereum ecosystem, generating
