@@ -10,6 +10,8 @@ hide_description: false
 classes:
   - wide
 permalink: /touchpoints/seeds/
+toc: true
+toc_title: "Seed Touchpoints"
 sidebar:
   nav:
     - touchpoints
