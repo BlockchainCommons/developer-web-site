@@ -10,14 +10,14 @@ hide_description: false
 classes:
   - wide
 permalink: /touchpoints/seeds/
-toc: true
-toc_depth: 1
 sidebar:
   nav:
     - touchpoints
     - technology
     - resources
 ---
+
+[TOC]
 
 **Target Technology:** Cryptocurrency & Digital Identity<br>
 **Target Audience:** Crypto Developers
