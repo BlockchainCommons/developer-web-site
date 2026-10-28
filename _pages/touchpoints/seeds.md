@@ -11,7 +11,7 @@ classes:
   - wide
 permalink: /touchpoints/seeds/
 toc: true
-toc_title: "Seed Touchpoints"
+toc_depth: 1
 sidebar:
   nav:
     - touchpoints
