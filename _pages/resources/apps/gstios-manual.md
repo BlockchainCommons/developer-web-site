@@ -187,7 +187,7 @@ Again, you can also add SSKR shares, as described below.
       </td>
       <td>
         <a href="/assets/screenshots/gstios/st-paste-3.jpeg"><img src="/assets/screenshots/gstios/st-paste-3.jpeg" width=250></a>
-        <br><div align="center"><b>Hex Import</b></d
+        <br><div align="center"><b>Hex Import</b></div>
       </td>
     </tr>
   </table>
