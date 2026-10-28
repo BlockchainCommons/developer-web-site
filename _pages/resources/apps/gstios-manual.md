@@ -46,19 +46,19 @@ Why use **Seed Tool**? Because storing your seeds in the unecrypted RAM of a ful
 
 ## Table of Contents
 
-* [Installing Seed Tool](MANUAL.md#installing-seed-tool)
-* [Seed Tool Overview](MANUAL.md#seed-tool-overview)
-* [Adding a Seed](MANUAL.md#adding-a-seed)
-* [Viewing a Seed](MANUAL.md#viewing-a-seed)
-* [Using a Seed](MANUAL.md#using-a-seed)
-* [Exporting a Seed](MANUAL.md#exporting-a-seed)
-* [Deleting a Seed](MANUAL.md#deleting-a-seed)
-* [Integrating with Ethereum](MANUAL.md#integrating-with-ethereum)
-* [Integrating with Tezos](MANUAL.md#integrating-with-tezos)
-* [Using Seed Tool for Transactions](MANUAL.md#using-seed-tool-for-transactions)
+* [Installing Seed Tool](#installing-seed-tool)
+* [Seed Tool Overview](#seed-tool-overview)
+* [Adding a Seed](#adding-a-seed)
+* [Viewing a Seed](#viewing-a-seed)
+* [Using a Seed](#using-a-seed)
+* [Exporting a Seed](#exporting-a-seed)
+* [Deleting a Seed](#deleting-a-seed)
+* [Integrating with Ethereum](#integrating-with-ethereum)
+* [Integrating with Tezos](#integrating-with-tezos)
+* [Using Seed Tool for Transactions](#using-seed-tool-for-transactions)
 
-* [Appendix I: Threat Modeling](MANUAL.md#appendix-i-threat-modeling)
-* [Appendix II: Other Tools](MANUAL.md#appendix-ii-other-tools)
+* [Appendix I: Threat Modeling](#appendix-i-threat-modeling)
+* [Appendix II: Other Tools](#appendix-ii-other-tools)
 
 ## Installing Seed Tool
 
@@ -77,13 +77,13 @@ Conversely, if you want to use Seed Tool on a network-isolated device, make sure
 
 **Gordian Seed Tool** is a storage mechanism for seeds, particularly those used in cryptography systems. Once stored, seeds can be used to generate keys, answer requests, and sign PSBTs. Seeds used with **Seed Tool** will usually follow a three-part cycle.
 
-1. **[Add a Seed.](MANUAL.md#adding-a-seed)** First, you must add seeds to the system. There are two ways to do so.
+1. **[Add a Seed.](#adding-a-seed)** First, you must add seeds to the system. There are two ways to do so.
    * **Import a Seed.** You can import an existing seed that you generated elsewhere.
    * **Create a Seed.** You can create a new seed.
-2. **[Store a Seed.](MANUAL.md#viewing-a-seed)** Your seed will be encrypted (and also backed up if you have iCloud enabled).
+2. **[Store a Seed.](#viewing-a-seed)** Your seed will be encrypted (and also backed up if you have iCloud enabled).
    * **View & Edit a Seed.** While a seed is stored in **Gordian Seed Tool**, you will be able to view it and change its metadata.
    * **Read an OIB.** Each seed (and key) comes with an Identity Block that makes it easy to identify.
-3. **[Use a Seed.](MANUAL.md#using-a-seed)** You can actively use a seed that is stored in **Gordian Seed Tool** without ever having to export it.
+3. **[Use a Seed.](#using-a-seed)** You can actively use a seed that is stored in **Gordian Seed Tool** without ever having to export it.
    * **Answer Key Requests.** Seed Tool uses the Envelope request system defined by Blockchain Commons. This allows Seed Tool to export precisely what's needed by another app. Exporting keys is preferred, but seeds can also be exported via this mechanism.
    * **Sign PSBTs.** Besides just exporting seeds or keys, you can also use your keys to sign PSBTs, again responding to an Envelope (or to a `crypto-psbt`, though this is not preferred).
    * **Derive a Key.** Alternatively, you can choose to export specific derived keys on your own, while keeping the seed in the app.
@@ -91,14 +91,14 @@ Conversely, if you want to use Seed Tool on a network-isolated device, make sure
 
 The philosophy of **Gordian Seed Tool** is that once you've imported a seed you shouldn't need to ever export it. Nonetheless, you sometimes must in the modern-day, and that's supported by the following functions:
 
-4. **[Export a Seed.](MANUAL.md#exporting-a-seed)** You can export seeds using a variety of interoperable specifications.
-5. **[Delete a Seed.](MANUAL.md#deleting-a-seed)** You can also just delete a seed.
+4. **[Export a Seed.](#exporting-a-seed)** You can export seeds using a variety of interoperable specifications.
+5. **[Delete a Seed.](#deleting-a-seed)** You can also just delete a seed.
 
 Many exports are actually wrapped as [Gordian Envelopes](https://developer.blockchaincommons.com/envelope/) to allow for the inclusion of metadata beyond the specific keys, seeds, or other data.
 
 In the future we expect that more wallets will be able to participate with **Seed Tool** in a request/response cycle, both for derived child keys and with PSBTs needing signature.
 
-The main functionality of **Seed Tool** is laid out in this manual to demonstrate its integration with Bitcoin, but **Seed Tool** also works with Ethereum and Tezos, which causes some slight variations in functionality as explained in ["Integrating with Ethereum"](MANUAL.md#integrating-with-ethereum) and ["Integrating with Tezos"](MANUAL.md#integrating-with-tezos).
+The main functionality of **Seed Tool** is laid out in this manual to demonstrate its integration with Bitcoin, but **Seed Tool** also works with Ethereum and Tezos, which causes some slight variations in functionality as explained in ["Integrating with Ethereum"](#integrating-with-ethereum) and ["Integrating with Tezos"](#integrating-with-tezos).
 
 ### Viewing the Main Menu
 
