@@ -266,15 +266,15 @@ Once you have a "Very Strong" amount of entropy, whichever method you used, you 
       <td>
         <a href="/assets/screenshots/gstios/st-coin.jpeg"><img src="/assets/screenshots/gstios/st-coin.jpeg" width=250></a>
         <br><div align="center"><b>Coin Flips</b></div>
-      </center></td>
+      </td>
       <td>
         <a href="/assets/screenshots/gstios/st-die.jpeg"><img src="/assets/screenshots/gstios/st-die.jpeg" width=250></a>
         <br><div align="center"><b>Die Rolls</b></div>
-      </center></td>
+      </td>
       <td>
         <a href="/assets/screenshots/gstios/st-cards.jpeg"><img src="/assets/screenshots/gstios/st-cards.jpeg" width=250></a>
         <br><div align="center"><b>Card Draws</b></div>
-      </center></td>
+      </td>
     </tr>
   </table>
 </div>
@@ -318,15 +318,15 @@ Once you've determined how a seed will be used, you can create an output descrip
       <td>
         <a href="/assets/screenshots/gstios/st-view.jpeg"><img src="/assets/screenshots/gstios/st-view.jpeg" width=250></a>
         <br><div align="center"><b>OIB Page</b></div>
-      </center></td>
+      </td>
       <td>
         <a href="/assets/screenshots/gstios/st-view-od.jpeg"><img src="/assets/screenshots/gstios/st-view-od.jpeg" width=250></a>
         <br><div align="center"><b>Adding Descriptor</b></div>
-      </center></td>
+      </td>
       <td>
         <a href="/assets/screenshots/gstios/st-output-od.jpeg"><img src="/assets/screenshots/gstios/st-output-od.jpeg" width=250></a>
         <br><div align="center"><b>Creating Descriptor</b></div>
-      </center></td>
+      </td>
     </tr>
   </table>
 </div>
@@ -365,15 +365,15 @@ After reading a request, the response can be sent via QR (often animated), via s
       <td>
         <a href="/assets/screenshots/gstios/st-request-1.jpeg"><img src="/assets/screenshots/gstios/st-request-1.jpeg" width=250></a>
         <br><div align="center"><b>Seed Request</b></div>
-      </center></td>
+      </td>
       <td>
         <a href="/assets/screenshots/gstios/st-request-2.jpeg"><img src="/assets/screenshots/gstios/st-request-2.jpeg" width=250></a>
         <br><div align="center"><b>Derivation Request</b></div>
-      </center></td>
+      </td>
       <td>
         <a href="/assets/screenshots/gstios/st-request-3.jpeg"><img src="/assets/screenshots/gstios/st-request-3.jpeg" width=250></a>
         <br><div align="center"><b>Key Response/Request</b></div>
-      </center></td>
+      </td>
     </tr>
   </table>
 </div>
@@ -410,15 +410,15 @@ Obviously, once you have signed a PSBT, you will need to output it, so that you 
       <td>
         <a href="/assets/screenshots/gstios/st-psbt-1.jpeg"><img src="/assets/screenshots/gstios/st-psbt-1.jpeg" width=250></a>
         <br><div align="center"><b>PSBT Info 1</b></div>
-      </center></td>
+      </td>
       <td>
         <a href="/assets/screenshots/gstios/st-psbt-2.jpeg"><img src="/assets/screenshots/gstios/st-psbt-2.jpeg" width=250></a>
         <br><div align="center"><b>PSBT Info 2</b></div>
-      </center></td>
+      </td>
       <td>
         <a href="/assets/screenshots/gstios/st-psbt-3.jpeg"><img src="/assets/screenshots/gstios/st-psbt-3.jpeg" width=250></a>
         <br><div align="center"><b>PSBT Output</b></div>
-      </center></td>
+      </td>
     </tr>
   </table>
 </div>
@@ -444,15 +444,15 @@ After deriving a key, you can export it by using a QR code, by sharing a `ur:env
       <td>
         <a href="/assets/screenshots/gstios/st-derive-1.jpeg"><img src="/assets/screenshots/gstios/st-derive-1.jpeg" width=250></a>
         <br><div align="center"><b>Public Key</b></div>
-      </center></td>
+      </td>
       <td>
         <a href="/assets/screenshots/gstios/st-derive-2.jpeg"><img src="/assets/screenshots/gstios/st-derive-2.jpeg" width=250></a>
         <br><div align="center"><b>Bitcoin Derivation</b></div>
-      </center></td>
+      </td>
       <td>
         <a href="/assets/screenshots/gstios/st-derive-3.jpeg"><img src="/assets/screenshots/gstios/st-derive-3.jpeg" width=250></a>
         <br><div align="center"><b>Ethereum Derivation (see below)</b></div>
-      </center></td>
+      </td>
     </tr>
   </table>
 </div>
@@ -488,15 +488,15 @@ After you create your SSKR shares, you have to export them, to make them availab
       <td>
         <a href="/assets/screenshots/gstios/st-sskr-ind-1.jpeg"><img src="/assets/screenshots/gstios/st-sskr-ind-1.jpeg" width=250></a>
         <br><div align="center"><b>Individual Export</b></div>
-      </center></td>
+      </td>
       <td>
         <a href="/assets/screenshots/gstios/st-sskr-ind-2.jpeg"><img src="/assets/screenshots/gstios/st-sskr-ind-2.jpeg" width=250></a>
         <br><div align="center"><b>Individual NFC Export</b></div>
-      </center></td>
+      </td>
       <td>
         <a href="/assets/screenshots/gstios/st-sskr-ind-3.jpeg"><img src="/assets/screenshots/gstios/st-sskr-ind-3.jpeg" width=250></a>
         <br><div align="center"><b>Individual NFC Write</b></div>
-      </center></td>
+      </td>
     </tr>
   </table>
 </div>
@@ -519,15 +519,15 @@ With "Export Shares Individually" you can choose to print one or more shares one
       <td>
         <a href="/assets/screenshots/gstios/st-sskr-export-1.jpeg"><img src="/assets/screenshots/gstios/st-sskr-export-1.jpeg" width=250></a>
         <br><div align="center"><b>SSKR Creation</b></div>
-      </center></td>
+      </td>
       <td>
         <a href="/assets/screenshots/gstios/st-sskr-export-2.jpeg"><img src="/assets/screenshots/gstios/st-sskr-export-2.jpeg" width=250></a>
         <br><div align="center"><b>SSKR Export</b></div>
-      </center></td>
+      </td>
       <td>
         <a href="/assets/screenshots/gstios/st-sskr-export-3.jpeg"><img src="/assets/screenshots/gstios/st-sskr-export-3.jpeg" width=250></a>
         <br><div align="center"><b>SSKR Print</b></div>
-      </center></td>
+      </td>
     </tr>
   </table>
 </div>
@@ -569,15 +569,15 @@ In addition, you can choose "Backup" to share your seed in an envelope or with S
       <td>
         <a href="/assets/screenshots/gstios/st-export-1.jpeg"><img src="/assets/screenshots/gstios/st-export-1.jpeg" width=250></a>
         <br><div align="center"><b>Export: Backup</b></div>
-      </center></td>
+      </td>
       <td>
         <a href="/assets/screenshots/gstios/st-export-2.jpeg"><img src="/assets/screenshots/gstios/st-export-2.jpeg" width=250></a>
         <br><div align="center"><b>Export: Print</b></div>
-      </center></td>
+      </td>
       <td>
         <a href="/assets/screenshots/gstios/st-export-3.jpeg"><img src="/assets/screenshots/gstios/st-export-3.jpeg" width=250></a>
         <br><div align="center"><b>Export: Share</b></div>
-      </center></td>
+      </td>
     </tr>
   </table>
 </div>
@@ -596,15 +596,15 @@ Seeds can be deleted with the "Edit" function on the main page or by swiping lef
       <td>
         <a href="/assets/screenshots/gstios/st-delete-1.jpeg"><img src="/assets/screenshots/gstios/st-delete-1.jpeg" width=250></a>
         <br><div align="center"><b>Delete</b></div>
-      </center></td>
+      </td>
       <td>
         <a href="/assets/screenshots/gstios/st-delete-2.jpeg"><img src="/assets/screenshots/gstios/st-delete-2.jpeg" width=250></a>
         <br><div align="center"><b>Undo Delete</b></div>
-      </center></td>
+      </td>
       <td>
         <a href="/assets/screenshots/gstios/st-delete-3.jpeg"><img src="/assets/screenshots/gstios/st-delete-3.jpeg" width=250></a>
         <br><div align="center"><b>Redo Delete</b></div>
-      </center></td>
+      </td>
     </tr>
   </table>
 </div>
@@ -634,15 +634,15 @@ When you choose to "Derive Key" from a Seed after you "Authenticate", you will s
       <td>
         <a href="/assets/screenshots/gstios/st-eth-1.jpeg"><img src="/assets/screenshots/gstios/st-eth-1.jpeg" width=250></a>
         <br><div align="center"><b>Settings</b></div>
-      </center></td>
+      </td>
       <td>
         <a href="/assets/screenshots/gstios/st-eth-2.jpeg"><img src="/assets/screenshots/gstios/st-eth-2.jpeg" width=250></a>
         <br><div align="center"><b>Address</b></div>
-      </center></td>
+      </td>
       <td>
         <a href="/assets/screenshots/gstios/st-eth-3.jpeg"><img src="/assets/screenshots/gstios/st-eth-3.jpeg" width=250></a>
         <br><div align="center"><b>Derivations</b></div>
-      </center></td>
+      </td>
     </tr>
   </table>
 </div>
@@ -674,15 +674,15 @@ When you choose to "Derive Key" from a Seed after you "Authenticate", you will s
       <td>
         <a href="/assets/screenshots/gstios/st-tezos-1.jpeg"><img src="/assets/screenshots/gstios/st-tezos-1.jpeg" width=250></a>
         <br><div align="center"><b>Settings</b></div>
-      </center></td>
+      </td>
       <td>
         <a href="/assets/screenshots/gstios/st-tezos-2.jpeg"><img src="/assets/screenshots/gstios/st-tezos-2.jpeg" width=250></a>
         <br><div align="center"><b>Address</b></div>
-      </center></td>
+      </td>
       <td>
         <a href="/assets/screenshots/gstios/st-tezos-3.jpeg"><img src="/assets/screenshots/gstios/st-tezos-3.jpeg" width=250></a>
         <br><div align="center"><b>Derivations</b></div>
-      </center></td>
+      </td>
     </tr>
   </table>
 </div>
@@ -707,15 +707,15 @@ If you scroll down on the sharing page, you can also "Copy to Clipboard", "New Q
       <td>
         <a href="/assets/screenshots/gstios/st-save-clipboard.jpeg"><img src="/assets/screenshots/gstios/st-save-clipboard.jpeg" width=250></a>
         <br><div align="center"><b>Clipboard</b></div>
-      </center></td>
+      </td>
       <td>
         <a href="/assets/screenshots/gstios/st-save-print.jpeg"><img src="/assets/screenshots/gstios/st-save-print.jpeg" width=250></a>
         <br><div align="center"><b>Print</b></div>
-      </center></td>
+      </td>
       <td>
         <a href="/assets/screenshots/gstios/st-save-file.jpeg"><img src="/assets/screenshots/gstios/st-save-file.jpeg" width=250></a>
         <br><div align="center"><b>File</b></div>
-      </center></td>
+      </td>
     </tr>
   </table>
 </div>
