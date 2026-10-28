@@ -10,6 +10,8 @@ hide_description: true
 classes:
   - wide
 permalink: /apps/gst-ios/manual/
+redirect_from:
+  - /apps/gstios/manual/
 sidebar:
   nav:
     - resources
