@@ -233,14 +233,13 @@ The **Scan** functionality is currently the more advanced of the two options, an
 Seed Tool recognizes external URLs with the `ur:` sceheme, including Envelopes. This means that when `ur:`s are accessed in other programs on your device, they will open appropriate in **Gordian Seed Tool**.
 
 Possible external actions that will activate **Seed Tool** include:
-<ul>
-<li>Scanning a UR QR Code with the Camera app;
-<li>Tapping a UR link in a web page;
-<li>Pasting a UR into Safari's address bar;
-<li>Tapping a UR link in text, such as in the Notes app;
-<li>Tapping a UR in a URL field such as in the Contacts or Calendars apps; and
-<li>Scanning a NDEF-formatted NFC tag containing a UR.
-</ul>
+
+* Scanning a UR QR Code with the Camera app;
+* Tapping a UR link in a web page;
+* Pasting a UR into Safari's address bar;
+* Tapping a UR link in text, such as in the Notes app;
+* Tapping a UR in a URL field such as in the Contacts or Calendars apps; and
+* Scanning a NDEF-formatted NFC tag containing a UR.
 
 Once a `ur:` has been opened in Seed Tool, import should continuie as normal.
 
