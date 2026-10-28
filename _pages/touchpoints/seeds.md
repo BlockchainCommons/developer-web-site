@@ -17,8 +17,6 @@ sidebar:
     - resources
 ---
 
-{:toc}
-
 **Target Technology:** Cryptocurrency & Digital Identity<br>
 **Target Audience:** Crypto Developers
 
