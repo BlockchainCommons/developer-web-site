@@ -69,7 +69,10 @@ SSKR envelopes.
 
 _Though our Smart Custody guide includes general best practices, other
 seed protection is offered by specific Blockchain Commons
-technologies._
+technologies. They do so primarily by increasing resilience though
+identification of the seed (in typed storage and with metadata) and
+through sharding of the seed to allow reconstruction (with Shamir's
+Secret Sharing)._
 
 ## ![](/assets/badges/envelope.png) Gordian Envelope
 
@@ -144,7 +147,39 @@ willing to accept the liability of seed storage.
 * For more, see [**Gordian Depository**](https://github.com/BlockchainCommons/bc-depo-rust) (repo)
 * For more, see [**Gordian Depository API**](https://github.com/BlockchainCommons/bc-depo-api-rust) (repo)
 
-# III: Reference Applications (for Developers)
+# III: Identification Technologies (for Developers)
+
+_Helping a user to identify a seed offers another level of protection,
+because it stops them from accidentally using the wrong seed for a
+transaction (which might be the result of a phishing attack). The
+following Blockchain Commons technologies do this._
+
+## ![](/assets/badges/oib.png) Object Identity Block (OIB)
+
+**Standardized Identification.** An OIB is a best practice that
+standardizes a collection of data that will help users to identify
+seeds (and other digital data). It includes: an automatically
+generated name, an abbreviated digest, a type icon, a LifeHash, and
+(when identifying a seed) additional information for a master
+fingerprint.
+
+The object of an OIB is to ensure that a user can understand at a
+glance what digital object they're dealing with rather than trying to
+parse a long hex string.
+
+* For more, see [**OIB**](/oib/)
+
+## ![](/assets/badges/lifehash.png) LifeHash
+
+**Visual Hash.** A LifeHash is a visual hash built from the SHA-256
+hash of data and iterated through Conway's Game of Life. It's meant to
+provide identification of a digital value at a glance and is
+incorporated into the Object Identity Block (OIB) to help identify
+seeds, keys, and other large values used to protect digital assets.
+
+* For more, see [**LifeHash**](/lifehash/)
+
+# IV: Reference Applications (for Developers)
 
 _Several reference apps demonstrate the usage of Blockchain Commons'
 seed protection technologies as well as other best practices._
@@ -190,7 +225,7 @@ envelopes (plus a number of other formats).
 * **`cargo install seedtool-cli` to install**
 * [**CLI Seed Tool on GitHub**](https://github.com/BlockchainCommons/seedtool-cli-rust)
 
-# IV. Sample Seeds
+# V. Sample Seeds
 
 _Blockchain Commons uses the following sample seeds in its examples and docs._
 
@@ -198,11 +233,12 @@ _Blockchain Commons uses the following sample seeds in its examples and docs._
 
 {% include seed-128.md %}   
 
-_These PDFs, which were exported from iOS SeedTool, demonstrate our
-best practices of documenting seeds and SSKR shares, including [object
-identity blocks](/oib/), [Lifehash](/lifehash/),
+_The following PDFs, which were exported from iOS SeedTool,
+demonstrate our best practices of documenting seeds and SSKR shares,
+including [object identity blocks](/oib/), [Lifehash](/lifehash/),
 [Bytewords](/bytewords/) to help identification, and metadata in the
-form of notes to provide more content (and in some cases help recovery)._
+form of notes to provide more content (and in some cases help
+recovery)._
 
 <table width="100%">
   <tr width="100%">
