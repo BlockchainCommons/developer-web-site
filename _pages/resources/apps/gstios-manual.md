@@ -180,15 +180,15 @@ Again, you can also add SSKR shares, as described below.
       <td>
         <a href="/assets/screenshots/gstios/st-paste-1.jpeg"><img src="/assets/screenshots/gstios/st-paste-1.jpeg" width=250></a>
         <br><div align="center"><b>Import Options</b></div>
-      </center></td>
+      </td>
       <td>
         <a href="/assets/screenshots/gstios/st-paste-2.jpeg"><img src="/assets/screenshots/gstios/st-paste-2.jpeg" width=250></a>
         <br><div align="center"><b>Envelope Import</b></div>
-      </center></td>
+      </td>
       <td>
         <a href="/assets/screenshots/gstios/st-paste-3.jpeg"><img src="/assets/screenshots/gstios/st-paste-3.jpeg" width=250></a>
         <br><div align="center"><b>Hex Import</b></d
-      </center></td>
+      </td>
     </tr>
   </table>
 </div>
