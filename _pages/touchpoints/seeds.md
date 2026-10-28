@@ -193,10 +193,10 @@ envelopes (plus a number of other formats).
 
 _Blockchain Commons uses the following sample seeds in its examples and docs._
 
-## ![](/assets/badges/seed.png) 128-Bit seed
+## ![](/assets/badges/seeds.png) 128-Bit seed
 
 {% include seed-128.md %}   
 
-## ![](/assets/badges/seed.png) 256-Bit seed
+## ![](/assets/badges/seeds.png) 256-Bit seed
 
 {% include seed-256.md %}   
