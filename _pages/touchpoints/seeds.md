@@ -207,11 +207,13 @@ form of notes to provide more content (and in some cases help recovery)._
 <table width="100%">
   <tr width="100%">
     <td width="50%">
+      <b>Seed PDF:</b><br>
       <a href="/assets/pdfs/seedtool-seed.pdf">
         <img src="/assets/pdfs/seedtool-seed.jpg">
       </a>
     </td>
     <td width="50%">
+      <b>SSKR PDF:</b><br>
       <a href="/assets/pdfs/seedtool-sskr.pdf">
         <img src="/assets/pdfs/seedtool-sskr.jpg">
       </a>
