@@ -25,6 +25,8 @@ mainside:
 touchpoints:
   - title: Touchpoints
     children:
+    - title: "Airgapping PSBTs"
+      url: /touchpoints/psbt/
     - title: "Protecting Seeds"
       url: /touchpoints/seeds/
     - title: "SSI Design"

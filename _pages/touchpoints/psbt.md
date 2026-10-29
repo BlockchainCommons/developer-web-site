@@ -23,7 +23,7 @@ sidebar:
     - resources
 ---
 
-**Target Technology:** Bitcoin</br>
+**Target Technology:** Bitcoin<br>
 **Target Audience:** Bitcoin Developers
 
 _Blockchain Commons' Animated QRs technology answers one simple
