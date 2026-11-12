@@ -3,6 +3,7 @@
 | Language | Repo | Contributor | Status |
 |----------|------|-------------|--------|
 | C++ | [bc-ur](https://github.com/BlockchainCommons/bc-ur) | Blockchain Commons |
+| Dart | [bc-ur-dart](https://github.com/bukata-sa/bc-ur-dart) | Aleksandr Bukata |
 | Java | [bc-ur-java](https://github.com/BlockchainCommons/bc-ur-java) | Bitmark |
 | Java | [Hummingbird](https://github.com/sparrowwallet/hummingbird) | Craig Raw |
 | Python | [foundation-ur-py](https://github.com/Foundation-Devices/foundation-ur-py) | Foundation |
