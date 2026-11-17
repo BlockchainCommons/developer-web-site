@@ -5,7 +5,7 @@ header:
   overlay_filter: "0.35"
   overlay_image: /assets/headers/blueprint.jpg
   og_image: /assets/images/bc-card.jpg
-title: "Touchpoints - The Gordian Stack
+title: "Touchpoints - The Gordian Stack"
 hide_description: false
 classes:
   - wide
