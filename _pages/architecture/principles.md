@@ -19,7 +19,7 @@ architecture support a set of four core principles.
 
 * **Independence.** Improve user freedom from involuntary oversight and external control.
 * **Privacy.** Protect against coercion with non-correlation, privacy, and pseudonymity.
-* **Resilience.** Decrease the likelihood of users losing their funds via any means.
+* **Resilience.** Decrease the likelihood of users losing their funds or identities via any means.
 * **Openness.** Support open infrastructure to allow developers to create their own applications.
 
 Individual repos describe how specific applications advance the
