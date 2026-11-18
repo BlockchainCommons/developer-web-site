@@ -43,17 +43,17 @@ Data formats are the foundational blocks that we use to build up to
 our principle-focused technologies.
 
 <ul>
-<li><img src="/assets/badges/bytewords.png"><b>dCBOR</b> - A method
+<li><a href="/bytewords/"><img src="/assets/badges/bytewords.png"><b>ByteWords</b></a> - A method
 for encoding a binary byte as a four-letter word, useful for storing
 secrets, but also a building block of URs.</li>
-<li><img src="/assets/badges/dcbor.png"><b>dCBOR</b> - A deterministic
+<li><a href="/dcbor/"><img src="/assets/badges/dcbor.png"><b>dCBOR</b></a> - A deterministic
 version of the binary data format, allowing for the deterministic
 hashed data elision used in Envelope.</li>
-<li><img src="/assets/badges/envelope.png"><b>Gordian Envelope</b> - A
+<li><a href="/envelope/"><img src="/assets/badges/envelope.png"><b>Gordian Envelope</b></a> - A
 "smart" data storage format that supports compression, encryption, and
 also deterministic hashed data elision. Built to support selective
 disclosure, and a build block for XIDs.</li>
-<li><img src="/assets/badges/ur.png"><b>Uniform Resources (URs)</b> -
+<li><a href="/ur/"><img src="/assets/badges/ur.png"><b>Uniform Resources (URs)</b></a> -
 A method for encoding binary strings as text strings, using Bytewords,
 and a building block of Animated QRs.</li>
 </ul>
@@ -65,11 +65,11 @@ held by the user.  But for that to work, the data must be resilient as
 well.
 
 <ul>
-<li><img src="/assets/badges/csr.png"><b>Collaborative Seed Recovery
-(CSR)</b> - Using SSKR, CSR allows a user to shard a secret and store
+<li><a href="/csr/"><img src="/assets/badges/csr.png"><b>Collaborative Seed Recovery
+(CSR)</b></a> - Using SSKR, CSR allows a user to shard a secret and store
 it on remote servers, and later recover it from some of those shares.</li>
-<li><img src="/assets/badges/sskr.png"><b>Sharded Secret Key
-Reconstruction (SSKR)</b> - An expansion of Shamir's Secret Sharing
+<li><a href="/sskr/"><img src="/assets/badges/sskr.png"><b>Sharded Secret Key
+Reconstruction (SSKR)</b></a> - An expansion of Shamir's Secret Sharing
 that allows the sharding of a secret and then its recovery from a
 threshold of individuals or groups.</li>
 </ul>
@@ -80,15 +80,15 @@ Digital identity is one of our capstones: much of our previous
 technology has been built to support it.
 
 <ul>
-<li><img src="/assets/badges/cliques.png"><b>Cryptographic Cliques</b>
+<li><a href="/cliques/"><img src="/assets/badges/cliques.png"><b>Cryptographic Cliques</b></a>
 - A model for identity built on using signatures to define
 relationships beetween entities.</li>
-<li><img src="/assets/badges/cloudflare-passkey.png"><b>Cloudflare Passkey</b> -
+<li><a href="/cloudflare-passkey/"><img src="/assets/badges/cloudflare-passkey.png"><b>Cloudflare Passkey</b></a> -
 A passkey-only identity system build on Cloudflare Workers and Durable Objects.</li>
-<li><img src="/assets/badges/clubs.png"><b>Gordian Clubs</b> - A
+<li><a href="/clubs/"><img src="/assets/badges/clubs.png"><b>Gordian Clubs</b></a> - A
 method of self-sovereign communication intended to allow the
 transmission of information by members of a club.</li>
-<li><img src="/assets/badges/xids.png"><b>XIDs</b> - Our
+<li><a href="/xids/"><img src="/assets/badges/xids.png"><b>XIDs</b></a> - Our
 best-developed system for self-sovereign identity, built on top of
 Gordian Envelope as an autonomous cryptographic object that the user
 controls.</li>
