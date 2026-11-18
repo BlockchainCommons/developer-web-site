@@ -73,3 +73,25 @@ Reconstruction (SSKR)</b> - An expansion of Shamir's Secret Sharing
 that allows the sharding of a secret and then its recovery from a
 threshold of individuals or groups.</li>
 </ul>
+
+## Digital Identity
+
+Digital identity is one of our capstones: much of our previous
+technology has been built to support it.
+
+<ul>
+<li><img src="/assets/badges/cliques.png"><b>Cryptographic Cliques</b>
+- A model for identity built on using signatures to define
+relationships beetween entities.</li>
+<li><img src="/assets/badges/cloudflare-passkey.png"><b>Cloudflare Passkey</b> -
+A passkey-only identity system build on Cloudflare Workers and Durable Objects.</li>
+<li><img src="/assets/badges/clubs.png"><b>Gordian Clubs</b> - A
+method of self-sovereign communication intended to allow the
+transmission of information by members of a club.</li>
+<li><img src="/assets/badges/xids.png"><b>XIDs</b> - Our
+best-developed system for self-sovereign identity, built on top of
+Gordian Envelope as an autonomous cryptographic object that the user
+controls.</li>
+</ul>
+
+
