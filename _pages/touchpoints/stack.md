@@ -102,12 +102,12 @@ to our digital identity systems and to data stoage systems like
 Gordian Envelope.
 
 <ul>
-<li><a href="/open-integrity/"><img src="/assets/badges/open-intrgrity.png"><b>Open Integrity</b></a> - 
-A system of signatures that proves the integrity and provenance of a Git repo.
-<li><a href="/open-integrity/forge/"><img src="/assets/badges/open-intrgrity-forge.png"><b>Open Integrity Forge</b></a> - 
-An expansion of Open Integrity that provides rules for AI.
+<li><a href="/open-integrity/"><img src="/assets/badges/open-integrity.png"><b>Open Integrity</b></a> - 
+A system of signatures that proves the integrity and provenance of a Git repo.</li>
+<li><a href="/open-integrity/forge/"><img src="/assets/badges/open-integrity-forge.png"><b>Open Integrity Forge</b></a> - 
+An expansion of Open Integrity that provides rules for AI.</lii>
 <li><a href="/provemark/"><img src="/assets/badges/provenance-marks.png"><b>Provenance Marks</b></a>
-A hash chains that links digital objects so that ordering can be proven.
+A hash chains that links digital objects so that ordering can be proven.</li>
 </ul>
 
 _Blockchain Commons also supports third-party signature technologies such as [FROST](/frost/) and [MuSig2](/musig/)._
