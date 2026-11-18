@@ -74,27 +74,6 @@ that allows the sharding of a secret and then its recovery from a
 threshold of individuals or groups.</li>
 </ul>
 
-## Digital Identity
-
-Digital identity is one of our capstones: much of our previous
-technology has been built to support it.
-
-<ul>
-<li><a href="/cliques/"><img src="/assets/badges/cliques.png"><b>Cryptographic Cliques</b></a>
-- A model for identity built on using signatures to define
-relationships beetween entities.</li>
-<li><a href="/cloudflare-passkey/"><img src="/assets/badges/cloudflare-passkey.png"><b>Cloudflare Passkey</b></a> -
-A passkey-only identity system build on Cloudflare Workers and Durable Objects.</li>
-<li><a href="/clubs/"><img src="/assets/badges/clubs.png"><b>Gordian Clubs</b></a> - A
-method of self-sovereign communication intended to allow the
-transmission of information by members of a club.</li>
-<li><a href="/xids/"><img src="/assets/badges/xid.png"><b>XIDs</b></a> - Our
-best-developed system for self-sovereign identity, built on top of
-Gordian Envelope as an autonomous cryptographic object that the user
-controls.</li>
-</ul>
-
-
 ## Digital Signatures
 
 Cryptographic signatures can prove identity and provenance. They link
@@ -122,3 +101,25 @@ Secure communication depends on knowing what you're transmitting. Lifehash enhan
 <li><a href="/oib/"><img src="/assets/badges/oib.png"><b>Object Identity Block (OIB)</b></a> - 
 Lifehashes are just one element in an OIB, whose overall purpose is to add in data recognition.</li>
 </ul>
+
+## Digital Identity
+
+Digital identity is one of our capstones: much of our previous
+technology has been built to support it.
+
+<ul>
+<li><a href="/cliques/"><img src="/assets/badges/cliques.png"><b>Cryptographic Cliques</b></a>
+- A model for identity built on using signatures to define
+relationships beetween entities.</li>
+<li><a href="/cloudflare-passkey/"><img src="/assets/badges/cloudflare-passkey.png"><b>Cloudflare Passkey</b></a> -
+A passkey-only identity system build on Cloudflare Workers and Durable Objects.</li>
+<li><a href="/clubs/"><img src="/assets/badges/clubs.png"><b>Gordian Clubs</b></a> - A
+method of self-sovereign communication intended to allow the
+transmission of information by members of a club.</li>
+<li><a href="/xids/"><img src="/assets/badges/xid.png"><b>XIDs</b></a> - Our
+best-developed system for self-sovereign identity, built on top of
+Gordian Envelope as an autonomous cryptographic object that the user
+controls.</li>
+</ul>
+
+
