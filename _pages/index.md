@@ -51,9 +51,9 @@ how they relate, and why you might want to use them. Each one is
 intended for a specific sort of user.
 
 * Read the [**Touchpoints for Airgapping PSBTs**](/touchpoints/psbt/)
+* Read the [**Touchpoints for the Gordian Stack**](/touchpoints/stack/)
 * Read the [**Touchpoints for Protecting Seeds**](/touchpoints/seeds/)
 * Read the [**Touchpoints for Self-Sovereign Identity Designers**](/touchpoints/ssi/)
-
 
 ## Architecture
 

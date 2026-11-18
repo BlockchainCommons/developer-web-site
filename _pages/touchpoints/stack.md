@@ -33,9 +33,9 @@ protocols are open, allowing everyone to interoperate within a shared
 ecosystem. Each technology in the Gordian Stack is intended to meet
 one or more of these goals._
 
-_This is not a complete listing (for that dig down from the
-[technologies](/technology/)), but it is extensive and covers the
-major building blocks in the stack._
+_This is not a complete listing of Blockchain Commons specifications
+(for that dig down from the [technologies](/technology/) page), but it
+is extensive and covers the major building blocks in the stack._
 
 ## Data Formats
 
@@ -47,15 +47,15 @@ our principle-focused technologies.
 for encoding a binary byte as a four-letter word, useful for storing
 secrets, but also a building block of URs.</li>
 <li><a href="/dcbor/"><img src="/assets/badges/dcbor.png"><b>dCBOR</b></a> - A deterministic
-version of the binary data format, allowing for the deterministic
+version of the CBOR binary data format, allowing for the deterministic
 hashed data elision used in Envelope.</li>
 <li><a href="/envelope/"><img src="/assets/badges/envelope.png"><b>Gordian Envelope</b></a> - A
-"smart" data storage format that supports compression, encryption, and
+"smart" data storage format that incorporates compression, encryption, and
 also deterministic hashed data elision. Built to support selective
-disclosure, and a build block for XIDs.</li>
+disclosure, and a building block for XIDs.</li>
 <li><a href="/ur/"><img src="/assets/badges/ur.png"><b>Uniform Resources (URs)</b></a> -
-A method for encoding binary strings as text strings, using Bytewords,
-and a building block of Animated QRs.</li>
+A method for encoding binary strings as text strings, using Bytewords.
+A resilient data storage method and a building block of Animated QRs.</li>
 </ul>
 
 ## Data Resilience
@@ -66,7 +66,7 @@ well.
 
 <ul>
 <li><a href="/csr/"><img src="/assets/badges/csr.png"><b>Collaborative Seed Recovery
-(CSR)</b></a> - Using SSKR, CSR allows a user to shard a secret and store
+(CSR)</b></a> - Using SSKR, CSR allows a user to shard a secret, store
 it on remote servers, and later recover it from some of those shares.</li>
 <li><a href="/sskr/"><img src="/assets/badges/sskr.png"><b>Sharded Secret Key
 Reconstruction (SSKR)</b></a> - An expansion of Shamir's Secret Sharing
@@ -84,10 +84,11 @@ Gordian Envelope.
 <li><a href="/open-integrity/"><img src="/assets/badges/open-integrity.png"><b>Open Integrity</b></a> - 
 A system of signatures that proves the integrity and provenance of a Git repo.</li>
 <li><a href="/provemark/"><img src="/assets/badges/provenance-marks.png"><b>Provenance Marks</b></a>
-A hash chains that links digital objects so that ordering can be proven.</li>
+Hash chains that link digital objects so that ordering can be proven.</li>
 </ul>
 
-_Blockchain Commons also supports third-party signature technologies such as [FROST](/frost/) and [MuSig2](/musig/)._
+_Blockchain Commons also supports third-party Schnorr signature
+technologies such as [FROST](/frost/) and [MuSig2](/musig/)._
 
 ## Secure Communication
 
@@ -99,7 +100,7 @@ Animated QRs allow for the transmission of large amounts of information across a
 <li><a href="/lifehash/"><img src="/assets/badges/lifehash.png"><b>Lifehash</b></a> - 
 Secure communication depends on knowing what you're transmitting. Lifehash enhances the recognition of big digital values.</li>
 <li><a href="/oib/"><img src="/assets/badges/oib.png"><b>Object Identity Block (OIB)</b></a> - 
-Lifehashes are just one element in an OIB, whose overall purpose is to add in data recognition.</li>
+Lifehashes are just one element in an OIB, whose overall purpose is to aid in data recognition.</li>
 </ul>
 
 ## Digital Identity
@@ -109,10 +110,10 @@ technology has been built to support it.
 
 <ul>
 <li><a href="/cliques/"><img src="/assets/badges/cliques.png"><b>Cryptographic Cliques</b></a>
-- A model for identity built on using signatures to define
+- A model for identity that uses signatures to define
 relationships beetween entities.</li>
 <li><a href="/cloudflare-passkey/"><img src="/assets/badges/cloudflare-passkey.png"><b>Cloudflare Passkey</b></a> -
-A passkey-only identity system build on Cloudflare Workers and Durable Objects.</li>
+A passkey-only identity system built on Cloudflare Workers and Durable Objects.</li>
 <li><a href="/clubs/"><img src="/assets/badges/clubs.png"><b>Gordian Clubs</b></a> - A
 method of self-sovereign communication intended to allow the
 transmission of information by members of a club.</li>

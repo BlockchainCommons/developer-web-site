@@ -27,6 +27,8 @@ touchpoints:
     children:
     - title: "Airgapping PSBTs"
       url: /touchpoints/psbt/
+    - title: "The Gordian Stack"
+      url: /touchpoints/stack/
     - title: "Protecting Seeds"
       url: /touchpoints/seeds/
     - title: "SSI Design"
