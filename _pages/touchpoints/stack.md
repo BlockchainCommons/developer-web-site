@@ -111,3 +111,16 @@ A hash chains that links digital objects so that ordering can be proven.</li>
 </ul>
 
 _Blockchain Commons also supports third-party signature technologies such as [FROST](/frost/) and [MuSig2](/musig/)._
+
+## Secure Communication
+
+Secure communication is need to ensure interoperability and to provide additional resilience and privacy for users.
+
+<ul>
+<li><a href="/animated-qrs/"><img src="/assets/badges/animated-qr.png"><b>Animated QRs</b></a> - 
+Animated QRs allow for the transmission of large amounts of information across airgaps in a self-describing way, using URs.
+<li><a href="/lifehash/"><img src="/assets/badges/lifehash.png"><b>Lifehash</b></a> - 
+Secure communication depends on knowing what you're transmitting. Lifehash enhances the recognition of big digital values.</li>
+<li><a href="/oib/"><img src="/assets/badges/oib.png"><b>Object Identity Block (OIB)</b></a> - 
+Lifehashes are just one element in an OIB, whose overall purpose is to add in data recognition.</li>
+</ul>
