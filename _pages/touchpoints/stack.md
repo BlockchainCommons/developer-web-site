@@ -97,8 +97,8 @@ Secure communication is need to ensure interoperability and to provide additiona
 <ul>
 <li><a href="/animated-qrs/"><img src="/assets/badges/animated-qr.png"><b>Animated QRs</b></a> - 
 Animated QRs allow for the transmission of large amounts of information across airgaps in a self-describing way, using URs.</li>
-<li><a href="/lifehash/"><img src="/assets/badges/lifehash.png"><b>Lifehash</b></a> - 
-Secure communication depends on knowing what you're transmitting. Lifehash enhances the recognition of big digital values.</li>
+<li><a href="/lifehash/"><img src="/assets/badges/lifehash.png"><b>LifeHash</b></a> - 
+Secure communication depends on knowing what you're transmitting. LifeHash enhances the recognition of big digital values.</li>
 <li><a href="/oib/"><img src="/assets/badges/oib.png"><b>Object Identity Block (OIB)</b></a> - 
 Lifehashes are just one element in an OIB, whose overall purpose is to aid in data recognition.</li>
 </ul>
@@ -117,7 +117,7 @@ A passkey-only identity system built on Cloudflare Workers and Durable Objects.<
 <li><a href="/clubs/"><img src="/assets/badges/clubs.png"><b>Gordian Clubs</b></a> - A
 method of self-sovereign communication intended to allow the
 transmission of information by members of a club.</li>
-<li><a href="/xids/"><img src="/assets/badges/xid.png"><b>XIDs</b></a> - Our
+<li><a href="/xid/"><img src="/assets/badges/xid.png"><b>XIDs</b></a> - Our
 best-developed system for self-sovereign identity, built on top of
 Gordian Envelope as an autonomous cryptographic object that the user
 controls.</li>
