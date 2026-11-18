@@ -105,7 +105,7 @@ Gordian Envelope.
 <li><a href="/open-integrity/"><img src="/assets/badges/open-integrity.png"><b>Open Integrity</b></a> - 
 A system of signatures that proves the integrity and provenance of a Git repo.</li>
 <li><a href="/open-integrity/forge/"><img src="/assets/badges/open-integrity-forge.png"><b>Open Integrity Forge</b></a> - 
-An expansion of Open Integrity that provides rules for AI.</lii>
+An expansion of Open Integrity that provides rules for AI.</li>
 <li><a href="/provemark/"><img src="/assets/badges/provenance-marks.png"><b>Provenance Marks</b></a>
 A hash chains that links digital objects so that ordering can be proven.</li>
 </ul>
