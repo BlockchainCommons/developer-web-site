@@ -88,7 +88,7 @@ A passkey-only identity system build on Cloudflare Workers and Durable Objects.<
 <li><a href="/clubs/"><img src="/assets/badges/clubs.png"><b>Gordian Clubs</b></a> - A
 method of self-sovereign communication intended to allow the
 transmission of information by members of a club.</li>
-<li><a href="/xids/"><img src="/assets/badges/xids.png"><b>XIDs</b></a> - Our
+<li><a href="/xids/"><img src="/assets/badges/xid.png"><b>XIDs</b></a> - Our
 best-developed system for self-sovereign identity, built on top of
 Gordian Envelope as an autonomous cryptographic object that the user
 controls.</li>
