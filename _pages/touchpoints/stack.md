@@ -104,8 +104,6 @@ Gordian Envelope.
 <ul>
 <li><a href="/open-integrity/"><img src="/assets/badges/open-integrity.png"><b>Open Integrity</b></a> - 
 A system of signatures that proves the integrity and provenance of a Git repo.</li>
-<li><a href="/open-integrity/forge/"><img src="/assets/badges/open-integrity-forge.png"><b>Open Integrity Forge</b></a> - 
-An expansion of Open Integrity that provides rules for AI.</li>
 <li><a href="/provemark/"><img src="/assets/badges/provenance-marks.png"><b>Provenance Marks</b></a>
 A hash chains that links digital objects so that ordering can be proven.</li>
 </ul>
@@ -118,7 +116,7 @@ Secure communication is need to ensure interoperability and to provide additiona
 
 <ul>
 <li><a href="/animated-qrs/"><img src="/assets/badges/animated-qr.png"><b>Animated QRs</b></a> - 
-Animated QRs allow for the transmission of large amounts of information across airgaps in a self-describing way, using URs.
+Animated QRs allow for the transmission of large amounts of information across airgaps in a self-describing way, using URs.</li>
 <li><a href="/lifehash/"><img src="/assets/badges/lifehash.png"><b>Lifehash</b></a> - 
 Secure communication depends on knowing what you're transmitting. Lifehash enhances the recognition of big digital values.</li>
 <li><a href="/oib/"><img src="/assets/badges/oib.png"><b>Object Identity Block (OIB)</b></a> - 
