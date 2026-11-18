@@ -65,7 +65,7 @@ held by the user.  But for that to work, the data must be resilient as
 well.
 
 <ul>
-<li><img src="/assets/badges/csr.png"><b>Collaborative Seed Recofvery
+<li><img src="/assets/badges/csr.png"><b>Collaborative Seed Recovery
 (CSR)</b> - Using SSKR, CSR allows a user to shard a secret and store
 it on remote servers, and later recover it from some of those shares.</li>
 <li><img src="/assets/badges/sskr.png"><b>Sharded Secret Key
@@ -95,3 +95,19 @@ controls.</li>
 </ul>
 
 
+## Digital Signatures
+
+Cryptographic signatures can prove identity and provenance. They link
+to our digital identity systems and to data stoage systems like
+Gordian Envelope.
+
+<ul>
+<li><a href="/open-integrity/"><img src="/assets/badges/open-intrgrity.png"><b>Open Integrity</b></a> - 
+A system of signatures that proves the integrity and provenance of a Git repo.
+<li><a href="/open-integrity/forge/"><img src="/assets/badges/open-intrgrity-forge.png"><b>Open Integrity Forge</b></a> - 
+An expansion of Open Integrity that provides rules for AI.
+<li><a href="/provemark/"><img src="/assets/badges/provenance-marks.png"><b>Provenance Marks</b></a>
+A hash chains that links digital objects so that ordering can be proven.
+</ul>
+
+_Blockchain Commons also supports third-party signature technologies such as [FROST](/frost/) and [MuSig2](/musig/)._
