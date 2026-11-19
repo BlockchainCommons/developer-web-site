@@ -22,6 +22,8 @@ mainside:
       url: /technology/
     - title: "Other Resources"
       url: /resources/
+    - title: "Touchpoints"
+      url: /touchpoints/
 touchpoints:
   - title: Touchpoints
     children:
