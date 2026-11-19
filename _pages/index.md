@@ -13,6 +13,7 @@ permalink: /
 sidebar:
   nav:
     - mainside
+    - touchpoints
     - technology
     - architecture
     - resources

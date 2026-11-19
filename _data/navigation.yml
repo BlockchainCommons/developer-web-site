@@ -27,6 +27,8 @@ mainside:
 touchpoints:
   - title: Touchpoints
     children:
+    - title: "Touchpoints Home"
+      url: /touchpoints/
     - title: "Airgapping PSBTs"
       url: /touchpoints/psbt/
     - title: "The Gordian Stack"
@@ -35,9 +37,13 @@ touchpoints:
       url: /touchpoints/seeds/
     - title: "SSI Design"
       url: /touchpoints/ssi/
+    - title: "Return to Main"
+      url: /
 architecture:
   - title: Architecture
     children:
+    - title: "Architecture Home"
+      url: /architecture/
     - title: "Gordian Principles"
       url: /principles/
     - title: "Design Philosophies"
