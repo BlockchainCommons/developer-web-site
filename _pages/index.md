@@ -46,14 +46,18 @@ This site contains four large collections of information.
 
 ## Touchpoints
 
-These are paths that will describe a series of linked technologies,
-how they relate, and why you might want to use them. Each one is
-intended for a specific sort of user.
+If you are just being introduced to Blockchain Commons technologies,
+you'll probably want to start with our Touchpoints pages, which
+demonstrate how our specifications link together and which ones are
+right for you.
 
 * Read the [**Touchpoints for Airgapping PSBTs**](/touchpoints/psbt/)
 * Read the [**Touchpoints for the Gordian Stack**](/touchpoints/stack/)
 * Read the [**Touchpoints for Protecting Seeds**](/touchpoints/seeds/)
 * Read the [**Touchpoints for Self-Sovereign Identity Designers**](/touchpoints/ssi/)
+
+See the [touchpoints index page](/touchpoints/) for a bit more info on
+each of these pages, to help you find the one that's right for you.
 
 ## Architecture
 
