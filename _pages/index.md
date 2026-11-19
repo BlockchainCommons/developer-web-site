@@ -14,6 +14,7 @@ sidebar:
   nav:
     - mainside
     - technology
+    - architecture
     - resources
 ---
 
